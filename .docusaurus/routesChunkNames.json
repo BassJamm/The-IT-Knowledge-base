@@ -1,436 +1,254 @@
 {
-  "/markdown-page-17c": {
-    "__comp": "1f391b9e",
+  "/__docusaurus/debug-de6": {
+    "__comp": "__comp---theme-debug-config-23-a-2ff",
     "__context": {
-      "plugin": "c984909b"
-    },
-    "content": "393be207"
+      "plugin": "plugin---docusaurus-debug-99-d-82f"
+    }
   },
-  "/tags-eec": {
-    "__comp": "3720c009",
+  "/__docusaurus/debug/config-e31": {
+    "__comp": "__comp---theme-debug-config-23-a-2ff",
     "__context": {
-      "plugin": "9214fe06"
-    },
-    "tags": "55960ee5"
+      "plugin": "plugin---docusaurus-debug-99-d-82f"
+    }
   },
-  "/tags/aad-joined-497": {
-    "__comp": "df203c0f",
+  "/__docusaurus/debug/content-f8a": {
+    "__comp": "__comp---theme-debug-contentba-8-ce7",
     "__context": {
-      "plugin": "9214fe06"
+      "plugin": "plugin---docusaurus-debug-99-d-82f"
     },
-    "tag": "98b904c9"
+    "allContent": "allContent---docusaurus-debug-content-246-9aa"
   },
-  "/tags/admin-tasks-a05": {
-    "__comp": "df203c0f",
+  "/__docusaurus/debug/globalData-e73": {
+    "__comp": "__comp---theme-debug-global-dataede-0fa",
     "__context": {
-      "plugin": "9214fe06"
-    },
-    "tag": "5800dbe0"
+      "plugin": "plugin---docusaurus-debug-99-d-82f"
+    }
   },
-  "/tags/apns-c9b": {
-    "__comp": "df203c0f",
+  "/__docusaurus/debug/metadata-ec8": {
+    "__comp": "__comp---theme-debug-site-metadata-68-e-3d4",
     "__context": {
-      "plugin": "9214fe06"
-    },
-    "tag": "c7ed3ff2"
+      "plugin": "plugin---docusaurus-debug-99-d-82f"
+    }
   },
-  "/tags/app-deployment-73a": {
-    "__comp": "df203c0f",
+  "/__docusaurus/debug/registry-aac": {
+    "__comp": "__comp---theme-debug-registry-679-501",
     "__context": {
-      "plugin": "9214fe06"
-    },
-    "tag": "d63ecc3b"
+      "plugin": "plugin---docusaurus-debug-99-d-82f"
+    }
   },
-  "/tags/apple-fd6": {
-    "__comp": "df203c0f",
+  "/__docusaurus/debug/routes-1c0": {
+    "__comp": "__comp---theme-debug-routes-946-699",
     "__context": {
-      "plugin": "9214fe06"
-    },
-    "tag": "efa5fcef"
+      "plugin": "plugin---docusaurus-debug-99-d-82f"
+    }
   },
-  "/tags/apps-44e": {
-    "__comp": "df203c0f",
+  "/markdown-page-ca9": {
+    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
     "__context": {
-      "plugin": "9214fe06"
+      "plugin": "plugin---markdown-pagecd-8-057"
     },
-    "tag": "c4d37257"
+    "content": "content---markdown-page-393-028"
   },
-  "/tags/automation-363": {
-    "__comp": "df203c0f",
+  "/tags-8cc": {
+    "__comp": "__comp---theme-doc-tags-list-page-372-89e",
     "__context": {
-      "plugin": "9214fe06"
+      "plugin": "plugin---tagsc-77-456"
     },
-    "tag": "35f7900b"
+    "tags": "tags---tags-559-690"
   },
-  "/tags/autopilot-6ec": {
-    "__comp": "df203c0f",
+  "/tags/automation-dac": {
+    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
     "__context": {
-      "plugin": "9214fe06"
+      "plugin": "plugin---tagsc-77-456"
     },
-    "tag": "fc9861ef"
+    "tag": "tag---tags-automation-35-f-8c3"
   },
-  "/tags/azure-e60": {
-    "__comp": "df203c0f",
+  "/tags/azure-4e7": {
+    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
     "__context": {
-      "plugin": "9214fe06"
+      "plugin": "plugin---tagsc-77-456"
     },
-    "tag": "47ef1a4e"
+    "tag": "tag---tags-azure-47-e-cc1"
   },
-  "/tags/azure-ad-30b": {
-    "__comp": "df203c0f",
+  "/tags/azure-backup-2e9": {
+    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
     "__context": {
-      "plugin": "9214fe06"
+      "plugin": "plugin---tagsc-77-456"
     },
-    "tag": "998fa919"
+    "tag": "tag---tags-azure-backup-654-17d"
   },
-  "/tags/azure-backup-5b5": {
-    "__comp": "df203c0f",
+  "/tags/azure-virtual-desktop-07d": {
+    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
     "__context": {
-      "plugin": "9214fe06"
+      "plugin": "plugin---tagsc-77-456"
     },
-    "tag": "654302a8"
+    "tag": "tag---tags-azure-virtual-desktop-136-a8b"
   },
-  "/tags/azure-virtual-desktop-33e": {
-    "__comp": "df203c0f",
+  "/tags/cmd-let-f8a": {
+    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
     "__context": {
-      "plugin": "9214fe06"
+      "plugin": "plugin---tagsc-77-456"
     },
-    "tag": "13609046"
+    "tag": "tag---tags-cmd-let-011-8b1"
   },
-  "/tags/bitlocker-5bc": {
-    "__comp": "df203c0f",
+  "/tags/guide-cf6": {
+    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
     "__context": {
-      "plugin": "9214fe06"
+      "plugin": "plugin---tagsc-77-456"
     },
-    "tag": "10fc35bc"
+    "tag": "tag---tags-guide-4-b-1-a60"
   },
-  "/tags/certificate-2fe": {
-    "__comp": "df203c0f",
+  "/tags/lighthouse-f1b": {
+    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
     "__context": {
-      "plugin": "9214fe06"
+      "plugin": "plugin---tagsc-77-456"
     },
-    "tag": "881a9104"
+    "tag": "tag---tags-lighthouse-8-ad-712"
   },
-  "/tags/certificates-5fa": {
-    "__comp": "df203c0f",
+  "/tags/re-usable-code-55d": {
+    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
     "__context": {
-      "plugin": "9214fe06"
+      "plugin": "plugin---tagsc-77-456"
     },
-    "tag": "60bbb6a4"
+    "tag": "tag---tags-re-usable-code-461-a74"
   },
-  "/tags/citrix-cloud-0e0": {
-    "__comp": "df203c0f",
+  "/tags/refernce-doc-409": {
+    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
     "__context": {
-      "plugin": "9214fe06"
+      "plugin": "plugin---tagsc-77-456"
     },
-    "tag": "0b462393"
+    "tag": "tag---tags-refernce-doc-375-ffa"
   },
-  "/tags/google-play-d7f": {
-    "__comp": "df203c0f",
+  "/tags/resource-creation-512": {
+    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
     "__context": {
-      "plugin": "9214fe06"
+      "plugin": "plugin---tagsc-77-456"
     },
-    "tag": "fd5425e0"
+    "tag": "tag---tags-resource-creationc-0-d-a24"
   },
-  "/tags/guide-fc3": {
-    "__comp": "df203c0f",
+  "/tags/restore-1a9": {
+    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
     "__context": {
-      "plugin": "9214fe06"
+      "plugin": "plugin---tagsc-77-456"
     },
-    "tag": "4b1126a3"
+    "tag": "tag---tags-restore-3-b-8-769"
   },
-  "/tags/intune-79c": {
-    "__comp": "df203c0f",
+  "/tags/scripting-77f": {
+    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
     "__context": {
-      "plugin": "9214fe06"
+      "plugin": "plugin---tagsc-77-456"
     },
-    "tag": "2301278c"
+    "tag": "tag---tags-scriptingc-57-106"
   },
-  "/tags/issue-55c": {
-    "__comp": "df203c0f",
+  "/tags/scripts-e9e": {
+    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
     "__context": {
-      "plugin": "9214fe06"
+      "plugin": "plugin---tagsc-77-456"
     },
-    "tag": "6e6481c8"
+    "tag": "tag---tags-scripts-723-7ad"
   },
-  "/tags/kb-89d": {
-    "__comp": "df203c0f",
+  "/tags/setup-azure-site-recovery-39e": {
+    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
     "__context": {
-      "plugin": "9214fe06"
+      "plugin": "plugin---tagsc-77-456"
     },
-    "tag": "661918e9"
+    "tag": "tag---tags-setup-azure-site-recovery-169-f77"
   },
-  "/tags/lighthouse-9c3": {
-    "__comp": "df203c0f",
+  "/tags/snap-shot-fac": {
+    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
     "__context": {
-      "plugin": "9214fe06"
+      "plugin": "plugin---tagsc-77-456"
     },
-    "tag": "8add7675"
+    "tag": "tag---tags-snap-shot-2-c-7-8e9"
   },
-  "/tags/mdm-d34": {
-    "__comp": "df203c0f",
+  "/tags/virtual-machine-3a1": {
+    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
     "__context": {
-      "plugin": "9214fe06"
+      "plugin": "plugin---tagsc-77-456"
     },
-    "tag": "8bead499"
+    "tag": "tag---tags-virtual-machine-714-ef4"
   },
-  "/tags/networking-c09": {
-    "__comp": "df203c0f",
+  "/-9ad": {
+    "__comp": "__comp---theme-doc-page-1-be-9be",
     "__context": {
-      "plugin": "9214fe06"
+      "plugin": "plugin---tagsc-77-456"
     },
-    "tag": "7d16b062"
-  },
-  "/tags/partner-centre-d56": {
-    "__comp": "df203c0f",
-    "__context": {
-      "plugin": "9214fe06"
-    },
-    "tag": "02219f10"
-  },
-  "/tags/pem-985": {
-    "__comp": "df203c0f",
-    "__context": {
-      "plugin": "9214fe06"
-    },
-    "tag": "40d5d8b7"
-  },
-  "/tags/pfx-518": {
-    "__comp": "df203c0f",
-    "__context": {
-      "plugin": "9214fe06"
-    },
-    "tag": "b4182e72"
-  },
-  "/tags/reference-128": {
-    "__comp": "df203c0f",
-    "__context": {
-      "plugin": "9214fe06"
-    },
-    "tag": "ff225128"
-  },
-  "/tags/reset-device-fba": {
-    "__comp": "df203c0f",
-    "__context": {
-      "plugin": "9214fe06"
-    },
-    "tag": "34b3dde7"
-  },
-  "/tags/resource-creation-b9b": {
-    "__comp": "df203c0f",
-    "__context": {
-      "plugin": "9214fe06"
-    },
-    "tag": "c0d92fde"
-  },
-  "/tags/restore-c29": {
-    "__comp": "df203c0f",
-    "__context": {
-      "plugin": "9214fe06"
-    },
-    "tag": "3b8a2e69"
-  },
-  "/tags/scripting-69c": {
-    "__comp": "df203c0f",
-    "__context": {
-      "plugin": "9214fe06"
-    },
-    "tag": "c5727fe4"
-  },
-  "/tags/setup-azure-site-recovery-823": {
-    "__comp": "df203c0f",
-    "__context": {
-      "plugin": "9214fe06"
-    },
-    "tag": "16957870"
-  },
-  "/tags/share-point-online-f2a": {
-    "__comp": "df203c0f",
-    "__context": {
-      "plugin": "9214fe06"
-    },
-    "tag": "c0fad1a4"
-  },
-  "/tags/snap-shot-fc2": {
-    "__comp": "df203c0f",
-    "__context": {
-      "plugin": "9214fe06"
-    },
-    "tag": "2c73809b"
-  },
-  "/tags/tutorial-b67": {
-    "__comp": "df203c0f",
-    "__context": {
-      "plugin": "9214fe06"
-    },
-    "tag": "63a2de3d"
-  },
-  "/tags/virtual-machine-4c7": {
-    "__comp": "df203c0f",
-    "__context": {
-      "plugin": "9214fe06"
-    },
-    "tag": "714938ac"
-  },
-  "/tags/vpp-f41": {
-    "__comp": "df203c0f",
-    "__context": {
-      "plugin": "9214fe06"
-    },
-    "tag": "354ed126"
-  },
-  "/tags/windows-5aa": {
-    "__comp": "df203c0f",
-    "__context": {
-      "plugin": "9214fe06"
-    },
-    "tag": "5e27c3f6"
-  },
-  "/-617": {
-    "__comp": "1be78505",
-    "__context": {
-      "plugin": "9214fe06"
-    },
-    "versionMetadata": "935f2afb"
+    "versionMetadata": "versionMetadata---935-fcf"
   },
   "/-73d": {
-    "__comp": "17896441",
-    "content": "7afa52e9"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---7-af-283"
+  },
+  "/Azure/Backup and Disaster Recovery/Setup Azure Backup-f2f": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---azure-backup-and-disaster-recovery-setup-azure-backup-69-d-c3a"
+  },
+  "/Azure/Backup and Disaster Recovery/Setup Azure Site Recovery-f3d": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---azure-backup-and-disaster-recovery-setup-azure-site-recoveryde-2-a9e"
+  },
+  "/Azure/Data Management/Restore data from a Snapshot-337": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---azure-data-management-restore-data-from-a-snapshot-633-7ad"
+  },
+  "/Azure/Data Management/Restore VM from Snapshot-4c8": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---azure-data-management-restore-vm-from-snapshotecf-125"
+  },
+  "/Azure/Infrastructure/AVD Image Update Guidance-071": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---azure-infrastructure-avd-image-update-guidance-7-a-4-ca0"
+  },
+  "/Azure/Infrastructure/Create an Automation Account-444": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---azure-infrastructure-create-an-automation-accounte-93-7c2"
+  },
+  "/Azure/Infrastructure/Re-size a Virtual Machine-a1a": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---azure-infrastructure-re-size-a-virtual-machine-06-c-99f"
+  },
+  "/Azure/Infrastructure/Setup Azure Lighthouse-a97": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---azure-infrastructure-setup-azure-lighthouse-144-fc1"
   },
   "/category/azure-d40": {
-    "__comp": "14eb3368",
-    "categoryGeneratedIndex": "bd9c3e28"
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "categoryGeneratedIndex": "categoryGeneratedIndex---category-azurebd-9-a77"
   },
-  "/category/azure-active-directory-fbd": {
-    "__comp": "14eb3368",
-    "categoryGeneratedIndex": "5234815a"
+  "/category/backup-and-disaster-recovery-641": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "categoryGeneratedIndex": "categoryGeneratedIndex---category-backup-and-disaster-recovery-7-f-6-2a5"
   },
-  "/category/certificates-b20": {
-    "__comp": "14eb3368",
-    "categoryGeneratedIndex": "346d5a2b"
+  "/category/data-management-d0e": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "categoryGeneratedIndex": "categoryGeneratedIndex---category-data-management-0-b-2-c28"
   },
-  "/category/citrix-cloud-f48": {
-    "__comp": "14eb3368",
-    "categoryGeneratedIndex": "a6da4416"
+  "/category/infrastructure-960": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "categoryGeneratedIndex": "categoryGeneratedIndex---category-infrastructure-966-f39"
   },
-  "/category/how-to-guides-db3": {
-    "__comp": "14eb3368",
-    "categoryGeneratedIndex": "b57d576e"
+  "/category/powershell-dde": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "categoryGeneratedIndex": "categoryGeneratedIndex---category-powershelld-08-762"
   },
-  "/category/intune-12f": {
-    "__comp": "14eb3368",
-    "categoryGeneratedIndex": "19793696"
+  "/category/scripts-298": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "categoryGeneratedIndex": "categoryGeneratedIndex---category-scripts-6-fc-457"
   },
-  "/category/intune-1-31f": {
-    "__comp": "14eb3368",
-    "categoryGeneratedIndex": "f1dd3a66"
+  "/PowerShell/Credential Management-506": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---power-shell-credential-managementb-41-bbe"
   },
-  "/category/partner-centre-482": {
-    "__comp": "14eb3368",
-    "categoryGeneratedIndex": "421fe72a"
+  "/PowerShell/Error Management-da3": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---power-shell-error-management-44-b-47a"
   },
-  "/category/references-0de": {
-    "__comp": "14eb3368",
-    "categoryGeneratedIndex": "cc01dae5"
+  "/PowerShell/Scripts/Windows OS Scripts-ca5": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---power-shell-scripts-windows-os-scripts-138-f2c"
   },
-  "/category/scenario-based-guidance-28b": {
-    "__comp": "14eb3368",
-    "categoryGeneratedIndex": "b36ab3de"
-  },
-  "/category/sharepoint-online-bac": {
-    "__comp": "14eb3368",
-    "categoryGeneratedIndex": "36e54792"
-  },
-  "/category/windows-c97": {
-    "__comp": "14eb3368",
-    "categoryGeneratedIndex": "b0c902ab"
-  },
-  "/How-to Guides/Azure Active Directory/Decom an Azure AD App-c67": {
-    "__comp": "17896441",
-    "content": "af1b8402"
-  },
-  "/How-to Guides/Azure/AVD Image Update Guidance-7d6": {
-    "__comp": "17896441",
-    "content": "7a983e83"
-  },
-  "/How-to Guides/Azure/Create an Automation Account-59b": {
-    "__comp": "17896441",
-    "content": "5abc2ac8"
-  },
-  "/How-to Guides/Azure/Re-size a Virtual Machine-46a": {
-    "__comp": "17896441",
-    "content": "b607ae05"
-  },
-  "/How-to Guides/Azure/Restore data from a Snapshot-4bd": {
-    "__comp": "17896441",
-    "content": "bd37bc75"
-  },
-  "/How-to Guides/Azure/Restore VM from Snapshot-eff": {
-    "__comp": "17896441",
-    "content": "bf2e4f1f"
-  },
-  "/How-to Guides/Azure/Setup Azure Backup-437": {
-    "__comp": "17896441",
-    "content": "beee2246"
-  },
-  "/How-to Guides/Azure/Setup Azure Lighthouse-722": {
-    "__comp": "17896441",
-    "content": "2206fc2a"
-  },
-  "/How-to Guides/Azure/Setup Azure Site Recovery-79b": {
-    "__comp": "17896441",
-    "content": "4ee8704b"
-  },
-  "/How-to Guides/Certificates/Certificate Formats and Conversions-069": {
-    "__comp": "17896441",
-    "content": "f65f4b02"
-  },
-  "/How-to Guides/Certificates/Generating a CSR-2bf": {
-    "__comp": "17896441",
-    "content": "7605e202"
-  },
-  "/How-to Guides/Certificates/Request Cert from internal CA-d1e": {
-    "__comp": "17896441",
-    "content": "5b89cfec"
-  },
-  "/How-to Guides/Citrix Cloud/Citrix Image Update Guidance-482": {
-    "__comp": "17896441",
-    "content": "47706bc6"
-  },
-  "/How-to Guides/Intune/Deploy Google Play store app-872": {
-    "__comp": "17896441",
-    "content": "54a25330"
-  },
-  "/How-to Guides/Intune/Perform an AutoPilot Reset-b63": {
-    "__comp": "17896441",
-    "content": "4836d5d0"
-  },
-  "/How-to Guides/Intune/Renew Apple Tokens and Certs-be7": {
-    "__comp": "17896441",
-    "content": "e34c930f"
-  },
-  "/How-to Guides/Partner Centre/Setup an Azure Subscription from Partner Centre-5c5": {
-    "__comp": "17896441",
-    "content": "c9f01580"
-  },
-  "/How-to Guides/SharePoint Online/SharePoint Admin Tasks-9be": {
-    "__comp": "17896441",
-    "content": "ccb4eafc"
-  },
-  "/How-to Guides/Windows/Reset BitLocker PIN or Password-e1e": {
-    "__comp": "17896441",
-    "content": "0f553e52"
-  },
-  "/References/Intune/Device Troubleshooting-0d6": {
-    "__comp": "17896441",
-    "content": "ae7d0a5f"
-  },
-  "/References/Partner access to Az Sub-ba8": {
-    "__comp": "17896441",
-    "content": "6b269535"
-  },
-  "/Scenario based Guidance/Troubleshooting a connectivity issue-f39": {
-    "__comp": "17896441",
-    "content": "04185fc8"
+  "/PowerShell/Windows Troubleshooting-bfc": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---power-shell-windows-troubleshootingbed-7ee"
   }
 }

@@ -1,0 +1,46 @@
+{
+  "unversionedId": "Azure/Restore data from a Snapshot",
+  "id": "Azure/Restore data from a Snapshot",
+  "title": "Restore data from a Snapshot",
+  "description": "This doc is for file level restores, this differs from a VM level restore.",
+  "source": "@site/docs/Azure/Restore from Snapshot copy.md",
+  "sourceDirName": "Azure",
+  "slug": "/Azure/Restore data from a Snapshot",
+  "permalink": "/Azure/Restore data from a Snapshot",
+  "draft": false,
+  "tags": [
+    {
+      "label": "Azure",
+      "permalink": "/tags/azure"
+    },
+    {
+      "label": "Restore",
+      "permalink": "/tags/restore"
+    },
+    {
+      "label": "SnapShot",
+      "permalink": "/tags/snap-shot"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "sidebar_position": 6,
+    "id": "Restore data from a Snapshot",
+    "title": "Restore data from a Snapshot",
+    "tags": [
+      "Azure",
+      "Restore",
+      "SnapShot"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Setup Azure Site Recovery",
+    "permalink": "/Azure/Setup Azure Site Recovery"
+  },
+  "next": {
+    "title": "Restore VM from Snapshot",
+    "permalink": "/Azure/Restore VM from Snapshot"
+  }
+}

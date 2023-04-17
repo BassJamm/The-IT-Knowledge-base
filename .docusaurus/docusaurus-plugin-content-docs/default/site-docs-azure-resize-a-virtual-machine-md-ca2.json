@@ -1,0 +1,41 @@
+{
+  "unversionedId": "Azure/Re-size a Virtual Machine",
+  "id": "Azure/Re-size a Virtual Machine",
+  "title": "Re-size a Virtual Machine",
+  "description": "Before you begin",
+  "source": "@site/docs/Azure/Resize a Virtual Machine.md",
+  "sourceDirName": "Azure",
+  "slug": "/Azure/Re-size a Virtual Machine",
+  "permalink": "/Azure/Re-size a Virtual Machine",
+  "draft": false,
+  "tags": [
+    {
+      "label": "Azure",
+      "permalink": "/tags/azure"
+    },
+    {
+      "label": "Virtual Machine",
+      "permalink": "/tags/virtual-machine"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5,
+    "id": "Re-size a Virtual Machine",
+    "title": "Re-size a Virtual Machine",
+    "tags": [
+      "Azure",
+      "Virtual Machine"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Setup Azure Site Recovery",
+    "permalink": "/Azure/Setup Azure Site Recovery"
+  },
+  "next": {
+    "title": "Restore data from a Snapshot",
+    "permalink": "/Azure/Restore data from a Snapshot"
+  }
+}

@@ -1,16 +1,16 @@
 {
   "title": "PowerShell",
-  "description": "Articles all about PowerShell.",
+  "description": "Guides for achieving an end result.",
   "slug": "/category/powershell",
   "permalink": "/category/powershell",
   "navigation": {
     "previous": {
-      "title": "External chat in Teams",
-      "permalink": "/Articles/Microsoft/Teams/External chat in Teams"
+      "title": "Re-size a Virtual Machine",
+      "permalink": "/Azure/Infrastructure/Re-size a Virtual Machine"
     },
     "next": {
-      "title": "Assign Managed Identity permissions",
-      "permalink": "/Articles/PowerShell/Assign Managed Identity permissions"
+      "title": "Scripts",
+      "permalink": "/category/scripts"
     }
   }
 }

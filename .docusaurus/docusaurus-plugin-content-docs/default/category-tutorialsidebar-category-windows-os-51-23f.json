@@ -1,0 +1,16 @@
+{
+  "title": "Windows OS 5.1",
+  "description": "Guides for achieving an end result.",
+  "slug": "/category/windows-os-51",
+  "permalink": "/category/windows-os-51",
+  "navigation": {
+    "previous": {
+      "title": "Windows OS Scripts",
+      "permalink": "/PowerShell/Scripts/Windows OS Scripts"
+    },
+    "next": {
+      "title": "Credential Management",
+      "permalink": "/PowerShell/Windows OS (5.1)/Credential Management"
+    }
+  }
+}

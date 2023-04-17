@@ -14,7 +14,7 @@ export default {
   "organizationName": "TheITKB",
   "projectName": "KB-Project",
   "plugins": [
-    "C:\\AzureRepo\\TheITKB Project\\TheITKB Project\\node_modules\\docusaurus-lunr-search\\src\\index.js"
+    "C:\\GitRepos\\The-IT-Knowledge-base\\node_modules\\docusaurus-lunr-search\\src\\index.js"
   ],
   "i18n": {
     "defaultLocale": "en",
@@ -42,12 +42,12 @@ export default {
         },
         "docs": {
           "path": "docs",
-          "sidebarPath": "C:\\AzureRepo\\TheITKB Project\\TheITKB Project\\sidebars.js",
+          "sidebarPath": "C:\\GitRepos\\The-IT-Knowledge-base\\sidebars.js",
           "routeBasePath": "/"
         },
         "blog": false,
         "theme": {
-          "customCss": "C:\\AzureRepo\\TheITKB Project\\TheITKB Project\\src\\css\\custom.css"
+          "customCss": "C:\\GitRepos\\The-IT-Knowledge-base\\src\\css\\custom.css"
         }
       }
     ]

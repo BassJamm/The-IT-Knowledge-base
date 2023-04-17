@@ -1,0 +1,43 @@
+{
+  "unversionedId": "PowerShell/Windows OS (5.1)/Windows Troubleshooting",
+  "id": "PowerShell/Windows OS (5.1)/Windows Troubleshooting",
+  "title": "Windows Troubleshooting",
+  "description": "Windows Troubleshooting in PowerShell.",
+  "source": "@site/docs/PowerShell/Windows OS (5.1)/Windows Troubleshooting.md",
+  "sourceDirName": "PowerShell/Windows OS (5.1)",
+  "slug": "/PowerShell/Windows OS (5.1)/Windows Troubleshooting",
+  "permalink": "/PowerShell/Windows OS (5.1)/Windows Troubleshooting",
+  "draft": false,
+  "tags": [
+    {
+      "label": "Refernce Doc",
+      "permalink": "/tags/refernce-doc"
+    },
+    {
+      "label": "CMDLet",
+      "permalink": "/tags/cmd-let"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "id": "Windows Troubleshooting",
+    "title": "Windows Troubleshooting",
+    "hide_title": false,
+    "hide_table_of_contents": false,
+    "sidebar_label": "Windows Troubleshooting",
+    "sidebar_position": 3,
+    "toc_max_heading_level": 4,
+    "pagination_label": "Windows Troubleshooting",
+    "tags": [
+      "Refernce Doc",
+      "CMDLet"
+    ],
+    "description": "Windows Troubleshooting in PowerShell."
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Error Management",
+    "permalink": "/PowerShell/Windows OS (5.1)/Error Management"
+  }
+}

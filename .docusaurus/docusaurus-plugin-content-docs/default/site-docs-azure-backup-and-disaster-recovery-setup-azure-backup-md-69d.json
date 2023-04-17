@@ -1,0 +1,46 @@
+{
+  "unversionedId": "Azure/Backup and Disaster Recovery/Setup Azure Backup",
+  "id": "Azure/Backup and Disaster Recovery/Setup Azure Backup",
+  "title": "Setup Azure Backup",
+  "description": "This document will run through a very basic Azure Backup setup scenario.",
+  "source": "@site/docs/Azure/Backup and Disaster Recovery/Setup Azure Backup.md",
+  "sourceDirName": "Azure/Backup and Disaster Recovery",
+  "slug": "/Azure/Backup and Disaster Recovery/Setup Azure Backup",
+  "permalink": "/Azure/Backup and Disaster Recovery/Setup Azure Backup",
+  "draft": false,
+  "tags": [
+    {
+      "label": "Azure",
+      "permalink": "/tags/azure"
+    },
+    {
+      "label": "Resource Creation",
+      "permalink": "/tags/resource-creation"
+    },
+    {
+      "label": "Azure Backup",
+      "permalink": "/tags/azure-backup"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 8,
+  "frontMatter": {
+    "sidebar_position": 8,
+    "id": "Setup Azure Backup",
+    "title": "Setup Azure Backup",
+    "tags": [
+      "Azure",
+      "Resource Creation",
+      "Azure Backup"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Setup Azure Site Recovery",
+    "permalink": "/Azure/Backup and Disaster Recovery/Setup Azure Site Recovery"
+  },
+  "next": {
+    "title": "Data Management",
+    "permalink": "/category/data-management"
+  }
+}

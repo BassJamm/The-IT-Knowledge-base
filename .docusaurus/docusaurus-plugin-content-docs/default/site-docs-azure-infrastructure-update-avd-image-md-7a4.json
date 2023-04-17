@@ -1,0 +1,47 @@
+{
+  "unversionedId": "Azure/Infrastructure/AVD Image Update Guidance",
+  "id": "Azure/Infrastructure/AVD Image Update Guidance",
+  "title": "AVD Image Update Guidance",
+  "description": "Terms",
+  "source": "@site/docs/Azure/Infrastructure/Update AVD Image.md",
+  "sourceDirName": "Azure/Infrastructure",
+  "slug": "/Azure/Infrastructure/AVD Image Update Guidance",
+  "permalink": "/Azure/Infrastructure/AVD Image Update Guidance",
+  "draft": false,
+  "tags": [
+    {
+      "label": "Guide",
+      "permalink": "/tags/guide"
+    },
+    {
+      "label": "Azure",
+      "permalink": "/tags/azure"
+    },
+    {
+      "label": "Azure Virtual Desktop",
+      "permalink": "/tags/azure-virtual-desktop"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "id": "AVD Image Update Guidance",
+    "title": "AVD Image Update Guidance",
+    "toc_max_heading_level": 4,
+    "tags": [
+      "Guide",
+      "Azure",
+      "Azure Virtual Desktop"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Setup Azure Lighthouse",
+    "permalink": "/Azure/Infrastructure/Setup Azure Lighthouse"
+  },
+  "next": {
+    "title": "Create an Automation Account",
+    "permalink": "/Azure/Infrastructure/Create an Automation Account"
+  }
+}

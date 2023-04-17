@@ -5,10 +5,10 @@
   "count": 1,
   "items": [
     {
-      "id": "How-to Guides/Azure/Setup Azure Site Recovery",
+      "id": "Azure/Backup and Disaster Recovery/Setup Azure Site Recovery",
       "title": "Setup Azure Site Recovery",
       "description": "High Level Overview of tasks",
-      "permalink": "/How-to Guides/Azure/Setup Azure Site Recovery"
+      "permalink": "/Azure/Backup and Disaster Recovery/Setup Azure Site Recovery"
     }
   ]
 }

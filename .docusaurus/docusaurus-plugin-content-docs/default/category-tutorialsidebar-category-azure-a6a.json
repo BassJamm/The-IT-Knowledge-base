@@ -5,12 +5,12 @@
   "permalink": "/category/azure",
   "navigation": {
     "previous": {
-      "title": "How-to Guides",
-      "permalink": "/category/how-to-guides"
+      "title": "Welcome to the Wiki",
+      "permalink": "/"
     },
     "next": {
-      "title": "Setup Azure Lighthouse",
-      "permalink": "/How-to Guides/Azure/Setup Azure Lighthouse"
+      "title": "Backup and Disaster Recovery",
+      "permalink": "/category/backup-and-disaster-recovery"
     }
   }
 }

@@ -1,0 +1,47 @@
+{
+  "unversionedId": "Azure/AVD Image Update Guidance",
+  "id": "Azure/AVD Image Update Guidance",
+  "title": "AVD Image Update Guidance",
+  "description": "Terms",
+  "source": "@site/docs/Azure/Update AVD Image.md",
+  "sourceDirName": "Azure",
+  "slug": "/Azure/AVD Image Update Guidance",
+  "permalink": "/Azure/AVD Image Update Guidance",
+  "draft": false,
+  "tags": [
+    {
+      "label": "Guide",
+      "permalink": "/tags/guide"
+    },
+    {
+      "label": "Azure",
+      "permalink": "/tags/azure"
+    },
+    {
+      "label": "Azure Virtual Desktop",
+      "permalink": "/tags/azure-virtual-desktop"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "id": "AVD Image Update Guidance",
+    "title": "AVD Image Update Guidance",
+    "toc_max_heading_level": 4,
+    "tags": [
+      "Guide",
+      "Azure",
+      "Azure Virtual Desktop"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Re-size a Virtual Machine",
+    "permalink": "/Azure/Infrastructure/Re-size a Virtual Machine"
+  },
+  "next": {
+    "title": "Setup Azure Site Recovery",
+    "permalink": "/Azure/Setup Azure Site Recovery"
+  }
+}

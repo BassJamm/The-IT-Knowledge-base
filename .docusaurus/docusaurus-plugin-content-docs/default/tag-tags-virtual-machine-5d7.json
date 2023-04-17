@@ -5,10 +5,10 @@
   "count": 1,
   "items": [
     {
-      "id": "How-to Guides/Azure/Re-size a Virtual Machine",
+      "id": "Azure/Infrastructure/Re-size a Virtual Machine",
       "title": "Re-size a Virtual Machine",
       "description": "Before you begin",
-      "permalink": "/How-to Guides/Azure/Re-size a Virtual Machine"
+      "permalink": "/Azure/Infrastructure/Re-size a Virtual Machine"
     }
   ]
 }

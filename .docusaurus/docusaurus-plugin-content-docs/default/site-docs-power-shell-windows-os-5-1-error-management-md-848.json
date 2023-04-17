@@ -1,0 +1,47 @@
+{
+  "unversionedId": "PowerShell/Windows OS (5.1)/Error Management",
+  "id": "PowerShell/Windows OS (5.1)/Error Management",
+  "title": "Error Management",
+  "description": "Error Management in PowerShell.",
+  "source": "@site/docs/PowerShell/Windows OS (5.1)/Error Management.md",
+  "sourceDirName": "PowerShell/Windows OS (5.1)",
+  "slug": "/PowerShell/Windows OS (5.1)/Error Management",
+  "permalink": "/PowerShell/Windows OS (5.1)/Error Management",
+  "draft": false,
+  "tags": [
+    {
+      "label": "Refernce Doc",
+      "permalink": "/tags/refernce-doc"
+    },
+    {
+      "label": "CMDLet",
+      "permalink": "/tags/cmd-let"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "id": "Error Management",
+    "title": "Error Management",
+    "hide_title": false,
+    "hide_table_of_contents": false,
+    "sidebar_label": "Error Management",
+    "sidebar_position": 2,
+    "toc_max_heading_level": 4,
+    "pagination_label": "Error Management",
+    "tags": [
+      "Refernce Doc",
+      "CMDLet"
+    ],
+    "description": "Error Management in PowerShell."
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Credential Management",
+    "permalink": "/PowerShell/Windows OS (5.1)/Credential Management"
+  },
+  "next": {
+    "title": "Windows Troubleshooting",
+    "permalink": "/PowerShell/Windows OS (5.1)/Windows Troubleshooting"
+  }
+}

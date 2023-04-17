@@ -1,0 +1,47 @@
+{
+  "unversionedId": "Azure/Setup Azure Site Recovery",
+  "id": "Azure/Setup Azure Site Recovery",
+  "title": "Setup Azure Site Recovery",
+  "description": "High Level Overview of tasks",
+  "source": "@site/docs/Azure/Setup Azure Site Recovery.md",
+  "sourceDirName": "Azure",
+  "slug": "/Azure/Setup Azure Site Recovery",
+  "permalink": "/Azure/Setup Azure Site Recovery",
+  "draft": false,
+  "tags": [
+    {
+      "label": "Guide",
+      "permalink": "/tags/guide"
+    },
+    {
+      "label": "Azure",
+      "permalink": "/tags/azure"
+    },
+    {
+      "label": "Setup Azure Site Recovery",
+      "permalink": "/tags/setup-azure-site-recovery"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2,
+    "id": "Setup Azure Site Recovery",
+    "title": "Setup Azure Site Recovery",
+    "toc_max_heading_level": 4,
+    "tags": [
+      "Guide",
+      "Azure",
+      "Setup Azure Site Recovery"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Re-size a Virtual Machine",
+    "permalink": "/Azure/Infrastructure/Re-size a Virtual Machine"
+  },
+  "next": {
+    "title": "Setup Azure Backup",
+    "permalink": "/Azure/Setup Azure Backup"
+  }
+}

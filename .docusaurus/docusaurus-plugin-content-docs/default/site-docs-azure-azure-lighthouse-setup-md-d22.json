@@ -1,0 +1,47 @@
+{
+  "unversionedId": "Azure/Setup Azure Lighthouse",
+  "id": "Azure/Setup Azure Lighthouse",
+  "title": "Setup Azure Lighthouse",
+  "description": "This document covers creating a template manually and uploading to a customer directly. Not an Azure Marketplace offering.",
+  "source": "@site/docs/Azure/Azure Lighthouse Setup.md",
+  "sourceDirName": "Azure",
+  "slug": "/Azure/Setup Azure Lighthouse",
+  "permalink": "/Azure/Setup Azure Lighthouse",
+  "draft": false,
+  "tags": [
+    {
+      "label": "Guide",
+      "permalink": "/tags/guide"
+    },
+    {
+      "label": "Azure",
+      "permalink": "/tags/azure"
+    },
+    {
+      "label": "Lighthouse",
+      "permalink": "/tags/lighthouse"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "id": "Setup Azure Lighthouse",
+    "title": "Setup Azure Lighthouse",
+    "toc_max_heading_level": 4,
+    "tags": [
+      "Guide",
+      "Azure",
+      "Lighthouse"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Azure",
+    "permalink": "/category/azure"
+  },
+  "next": {
+    "title": "AVD Image Update Guidance",
+    "permalink": "/Azure/AVD Image Update Guidance"
+  }
+}
