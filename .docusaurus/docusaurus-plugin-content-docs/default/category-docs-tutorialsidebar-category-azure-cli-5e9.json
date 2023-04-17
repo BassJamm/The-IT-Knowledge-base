@@ -1,0 +1,16 @@
+{
+  "title": "Azure Cli",
+  "description": "Articles all about Azure Cli.",
+  "slug": "/category/azure-cli",
+  "permalink": "/docs/category/azure-cli",
+  "navigation": {
+    "previous": {
+      "title": "document title",
+      "permalink": "/docs/Articles/Microsoft/document iD"
+    },
+    "next": {
+      "title": "AzCli Cheatsheet",
+      "permalink": "/docs/Articles/Microsoft/Azure CLi/AzCli Cheatsheet"
+    }
+  }
+}

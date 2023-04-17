@@ -1,0 +1,41 @@
+{
+  "unversionedId": "CheatSheets/Bicep/Deploying Resources",
+  "id": "CheatSheets/Bicep/Deploying Resources",
+  "title": "Deploying Resources",
+  "description": "Deployment Methods",
+  "source": "@site/docs/CheatSheets/Bicep/Deploying Resources.md",
+  "sourceDirName": "CheatSheets/Bicep",
+  "slug": "/CheatSheets/Bicep/Deploying Resources",
+  "permalink": "/CheatSheets/Bicep/Deploying Resources",
+  "draft": false,
+  "tags": [
+    {
+      "label": "Bicep",
+      "permalink": "/tags/bicep"
+    },
+    {
+      "label": "CheatSheet",
+      "permalink": "/tags/cheat-sheet"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2,
+    "id": "Deploying Resources",
+    "title": "Deploying Resources",
+    "tags": [
+      "Bicep",
+      "CheatSheet"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Bicep",
+    "permalink": "/category/bicep"
+  },
+  "next": {
+    "title": "Defining Resources",
+    "permalink": "/CheatSheets/Bicep/Building your first template/Defining Resources"
+  }
+}

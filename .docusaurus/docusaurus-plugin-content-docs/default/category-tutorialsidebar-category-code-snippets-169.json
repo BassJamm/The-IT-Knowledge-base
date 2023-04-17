@@ -1,0 +1,16 @@
+{
+  "title": "Code Snippets",
+  "description": "Snippets of re-usable Code.",
+  "slug": "/category/code-snippets",
+  "permalink": "/category/code-snippets",
+  "navigation": {
+    "previous": {
+      "title": "PwshCli CheatSheet",
+      "permalink": "/CheatSheets/PwshCli CheatSheet"
+    },
+    "next": {
+      "title": "Exchange Online",
+      "permalink": "/Code Snippets/Exchange Online"
+    }
+  }
+}

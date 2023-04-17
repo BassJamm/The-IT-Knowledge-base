@@ -1,0 +1,41 @@
+{
+  "unversionedId": "CheatSheets/Bicep/Defining Resources",
+  "id": "CheatSheets/Bicep/Defining Resources",
+  "title": "Defining Resources",
+  "description": "1.1. Defining Resources",
+  "source": "@site/docs/CheatSheets/Bicep/Defining Resources.md",
+  "sourceDirName": "CheatSheets/Bicep",
+  "slug": "/CheatSheets/Bicep/Defining Resources",
+  "permalink": "/CheatSheets/Bicep/Defining Resources",
+  "draft": false,
+  "tags": [
+    {
+      "label": "Bicep",
+      "permalink": "/tags/bicep"
+    },
+    {
+      "label": "CheatSheet",
+      "permalink": "/tags/cheat-sheet"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "id": "Defining Resources",
+    "title": "Defining Resources",
+    "tags": [
+      "Bicep",
+      "CheatSheet"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Bicep",
+    "permalink": "/category/bicep"
+  },
+  "next": {
+    "title": "Deploying Resources",
+    "permalink": "/CheatSheets/Bicep/Deploying Resources"
+  }
+}

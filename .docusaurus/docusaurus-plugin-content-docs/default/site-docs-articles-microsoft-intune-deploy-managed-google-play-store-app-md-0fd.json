@@ -1,0 +1,51 @@
+{
+  "unversionedId": "Articles/Microsoft/Intune/Deploy Google Play store app",
+  "id": "Articles/Microsoft/Intune/Deploy Google Play store app",
+  "title": "Deploy Google Play store app",
+  "description": "Definition of a Managed Google Play store app: Public apps that are generally available in the Play Store. Manage these apps in Intune by browsing for the apps you want to manage, approving them, and then synchronizing them into Intune.",
+  "source": "@site/docs/Articles/Microsoft/Intune/Deploy Managed Google Play store app.md",
+  "sourceDirName": "Articles/Microsoft/Intune",
+  "slug": "/Articles/Microsoft/Intune/Deploy Google Play store app",
+  "permalink": "/Articles/Microsoft/Intune/Deploy Google Play store app",
+  "draft": false,
+  "tags": [
+    {
+      "label": "KB",
+      "permalink": "/tags/kb"
+    },
+    {
+      "label": "Intune",
+      "permalink": "/tags/intune"
+    },
+    {
+      "label": "Google Play",
+      "permalink": "/tags/google-play"
+    },
+    {
+      "label": "App Deployment",
+      "permalink": "/tags/app-deployment"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2,
+    "id": "Deploy Google Play store app",
+    "title": "Deploy Google Play store app",
+    "tags": [
+      "KB",
+      "Intune",
+      "Google Play",
+      "App Deployment"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "AutoPilot Reset",
+    "permalink": "/Articles/Microsoft/Intune/AutoPilot Reset"
+  },
+  "next": {
+    "title": "Renew Apple Tokens and Certs",
+    "permalink": "/Articles/Microsoft/Intune/Renew Apple Tokens and Certs"
+  }
+}

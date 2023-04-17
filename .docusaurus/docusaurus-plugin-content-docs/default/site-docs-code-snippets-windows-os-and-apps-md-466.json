@@ -1,0 +1,46 @@
+{
+  "unversionedId": "Code Snippets/Windows OS and Apps",
+  "id": "Code Snippets/Windows OS and Apps",
+  "title": "Windows OS and Apps",
+  "description": "Set office update channel",
+  "source": "@site/docs/Code Snippets/Windows OS and Apps.md",
+  "sourceDirName": "Code Snippets",
+  "slug": "/Code Snippets/Windows OS and Apps",
+  "permalink": "/Code Snippets/Windows OS and Apps",
+  "draft": false,
+  "tags": [
+    {
+      "label": "Command Line",
+      "permalink": "/tags/command-line"
+    },
+    {
+      "label": "PowerShell",
+      "permalink": "/tags/power-shell"
+    },
+    {
+      "label": "CMD",
+      "permalink": "/tags/cmd"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 7,
+  "frontMatter": {
+    "sidebar_position": 7,
+    "id": "Windows OS and Apps",
+    "title": "Windows OS and Apps",
+    "tags": [
+      "Command Line",
+      "PowerShell",
+      "CMD"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Veeam Backup for O365",
+    "permalink": "/Code Snippets/Veeam Backup for O365"
+  },
+  "next": {
+    "title": "Tooling",
+    "permalink": "/category/tooling"
+  }
+}

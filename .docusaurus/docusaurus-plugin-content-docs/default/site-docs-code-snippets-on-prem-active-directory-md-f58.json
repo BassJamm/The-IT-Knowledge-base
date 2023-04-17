@@ -1,0 +1,46 @@
+{
+  "unversionedId": "Code Snippets/OnPrem Active Directory",
+  "id": "Code Snippets/OnPrem Active Directory",
+  "title": "OnPrem Active Directory",
+  "description": "Get-ADUser: Filter by attribute",
+  "source": "@site/docs/Code Snippets/OnPrem Active Directory.md",
+  "sourceDirName": "Code Snippets",
+  "slug": "/Code Snippets/OnPrem Active Directory",
+  "permalink": "/Code Snippets/OnPrem Active Directory",
+  "draft": false,
+  "tags": [
+    {
+      "label": "PowerShell",
+      "permalink": "/tags/power-shell"
+    },
+    {
+      "label": "AD",
+      "permalink": "/tags/ad"
+    },
+    {
+      "label": "Command Line",
+      "permalink": "/tags/command-line"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5,
+    "id": "OnPrem Active Directory",
+    "title": "OnPrem Active Directory",
+    "tags": [
+      "PowerShell",
+      "AD",
+      "Command Line"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Miscellaneous Code",
+    "permalink": "/Code Snippets/Miscellaneous Code"
+  },
+  "next": {
+    "title": "Veeam Backup for O365",
+    "permalink": "/Code Snippets/Veeam Backup for O365"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "unversionedId": "How-to Guides/Perform an AutoPilot Reset",
+  "id": "How-to Guides/Perform an AutoPilot Reset",
+  "title": "Perform an AutoPilot Reset",
+  "description": "Description: Perform an AutoPilot Reset on a Windows Device.",
+  "source": "@site/docs/How-to Guides/AutoPilot Reset.md",
+  "sourceDirName": "How-to Guides",
+  "slug": "/How-to Guides/Perform an AutoPilot Reset",
+  "permalink": "/How-to Guides/Perform an AutoPilot Reset",
+  "draft": false,
+  "tags": [
+    {
+      "label": "Intune",
+      "permalink": "/tags/intune"
+    },
+    {
+      "label": "Autopilot",
+      "permalink": "/tags/autopilot"
+    },
+    {
+      "label": "Reset Device",
+      "permalink": "/tags/reset-device"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "id": "Perform an AutoPilot Reset",
+    "title": "Perform an AutoPilot Reset",
+    "tags": [
+      "Intune",
+      "Autopilot",
+      "Reset Device"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "How-to Guides",
+    "permalink": "/category/how-to-guides"
+  },
+  "next": {
+    "title": "Setup Azure Lighthouse",
+    "permalink": "/How-to Guides/Setup Azure Lighthouse"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "unversionedId": "Guides/Automation in Azure/Create an Automation Account",
+  "id": "Guides/Automation in Azure/Create an Automation Account",
+  "title": "Create an Automation Account",
+  "description": "Run As accounts are being deprecated, managed identities are replacing this.",
+  "source": "@site/docs/Guides/Automation in Azure/Create an Automation Account.md",
+  "sourceDirName": "Guides/Automation in Azure",
+  "slug": "/Guides/Automation in Azure/Create an Automation Account",
+  "permalink": "/Guides/Automation in Azure/Create an Automation Account",
+  "draft": false,
+  "tags": [
+    {
+      "label": "Azure",
+      "permalink": "/tags/azure"
+    },
+    {
+      "label": "Automation",
+      "permalink": "/tags/automation"
+    },
+    {
+      "label": "Scripting",
+      "permalink": "/tags/scripting"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2,
+    "id": "Create an Automation Account",
+    "title": "Create an Automation Account",
+    "tags": [
+      "Azure",
+      "Automation",
+      "Scripting"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Automation in Azure",
+    "permalink": "/category/automation-in-azure"
+  },
+  "next": {
+    "title": "Setup Azure Backup",
+    "permalink": "/Guides/Setup Azure Backup"
+  }
+}

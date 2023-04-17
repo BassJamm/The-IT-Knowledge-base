@@ -1,0 +1,14 @@
+{
+  "label": "Reference",
+  "permalink": "/docs/docs/tags/reference",
+  "allTagsPath": "/docs/docs/tags",
+  "count": 1,
+  "items": [
+    {
+      "id": "References/Intune/Device Troubleshooting",
+      "title": "Device Troubleshooting",
+      "description": "Find policies\\settings applied to a device",
+      "permalink": "/docs/docs/References/Intune/Device Troubleshooting"
+    }
+  ]
+}

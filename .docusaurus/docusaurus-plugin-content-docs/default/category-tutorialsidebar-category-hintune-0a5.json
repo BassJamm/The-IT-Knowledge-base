@@ -1,0 +1,16 @@
+{
+  "title": "HIntune",
+  "description": "Guides for achieving an end result.",
+  "slug": "/category/hintune",
+  "permalink": "/category/hintune",
+  "navigation": {
+    "previous": {
+      "title": "Setup Azure Backup",
+      "permalink": "/How-to Guides/Azure/Setup Azure Backup"
+    },
+    "next": {
+      "title": "Deploy Google Play store app",
+      "permalink": "/How-to Guides/Intune/Deploy Google Play store app"
+    }
+  }
+}

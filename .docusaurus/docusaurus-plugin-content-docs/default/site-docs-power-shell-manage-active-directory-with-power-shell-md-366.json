@@ -1,0 +1,41 @@
+{
+  "unversionedId": "PowerShell/Manage Active Directory with PowerShell",
+  "id": "PowerShell/Manage Active Directory with PowerShell",
+  "title": "Manage Active Directory with PowerShell",
+  "description": "Filter by an attribute",
+  "source": "@site/docs/PowerShell/Manage Active Directory with PowerShell.md",
+  "sourceDirName": "PowerShell",
+  "slug": "/PowerShell/Manage Active Directory with PowerShell",
+  "permalink": "/docs/PowerShell/Manage Active Directory with PowerShell",
+  "draft": false,
+  "tags": [
+    {
+      "label": "PowerShell",
+      "permalink": "/docs/tags/power-shell"
+    },
+    {
+      "label": "AD",
+      "permalink": "/docs/tags/ad"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2,
+    "id": "Manage Active Directory with PowerShell",
+    "title": "Manage Active Directory with PowerShell",
+    "tags": [
+      "PowerShell",
+      "AD"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "PwshCli CheatSheet",
+    "permalink": "/docs/PowerShell/PwshCli CheatSheet"
+  },
+  "next": {
+    "title": "Prettier Terminal Window",
+    "permalink": "/docs/PowerShell/Prettier Terminal Window"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "title": "Code References",
+  "description": "Code snippets and Scripts.",
+  "slug": "/category/code-references",
+  "permalink": "/docs/category/code-references",
+  "navigation": {
+    "previous": {
+      "title": "Welcome to the Wiki",
+      "permalink": "/docs/"
+    },
+    "next": {
+      "title": "Error & logging Management",
+      "permalink": "/docs/Code References/Error & logging Management"
+    }
+  }
+}

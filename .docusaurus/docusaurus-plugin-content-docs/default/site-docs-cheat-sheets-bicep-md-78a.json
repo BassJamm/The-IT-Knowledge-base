@@ -1,0 +1,41 @@
+{
+  "unversionedId": "CheatSheets/Bicep CheatSheet",
+  "id": "CheatSheets/Bicep CheatSheet",
+  "title": "Bicep CheatSheet",
+  "description": "Defining Resources",
+  "source": "@site/docs/CheatSheets/Bicep.md",
+  "sourceDirName": "CheatSheets",
+  "slug": "/CheatSheets/Bicep CheatSheet",
+  "permalink": "/CheatSheets/Bicep CheatSheet",
+  "draft": false,
+  "tags": [
+    {
+      "label": "template",
+      "permalink": "/tags/template"
+    },
+    {
+      "label": "CheatSheet",
+      "permalink": "/tags/cheat-sheet"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "id": "Bicep CheatSheet",
+    "title": "Bicep CheatSheet",
+    "tags": [
+      "template",
+      "CheatSheet"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "CheatSheets",
+    "permalink": "/category/cheatsheets"
+  },
+  "next": {
+    "title": "Code Snippets",
+    "permalink": "/category/code-snippets"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "title": "Azure Resources Management",
+  "description": "Articles all about Azure Resource Management.",
+  "slug": "/category/azure-resources-management-1",
+  "permalink": "/docs/category/azure-resources-management-1",
+  "navigation": {
+    "previous": {
+      "title": "Azure Resources Management",
+      "permalink": "/docs/category/azure-resources-management"
+    },
+    "next": {
+      "title": "Assign Managed Identity permissions via CMDLine",
+      "permalink": "/docs/Azure Resources Management/Automation in Azure/Assign Managed Identity permissions via CMDLine"
+    }
+  }
+}

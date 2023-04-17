@@ -1,0 +1,16 @@
+{
+  "title": "Automation in Azure",
+  "description": "Articles all about Auotmation in Azure.",
+  "slug": "/category/automation-in-azure",
+  "permalink": "/category/automation-in-azure",
+  "navigation": {
+    "previous": {
+      "title": "Guides",
+      "permalink": "/category/guides"
+    },
+    "next": {
+      "title": "Create an Automation Account",
+      "permalink": "/Guides/Automation in Azure/Create an Automation Account"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "title": "Scenario based Guidance",
+  "description": "Topcics to learn to be better or get started.",
+  "slug": "/category/scenario-based-guidance",
+  "permalink": "/docs/category/scenario-based-guidance",
+  "navigation": {
+    "previous": {
+      "title": "Take ownership of customer azure subscription",
+      "permalink": "/docs/References/take ownership of customer azure subscription"
+    },
+    "next": {
+      "title": "Troubleshooting a connectivity issue",
+      "permalink": "/docs/Scenario based Guidance/Troubleshooting a connectivity issue"
+    }
+  }
+}

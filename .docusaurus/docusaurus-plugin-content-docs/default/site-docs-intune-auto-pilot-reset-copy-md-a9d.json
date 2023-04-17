@@ -1,0 +1,36 @@
+{
+  "unversionedId": "Intune/AutoPilot Reset",
+  "id": "Intune/AutoPilot Reset",
+  "title": "AutoPilot Reset",
+  "description": "Description: Perform an AutoPilot Reset on a Windows Device.",
+  "source": "@site/docs/Intune/AutoPilot Reset copy.md",
+  "sourceDirName": "Intune",
+  "slug": "/Intune/AutoPilot Reset",
+  "permalink": "/docs/Intune/AutoPilot Reset",
+  "draft": false,
+  "tags": [
+    {
+      "label": "Intune",
+      "permalink": "/docs/tags/intune"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "id": "AutoPilot Reset",
+    "title": "AutoPilot Reset",
+    "tags": [
+      "Intune"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Microsoft Intune",
+    "permalink": "/docs/category/microsoft-intune"
+  },
+  "next": {
+    "title": "AutoPilot Reset",
+    "permalink": "/docs/Intune/AutoPilot Reset"
+  }
+}

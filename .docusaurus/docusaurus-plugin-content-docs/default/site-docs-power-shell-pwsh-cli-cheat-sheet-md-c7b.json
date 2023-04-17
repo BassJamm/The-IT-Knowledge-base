@@ -1,0 +1,41 @@
+{
+  "unversionedId": "PowerShell/PwshCli CheatSheet",
+  "id": "PowerShell/PwshCli CheatSheet",
+  "title": "PwshCli CheatSheet",
+  "description": "Helpful Commands to use every day.",
+  "source": "@site/docs/PowerShell/PwshCli CheatSheet.md",
+  "sourceDirName": "PowerShell",
+  "slug": "/PowerShell/PwshCli CheatSheet",
+  "permalink": "/docs/PowerShell/PwshCli CheatSheet",
+  "draft": false,
+  "tags": [
+    {
+      "label": "PowerShell",
+      "permalink": "/docs/tags/power-shell"
+    },
+    {
+      "label": "AD",
+      "permalink": "/docs/tags/ad"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "id": "PwshCli CheatSheet",
+    "title": "PwshCli CheatSheet",
+    "tags": [
+      "PowerShell",
+      "AD"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "PowerShell",
+    "permalink": "/docs/category/powershell"
+  },
+  "next": {
+    "title": "Manage Active Directory with PowerShell",
+    "permalink": "/docs/PowerShell/Manage Active Directory with PowerShell"
+  }
+}

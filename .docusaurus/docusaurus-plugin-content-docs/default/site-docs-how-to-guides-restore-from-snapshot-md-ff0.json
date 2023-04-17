@@ -1,0 +1,46 @@
+{
+  "unversionedId": "How-to Guides/Restore data from a Snapshot",
+  "id": "How-to Guides/Restore data from a Snapshot",
+  "title": "Restore data from a Snapshot",
+  "description": "Create your snapshot",
+  "source": "@site/docs/How-to Guides/Restore from Snapshot.md",
+  "sourceDirName": "How-to Guides",
+  "slug": "/How-to Guides/Restore data from a Snapshot",
+  "permalink": "/How-to Guides/Restore data from a Snapshot",
+  "draft": false,
+  "tags": [
+    {
+      "label": "Azure",
+      "permalink": "/tags/azure"
+    },
+    {
+      "label": "Restore",
+      "permalink": "/tags/restore"
+    },
+    {
+      "label": "SnapShot",
+      "permalink": "/tags/snap-shot"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "sidebar_position": 6,
+    "id": "Restore data from a Snapshot",
+    "title": "Restore data from a Snapshot",
+    "tags": [
+      "Azure",
+      "Restore",
+      "SnapShot"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Renew Apple Tokens and Certs",
+    "permalink": "/How-to Guides/Renew Apple Tokens and Certs"
+  },
+  "next": {
+    "title": "Setup an Azure Subscription from Partner Centre",
+    "permalink": "/How-to Guides/Setup an Azure Subscription from Partner Centre"
+  }
+}

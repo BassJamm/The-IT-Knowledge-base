@@ -1,0 +1,16 @@
+{
+  "title": "VBO",
+  "description": "Articles all about Veeam Backup for O365.",
+  "slug": "/category/vbo",
+  "permalink": "/docs/category/vbo",
+  "navigation": {
+    "previous": {
+      "title": "Export AAD Secrets and Certs",
+      "permalink": "/docs/PowerShell/Export AAD Secrets and Certs"
+    },
+    "next": {
+      "title": "Managing Backup Jobs",
+      "permalink": "/docs/Veeam Backup for O365/Managing Backup Jobs"
+    }
+  }
+}

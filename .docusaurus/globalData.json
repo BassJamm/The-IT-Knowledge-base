@@ -1,0 +1,218 @@
+{
+  "docusaurus-plugin-google-gtag": {
+    "default": {
+      "trackingID": "G-SYXJ4RP3B9",
+      "anonymizeIP": true,
+      "id": "default"
+    }
+  },
+  "docusaurus-lunr-search": {
+    "default": {
+      "fileNames": {
+        "searchDoc": "search-doc-1680277294458.json",
+        "lunrIndex": "lunr-index-1680277294458.json"
+      }
+    }
+  },
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/",
+          "mainDocId": "Welcome",
+          "docs": [
+            {
+              "id": "How-to Guides/Azure Active Directory/Decom an Azure AD App",
+              "path": "/How-to Guides/Azure Active Directory/Decom an Azure AD App",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "How-to Guides/Azure/AVD Image Update Guidance",
+              "path": "/How-to Guides/Azure/AVD Image Update Guidance",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "How-to Guides/Azure/Create an Automation Account",
+              "path": "/How-to Guides/Azure/Create an Automation Account",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "How-to Guides/Azure/Re-size a Virtual Machine",
+              "path": "/How-to Guides/Azure/Re-size a Virtual Machine",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "How-to Guides/Azure/Restore data from a Snapshot",
+              "path": "/How-to Guides/Azure/Restore data from a Snapshot",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "How-to Guides/Azure/Restore VM from Snapshot",
+              "path": "/How-to Guides/Azure/Restore VM from Snapshot",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "How-to Guides/Azure/Setup Azure Backup",
+              "path": "/How-to Guides/Azure/Setup Azure Backup",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "How-to Guides/Azure/Setup Azure Lighthouse",
+              "path": "/How-to Guides/Azure/Setup Azure Lighthouse",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "How-to Guides/Azure/Setup Azure Site Recovery",
+              "path": "/How-to Guides/Azure/Setup Azure Site Recovery",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "How-to Guides/Certificates/Certificate Formats and Conversions",
+              "path": "/How-to Guides/Certificates/Certificate Formats and Conversions",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "How-to Guides/Certificates/Generating a CSR",
+              "path": "/How-to Guides/Certificates/Generating a CSR",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "How-to Guides/Certificates/Request Cert from internal CA",
+              "path": "/How-to Guides/Certificates/Request Cert from internal CA",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "How-to Guides/Citrix Cloud/Citrix Image Update Guidance",
+              "path": "/How-to Guides/Citrix Cloud/Citrix Image Update Guidance",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "How-to Guides/Intune/Deploy Google Play store app",
+              "path": "/How-to Guides/Intune/Deploy Google Play store app",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "How-to Guides/Intune/Perform an AutoPilot Reset",
+              "path": "/How-to Guides/Intune/Perform an AutoPilot Reset",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "How-to Guides/Intune/Renew Apple Tokens and Certs",
+              "path": "/How-to Guides/Intune/Renew Apple Tokens and Certs",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "How-to Guides/Partner Centre/Setup an Azure Subscription from Partner Centre",
+              "path": "/How-to Guides/Partner Centre/Setup an Azure Subscription from Partner Centre",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "How-to Guides/SharePoint Online/SharePoint Admin Tasks",
+              "path": "/How-to Guides/SharePoint Online/SharePoint Admin Tasks",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "How-to Guides/Windows/Reset BitLocker PIN or Password",
+              "path": "/How-to Guides/Windows/Reset BitLocker PIN or Password",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "References/Intune/Device Troubleshooting",
+              "path": "/References/Intune/Device Troubleshooting",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "References/Partner access to Az Sub",
+              "path": "/References/Partner access to Az Sub",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Scenario based Guidance/Troubleshooting a connectivity issue",
+              "path": "/Scenario based Guidance/Troubleshooting a connectivity issue",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Welcome",
+              "path": "/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/how-to-guides",
+              "path": "/category/how-to-guides",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/azure",
+              "path": "/category/azure",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/azure-active-directory",
+              "path": "/category/azure-active-directory",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/certificates",
+              "path": "/category/certificates",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/citrix-cloud",
+              "path": "/category/citrix-cloud",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/intune",
+              "path": "/category/intune",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/partner-centre",
+              "path": "/category/partner-centre",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/sharepoint-online",
+              "path": "/category/sharepoint-online",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/windows",
+              "path": "/category/windows",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/references",
+              "path": "/category/references",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/intune-1",
+              "path": "/category/intune-1",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/scenario-based-guidance",
+              "path": "/category/scenario-based-guidance",
+              "sidebar": "tutorialSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "tutorialSidebar": {
+              "link": {
+                "path": "/",
+                "label": "Welcome"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

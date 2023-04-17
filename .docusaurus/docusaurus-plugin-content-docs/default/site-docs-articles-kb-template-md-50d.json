@@ -1,0 +1,36 @@
+{
+  "unversionedId": "Articles/document iD",
+  "id": "Articles/document iD",
+  "title": "document title",
+  "description": "Use the navigation bar to the left to find relevant articles.",
+  "source": "@site/docs/Articles/KB template.md",
+  "sourceDirName": "Articles",
+  "slug": "/Articles/document iD",
+  "permalink": "/docs/Articles/document iD",
+  "draft": false,
+  "tags": [
+    {
+      "label": "template",
+      "permalink": "/docs/tags/template"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "id": "document iD",
+    "title": "document title",
+    "tags": [
+      "template"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Articles",
+    "permalink": "/docs/category/articles"
+  },
+  "next": {
+    "title": "Azure Cli",
+    "permalink": "/docs/category/azure-cli"
+  }
+}

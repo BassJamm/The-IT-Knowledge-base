@@ -1,0 +1,41 @@
+{
+  "unversionedId": "Articles/PowerShell/PwshCli CheatSheet",
+  "id": "Articles/PowerShell/PwshCli CheatSheet",
+  "title": "PwshCli CheatSheet",
+  "description": "Helpful Commands to use every day.",
+  "source": "@site/docs/Articles/PowerShell/PwshCli CheatSheet.md",
+  "sourceDirName": "Articles/PowerShell",
+  "slug": "/Articles/PowerShell/PwshCli CheatSheet",
+  "permalink": "/Articles/PowerShell/PwshCli CheatSheet",
+  "draft": false,
+  "tags": [
+    {
+      "label": "PowerShell",
+      "permalink": "/tags/power-shell"
+    },
+    {
+      "label": "AD",
+      "permalink": "/tags/ad"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "id": "PwshCli CheatSheet",
+    "title": "PwshCli CheatSheet",
+    "tags": [
+      "PowerShell",
+      "AD"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "PowerShell",
+    "permalink": "/category/powershell"
+  },
+  "next": {
+    "title": "Assign Managed Identity permissions",
+    "permalink": "/Articles/PowerShell/Assign Managed Identity permissions"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "unversionedId": "Articles/PowerShell/Manage Active Directory with PowerShell",
+  "id": "Articles/PowerShell/Manage Active Directory with PowerShell",
+  "title": "Manage Active Directory with PowerShell",
+  "description": "Filter by an attribute",
+  "source": "@site/docs/Articles/PowerShell/Manage Active Directory with PowerShell.md",
+  "sourceDirName": "Articles/PowerShell",
+  "slug": "/Articles/PowerShell/Manage Active Directory with PowerShell",
+  "permalink": "/Articles/PowerShell/Manage Active Directory with PowerShell",
+  "draft": false,
+  "tags": [
+    {
+      "label": "PowerShell",
+      "permalink": "/tags/power-shell"
+    },
+    {
+      "label": "AD",
+      "permalink": "/tags/ad"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2,
+    "id": "Manage Active Directory with PowerShell",
+    "title": "Manage Active Directory with PowerShell",
+    "tags": [
+      "PowerShell",
+      "AD"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Assign Managed Identity permissions",
+    "permalink": "/Articles/PowerShell/Assign Managed Identity permissions"
+  },
+  "next": {
+    "title": "Export AAD Secrets and Certs",
+    "permalink": "/Articles/PowerShell/Export AAD Secrets and Certs"
+  }
+}

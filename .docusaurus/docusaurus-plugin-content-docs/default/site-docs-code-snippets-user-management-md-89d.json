@@ -1,0 +1,46 @@
+{
+  "unversionedId": "Code Snippets/User Management",
+  "id": "Code Snippets/User Management",
+  "title": "User Management",
+  "description": "Get-ADUser: Filter by attribute (on-prem AD)",
+  "source": "@site/docs/Code Snippets/User Management.md",
+  "sourceDirName": "Code Snippets",
+  "slug": "/Code Snippets/User Management",
+  "permalink": "/Code Snippets/User Management",
+  "draft": false,
+  "tags": [
+    {
+      "label": "Code",
+      "permalink": "/tags/code"
+    },
+    {
+      "label": "Scripts",
+      "permalink": "/tags/scripts"
+    },
+    {
+      "label": "PowerShell",
+      "permalink": "/tags/power-shell"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3,
+    "id": "User Management",
+    "title": "User Management",
+    "tags": [
+      "Code",
+      "Scripts",
+      "PowerShell"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Credential Management",
+    "permalink": "/Code Snippets/Credential Management"
+  },
+  "next": {
+    "title": "References",
+    "permalink": "/category/references"
+  }
+}

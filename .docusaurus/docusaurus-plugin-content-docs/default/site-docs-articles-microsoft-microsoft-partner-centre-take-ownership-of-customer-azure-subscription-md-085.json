@@ -1,0 +1,36 @@
+{
+  "unversionedId": "Articles/Microsoft/Microsoft Partner Centre/take ownership of customer azure subscription",
+  "id": "Articles/Microsoft/Microsoft Partner Centre/take ownership of customer azure subscription",
+  "title": "Take ownership of customer azure subscription",
+  "description": "Microsoft Article: Reinstate admin privileges for a customer's Azure CSP subscriptions.",
+  "source": "@site/docs/Articles/Microsoft/Microsoft Partner Centre/take ownership of customer azure subscription.md",
+  "sourceDirName": "Articles/Microsoft/Microsoft Partner Centre",
+  "slug": "/Articles/Microsoft/Microsoft Partner Centre/take ownership of customer azure subscription",
+  "permalink": "/Articles/Microsoft/Microsoft Partner Centre/take ownership of customer azure subscription",
+  "draft": false,
+  "tags": [
+    {
+      "label": "PartnerCentre",
+      "permalink": "/tags/partner-centre"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2,
+    "id": "take ownership of customer azure subscription",
+    "title": "Take ownership of customer azure subscription",
+    "tags": [
+      "PartnerCentre"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Partner Centre",
+    "permalink": "/category/partner-centre"
+  },
+  "next": {
+    "title": "Setup an Azure Subscription from Partner Centre",
+    "permalink": "/Articles/Microsoft/Microsoft Partner Centre/Setup an Azure Subscription from Partner Centre"
+  }
+}

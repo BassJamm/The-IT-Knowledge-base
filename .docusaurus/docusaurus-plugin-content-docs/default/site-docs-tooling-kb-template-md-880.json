@@ -1,0 +1,36 @@
+{
+  "unversionedId": "Tooling/document iD",
+  "id": "Tooling/document iD",
+  "title": "document title",
+  "description": "Use the navigation bar to the left to find relevant articles.",
+  "source": "@site/docs/Tooling/KB template.md",
+  "sourceDirName": "Tooling",
+  "slug": "/Tooling/document iD",
+  "permalink": "/docs/Tooling/document iD",
+  "draft": false,
+  "tags": [
+    {
+      "label": "template",
+      "permalink": "/docs/tags/template"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "id": "document iD",
+    "title": "document title",
+    "tags": [
+      "template"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Tooling",
+    "permalink": "/docs/category/tooling"
+  },
+  "next": {
+    "title": "Prettier Terminal Window",
+    "permalink": "/docs/Tooling/Prettier Terminal Window"
+  }
+}

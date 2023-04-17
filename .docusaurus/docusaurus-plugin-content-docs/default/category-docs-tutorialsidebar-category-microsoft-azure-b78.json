@@ -1,0 +1,16 @@
+{
+  "title": "Microsoft Azure",
+  "description": "Articles all about Azure Resource Management.",
+  "slug": "/category/microsoft-azure",
+  "permalink": "/docs/category/microsoft-azure",
+  "navigation": {
+    "previous": {
+      "title": "AzCli Cheatsheet",
+      "permalink": "/docs/Articles/Microsoft/Azure CLi/AzCli Cheatsheet"
+    },
+    "next": {
+      "title": "Resource Creation Cheatsheet",
+      "permalink": "/docs/Articles/Microsoft/Azure Resources Management/Resource Creation Cheatsheet"
+    }
+  }
+}

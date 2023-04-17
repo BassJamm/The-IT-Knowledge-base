@@ -1,0 +1,46 @@
+{
+  "unversionedId": "How-to Guides/Azure/Restore data from a Snapshot",
+  "id": "How-to Guides/Azure/Restore data from a Snapshot",
+  "title": "Restore data from a Snapshot",
+  "description": "This doc is for file level restores, this differs from a VM level restore.",
+  "source": "@site/docs/How-to Guides/Azure/Restore from Snapshot.md",
+  "sourceDirName": "How-to Guides/Azure",
+  "slug": "/How-to Guides/Azure/Restore data from a Snapshot",
+  "permalink": "/How-to Guides/Azure/Restore data from a Snapshot",
+  "draft": false,
+  "tags": [
+    {
+      "label": "Azure",
+      "permalink": "/tags/azure"
+    },
+    {
+      "label": "Restore",
+      "permalink": "/tags/restore"
+    },
+    {
+      "label": "SnapShot",
+      "permalink": "/tags/snap-shot"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "sidebar_position": 6,
+    "id": "Restore data from a Snapshot",
+    "title": "Restore data from a Snapshot",
+    "tags": [
+      "Azure",
+      "Restore",
+      "SnapShot"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Re-size a Virtual Machine",
+    "permalink": "/How-to Guides/Azure/Re-size a Virtual Machine"
+  },
+  "next": {
+    "title": "Restore data from a Snapshot",
+    "permalink": "/How-to Guides/Azure/Restore data from a Snapshot"
+  }
+}

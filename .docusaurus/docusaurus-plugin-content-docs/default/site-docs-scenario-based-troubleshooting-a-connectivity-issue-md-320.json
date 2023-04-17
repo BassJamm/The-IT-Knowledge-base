@@ -1,0 +1,42 @@
+{
+  "unversionedId": "Scenario based/Troubleshooting a connectivity issue",
+  "id": "Scenario based/Troubleshooting a connectivity issue",
+  "title": "Troubleshooting a connectivity issue",
+  "description": "Case study to aid in troubleshooting a networking issue scenario (from a infrastructure perspective) that has happened recently.",
+  "source": "@site/docs/Scenario based/Troubleshooting a connectivity issue.md",
+  "sourceDirName": "Scenario based",
+  "slug": "/Scenario based/Troubleshooting a connectivity issue",
+  "permalink": "/Scenario based/Troubleshooting a connectivity issue",
+  "draft": false,
+  "tags": [
+    {
+      "label": "Tutorial",
+      "permalink": "/tags/tutorial"
+    },
+    {
+      "label": "Networking",
+      "permalink": "/tags/networking"
+    },
+    {
+      "label": "Issue",
+      "permalink": "/tags/issue"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "id": "Troubleshooting a connectivity issue",
+    "title": "Troubleshooting a connectivity issue",
+    "tags": [
+      "Tutorial",
+      "Networking",
+      "Issue"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Scenario based Guidance",
+    "permalink": "/category/scenario-based-guidance"
+  }
+}

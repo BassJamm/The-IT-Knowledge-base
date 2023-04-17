@@ -1,0 +1,16 @@
+{
+  "title": "Bicep",
+  "description": "Helpful all-in-one-page guidance on topics.",
+  "slug": "/category/bicep-1",
+  "permalink": "/category/bicep-1",
+  "navigation": {
+    "previous": {
+      "title": "Bicep",
+      "permalink": "/category/bicep"
+    },
+    "next": {
+      "title": "Defining Resources",
+      "permalink": "/CheatSheets/Bicep/Building your first template/Defining Resources"
+    }
+  }
+}

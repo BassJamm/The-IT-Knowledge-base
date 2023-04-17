@@ -1,0 +1,14 @@
+{
+  "label": "Admin",
+  "permalink": "/docs/tags/admin",
+  "allTagsPath": "/docs/tags",
+  "count": 1,
+  "items": [
+    {
+      "id": "Tooling/Prettier Terminal Window",
+      "title": "Prettier Terminal Window",
+      "description": "This isn't original material, please check out the links below to the location of where I found the information:",
+      "permalink": "/docs/Tooling/Prettier Terminal Window"
+    }
+  ]
+}

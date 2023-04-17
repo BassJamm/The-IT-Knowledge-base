@@ -1,0 +1,46 @@
+{
+  "unversionedId": "Code References/User Management",
+  "id": "Code References/User Management",
+  "title": "User Management",
+  "description": "Get-ADUser: Filter by attribute (on-prem AD)",
+  "source": "@site/docs/Code References/User Management.md",
+  "sourceDirName": "Code References",
+  "slug": "/Code References/User Management",
+  "permalink": "/Code References/User Management",
+  "draft": false,
+  "tags": [
+    {
+      "label": "Code",
+      "permalink": "/tags/code"
+    },
+    {
+      "label": "Scripts",
+      "permalink": "/tags/scripts"
+    },
+    {
+      "label": "PowerShell",
+      "permalink": "/tags/power-shell"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3,
+    "id": "User Management",
+    "title": "User Management",
+    "tags": [
+      "Code",
+      "Scripts",
+      "PowerShell"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Error & logging Management",
+    "permalink": "/Code References/Error & logging Management"
+  },
+  "next": {
+    "title": "Windows OS",
+    "permalink": "/Code References/Windows OS"
+  }
+}

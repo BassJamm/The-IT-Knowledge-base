@@ -1,0 +1,41 @@
+{
+  "unversionedId": "Articles/Azure Resources Management/Resizing a Virtual Machine",
+  "id": "Articles/Azure Resources Management/Resizing a Virtual Machine",
+  "title": "Resizing a Virtual Machine",
+  "description": "1. Before you begin",
+  "source": "@site/docs/Articles/Azure Resources Management/Resize a VM.md",
+  "sourceDirName": "Articles/Azure Resources Management",
+  "slug": "/Articles/Azure Resources Management/Resizing a Virtual Machine",
+  "permalink": "/docs/Articles/Azure Resources Management/Resizing a Virtual Machine",
+  "draft": false,
+  "tags": [
+    {
+      "label": "Azure",
+      "permalink": "/docs/tags/azure"
+    },
+    {
+      "label": "Virtual Machine",
+      "permalink": "/docs/tags/virtual-machine"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4,
+    "id": "Resizing a Virtual Machine",
+    "title": "Resizing a Virtual Machine",
+    "tags": [
+      "Azure",
+      "Virtual Machine"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Resource Creation Cheatsheet",
+    "permalink": "/docs/Articles/Azure Resources Management/Resource Creation Cheatsheet"
+  },
+  "next": {
+    "title": "Restore from Snapshot",
+    "permalink": "/docs/Articles/Azure Resources Management/Restore from Snapshot"
+  }
+}

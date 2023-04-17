@@ -1,0 +1,16 @@
+{
+  "title": "Azure Backup Related",
+  "description": "Articles all about Azure backup.",
+  "slug": "/category/azure-backup-related",
+  "permalink": "/docs/category/azure-backup-related",
+  "navigation": {
+    "previous": {
+      "title": "Azure Resources Management",
+      "permalink": "/docs/category/azure-resources-management"
+    },
+    "next": {
+      "title": "Setup Azure Backup",
+      "permalink": "/docs/Azure Resources Management/Azure Backup/Setup Azure Backup"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "position": 2.5,
+  "label": "Code Reference",
+  "collapsible": true,
+  "collapsed": false,
+  "className": "red",
+  "link": {
+    "type": "generated-index",
+    "title": "Code References"
+  },
+  "customProps": {
+    "description": "Code snippets and Scripts."
+  }
+}

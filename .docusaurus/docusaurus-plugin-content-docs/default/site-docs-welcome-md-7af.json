@@ -1,0 +1,25 @@
+{
+  "unversionedId": "Welcome",
+  "id": "Welcome",
+  "title": "Welcome to the Wiki",
+  "description": "This documentation is an almagamation of my knowledge and experiences, to hopefully provide myself and others with reference material for their jobs and hobbies.",
+  "source": "@site/docs/Welcome.md",
+  "sourceDirName": ".",
+  "slug": "/",
+  "permalink": "/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 0,
+  "frontMatter": {
+    "slug": "/",
+    "sidebar_position": 0,
+    "Id": "Welcome to the Wiki",
+    "title": "Welcome to the Wiki"
+  },
+  "sidebar": "tutorialSidebar",
+  "next": {
+    "title": "How-to Guides",
+    "permalink": "/category/how-to-guides"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "title": "Bicep",
+  "description": "Helpful all-in-one-page guidance on topics.",
+  "slug": "/category/bicep",
+  "permalink": "/category/bicep",
+  "navigation": {
+    "previous": {
+      "title": "CheatSheets",
+      "permalink": "/category/cheatsheets"
+    },
+    "next": {
+      "title": "Building your first template",
+      "permalink": "/category/building-your-first-template"
+    }
+  }
+}

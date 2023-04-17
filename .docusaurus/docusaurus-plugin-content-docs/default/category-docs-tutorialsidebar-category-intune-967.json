@@ -1,0 +1,16 @@
+{
+  "title": "Intune",
+  "description": "Technical references without the fluff.",
+  "slug": "/category/intune",
+  "permalink": "/docs/category/intune",
+  "navigation": {
+    "previous": {
+      "title": "Citrix Image Update Guidance",
+      "permalink": "/docs/How-to Guides/Citrix Cloud/Citrix Image Update Guidance"
+    },
+    "next": {
+      "title": "Deploy Google Play store app",
+      "permalink": "/docs/How-to Guides/Intune/Deploy Google Play store app"
+    }
+  }
+}

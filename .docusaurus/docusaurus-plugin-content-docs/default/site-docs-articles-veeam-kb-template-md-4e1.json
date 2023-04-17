@@ -1,0 +1,36 @@
+{
+  "unversionedId": "Articles/Veeam/document iD",
+  "id": "Articles/Veeam/document iD",
+  "title": "document title",
+  "description": "Use the navigation bar to the left to find relevant articles.",
+  "source": "@site/docs/Articles/Veeam/KB template.md",
+  "sourceDirName": "Articles/Veeam",
+  "slug": "/Articles/Veeam/document iD",
+  "permalink": "/Articles/Veeam/document iD",
+  "draft": false,
+  "tags": [
+    {
+      "label": "template",
+      "permalink": "/tags/template"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "id": "document iD",
+    "title": "document title",
+    "tags": [
+      "template"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Veeam",
+    "permalink": "/category/veeam"
+  },
+  "next": {
+    "title": "Veeam Backup for O365",
+    "permalink": "/category/veeam-backup-for-o365"
+  }
+}

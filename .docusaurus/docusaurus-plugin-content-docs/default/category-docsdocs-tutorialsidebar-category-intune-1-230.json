@@ -1,0 +1,16 @@
+{
+  "title": "Intune",
+  "description": "Technical references without the fluff.",
+  "slug": "/category/intune-1",
+  "permalink": "/docs/docs/category/intune-1",
+  "navigation": {
+    "previous": {
+      "title": "References",
+      "permalink": "/docs/docs/category/references"
+    },
+    "next": {
+      "title": "Device Troubleshooting",
+      "permalink": "/docs/docs/References/Intune/Device Troubleshooting"
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "unversionedId": "References/Partner access to Az Sub",
+  "id": "References/Partner access to Az Sub",
+  "title": "Grant Partner Access to Azure Sub",
+  "description": "How do I find you when I cannot solve this problem",
+  "source": "@site/docs/References/take ownership of customer azure subscription.md",
+  "sourceDirName": "References",
+  "slug": "/myDoc",
+  "permalink": "/myDoc",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/edit/main/docs/api-doc-markdown.md",
+  "tags": [
+    {
+      "label": "PartnerCentre",
+      "permalink": "/tags/partner-centre"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "id": "Partner access to Az Sub",
+    "title": "Grant Partner Access to Azure Sub",
+    "hide_title": false,
+    "hide_table_of_contents": false,
+    "sidebar_label": "Grant Partner Access to Azure Sub",
+    "sidebar_position": 2,
+    "pagination_label": "Grant Partner Access to Azure Sub",
+    "tags": [
+      "PartnerCentre"
+    ],
+    "custom_edit_url": "https://github.com/facebook/docusaurus/edit/main/docs/api-doc-markdown.md",
+    "description": "How do I find you when I cannot solve this problem",
+    "keywords": [
+      "docs",
+      "docusaurus"
+    ],
+    "image": "https://i.imgur.com/mErPwqL.png",
+    "slug": "/myDoc",
+    "last_update": {
+      "date": "1/1/2000",
+      "author": "Admin"
+    }
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Device Troubleshooting",
+    "permalink": "/References/Intune/Device Troubleshooting"
+  },
+  "next": {
+    "title": "Code Reference",
+    "permalink": "/category/code-reference"
+  }
+}

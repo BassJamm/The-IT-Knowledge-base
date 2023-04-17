@@ -1,0 +1,36 @@
+{
+  "unversionedId": "Guides/Automation in Azure/Assign Managed Identity permissions",
+  "id": "Guides/Automation in Azure/Assign Managed Identity permissions",
+  "title": "Assign Managed Identity permissions",
+  "description": "- Refernce for where this came from",
+  "source": "@site/docs/Guides/Automation in Azure/Assign Managed Identity permissions via CMDLine.md",
+  "sourceDirName": "Guides/Automation in Azure",
+  "slug": "/Guides/Automation in Azure/Assign Managed Identity permissions",
+  "permalink": "/docs/Guides/Automation in Azure/Assign Managed Identity permissions",
+  "draft": false,
+  "tags": [
+    {
+      "label": "Azure",
+      "permalink": "/docs/tags/azure"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2,
+    "id": "Assign Managed Identity permissions",
+    "title": "Assign Managed Identity permissions",
+    "tags": [
+      "Azure"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Automation in Azure",
+    "permalink": "/docs/category/automation-in-azure"
+  },
+  "next": {
+    "title": "Create an Automation Account",
+    "permalink": "/docs/Guides/Automation in Azure/Create an Automation Account"
+  }
+}

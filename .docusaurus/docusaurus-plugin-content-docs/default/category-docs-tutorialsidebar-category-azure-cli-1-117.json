@@ -1,0 +1,16 @@
+{
+  "title": "Azure Cli",
+  "description": "Articles all about Azure Cli.",
+  "slug": "/category/azure-cli-1",
+  "permalink": "/docs/category/azure-cli-1",
+  "navigation": {
+    "previous": {
+      "title": "Command Cheat sheet",
+      "permalink": "/docs/Azure CLi/Command Cheat sheet"
+    },
+    "next": {
+      "title": "1. Assign Managed Identity permissions via CMDLine",
+      "permalink": "/docs/Azure Resources Management/Assign Managed Identity permissions via CMDLine"
+    }
+  }
+}

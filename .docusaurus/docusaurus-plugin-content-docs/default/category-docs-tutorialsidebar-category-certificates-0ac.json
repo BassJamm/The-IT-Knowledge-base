@@ -1,0 +1,16 @@
+{
+  "title": "Certificates",
+  "description": "Guides for achieving an end result.",
+  "slug": "/category/certificates",
+  "permalink": "/docs/category/certificates",
+  "navigation": {
+    "previous": {
+      "title": "Decom an Azure AD App",
+      "permalink": "/docs/How-to Guides/Azure Active Directory/Decom an Azure AD App"
+    },
+    "next": {
+      "title": "Certificate Formats and Conversions",
+      "permalink": "/docs/How-to Guides/Certificates/Certificate Formats and Conversions"
+    }
+  }
+}

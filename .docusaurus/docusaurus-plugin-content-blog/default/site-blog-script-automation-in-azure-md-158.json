@@ -1,0 +1,50 @@
+{
+  "permalink": "/blog/Script-Automation-in-Azure",
+  "source": "@site/blog/Script Automation in Azure.md",
+  "title": "Script Automation in Azure",
+  "description": "Script Automation in Azure",
+  "date": "2023-01-05T22:32:46.816Z",
+  "formattedDate": "January 5, 2023",
+  "tags": [
+    {
+      "label": "Azure",
+      "permalink": "/blog/tags/azure"
+    },
+    {
+      "label": "Automation Account",
+      "permalink": "/blog/tags/automation-account"
+    },
+    {
+      "label": "PowerShell",
+      "permalink": "/blog/tags/power-shell"
+    },
+    {
+      "label": "Managed Identities",
+      "permalink": "/blog/tags/managed-identities"
+    }
+  ],
+  "readingTime": 3.11,
+  "hasTruncateMarker": true,
+  "authors": [
+    {
+      "name": "itjamm"
+    }
+  ],
+  "frontMatter": {
+    "slug": "Script-Automation-in-Azure",
+    "title": "Script Automation in Azure",
+    "description": "Script Automation in Azure",
+    "author": "itjamm",
+    "tags": [
+      "Azure",
+      "Automation Account",
+      "PowerShell",
+      "Managed Identities"
+    ],
+    "hide_table_of_contents": false
+  },
+  "nextItem": {
+    "title": "What can you Automate",
+    "permalink": "/blog/What can you Automate"
+  }
+}

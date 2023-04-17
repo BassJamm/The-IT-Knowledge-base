@@ -1,0 +1,16 @@
+{
+  "title": "Microsoft Intune",
+  "description": "Articles all about Microsoft intune.",
+  "slug": "/category/microsoft-intune",
+  "permalink": "/docs/category/microsoft-intune",
+  "navigation": {
+    "previous": {
+      "title": "Setup Azure Backup",
+      "permalink": "/docs/Articles/Microsoft/Azure Resources Management/Setup Azure Backup"
+    },
+    "next": {
+      "title": "AutoPilot Reset",
+      "permalink": "/docs/Articles/Microsoft/Intune/AutoPilot Reset"
+    }
+  }
+}

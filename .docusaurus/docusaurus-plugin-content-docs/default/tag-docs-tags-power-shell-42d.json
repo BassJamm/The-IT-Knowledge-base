@@ -1,0 +1,32 @@
+{
+  "label": "PowerShell",
+  "permalink": "/docs/tags/power-shell",
+  "allTagsPath": "/docs/tags",
+  "count": 4,
+  "items": [
+    {
+      "id": "Code References/Credential & User Interaction",
+      "title": "Credential & User Interaction",
+      "description": "Collect and encrypt credentials to file using default method",
+      "permalink": "/docs/Code References/Credential & User Interaction"
+    },
+    {
+      "id": "Code References/Error & logging Management",
+      "title": "Error & logging Management",
+      "description": "Try and Catch example for error debugging",
+      "permalink": "/docs/Code References/Error & logging Management"
+    },
+    {
+      "id": "Code References/User Management",
+      "title": "User Management",
+      "description": "Get-ADUser: Filter by attribute (on-prem AD)",
+      "permalink": "/docs/Code References/User Management"
+    },
+    {
+      "id": "Code References/Windows OS",
+      "title": "Windows OS",
+      "description": "Folder size report",
+      "permalink": "/docs/Code References/Windows OS"
+    }
+  ]
+}

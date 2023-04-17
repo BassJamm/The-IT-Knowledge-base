@@ -1,0 +1,41 @@
+{
+  "unversionedId": "How-to Guides/Re-size a Virtual Machine",
+  "id": "How-to Guides/Re-size a Virtual Machine",
+  "title": "Re-size a Virtual Machine",
+  "description": "Before you begin",
+  "source": "@site/docs/How-to Guides/Resize a Virtual Machine.md",
+  "sourceDirName": "How-to Guides",
+  "slug": "/How-to Guides/Re-size a Virtual Machine",
+  "permalink": "/How-to Guides/Re-size a Virtual Machine",
+  "draft": false,
+  "tags": [
+    {
+      "label": "Azure",
+      "permalink": "/tags/azure"
+    },
+    {
+      "label": "Virtual Machine",
+      "permalink": "/tags/virtual-machine"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5,
+    "id": "Re-size a Virtual Machine",
+    "title": "Re-size a Virtual Machine",
+    "tags": [
+      "Azure",
+      "Virtual Machine"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Renew Apple Tokens and Certs",
+    "permalink": "/How-to Guides/Renew Apple Tokens and Certs"
+  },
+  "next": {
+    "title": "Restore data from a Snapshot",
+    "permalink": "/How-to Guides/Restore data from a Snapshot"
+  }
+}

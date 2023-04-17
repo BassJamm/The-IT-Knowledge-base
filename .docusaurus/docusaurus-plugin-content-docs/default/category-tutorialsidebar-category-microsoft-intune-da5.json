@@ -1,0 +1,16 @@
+{
+  "title": "Microsoft Intune",
+  "description": "Articles all about Microsoft intune.",
+  "slug": "/category/microsoft-intune",
+  "permalink": "/category/microsoft-intune",
+  "navigation": {
+    "previous": {
+      "title": "Restore from Snapshot",
+      "permalink": "/Articles/Microsoft/Azure Resources Management/Restore from Snapshot"
+    },
+    "next": {
+      "title": "AutoPilot Reset",
+      "permalink": "/Articles/Microsoft/Intune/AutoPilot Reset"
+    }
+  }
+}

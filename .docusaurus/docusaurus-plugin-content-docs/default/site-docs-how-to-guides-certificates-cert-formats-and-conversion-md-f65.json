@@ -1,0 +1,52 @@
+{
+  "unversionedId": "How-to Guides/Certificates/Certificate Formats and Conversions",
+  "id": "How-to Guides/Certificates/Certificate Formats and Conversions",
+  "title": "Certificate Formats and Conversions",
+  "description": "Certificate Formats",
+  "source": "@site/docs/How-to Guides/Certificates/Cert formats and conversion.md",
+  "sourceDirName": "How-to Guides/Certificates",
+  "slug": "/How-to Guides/Certificates/Certificate Formats and Conversions",
+  "permalink": "/How-to Guides/Certificates/Certificate Formats and Conversions",
+  "draft": false,
+  "tags": [
+    {
+      "label": "KB",
+      "permalink": "/tags/kb"
+    },
+    {
+      "label": "Certificates",
+      "permalink": "/tags/certificates"
+    },
+    {
+      "label": "pem",
+      "permalink": "/tags/pem"
+    },
+    {
+      "label": "pfx",
+      "permalink": "/tags/pfx"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "toc_max_heading_level": 4,
+    "id": "Certificate Formats and Conversions",
+    "title": "Certificate Formats and Conversions",
+    "tags": [
+      "KB",
+      "Certificates",
+      "pem",
+      "pfx"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Certificates",
+    "permalink": "/category/certificates"
+  },
+  "next": {
+    "title": "Generating a CSR",
+    "permalink": "/How-to Guides/Certificates/Generating a CSR"
+  }
+}

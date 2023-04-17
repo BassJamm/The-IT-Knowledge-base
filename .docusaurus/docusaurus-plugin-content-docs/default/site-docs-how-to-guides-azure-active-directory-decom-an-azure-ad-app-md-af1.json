@@ -1,0 +1,47 @@
+{
+  "unversionedId": "How-to Guides/Azure Active Directory/Decom an Azure AD App",
+  "id": "How-to Guides/Azure Active Directory/Decom an Azure AD App",
+  "title": "Decom an Azure AD App",
+  "description": "Pre-requisits",
+  "source": "@site/docs/How-to Guides/Azure Active Directory/Decom an Azure AD App.md",
+  "sourceDirName": "How-to Guides/Azure Active Directory",
+  "slug": "/How-to Guides/Azure Active Directory/Decom an Azure AD App",
+  "permalink": "/How-to Guides/Azure Active Directory/Decom an Azure AD App",
+  "draft": false,
+  "tags": [
+    {
+      "label": "Guide",
+      "permalink": "/tags/guide"
+    },
+    {
+      "label": "AzureAD",
+      "permalink": "/tags/azure-ad"
+    },
+    {
+      "label": "Apps",
+      "permalink": "/tags/apps"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "id": "Decom an Azure AD App",
+    "title": "Decom an Azure AD App",
+    "toc_max_heading_level": 4,
+    "tags": [
+      "Guide",
+      "AzureAD",
+      "Apps"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Azure Active Directory",
+    "permalink": "/category/azure-active-directory"
+  },
+  "next": {
+    "title": "Certificates",
+    "permalink": "/category/certificates"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "label": "AzureAD",
+  "permalink": "/tags/azure-ad",
+  "allTagsPath": "/tags",
+  "count": 1,
+  "items": [
+    {
+      "id": "How-to Guides/Azure Active Directory/Decom an Azure AD App",
+      "title": "Decom an Azure AD App",
+      "description": "Pre-requisits",
+      "permalink": "/How-to Guides/Azure Active Directory/Decom an Azure AD App"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "unversionedId": "Code Snippets/Exchange Online",
+  "id": "Code Snippets/Exchange Online",
+  "title": "Exchange Online",
+  "description": "Get-Calendar Permissions",
+  "source": "@site/docs/Code Snippets/Exchange Online.md",
+  "sourceDirName": "Code Snippets",
+  "slug": "/Code Snippets/Exchange Online",
+  "permalink": "/Code Snippets/Exchange Online",
+  "draft": false,
+  "tags": [
+    {
+      "label": "Command Line",
+      "permalink": "/tags/command-line"
+    },
+    {
+      "label": "Exchange Online",
+      "permalink": "/tags/exchange-online"
+    },
+    {
+      "label": "PowerShell",
+      "permalink": "/tags/power-shell"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3,
+    "id": "Exchange Online",
+    "title": "Exchange Online",
+    "tags": [
+      "Command Line",
+      "Exchange Online",
+      "PowerShell"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Code Snippets",
+    "permalink": "/category/code-snippets"
+  },
+  "next": {
+    "title": "Miscellaneous Code",
+    "permalink": "/Code Snippets/Miscellaneous Code"
+  }
+}

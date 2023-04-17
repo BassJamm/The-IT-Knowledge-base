@@ -1,0 +1,36 @@
+{
+  "unversionedId": "Articles/Veeam/Veeam Backup for O365/Managing Backup Jobs",
+  "id": "Articles/Veeam/Veeam Backup for O365/Managing Backup Jobs",
+  "title": "Managing Backup Jobs",
+  "description": "Before you begin",
+  "source": "@site/docs/Articles/Veeam/Veeam Backup for O365/Managing Backup Jobs.md",
+  "sourceDirName": "Articles/Veeam/Veeam Backup for O365",
+  "slug": "/Articles/Veeam/Veeam Backup for O365/Managing Backup Jobs",
+  "permalink": "/Articles/Veeam/Veeam Backup for O365/Managing Backup Jobs",
+  "draft": false,
+  "tags": [
+    {
+      "label": "VBO",
+      "permalink": "/tags/vbo"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "id": "Managing Backup Jobs",
+    "title": "Managing Backup Jobs",
+    "tags": [
+      "VBO"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Veeam Backup for O365",
+    "permalink": "/category/veeam-backup-for-o365"
+  },
+  "next": {
+    "title": "Removing data and licenses",
+    "permalink": "/Articles/Veeam/Veeam Backup for O365/Removing data and licenses"
+  }
+}

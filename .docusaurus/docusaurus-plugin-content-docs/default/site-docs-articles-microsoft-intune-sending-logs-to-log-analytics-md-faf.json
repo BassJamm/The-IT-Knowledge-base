@@ -1,0 +1,36 @@
+{
+  "unversionedId": "Articles/Microsoft/Intune/Sending Logs to Log Analytics",
+  "id": "Articles/Microsoft/Intune/Sending Logs to Log Analytics",
+  "title": "Sending Logs to Log Analytics",
+  "description": "Microsoft Article - Send log data to storage, event hubs, or log analytics in Intune",
+  "source": "@site/docs/Articles/Microsoft/Intune/Sending Logs to Log Analytics.md",
+  "sourceDirName": "Articles/Microsoft/Intune",
+  "slug": "/Articles/Microsoft/Intune/Sending Logs to Log Analytics",
+  "permalink": "/Articles/Microsoft/Intune/Sending Logs to Log Analytics",
+  "draft": false,
+  "tags": [
+    {
+      "label": "Intune",
+      "permalink": "/tags/intune"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4,
+    "id": "Sending Logs to Log Analytics",
+    "title": "Sending Logs to Log Analytics",
+    "tags": [
+      "Intune"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Renew Apple Tokens and Certs",
+    "permalink": "/Articles/Microsoft/Intune/Renew Apple Tokens and Certs"
+  },
+  "next": {
+    "title": "Partner Centre",
+    "permalink": "/category/partner-centre"
+  }
+}

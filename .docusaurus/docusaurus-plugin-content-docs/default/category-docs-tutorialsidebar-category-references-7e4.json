@@ -1,0 +1,16 @@
+{
+  "title": "References",
+  "description": "Technical references without the fluff.",
+  "slug": "/category/references",
+  "permalink": "/docs/category/references",
+  "navigation": {
+    "previous": {
+      "title": "Reset BitLocker PIN or Password",
+      "permalink": "/docs/How-to Guides/Windows/Reset BitLocker PIN or Password"
+    },
+    "next": {
+      "title": "Intune",
+      "permalink": "/docs/category/intune-1"
+    }
+  }
+}

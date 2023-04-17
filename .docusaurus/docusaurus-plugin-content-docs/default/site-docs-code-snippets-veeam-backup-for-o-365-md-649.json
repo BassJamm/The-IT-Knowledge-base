@@ -1,0 +1,46 @@
+{
+  "unversionedId": "Code Snippets/Veeam Backup for O365",
+  "id": "Code Snippets/Veeam Backup for O365",
+  "title": "Veeam Backup for O365",
+  "description": "Automation of backup reports",
+  "source": "@site/docs/Code Snippets/Veeam Backup for O365.md",
+  "sourceDirName": "Code Snippets",
+  "slug": "/Code Snippets/Veeam Backup for O365",
+  "permalink": "/Code Snippets/Veeam Backup for O365",
+  "draft": false,
+  "tags": [
+    {
+      "label": "Veeam Backup for O365",
+      "permalink": "/tags/veeam-backup-for-o-365"
+    },
+    {
+      "label": "Command Line",
+      "permalink": "/tags/command-line"
+    },
+    {
+      "label": "PowerShell",
+      "permalink": "/tags/power-shell"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "sidebar_position": 6,
+    "id": "Veeam Backup for O365",
+    "title": "Veeam Backup for O365",
+    "tags": [
+      "Veeam Backup for O365",
+      "Command Line",
+      "PowerShell"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "OnPrem Active Directory",
+    "permalink": "/Code Snippets/OnPrem Active Directory"
+  },
+  "next": {
+    "title": "Windows OS and Apps",
+    "permalink": "/Code Snippets/Windows OS and Apps"
+  }
+}

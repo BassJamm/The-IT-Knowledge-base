@@ -1,0 +1,16 @@
+{
+  "title": "Articles",
+  "description": "help docs for all subjects.",
+  "slug": "/category/articles",
+  "permalink": "/docs/category/articles",
+  "navigation": {
+    "previous": {
+      "title": "document title",
+      "permalink": "/docs/Guides/document iD"
+    },
+    "next": {
+      "title": "Veeam",
+      "permalink": "/docs/category/veeam"
+    }
+  }
+}

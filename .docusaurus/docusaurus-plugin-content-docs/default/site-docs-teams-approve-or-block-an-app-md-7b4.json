@@ -1,0 +1,36 @@
+{
+  "unversionedId": "Teams/Approve or Block an App",
+  "id": "Teams/Approve or Block an App",
+  "title": "Approve or Block an App",
+  "description": "Description: Approve or block an app for the organisation.",
+  "source": "@site/docs/Teams/Approve or Block an App.md",
+  "sourceDirName": "Teams",
+  "slug": "/Teams/Approve or Block an App",
+  "permalink": "/docs/Teams/Approve or Block an App",
+  "draft": false,
+  "tags": [
+    {
+      "label": "Teams",
+      "permalink": "/docs/tags/teams"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "id": "Approve or Block an App",
+    "title": "Approve or Block an App",
+    "tags": [
+      "Teams"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Microsoft Teams",
+    "permalink": "/docs/category/microsoft-teams"
+  },
+  "next": {
+    "title": "Veeam Backup for O365",
+    "permalink": "/docs/category/veeam-backup-for-o365"
+  }
+}

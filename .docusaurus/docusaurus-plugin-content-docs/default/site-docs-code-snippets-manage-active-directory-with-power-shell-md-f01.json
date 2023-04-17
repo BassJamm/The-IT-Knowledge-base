@@ -1,0 +1,37 @@
+{
+  "unversionedId": "Code Snippets/Manage Active Directory with PowerShell",
+  "id": "Code Snippets/Manage Active Directory with PowerShell",
+  "title": "Manage Active Directory with PowerShell",
+  "description": "Filter by an attribute",
+  "source": "@site/docs/Code Snippets/Manage Active Directory with PowerShell.md",
+  "sourceDirName": "Code Snippets",
+  "slug": "/Code Snippets/Manage Active Directory with PowerShell",
+  "permalink": "/Code Snippets/Manage Active Directory with PowerShell",
+  "draft": false,
+  "tags": [
+    {
+      "label": "PowerShell",
+      "permalink": "/tags/power-shell"
+    },
+    {
+      "label": "AD",
+      "permalink": "/tags/ad"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2,
+    "id": "Manage Active Directory with PowerShell",
+    "title": "Manage Active Directory with PowerShell",
+    "tags": [
+      "PowerShell",
+      "AD"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Code Snippets",
+    "permalink": "/category/code-snippets"
+  }
+}

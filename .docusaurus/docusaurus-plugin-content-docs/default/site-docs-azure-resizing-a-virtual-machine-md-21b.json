@@ -1,0 +1,36 @@
+{
+  "unversionedId": "Azure/Resizing a Virtual Machine",
+  "id": "Azure/Resizing a Virtual Machine",
+  "title": "Resizing a Virtual Machine",
+  "description": "1.1. Before you begin",
+  "source": "@site/docs/Azure/Resizing a Virtual Machine.md",
+  "sourceDirName": "Azure",
+  "slug": "/Azure/Resizing a Virtual Machine",
+  "permalink": "/docs/Azure/Resizing a Virtual Machine",
+  "draft": false,
+  "tags": [
+    {
+      "label": "Azure",
+      "permalink": "/docs/tags/azure"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "id": "Resizing a Virtual Machine",
+    "title": "Resizing a Virtual Machine",
+    "tags": [
+      "Azure"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Azure",
+    "permalink": "/docs/category/azure"
+  },
+  "next": {
+    "title": "Azure Cli",
+    "permalink": "/docs/category/azure-cli"
+  }
+}

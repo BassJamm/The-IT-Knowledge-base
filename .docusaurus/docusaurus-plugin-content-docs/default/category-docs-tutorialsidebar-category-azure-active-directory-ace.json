@@ -1,0 +1,16 @@
+{
+  "title": "Azure Active Directory",
+  "description": "Guides for achieving an end result.",
+  "slug": "/category/azure-active-directory",
+  "permalink": "/docs/category/azure-active-directory",
+  "navigation": {
+    "previous": {
+      "title": "Setup Azure Backup",
+      "permalink": "/docs/How-to Guides/Azure/Setup Azure Backup"
+    },
+    "next": {
+      "title": "Decom an Azure AD App",
+      "permalink": "/docs/How-to Guides/Azure Active Directory/Decom an Azure AD App"
+    }
+  }
+}

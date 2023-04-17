@@ -1,0 +1,46 @@
+{
+  "unversionedId": "Code References/Windows OS",
+  "id": "Code References/Windows OS",
+  "title": "Windows OS",
+  "description": "Folder size report",
+  "source": "@site/docs/Code References/Windows OS.md",
+  "sourceDirName": "Code References",
+  "slug": "/Code References/Windows OS",
+  "permalink": "/Code References/Windows OS",
+  "draft": false,
+  "tags": [
+    {
+      "label": "Code",
+      "permalink": "/tags/code"
+    },
+    {
+      "label": "Scripts",
+      "permalink": "/tags/scripts"
+    },
+    {
+      "label": "PowerShell",
+      "permalink": "/tags/power-shell"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4,
+    "id": "Windows OS",
+    "title": "Windows OS",
+    "tags": [
+      "Code",
+      "Scripts",
+      "PowerShell"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "User Management",
+    "permalink": "/Code References/User Management"
+  },
+  "next": {
+    "title": "Scenario based Guidance",
+    "permalink": "/category/scenario-based-guidance"
+  }
+}

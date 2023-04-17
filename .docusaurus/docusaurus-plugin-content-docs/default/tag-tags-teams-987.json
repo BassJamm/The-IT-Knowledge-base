@@ -1,0 +1,20 @@
+{
+  "label": "Teams",
+  "permalink": "/tags/teams",
+  "allTagsPath": "/tags",
+  "count": 2,
+  "items": [
+    {
+      "id": "Articles/Microsoft/Teams/Approve or Block an App",
+      "title": "Approve or Block an App",
+      "description": "Description: Approve or block an app for the organisation.",
+      "permalink": "/Articles/Microsoft/Teams/Approve or Block an App"
+    },
+    {
+      "id": "Articles/Microsoft/Teams/External chat in Teams",
+      "title": "External chat in Teams",
+      "description": "Scenario",
+      "permalink": "/Articles/Microsoft/Teams/External chat in Teams"
+    }
+  ]
+}

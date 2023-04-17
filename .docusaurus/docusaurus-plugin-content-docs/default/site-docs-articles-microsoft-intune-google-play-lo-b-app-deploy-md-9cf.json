@@ -1,0 +1,51 @@
+{
+  "unversionedId": "Articles/Microsoft/Intune/Google Play LoB app deploy",
+  "id": "Articles/Microsoft/Intune/Google Play LoB app deploy",
+  "title": "Google Play LoB app deploy",
+  "description": "Add the App into Intune",
+  "source": "@site/docs/Articles/Microsoft/Intune/Google Play LoB app deploy.md",
+  "sourceDirName": "Articles/Microsoft/Intune",
+  "slug": "/Articles/Microsoft/Intune/Google Play LoB app deploy",
+  "permalink": "/Articles/Microsoft/Intune/Google Play LoB app deploy",
+  "draft": false,
+  "tags": [
+    {
+      "label": "KB",
+      "permalink": "/tags/kb"
+    },
+    {
+      "label": "Intune",
+      "permalink": "/tags/intune"
+    },
+    {
+      "label": "Google Play",
+      "permalink": "/tags/google-play"
+    },
+    {
+      "label": "App Deployment",
+      "permalink": "/tags/app-deployment"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2,
+    "id": "Google Play LoB app deploy",
+    "title": "Google Play LoB app deploy",
+    "tags": [
+      "KB",
+      "Intune",
+      "Google Play",
+      "App Deployment"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "AutoPilot Reset",
+    "permalink": "/Articles/Microsoft/Intune/AutoPilot Reset"
+  },
+  "next": {
+    "title": "Sending Logs to Log Analytics",
+    "permalink": "/Articles/Microsoft/Intune/Sending Logs to Log Analytics"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "unversionedId": "Intune/Sending Logs to Log Analytics",
+  "id": "Intune/Sending Logs to Log Analytics",
+  "title": "Sending Logs to Log Analytics",
+  "description": "Microsoft Article - Send log data to storage, event hubs, or log analytics in Intune",
+  "source": "@site/docs/Intune/Sending Logs to Log Analytics.md",
+  "sourceDirName": "Intune",
+  "slug": "/Intune/Sending Logs to Log Analytics",
+  "permalink": "/docs/Intune/Sending Logs to Log Analytics",
+  "draft": false,
+  "tags": [
+    {
+      "label": "Intune",
+      "permalink": "/docs/tags/intune"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2,
+    "id": "Sending Logs to Log Analytics",
+    "title": "Sending Logs to Log Analytics",
+    "tags": [
+      "Intune"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "AutoPilot Reset",
+    "permalink": "/docs/Intune/AutoPilot Reset"
+  },
+  "next": {
+    "title": "Partner Centre",
+    "permalink": "/docs/category/partner-centre"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "title": "Azure Resources Management",
+  "description": "Articles all about Azure Resource Management.",
+  "slug": "/category/azure-resources-management",
+  "permalink": "/docs/category/azure-resources-management",
+  "navigation": {
+    "previous": {
+      "title": "AzCli Cheatsheet",
+      "permalink": "/docs/Azure CLi/AzCli Cheatsheet"
+    },
+    "next": {
+      "title": "Automation in Azure",
+      "permalink": "/docs/category/automation-in-azure"
+    }
+  }
+}

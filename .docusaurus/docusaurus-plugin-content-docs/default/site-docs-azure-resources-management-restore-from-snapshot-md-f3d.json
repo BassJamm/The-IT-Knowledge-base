@@ -1,0 +1,46 @@
+{
+  "unversionedId": "Azure Resources Management/Restore from Snapshot",
+  "id": "Azure Resources Management/Restore from Snapshot",
+  "title": "Restore from Snapshot",
+  "description": "1. Create your snapshot",
+  "source": "@site/docs/Azure Resources Management/Restore from Snapshot.md",
+  "sourceDirName": "Azure Resources Management",
+  "slug": "/Azure Resources Management/Restore from Snapshot",
+  "permalink": "/docs/Azure Resources Management/Restore from Snapshot",
+  "draft": false,
+  "tags": [
+    {
+      "label": "Azure",
+      "permalink": "/docs/tags/azure"
+    },
+    {
+      "label": "Restore",
+      "permalink": "/docs/tags/restore"
+    },
+    {
+      "label": "SnapShot",
+      "permalink": "/docs/tags/snap-shot"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "sidebar_position": 6,
+    "id": "Restore from Snapshot",
+    "title": "Restore from Snapshot",
+    "tags": [
+      "Azure",
+      "Restore",
+      "SnapShot"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Resizing a Virtual Machine",
+    "permalink": "/docs/Azure Resources Management/Resizing a Virtual Machine"
+  },
+  "next": {
+    "title": "Setup Azure Backup",
+    "permalink": "/docs/Azure Resources Management/Setup Azure Backup"
+  }
+}

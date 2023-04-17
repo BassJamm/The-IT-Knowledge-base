@@ -1,0 +1,40 @@
+{
+  "permalink": "/blog/Azure Permission & Resource Management",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/test-post.md",
+  "source": "@site/blog/test-post.md",
+  "title": "Azure Permission & Resource Management",
+  "description": "Something that can be quite annoying to grasp are the varying permission levels and roles involved in the Microsoft Cloud platforms.",
+  "date": "2023-01-03T12:36:46.720Z",
+  "formattedDate": "January 3, 2023",
+  "tags": [
+    {
+      "label": "KB",
+      "permalink": "/blog/tags/kb"
+    },
+    {
+      "label": "Azure",
+      "permalink": "/blog/tags/azure"
+    },
+    {
+      "label": "Permissions",
+      "permalink": "/blog/tags/permissions"
+    }
+  ],
+  "readingTime": 3.21,
+  "hasTruncateMarker": true,
+  "authors": [
+    {
+      "name": "itjamm"
+    }
+  ],
+  "frontMatter": {
+    "slug": "Azure Permission & Resource Management",
+    "title": "Azure Permission & Resource Management",
+    "author": "itjamm",
+    "tags": [
+      "KB",
+      "Azure",
+      "Permissions"
+    ]
+  }
+}

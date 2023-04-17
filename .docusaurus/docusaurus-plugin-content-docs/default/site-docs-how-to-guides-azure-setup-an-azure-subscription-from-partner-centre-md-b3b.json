@@ -1,0 +1,36 @@
+{
+  "unversionedId": "How-to Guides/Azure/Setup an Azure Subscription from Partner Centre",
+  "id": "How-to Guides/Azure/Setup an Azure Subscription from Partner Centre",
+  "title": "Setup an Azure Subscription from Partner Centre",
+  "description": "Description: Setup an Azure Subscription within Partner Centre for a customer. This has the added benefit of creating the PAL or DPOR link to earn partner credit.",
+  "source": "@site/docs/How-to Guides/Azure/Setup an Azure Subscription from Partner Centre.md",
+  "sourceDirName": "How-to Guides/Azure",
+  "slug": "/How-to Guides/Azure/Setup an Azure Subscription from Partner Centre",
+  "permalink": "/How-to Guides/Azure/Setup an Azure Subscription from Partner Centre",
+  "draft": false,
+  "tags": [
+    {
+      "label": "PartnerCentre",
+      "permalink": "/tags/partner-centre"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 7,
+  "frontMatter": {
+    "sidebar_position": 7,
+    "id": "Setup an Azure Subscription from Partner Centre",
+    "title": "Setup an Azure Subscription from Partner Centre",
+    "tags": [
+      "PartnerCentre"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Restore data from a Snapshot",
+    "permalink": "/How-to Guides/Azure/Restore data from a Snapshot"
+  },
+  "next": {
+    "title": "Deploy Google Play store app",
+    "permalink": "/How-to Guides/Deploy Google Play store app"
+  }
+}

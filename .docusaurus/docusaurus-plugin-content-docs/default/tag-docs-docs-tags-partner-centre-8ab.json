@@ -1,0 +1,20 @@
+{
+  "label": "PartnerCentre",
+  "permalink": "/docs/docs/tags/partner-centre",
+  "allTagsPath": "/docs/docs/tags",
+  "count": 2,
+  "items": [
+    {
+      "id": "How-to Guides/Partner Centre/Setup an Azure Subscription from Partner Centre",
+      "title": "Setup an Azure Subscription from Partner Centre",
+      "description": "Description: Setup an Azure Subscription within Partner Centre for a customer. This has the added benefit of creating the PAL or DPOR link to earn partner credit.",
+      "permalink": "/docs/docs/How-to Guides/Partner Centre/Setup an Azure Subscription from Partner Centre"
+    },
+    {
+      "id": "References/take ownership of customer azure subscription",
+      "title": "Take ownership of customer azure subscription",
+      "description": "Microsoft Article: Reinstate admin privileges for a customer's Azure CSP subscriptions.",
+      "permalink": "/docs/docs/References/take ownership of customer azure subscription"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "unversionedId": "How-to Guides/Deploy Google Play store app",
+  "id": "How-to Guides/Deploy Google Play store app",
+  "title": "Deploy Google Play store app",
+  "description": "Definition of a Managed Google Play store app: Public apps that are generally available in the Play Store. Manage these apps in Intune by browsing for the apps you want to manage, approving them, and then synchronizing them into Intune.",
+  "source": "@site/docs/How-to Guides/Deploy Managed Google Play store app.md",
+  "sourceDirName": "How-to Guides",
+  "slug": "/How-to Guides/Deploy Google Play store app",
+  "permalink": "/How-to Guides/Deploy Google Play store app",
+  "draft": false,
+  "tags": [
+    {
+      "label": "KB",
+      "permalink": "/tags/kb"
+    },
+    {
+      "label": "Intune",
+      "permalink": "/tags/intune"
+    },
+    {
+      "label": "Google Play",
+      "permalink": "/tags/google-play"
+    },
+    {
+      "label": "App Deployment",
+      "permalink": "/tags/app-deployment"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3,
+    "id": "Deploy Google Play store app",
+    "title": "Deploy Google Play store app",
+    "tags": [
+      "KB",
+      "Intune",
+      "Google Play",
+      "App Deployment"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Setup Azure Backup",
+    "permalink": "/How-to Guides/Azure/Setup Azure Backup"
+  },
+  "next": {
+    "title": "Setup an Azure Subscription from Partner Centre",
+    "permalink": "/How-to Guides/Setup an Azure Subscription from Partner Centre"
+  }
+}

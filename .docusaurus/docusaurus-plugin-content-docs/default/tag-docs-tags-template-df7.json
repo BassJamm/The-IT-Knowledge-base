@@ -1,0 +1,26 @@
+{
+  "label": "template",
+  "permalink": "/docs/tags/template",
+  "allTagsPath": "/docs/tags",
+  "count": 3,
+  "items": [
+    {
+      "id": "Articles/Microsoft/document iD",
+      "title": "document title",
+      "description": "Use the navigation bar to the left to find relevant articles.",
+      "permalink": "/docs/Articles/Microsoft/document iD"
+    },
+    {
+      "id": "Articles/Veeam/document iD",
+      "title": "document title",
+      "description": "Use the navigation bar to the left to find relevant articles.",
+      "permalink": "/docs/Articles/Veeam/document iD"
+    },
+    {
+      "id": "Guides/document iD",
+      "title": "document title",
+      "description": "Use the navigation bar to the left to find relevant articles.",
+      "permalink": "/docs/Guides/document iD"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "label": "Automation",
+  "permalink": "/docs/tags/automation",
+  "allTagsPath": "/docs/tags",
+  "count": 1,
+  "items": [
+    {
+      "id": "How-to Guides/Azure/Create an Automation Account",
+      "title": "Create an Automation Account",
+      "description": "Run As accounts are being deprecated, managed identities are replacing this.",
+      "permalink": "/docs/How-to Guides/Azure/Create an Automation Account"
+    }
+  ]
+}

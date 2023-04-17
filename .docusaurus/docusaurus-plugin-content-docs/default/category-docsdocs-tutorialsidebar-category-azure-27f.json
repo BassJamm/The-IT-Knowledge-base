@@ -1,0 +1,16 @@
+{
+  "title": "Azure",
+  "description": "Guides for achieving an end result.",
+  "slug": "/category/azure",
+  "permalink": "/docs/docs/category/azure",
+  "navigation": {
+    "previous": {
+      "title": "How-to Guides",
+      "permalink": "/docs/docs/category/how-to-guides"
+    },
+    "next": {
+      "title": "Setup Azure Lighthouse",
+      "permalink": "/docs/docs/How-to Guides/Azure/Setup Azure Lighthouse"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "label": "Reset Device",
+  "permalink": "/docs/docs/tags/reset-device",
+  "allTagsPath": "/docs/docs/tags",
+  "count": 1,
+  "items": [
+    {
+      "id": "How-to Guides/Intune/Perform an AutoPilot Reset",
+      "title": "Perform an AutoPilot Reset",
+      "description": "Description: Perform an AutoPilot Reset on a Windows Device.",
+      "permalink": "/docs/docs/How-to Guides/Intune/Perform an AutoPilot Reset"
+    }
+  ]
+}

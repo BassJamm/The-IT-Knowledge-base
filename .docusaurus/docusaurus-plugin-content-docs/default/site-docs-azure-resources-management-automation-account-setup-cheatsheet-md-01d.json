@@ -1,0 +1,36 @@
+{
+  "unversionedId": "Azure Resources Management/Automation Account Setup Cheatsheet",
+  "id": "Azure Resources Management/Automation Account Setup Cheatsheet",
+  "title": "Automation Account Setup Cheatsheet",
+  "description": "Microsoft doc - Create a standalone Azure Automation account.",
+  "source": "@site/docs/Azure Resources Management/Automation Account Setup Cheatsheet.md",
+  "sourceDirName": "Azure Resources Management",
+  "slug": "/Azure Resources Management/Automation Account Setup Cheatsheet",
+  "permalink": "/docs/Azure Resources Management/Automation Account Setup Cheatsheet",
+  "draft": false,
+  "tags": [
+    {
+      "label": "Azure",
+      "permalink": "/docs/tags/azure"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2,
+    "id": "Automation Account Setup Cheatsheet",
+    "title": "Automation Account Setup Cheatsheet",
+    "tags": [
+      "Azure"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Assign Managed Identity permissions via CMDLine",
+    "permalink": "/docs/Azure Resources Management/Assign Managed Identity permissions via CMDLine"
+  },
+  "next": {
+    "title": "Setup Azure Backup",
+    "permalink": "/docs/Azure Resources Management/Setup Azure Backup"
+  }
+}

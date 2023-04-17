@@ -1,0 +1,41 @@
+{
+  "unversionedId": "CheatSheets/Bicep/Building your first template/Defining Resources",
+  "id": "CheatSheets/Bicep/Building your first template/Defining Resources",
+  "title": "Defining Resources",
+  "description": "Defining Resources",
+  "source": "@site/docs/CheatSheets/Bicep/Building your first template/Defining Resources.md",
+  "sourceDirName": "CheatSheets/Bicep/Building your first template",
+  "slug": "/CheatSheets/Bicep/Building your first template/Defining Resources",
+  "permalink": "/CheatSheets/Bicep/Building your first template/Defining Resources",
+  "draft": false,
+  "tags": [
+    {
+      "label": "Bicep",
+      "permalink": "/tags/bicep"
+    },
+    {
+      "label": "CheatSheet",
+      "permalink": "/tags/cheat-sheet"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "id": "Defining Resources",
+    "title": "Defining Resources",
+    "tags": [
+      "Bicep",
+      "CheatSheet"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Building your first template",
+    "permalink": "/category/building-your-first-template"
+  },
+  "next": {
+    "title": "Deploying Resources",
+    "permalink": "/CheatSheets/Bicep/Building your first template/Deploying Resources"
+  }
+}

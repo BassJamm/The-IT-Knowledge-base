@@ -1,0 +1,26 @@
+{
+  "label": "Certificates",
+  "permalink": "/docs/docs/tags/certificates",
+  "allTagsPath": "/docs/docs/tags",
+  "count": 3,
+  "items": [
+    {
+      "id": "How-to Guides/Certificates/Certificate Formats and Conversions",
+      "title": "Certificate Formats and Conversions",
+      "description": "Certificate Formats",
+      "permalink": "/docs/docs/How-to Guides/Certificates/Certificate Formats and Conversions"
+    },
+    {
+      "id": "How-to Guides/Certificates/Generating a CSR",
+      "title": "Generating a CSR",
+      "description": "What is a CSR?",
+      "permalink": "/docs/docs/How-to Guides/Certificates/Generating a CSR"
+    },
+    {
+      "id": "How-to Guides/Certificates/Request Cert from internal CA",
+      "title": "Request Cert from internal CA",
+      "description": "Generating a CSR",
+      "permalink": "/docs/docs/How-to Guides/Certificates/Request Cert from internal CA"
+    }
+  ]
+}

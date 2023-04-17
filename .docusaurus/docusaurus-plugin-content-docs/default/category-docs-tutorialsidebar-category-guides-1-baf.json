@@ -1,0 +1,16 @@
+{
+  "title": "Guides",
+  "description": "Full guides on technology..",
+  "slug": "/category/guides-1",
+  "permalink": "/docs/category/guides-1",
+  "navigation": {
+    "previous": {
+      "title": "document title",
+      "permalink": "/docs/Guides/document iD"
+    },
+    "next": {
+      "title": "Automation in Azure",
+      "permalink": "/docs/category/automation-in-azure-1"
+    }
+  }
+}

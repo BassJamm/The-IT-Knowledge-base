@@ -1,0 +1,19 @@
+{
+  "unversionedId": "Azure Resources Management/index",
+  "id": "Azure Resources Management/index",
+  "title": "Wiki Contents",
+  "description": "back to ReadMe",
+  "source": "@site/docs/Azure Resources Management/index.md",
+  "sourceDirName": "Azure Resources Management",
+  "slug": "/Azure Resources Management/",
+  "permalink": "/docs/Azure Resources Management/",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "1. Restore from Snapshot",
+    "permalink": "/docs/Azure Resources Management/Restore from Snapshot"
+  }
+}

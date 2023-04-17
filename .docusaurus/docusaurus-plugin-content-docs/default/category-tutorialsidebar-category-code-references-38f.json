@@ -1,0 +1,15 @@
+{
+  "title": "Code References",
+  "slug": "/category/code-reference",
+  "permalink": "/category/code-reference",
+  "navigation": {
+    "previous": {
+      "title": "Grant Partner Access to Azure Sub",
+      "permalink": "/References/Partner access to Az Sub"
+    },
+    "next": {
+      "title": "Error & logging Management",
+      "permalink": "/Code References/Error & logging Management"
+    }
+  }
+}

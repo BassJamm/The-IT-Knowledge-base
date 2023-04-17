@@ -1,0 +1,41 @@
+{
+  "unversionedId": "Code Snippets/Azure Active Directory",
+  "id": "Code Snippets/Azure Active Directory",
+  "title": "Azure Active Directory",
+  "description": "This document is supposed to be a cheatsheet of commands useful when using the Azure Cli.",
+  "source": "@site/docs/Code Snippets/Azure Active Directory.md",
+  "sourceDirName": "Code Snippets",
+  "slug": "/Code Snippets/Azure Active Directory",
+  "permalink": "/Code Snippets/Azure Active Directory",
+  "draft": false,
+  "tags": [
+    {
+      "label": "AzureAD",
+      "permalink": "/tags/azure-ad"
+    },
+    {
+      "label": "Command Line",
+      "permalink": "/tags/command-line"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "id": "Azure Active Directory",
+    "title": "Azure Active Directory",
+    "tags": [
+      "AzureAD",
+      "Command Line"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Code Snippets",
+    "permalink": "/category/code-snippets"
+  },
+  "next": {
+    "title": "Exchange Online",
+    "permalink": "/Code Snippets/Exchange Online"
+  }
+}

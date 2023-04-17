@@ -1,0 +1,62 @@
+{
+  "permalink": "/blog/My-Automation-Nightmare",
+  "source": "@site/blog/Jan-2023/My Automation Nightmare.md",
+  "title": "My Automation Nightmare",
+  "description": "My Automation Nightmare",
+  "date": "2023-01-07T00:00:00.000Z",
+  "formattedDate": "January 7, 2023",
+  "tags": [
+    {
+      "label": "Azure",
+      "permalink": "/blog/tags/azure"
+    },
+    {
+      "label": "Automation Account",
+      "permalink": "/blog/tags/automation-account"
+    },
+    {
+      "label": "PowerShell",
+      "permalink": "/blog/tags/power-shell"
+    },
+    {
+      "label": "Managed Identities",
+      "permalink": "/blog/tags/managed-identities"
+    }
+  ],
+  "readingTime": 3.67,
+  "hasTruncateMarker": true,
+  "authors": [
+    {
+      "name": "it jamm",
+      "title": "Site Admin",
+      "url": "https://github.com/ITJamm",
+      "imageURL": "https://avatars.githubusercontent.com/u/75690476?v=4",
+      "key": "itjamm"
+    }
+  ],
+  "frontMatter": {
+    "slug": "My-Automation-Nightmare",
+    "title": "My Automation Nightmare",
+    "description": "My Automation Nightmare",
+    "date": "01/07/2023",
+    "authors": "itjamm",
+    "draft": false,
+    "tags": [
+      "Azure",
+      "Automation Account",
+      "PowerShell",
+      "Managed Identities"
+    ],
+    "keywords": [
+      "Azure",
+      "Automation",
+      "PowerShell",
+      "Managed Identities"
+    ],
+    "hide_table_of_contents": false
+  },
+  "nextItem": {
+    "title": "What can you Automate",
+    "permalink": "/blog/What can you Automate"
+  }
+}

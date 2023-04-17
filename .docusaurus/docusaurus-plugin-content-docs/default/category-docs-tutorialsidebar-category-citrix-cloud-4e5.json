@@ -1,0 +1,16 @@
+{
+  "title": "Citrix Cloud",
+  "description": "Guides for achieving an end result.",
+  "slug": "/category/citrix-cloud",
+  "permalink": "/docs/category/citrix-cloud",
+  "navigation": {
+    "previous": {
+      "title": "Request Cert from internal CA",
+      "permalink": "/docs/How-to Guides/Certificates/Request Cert from internal CA"
+    },
+    "next": {
+      "title": "Citrix Image Update Guidance",
+      "permalink": "/docs/How-to Guides/Citrix Cloud/Citrix Image Update Guidance"
+    }
+  }
+}

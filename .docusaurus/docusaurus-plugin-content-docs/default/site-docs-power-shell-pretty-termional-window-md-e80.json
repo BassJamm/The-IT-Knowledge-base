@@ -1,0 +1,37 @@
+{
+  "unversionedId": "PowerShell/Prettier Terminal Window",
+  "id": "PowerShell/Prettier Terminal Window",
+  "title": "Prettier Terminal Window",
+  "description": "This isn't original material, please check out the links below to the location of where I found the information:",
+  "source": "@site/docs/PowerShell/Pretty Termional Window.md",
+  "sourceDirName": "PowerShell",
+  "slug": "/PowerShell/Prettier Terminal Window",
+  "permalink": "/docs/PowerShell/Prettier Terminal Window",
+  "draft": false,
+  "tags": [
+    {
+      "label": "PowerShell",
+      "permalink": "/docs/tags/power-shell"
+    },
+    {
+      "label": "Admin",
+      "permalink": "/docs/tags/admin"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3,
+    "id": "Prettier Terminal Window",
+    "title": "Prettier Terminal Window",
+    "tags": [
+      "PowerShell",
+      "Admin"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Manage Active Directory with PowerShell",
+    "permalink": "/docs/PowerShell/Manage Active Directory with PowerShell"
+  }
+}

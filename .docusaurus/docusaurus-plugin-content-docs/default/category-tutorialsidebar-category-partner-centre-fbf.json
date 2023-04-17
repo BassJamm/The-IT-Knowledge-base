@@ -1,0 +1,16 @@
+{
+  "title": "Partner Centre",
+  "description": "Guides for achieving an end result.",
+  "slug": "/category/partner-centre",
+  "permalink": "/category/partner-centre",
+  "navigation": {
+    "previous": {
+      "title": "Renew Apple Tokens and Certs",
+      "permalink": "/How-to Guides/Intune/Renew Apple Tokens and Certs"
+    },
+    "next": {
+      "title": "Setup an Azure Subscription from Partner Centre",
+      "permalink": "/How-to Guides/Partner Centre/Setup an Azure Subscription from Partner Centre"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "label": "VBO",
+  "permalink": "/docs/tags/vbo",
+  "allTagsPath": "/docs/tags",
+  "count": 3,
+  "items": [
+    {
+      "id": "Articles/Veeam/Veeam Backup for O365/Managing Backup Jobs",
+      "title": "Managing Backup Jobs",
+      "description": "1. Before you begin",
+      "permalink": "/docs/Articles/Veeam/Veeam Backup for O365/Managing Backup Jobs"
+    },
+    {
+      "id": "Articles/Veeam/Veeam Backup for O365/Removing data and licenses",
+      "title": "Removing data and licenses",
+      "description": "How to remove a license from a user in VBO.",
+      "permalink": "/docs/Articles/Veeam/Veeam Backup for O365/Removing data and licenses"
+    },
+    {
+      "id": "Articles/Veeam/Veeam Backup for O365/Restore Errors",
+      "title": "Restore Errors",
+      "description": "Capturing information on the restoration errors.",
+      "permalink": "/docs/Articles/Veeam/Veeam Backup for O365/Restore Errors"
+    }
+  ]
+}

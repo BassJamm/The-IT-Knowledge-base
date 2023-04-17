@@ -1,0 +1,16 @@
+{
+  "title": "Microsoft",
+  "description": "Articles all about Microsoft tech.",
+  "slug": "/category/microsoft",
+  "permalink": "/docs/category/microsoft",
+  "navigation": {
+    "previous": {
+      "title": "Restore Errors",
+      "permalink": "/docs/Articles/Veeam/Veeam Backup for O365/Restore Errors"
+    },
+    "next": {
+      "title": "document title",
+      "permalink": "/docs/Articles/Microsoft/document iD"
+    }
+  }
+}

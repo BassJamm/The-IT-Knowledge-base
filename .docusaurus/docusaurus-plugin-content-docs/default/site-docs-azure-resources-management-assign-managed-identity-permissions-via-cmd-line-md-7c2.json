@@ -1,0 +1,36 @@
+{
+  "unversionedId": "Azure Resources Management/Assign Managed Identity permissions via CMDLine",
+  "id": "Azure Resources Management/Assign Managed Identity permissions via CMDLine",
+  "title": "Assign Managed Identity permissions via CMDLine",
+  "description": "- Refernce for where this came from",
+  "source": "@site/docs/Azure Resources Management/Assign Managed Identity permissions via CMDLine.md",
+  "sourceDirName": "Azure Resources Management",
+  "slug": "/Azure Resources Management/Assign Managed Identity permissions via CMDLine",
+  "permalink": "/docs/Azure Resources Management/Assign Managed Identity permissions via CMDLine",
+  "draft": false,
+  "tags": [
+    {
+      "label": "Azure",
+      "permalink": "/docs/tags/azure"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2,
+    "id": "Assign Managed Identity permissions via CMDLine",
+    "title": "Assign Managed Identity permissions via CMDLine",
+    "tags": [
+      "Azure"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Azure Resources Management",
+    "permalink": "/docs/category/azure-resources-management"
+  },
+  "next": {
+    "title": "Azure SQL Server setup cheatsheet",
+    "permalink": "/docs/Azure Resources Management/Azure SQL Server setup cheatsheet"
+  }
+}

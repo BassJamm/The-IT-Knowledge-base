@@ -1,0 +1,46 @@
+{
+  "unversionedId": "Guides copy/Automation in Azure/Create an Automation Account",
+  "id": "Guides copy/Automation in Azure/Create an Automation Account",
+  "title": "Create an Automation Account",
+  "description": "Outline",
+  "source": "@site/docs/Guides copy/Automation in Azure/Create an Automation Account.md",
+  "sourceDirName": "Guides copy/Automation in Azure",
+  "slug": "/Guides copy/Automation in Azure/Create an Automation Account",
+  "permalink": "/docs/Guides copy/Automation in Azure/Create an Automation Account",
+  "draft": false,
+  "tags": [
+    {
+      "label": "Azure",
+      "permalink": "/docs/tags/azure"
+    },
+    {
+      "label": "Automation",
+      "permalink": "/docs/tags/automation"
+    },
+    {
+      "label": "Scripting",
+      "permalink": "/docs/tags/scripting"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2,
+    "id": "Create an Automation Account",
+    "title": "Create an Automation Account",
+    "tags": [
+      "Azure",
+      "Automation",
+      "Scripting"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Assign Managed Identity permissions",
+    "permalink": "/docs/Guides copy/Automation in Azure/Assign Managed Identity permissions"
+  },
+  "next": {
+    "title": "document title",
+    "permalink": "/docs/Guides copy/document iD"
+  }
+}

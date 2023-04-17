@@ -1,0 +1,14 @@
+{
+  "label": "AzureCli",
+  "permalink": "/tags/azure-cli",
+  "allTagsPath": "/tags",
+  "count": 1,
+  "items": [
+    {
+      "id": "Code Snippets/Azure Active Directory",
+      "title": "Azure Active Directory",
+      "description": "This document is supposed to be a cheatsheet of commands useful when using the Azure Cli.",
+      "permalink": "/Code Snippets/Azure Active Directory"
+    }
+  ]
+}

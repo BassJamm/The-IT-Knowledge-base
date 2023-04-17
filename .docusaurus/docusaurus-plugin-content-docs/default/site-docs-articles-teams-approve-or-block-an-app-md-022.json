@@ -1,0 +1,36 @@
+{
+  "unversionedId": "Articles/Teams/Approve or Block an App",
+  "id": "Articles/Teams/Approve or Block an App",
+  "title": "Approve or Block an App",
+  "description": "Description: Approve or block an app for the organisation.",
+  "source": "@site/docs/Articles/Teams/Approve or Block an App.md",
+  "sourceDirName": "Articles/Teams",
+  "slug": "/Articles/Teams/Approve or Block an App",
+  "permalink": "/docs/Articles/Teams/Approve or Block an App",
+  "draft": false,
+  "tags": [
+    {
+      "label": "Teams",
+      "permalink": "/docs/tags/teams"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "id": "Approve or Block an App",
+    "title": "Approve or Block an App",
+    "tags": [
+      "Teams"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Microsoft Teams",
+    "permalink": "/docs/category/microsoft-teams"
+  },
+  "next": {
+    "title": "Tooling",
+    "permalink": "/docs/category/tooling"
+  }
+}

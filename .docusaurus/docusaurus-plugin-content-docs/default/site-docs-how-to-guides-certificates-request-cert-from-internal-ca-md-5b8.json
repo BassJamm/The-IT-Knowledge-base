@@ -1,0 +1,41 @@
+{
+  "unversionedId": "How-to Guides/Certificates/Request Cert from internal CA",
+  "id": "How-to Guides/Certificates/Request Cert from internal CA",
+  "title": "Request Cert from internal CA",
+  "description": "Generating a CSR",
+  "source": "@site/docs/How-to Guides/Certificates/Request Cert from internal CA.md",
+  "sourceDirName": "How-to Guides/Certificates",
+  "slug": "/How-to Guides/Certificates/Request Cert from internal CA",
+  "permalink": "/How-to Guides/Certificates/Request Cert from internal CA",
+  "draft": false,
+  "tags": [
+    {
+      "label": "KB",
+      "permalink": "/tags/kb"
+    },
+    {
+      "label": "Certificates",
+      "permalink": "/tags/certificates"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3,
+    "id": "Request Cert from internal CA",
+    "title": "Request Cert from internal CA",
+    "tags": [
+      "KB",
+      "Certificates"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Generating a CSR",
+    "permalink": "/How-to Guides/Certificates/Generating a CSR"
+  },
+  "next": {
+    "title": "Citrix Cloud",
+    "permalink": "/category/citrix-cloud"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "label": "KB",
+  "permalink": "/docs/docs/tags/kb",
+  "allTagsPath": "/docs/docs/tags",
+  "count": 5,
+  "items": [
+    {
+      "id": "How-to Guides/Certificates/Certificate Formats and Conversions",
+      "title": "Certificate Formats and Conversions",
+      "description": "Certificate Formats",
+      "permalink": "/docs/docs/How-to Guides/Certificates/Certificate Formats and Conversions"
+    },
+    {
+      "id": "How-to Guides/Intune/Deploy Google Play store app",
+      "title": "Deploy Google Play store app",
+      "description": "Definition of a Managed Google Play store app: Public apps that are generally available in the Play Store. Manage these apps in Intune by browsing for the apps you want to manage, approving them, and then synchronizing them into Intune.",
+      "permalink": "/docs/docs/How-to Guides/Intune/Deploy Google Play store app"
+    },
+    {
+      "id": "How-to Guides/Certificates/Generating a CSR",
+      "title": "Generating a CSR",
+      "description": "What is a CSR?",
+      "permalink": "/docs/docs/How-to Guides/Certificates/Generating a CSR"
+    },
+    {
+      "id": "How-to Guides/Intune/Renew Apple Tokens and Certs",
+      "title": "Renew Apple Tokens and Certs",
+      "description": "Read more on this top here, https://learn.microsoft.com/en-us/intune-education/renew-ios-certificate-token.",
+      "permalink": "/docs/docs/How-to Guides/Intune/Renew Apple Tokens and Certs"
+    },
+    {
+      "id": "How-to Guides/Certificates/Request Cert from internal CA",
+      "title": "Request Cert from internal CA",
+      "description": "Generating a CSR",
+      "permalink": "/docs/docs/How-to Guides/Certificates/Request Cert from internal CA"
+    }
+  ]
+}

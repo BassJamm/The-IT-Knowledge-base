@@ -1,0 +1,14 @@
+{
+  "label": "VPP",
+  "permalink": "/docs/tags/vpp",
+  "allTagsPath": "/docs/tags",
+  "count": 1,
+  "items": [
+    {
+      "id": "How-to Guides/Intune/Renew Apple Tokens and Certs",
+      "title": "Renew Apple Tokens and Certs",
+      "description": "Read more on this top here, https://learn.microsoft.com/en-us/intune-education/renew-ios-certificate-token.",
+      "permalink": "/docs/How-to Guides/Intune/Renew Apple Tokens and Certs"
+    }
+  ]
+}

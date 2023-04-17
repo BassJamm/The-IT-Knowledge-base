@@ -1,0 +1,46 @@
+{
+  "unversionedId": "How-to Guides/Setup Azure Lighthouse",
+  "id": "How-to Guides/Setup Azure Lighthouse",
+  "title": "Setup Azure Lighthouse",
+  "description": "This document covers creating a template manually and uploading to a customer directly. Not an Azure Marketplace offering.",
+  "source": "@site/docs/How-to Guides/Azure Lighthouse Setup.md",
+  "sourceDirName": "How-to Guides",
+  "slug": "/How-to Guides/Setup Azure Lighthouse",
+  "permalink": "/How-to Guides/Setup Azure Lighthouse",
+  "draft": false,
+  "tags": [
+    {
+      "label": "Guide",
+      "permalink": "/tags/guide"
+    },
+    {
+      "label": "Azure",
+      "permalink": "/tags/azure"
+    },
+    {
+      "label": "Lighthouse",
+      "permalink": "/tags/lighthouse"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "id": "Setup Azure Lighthouse",
+    "title": "Setup Azure Lighthouse",
+    "tags": [
+      "Guide",
+      "Azure",
+      "Lighthouse"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "How-to Guides",
+    "permalink": "/category/how-to-guides"
+  },
+  "next": {
+    "title": "Create an Automation Account",
+    "permalink": "/How-to Guides/Create an Automation Account"
+  }
+}

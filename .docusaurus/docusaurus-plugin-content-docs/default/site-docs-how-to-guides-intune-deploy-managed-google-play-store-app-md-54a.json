@@ -1,0 +1,51 @@
+{
+  "unversionedId": "How-to Guides/Intune/Deploy Google Play store app",
+  "id": "How-to Guides/Intune/Deploy Google Play store app",
+  "title": "Deploy Google Play store app",
+  "description": "Definition of a Managed Google Play store app: Public apps that are generally available in the Play Store. Manage these apps in Intune by browsing for the apps you want to manage, approving them, and then synchronizing them into Intune.",
+  "source": "@site/docs/How-to Guides/Intune/Deploy Managed Google Play store app.md",
+  "sourceDirName": "How-to Guides/Intune",
+  "slug": "/How-to Guides/Intune/Deploy Google Play store app",
+  "permalink": "/How-to Guides/Intune/Deploy Google Play store app",
+  "draft": false,
+  "tags": [
+    {
+      "label": "KB",
+      "permalink": "/tags/kb"
+    },
+    {
+      "label": "Intune",
+      "permalink": "/tags/intune"
+    },
+    {
+      "label": "Google Play",
+      "permalink": "/tags/google-play"
+    },
+    {
+      "label": "App Deployment",
+      "permalink": "/tags/app-deployment"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3,
+    "id": "Deploy Google Play store app",
+    "title": "Deploy Google Play store app",
+    "tags": [
+      "KB",
+      "Intune",
+      "Google Play",
+      "App Deployment"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Intune",
+    "permalink": "/category/intune"
+  },
+  "next": {
+    "title": "Perform an AutoPilot Reset",
+    "permalink": "/How-to Guides/Intune/Perform an AutoPilot Reset"
+  }
+}

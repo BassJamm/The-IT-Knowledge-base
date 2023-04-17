@@ -1,0 +1,37 @@
+{
+  "unversionedId": "How-to Guides/Resize a Virtual Machine",
+  "id": "How-to Guides/Resize a Virtual Machine",
+  "title": "Resize a Virtual Machine",
+  "description": "Before you begin",
+  "source": "@site/docs/How-to Guides/Resize a VM.md",
+  "sourceDirName": "How-to Guides",
+  "slug": "/How-to Guides/Resize a Virtual Machine",
+  "permalink": "/How-to Guides/Resize a Virtual Machine",
+  "draft": false,
+  "tags": [
+    {
+      "label": "Azure",
+      "permalink": "/tags/azure"
+    },
+    {
+      "label": "Virtual Machine",
+      "permalink": "/tags/virtual-machine"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4,
+    "id": "Resize a Virtual Machine",
+    "title": "Resize a Virtual Machine",
+    "tags": [
+      "Azure",
+      "Virtual Machine"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Setup Azure Backup",
+    "permalink": "/How-to Guides/Setup Azure Backup"
+  }
+}

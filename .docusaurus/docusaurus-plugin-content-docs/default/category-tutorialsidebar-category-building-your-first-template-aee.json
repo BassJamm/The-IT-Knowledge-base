@@ -1,0 +1,16 @@
+{
+  "title": "Building your first template",
+  "description": "Building your first Bicep Template.",
+  "slug": "/category/building-your-first-template",
+  "permalink": "/category/building-your-first-template",
+  "navigation": {
+    "previous": {
+      "title": "Bicep",
+      "permalink": "/category/bicep"
+    },
+    "next": {
+      "title": "Deploying Resources",
+      "permalink": "/CheatSheets/Bicep/Building your first template/Deploying Resources"
+    }
+  }
+}

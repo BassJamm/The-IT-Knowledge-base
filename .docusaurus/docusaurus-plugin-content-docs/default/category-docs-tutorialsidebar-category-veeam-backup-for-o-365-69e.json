@@ -1,0 +1,16 @@
+{
+  "title": "Veeam Backup for O365",
+  "description": "Articles all about Veeam Backup for O365.",
+  "slug": "/category/veeam-backup-for-o365",
+  "permalink": "/docs/category/veeam-backup-for-o365",
+  "navigation": {
+    "previous": {
+      "title": "document title",
+      "permalink": "/docs/Articles/Veeam/document iD"
+    },
+    "next": {
+      "title": "Managing Backup Jobs",
+      "permalink": "/docs/Articles/Veeam/Veeam Backup for O365/Managing Backup Jobs"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "title": "CheatSheets",
+  "description": "Helpful all-in-one-page guidance on topics.",
+  "slug": "/category/cheatsheets",
+  "permalink": "/category/cheatsheets",
+  "navigation": {
+    "previous": {
+      "title": "Restore Errors",
+      "permalink": "/Articles/Veeam/Veeam Backup for O365/Restore Errors"
+    },
+    "next": {
+      "title": "Bicep",
+      "permalink": "/category/bicep"
+    }
+  }
+}

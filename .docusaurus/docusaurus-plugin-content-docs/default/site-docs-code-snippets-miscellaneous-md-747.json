@@ -1,0 +1,36 @@
+{
+  "unversionedId": "Code Snippets/Miscellaneous Code",
+  "id": "Code Snippets/Miscellaneous Code",
+  "title": "Miscellaneous Code",
+  "description": "Direct Send to email",
+  "source": "@site/docs/Code Snippets/Miscellaneous.md",
+  "sourceDirName": "Code Snippets",
+  "slug": "/Code Snippets/Miscellaneous Code",
+  "permalink": "/Code Snippets/Miscellaneous Code",
+  "draft": false,
+  "tags": [
+    {
+      "label": "template",
+      "permalink": "/tags/template"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4,
+    "id": "Miscellaneous Code",
+    "title": "Miscellaneous Code",
+    "tags": [
+      "template"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Exchange Online",
+    "permalink": "/Code Snippets/Exchange Online"
+  },
+  "next": {
+    "title": "OnPrem Active Directory",
+    "permalink": "/Code Snippets/OnPrem Active Directory"
+  }
+}

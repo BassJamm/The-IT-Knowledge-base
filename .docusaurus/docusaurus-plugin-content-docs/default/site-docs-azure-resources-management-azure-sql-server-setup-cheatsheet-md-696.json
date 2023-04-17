@@ -1,0 +1,46 @@
+{
+  "unversionedId": "Azure Resources Management/Azure SQL Server setup cheatsheet",
+  "id": "Azure Resources Management/Azure SQL Server setup cheatsheet",
+  "title": "Azure SQL Server setup cheatsheet",
+  "description": "Microsoft link - Azure SQL documentation",
+  "source": "@site/docs/Azure Resources Management/Azure SQL Server setup cheatsheet.md",
+  "sourceDirName": "Azure Resources Management",
+  "slug": "/Azure Resources Management/Azure SQL Server setup cheatsheet",
+  "permalink": "/docs/Azure Resources Management/Azure SQL Server setup cheatsheet",
+  "draft": false,
+  "tags": [
+    {
+      "label": "Azure",
+      "permalink": "/docs/tags/azure"
+    },
+    {
+      "label": "Resource Creation",
+      "permalink": "/docs/tags/resource-creation"
+    },
+    {
+      "label": "CheatSheet",
+      "permalink": "/docs/tags/cheat-sheet"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3,
+    "id": "Azure SQL Server setup cheatsheet",
+    "title": "Azure SQL Server setup cheatsheet",
+    "tags": [
+      "Azure",
+      "Resource Creation",
+      "CheatSheet"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Assign Managed Identity permissions via CMDLine",
+    "permalink": "/docs/Azure Resources Management/Automation in Azure/Assign Managed Identity permissions via CMDLine"
+  },
+  "next": {
+    "title": "Resizing a Virtual Machine",
+    "permalink": "/docs/Azure Resources Management/Resizing a Virtual Machine"
+  }
+}

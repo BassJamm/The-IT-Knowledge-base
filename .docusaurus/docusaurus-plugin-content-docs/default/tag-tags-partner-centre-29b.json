@@ -1,0 +1,20 @@
+{
+  "label": "PartnerCentre",
+  "permalink": "/tags/partner-centre",
+  "allTagsPath": "/tags",
+  "count": 2,
+  "items": [
+    {
+      "id": "References/Partner access to Az Sub",
+      "title": "Grant Partner Access to Azure Sub",
+      "description": "Reinstate admin privileges for a customer's Azure CSP subscriptions.",
+      "permalink": "/References/Partner access to Az Sub"
+    },
+    {
+      "id": "How-to Guides/Partner Centre/Setup an Azure Subscription from Partner Centre",
+      "title": "Setup an Azure Subscription from Partner Centre",
+      "description": "Description: Setup an Azure Subscription within Partner Centre for a customer. This has the added benefit of creating the PAL or DPOR link to earn partner credit.",
+      "permalink": "/How-to Guides/Partner Centre/Setup an Azure Subscription from Partner Centre"
+    }
+  ]
+}

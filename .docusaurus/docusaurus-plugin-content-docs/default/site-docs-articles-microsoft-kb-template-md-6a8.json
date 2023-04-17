@@ -1,0 +1,36 @@
+{
+  "unversionedId": "Articles/Microsoft/document iD",
+  "id": "Articles/Microsoft/document iD",
+  "title": "document title",
+  "description": "Use the navigation bar to the left to find relevant articles.",
+  "source": "@site/docs/Articles/Microsoft/KB template.md",
+  "sourceDirName": "Articles/Microsoft",
+  "slug": "/Articles/Microsoft/document iD",
+  "permalink": "/Articles/Microsoft/document iD",
+  "draft": false,
+  "tags": [
+    {
+      "label": "template",
+      "permalink": "/tags/template"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "id": "document iD",
+    "title": "document title",
+    "tags": [
+      "template"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Microsoft",
+    "permalink": "/category/microsoft"
+  },
+  "next": {
+    "title": "Microsoft Azure",
+    "permalink": "/category/microsoft-azure"
+  }
+}

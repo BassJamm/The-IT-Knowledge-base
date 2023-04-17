@@ -1,0 +1,36 @@
+{
+  "unversionedId": "Articles/Veeam/Veeam Backup for O365/Restore Errors",
+  "id": "Articles/Veeam/Veeam Backup for O365/Restore Errors",
+  "title": "Restore Errors",
+  "description": "Capturing information on the restoration errors.",
+  "source": "@site/docs/Articles/Veeam/Veeam Backup for O365/Restore Errors.md",
+  "sourceDirName": "Articles/Veeam/Veeam Backup for O365",
+  "slug": "/Articles/Veeam/Veeam Backup for O365/Restore Errors",
+  "permalink": "/Articles/Veeam/Veeam Backup for O365/Restore Errors",
+  "draft": false,
+  "tags": [
+    {
+      "label": "VBO",
+      "permalink": "/tags/vbo"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3,
+    "id": "Restore Errors",
+    "title": "Restore Errors",
+    "tags": [
+      "VBO"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Removing data and licenses",
+    "permalink": "/Articles/Veeam/Veeam Backup for O365/Removing data and licenses"
+  },
+  "next": {
+    "title": "Windows Server",
+    "permalink": "/category/windows-server"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "title": "Windows Server",
+  "description": "help docs for Windows Server.",
+  "slug": "/category/windows-server",
+  "permalink": "/category/windows-server",
+  "navigation": {
+    "previous": {
+      "title": "Restore Errors",
+      "permalink": "/Articles/Veeam/Veeam Backup for O365/Restore Errors"
+    },
+    "next": {
+      "title": "Certificate Management for ADFS, WAP and Exchange",
+      "permalink": "/Articles/Windows Server/Certificate Management for ADFS, WAP and Exchange"
+    }
+  }
+}

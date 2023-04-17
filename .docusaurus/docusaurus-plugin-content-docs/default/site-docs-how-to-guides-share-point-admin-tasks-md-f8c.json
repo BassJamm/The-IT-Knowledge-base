@@ -1,0 +1,41 @@
+{
+  "unversionedId": "How-to Guides/SharePoint Admin Tasks",
+  "id": "How-to Guides/SharePoint Admin Tasks",
+  "title": "SharePoint Admin Tasks",
+  "description": "Site Permissions",
+  "source": "@site/docs/How-to Guides/SharePoint Admin Tasks.md",
+  "sourceDirName": "How-to Guides",
+  "slug": "/How-to Guides/SharePoint Admin Tasks",
+  "permalink": "/How-to Guides/SharePoint Admin Tasks",
+  "draft": false,
+  "tags": [
+    {
+      "label": "SharePoint Online",
+      "permalink": "/tags/share-point-online"
+    },
+    {
+      "label": "Admin Tasks",
+      "permalink": "/tags/admin-tasks"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 9,
+  "frontMatter": {
+    "sidebar_position": 9,
+    "id": "SharePoint Admin Tasks",
+    "title": "SharePoint Admin Tasks",
+    "tags": [
+      "SharePoint Online",
+      "Admin Tasks"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Renew Apple Tokens and Certs",
+    "permalink": "/How-to Guides/Intune/Renew Apple Tokens and Certs"
+  },
+  "next": {
+    "title": "Code References",
+    "permalink": "/category/code-references"
+  }
+}

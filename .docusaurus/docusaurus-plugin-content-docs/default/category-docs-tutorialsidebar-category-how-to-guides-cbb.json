@@ -1,0 +1,16 @@
+{
+  "title": "How-to Guides",
+  "description": "Guides for achieving an end result.",
+  "slug": "/category/how-to-guides",
+  "permalink": "/docs/category/how-to-guides",
+  "navigation": {
+    "previous": {
+      "title": "Windows OS",
+      "permalink": "/docs/Code References/Windows OS"
+    },
+    "next": {
+      "title": "Azure",
+      "permalink": "/docs/category/azure"
+    }
+  }
+}

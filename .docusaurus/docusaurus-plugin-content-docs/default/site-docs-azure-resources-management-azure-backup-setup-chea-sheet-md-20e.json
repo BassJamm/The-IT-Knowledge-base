@@ -1,0 +1,32 @@
+{
+  "unversionedId": "Azure Resources Management/Azure Backup Setup CheaSheet",
+  "id": "Azure Resources Management/Azure Backup Setup CheaSheet",
+  "title": "Azure Backup Setup CheaSheet",
+  "description": "1.1. Create the below resources in the FW-Azure Production subscription",
+  "source": "@site/docs/Azure Resources Management/Azure Backup Setup CheaSheet.md",
+  "sourceDirName": "Azure Resources Management",
+  "slug": "/Azure Resources Management/Azure Backup Setup CheaSheet",
+  "permalink": "/docs/Azure Resources Management/Azure Backup Setup CheaSheet",
+  "draft": false,
+  "tags": [
+    {
+      "label": "Azure",
+      "permalink": "/docs/tags/azure"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4,
+    "id": "Azure Backup Setup CheaSheet",
+    "title": "Azure Backup Setup CheaSheet",
+    "tags": [
+      "Azure"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Restore from Snapshot",
+    "permalink": "/docs/Azure Resources Management/Restore from Snapshot"
+  }
+}

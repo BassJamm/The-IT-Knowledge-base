@@ -1,0 +1,44 @@
+{
+  "permalink": "/blog/What can you Automate",
+  "source": "@site/blog/What can you Automate.md",
+  "title": "What can you Automate",
+  "description": "What can be automated in Azure?",
+  "date": "2023-01-03T16:07:22.000Z",
+  "formattedDate": "January 3, 2023",
+  "tags": [
+    {
+      "label": "Blogpost",
+      "permalink": "/blog/tags/blogpost"
+    },
+    {
+      "label": "Automation",
+      "permalink": "/blog/tags/automation"
+    }
+  ],
+  "readingTime": 2.64,
+  "hasTruncateMarker": true,
+  "authors": [
+    {
+      "name": "itjamm"
+    }
+  ],
+  "frontMatter": {
+    "slug": "What can you Automate",
+    "title": "What can you Automate",
+    "description": "What can be automated in Azure?",
+    "author": "itjamm",
+    "tags": [
+      "Blogpost",
+      "Automation"
+    ],
+    "hide_table_of_contents": false
+  },
+  "prevItem": {
+    "title": "My Automation Nightmare",
+    "permalink": "/blog/My-Automation-Nightmare"
+  },
+  "nextItem": {
+    "title": "What is Automation in Azure?",
+    "permalink": "/blog/What is Automation in Azure"
+  }
+}

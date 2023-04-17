@@ -1,0 +1,61 @@
+{
+  "unversionedId": "Articles/Windows Server/Certificate Management for ADFS, WAP and Exchange",
+  "id": "Articles/Windows Server/Certificate Management for ADFS, WAP and Exchange",
+  "title": "Certificate Management for ADFS, WAP and Exchange",
+  "description": "This article assumes you're using an External Certificate Authority.",
+  "source": "@site/docs/Articles/Windows Server/Replace ADFS, WAP and Exch Certs.md",
+  "sourceDirName": "Articles/Windows Server",
+  "slug": "/Articles/Windows Server/Certificate Management for ADFS, WAP and Exchange",
+  "permalink": "/Articles/Windows Server/Certificate Management for ADFS, WAP and Exchange",
+  "draft": false,
+  "tags": [
+    {
+      "label": "KB",
+      "permalink": "/tags/kb"
+    },
+    {
+      "label": "Certificates",
+      "permalink": "/tags/certificates"
+    },
+    {
+      "label": "Windows Server",
+      "permalink": "/tags/windows-server"
+    },
+    {
+      "label": "ADFS",
+      "permalink": "/tags/adfs"
+    },
+    {
+      "label": "WAP",
+      "permalink": "/tags/wap"
+    },
+    {
+      "label": "Exchange",
+      "permalink": "/tags/exchange"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "id": "Certificate Management for ADFS, WAP and Exchange",
+    "title": "Certificate Management for ADFS, WAP and Exchange",
+    "tags": [
+      "KB",
+      "Certificates",
+      "Windows Server",
+      "ADFS",
+      "WAP",
+      "Exchange"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Windows Server",
+    "permalink": "/category/windows-server"
+  },
+  "next": {
+    "title": "Guides",
+    "permalink": "/category/guides"
+  }
+}

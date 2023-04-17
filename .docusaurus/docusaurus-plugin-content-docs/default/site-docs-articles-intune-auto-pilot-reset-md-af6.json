@@ -1,0 +1,46 @@
+{
+  "unversionedId": "Articles/Intune/AutoPilot Reset",
+  "id": "Articles/Intune/AutoPilot Reset",
+  "title": "AutoPilot Reset",
+  "description": "Description: Perform an AutoPilot Reset on a Windows Device.",
+  "source": "@site/docs/Articles/Intune/AutoPilot Reset.md",
+  "sourceDirName": "Articles/Intune",
+  "slug": "/Articles/Intune/AutoPilot Reset",
+  "permalink": "/docs/Articles/Intune/AutoPilot Reset",
+  "draft": false,
+  "tags": [
+    {
+      "label": "Intune",
+      "permalink": "/docs/tags/intune"
+    },
+    {
+      "label": "Autopilot",
+      "permalink": "/docs/tags/autopilot"
+    },
+    {
+      "label": "Reset Device",
+      "permalink": "/docs/tags/reset-device"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "id": "AutoPilot Reset",
+    "title": "AutoPilot Reset",
+    "tags": [
+      "Intune",
+      "Autopilot",
+      "Reset Device"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Microsoft Intune",
+    "permalink": "/docs/category/microsoft-intune"
+  },
+  "next": {
+    "title": "Sending Logs to Log Analytics",
+    "permalink": "/docs/Articles/Intune/Sending Logs to Log Analytics"
+  }
+}

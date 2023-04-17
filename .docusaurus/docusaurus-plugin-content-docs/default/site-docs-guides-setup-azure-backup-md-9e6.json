@@ -1,0 +1,46 @@
+{
+  "unversionedId": "Guides/Setup Azure Backup",
+  "id": "Guides/Setup Azure Backup",
+  "title": "Setup Azure Backup",
+  "description": "This document will run through a very basic Azure Backup setup scenario.",
+  "source": "@site/docs/Guides/Setup Azure Backup.md",
+  "sourceDirName": "Guides",
+  "slug": "/Guides/Setup Azure Backup",
+  "permalink": "/Guides/Setup Azure Backup",
+  "draft": false,
+  "tags": [
+    {
+      "label": "Azure",
+      "permalink": "/tags/azure"
+    },
+    {
+      "label": "Resource Creation",
+      "permalink": "/tags/resource-creation"
+    },
+    {
+      "label": "Azure Backup",
+      "permalink": "/tags/azure-backup"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3,
+    "id": "Setup Azure Backup",
+    "title": "Setup Azure Backup",
+    "tags": [
+      "Azure",
+      "Resource Creation",
+      "Azure Backup"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Create an Automation Account",
+    "permalink": "/Guides/Create an Automation Account"
+  },
+  "next": {
+    "title": "Tooling",
+    "permalink": "/category/tooling"
+  }
+}

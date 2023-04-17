@@ -1,0 +1,36 @@
+{
+  "unversionedId": "Articles/PowerShell/Assign Managed Identity permissions",
+  "id": "Articles/PowerShell/Assign Managed Identity permissions",
+  "title": "Assign Managed Identity permissions",
+  "description": "- Refernce for where this came from",
+  "source": "@site/docs/Articles/PowerShell/Assign Managed Identity permissions via CMDLine.md",
+  "sourceDirName": "Articles/PowerShell",
+  "slug": "/Articles/PowerShell/Assign Managed Identity permissions",
+  "permalink": "/Articles/PowerShell/Assign Managed Identity permissions",
+  "draft": false,
+  "tags": [
+    {
+      "label": "Azure",
+      "permalink": "/tags/azure"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2,
+    "id": "Assign Managed Identity permissions",
+    "title": "Assign Managed Identity permissions",
+    "tags": [
+      "Azure"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "PowerShell",
+    "permalink": "/category/powershell"
+  },
+  "next": {
+    "title": "Export AAD Secrets and Certs",
+    "permalink": "/Articles/PowerShell/Export AAD Secrets and Certs"
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "unversionedId": "Articles/Microsoft/Teams/External chat in Teams",
+  "id": "Articles/Microsoft/Teams/External chat in Teams",
+  "title": "External chat in Teams",
+  "description": "Scenario",
+  "source": "@site/docs/Articles/Microsoft/Teams/External chat in Teams.md",
+  "sourceDirName": "Articles/Microsoft/Teams",
+  "slug": "/Articles/Microsoft/Teams/External chat in Teams",
+  "permalink": "/Articles/Microsoft/Teams/External chat in Teams",
+  "draft": false,
+  "tags": [
+    {
+      "label": "KB",
+      "permalink": "/tags/kb"
+    },
+    {
+      "label": "Microsoft",
+      "permalink": "/tags/microsoft"
+    },
+    {
+      "label": "Teams",
+      "permalink": "/tags/teams"
+    },
+    {
+      "label": "External Chat",
+      "permalink": "/tags/external-chat"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2,
+    "id": "External chat in Teams",
+    "title": "External chat in Teams",
+    "tags": [
+      "KB",
+      "Microsoft",
+      "Teams",
+      "External Chat"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Approve or Block an App",
+    "permalink": "/Articles/Microsoft/Teams/Approve or Block an App"
+  },
+  "next": {
+    "title": "PowerShell",
+    "permalink": "/category/powershell"
+  }
+}

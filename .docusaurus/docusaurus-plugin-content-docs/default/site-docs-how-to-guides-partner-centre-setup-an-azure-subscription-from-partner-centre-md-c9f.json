@@ -1,0 +1,37 @@
+{
+  "unversionedId": "How-to Guides/Partner Centre/Setup an Azure Subscription from Partner Centre",
+  "id": "How-to Guides/Partner Centre/Setup an Azure Subscription from Partner Centre",
+  "title": "Setup an Azure Subscription from Partner Centre",
+  "description": "Description: Setup an Azure Subscription within Partner Centre for a customer. This has the added benefit of creating the PAL or DPOR link to earn partner credit.",
+  "source": "@site/docs/How-to Guides/Partner Centre/Setup an Azure Subscription from Partner Centre.md",
+  "sourceDirName": "How-to Guides/Partner Centre",
+  "slug": "/How-to Guides/Partner Centre/Setup an Azure Subscription from Partner Centre",
+  "permalink": "/How-to Guides/Partner Centre/Setup an Azure Subscription from Partner Centre",
+  "draft": false,
+  "tags": [
+    {
+      "label": "PartnerCentre",
+      "permalink": "/tags/partner-centre"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 7,
+  "frontMatter": {
+    "sidebar_position": 7,
+    "id": "Setup an Azure Subscription from Partner Centre",
+    "title": "Setup an Azure Subscription from Partner Centre",
+    "toc_max_heading_level": 4,
+    "tags": [
+      "PartnerCentre"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Partner Centre",
+    "permalink": "/category/partner-centre"
+  },
+  "next": {
+    "title": "SharePoint Online",
+    "permalink": "/category/sharepoint-online"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "unversionedId": "Code Snippets/Credential Management",
+  "id": "Code Snippets/Credential Management",
+  "title": "Credential Management",
+  "description": "Set and encrypt credentials to file using default method",
+  "source": "@site/docs/Code Snippets/Misc.md",
+  "sourceDirName": "Code Snippets",
+  "slug": "/Code Snippets/Credential Management",
+  "permalink": "/Code Snippets/Credential Management",
+  "draft": false,
+  "tags": [
+    {
+      "label": "Code",
+      "permalink": "/tags/code"
+    },
+    {
+      "label": "Scripts",
+      "permalink": "/tags/scripts"
+    },
+    {
+      "label": "PowerShell",
+      "permalink": "/tags/power-shell"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2,
+    "id": "Credential Management",
+    "title": "Credential Management",
+    "tags": [
+      "Code",
+      "Scripts",
+      "PowerShell"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Error & logging Management",
+    "permalink": "/Code Snippets/Error & logging Management"
+  },
+  "next": {
+    "title": "User Management",
+    "permalink": "/Code Snippets/User Management"
+  }
+}

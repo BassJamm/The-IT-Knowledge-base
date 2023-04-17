@@ -1,0 +1,46 @@
+{
+  "unversionedId": "Articles/Microsoft/Azure Resources Management/Resource Creation Cheatsheet",
+  "id": "Articles/Microsoft/Azure Resources Management/Resource Creation Cheatsheet",
+  "title": "Resource Creation Cheatsheet",
+  "description": "Microsoft link - Azure SQL documentation",
+  "source": "@site/docs/Articles/Microsoft/Azure Resources Management/Resource Creation CheatSheet.md",
+  "sourceDirName": "Articles/Microsoft/Azure Resources Management",
+  "slug": "/Articles/Microsoft/Azure Resources Management/Resource Creation Cheatsheet",
+  "permalink": "/Articles/Microsoft/Azure Resources Management/Resource Creation Cheatsheet",
+  "draft": false,
+  "tags": [
+    {
+      "label": "Azure",
+      "permalink": "/tags/azure"
+    },
+    {
+      "label": "Resource Creation",
+      "permalink": "/tags/resource-creation"
+    },
+    {
+      "label": "CheatSheet",
+      "permalink": "/tags/cheat-sheet"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3,
+    "id": "Resource Creation Cheatsheet",
+    "title": "Resource Creation Cheatsheet",
+    "tags": [
+      "Azure",
+      "Resource Creation",
+      "CheatSheet"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Microsoft Azure",
+    "permalink": "/category/microsoft-azure"
+  },
+  "next": {
+    "title": "Resizing a Virtual Machine",
+    "permalink": "/Articles/Microsoft/Azure Resources Management/Resizing a Virtual Machine"
+  }
+}

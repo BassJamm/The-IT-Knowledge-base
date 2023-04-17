@@ -1,0 +1,16 @@
+{
+  "title": "Guides",
+  "description": "Full guides on technology..",
+  "slug": "/category/guides",
+  "permalink": "/docs/category/guides",
+  "navigation": {
+    "previous": {
+      "title": "Welcome to the Wiki",
+      "permalink": "/docs/Welcome to the Wiki"
+    },
+    "next": {
+      "title": "Automation in Azure",
+      "permalink": "/docs/category/automation-in-azure"
+    }
+  }
+}

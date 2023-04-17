@@ -1,0 +1,16 @@
+{
+  "title": "References",
+  "description": "Technical references without the fluff.",
+  "slug": "/category/references-1",
+  "permalink": "/category/references-1",
+  "navigation": {
+    "previous": {
+      "title": "User Management",
+      "permalink": "/Code Snippets/User Management"
+    },
+    "next": {
+      "title": "Take ownership of customer azure subscription",
+      "permalink": "/References/take ownership of customer azure subscription"
+    }
+  }
+}

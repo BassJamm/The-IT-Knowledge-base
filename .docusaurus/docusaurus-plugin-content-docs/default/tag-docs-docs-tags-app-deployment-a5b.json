@@ -1,0 +1,14 @@
+{
+  "label": "App Deployment",
+  "permalink": "/docs/docs/tags/app-deployment",
+  "allTagsPath": "/docs/docs/tags",
+  "count": 1,
+  "items": [
+    {
+      "id": "How-to Guides/Intune/Deploy Google Play store app",
+      "title": "Deploy Google Play store app",
+      "description": "Definition of a Managed Google Play store app: Public apps that are generally available in the Play Store. Manage these apps in Intune by browsing for the apps you want to manage, approving them, and then synchronizing them into Intune.",
+      "permalink": "/docs/docs/How-to Guides/Intune/Deploy Google Play store app"
+    }
+  ]
+}

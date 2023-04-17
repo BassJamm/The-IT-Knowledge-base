@@ -1,0 +1,16 @@
+{
+  "title": "Veeam",
+  "description": "help docs for Veeam tech.",
+  "slug": "/category/veeam",
+  "permalink": "/category/veeam",
+  "navigation": {
+    "previous": {
+      "title": "Export AAD Secrets and Certs",
+      "permalink": "/Articles/PowerShell/Export AAD Secrets and Certs"
+    },
+    "next": {
+      "title": "Veeam Backup for O365",
+      "permalink": "/category/veeam-backup-for-o365"
+    }
+  }
+}

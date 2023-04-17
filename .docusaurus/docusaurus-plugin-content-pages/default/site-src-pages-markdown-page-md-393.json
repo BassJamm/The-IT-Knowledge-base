@@ -1,0 +1,10 @@
+{
+  "type": "mdx",
+  "permalink": "/markdown-page",
+  "source": "@site/src/pages/markdown-page.md",
+  "title": "Markdown page example",
+  "description": "I'm an IT professional, currently working as an Infrastructure Engineer. This website is a portfolio of my work and what I've learned over time. Please check out my GitHub and GitBooks repositories linked at the top.",
+  "frontMatter": {
+    "title": "Markdown page example"
+  }
+}

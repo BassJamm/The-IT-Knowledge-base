@@ -1,0 +1,14 @@
+{
+  "label": "Virtual Machine",
+  "permalink": "/docs/tags/virtual-machine",
+  "allTagsPath": "/docs/tags",
+  "count": 1,
+  "items": [
+    {
+      "id": "How-to Guides/Azure/Re-size a Virtual Machine",
+      "title": "Re-size a Virtual Machine",
+      "description": "Before you begin",
+      "permalink": "/docs/How-to Guides/Azure/Re-size a Virtual Machine"
+    }
+  ]
+}

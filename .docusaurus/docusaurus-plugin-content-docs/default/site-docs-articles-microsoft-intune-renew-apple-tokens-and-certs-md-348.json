@@ -1,0 +1,66 @@
+{
+  "unversionedId": "Articles/Microsoft/Intune/Renew Apple Tokens and Certs",
+  "id": "Articles/Microsoft/Intune/Renew Apple Tokens and Certs",
+  "title": "Renew Apple Tokens and Certs",
+  "description": "Read more on this top here, https://learn.microsoft.com/en-us/intune-education/renew-ios-certificate-token.",
+  "source": "@site/docs/Articles/Microsoft/Intune/Renew Apple Tokens and Certs.md",
+  "sourceDirName": "Articles/Microsoft/Intune",
+  "slug": "/Articles/Microsoft/Intune/Renew Apple Tokens and Certs",
+  "permalink": "/Articles/Microsoft/Intune/Renew Apple Tokens and Certs",
+  "draft": false,
+  "tags": [
+    {
+      "label": "KB",
+      "permalink": "/tags/kb"
+    },
+    {
+      "label": "Intune",
+      "permalink": "/tags/intune"
+    },
+    {
+      "label": "Apple",
+      "permalink": "/tags/apple"
+    },
+    {
+      "label": "Certificate",
+      "permalink": "/tags/certificate"
+    },
+    {
+      "label": "VPP",
+      "permalink": "/tags/vpp"
+    },
+    {
+      "label": "MDM",
+      "permalink": "/tags/mdm"
+    },
+    {
+      "label": "APNS",
+      "permalink": "/tags/apns"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3,
+    "id": "Renew Apple Tokens and Certs",
+    "title": "Renew Apple Tokens and Certs",
+    "tags": [
+      "KB",
+      "Intune",
+      "Apple",
+      "Certificate",
+      "VPP",
+      "MDM",
+      "APNS"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Deploy Google Play store app",
+    "permalink": "/Articles/Microsoft/Intune/Deploy Google Play store app"
+  },
+  "next": {
+    "title": "Sending Logs to Log Analytics",
+    "permalink": "/Articles/Microsoft/Intune/Sending Logs to Log Analytics"
+  }
+}

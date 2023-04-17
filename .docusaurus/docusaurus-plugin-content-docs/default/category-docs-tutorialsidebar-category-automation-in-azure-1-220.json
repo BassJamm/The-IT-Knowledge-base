@@ -1,0 +1,16 @@
+{
+  "title": "Automation in Azure",
+  "description": "Articles all about Auotmation in Azure.",
+  "slug": "/category/automation-in-azure-1",
+  "permalink": "/docs/category/automation-in-azure-1",
+  "navigation": {
+    "previous": {
+      "title": "Guides",
+      "permalink": "/docs/category/guides-1"
+    },
+    "next": {
+      "title": "Assign Managed Identity permissions",
+      "permalink": "/docs/Guides copy/Automation in Azure/Assign Managed Identity permissions"
+    }
+  }
+}

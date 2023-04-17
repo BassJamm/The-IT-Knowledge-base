@@ -1,0 +1,36 @@
+{
+  "unversionedId": "Guides/document iD",
+  "id": "Guides/document iD",
+  "title": "document title",
+  "description": "Use the navigation bar to the left to find relevant articles.",
+  "source": "@site/docs/Guides/KB template.md",
+  "sourceDirName": "Guides",
+  "slug": "/Guides/document iD",
+  "permalink": "/Guides/document iD",
+  "draft": false,
+  "tags": [
+    {
+      "label": "template",
+      "permalink": "/tags/template"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "id": "document iD",
+    "title": "document title",
+    "tags": [
+      "template"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Create an Automation Account",
+    "permalink": "/Guides/Automation in Azure/Create an Automation Account"
+  },
+  "next": {
+    "title": "Articles",
+    "permalink": "/category/articles"
+  }
+}

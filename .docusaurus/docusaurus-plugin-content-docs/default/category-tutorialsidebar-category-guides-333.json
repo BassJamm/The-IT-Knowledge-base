@@ -1,0 +1,16 @@
+{
+  "title": "Guides",
+  "description": "Full guides on technology..",
+  "slug": "/category/guides",
+  "permalink": "/category/guides",
+  "navigation": {
+    "previous": {
+      "title": "Certificate Management for ADFS, WAP and Exchange",
+      "permalink": "/Articles/Windows Server/Certificate Management for ADFS, WAP and Exchange"
+    },
+    "next": {
+      "title": "Azure Lighthouse Setup",
+      "permalink": "/Guides/Azure Lighthouse Setup"
+    }
+  }
+}

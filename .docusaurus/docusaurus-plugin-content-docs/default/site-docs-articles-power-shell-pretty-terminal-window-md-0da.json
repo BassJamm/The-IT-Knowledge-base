@@ -1,0 +1,41 @@
+{
+  "unversionedId": "Articles/PowerShell/Prettier Terminal Window",
+  "id": "Articles/PowerShell/Prettier Terminal Window",
+  "title": "Prettier Terminal Window",
+  "description": "This isn't original material, please check out the links below to the location of where I found the information:",
+  "source": "@site/docs/Articles/PowerShell/Pretty Terminal Window.md",
+  "sourceDirName": "Articles/PowerShell",
+  "slug": "/Articles/PowerShell/Prettier Terminal Window",
+  "permalink": "/docs/Articles/PowerShell/Prettier Terminal Window",
+  "draft": false,
+  "tags": [
+    {
+      "label": "PowerShell",
+      "permalink": "/docs/tags/power-shell"
+    },
+    {
+      "label": "Admin",
+      "permalink": "/docs/tags/admin"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3,
+    "id": "Prettier Terminal Window",
+    "title": "Prettier Terminal Window",
+    "tags": [
+      "PowerShell",
+      "Admin"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Manage Active Directory with PowerShell",
+    "permalink": "/docs/Articles/PowerShell/Manage Active Directory with PowerShell"
+  },
+  "next": {
+    "title": "Export AAD Secrets and Certs",
+    "permalink": "/docs/Articles/PowerShell/Export AAD Secrets and Certs"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "title": "Tooling",
+  "description": "It Tools to get your hands on.",
+  "slug": "/category/tooling",
+  "permalink": "/docs/category/tooling",
+  "navigation": {
+    "previous": {
+      "title": "Export AAD Secrets and Certs",
+      "permalink": "/docs/Articles/PowerShell/Export AAD Secrets and Certs"
+    },
+    "next": {
+      "title": "Prettier Terminal Window",
+      "permalink": "/docs/Tooling/Prettier Terminal Window"
+    }
+  }
+}

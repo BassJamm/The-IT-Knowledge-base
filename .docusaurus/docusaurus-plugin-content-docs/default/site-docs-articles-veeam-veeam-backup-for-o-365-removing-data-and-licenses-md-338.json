@@ -1,0 +1,36 @@
+{
+  "unversionedId": "Articles/Veeam/Veeam Backup for O365/Removing data and licenses",
+  "id": "Articles/Veeam/Veeam Backup for O365/Removing data and licenses",
+  "title": "Removing data and licenses",
+  "description": "How to remove a license from a user in VBO.",
+  "source": "@site/docs/Articles/Veeam/Veeam Backup for O365/Removing data and licenses.md",
+  "sourceDirName": "Articles/Veeam/Veeam Backup for O365",
+  "slug": "/Articles/Veeam/Veeam Backup for O365/Removing data and licenses",
+  "permalink": "/Articles/Veeam/Veeam Backup for O365/Removing data and licenses",
+  "draft": false,
+  "tags": [
+    {
+      "label": "VBO",
+      "permalink": "/tags/vbo"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2,
+    "id": "Removing data and licenses",
+    "title": "Removing data and licenses",
+    "tags": [
+      "VBO"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Managing Backup Jobs",
+    "permalink": "/Articles/Veeam/Veeam Backup for O365/Managing Backup Jobs"
+  },
+  "next": {
+    "title": "Restore Errors",
+    "permalink": "/Articles/Veeam/Veeam Backup for O365/Restore Errors"
+  }
+}

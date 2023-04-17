@@ -1,0 +1,46 @@
+{
+  "unversionedId": "How-to Guides/Azure/Create an Automation Account",
+  "id": "How-to Guides/Azure/Create an Automation Account",
+  "title": "Create an Automation Account",
+  "description": "Run As accounts are being deprecated, managed identities are replacing this.",
+  "source": "@site/docs/How-to Guides/Azure/Create an Automation Account.md",
+  "sourceDirName": "How-to Guides/Azure",
+  "slug": "/How-to Guides/Azure/Create an Automation Account",
+  "permalink": "/How-to Guides/Azure/Create an Automation Account",
+  "draft": false,
+  "tags": [
+    {
+      "label": "Azure",
+      "permalink": "/tags/azure"
+    },
+    {
+      "label": "Automation",
+      "permalink": "/tags/automation"
+    },
+    {
+      "label": "Scripting",
+      "permalink": "/tags/scripting"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2,
+    "id": "Create an Automation Account",
+    "title": "Create an Automation Account",
+    "tags": [
+      "Azure",
+      "Automation",
+      "Scripting"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "AVD Image Update Guidance",
+    "permalink": "/How-to Guides/Azure/AVD Image Update Guidance"
+  },
+  "next": {
+    "title": "Setup Azure Site Recovery",
+    "permalink": "/How-to Guides/Azure/Setup Azure Site Recovery"
+  }
+}

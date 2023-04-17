@@ -1,0 +1,41 @@
+{
+  "unversionedId": "How-to Guides/Certificates/Generating a CSR",
+  "id": "How-to Guides/Certificates/Generating a CSR",
+  "title": "Generating a CSR",
+  "description": "What is a CSR?",
+  "source": "@site/docs/How-to Guides/Certificates/Generating a CSR.md",
+  "sourceDirName": "How-to Guides/Certificates",
+  "slug": "/How-to Guides/Certificates/Generating a CSR",
+  "permalink": "/How-to Guides/Certificates/Generating a CSR",
+  "draft": false,
+  "tags": [
+    {
+      "label": "KB",
+      "permalink": "/tags/kb"
+    },
+    {
+      "label": "Certificates",
+      "permalink": "/tags/certificates"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "id": "Generating a CSR",
+    "title": "Generating a CSR",
+    "tags": [
+      "KB",
+      "Certificates"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Certificate Formats and Conversions",
+    "permalink": "/How-to Guides/Certificates/Certificate Formats and Conversions"
+  },
+  "next": {
+    "title": "Request Cert from internal CA",
+    "permalink": "/How-to Guides/Certificates/Request Cert from internal CA"
+  }
+}

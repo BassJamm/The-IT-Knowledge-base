@@ -1,0 +1,16 @@
+{
+  "title": "Windows",
+  "description": "Guides for achieving an end result.",
+  "slug": "/category/windows-1",
+  "permalink": "/category/windows-1",
+  "navigation": {
+    "previous": {
+      "title": "Setup an Azure Subscription from Partner Centre",
+      "permalink": "/How-to Guides/Partner Centre/Setup an Azure Subscription from Partner Centre"
+    },
+    "next": {
+      "title": "Reset BitLocker PIN or Password",
+      "permalink": "/How-to Guides/Windows/Reset BitLocker PIN or Password"
+    }
+  }
+}

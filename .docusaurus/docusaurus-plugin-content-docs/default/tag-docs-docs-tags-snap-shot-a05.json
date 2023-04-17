@@ -1,0 +1,20 @@
+{
+  "label": "SnapShot",
+  "permalink": "/docs/docs/tags/snap-shot",
+  "allTagsPath": "/docs/docs/tags",
+  "count": 2,
+  "items": [
+    {
+      "id": "How-to Guides/Azure/Restore data from a Snapshot",
+      "title": "Restore data from a Snapshot",
+      "description": "This doc is for file level restores, this differs from a VM level restore.",
+      "permalink": "/docs/docs/How-to Guides/Azure/Restore data from a Snapshot"
+    },
+    {
+      "id": "How-to Guides/Azure/Restore VM from Snapshot",
+      "title": "Restore VM from Snapshot",
+      "description": "We're assuming there is already a valid Snapshot taken of the machine you're trying to restore.",
+      "permalink": "/docs/docs/How-to Guides/Azure/Restore VM from Snapshot"
+    }
+  ]
+}

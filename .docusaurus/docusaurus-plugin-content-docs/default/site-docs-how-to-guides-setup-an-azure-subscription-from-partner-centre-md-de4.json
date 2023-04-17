@@ -1,0 +1,36 @@
+{
+  "unversionedId": "How-to Guides/Setup an Azure Subscription from Partner Centre",
+  "id": "How-to Guides/Setup an Azure Subscription from Partner Centre",
+  "title": "Setup an Azure Subscription from Partner Centre",
+  "description": "Description: Setup an Azure Subscription within Partner Centre for a customer. This has the added benefit of creating the PAL or DPOR link to earn partner credit.",
+  "source": "@site/docs/How-to Guides/Setup an Azure Subscription from Partner Centre.md",
+  "sourceDirName": "How-to Guides",
+  "slug": "/How-to Guides/Setup an Azure Subscription from Partner Centre",
+  "permalink": "/How-to Guides/Setup an Azure Subscription from Partner Centre",
+  "draft": false,
+  "tags": [
+    {
+      "label": "PartnerCentre",
+      "permalink": "/tags/partner-centre"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 7,
+  "frontMatter": {
+    "sidebar_position": 7,
+    "id": "Setup an Azure Subscription from Partner Centre",
+    "title": "Setup an Azure Subscription from Partner Centre",
+    "tags": [
+      "PartnerCentre"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Renew Apple Tokens and Certs",
+    "permalink": "/How-to Guides/Intune/Renew Apple Tokens and Certs"
+  },
+  "next": {
+    "title": "SharePoint Admin Tasks",
+    "permalink": "/How-to Guides/SharePoint Admin Tasks"
+  }
+}

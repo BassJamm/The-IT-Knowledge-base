@@ -1,0 +1,46 @@
+{
+  "unversionedId": "Articles/Microsoft/Azure Resources Management/Restore from Snapshot",
+  "id": "Articles/Microsoft/Azure Resources Management/Restore from Snapshot",
+  "title": "Restore from Snapshot",
+  "description": "Create your snapshot",
+  "source": "@site/docs/Articles/Microsoft/Azure Resources Management/Restore from Snapshot.md",
+  "sourceDirName": "Articles/Microsoft/Azure Resources Management",
+  "slug": "/Articles/Microsoft/Azure Resources Management/Restore from Snapshot",
+  "permalink": "/Articles/Microsoft/Azure Resources Management/Restore from Snapshot",
+  "draft": false,
+  "tags": [
+    {
+      "label": "Azure",
+      "permalink": "/tags/azure"
+    },
+    {
+      "label": "Restore",
+      "permalink": "/tags/restore"
+    },
+    {
+      "label": "SnapShot",
+      "permalink": "/tags/snap-shot"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "sidebar_position": 6,
+    "id": "Restore from Snapshot",
+    "title": "Restore from Snapshot",
+    "tags": [
+      "Azure",
+      "Restore",
+      "SnapShot"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Resizing a Virtual Machine",
+    "permalink": "/Articles/Microsoft/Azure Resources Management/Resizing a Virtual Machine"
+  },
+  "next": {
+    "title": "Microsoft Intune",
+    "permalink": "/category/microsoft-intune"
+  }
+}

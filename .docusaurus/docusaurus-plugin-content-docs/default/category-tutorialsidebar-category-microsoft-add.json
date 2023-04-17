@@ -1,0 +1,16 @@
+{
+  "title": "Microsoft",
+  "description": "Articles all about Microsoft tech.",
+  "slug": "/category/microsoft",
+  "permalink": "/category/microsoft",
+  "navigation": {
+    "previous": {
+      "title": "Articles",
+      "permalink": "/category/articles"
+    },
+    "next": {
+      "title": "Microsoft Azure",
+      "permalink": "/category/microsoft-azure"
+    }
+  }
+}

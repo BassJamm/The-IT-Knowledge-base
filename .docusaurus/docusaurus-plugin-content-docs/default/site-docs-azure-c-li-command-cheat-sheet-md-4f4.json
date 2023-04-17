@@ -1,0 +1,41 @@
+{
+  "unversionedId": "Azure CLi/AzCli Cheat sheet",
+  "id": "Azure CLi/AzCli Cheat sheet",
+  "title": "AzCli Cheat sheet",
+  "description": "This document is supposed to be a cheatsheet of commands useful when using the Azure Cli.",
+  "source": "@site/docs/Azure CLi/Command Cheat Sheet.md",
+  "sourceDirName": "Azure CLi",
+  "slug": "/Azure CLi/AzCli Cheat sheet",
+  "permalink": "/docs/Azure CLi/AzCli Cheat sheet",
+  "draft": false,
+  "tags": [
+    {
+      "label": "AzureCli",
+      "permalink": "/docs/tags/azure-cli"
+    },
+    {
+      "label": "CheatSheet",
+      "permalink": "/docs/tags/cheat-sheet"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "id": "AzCli Cheat sheet",
+    "title": "AzCli Cheat sheet",
+    "tags": [
+      "AzureCli",
+      "CheatSheet"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Azure Cli",
+    "permalink": "/docs/category/azure-cli"
+  },
+  "next": {
+    "title": "Azure Resources Management",
+    "permalink": "/docs/category/azure-resources-management"
+  }
+}

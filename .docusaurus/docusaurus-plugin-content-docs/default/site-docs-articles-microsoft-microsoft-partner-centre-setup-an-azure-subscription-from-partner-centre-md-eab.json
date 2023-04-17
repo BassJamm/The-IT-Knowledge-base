@@ -1,0 +1,36 @@
+{
+  "unversionedId": "Articles/Microsoft/Microsoft Partner Centre/Setup an Azure Subscription from Partner Centre",
+  "id": "Articles/Microsoft/Microsoft Partner Centre/Setup an Azure Subscription from Partner Centre",
+  "title": "Setup an Azure Subscription from Partner Centre",
+  "description": "Description: Setup an Azure Subscription within Partner Centre for a customer. This has the added benefit of creating the PAL or DPOR link to earn partner credit.",
+  "source": "@site/docs/Articles/Microsoft/Microsoft Partner Centre/Setup an Azure Subscription from Partner Centre.md",
+  "sourceDirName": "Articles/Microsoft/Microsoft Partner Centre",
+  "slug": "/Articles/Microsoft/Microsoft Partner Centre/Setup an Azure Subscription from Partner Centre",
+  "permalink": "/Articles/Microsoft/Microsoft Partner Centre/Setup an Azure Subscription from Partner Centre",
+  "draft": false,
+  "tags": [
+    {
+      "label": "PartnerCentre",
+      "permalink": "/tags/partner-centre"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3,
+    "id": "Setup an Azure Subscription from Partner Centre",
+    "title": "Setup an Azure Subscription from Partner Centre",
+    "tags": [
+      "PartnerCentre"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Take ownership of customer azure subscription",
+    "permalink": "/Articles/Microsoft/Microsoft Partner Centre/take ownership of customer azure subscription"
+  },
+  "next": {
+    "title": "Microsoft Teams",
+    "permalink": "/category/microsoft-teams"
+  }
+}

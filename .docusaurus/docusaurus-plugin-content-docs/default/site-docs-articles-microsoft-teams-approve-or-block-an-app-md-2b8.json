@@ -1,0 +1,36 @@
+{
+  "unversionedId": "Articles/Microsoft/Teams/Approve or Block an App",
+  "id": "Articles/Microsoft/Teams/Approve or Block an App",
+  "title": "Approve or Block an App",
+  "description": "Description: Approve or block an app for the organisation.",
+  "source": "@site/docs/Articles/Microsoft/Teams/Approve or Block an App.md",
+  "sourceDirName": "Articles/Microsoft/Teams",
+  "slug": "/Articles/Microsoft/Teams/Approve or Block an App",
+  "permalink": "/Articles/Microsoft/Teams/Approve or Block an App",
+  "draft": false,
+  "tags": [
+    {
+      "label": "Teams",
+      "permalink": "/tags/teams"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "id": "Approve or Block an App",
+    "title": "Approve or Block an App",
+    "tags": [
+      "Teams"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Microsoft Teams",
+    "permalink": "/category/microsoft-teams"
+  },
+  "next": {
+    "title": "External chat in Teams",
+    "permalink": "/Articles/Microsoft/Teams/External chat in Teams"
+  }
+}

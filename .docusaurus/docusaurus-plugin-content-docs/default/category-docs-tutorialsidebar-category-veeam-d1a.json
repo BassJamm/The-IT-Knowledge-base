@@ -1,0 +1,16 @@
+{
+  "title": "Veeam",
+  "description": "help docs for Veeam tech.",
+  "slug": "/category/veeam",
+  "permalink": "/docs/category/veeam",
+  "navigation": {
+    "previous": {
+      "title": "Articles",
+      "permalink": "/docs/category/articles"
+    },
+    "next": {
+      "title": "document title",
+      "permalink": "/docs/Articles/Veeam/document iD"
+    }
+  }
+}

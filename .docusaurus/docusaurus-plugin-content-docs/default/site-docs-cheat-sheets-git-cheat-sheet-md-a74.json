@@ -1,0 +1,41 @@
+{
+  "unversionedId": "CheatSheets/Git CheatSheet",
+  "id": "CheatSheets/Git CheatSheet",
+  "title": "Git CheatSheet",
+  "description": "I found this on twitter from the account Daily Cheat-Sheets, here.",
+  "source": "@site/docs/CheatSheets/Git CheatSheet.md",
+  "sourceDirName": "CheatSheets",
+  "slug": "/CheatSheets/Git CheatSheet",
+  "permalink": "/CheatSheets/Git CheatSheet",
+  "draft": false,
+  "tags": [
+    {
+      "label": "Git",
+      "permalink": "/tags/git"
+    },
+    {
+      "label": "CheatSheet",
+      "permalink": "/tags/cheat-sheet"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2,
+    "id": "Git CheatSheet",
+    "title": "Git CheatSheet",
+    "tags": [
+      "Git",
+      "CheatSheet"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Deploying Resources",
+    "permalink": "/CheatSheets/Bicep/Building your first template/Deploying Resources"
+  },
+  "next": {
+    "title": "Tooling",
+    "permalink": "/category/tooling"
+  }
+}

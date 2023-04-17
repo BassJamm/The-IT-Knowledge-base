@@ -1,0 +1,46 @@
+{
+  "unversionedId": "References/Intune/Device Troubleshooting",
+  "id": "References/Intune/Device Troubleshooting",
+  "title": "Device Troubleshooting",
+  "description": "Find policies\\settings applied to a device",
+  "source": "@site/docs/References/Intune/Device Troubleshooting.md",
+  "sourceDirName": "References/Intune",
+  "slug": "/References/Intune/Device Troubleshooting",
+  "permalink": "/References/Intune/Device Troubleshooting",
+  "draft": false,
+  "tags": [
+    {
+      "label": "Reference",
+      "permalink": "/tags/reference"
+    },
+    {
+      "label": "Intune",
+      "permalink": "/tags/intune"
+    },
+    {
+      "label": "AADJoined",
+      "permalink": "/tags/aad-joined"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "id": "Device Troubleshooting",
+    "title": "Device Troubleshooting",
+    "tags": [
+      "Reference",
+      "Intune",
+      "AADJoined"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Intune",
+    "permalink": "/category/intune-1"
+  },
+  "next": {
+    "title": "Grant Partner Access to Azure Sub",
+    "permalink": "/References/Partner access to Az Sub"
+  }
+}

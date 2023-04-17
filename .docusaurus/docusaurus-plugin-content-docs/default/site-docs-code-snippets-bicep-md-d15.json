@@ -1,0 +1,41 @@
+{
+  "unversionedId": "Code Snippets/Bicep",
+  "id": "Code Snippets/Bicep",
+  "title": "Bicep",
+  "description": "",
+  "source": "@site/docs/Code Snippets/Bicep.md",
+  "sourceDirName": "Code Snippets",
+  "slug": "/Code Snippets/Bicep",
+  "permalink": "/Code Snippets/Bicep",
+  "draft": false,
+  "tags": [
+    {
+      "label": "Bicep",
+      "permalink": "/tags/bicep"
+    },
+    {
+      "label": "Command Line",
+      "permalink": "/tags/command-line"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2,
+    "id": "Bicep",
+    "title": "Bicep",
+    "tags": [
+      "Bicep",
+      "Command Line"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Azure Active Directory",
+    "permalink": "/Code Snippets/Azure Active Directory"
+  },
+  "next": {
+    "title": "Exchange Online",
+    "permalink": "/Code Snippets/Exchange Online"
+  }
+}

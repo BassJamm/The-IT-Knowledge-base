@@ -1,0 +1,42 @@
+{
+  "permalink": "/blog/What is Automation in Azure",
+  "source": "@site/blog/What is Automation in Azure.md",
+  "title": "What is Automation in Azure?",
+  "description": "Automation is needed, almost required, in three general areas of cloud operations;",
+  "date": "2023-01-03T16:03:10.000Z",
+  "formattedDate": "January 3, 2023",
+  "tags": [
+    {
+      "label": "BlogPost",
+      "permalink": "/blog/tags/blog-post"
+    },
+    {
+      "label": "Automation",
+      "permalink": "/blog/tags/automation"
+    }
+  ],
+  "readingTime": 2.85,
+  "hasTruncateMarker": true,
+  "authors": [
+    {
+      "name": "itjamm"
+    }
+  ],
+  "frontMatter": {
+    "slug": "What is Automation in Azure",
+    "title": "What is Automation in Azure?",
+    "author": "itjamm",
+    "tags": [
+      "BlogPost",
+      "Automation"
+    ]
+  },
+  "prevItem": {
+    "title": "What can you Automate",
+    "permalink": "/blog/What can you Automate"
+  },
+  "nextItem": {
+    "title": "Azure Permission & Resource Management",
+    "permalink": "/blog/Azure Permission & Resource Management"
+  }
+}

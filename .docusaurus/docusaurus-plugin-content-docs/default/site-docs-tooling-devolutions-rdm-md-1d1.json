@@ -1,0 +1,46 @@
+{
+  "unversionedId": "Tooling/Devolutions RDM",
+  "id": "Tooling/Devolutions RDM",
+  "title": "Devolutions RDM",
+  "description": "My chosen remote access tool, it has too many options to list, take a look at the link here.",
+  "source": "@site/docs/Tooling/Devolutions RDM.md",
+  "sourceDirName": "Tooling",
+  "slug": "/Tooling/Devolutions RDM",
+  "permalink": "/Tooling/Devolutions RDM",
+  "draft": false,
+  "tags": [
+    {
+      "label": "Tool",
+      "permalink": "/tags/tool"
+    },
+    {
+      "label": "Devolutions",
+      "permalink": "/tags/devolutions"
+    },
+    {
+      "label": "RDM",
+      "permalink": "/tags/rdm"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "id": "Devolutions RDM",
+    "title": "Devolutions RDM",
+    "tags": [
+      "Tool",
+      "Devolutions",
+      "RDM"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Tooling",
+    "permalink": "/category/tooling"
+  },
+  "next": {
+    "title": "Prettier Terminal Window",
+    "permalink": "/Tooling/Prettier Terminal Window"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "title": "Tooling",
+  "description": "It Tools to get your hands on.",
+  "slug": "/category/tooling",
+  "permalink": "/category/tooling",
+  "navigation": {
+    "previous": {
+      "title": "Setup Azure Backup",
+      "permalink": "/Guides/Setup Azure Backup"
+    },
+    "next": {
+      "title": "Devolutions RDM",
+      "permalink": "/Tooling/Devolutions RDM"
+    }
+  }
+}
