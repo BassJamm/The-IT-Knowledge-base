@@ -1,4 +1,5 @@
 ---
+draft: true
 id: Partner access to Az Sub
 title: Grant Partner Access to Azure Sub
 hide_title: false

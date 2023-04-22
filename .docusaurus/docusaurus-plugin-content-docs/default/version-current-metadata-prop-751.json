@@ -89,51 +89,72 @@
               }
             ],
             "href": "/category/infrastructure-management"
+          },
+          {
+            "type": "category",
+            "label": "Networking",
+            "collapsible": true,
+            "collapsed": true,
+            "items": [
+              {
+                "type": "link",
+                "label": "Network Security Groups",
+                "href": "/Azure/Networking/Network Security Groups",
+                "docId": "Azure/Networking/Network Security Groups"
+              }
+            ],
+            "href": "/category/networking"
           }
         ],
         "href": "/category/azure"
       },
       {
         "type": "category",
-        "label": "PowerShell",
+        "label": "Command Line References",
         "collapsible": true,
         "collapsed": true,
         "items": [
           {
-            "type": "category",
-            "label": "Scripts",
-            "collapsible": true,
-            "collapsed": true,
-            "items": [
-              {
-                "type": "link",
-                "label": "Windows OS Scripts",
-                "href": "/PowerShell/Scripts/Windows OS Scripts",
-                "docId": "PowerShell/Scripts/Windows OS Scripts"
-              }
-            ],
-            "href": "/category/scripts"
+            "type": "link",
+            "label": "Exchange Online",
+            "href": "/Command Line References/Exchange Online",
+            "docId": "Command Line References/Exchange Online"
           },
           {
             "type": "link",
-            "label": "Credential Management",
-            "href": "/PowerShell/Credential Management",
-            "docId": "PowerShell/Credential Management"
+            "label": "Microsoft Graph",
+            "href": "/Command Line References/Microsoft Graph",
+            "docId": "Command Line References/Microsoft Graph"
           },
           {
             "type": "link",
-            "label": "Error Management",
-            "href": "/PowerShell/Error Management",
-            "docId": "PowerShell/Error Management"
-          },
-          {
-            "type": "link",
-            "label": "Windows Troubleshooting",
-            "href": "/PowerShell/Windows Troubleshooting",
-            "docId": "PowerShell/Windows Troubleshooting"
+            "label": "PowerShell",
+            "href": "/Command Line References/PowerShell",
+            "docId": "Command Line References/PowerShell"
           }
         ],
-        "href": "/category/powershell"
+        "href": "/category/command-line-references"
+      },
+      {
+        "type": "category",
+        "label": "Scripts",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Windows OS Scripts",
+            "href": "/Scripts/Windows OS Scripts",
+            "docId": "Scripts/Windows OS Scripts"
+          },
+          {
+            "type": "link",
+            "label": "NSG Flow log Formatter",
+            "href": "/Scripts/NSG Flow log Formatter",
+            "docId": "Scripts/NSG Flow log Formatter"
+          }
+        ],
+        "href": "/category/scripts"
       }
     ]
   },
@@ -180,28 +201,40 @@
       "description": "Document Control",
       "sidebar": "tutorialSidebar"
     },
-    "PowerShell/Credential Management": {
-      "id": "PowerShell/Credential Management",
-      "title": "Credential Management",
-      "description": "Managing Credentials in PowerShell.",
+    "Azure/Networking/Network Security Groups": {
+      "id": "Azure/Networking/Network Security Groups",
+      "title": "Network Security Groups",
+      "description": "Guidance for Network Security Groups.",
       "sidebar": "tutorialSidebar"
     },
-    "PowerShell/Error Management": {
-      "id": "PowerShell/Error Management",
-      "title": "Error Management",
-      "description": "Error Management in PowerShell.",
+    "Command Line References/Exchange Online": {
+      "id": "Command Line References/Exchange Online",
+      "title": "Exchange Online",
+      "description": "Exchange Online command ref doc.",
       "sidebar": "tutorialSidebar"
     },
-    "PowerShell/Scripts/Windows OS Scripts": {
-      "id": "PowerShell/Scripts/Windows OS Scripts",
+    "Command Line References/Microsoft Graph": {
+      "id": "Command Line References/Microsoft Graph",
+      "title": "Microsoft Graph",
+      "description": "Microsoft Graph command ref doc.",
+      "sidebar": "tutorialSidebar"
+    },
+    "Command Line References/PowerShell": {
+      "id": "Command Line References/PowerShell",
+      "title": "PowerShell",
+      "description": "All things PowerShell.",
+      "sidebar": "tutorialSidebar"
+    },
+    "Scripts/NSG Flow log Formatter": {
+      "id": "Scripts/NSG Flow log Formatter",
+      "title": "NSG Flow log Formatter",
+      "description": "Script will help with readability of NSG flow logs.",
+      "sidebar": "tutorialSidebar"
+    },
+    "Scripts/Windows OS Scripts": {
+      "id": "Scripts/Windows OS Scripts",
       "title": "Windows OS Scripts",
       "description": "Windows OS Scripts and re-usable code.",
-      "sidebar": "tutorialSidebar"
-    },
-    "PowerShell/Windows Troubleshooting": {
-      "id": "PowerShell/Windows Troubleshooting",
-      "title": "Windows Troubleshooting",
-      "description": "Windows Troubleshooting in PowerShell.",
       "sidebar": "tutorialSidebar"
     },
     "Welcome": {

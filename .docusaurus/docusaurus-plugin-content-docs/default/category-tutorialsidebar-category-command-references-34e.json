@@ -1,0 +1,16 @@
+{
+  "title": "Command References",
+  "description": "Guides for achieving an end result.",
+  "slug": "/category/command-references",
+  "permalink": "/category/command-references",
+  "navigation": {
+    "previous": {
+      "title": "Command Line References",
+      "permalink": "/category/command-line-references"
+    },
+    "next": {
+      "title": "Credential Management",
+      "permalink": "/PowerShell/Command References/Credential Management"
+    }
+  }
+}

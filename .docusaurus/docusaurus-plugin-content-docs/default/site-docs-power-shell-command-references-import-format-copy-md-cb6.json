@@ -1,0 +1,45 @@
+{
+  "unversionedId": "PowerShell/Command References/Import & Format",
+  "id": "PowerShell/Command References/Import & Format",
+  "title": "Import & Format",
+  "description": "Reinstate admin privileges for a customer's Azure CSP subscriptions.",
+  "source": "@site/docs/PowerShell/Command References/Import & Format copy.md",
+  "sourceDirName": "PowerShell/Command References",
+  "slug": "/PowerShell/Command References/Import & Format",
+  "permalink": "/PowerShell/Command References/Import & Format",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/edit/main/docs/api-doc-markdown.md",
+  "tags": [
+    {
+      "label": "PartnerCentre",
+      "permalink": "/tags/partner-centre"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "draft": true,
+    "id": "Import & Format",
+    "title": "Import & Format",
+    "hide_title": false,
+    "hide_table_of_contents": false,
+    "sidebar_label": "Import & Format",
+    "sidebar_position": 2,
+    "toc_max_heading_level": 4,
+    "pagination_label": "Import & Format",
+    "tags": [
+      "PartnerCentre"
+    ],
+    "custom_edit_url": "https://github.com/facebook/docusaurus/edit/main/docs/api-doc-markdown.md",
+    "description": "Reinstate admin privileges for a customer's Azure CSP subscriptions."
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Command References",
+    "permalink": "/category/command-references"
+  },
+  "next": {
+    "title": "Import & Format",
+    "permalink": "/PowerShell/Command References/Import & Format"
+  }
+}

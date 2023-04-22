@@ -5,10 +5,10 @@
   "count": 1,
   "items": [
     {
-      "id": "PowerShell/Scripts/Windows OS Scripts",
+      "id": "Scripts/Windows OS Scripts",
       "title": "Windows OS Scripts",
       "description": "Windows OS Scripts and re-usable code.",
-      "permalink": "/PowerShell/Scripts/Windows OS Scripts"
+      "permalink": "/Scripts/Windows OS Scripts"
     }
   ]
 }

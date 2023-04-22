@@ -353,8 +353,8 @@
                 "permalink": "/Azure/Infrastructure/Create an Automation Account"
               },
               "next": {
-                "title": "PowerShell",
-                "permalink": "/category/powershell"
+                "title": "Networking",
+                "permalink": "/category/networking"
               }
             },
             {
@@ -405,108 +405,260 @@
               }
             },
             {
-              "unversionedId": "PowerShell/Credential Management",
-              "id": "PowerShell/Credential Management",
-              "title": "Credential Management",
-              "description": "Managing Credentials in PowerShell.",
-              "source": "@site/docs/PowerShell/Credential & User Interaction.md",
-              "sourceDirName": "PowerShell",
-              "slug": "/PowerShell/Credential Management",
-              "permalink": "/PowerShell/Credential Management",
+              "unversionedId": "Azure/Networking/Network Security Groups",
+              "id": "Azure/Networking/Network Security Groups",
+              "title": "Network Security Groups",
+              "description": "Guidance for Network Security Groups.",
+              "source": "@site/docs/Azure/Networking/Network Security Groups.md",
+              "sourceDirName": "Azure/Networking",
+              "slug": "/Azure/Networking/Network Security Groups",
+              "permalink": "/Azure/Networking/Network Security Groups",
               "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/edit/main/docs/api-doc-markdown.md",
               "tags": [
                 {
-                  "label": "Refernce Doc",
-                  "permalink": "/tags/refernce-doc"
+                  "label": "Azure",
+                  "permalink": "/tags/azure"
                 },
                 {
-                  "label": "CMDLet",
-                  "permalink": "/tags/cmd-let"
+                  "label": "Network Security Groups",
+                  "permalink": "/tags/network-security-groups"
+                },
+                {
+                  "label": "Networking",
+                  "permalink": "/tags/networking"
+                }
+              ],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "draft": false,
+                "id": "Network Security Groups",
+                "title": "Network Security Groups",
+                "hide_title": false,
+                "hide_table_of_contents": false,
+                "sidebar_label": "Network Security Groups",
+                "sidebar_position": 1,
+                "toc_max_heading_level": 4,
+                "pagination_label": "Network Security Groups",
+                "tags": [
+                  "Azure",
+                  "Network Security Groups",
+                  "Networking"
+                ],
+                "custom_edit_url": "https://github.com/facebook/docusaurus/edit/main/docs/api-doc-markdown.md",
+                "description": "Guidance for Network Security Groups."
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Networking",
+                "permalink": "/category/networking"
+              },
+              "next": {
+                "title": "Command Line References",
+                "permalink": "/category/command-line-references"
+              }
+            },
+            {
+              "unversionedId": "Command Line References/Exchange Online",
+              "id": "Command Line References/Exchange Online",
+              "title": "Exchange Online",
+              "description": "Exchange Online command ref doc.",
+              "source": "@site/docs/Command Line References/Exchange Online.md",
+              "sourceDirName": "Command Line References",
+              "slug": "/Command Line References/Exchange Online",
+              "permalink": "/Command Line References/Exchange Online",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/edit/main/docs/api-doc-markdown.md",
+              "tags": [
+                {
+                  "label": "Command Line",
+                  "permalink": "/tags/command-line"
+                },
+                {
+                  "label": "Exchange Online",
+                  "permalink": "/tags/exchange-online"
+                }
+              ],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "draft": false,
+                "id": "Exchange Online",
+                "title": "Exchange Online",
+                "hide_title": false,
+                "hide_table_of_contents": false,
+                "sidebar_label": "Exchange Online",
+                "sidebar_position": 1,
+                "toc_max_heading_level": 4,
+                "pagination_label": "Exchange Online",
+                "tags": [
+                  "Command Line",
+                  "Exchange Online"
+                ],
+                "custom_edit_url": "https://github.com/facebook/docusaurus/edit/main/docs/api-doc-markdown.md",
+                "description": "Exchange Online command ref doc."
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Command Line References",
+                "permalink": "/category/command-line-references"
+              },
+              "next": {
+                "title": "Microsoft Graph",
+                "permalink": "/Command Line References/Microsoft Graph"
+              }
+            },
+            {
+              "unversionedId": "Command Line References/Microsoft Graph",
+              "id": "Command Line References/Microsoft Graph",
+              "title": "Microsoft Graph",
+              "description": "Microsoft Graph command ref doc.",
+              "source": "@site/docs/Command Line References/MS Graph.md",
+              "sourceDirName": "Command Line References",
+              "slug": "/Command Line References/Microsoft Graph",
+              "permalink": "/Command Line References/Microsoft Graph",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/edit/main/docs/api-doc-markdown.md",
+              "tags": [
+                {
+                  "label": "Command Line",
+                  "permalink": "/tags/command-line"
+                },
+                {
+                  "label": "Microsoft Graph",
+                  "permalink": "/tags/microsoft-graph"
+                }
+              ],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "draft": false,
+                "id": "Microsoft Graph",
+                "title": "Microsoft Graph",
+                "hide_title": false,
+                "hide_table_of_contents": false,
+                "sidebar_label": "Microsoft Graph",
+                "sidebar_position": 1,
+                "toc_max_heading_level": 4,
+                "pagination_label": "Microsoft Graph",
+                "tags": [
+                  "Command Line",
+                  "Microsoft Graph"
+                ],
+                "custom_edit_url": "https://github.com/facebook/docusaurus/edit/main/docs/api-doc-markdown.md",
+                "description": "Microsoft Graph command ref doc."
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Exchange Online",
+                "permalink": "/Command Line References/Exchange Online"
+              },
+              "next": {
+                "title": "PowerShell",
+                "permalink": "/Command Line References/PowerShell"
+              }
+            },
+            {
+              "unversionedId": "Command Line References/PowerShell",
+              "id": "Command Line References/PowerShell",
+              "title": "PowerShell",
+              "description": "All things PowerShell.",
+              "source": "@site/docs/Command Line References/PowerShell.md",
+              "sourceDirName": "Command Line References",
+              "slug": "/Command Line References/PowerShell",
+              "permalink": "/Command Line References/PowerShell",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/edit/main/docs/api-doc-markdown.md",
+              "tags": [
+                {
+                  "label": "Command Line",
+                  "permalink": "/tags/command-line"
+                },
+                {
+                  "label": "PowerShell",
+                  "permalink": "/tags/power-shell"
                 }
               ],
               "version": "current",
               "sidebarPosition": 2,
               "frontMatter": {
-                "id": "Credential Management",
-                "title": "Credential Management",
+                "draft": false,
+                "id": "PowerShell",
+                "title": "PowerShell",
                 "hide_title": false,
                 "hide_table_of_contents": false,
-                "sidebar_label": "Credential Management",
+                "sidebar_label": "PowerShell",
                 "sidebar_position": 2,
                 "toc_max_heading_level": 4,
-                "pagination_label": "Credential Management",
+                "pagination_label": "PowerShell",
                 "tags": [
-                  "Refernce Doc",
-                  "CMDLet"
+                  "Command Line",
+                  "PowerShell"
                 ],
-                "description": "Managing Credentials in PowerShell."
+                "custom_edit_url": "https://github.com/facebook/docusaurus/edit/main/docs/api-doc-markdown.md",
+                "description": "All things PowerShell."
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Microsoft Graph",
+                "permalink": "/Command Line References/Microsoft Graph"
+              },
+              "next": {
+                "title": "Scripts",
+                "permalink": "/category/scripts"
+              }
+            },
+            {
+              "unversionedId": "Scripts/NSG Flow log Formatter",
+              "id": "Scripts/NSG Flow log Formatter",
+              "title": "NSG Flow log Formatter",
+              "description": "Script will help with readability of NSG flow logs.",
+              "source": "@site/docs/Scripts/NSG Flow Log Parser.md",
+              "sourceDirName": "Scripts",
+              "slug": "/Scripts/NSG Flow log Formatter",
+              "permalink": "/Scripts/NSG Flow log Formatter",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/edit/main/docs/api-doc-markdown.md",
+              "tags": [
+                {
+                  "label": "PartnerCentre",
+                  "permalink": "/tags/partner-centre"
+                }
+              ],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "draft": false,
+                "id": "NSG Flow log Formatter",
+                "title": "NSG Flow log Formatter",
+                "hide_title": false,
+                "hide_table_of_contents": false,
+                "sidebar_label": "NSG Flow log Formatter",
+                "sidebar_position": 2,
+                "toc_max_heading_level": 4,
+                "pagination_label": "NSG Flow log Formatter",
+                "tags": [
+                  "PartnerCentre"
+                ],
+                "custom_edit_url": "https://github.com/facebook/docusaurus/edit/main/docs/api-doc-markdown.md",
+                "description": "Script will help with readability of NSG flow logs."
               },
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Windows OS Scripts",
-                "permalink": "/PowerShell/Scripts/Windows OS Scripts"
-              },
-              "next": {
-                "title": "Error Management",
-                "permalink": "/PowerShell/Error Management"
+                "permalink": "/Scripts/Windows OS Scripts"
               }
             },
             {
-              "unversionedId": "PowerShell/Error Management",
-              "id": "PowerShell/Error Management",
-              "title": "Error Management",
-              "description": "Error Management in PowerShell.",
-              "source": "@site/docs/PowerShell/Error Management.md",
-              "sourceDirName": "PowerShell",
-              "slug": "/PowerShell/Error Management",
-              "permalink": "/PowerShell/Error Management",
-              "draft": false,
-              "tags": [
-                {
-                  "label": "Refernce Doc",
-                  "permalink": "/tags/refernce-doc"
-                },
-                {
-                  "label": "CMDLet",
-                  "permalink": "/tags/cmd-let"
-                }
-              ],
-              "version": "current",
-              "sidebarPosition": 2,
-              "frontMatter": {
-                "id": "Error Management",
-                "title": "Error Management",
-                "hide_title": false,
-                "hide_table_of_contents": false,
-                "sidebar_label": "Error Management",
-                "sidebar_position": 2,
-                "toc_max_heading_level": 4,
-                "pagination_label": "Error Management",
-                "tags": [
-                  "Refernce Doc",
-                  "CMDLet"
-                ],
-                "description": "Error Management in PowerShell."
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Credential Management",
-                "permalink": "/PowerShell/Credential Management"
-              },
-              "next": {
-                "title": "Windows Troubleshooting",
-                "permalink": "/PowerShell/Windows Troubleshooting"
-              }
-            },
-            {
-              "unversionedId": "PowerShell/Scripts/Windows OS Scripts",
-              "id": "PowerShell/Scripts/Windows OS Scripts",
+              "unversionedId": "Scripts/Windows OS Scripts",
+              "id": "Scripts/Windows OS Scripts",
               "title": "Windows OS Scripts",
               "description": "Windows OS Scripts and re-usable code.",
-              "source": "@site/docs/PowerShell/Scripts/Windows OS Scripts.md",
-              "sourceDirName": "PowerShell/Scripts",
-              "slug": "/PowerShell/Scripts/Windows OS Scripts",
-              "permalink": "/PowerShell/Scripts/Windows OS Scripts",
+              "source": "@site/docs/Scripts/Windows OS Scripts.md",
+              "sourceDirName": "Scripts",
+              "slug": "/Scripts/Windows OS Scripts",
+              "permalink": "/Scripts/Windows OS Scripts",
               "draft": false,
               "tags": [
                 {
@@ -541,51 +693,8 @@
                 "permalink": "/category/scripts"
               },
               "next": {
-                "title": "Credential Management",
-                "permalink": "/PowerShell/Credential Management"
-              }
-            },
-            {
-              "unversionedId": "PowerShell/Windows Troubleshooting",
-              "id": "PowerShell/Windows Troubleshooting",
-              "title": "Windows Troubleshooting",
-              "description": "Windows Troubleshooting in PowerShell.",
-              "source": "@site/docs/PowerShell/Windows Troubleshooting.md",
-              "sourceDirName": "PowerShell",
-              "slug": "/PowerShell/Windows Troubleshooting",
-              "permalink": "/PowerShell/Windows Troubleshooting",
-              "draft": false,
-              "tags": [
-                {
-                  "label": "Refernce Doc",
-                  "permalink": "/tags/refernce-doc"
-                },
-                {
-                  "label": "CMDLet",
-                  "permalink": "/tags/cmd-let"
-                }
-              ],
-              "version": "current",
-              "sidebarPosition": 3,
-              "frontMatter": {
-                "id": "Windows Troubleshooting",
-                "title": "Windows Troubleshooting",
-                "hide_title": false,
-                "hide_table_of_contents": false,
-                "sidebar_label": "Windows Troubleshooting",
-                "sidebar_position": 3,
-                "toc_max_heading_level": 4,
-                "pagination_label": "Windows Troubleshooting",
-                "tags": [
-                  "Refernce Doc",
-                  "CMDLet"
-                ],
-                "description": "Windows Troubleshooting in PowerShell."
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Error Management",
-                "permalink": "/PowerShell/Error Management"
+                "title": "NSG Flow log Formatter",
+                "permalink": "/Scripts/NSG Flow log Formatter"
               }
             },
             {
@@ -703,6 +812,25 @@
                       "slug": "/category/infrastructure-management",
                       "permalink": "/category/infrastructure-management"
                     }
+                  },
+                  {
+                    "type": "category",
+                    "label": "Networking",
+                    "collapsible": true,
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "Azure/Networking/Network Security Groups",
+                        "label": "Network Security Groups"
+                      }
+                    ],
+                    "link": {
+                      "type": "generated-index",
+                      "description": "Guides for achieving an end result.",
+                      "slug": "/category/networking",
+                      "permalink": "/category/networking"
+                    }
                   }
                 ],
                 "link": {
@@ -714,50 +842,55 @@
               },
               {
                 "type": "category",
-                "label": "PowerShell",
+                "label": "Command Line References",
                 "collapsible": true,
                 "collapsed": true,
                 "items": [
                   {
-                    "type": "category",
-                    "label": "Scripts",
-                    "collapsible": true,
-                    "collapsed": true,
-                    "items": [
-                      {
-                        "type": "doc",
-                        "id": "PowerShell/Scripts/Windows OS Scripts",
-                        "label": "Windows OS Scripts"
-                      }
-                    ],
-                    "link": {
-                      "type": "generated-index",
-                      "description": "Useful Scripts.",
-                      "slug": "/category/scripts",
-                      "permalink": "/category/scripts"
-                    }
+                    "type": "doc",
+                    "id": "Command Line References/Exchange Online",
+                    "label": "Exchange Online"
                   },
                   {
                     "type": "doc",
-                    "id": "PowerShell/Credential Management",
-                    "label": "Credential Management"
+                    "id": "Command Line References/Microsoft Graph",
+                    "label": "Microsoft Graph"
                   },
                   {
                     "type": "doc",
-                    "id": "PowerShell/Error Management",
-                    "label": "Error Management"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "PowerShell/Windows Troubleshooting",
-                    "label": "Windows Troubleshooting"
+                    "id": "Command Line References/PowerShell",
+                    "label": "PowerShell"
                   }
                 ],
                 "link": {
                   "type": "generated-index",
                   "description": "Guides for achieving an end result.",
-                  "slug": "/category/powershell",
-                  "permalink": "/category/powershell"
+                  "slug": "/category/command-line-references",
+                  "permalink": "/category/command-line-references"
+                }
+              },
+              {
+                "type": "category",
+                "label": "Scripts",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "Scripts/Windows OS Scripts",
+                    "label": "Windows OS Scripts"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Scripts/NSG Flow log Formatter",
+                    "label": "NSG Flow log Formatter"
+                  }
+                ],
+                "link": {
+                  "type": "generated-index",
+                  "description": "Useful Scripts.",
+                  "slug": "/category/scripts",
+                  "permalink": "/category/scripts"
                 }
               }
             ]

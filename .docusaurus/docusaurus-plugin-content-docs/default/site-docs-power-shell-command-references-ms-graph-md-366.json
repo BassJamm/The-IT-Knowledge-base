@@ -1,0 +1,45 @@
+{
+  "unversionedId": "PowerShell/Command References/Microsoft Graph",
+  "id": "PowerShell/Command References/Microsoft Graph",
+  "title": "Microsoft Graph",
+  "description": "Reinstate admin privileges for a customer's Azure CSP subscriptions.",
+  "source": "@site/docs/PowerShell/Command References/MS Graph.md",
+  "sourceDirName": "PowerShell/Command References",
+  "slug": "/PowerShell/Command References/Microsoft Graph",
+  "permalink": "/PowerShell/Command References/Microsoft Graph",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/edit/main/docs/api-doc-markdown.md",
+  "tags": [
+    {
+      "label": "PartnerCentre",
+      "permalink": "/tags/partner-centre"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "draft": true,
+    "id": "Microsoft Graph",
+    "title": "Microsoft Graph",
+    "hide_title": false,
+    "hide_table_of_contents": false,
+    "sidebar_label": "Microsoft Graph",
+    "sidebar_position": 4,
+    "toc_max_heading_level": 4,
+    "pagination_label": "Microsoft Graph",
+    "tags": [
+      "PartnerCentre"
+    ],
+    "custom_edit_url": "https://github.com/facebook/docusaurus/edit/main/docs/api-doc-markdown.md",
+    "description": "Reinstate admin privileges for a customer's Azure CSP subscriptions."
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Import & Format",
+    "permalink": "/PowerShell/Command References/Import & Format"
+  },
+  "next": {
+    "title": "Windows Troubleshooting",
+    "permalink": "/PowerShell/Command References/Windows Troubleshooting"
+  }
+}

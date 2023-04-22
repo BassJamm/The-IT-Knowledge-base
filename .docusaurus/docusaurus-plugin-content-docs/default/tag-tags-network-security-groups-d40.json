@@ -1,0 +1,14 @@
+{
+  "label": "Network Security Groups",
+  "permalink": "/tags/network-security-groups",
+  "allTagsPath": "/tags",
+  "count": 1,
+  "items": [
+    {
+      "id": "Azure/Networking/Network Security Groups",
+      "title": "Network Security Groups",
+      "description": "Guidance for Network Security Groups.",
+      "permalink": "/Azure/Networking/Network Security Groups"
+    }
+  ]
+}

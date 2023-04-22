@@ -1,4 +1,12 @@
 {
+  "docusaurus-lunr-search": {
+    "default": {
+      "fileNames": {
+        "searchDoc": "search-doc-1682188559366.json",
+        "lunrIndex": "lunr-index-1682188559366.json"
+      }
+    }
+  },
   "docusaurus-plugin-google-gtag": {
     "default": {
       "trackingID": [
@@ -6,14 +14,6 @@
       ],
       "anonymizeIP": true,
       "id": "default"
-    }
-  },
-  "docusaurus-lunr-search": {
-    "default": {
-      "fileNames": {
-        "searchDoc": "search-doc-1682153637692.json",
-        "lunrIndex": "lunr-index-1682153637692.json"
-      }
     }
   },
   "docusaurus-plugin-content-docs": {
@@ -63,23 +63,33 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "PowerShell/Credential Management",
-              "path": "/PowerShell/Credential Management",
+              "id": "Azure/Networking/Network Security Groups",
+              "path": "/Azure/Networking/Network Security Groups",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "PowerShell/Error Management",
-              "path": "/PowerShell/Error Management",
+              "id": "Command Line References/Exchange Online",
+              "path": "/Command Line References/Exchange Online",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "PowerShell/Scripts/Windows OS Scripts",
-              "path": "/PowerShell/Scripts/Windows OS Scripts",
+              "id": "Command Line References/Microsoft Graph",
+              "path": "/Command Line References/Microsoft Graph",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "PowerShell/Windows Troubleshooting",
-              "path": "/PowerShell/Windows Troubleshooting",
+              "id": "Command Line References/PowerShell",
+              "path": "/Command Line References/PowerShell",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Scripts/NSG Flow log Formatter",
+              "path": "/Scripts/NSG Flow log Formatter",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Scripts/Windows OS Scripts",
+              "path": "/Scripts/Windows OS Scripts",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -108,8 +118,13 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "/category/powershell",
-              "path": "/category/powershell",
+              "id": "/category/networking",
+              "path": "/category/networking",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/command-line-references",
+              "path": "/category/command-line-references",
               "sidebar": "tutorialSidebar"
             },
             {

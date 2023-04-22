@@ -28,8 +28,13 @@ export default [
     exact: true
   },
   {
-    path: '/tags/cmd-let',
-    component: ComponentCreator('/tags/cmd-let', 'f8a'),
+    path: '/tags/command-line',
+    component: ComponentCreator('/tags/command-line', 'c57'),
+    exact: true
+  },
+  {
+    path: '/tags/exchange-online',
+    component: ComponentCreator('/tags/exchange-online', '9c3'),
     exact: true
   },
   {
@@ -43,13 +48,33 @@ export default [
     exact: true
   },
   {
-    path: '/tags/re-usable-code',
-    component: ComponentCreator('/tags/re-usable-code', '55d'),
+    path: '/tags/microsoft-graph',
+    component: ComponentCreator('/tags/microsoft-graph', '53f'),
     exact: true
   },
   {
-    path: '/tags/refernce-doc',
-    component: ComponentCreator('/tags/refernce-doc', '409'),
+    path: '/tags/network-security-groups',
+    component: ComponentCreator('/tags/network-security-groups', '07c'),
+    exact: true
+  },
+  {
+    path: '/tags/networking',
+    component: ComponentCreator('/tags/networking', '93a'),
+    exact: true
+  },
+  {
+    path: '/tags/partner-centre',
+    component: ComponentCreator('/tags/partner-centre', 'a33'),
+    exact: true
+  },
+  {
+    path: '/tags/power-shell',
+    component: ComponentCreator('/tags/power-shell', 'baa'),
+    exact: true
+  },
+  {
+    path: '/tags/re-usable-code',
+    component: ComponentCreator('/tags/re-usable-code', '55d'),
     exact: true
   },
   {
@@ -89,7 +114,7 @@ export default [
   },
   {
     path: '/',
-    component: ComponentCreator('/', '257'),
+    component: ComponentCreator('/', '573'),
     routes: [
       {
         path: '/',
@@ -140,6 +165,12 @@ export default [
         sidebar: "tutorialSidebar"
       },
       {
+        path: '/Azure/Networking/Network Security Groups',
+        component: ComponentCreator('/Azure/Networking/Network Security Groups', '407'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
         path: '/category/azure',
         component: ComponentCreator('/category/azure', 'd40'),
         exact: true,
@@ -148,6 +179,12 @@ export default [
       {
         path: '/category/backup-and-disaster-recovery',
         component: ComponentCreator('/category/backup-and-disaster-recovery', '641'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/category/command-line-references',
+        component: ComponentCreator('/category/command-line-references', '6a0'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
@@ -164,8 +201,8 @@ export default [
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/category/powershell',
-        component: ComponentCreator('/category/powershell', 'dde'),
+        path: '/category/networking',
+        component: ComponentCreator('/category/networking', '728'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
@@ -176,26 +213,32 @@ export default [
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/PowerShell/Credential Management',
-        component: ComponentCreator('/PowerShell/Credential Management', '506'),
+        path: '/Command Line References/Exchange Online',
+        component: ComponentCreator('/Command Line References/Exchange Online', '9fa'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/PowerShell/Error Management',
-        component: ComponentCreator('/PowerShell/Error Management', 'da3'),
+        path: '/Command Line References/Microsoft Graph',
+        component: ComponentCreator('/Command Line References/Microsoft Graph', '217'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/PowerShell/Scripts/Windows OS Scripts',
-        component: ComponentCreator('/PowerShell/Scripts/Windows OS Scripts', 'ca5'),
+        path: '/Command Line References/PowerShell',
+        component: ComponentCreator('/Command Line References/PowerShell', 'b4d'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/PowerShell/Windows Troubleshooting',
-        component: ComponentCreator('/PowerShell/Windows Troubleshooting', 'bfc'),
+        path: '/Scripts/NSG Flow log Formatter',
+        component: ComponentCreator('/Scripts/NSG Flow log Formatter', 'c7e'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/Scripts/Windows OS Scripts',
+        component: ComponentCreator('/Scripts/Windows OS Scripts', '23d'),
         exact: true,
         sidebar: "tutorialSidebar"
       }

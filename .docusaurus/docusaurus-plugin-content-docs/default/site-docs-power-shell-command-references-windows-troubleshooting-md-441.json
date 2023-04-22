@@ -1,0 +1,47 @@
+{
+  "unversionedId": "PowerShell/Command References/Windows Troubleshooting",
+  "id": "PowerShell/Command References/Windows Troubleshooting",
+  "title": "Windows Troubleshooting",
+  "description": "Windows Troubleshooting in PowerShell.",
+  "source": "@site/docs/PowerShell/Command References/Windows Troubleshooting.md",
+  "sourceDirName": "PowerShell/Command References",
+  "slug": "/PowerShell/Command References/Windows Troubleshooting",
+  "permalink": "/PowerShell/Command References/Windows Troubleshooting",
+  "draft": false,
+  "tags": [
+    {
+      "label": "Refernce Doc",
+      "permalink": "/tags/refernce-doc"
+    },
+    {
+      "label": "CMDLet",
+      "permalink": "/tags/cmd-let"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "id": "Windows Troubleshooting",
+    "title": "Windows Troubleshooting",
+    "hide_title": false,
+    "hide_table_of_contents": false,
+    "sidebar_label": "Windows Troubleshooting",
+    "sidebar_position": 5,
+    "toc_max_heading_level": 4,
+    "pagination_label": "Windows Troubleshooting",
+    "tags": [
+      "Refernce Doc",
+      "CMDLet"
+    ],
+    "description": "Windows Troubleshooting in PowerShell."
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Microsoft Graph",
+    "permalink": "/PowerShell/Command References/Microsoft Graph"
+  },
+  "next": {
+    "title": "Scripts",
+    "permalink": "/category/scripts"
+  }
+}

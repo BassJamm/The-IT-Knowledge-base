@@ -1,0 +1,50 @@
+{
+  "unversionedId": "Command Line References/Exchange Online",
+  "id": "Command Line References/Exchange Online",
+  "title": "Exchange Online",
+  "description": "Exchange Online command ref doc.",
+  "source": "@site/docs/Command Line References/Exchange Online.md",
+  "sourceDirName": "Command Line References",
+  "slug": "/Command Line References/Exchange Online",
+  "permalink": "/Command Line References/Exchange Online",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/edit/main/docs/api-doc-markdown.md",
+  "tags": [
+    {
+      "label": "Command Line",
+      "permalink": "/tags/command-line"
+    },
+    {
+      "label": "Exchange Online",
+      "permalink": "/tags/exchange-online"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "draft": false,
+    "id": "Exchange Online",
+    "title": "Exchange Online",
+    "hide_title": false,
+    "hide_table_of_contents": false,
+    "sidebar_label": "Exchange Online",
+    "sidebar_position": 1,
+    "toc_max_heading_level": 4,
+    "pagination_label": "Exchange Online",
+    "tags": [
+      "Command Line",
+      "Exchange Online"
+    ],
+    "custom_edit_url": "https://github.com/facebook/docusaurus/edit/main/docs/api-doc-markdown.md",
+    "description": "Exchange Online command ref doc."
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Command Line References",
+    "permalink": "/category/command-line-references"
+  },
+  "next": {
+    "title": "Microsoft Graph",
+    "permalink": "/Command Line References/Microsoft Graph"
+  }
+}

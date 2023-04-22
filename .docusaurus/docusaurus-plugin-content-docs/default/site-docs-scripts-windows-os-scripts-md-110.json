@@ -1,0 +1,47 @@
+{
+  "unversionedId": "Scripts/Windows OS Scripts",
+  "id": "Scripts/Windows OS Scripts",
+  "title": "Windows OS Scripts",
+  "description": "Windows OS Scripts and re-usable code.",
+  "source": "@site/docs/Scripts/Windows OS Scripts.md",
+  "sourceDirName": "Scripts",
+  "slug": "/Scripts/Windows OS Scripts",
+  "permalink": "/Scripts/Windows OS Scripts",
+  "draft": false,
+  "tags": [
+    {
+      "label": "Scripts",
+      "permalink": "/tags/scripts"
+    },
+    {
+      "label": "Re-usable Code",
+      "permalink": "/tags/re-usable-code"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "id": "Windows OS Scripts",
+    "title": "Windows OS Scripts",
+    "hide_title": false,
+    "hide_table_of_contents": false,
+    "sidebar_label": "Windows OS Scripts",
+    "sidebar_position": 1,
+    "toc_max_heading_level": 4,
+    "pagination_label": "Windows OS Scripts",
+    "tags": [
+      "Scripts",
+      "Re-usable Code"
+    ],
+    "description": "Windows OS Scripts and re-usable code."
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Scripts",
+    "permalink": "/category/scripts"
+  },
+  "next": {
+    "title": "NSG Flow log Formatter",
+    "permalink": "/Scripts/NSG Flow log Formatter"
+  }
+}

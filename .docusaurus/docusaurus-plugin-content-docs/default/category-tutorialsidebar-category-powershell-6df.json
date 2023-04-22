@@ -5,12 +5,12 @@
   "permalink": "/category/powershell",
   "navigation": {
     "previous": {
-      "title": "Re-size a Virtual Machine",
-      "permalink": "/Azure/Infrastructure/Re-size a Virtual Machine"
+      "title": "Command Line References",
+      "permalink": "/category/command-line-references"
     },
     "next": {
-      "title": "Scripts",
-      "permalink": "/category/scripts"
+      "title": "Windows Troubleshooting",
+      "permalink": "/Command Line References/Command References/Windows Troubleshooting"
     }
   }
 }

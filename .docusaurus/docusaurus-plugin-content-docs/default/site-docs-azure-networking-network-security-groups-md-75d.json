@@ -1,0 +1,55 @@
+{
+  "unversionedId": "Azure/Networking/Network Security Groups",
+  "id": "Azure/Networking/Network Security Groups",
+  "title": "Network Security Groups",
+  "description": "Guidance for Network Security Groups.",
+  "source": "@site/docs/Azure/Networking/Network Security Groups.md",
+  "sourceDirName": "Azure/Networking",
+  "slug": "/Azure/Networking/Network Security Groups",
+  "permalink": "/Azure/Networking/Network Security Groups",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/edit/main/docs/api-doc-markdown.md",
+  "tags": [
+    {
+      "label": "Azure",
+      "permalink": "/tags/azure"
+    },
+    {
+      "label": "Network Security Groups",
+      "permalink": "/tags/network-security-groups"
+    },
+    {
+      "label": "Networking",
+      "permalink": "/tags/networking"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "draft": false,
+    "id": "Network Security Groups",
+    "title": "Network Security Groups",
+    "hide_title": false,
+    "hide_table_of_contents": false,
+    "sidebar_label": "Network Security Groups",
+    "sidebar_position": 1,
+    "toc_max_heading_level": 4,
+    "pagination_label": "Network Security Groups",
+    "tags": [
+      "Azure",
+      "Network Security Groups",
+      "Networking"
+    ],
+    "custom_edit_url": "https://github.com/facebook/docusaurus/edit/main/docs/api-doc-markdown.md",
+    "description": "Guidance for Network Security Groups."
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Networking",
+    "permalink": "/category/networking"
+  },
+  "next": {
+    "title": "Command Line References",
+    "permalink": "/category/command-line-references"
+  }
+}

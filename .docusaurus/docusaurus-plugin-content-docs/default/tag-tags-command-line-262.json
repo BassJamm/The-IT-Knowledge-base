@@ -2,31 +2,25 @@
   "label": "Command Line",
   "permalink": "/tags/command-line",
   "allTagsPath": "/tags",
-  "count": 4,
+  "count": 3,
   "items": [
     {
-      "id": "Code Snippets/Exchange Online",
+      "id": "Command Line References/Exchange Online",
       "title": "Exchange Online",
-      "description": "Get-Calendar Permissions",
-      "permalink": "/Code Snippets/Exchange Online"
+      "description": "Exchange Online command ref doc.",
+      "permalink": "/Command Line References/Exchange Online"
     },
     {
-      "id": "Code Snippets/OnPrem Active Directory",
-      "title": "OnPrem Active Directory",
-      "description": "Get-ADUser: Filter by attribute",
-      "permalink": "/Code Snippets/OnPrem Active Directory"
+      "id": "Command Line References/Microsoft Graph",
+      "title": "Microsoft Graph",
+      "description": "Microsoft Graph command ref doc.",
+      "permalink": "/Command Line References/Microsoft Graph"
     },
     {
-      "id": "Code Snippets/Veeam Backup for O365",
-      "title": "Veeam Backup for O365",
-      "description": "Automation of backup reports",
-      "permalink": "/Code Snippets/Veeam Backup for O365"
-    },
-    {
-      "id": "Code Snippets/Windows OS and Apps",
-      "title": "Windows OS and Apps",
-      "description": "Set office update channel",
-      "permalink": "/Code Snippets/Windows OS and Apps"
+      "id": "Command Line References/PowerShell",
+      "title": "PowerShell",
+      "description": "All things PowerShell.",
+      "permalink": "/Command Line References/PowerShell"
     }
   ]
 }

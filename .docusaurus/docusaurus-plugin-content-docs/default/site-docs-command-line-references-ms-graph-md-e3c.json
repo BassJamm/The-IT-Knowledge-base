@@ -1,0 +1,50 @@
+{
+  "unversionedId": "Command Line References/Microsoft Graph",
+  "id": "Command Line References/Microsoft Graph",
+  "title": "Microsoft Graph",
+  "description": "Microsoft Graph command ref doc.",
+  "source": "@site/docs/Command Line References/MS Graph.md",
+  "sourceDirName": "Command Line References",
+  "slug": "/Command Line References/Microsoft Graph",
+  "permalink": "/Command Line References/Microsoft Graph",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/edit/main/docs/api-doc-markdown.md",
+  "tags": [
+    {
+      "label": "Command Line",
+      "permalink": "/tags/command-line"
+    },
+    {
+      "label": "Microsoft Graph",
+      "permalink": "/tags/microsoft-graph"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "draft": false,
+    "id": "Microsoft Graph",
+    "title": "Microsoft Graph",
+    "hide_title": false,
+    "hide_table_of_contents": false,
+    "sidebar_label": "Microsoft Graph",
+    "sidebar_position": 1,
+    "toc_max_heading_level": 4,
+    "pagination_label": "Microsoft Graph",
+    "tags": [
+      "Command Line",
+      "Microsoft Graph"
+    ],
+    "custom_edit_url": "https://github.com/facebook/docusaurus/edit/main/docs/api-doc-markdown.md",
+    "description": "Microsoft Graph command ref doc."
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Exchange Online",
+    "permalink": "/Command Line References/Exchange Online"
+  },
+  "next": {
+    "title": "PowerShell",
+    "permalink": "/Command Line References/PowerShell"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "unversionedId": "Command Line References/PowerShell",
+  "id": "Command Line References/PowerShell",
+  "title": "PowerShell",
+  "description": "All things PowerShell.",
+  "source": "@site/docs/Command Line References/PowerShell.md",
+  "sourceDirName": "Command Line References",
+  "slug": "/Command Line References/PowerShell",
+  "permalink": "/Command Line References/PowerShell",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/edit/main/docs/api-doc-markdown.md",
+  "tags": [
+    {
+      "label": "Command Line",
+      "permalink": "/tags/command-line"
+    },
+    {
+      "label": "PowerShell",
+      "permalink": "/tags/power-shell"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "draft": false,
+    "id": "PowerShell",
+    "title": "PowerShell",
+    "hide_title": false,
+    "hide_table_of_contents": false,
+    "sidebar_label": "PowerShell",
+    "sidebar_position": 2,
+    "toc_max_heading_level": 4,
+    "pagination_label": "PowerShell",
+    "tags": [
+      "Command Line",
+      "PowerShell"
+    ],
+    "custom_edit_url": "https://github.com/facebook/docusaurus/edit/main/docs/api-doc-markdown.md",
+    "description": "All things PowerShell."
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Microsoft Graph",
+    "permalink": "/Command Line References/Microsoft Graph"
+  },
+  "next": {
+    "title": "Scripts",
+    "permalink": "/category/scripts"
+  }
+}

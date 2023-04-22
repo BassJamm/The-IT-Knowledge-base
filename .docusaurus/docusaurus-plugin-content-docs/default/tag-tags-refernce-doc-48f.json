@@ -2,25 +2,13 @@
   "label": "Refernce Doc",
   "permalink": "/tags/refernce-doc",
   "allTagsPath": "/tags",
-  "count": 3,
+  "count": 1,
   "items": [
     {
-      "id": "PowerShell/Credential Management",
-      "title": "Credential Management",
-      "description": "Managing Credentials in PowerShell.",
-      "permalink": "/PowerShell/Credential Management"
-    },
-    {
-      "id": "PowerShell/Error Management",
-      "title": "Error Management",
-      "description": "Error Management in PowerShell.",
-      "permalink": "/PowerShell/Error Management"
-    },
-    {
-      "id": "PowerShell/Windows Troubleshooting",
+      "id": "Command Line References/Command References/Windows Troubleshooting",
       "title": "Windows Troubleshooting",
       "description": "Windows Troubleshooting in PowerShell.",
-      "permalink": "/PowerShell/Windows Troubleshooting"
+      "permalink": "/Command Line References/Command References/Windows Troubleshooting"
     }
   ]
 }

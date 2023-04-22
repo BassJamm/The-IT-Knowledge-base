@@ -37,11 +37,11 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Credential Management",
-    "permalink": "/PowerShell/Credential Management"
+    "title": "Microsoft Graph",
+    "permalink": "/PowerShell/Command References/Microsoft Graph"
   },
   "next": {
-    "title": "Windows Troubleshooting",
-    "permalink": "/PowerShell/Windows Troubleshooting"
+    "title": "Scripts",
+    "permalink": "/category/scripts"
   }
 }

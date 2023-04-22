@@ -2,13 +2,19 @@
   "label": "Azure",
   "permalink": "/tags/azure",
   "allTagsPath": "/tags",
-  "count": 7,
+  "count": 8,
   "items": [
     {
       "id": "Azure/Infrastructure/Create an Automation Account",
       "title": "Create an Automation Account",
       "description": "Create an Automation Account for script automation in Azure.",
       "permalink": "/Azure/Infrastructure/Create an Automation Account"
+    },
+    {
+      "id": "Azure/Networking/Network Security Groups",
+      "title": "Network Security Groups",
+      "description": "Guidance for Network Security Groups.",
+      "permalink": "/Azure/Networking/Network Security Groups"
     },
     {
       "id": "Azure/Infrastructure/Re-size a Virtual Machine",

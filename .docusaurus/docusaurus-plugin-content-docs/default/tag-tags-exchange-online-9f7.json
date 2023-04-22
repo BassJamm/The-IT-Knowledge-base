@@ -5,10 +5,10 @@
   "count": 1,
   "items": [
     {
-      "id": "Code Snippets/Exchange Online",
+      "id": "Command Line References/Exchange Online",
       "title": "Exchange Online",
-      "description": "Get-Calendar Permissions",
-      "permalink": "/Code Snippets/Exchange Online"
+      "description": "Exchange Online command ref doc.",
+      "permalink": "/Command Line References/Exchange Online"
     }
   ]
 }
