@@ -1,7 +1,9 @@
 {
   "docusaurus-plugin-google-gtag": {
     "default": {
-      "trackingID": "G-SYXJ4RP3B9",
+      "trackingID": [
+        "G-SYXJ4RP3B9"
+      ],
       "anonymizeIP": true,
       "id": "default"
     }
@@ -9,8 +11,8 @@
   "docusaurus-lunr-search": {
     "default": {
       "fileNames": {
-        "searchDoc": "search-doc-1682152816661.json",
-        "lunrIndex": "lunr-index-1682152816661.json"
+        "searchDoc": "search-doc-1682153637692.json",
+        "lunrIndex": "lunr-index-1682153637692.json"
       }
     }
   },

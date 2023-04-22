@@ -59,7 +59,7 @@
                 "permalink": "/category/backup-and-disaster-recovery"
               },
               "next": {
-                "title": "Grant Partner Access to Azure Sub",
+                "title": "Setup Azure Site Recovery",
                 "permalink": "/Azure/Backup and Disaster Recovery/Setup Azure Site Recovery"
               }
             },
@@ -94,10 +94,10 @@
                 "title": "Setup Azure Site Recovery",
                 "hide_title": false,
                 "hide_table_of_contents": false,
-                "sidebar_label": "Grant Partner Access to Azure Sub",
+                "sidebar_label": "Setup Azure Site Recovery",
                 "sidebar_position": 2,
                 "toc_max_heading_level": 4,
-                "pagination_label": "Grant Partner Access to Azure Sub",
+                "pagination_label": "Setup Azure Site Recovery",
                 "tags": [
                   "Guide",
                   "Azure",
@@ -640,7 +640,7 @@
                       {
                         "type": "doc",
                         "id": "Azure/Backup and Disaster Recovery/Setup Azure Site Recovery",
-                        "label": "Grant Partner Access to Azure Sub"
+                        "label": "Setup Azure Site Recovery"
                       }
                     ],
                     "link": {
