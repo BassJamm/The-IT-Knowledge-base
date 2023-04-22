@@ -18,7 +18,7 @@ description: Windows OS Scripts and re-usable code.
 
 ## Folder size report (Get-childitem)
 
-```powershell
+```powershell showLineNumbers
 $startFolder = "C:\FolderName"
 
 $colItems = Get-ChildItem $startFolder | Where-Object {$_.PSIsContainer -eq $true} | Sort-Object
@@ -32,13 +32,13 @@ $i.FullName + ” — ” + “{0:N2}” -f ($subFolderItems.sum / 1GB) + ” GB
 
 Test multiple paths for files or folders.
 
-```powershell
+```powershell showLineNumbers
 Test-Path "$Variable1", "$Variable2", "$Variable3"
 ```
 
 ## Service Management (Stop-Service, Start-Service)
 
-```powershell
+```powershell showLineNumbers
 
 $serviceName = Get-Service -Name "*ServiceName*"
 
@@ -60,5 +60,3 @@ if ($serviceName.Status -ne 'Stopped') {
     $serviceName = Get-Service -Name "*ServiceName*" # Stores the new service status in the variable.
     Start-Sleep 2
 ```
-
-

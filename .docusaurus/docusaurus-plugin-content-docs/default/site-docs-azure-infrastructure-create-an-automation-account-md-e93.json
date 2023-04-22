@@ -2,12 +2,13 @@
   "unversionedId": "Azure/Infrastructure/Create an Automation Account",
   "id": "Azure/Infrastructure/Create an Automation Account",
   "title": "Create an Automation Account",
-  "description": "Run As accounts are being deprecated, managed identities are replacing this.",
+  "description": "Create an Automation Account for script automation in Azure.",
   "source": "@site/docs/Azure/Infrastructure/Create an Automation Account.md",
   "sourceDirName": "Azure/Infrastructure",
   "slug": "/Azure/Infrastructure/Create an Automation Account",
   "permalink": "/Azure/Infrastructure/Create an Automation Account",
   "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/edit/main/docs/api-doc-markdown.md",
   "tags": [
     {
       "label": "Azure",
@@ -25,19 +26,26 @@
   "version": "current",
   "sidebarPosition": 2,
   "frontMatter": {
-    "sidebar_position": 2,
     "id": "Create an Automation Account",
     "title": "Create an Automation Account",
+    "hide_title": false,
+    "hide_table_of_contents": false,
+    "sidebar_label": "Create an Automation Account",
+    "sidebar_position": 2,
+    "toc_max_heading_level": 4,
+    "pagination_label": "Create an Automation Account",
     "tags": [
       "Azure",
       "Automation",
       "Scripting"
-    ]
+    ],
+    "custom_edit_url": "https://github.com/facebook/docusaurus/edit/main/docs/api-doc-markdown.md",
+    "description": "Create an Automation Account for script automation in Azure."
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "AVD Image Update Guidance",
-    "permalink": "/Azure/Infrastructure/AVD Image Update Guidance"
+    "title": "Setup Azure Lighthouse",
+    "permalink": "/Azure/Infrastructure/Setup Azure Lighthouse"
   },
   "next": {
     "title": "Re-size a Virtual Machine",

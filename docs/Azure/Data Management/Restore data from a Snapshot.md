@@ -4,6 +4,12 @@ id: Restore data from a Snapshot
 title: Restore data from a Snapshot
 tags: [Azure, Restore, SnapShot]
 ---
+
+## Document Control
+
+- Created: x
+- Last Updated: 23/04/22
+
 :::info 
 This doc is for file level restores, this differs from a VM level restore.
 :::

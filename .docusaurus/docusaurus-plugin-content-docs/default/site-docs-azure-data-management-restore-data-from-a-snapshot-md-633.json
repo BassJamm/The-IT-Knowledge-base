@@ -2,7 +2,7 @@
   "unversionedId": "Azure/Data Management/Restore data from a Snapshot",
   "id": "Azure/Data Management/Restore data from a Snapshot",
   "title": "Restore data from a Snapshot",
-  "description": "This doc is for file level restores, this differs from a VM level restore.",
+  "description": "Document Control",
   "source": "@site/docs/Azure/Data Management/Restore data from a Snapshot.md",
   "sourceDirName": "Azure/Data Management",
   "slug": "/Azure/Data Management/Restore data from a Snapshot",

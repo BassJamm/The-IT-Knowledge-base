@@ -3,41 +3,6 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 
 export default [
   {
-    path: '/__docusaurus/debug',
-    component: ComponentCreator('/__docusaurus/debug', 'de6'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/config',
-    component: ComponentCreator('/__docusaurus/debug/config', 'e31'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/content',
-    component: ComponentCreator('/__docusaurus/debug/content', 'f8a'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/globalData',
-    component: ComponentCreator('/__docusaurus/debug/globalData', 'e73'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/metadata',
-    component: ComponentCreator('/__docusaurus/debug/metadata', 'ec8'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/registry',
-    component: ComponentCreator('/__docusaurus/debug/registry', 'aac'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/routes',
-    component: ComponentCreator('/__docusaurus/debug/routes', '1c0'),
-    exact: true
-  },
-  {
     path: '/markdown-page',
     component: ComponentCreator('/markdown-page', 'ca9'),
     exact: true
@@ -60,11 +25,6 @@ export default [
   {
     path: '/tags/azure-backup',
     component: ComponentCreator('/tags/azure-backup', '2e9'),
-    exact: true
-  },
-  {
-    path: '/tags/azure-virtual-desktop',
-    component: ComponentCreator('/tags/azure-virtual-desktop', '07d'),
     exact: true
   },
   {
@@ -129,7 +89,7 @@ export default [
   },
   {
     path: '/',
-    component: ComponentCreator('/', '9ad'),
+    component: ComponentCreator('/', '257'),
     routes: [
       {
         path: '/',
@@ -158,12 +118,6 @@ export default [
       {
         path: '/Azure/Data Management/Restore VM from Snapshot',
         component: ComponentCreator('/Azure/Data Management/Restore VM from Snapshot', '4c8'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/Azure/Infrastructure/AVD Image Update Guidance',
-        component: ComponentCreator('/Azure/Infrastructure/AVD Image Update Guidance', '071'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
@@ -204,8 +158,8 @@ export default [
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/category/infrastructure',
-        component: ComponentCreator('/category/infrastructure', '960'),
+        path: '/category/infrastructure-management',
+        component: ComponentCreator('/category/infrastructure-management', '079'),
         exact: true,
         sidebar: "tutorialSidebar"
       },

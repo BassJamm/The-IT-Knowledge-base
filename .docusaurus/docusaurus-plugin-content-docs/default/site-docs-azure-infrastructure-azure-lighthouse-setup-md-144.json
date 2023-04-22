@@ -2,7 +2,7 @@
   "unversionedId": "Azure/Infrastructure/Setup Azure Lighthouse",
   "id": "Azure/Infrastructure/Setup Azure Lighthouse",
   "title": "Setup Azure Lighthouse",
-  "description": "This document covers creating a template manually and uploading to a customer directly. Not an Azure Marketplace offering.",
+  "description": "Document Control",
   "source": "@site/docs/Azure/Infrastructure/Azure Lighthouse Setup.md",
   "sourceDirName": "Azure/Infrastructure",
   "slug": "/Azure/Infrastructure/Setup Azure Lighthouse",
@@ -37,11 +37,11 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Infrastructure",
-    "permalink": "/category/infrastructure"
+    "title": "Infrastructure Management",
+    "permalink": "/category/infrastructure-management"
   },
   "next": {
-    "title": "AVD Image Update Guidance",
-    "permalink": "/Azure/Infrastructure/AVD Image Update Guidance"
+    "title": "Create an Automation Account",
+    "permalink": "/Azure/Infrastructure/Create an Automation Account"
   }
 }

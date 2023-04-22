@@ -2,7 +2,7 @@
   "unversionedId": "Azure/Backup and Disaster Recovery/Setup Azure Site Recovery",
   "id": "Azure/Backup and Disaster Recovery/Setup Azure Site Recovery",
   "title": "Setup Azure Site Recovery",
-  "description": "High Level Overview of tasks",
+  "description": "Reinstate admin privileges for a customer's Azure CSP subscriptions.",
   "source": "@site/docs/Azure/Backup and Disaster Recovery/Setup Azure Site Recovery.md",
   "sourceDirName": "Azure/Backup and Disaster Recovery",
   "slug": "/Azure/Backup and Disaster Recovery/Setup Azure Site Recovery",
@@ -25,23 +25,28 @@
   "version": "current",
   "sidebarPosition": 2,
   "frontMatter": {
-    "sidebar_position": 2,
     "id": "Setup Azure Site Recovery",
     "title": "Setup Azure Site Recovery",
+    "hide_title": false,
+    "hide_table_of_contents": false,
+    "sidebar_label": "Setup Azure Site Recovery",
+    "sidebar_position": 2,
     "toc_max_heading_level": 4,
+    "pagination_label": "Setup Azure Site Recovery",
     "tags": [
       "Guide",
       "Azure",
       "Setup Azure Site Recovery"
-    ]
+    ],
+    "description": "Reinstate admin privileges for a customer's Azure CSP subscriptions."
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Backup and Disaster Recovery",
-    "permalink": "/category/backup-and-disaster-recovery"
-  },
-  "next": {
     "title": "Setup Azure Backup",
     "permalink": "/Azure/Backup and Disaster Recovery/Setup Azure Backup"
+  },
+  "next": {
+    "title": "Data Management",
+    "permalink": "/category/data-management"
   }
 }

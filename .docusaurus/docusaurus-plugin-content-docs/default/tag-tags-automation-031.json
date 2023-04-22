@@ -7,7 +7,7 @@
     {
       "id": "Azure/Infrastructure/Create an Automation Account",
       "title": "Create an Automation Account",
-      "description": "Run As accounts are being deprecated, managed identities are replacing this.",
+      "description": "Create an Automation Account for script automation in Azure.",
       "permalink": "/Azure/Infrastructure/Create an Automation Account"
     }
   ]

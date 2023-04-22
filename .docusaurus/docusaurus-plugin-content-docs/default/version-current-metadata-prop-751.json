@@ -29,15 +29,15 @@
             "items": [
               {
                 "type": "link",
-                "label": "Setup Azure Site Recovery",
-                "href": "/Azure/Backup and Disaster Recovery/Setup Azure Site Recovery",
-                "docId": "Azure/Backup and Disaster Recovery/Setup Azure Site Recovery"
-              },
-              {
-                "type": "link",
                 "label": "Setup Azure Backup",
                 "href": "/Azure/Backup and Disaster Recovery/Setup Azure Backup",
                 "docId": "Azure/Backup and Disaster Recovery/Setup Azure Backup"
+              },
+              {
+                "type": "link",
+                "label": "Setup Azure Site Recovery",
+                "href": "/Azure/Backup and Disaster Recovery/Setup Azure Site Recovery",
+                "docId": "Azure/Backup and Disaster Recovery/Setup Azure Site Recovery"
               }
             ],
             "href": "/category/backup-and-disaster-recovery"
@@ -65,7 +65,7 @@
           },
           {
             "type": "category",
-            "label": "Infrastructure",
+            "label": "Infrastructure Management",
             "collapsible": true,
             "collapsed": true,
             "items": [
@@ -74,12 +74,6 @@
                 "label": "Setup Azure Lighthouse",
                 "href": "/Azure/Infrastructure/Setup Azure Lighthouse",
                 "docId": "Azure/Infrastructure/Setup Azure Lighthouse"
-              },
-              {
-                "type": "link",
-                "label": "AVD Image Update Guidance",
-                "href": "/Azure/Infrastructure/AVD Image Update Guidance",
-                "docId": "Azure/Infrastructure/AVD Image Update Guidance"
               },
               {
                 "type": "link",
@@ -94,7 +88,7 @@
                 "docId": "Azure/Infrastructure/Re-size a Virtual Machine"
               }
             ],
-            "href": "/category/infrastructure"
+            "href": "/category/infrastructure-management"
           }
         ],
         "href": "/category/azure"
@@ -147,19 +141,19 @@
     "Azure/Backup and Disaster Recovery/Setup Azure Backup": {
       "id": "Azure/Backup and Disaster Recovery/Setup Azure Backup",
       "title": "Setup Azure Backup",
-      "description": "This document will run through a very basic Azure Backup setup scenario.",
+      "description": "Document Control",
       "sidebar": "tutorialSidebar"
     },
     "Azure/Backup and Disaster Recovery/Setup Azure Site Recovery": {
       "id": "Azure/Backup and Disaster Recovery/Setup Azure Site Recovery",
       "title": "Setup Azure Site Recovery",
-      "description": "High Level Overview of tasks",
+      "description": "Reinstate admin privileges for a customer's Azure CSP subscriptions.",
       "sidebar": "tutorialSidebar"
     },
     "Azure/Data Management/Restore data from a Snapshot": {
       "id": "Azure/Data Management/Restore data from a Snapshot",
       "title": "Restore data from a Snapshot",
-      "description": "This doc is for file level restores, this differs from a VM level restore.",
+      "description": "Document Control",
       "sidebar": "tutorialSidebar"
     },
     "Azure/Data Management/Restore VM from Snapshot": {
@@ -168,16 +162,10 @@
       "description": "We're assuming there is already a valid Snapshot taken of the machine you're trying to restore.",
       "sidebar": "tutorialSidebar"
     },
-    "Azure/Infrastructure/AVD Image Update Guidance": {
-      "id": "Azure/Infrastructure/AVD Image Update Guidance",
-      "title": "AVD Image Update Guidance",
-      "description": "Terms",
-      "sidebar": "tutorialSidebar"
-    },
     "Azure/Infrastructure/Create an Automation Account": {
       "id": "Azure/Infrastructure/Create an Automation Account",
       "title": "Create an Automation Account",
-      "description": "Run As accounts are being deprecated, managed identities are replacing this.",
+      "description": "Create an Automation Account for script automation in Azure.",
       "sidebar": "tutorialSidebar"
     },
     "Azure/Infrastructure/Re-size a Virtual Machine": {
@@ -189,7 +177,7 @@
     "Azure/Infrastructure/Setup Azure Lighthouse": {
       "id": "Azure/Infrastructure/Setup Azure Lighthouse",
       "title": "Setup Azure Lighthouse",
-      "description": "This document covers creating a template manually and uploading to a customer directly. Not an Azure Marketplace offering.",
+      "description": "Document Control",
       "sidebar": "tutorialSidebar"
     },
     "PowerShell/Credential Management": {

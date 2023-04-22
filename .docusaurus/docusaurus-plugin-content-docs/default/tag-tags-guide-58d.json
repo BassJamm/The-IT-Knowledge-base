@@ -2,24 +2,18 @@
   "label": "Guide",
   "permalink": "/tags/guide",
   "allTagsPath": "/tags",
-  "count": 3,
+  "count": 2,
   "items": [
-    {
-      "id": "Azure/Infrastructure/AVD Image Update Guidance",
-      "title": "AVD Image Update Guidance",
-      "description": "Terms",
-      "permalink": "/Azure/Infrastructure/AVD Image Update Guidance"
-    },
     {
       "id": "Azure/Infrastructure/Setup Azure Lighthouse",
       "title": "Setup Azure Lighthouse",
-      "description": "This document covers creating a template manually and uploading to a customer directly. Not an Azure Marketplace offering.",
+      "description": "Document Control",
       "permalink": "/Azure/Infrastructure/Setup Azure Lighthouse"
     },
     {
       "id": "Azure/Backup and Disaster Recovery/Setup Azure Site Recovery",
       "title": "Setup Azure Site Recovery",
-      "description": "High Level Overview of tasks",
+      "description": "Reinstate admin privileges for a customer's Azure CSP subscriptions.",
       "permalink": "/Azure/Backup and Disaster Recovery/Setup Azure Site Recovery"
     }
   ]

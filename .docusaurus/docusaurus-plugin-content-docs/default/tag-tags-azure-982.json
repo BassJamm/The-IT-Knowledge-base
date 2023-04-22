@@ -2,18 +2,12 @@
   "label": "Azure",
   "permalink": "/tags/azure",
   "allTagsPath": "/tags",
-  "count": 8,
+  "count": 7,
   "items": [
-    {
-      "id": "Azure/Infrastructure/AVD Image Update Guidance",
-      "title": "AVD Image Update Guidance",
-      "description": "Terms",
-      "permalink": "/Azure/Infrastructure/AVD Image Update Guidance"
-    },
     {
       "id": "Azure/Infrastructure/Create an Automation Account",
       "title": "Create an Automation Account",
-      "description": "Run As accounts are being deprecated, managed identities are replacing this.",
+      "description": "Create an Automation Account for script automation in Azure.",
       "permalink": "/Azure/Infrastructure/Create an Automation Account"
     },
     {
@@ -25,7 +19,7 @@
     {
       "id": "Azure/Data Management/Restore data from a Snapshot",
       "title": "Restore data from a Snapshot",
-      "description": "This doc is for file level restores, this differs from a VM level restore.",
+      "description": "Document Control",
       "permalink": "/Azure/Data Management/Restore data from a Snapshot"
     },
     {
@@ -37,19 +31,19 @@
     {
       "id": "Azure/Backup and Disaster Recovery/Setup Azure Backup",
       "title": "Setup Azure Backup",
-      "description": "This document will run through a very basic Azure Backup setup scenario.",
+      "description": "Document Control",
       "permalink": "/Azure/Backup and Disaster Recovery/Setup Azure Backup"
     },
     {
       "id": "Azure/Infrastructure/Setup Azure Lighthouse",
       "title": "Setup Azure Lighthouse",
-      "description": "This document covers creating a template manually and uploading to a customer directly. Not an Azure Marketplace offering.",
+      "description": "Document Control",
       "permalink": "/Azure/Infrastructure/Setup Azure Lighthouse"
     },
     {
       "id": "Azure/Backup and Disaster Recovery/Setup Azure Site Recovery",
       "title": "Setup Azure Site Recovery",
-      "description": "High Level Overview of tasks",
+      "description": "Reinstate admin privileges for a customer's Azure CSP subscriptions.",
       "permalink": "/Azure/Backup and Disaster Recovery/Setup Azure Site Recovery"
     }
   ]

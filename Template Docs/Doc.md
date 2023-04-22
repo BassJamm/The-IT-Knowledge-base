@@ -17,11 +17,10 @@ description: Reinstate admin privileges for a customer's Azure CSP subscriptions
 - Created: x
 - Last Updated: x (date in reverse format.)
 
-
 ## PowerShell Example
 
 ```powershell showLineNumbers
-# With numebers.
+# With numbers.
 ```
 
 ## Table Example

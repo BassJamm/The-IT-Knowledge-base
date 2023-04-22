@@ -1,17 +1,22 @@
 ---
-sidebar_position: 8
+sidebar_position: 1
 id: Setup Azure Backup
 title: Setup Azure Backup
 tags: [Azure, Resource Creation, Azure Backup]
 ---
 
+## Document Control
+
+- Created: x
+- Last Updated: 23/04/22
+
 This document will run through a very basic Azure Backup setup scenario.
 
 :::caution
-This document is for setting backup policeis for Virutal Machines only. If you need to backup other resources, got to section 1.2, step 4 and select a differnet resource. 
+This document is for setting backup policeis for Virutal Machines only. If you need to backup other resources, got to section 1.2, step 4 and select a differnet resource.
 :::
 
-## Create the below resources in the FW-Azure Production subscription
+## Create the below resources
 
 :::info
 Use whatever naming conention fits in with what's being used already, I am just suggesting something here.

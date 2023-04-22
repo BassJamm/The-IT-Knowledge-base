@@ -1,0 +1,16 @@
+{
+  "title": "Infrastructure Management",
+  "description": "Guides for Azure Infrastructure Resources.",
+  "slug": "/category/infrastructure-management",
+  "permalink": "/category/infrastructure-management",
+  "navigation": {
+    "previous": {
+      "title": "Restore VM from Snapshot",
+      "permalink": "/Azure/Data Management/Restore VM from Snapshot"
+    },
+    "next": {
+      "title": "Setup Azure Lighthouse",
+      "permalink": "/Azure/Infrastructure/Setup Azure Lighthouse"
+    }
+  }
+}

@@ -1,10 +1,22 @@
 ---
-sidebar_position: 1
+draft: true
 id: AVD Image Update Guidance
 title: AVD Image Update Guidance
+hide_title: false
+hide_table_of_contents: false
+sidebar_label: AVD Image Update Guidance
+sidebar_position: 1
 toc_max_heading_level: 4
+pagination_label: AVD Image Update Guidance
 tags: [Guide, Azure, Azure Virtual Desktop]
+custom_edit_url: https://github.com/facebook/docusaurus/edit/main/docs/api-doc-markdown.md
+description: Reinstate admin privileges for a customer's Azure CSP subscriptions.
 ---
+
+## Document Control
+
+- Created: x
+- Last Updated: 23/04/22
 
 ## Terms
 
@@ -13,7 +25,7 @@ tags: [Guide, Azure, Azure Virtual Desktop]
 
 ## High level Overview
 
-:::caution This document covers a Shared Image Gallary deployment approach.
+:::caution This document covers a Shared Image Gallery deployment approach.
 There are other options for the deployment of VMs as Session Hosts, you can find out more information here, [Operating systems and licenses | Microsoft doc](https://learn.microsoft.com/en-us/azure/virtual-desktop/prerequisites#operating-systems-and-licenses).
 :::
 
@@ -29,10 +41,10 @@ There are other options for the deployment of VMs as Session Hosts, you can find
 
 ## Considerations
 
-- **New Session hosts conflicing with current session hosts**, if you're domain joining the Session Hosts, the new Virtual Machine you create as the template will need to be offline save conflicting with the current session host.
+- **New Session hosts conflicting with current session hosts**, if you're domain joining the Session Hosts, the new Virtual Machine you create as the template will need to be offline save conflicting with the current session host.
 - **Consider your networking options** based off of the point above, do you need a new V-Net or, an NSG to allow RDP into the Virtual Machine.
 - **Backups & Disaster Recovery plan**, if you're backing up the session hosts (which isn't necessary if you're deploying an image that is region redundant) will you need to factor this into the new session hosts you're going to create.
-- **Patching and Log Anaylytics collection**, when creating the new host, you'll need to validate that it's being patched, as well as check the Log Analytics workspace is collecting logs.
+- **Patching and Log Analytics collection**, when creating the new host, you'll need to validate that it's being patched, as well as check the Log Analytics workspace is collecting logs.
 
 ## Long Version
 
@@ -44,7 +56,7 @@ This is my suggested process based off of the Microsoft documentation linked abo
 
 Arrange for some downtime of one of the session hosts, during the downtime do the following: -
 
-:::tip
+:::tip Drain Mode
 I'd suggest enabling drain mode before the downtime, just to ensure no-one logs in just before you shut it down. You can do that by selecting the session host and clicking "Turn on Drain mode" at the top or you can click the 3 dots on the right and click the same option.
 ![AVD-DrainMode-001.jpg](../../../static/img/Update%20AVD%20Image/AVD-Drainmode-001.jpeg)
 :::
@@ -69,40 +81,31 @@ This process with stop & De-Allocate the Virtual Machine in question
 5. Go to the Virtual Machine on the portal, **Select Disks**.
 6. Click **Swap OS Disk**.
 7. Boot the Virtual Machine.
-
-:::tip
-Check the new Virtual Machine boots Windows correctly, then you need to confirm the installed applications are present and will load.
-:::
-
+   1. Check the new Virtual Machine boots Windows correctly, then you need to confirm the installed applications are present and will load.
 8. **RDP into your new Virtual Machine** and make your changes.
 9. Take another **SnapShot** of the Virtual Machine post making your changes.
 10. Run **Sysprep**. (C:\Windows\System32\Sysprep\sysprep.exe).
-    1. Make sure to **select Generalize** and to set the **Shutdown Option** to Shutdown).
+    1. Make sure to **select Generalize** and to set the **Shutdown Option** to Shutdown.
 11. Make sure the Virtual Machine is **de-allocated** and **select Capture** in the Azure portal.
 12. **Upload** the image **to the shared image gallery**.
 
 ### Add a new Session Host
 
+:::tip
+I would suggest putting your new Session Host into Drain mode, save users logging into this server. See the next section regarding testing out the new Session Host and Image.
+:::
+
 1. In the **Azure Portal**, locate the Azure Virtual Desktop Portal\Blade.
 2. Click on **Host Pools**.
 3. Select your **Host Pool**.
 4. Click on **Session Hosts**.
-![AVD-Addhost-001.jpg](../../../static/img/Update%20AVD%20Image/AVD-Addhost-001.jpeg)
-1. Click **+ Add**.
-
-:::info
-It may ask you to generate a key, click on the banner that appears and follow this through and download the new key. This will not affect the other session hosts that are already setup.
-:::
-
+5. Click **+ Add**.
+   1. It may ask you to generate a key, click on the banner that appears and follow this through and download the new key. This will not affect the other session hosts that are already setup.
 6. Leave the Basics tab as is, the settings will be greyed out.
 7. On the **Virtual Machines tab**, fill in the various bits of information required.
 8. **Add any Tags** required.
 9. Click **Review + Create** to review the settings.
 10. Put the **new Session Host** into **Drain mode**, to stop users logging into it if you want to test the server\image and Apps.
-
-:::tip
-I would suggest putting your new Session Host into Drain mode, save users logging into this server. See the next section regarding testing out the new Session Host and Image.
-:::
 
 A new Session Host should now appear in the list of servers.
 

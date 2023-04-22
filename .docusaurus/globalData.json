@@ -9,8 +9,8 @@
   "docusaurus-lunr-search": {
     "default": {
       "fileNames": {
-        "searchDoc": "search-doc-1681763871779.json",
-        "lunrIndex": "lunr-index-1681763871779.json"
+        "searchDoc": "search-doc-1682152816661.json",
+        "lunrIndex": "lunr-index-1682152816661.json"
       }
     }
   },
@@ -43,11 +43,6 @@
             {
               "id": "Azure/Data Management/Restore VM from Snapshot",
               "path": "/Azure/Data Management/Restore VM from Snapshot",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "Azure/Infrastructure/AVD Image Update Guidance",
-              "path": "/Azure/Infrastructure/AVD Image Update Guidance",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -106,8 +101,8 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "/category/infrastructure",
-              "path": "/category/infrastructure",
+              "id": "/category/infrastructure-management",
+              "path": "/category/infrastructure-management",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -121,7 +116,9 @@
               "sidebar": "tutorialSidebar"
             }
           ],
-          "draftIds": [],
+          "draftIds": [
+            "Azure/Infrastructure/AVD Image Update Guidance"
+          ],
           "sidebars": {
             "tutorialSidebar": {
               "link": {

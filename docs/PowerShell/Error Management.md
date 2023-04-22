@@ -14,7 +14,7 @@ description: Error Management in PowerShell.
 ## Document Control
 
 - Created: x
-- Last Updated: x (date in reverse format.)
+- Last Updated: 2023/04/22
 
 ## Try and Catch example for error debugging
 

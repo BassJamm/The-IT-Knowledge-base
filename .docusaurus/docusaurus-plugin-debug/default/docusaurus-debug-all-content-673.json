@@ -21,7 +21,7 @@
               "unversionedId": "Azure/Backup and Disaster Recovery/Setup Azure Backup",
               "id": "Azure/Backup and Disaster Recovery/Setup Azure Backup",
               "title": "Setup Azure Backup",
-              "description": "This document will run through a very basic Azure Backup setup scenario.",
+              "description": "Document Control",
               "source": "@site/docs/Azure/Backup and Disaster Recovery/Setup Azure Backup.md",
               "sourceDirName": "Azure/Backup and Disaster Recovery",
               "slug": "/Azure/Backup and Disaster Recovery/Setup Azure Backup",
@@ -42,9 +42,9 @@
                 }
               ],
               "version": "current",
-              "sidebarPosition": 8,
+              "sidebarPosition": 1,
               "frontMatter": {
-                "sidebar_position": 8,
+                "sidebar_position": 1,
                 "id": "Setup Azure Backup",
                 "title": "Setup Azure Backup",
                 "tags": [
@@ -55,19 +55,19 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Setup Azure Site Recovery",
-                "permalink": "/Azure/Backup and Disaster Recovery/Setup Azure Site Recovery"
+                "title": "Backup and Disaster Recovery",
+                "permalink": "/category/backup-and-disaster-recovery"
               },
               "next": {
-                "title": "Data Management",
-                "permalink": "/category/data-management"
+                "title": "Grant Partner Access to Azure Sub",
+                "permalink": "/Azure/Backup and Disaster Recovery/Setup Azure Site Recovery"
               }
             },
             {
               "unversionedId": "Azure/Backup and Disaster Recovery/Setup Azure Site Recovery",
               "id": "Azure/Backup and Disaster Recovery/Setup Azure Site Recovery",
               "title": "Setup Azure Site Recovery",
-              "description": "High Level Overview of tasks",
+              "description": "Reinstate admin privileges for a customer's Azure CSP subscriptions.",
               "source": "@site/docs/Azure/Backup and Disaster Recovery/Setup Azure Site Recovery.md",
               "sourceDirName": "Azure/Backup and Disaster Recovery",
               "slug": "/Azure/Backup and Disaster Recovery/Setup Azure Site Recovery",
@@ -90,31 +90,36 @@
               "version": "current",
               "sidebarPosition": 2,
               "frontMatter": {
-                "sidebar_position": 2,
                 "id": "Setup Azure Site Recovery",
                 "title": "Setup Azure Site Recovery",
+                "hide_title": false,
+                "hide_table_of_contents": false,
+                "sidebar_label": "Grant Partner Access to Azure Sub",
+                "sidebar_position": 2,
                 "toc_max_heading_level": 4,
+                "pagination_label": "Grant Partner Access to Azure Sub",
                 "tags": [
                   "Guide",
                   "Azure",
                   "Setup Azure Site Recovery"
-                ]
+                ],
+                "description": "Reinstate admin privileges for a customer's Azure CSP subscriptions."
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Backup and Disaster Recovery",
-                "permalink": "/category/backup-and-disaster-recovery"
-              },
-              "next": {
                 "title": "Setup Azure Backup",
                 "permalink": "/Azure/Backup and Disaster Recovery/Setup Azure Backup"
+              },
+              "next": {
+                "title": "Data Management",
+                "permalink": "/category/data-management"
               }
             },
             {
               "unversionedId": "Azure/Data Management/Restore data from a Snapshot",
               "id": "Azure/Data Management/Restore data from a Snapshot",
               "title": "Restore data from a Snapshot",
-              "description": "This doc is for file level restores, this differs from a VM level restore.",
+              "description": "Document Control",
               "source": "@site/docs/Azure/Data Management/Restore data from a Snapshot.md",
               "sourceDirName": "Azure/Data Management",
               "slug": "/Azure/Data Management/Restore data from a Snapshot",
@@ -198,20 +203,21 @@
                 "permalink": "/Azure/Data Management/Restore data from a Snapshot"
               },
               "next": {
-                "title": "Infrastructure",
-                "permalink": "/category/infrastructure"
+                "title": "Infrastructure Management",
+                "permalink": "/category/infrastructure-management"
               }
             },
             {
               "unversionedId": "Azure/Infrastructure/AVD Image Update Guidance",
               "id": "Azure/Infrastructure/AVD Image Update Guidance",
               "title": "AVD Image Update Guidance",
-              "description": "Terms",
+              "description": "Reinstate admin privileges for a customer's Azure CSP subscriptions.",
               "source": "@site/docs/Azure/Infrastructure/Update AVD Image.md",
               "sourceDirName": "Azure/Infrastructure",
               "slug": "/Azure/Infrastructure/AVD Image Update Guidance",
               "permalink": "/Azure/Infrastructure/AVD Image Update Guidance",
               "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/edit/main/docs/api-doc-markdown.md",
               "tags": [
                 {
                   "label": "Guide",
@@ -229,15 +235,22 @@
               "version": "current",
               "sidebarPosition": 1,
               "frontMatter": {
-                "sidebar_position": 1,
+                "draft": true,
                 "id": "AVD Image Update Guidance",
                 "title": "AVD Image Update Guidance",
+                "hide_title": false,
+                "hide_table_of_contents": false,
+                "sidebar_label": "AVD Image Update Guidance",
+                "sidebar_position": 1,
                 "toc_max_heading_level": 4,
+                "pagination_label": "AVD Image Update Guidance",
                 "tags": [
                   "Guide",
                   "Azure",
                   "Azure Virtual Desktop"
-                ]
+                ],
+                "custom_edit_url": "https://github.com/facebook/docusaurus/edit/main/docs/api-doc-markdown.md",
+                "description": "Reinstate admin privileges for a customer's Azure CSP subscriptions."
               },
               "sidebar": "tutorialSidebar",
               "previous": {
@@ -253,12 +266,13 @@
               "unversionedId": "Azure/Infrastructure/Create an Automation Account",
               "id": "Azure/Infrastructure/Create an Automation Account",
               "title": "Create an Automation Account",
-              "description": "Run As accounts are being deprecated, managed identities are replacing this.",
+              "description": "Create an Automation Account for script automation in Azure.",
               "source": "@site/docs/Azure/Infrastructure/Create an Automation Account.md",
               "sourceDirName": "Azure/Infrastructure",
               "slug": "/Azure/Infrastructure/Create an Automation Account",
               "permalink": "/Azure/Infrastructure/Create an Automation Account",
               "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/edit/main/docs/api-doc-markdown.md",
               "tags": [
                 {
                   "label": "Azure",
@@ -276,14 +290,21 @@
               "version": "current",
               "sidebarPosition": 2,
               "frontMatter": {
-                "sidebar_position": 2,
                 "id": "Create an Automation Account",
                 "title": "Create an Automation Account",
+                "hide_title": false,
+                "hide_table_of_contents": false,
+                "sidebar_label": "Create an Automation Account",
+                "sidebar_position": 2,
+                "toc_max_heading_level": 4,
+                "pagination_label": "Create an Automation Account",
                 "tags": [
                   "Azure",
                   "Automation",
                   "Scripting"
-                ]
+                ],
+                "custom_edit_url": "https://github.com/facebook/docusaurus/edit/main/docs/api-doc-markdown.md",
+                "description": "Create an Automation Account for script automation in Azure."
               },
               "sidebar": "tutorialSidebar",
               "previous": {
@@ -340,7 +361,7 @@
               "unversionedId": "Azure/Infrastructure/Setup Azure Lighthouse",
               "id": "Azure/Infrastructure/Setup Azure Lighthouse",
               "title": "Setup Azure Lighthouse",
-              "description": "This document covers creating a template manually and uploading to a customer directly. Not an Azure Marketplace offering.",
+              "description": "Document Control",
               "source": "@site/docs/Azure/Infrastructure/Azure Lighthouse Setup.md",
               "sourceDirName": "Azure/Infrastructure",
               "slug": "/Azure/Infrastructure/Setup Azure Lighthouse",
@@ -375,8 +396,8 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Infrastructure",
-                "permalink": "/category/infrastructure"
+                "title": "Infrastructure Management",
+                "permalink": "/category/infrastructure-management"
               },
               "next": {
                 "title": "AVD Image Update Guidance",
@@ -614,11 +635,12 @@
                     "items": [
                       {
                         "type": "doc",
-                        "id": "Azure/Backup and Disaster Recovery/Setup Azure Site Recovery"
+                        "id": "Azure/Backup and Disaster Recovery/Setup Azure Backup"
                       },
                       {
                         "type": "doc",
-                        "id": "Azure/Backup and Disaster Recovery/Setup Azure Backup"
+                        "id": "Azure/Backup and Disaster Recovery/Setup Azure Site Recovery",
+                        "label": "Grant Partner Access to Azure Sub"
                       }
                     ],
                     "link": {
@@ -652,7 +674,7 @@
                   },
                   {
                     "type": "category",
-                    "label": "Infrastructure",
+                    "label": "Infrastructure Management",
                     "collapsible": true,
                     "collapsed": true,
                     "items": [
@@ -662,11 +684,13 @@
                       },
                       {
                         "type": "doc",
-                        "id": "Azure/Infrastructure/AVD Image Update Guidance"
+                        "id": "Azure/Infrastructure/AVD Image Update Guidance",
+                        "label": "AVD Image Update Guidance"
                       },
                       {
                         "type": "doc",
-                        "id": "Azure/Infrastructure/Create an Automation Account"
+                        "id": "Azure/Infrastructure/Create an Automation Account",
+                        "label": "Create an Automation Account"
                       },
                       {
                         "type": "doc",
@@ -676,8 +700,8 @@
                     "link": {
                       "type": "generated-index",
                       "description": "Guides for Azure Infrastructure Resources.",
-                      "slug": "/category/infrastructure",
-                      "permalink": "/category/infrastructure"
+                      "slug": "/category/infrastructure-management",
+                      "permalink": "/category/infrastructure-management"
                     }
                   }
                 ],

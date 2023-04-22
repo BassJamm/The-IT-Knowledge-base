@@ -6,11 +6,16 @@ toc_max_heading_level: 4
 tags: [Guide, Azure, Lighthouse]
 ---
 
+## Document Control
+
+- Created: x
+- Last Updated: 23/04/22
+
+## Prerequisites and Notes
+
 :::caution
 This document covers creating a template manually and uploading to a customer directly. Not an Azure Marketplace offering.
 :::
-
-## Prerequisites and Notes
 
 ### Online Reading
 
@@ -32,7 +37,7 @@ When you add a new customer via Lighthouse, you'll need to amend their subscript
 There are over 170 roles in Azure, that's a silly amount of trawl through to find the perfect combination to work with. Consider what you look after for your client\customer and simplify it as much as possible, limiting access to the staff who really need it may be enough of a security control for you.
 :::
 
-- If you're an MSP there are too many roles to consider, I'd suggest using at the minimum or two groups that assign the `Contributor` role and the `Reader` role seperately. You can use this segregation to seperate those who should `look but not touch` and those who need to `administer and change`.
+- If you're an MSP there are too many roles to consider, I'd suggest using at the minimum or two groups that assign the `Contributor` role and the `Reader` role separately. You can use this segregation to separate those who should `look but not touch` and those who need to `administer and change`.
 - PIM elevation works to provide just-in-time access, you can setup an approval process for work.
 - The `Managed Services Registration assignment Delete` Role, should be assigned so the managing tenant can remove their own Lighthouse delegation without asking the customer to do it.
 - Contributor is the **highest** role you can assign through Lighthouse.
@@ -49,20 +54,20 @@ There are over 170 roles in Azure, that's a silly amount of trawl through to fin
 
 Create your groups in Azure AD, these groups will contain the staff members that will access to the customer\client via Azure Lighthouse.
 
-I'd Suggest something like the below, the groups can be as granular as you like and as numerious as you like.
+I'd Suggest something like the below, the groups can be as granular as you like and as numerous as you like.
 
 - Azure Lighthouse Contributor.
 - Azure Lighthouse Reader.
 
 :::tip Role Assignment to staff business roles.
-I tried initially to setup groups for our finance team, so they'd be able to manage billing however, this didn't seem to work as I expected and required them to have acess to the Azure tenant. We found that Partner Centre solved this issue.
+I tried initially to setup groups for our finance team, so they'd be able to manage billing however, this didn't seem to work as I expected and required them to have access to the Azure tenant. We found that Partner Centre solved this issue.
 :::
 
 ### Azure Lighthouse Offering
 
 #### ARM Template
 
-Below is an outline and suggestion for each relevant configuratble options for the ARM template.
+Below is an outline and suggestion for each relevant configurable options for the ARM template.
 
 :::info On-boarding multiple Subscriptions or Resource Groups for one client\customer.
 You can delegate multiple resource groups and subscriptions to the same delegation from the Service Providers dashboard\blade in the customer tenant. The documentation for this may suggest otherwise but, it does work.
@@ -72,7 +77,7 @@ You can delegate multiple resource groups and subscriptions to the same delegati
 
 This will show in your customer tenant so make sure if reads "nicely", I'd suggest something like the following.
 
-- `Managing Company Name` Lighthouse Offering for `Customer Name` - `Subscrption or Resource Group Name`.
+- `Managing Company Name` Lighthouse Offering for `Customer Name` - `Subscription or Resource Group Name`.
 
 Swap out the relevant information above if you use this naming convention.
 
@@ -85,14 +90,14 @@ This is also customer facing, my suggestion is below.
 
 ##### Delegation Scope(s)
 
-You've got two options, `Subscription` and `Resource Group`, fairly self explenatory however, you cannot change these after deployment so make sure you select the right one for your needs.
+You've got two options, `Subscription` and `Resource Group`, fairly self explanatory however, you cannot change these after deployment so make sure you select the right one for your needs.
 
 ##### Authorizations
 
 - **Principal type**: Group
 - **Name**: Select one of the noted groups in section above.
-- **Display Name**: Do not edit. (Friendly name that shows in customer tenant, will default to the group name) 
-- **Role**: Assign the roles noted against the groups above. 
+- **Display Name**: Do not edit. (Friendly name that shows in customer tenant, will default to the group name)
+- **Role**: Assign the roles noted against the groups above.
 - **Access Type**: Permanent.
 
 ### ARM template Example
@@ -133,7 +138,7 @@ Locate the `variables:` section to define your group and the Azure role assignme
 - `"roleDefinitionId"` - Is the Azure AD role you've assigned. In the case below, it's `Contributor` and the `Managed Services Registration assignment Delete` roles.
 - `"principalIdDisplayName"` - Is your friendly Group name, this will show in your customer tenant, it does not need to match the group name in the managing tenant.
 
-You'll see some of the information repeated for each role you assign to the same object in the manging tenant.
+You'll see some of the information repeated for each role you assign to the same object in the managing tenant.
 
 ```json showLineNumbers
 "variables": {
@@ -159,53 +164,6 @@ You'll see some of the information repeated for each role you assign to the same
 You don't need to always duck back into Azure Lighthouse to create the templates, you can just edit the JSON files if you're comfortable doing so.
 :::
 
-## Implementation steps
-
-Below are the cut down version steps for deploying the product at at high level.
-
-```text showLineNumbers
-Requisites
-
-- Customer tenant IDs. - Requred for command line and Azure Marketplace deployments.
-- Applicable customer Subscription(s) IDs. - Requred for command line and Azure Marketplace deployments.
-- Setup 2 Groups (within Azure AD), with the roles noted: -
-  - Lighthouse Contributor: Contributor, Managed Services Registration assignment Delete Role.
-  - Lighthouse Reader: Reader.
-
-Steps to create the Azure Lighthouse Delegation offering:
-
-1. Navigate to the Azure Lighthouse Blade in managing Azure tenant.
-2. Create a new Arm template, name it appropriately.
-3. Assign the groups created above to the Azure roles available in the Wizard.
-4. Complete the Wizard and download the ARM template.
-
-Setting up the delegation in the Customer Tenant:
-
-1. Login to customer Azure Tenant.
-2. Search Azure for the Service Providers Blade.
-3. Click Add offer, Select Add via template.
-4. Upload the ARM template.
-5. Select the plus symbol next to the new entry in the list.
-6. Click Delegate subscriptions.
-7. Select the subscriptions from the list.
-8. Check the confirmation box at the bottom and click Delegate.
-
-Repeat this for each customer.
-
-Backout Plan
-
-Remove the delegation.
-
-From the partner tenant (requires the `Managed Services Registration assignment Delete Role`. )
-
-1. Navigate to the My customers page.
-2. Select Delegations.
-3. Find the delegation you want to remove, then select the trash can icon that appears in its row.
-
-Failing this method, login to the customer tenant with Global Admin Priviliges and 
-remove the delegation from the Service Providers blade.
-```
-
 ## Using Lighthouse
 
 :::tip
@@ -221,7 +179,7 @@ The methods below are 2 direct methods for accessing customers, you'll be able t
 
 ### Via the subscriptions blade
 
-> You'll need to show the customer in the subscription fitler first though.
+> You'll need to show the customer in the subscription filter first though.
 
 1. Open the **Azure Management Portal**.
 2. Navigate to the **Subscriptions blade**.
@@ -243,7 +201,7 @@ If you have been granted access to one or more resource groups, rather than to a
 
 PAL - Partner Admin link
 
-PAL is how a partner can be recognised by Microsoft for their work in Azure on-behalf-of their customer.
+PAL is how a partner can be recognized by Microsoft for their work in Azure on-behalf-of their customer.
 
 - [Microsoft doc - Associate your partner ID when you onboard new customers vai Lighthouse](https://learn.microsoft.com/en-us/azure/lighthouse/how-to/partner-earned-credit#associate-your-partner-id-when-you-onboard-new-customers).
 - [Microsoft doc - Link a PartnerID with PAL or DPOR for PAL](https://learn.microsoft.com/en-us/partner-center/link-partner-id-for-azure-performance-pal-dpor#link-to-a-partnerid-with-pal)

@@ -1,16 +1,27 @@
 ---
-sidebar_position: 2
 id: Create an Automation Account
 title: Create an Automation Account
+hide_title: false
+hide_table_of_contents: false
+sidebar_label: Create an Automation Account
+sidebar_position: 2
+toc_max_heading_level: 4 
+pagination_label: Create an Automation Account
 tags: [Azure, Automation, Scripting]
+custom_edit_url: https://github.com/facebook/docusaurus/edit/main/docs/api-doc-markdown.md
+description: Create an Automation Account for script automation in Azure.
 ---
+
+## Document Control
+
+- Created: x
+- Last Updated: 23/04/22
+
+## Outline
 
 :::danger Run As accounts deprecation
 Run As accounts are being deprecated, managed identities are replacing this.
 :::
-
-
-## Outline
 
 1. Setup the Resource Group and Automation Account.
 2. Setup the Identity for the Automation Account, this is key to running scripts gainst Azure Active Directoy and Office 365 resources. 
@@ -235,7 +246,9 @@ catch{
 ```
 I'd also suggest using `write-output` all over the place to confirm progress and variables etc.
 
-> Shout out to the VS code module for Automation Accounts, it'll let you pull down the runbook contents and edit in VsCode and upload it again.
+:::info Shout out
+Shout out to the VS code module for Automation Accounts, it'll let you pull down the runbook contents and edit in VsCode and upload it again. Highly recommend using this.
+:::
 
 ### Confirm the data export
 

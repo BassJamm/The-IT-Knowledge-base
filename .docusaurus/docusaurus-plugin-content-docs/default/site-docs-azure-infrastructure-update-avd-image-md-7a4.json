@@ -2,12 +2,13 @@
   "unversionedId": "Azure/Infrastructure/AVD Image Update Guidance",
   "id": "Azure/Infrastructure/AVD Image Update Guidance",
   "title": "AVD Image Update Guidance",
-  "description": "Terms",
+  "description": "Reinstate admin privileges for a customer's Azure CSP subscriptions.",
   "source": "@site/docs/Azure/Infrastructure/Update AVD Image.md",
   "sourceDirName": "Azure/Infrastructure",
   "slug": "/Azure/Infrastructure/AVD Image Update Guidance",
   "permalink": "/Azure/Infrastructure/AVD Image Update Guidance",
   "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/edit/main/docs/api-doc-markdown.md",
   "tags": [
     {
       "label": "Guide",
@@ -25,15 +26,22 @@
   "version": "current",
   "sidebarPosition": 1,
   "frontMatter": {
-    "sidebar_position": 1,
+    "draft": true,
     "id": "AVD Image Update Guidance",
     "title": "AVD Image Update Guidance",
+    "hide_title": false,
+    "hide_table_of_contents": false,
+    "sidebar_label": "AVD Image Update Guidance",
+    "sidebar_position": 1,
     "toc_max_heading_level": 4,
+    "pagination_label": "AVD Image Update Guidance",
     "tags": [
       "Guide",
       "Azure",
       "Azure Virtual Desktop"
-    ]
+    ],
+    "custom_edit_url": "https://github.com/facebook/docusaurus/edit/main/docs/api-doc-markdown.md",
+    "description": "Reinstate admin privileges for a customer's Azure CSP subscriptions."
   },
   "sidebar": "tutorialSidebar",
   "previous": {

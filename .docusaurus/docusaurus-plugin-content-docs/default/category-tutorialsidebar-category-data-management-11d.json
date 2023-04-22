@@ -5,8 +5,8 @@
   "permalink": "/category/data-management",
   "navigation": {
     "previous": {
-      "title": "Setup Azure Backup",
-      "permalink": "/Azure/Backup and Disaster Recovery/Setup Azure Backup"
+      "title": "Setup Azure Site Recovery",
+      "permalink": "/Azure/Backup and Disaster Recovery/Setup Azure Site Recovery"
     },
     "next": {
       "title": "Restore data from a Snapshot",
