@@ -1,0 +1,45 @@
+{
+  "unversionedId": "Command Line References/Active Directory",
+  "id": "Command Line References/Active Directory",
+  "title": "Active Directory",
+  "description": "All things related to Active Directory cmdlet.",
+  "source": "@site/docs/Command Line References/Active Directory.md",
+  "sourceDirName": "Command Line References",
+  "slug": "/Command Line References/Active Directory",
+  "permalink": "/Command Line References/Active Directory",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/edit/main/docs/api-doc-markdown.md",
+  "tags": [
+    {
+      "label": "AzureAD",
+      "permalink": "/tags/azure-ad"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "draft": true,
+    "id": "Active Directory",
+    "title": "Active Directory",
+    "hide_title": false,
+    "hide_table_of_contents": false,
+    "sidebar_label": "Active Directory",
+    "sidebar_position": 1,
+    "toc_max_heading_level": 4,
+    "pagination_label": "ActiveDirectory",
+    "tags": [
+      "AzureAD"
+    ],
+    "custom_edit_url": "https://github.com/facebook/docusaurus/edit/main/docs/api-doc-markdown.md",
+    "description": "All things related to Active Directory cmdlet."
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Command Line References",
+    "permalink": "/category/command-line-references"
+  },
+  "next": {
+    "title": "Exchange Online",
+    "permalink": "/Command Line References/Exchange Online"
+  }
+}

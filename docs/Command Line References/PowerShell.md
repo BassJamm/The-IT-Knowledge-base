@@ -5,7 +5,7 @@ title: PowerShell
 hide_title: false
 hide_table_of_contents: false
 sidebar_label: PowerShell
-sidebar_position: 2
+sidebar_position: 4
 toc_max_heading_level: 4 
 pagination_label: PowerShell
 tags: [Command Line, PowerShell]
@@ -13,14 +13,14 @@ custom_edit_url: https://github.com/facebook/docusaurus/edit/main/docs/api-doc-m
 description: All things PowerShell.
 ---
 
-## 1. Document Control
+## Document Control
 
 - Created: 23/04/22
 - Last Updated: 23/04/22
 
-## 2. Credential Management
+## Credential Management
 
-### 2.1. Collect and encrypt credentials
+### Collect and encrypt credentials
 
 ```powershell showLineNumbers
 $credential = Get-Credential
@@ -34,7 +34,7 @@ $encrypted = Get-Content "C:\temp\encrypted_password_for_reporting.txt" | Conver
 $credential = New-Object System.Management.Automation.PsCredential($emailusername, $encrypted)
 ```
 
-### 2.2. User confirmation statement
+### User confirmation statement
 
 ```powershell showLineNumbers
 <# Disclaimer to confirm user is happy to begin the process. #>
@@ -51,9 +51,9 @@ if ($decisionConfirmation -ne 'y') {
 }
 ```
 
-## 3. Error Management
+## Error Management
 
-### 3.1. Try and Catch example for error debugging
+### Try and Catch example for error debugging
 
 ```powershell showLineNumbers
 try {
@@ -65,7 +65,7 @@ catch{
 }
 ```
 
-### 3.2. Create a log file
+### Create a log file
 
 The below is a small function that creates the log file and a new command `WriteToLogFile`, which will add the content to the log file.
 
@@ -96,7 +96,7 @@ catch {
 }
 ```
 
-### 3.3. Test multiple item paths
+### Test multiple item paths
 
 Test-Path
 
@@ -106,9 +106,9 @@ Test multiple paths for files or folders.
 Test-Path "$Variable1", "$Variable2", "$Variable3"
 ```
 
-## 4. Importing, Formatting & Searching
+## Importing, Formatting & Searching
 
-### 4.1. Folder Size Report
+### Folder Size Report
 
 ```powershell showLineNumbers
 $directory = C:\Users\whornsby
@@ -135,9 +135,9 @@ $csvFile | group osVersion
 $csvFile | group osVersion | select -ExpandProperty property Name| ft -AutoSize
 ```
 
-## 5. Windows OS
+## Windows OS
 
-### 5.1. Collect System information
+### Collect System information
 
 systeminfo
 
@@ -151,7 +151,7 @@ systeminfo | Out-File -FilePath C:\SystemDiagnosticCollection\SystemInfo.txt # C
 Write-host 'System Info Collected' # Add this if you're writing a script where you need to update the PowerShell prompt.
 ```
 
-### 5.2. Collect IP address info 
+### Collect IP address info 
 
 Ipconfig
 
@@ -164,7 +164,7 @@ ipconfig /all | Out-File -FilePath C:\SystemDiagnosticCollection\IpAddressingInf
 Write-host 'ipconfig ran successfully' # Add this if you're writing a script where you need to update the PowerShell prompt.
 ```
 
-### 5.3. Test Connection
+### Test Connection
 
 Test-NetConnection
 
@@ -177,7 +177,7 @@ Write-host 'Folder created at C:\SystemDiagnosticCollection' # Add this if you'r
 Test-NetConnection www.google.com -InformationLevel "Detailed" | Out-File -FilePath C:\SystemDiagnosticCollection\pingtoGoogle-FQDN.txt
 ```
 
-#### 5.3.1. Time stamped ping
+#### Time stamped ping
 
 Test-NetConnection
 
@@ -191,7 +191,7 @@ Test-connection 8.8.8.8 -count 10 | format-table -AutoSize @{n='TimeStamp';e={Ge
 Write-host 'Network Tests ran successfully' # Add this if you're writing a script where you need to update the PowerShell prompt.
 ```
 
-### 5.4. Collecting Event Logs
+### Collecting Event Logs
 
 Get-EventLog
 
@@ -207,7 +207,7 @@ Get-Eventlog -LogName Application -EntryType Error,Warning -After (Get-Date).Add
 Write-host 'Successfully gathered Event Logs'
 ```
 
-### 5.5. Collect Printer information
+### Collect Printer information
 
 Get-printer
 
@@ -221,7 +221,7 @@ Get-printer | Out-File -FilePath C:\SystemDiagnosticCollection\Printer-Info.txt
 Write-host 'Gathered Printer info' # Add this if you're writing a script where you need to update the PowerShell prompt.
 ```
 
-### 5.6. Collect Group Policy Information 
+### Collect Group Policy Information 
 
 gpresult /v
 
@@ -235,7 +235,7 @@ gpresult /v | Out-file -FilePath C:\SystemDiagnosticCollection\GpResult.txt
 Write-host 'Gathered GPO status' # Add this if you're writing a script where you need to update the PowerShell prompt.
 ```
 
-### 5.7. Collect Azure Active Directory
+### Collect Azure Active Directory
 
 dsregcmd
 
@@ -253,7 +253,7 @@ dsregcmd /status | Out-File -FilePath C:\SystemDiagnosticCollection\Hybrid-Joine
 Write-host 'Successfully checked for Hybrid-Joined status' # Add this if you're writing a script where you need to update the PowerShell prompt.
 ```
 
-#### 5.7.1. Collect the 'key' info from dsregcmd command
+#### Collect the 'key' info from dsregcmd command
 
 :::info
 This script could use a little tidying up but, it should give you an idea of what is needed.

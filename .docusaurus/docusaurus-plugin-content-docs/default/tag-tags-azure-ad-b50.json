@@ -5,10 +5,10 @@
   "count": 1,
   "items": [
     {
-      "id": "How-to Guides/Azure Active Directory/Decom an Azure AD App",
-      "title": "Decom an Azure AD App",
-      "description": "Pre-requisits",
-      "permalink": "/How-to Guides/Azure Active Directory/Decom an Azure AD App"
+      "id": "Command Line References/Active Directory",
+      "title": "Active Directory",
+      "description": "All things related to Active Directory cmdlet.",
+      "permalink": "/Command Line References/Active Directory"
     }
   ]
 }

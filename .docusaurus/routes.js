@@ -3,6 +3,41 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 
 export default [
   {
+    path: '/__docusaurus/debug',
+    component: ComponentCreator('/__docusaurus/debug', 'de6'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/config',
+    component: ComponentCreator('/__docusaurus/debug/config', 'e31'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/content',
+    component: ComponentCreator('/__docusaurus/debug/content', 'f8a'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/globalData',
+    component: ComponentCreator('/__docusaurus/debug/globalData', 'e73'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/metadata',
+    component: ComponentCreator('/__docusaurus/debug/metadata', 'ec8'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/registry',
+    component: ComponentCreator('/__docusaurus/debug/registry', 'aac'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/routes',
+    component: ComponentCreator('/__docusaurus/debug/routes', '1c0'),
+    exact: true
+  },
+  {
     path: '/markdown-page',
     component: ComponentCreator('/markdown-page', 'ca9'),
     exact: true
@@ -23,8 +58,18 @@ export default [
     exact: true
   },
   {
+    path: '/tags/azure-ad',
+    component: ComponentCreator('/tags/azure-ad', 'eaf'),
+    exact: true
+  },
+  {
     path: '/tags/azure-backup',
     component: ComponentCreator('/tags/azure-backup', '2e9'),
+    exact: true
+  },
+  {
+    path: '/tags/azure-virtual-desktop',
+    component: ComponentCreator('/tags/azure-virtual-desktop', '07d'),
     exact: true
   },
   {
@@ -38,6 +83,11 @@ export default [
     exact: true
   },
   {
+    path: '/tags/flow-log',
+    component: ComponentCreator('/tags/flow-log', '4b0'),
+    exact: true
+  },
+  {
     path: '/tags/guide',
     component: ComponentCreator('/tags/guide', 'cf6'),
     exact: true
@@ -45,6 +95,11 @@ export default [
   {
     path: '/tags/lighthouse',
     component: ComponentCreator('/tags/lighthouse', 'f1b'),
+    exact: true
+  },
+  {
+    path: '/tags/mg-graph',
+    component: ComponentCreator('/tags/mg-graph', 'dc7'),
     exact: true
   },
   {
@@ -63,8 +118,8 @@ export default [
     exact: true
   },
   {
-    path: '/tags/partner-centre',
-    component: ComponentCreator('/tags/partner-centre', 'a33'),
+    path: '/tags/nsg',
+    component: ComponentCreator('/tags/nsg', 'd87'),
     exact: true
   },
   {
@@ -85,6 +140,11 @@ export default [
   {
     path: '/tags/restore',
     component: ComponentCreator('/tags/restore', '1a9'),
+    exact: true
+  },
+  {
+    path: '/tags/script',
+    component: ComponentCreator('/tags/script', '457'),
     exact: true
   },
   {
@@ -114,7 +174,7 @@ export default [
   },
   {
     path: '/',
-    component: ComponentCreator('/', '573'),
+    component: ComponentCreator('/', 'f43'),
     routes: [
       {
         path: '/',
@@ -143,6 +203,12 @@ export default [
       {
         path: '/Azure/Data Management/Restore VM from Snapshot',
         component: ComponentCreator('/Azure/Data Management/Restore VM from Snapshot', '4c8'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/Azure/Infrastructure/AVD Image Update Guidance',
+        component: ComponentCreator('/Azure/Infrastructure/AVD Image Update Guidance', '071'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
@@ -213,6 +279,12 @@ export default [
         sidebar: "tutorialSidebar"
       },
       {
+        path: '/Command Line References/Active Directory',
+        component: ComponentCreator('/Command Line References/Active Directory', '49c'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
         path: '/Command Line References/Exchange Online',
         component: ComponentCreator('/Command Line References/Exchange Online', '9fa'),
         exact: true,
@@ -227,6 +299,12 @@ export default [
       {
         path: '/Command Line References/PowerShell',
         component: ComponentCreator('/Command Line References/PowerShell', 'b4d'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/Scripts/Get User info using MGGraph',
+        component: ComponentCreator('/Scripts/Get User info using MGGraph', '91d'),
         exact: true,
         sidebar: "tutorialSidebar"
       },

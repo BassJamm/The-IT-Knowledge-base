@@ -1,0 +1,20 @@
+{
+  "label": "Script",
+  "permalink": "/tags/script",
+  "allTagsPath": "/tags",
+  "count": 2,
+  "items": [
+    {
+      "id": "Scripts/Get User info using MGGraph",
+      "title": "Get User info using MGGraph",
+      "description": "Get user information using MGGraph.",
+      "permalink": "/Scripts/Get User info using MGGraph"
+    },
+    {
+      "id": "Scripts/NSG Flow log Formatter",
+      "title": "NSG Flow log Formatter",
+      "description": "Script will help with readability of NSG flow logs.",
+      "permalink": "/Scripts/NSG Flow log Formatter"
+    }
+  ]
+}

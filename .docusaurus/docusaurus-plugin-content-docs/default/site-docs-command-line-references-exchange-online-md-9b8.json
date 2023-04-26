@@ -20,7 +20,7 @@
     }
   ],
   "version": "current",
-  "sidebarPosition": 1,
+  "sidebarPosition": 2,
   "frontMatter": {
     "draft": false,
     "id": "Exchange Online",
@@ -28,7 +28,7 @@
     "hide_title": false,
     "hide_table_of_contents": false,
     "sidebar_label": "Exchange Online",
-    "sidebar_position": 1,
+    "sidebar_position": 2,
     "toc_max_heading_level": 4,
     "pagination_label": "Exchange Online",
     "tags": [
@@ -40,8 +40,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Command Line References",
-    "permalink": "/category/command-line-references"
+    "title": "ActiveDirectory",
+    "permalink": "/Command Line References/Active Directory"
   },
   "next": {
     "title": "Microsoft Graph",

@@ -2,7 +2,7 @@
   {
     "label": "Azure",
     "permalink": "/tags/azure",
-    "count": 8
+    "count": 9
   },
   {
     "label": "Resource Creation",
@@ -17,7 +17,7 @@
   {
     "label": "Guide",
     "permalink": "/tags/guide",
-    "count": 2
+    "count": 3
   },
   {
     "label": "Setup Azure Site Recovery",
@@ -33,6 +33,11 @@
     "label": "SnapShot",
     "permalink": "/tags/snap-shot",
     "count": 2
+  },
+  {
+    "label": "Azure Virtual Desktop",
+    "permalink": "/tags/azure-virtual-desktop",
+    "count": 1
   },
   {
     "label": "Automation",
@@ -65,6 +70,11 @@
     "count": 1
   },
   {
+    "label": "AzureAD",
+    "permalink": "/tags/azure-ad",
+    "count": 1
+  },
+  {
     "label": "Command Line",
     "permalink": "/tags/command-line",
     "count": 3
@@ -85,8 +95,23 @@
     "count": 1
   },
   {
-    "label": "PartnerCentre",
-    "permalink": "/tags/partner-centre",
+    "label": "MGGraph",
+    "permalink": "/tags/mg-graph",
+    "count": 1
+  },
+  {
+    "label": "Script",
+    "permalink": "/tags/script",
+    "count": 2
+  },
+  {
+    "label": "NSG",
+    "permalink": "/tags/nsg",
+    "count": 1
+  },
+  {
+    "label": "Flow Log",
+    "permalink": "/tags/flow-log",
     "count": 1
   },
   {

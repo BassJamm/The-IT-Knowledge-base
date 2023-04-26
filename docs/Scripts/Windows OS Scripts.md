@@ -4,7 +4,7 @@ title: Windows OS Scripts
 hide_title: false
 hide_table_of_contents: false
 sidebar_label: Windows OS Scripts
-sidebar_position: 1
+sidebar_position: 3
 toc_max_heading_level: 4 
 pagination_label: Windows OS Scripts
 tags: [Scripts, Re-usable Code]

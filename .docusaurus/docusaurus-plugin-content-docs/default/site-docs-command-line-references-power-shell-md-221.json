@@ -20,7 +20,7 @@
     }
   ],
   "version": "current",
-  "sidebarPosition": 2,
+  "sidebarPosition": 4,
   "frontMatter": {
     "draft": false,
     "id": "PowerShell",
@@ -28,7 +28,7 @@
     "hide_title": false,
     "hide_table_of_contents": false,
     "sidebar_label": "PowerShell",
-    "sidebar_position": 2,
+    "sidebar_position": 4,
     "toc_max_heading_level": 4,
     "pagination_label": "PowerShell",
     "tags": [

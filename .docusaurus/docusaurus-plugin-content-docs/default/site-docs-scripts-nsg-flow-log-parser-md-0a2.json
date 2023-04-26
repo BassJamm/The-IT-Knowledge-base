@@ -11,8 +11,16 @@
   "editUrl": "https://github.com/facebook/docusaurus/edit/main/docs/api-doc-markdown.md",
   "tags": [
     {
-      "label": "PartnerCentre",
-      "permalink": "/tags/partner-centre"
+      "label": "Script",
+      "permalink": "/tags/script"
+    },
+    {
+      "label": "NSG",
+      "permalink": "/tags/nsg"
+    },
+    {
+      "label": "Flow Log",
+      "permalink": "/tags/flow-log"
     }
   ],
   "version": "current",
@@ -28,13 +36,19 @@
     "toc_max_heading_level": 4,
     "pagination_label": "NSG Flow log Formatter",
     "tags": [
-      "PartnerCentre"
+      "Script",
+      "NSG",
+      "Flow Log"
     ],
     "custom_edit_url": "https://github.com/facebook/docusaurus/edit/main/docs/api-doc-markdown.md",
     "description": "Script will help with readability of NSG flow logs."
   },
   "sidebar": "tutorialSidebar",
   "previous": {
+    "title": "Get User info using MGGraph",
+    "permalink": "/Scripts/Get User info using MGGraph"
+  },
+  "next": {
     "title": "Windows OS Scripts",
     "permalink": "/Scripts/Windows OS Scripts"
   }

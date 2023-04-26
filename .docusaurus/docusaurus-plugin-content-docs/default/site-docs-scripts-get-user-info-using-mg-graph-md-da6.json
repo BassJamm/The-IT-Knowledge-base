@@ -1,0 +1,50 @@
+{
+  "unversionedId": "Scripts/Get User info using MGGraph",
+  "id": "Scripts/Get User info using MGGraph",
+  "title": "Get User info using MGGraph",
+  "description": "Get user information using MGGraph.",
+  "source": "@site/docs/Scripts/Get User info using MGGraph.md",
+  "sourceDirName": "Scripts",
+  "slug": "/Scripts/Get User info using MGGraph",
+  "permalink": "/Scripts/Get User info using MGGraph",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/edit/main/docs/api-doc-markdown.md",
+  "tags": [
+    {
+      "label": "MGGraph",
+      "permalink": "/tags/mg-graph"
+    },
+    {
+      "label": "Script",
+      "permalink": "/tags/script"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "draft": true,
+    "id": "Get User info using MGGraph",
+    "title": "Get User info using MGGraph",
+    "hide_title": false,
+    "hide_table_of_contents": false,
+    "sidebar_label": "Get User info using MGGraph",
+    "sidebar_position": 2,
+    "toc_max_heading_level": 4,
+    "pagination_label": "Get User info using MGGraph",
+    "tags": [
+      "MGGraph",
+      "Script"
+    ],
+    "custom_edit_url": "https://github.com/facebook/docusaurus/edit/main/docs/api-doc-markdown.md",
+    "description": "Get user information using MGGraph."
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Scripts",
+    "permalink": "/category/scripts"
+  },
+  "next": {
+    "title": "NSG Flow log Formatter",
+    "permalink": "/Scripts/NSG Flow log Formatter"
+  }
+}

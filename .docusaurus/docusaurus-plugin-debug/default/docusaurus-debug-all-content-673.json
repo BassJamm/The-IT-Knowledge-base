@@ -460,6 +460,51 @@
               }
             },
             {
+              "unversionedId": "Command Line References/Active Directory",
+              "id": "Command Line References/Active Directory",
+              "title": "Active Directory",
+              "description": "All things related to Active Directory cmdlet.",
+              "source": "@site/docs/Command Line References/Active Directory.md",
+              "sourceDirName": "Command Line References",
+              "slug": "/Command Line References/Active Directory",
+              "permalink": "/Command Line References/Active Directory",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/edit/main/docs/api-doc-markdown.md",
+              "tags": [
+                {
+                  "label": "AzureAD",
+                  "permalink": "/tags/azure-ad"
+                }
+              ],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "draft": true,
+                "id": "Active Directory",
+                "title": "Active Directory",
+                "hide_title": false,
+                "hide_table_of_contents": false,
+                "sidebar_label": "Active Directory",
+                "sidebar_position": 1,
+                "toc_max_heading_level": 4,
+                "pagination_label": "ActiveDirectory",
+                "tags": [
+                  "AzureAD"
+                ],
+                "custom_edit_url": "https://github.com/facebook/docusaurus/edit/main/docs/api-doc-markdown.md",
+                "description": "All things related to Active Directory cmdlet."
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Command Line References",
+                "permalink": "/category/command-line-references"
+              },
+              "next": {
+                "title": "Exchange Online",
+                "permalink": "/Command Line References/Exchange Online"
+              }
+            },
+            {
               "unversionedId": "Command Line References/Exchange Online",
               "id": "Command Line References/Exchange Online",
               "title": "Exchange Online",
@@ -481,7 +526,7 @@
                 }
               ],
               "version": "current",
-              "sidebarPosition": 1,
+              "sidebarPosition": 2,
               "frontMatter": {
                 "draft": false,
                 "id": "Exchange Online",
@@ -489,7 +534,7 @@
                 "hide_title": false,
                 "hide_table_of_contents": false,
                 "sidebar_label": "Exchange Online",
-                "sidebar_position": 1,
+                "sidebar_position": 2,
                 "toc_max_heading_level": 4,
                 "pagination_label": "Exchange Online",
                 "tags": [
@@ -501,8 +546,8 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Command Line References",
-                "permalink": "/category/command-line-references"
+                "title": "ActiveDirectory",
+                "permalink": "/Command Line References/Active Directory"
               },
               "next": {
                 "title": "Microsoft Graph",
@@ -531,7 +576,7 @@
                 }
               ],
               "version": "current",
-              "sidebarPosition": 1,
+              "sidebarPosition": 3,
               "frontMatter": {
                 "draft": false,
                 "id": "Microsoft Graph",
@@ -539,7 +584,7 @@
                 "hide_title": false,
                 "hide_table_of_contents": false,
                 "sidebar_label": "Microsoft Graph",
-                "sidebar_position": 1,
+                "sidebar_position": 3,
                 "toc_max_heading_level": 4,
                 "pagination_label": "Microsoft Graph",
                 "tags": [
@@ -581,7 +626,7 @@
                 }
               ],
               "version": "current",
-              "sidebarPosition": 2,
+              "sidebarPosition": 4,
               "frontMatter": {
                 "draft": false,
                 "id": "PowerShell",
@@ -589,7 +634,7 @@
                 "hide_title": false,
                 "hide_table_of_contents": false,
                 "sidebar_label": "PowerShell",
-                "sidebar_position": 2,
+                "sidebar_position": 4,
                 "toc_max_heading_level": 4,
                 "pagination_label": "PowerShell",
                 "tags": [
@@ -610,6 +655,56 @@
               }
             },
             {
+              "unversionedId": "Scripts/Get User info using MGGraph",
+              "id": "Scripts/Get User info using MGGraph",
+              "title": "Get User info using MGGraph",
+              "description": "Get user information using MGGraph.",
+              "source": "@site/docs/Scripts/Get User info using MGGraph.md",
+              "sourceDirName": "Scripts",
+              "slug": "/Scripts/Get User info using MGGraph",
+              "permalink": "/Scripts/Get User info using MGGraph",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/edit/main/docs/api-doc-markdown.md",
+              "tags": [
+                {
+                  "label": "MGGraph",
+                  "permalink": "/tags/mg-graph"
+                },
+                {
+                  "label": "Script",
+                  "permalink": "/tags/script"
+                }
+              ],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "draft": true,
+                "id": "Get User info using MGGraph",
+                "title": "Get User info using MGGraph",
+                "hide_title": false,
+                "hide_table_of_contents": false,
+                "sidebar_label": "Get User info using MGGraph",
+                "sidebar_position": 2,
+                "toc_max_heading_level": 4,
+                "pagination_label": "Get User info using MGGraph",
+                "tags": [
+                  "MGGraph",
+                  "Script"
+                ],
+                "custom_edit_url": "https://github.com/facebook/docusaurus/edit/main/docs/api-doc-markdown.md",
+                "description": "Get user information using MGGraph."
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Scripts",
+                "permalink": "/category/scripts"
+              },
+              "next": {
+                "title": "NSG Flow log Formatter",
+                "permalink": "/Scripts/NSG Flow log Formatter"
+              }
+            },
+            {
               "unversionedId": "Scripts/NSG Flow log Formatter",
               "id": "Scripts/NSG Flow log Formatter",
               "title": "NSG Flow log Formatter",
@@ -622,8 +717,16 @@
               "editUrl": "https://github.com/facebook/docusaurus/edit/main/docs/api-doc-markdown.md",
               "tags": [
                 {
-                  "label": "PartnerCentre",
-                  "permalink": "/tags/partner-centre"
+                  "label": "Script",
+                  "permalink": "/tags/script"
+                },
+                {
+                  "label": "NSG",
+                  "permalink": "/tags/nsg"
+                },
+                {
+                  "label": "Flow Log",
+                  "permalink": "/tags/flow-log"
                 }
               ],
               "version": "current",
@@ -639,13 +742,19 @@
                 "toc_max_heading_level": 4,
                 "pagination_label": "NSG Flow log Formatter",
                 "tags": [
-                  "PartnerCentre"
+                  "Script",
+                  "NSG",
+                  "Flow Log"
                 ],
                 "custom_edit_url": "https://github.com/facebook/docusaurus/edit/main/docs/api-doc-markdown.md",
                 "description": "Script will help with readability of NSG flow logs."
               },
               "sidebar": "tutorialSidebar",
               "previous": {
+                "title": "Get User info using MGGraph",
+                "permalink": "/Scripts/Get User info using MGGraph"
+              },
+              "next": {
                 "title": "Windows OS Scripts",
                 "permalink": "/Scripts/Windows OS Scripts"
               }
@@ -671,14 +780,14 @@
                 }
               ],
               "version": "current",
-              "sidebarPosition": 1,
+              "sidebarPosition": 3,
               "frontMatter": {
                 "id": "Windows OS Scripts",
                 "title": "Windows OS Scripts",
                 "hide_title": false,
                 "hide_table_of_contents": false,
                 "sidebar_label": "Windows OS Scripts",
-                "sidebar_position": 1,
+                "sidebar_position": 3,
                 "toc_max_heading_level": 4,
                 "pagination_label": "Windows OS Scripts",
                 "tags": [
@@ -689,10 +798,6 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Scripts",
-                "permalink": "/category/scripts"
-              },
-              "next": {
                 "title": "NSG Flow log Formatter",
                 "permalink": "/Scripts/NSG Flow log Formatter"
               }
@@ -848,6 +953,11 @@
                 "items": [
                   {
                     "type": "doc",
+                    "id": "Command Line References/Active Directory",
+                    "label": "Active Directory"
+                  },
+                  {
+                    "type": "doc",
                     "id": "Command Line References/Exchange Online",
                     "label": "Exchange Online"
                   },
@@ -877,13 +987,18 @@
                 "items": [
                   {
                     "type": "doc",
-                    "id": "Scripts/Windows OS Scripts",
-                    "label": "Windows OS Scripts"
+                    "id": "Scripts/Get User info using MGGraph",
+                    "label": "Get User info using MGGraph"
                   },
                   {
                     "type": "doc",
                     "id": "Scripts/NSG Flow log Formatter",
                     "label": "NSG Flow log Formatter"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Scripts/Windows OS Scripts",
+                    "label": "Windows OS Scripts"
                   }
                 ],
                 "link": {

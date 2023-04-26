@@ -19,14 +19,14 @@
     }
   ],
   "version": "current",
-  "sidebarPosition": 1,
+  "sidebarPosition": 3,
   "frontMatter": {
     "id": "Windows OS Scripts",
     "title": "Windows OS Scripts",
     "hide_title": false,
     "hide_table_of_contents": false,
     "sidebar_label": "Windows OS Scripts",
-    "sidebar_position": 1,
+    "sidebar_position": 3,
     "toc_max_heading_level": 4,
     "pagination_label": "Windows OS Scripts",
     "tags": [
@@ -37,10 +37,6 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Scripts",
-    "permalink": "/category/scripts"
-  },
-  "next": {
     "title": "NSG Flow log Formatter",
     "permalink": "/Scripts/NSG Flow log Formatter"
   }

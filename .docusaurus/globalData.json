@@ -1,12 +1,4 @@
 {
-  "docusaurus-lunr-search": {
-    "default": {
-      "fileNames": {
-        "searchDoc": "search-doc-1682188559366.json",
-        "lunrIndex": "lunr-index-1682188559366.json"
-      }
-    }
-  },
   "docusaurus-plugin-google-gtag": {
     "default": {
       "trackingID": [
@@ -14,6 +6,14 @@
       ],
       "anonymizeIP": true,
       "id": "default"
+    }
+  },
+  "docusaurus-lunr-search": {
+    "default": {
+      "fileNames": {
+        "searchDoc": "search-doc-1682529099211.json",
+        "lunrIndex": "lunr-index-1682529099211.json"
+      }
     }
   },
   "docusaurus-plugin-content-docs": {
@@ -48,6 +48,11 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "Azure/Infrastructure/AVD Image Update Guidance",
+              "path": "/Azure/Infrastructure/AVD Image Update Guidance",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "Azure/Infrastructure/Create an Automation Account",
               "path": "/Azure/Infrastructure/Create an Automation Account",
               "sidebar": "tutorialSidebar"
@@ -68,6 +73,11 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "Command Line References/Active Directory",
+              "path": "/Command Line References/Active Directory",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "Command Line References/Exchange Online",
               "path": "/Command Line References/Exchange Online",
               "sidebar": "tutorialSidebar"
@@ -80,6 +90,11 @@
             {
               "id": "Command Line References/PowerShell",
               "path": "/Command Line References/PowerShell",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Scripts/Get User info using MGGraph",
+              "path": "/Scripts/Get User info using MGGraph",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -133,9 +148,7 @@
               "sidebar": "tutorialSidebar"
             }
           ],
-          "draftIds": [
-            "Azure/Infrastructure/AVD Image Update Guidance"
-          ],
+          "draftIds": [],
           "sidebars": {
             "tutorialSidebar": {
               "link": {

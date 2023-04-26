@@ -8,7 +8,7 @@ sidebar_label: NSG Flow log Formatter
 sidebar_position: 2
 toc_max_heading_level: 4 
 pagination_label: NSG Flow log Formatter
-tags: [PartnerCentre]
+tags: [Script, NSG, Flow Log]
 custom_edit_url: https://github.com/facebook/docusaurus/edit/main/docs/api-doc-markdown.md
 description: Script will help with readability of NSG flow logs.
 ---

@@ -5,7 +5,7 @@ title: Microsoft Graph
 hide_title: false
 hide_table_of_contents: false
 sidebar_label: Microsoft Graph
-sidebar_position: 1
+sidebar_position: 3
 toc_max_heading_level: 4 
 pagination_label: Microsoft Graph
 tags: [Command Line, Microsoft Graph]
@@ -13,14 +13,14 @@ custom_edit_url: https://github.com/facebook/docusaurus/edit/main/docs/api-doc-m
 description: Microsoft Graph command ref doc.
 ---
 
-## 1. Document Control
+## Document Control
 
 - Created: 2023/04/22
 - Last Updated: 2023/04/22
 
-## 2. User Management
+## User Management
 
-### 2.1. Get Last Password reset time from Azure AD
+### Get Last Password reset time from Azure AD
 
 Get-MgUser
 
@@ -34,13 +34,13 @@ Sort PasswordAgeDays | `
 Ft -Autosize
 ```
 
-### 2.2. Grab basic user information to work with
+### Grab basic user information to work with
 
 ```powershell showLineNumbers
 Get-MGUser -All -Property Id, DisplayName, UserPrincipalName, AssignedLicenses | Select Id, DisplayName, UserPrincipalName, AssignedLicenses
 ```
 
-### 2.3. Grab a password report of all users.
+### Grab a password report of all users.
 
 ```powershell showLineNumbers
 Get-MgUser -All -Property UserPrincipalName, DisplayName, Id, LastPasswordChangeDateTime,PasswordPolicies | `
@@ -48,9 +48,9 @@ Select-Object UserPrincipalName, DisplayName, LastPasswordChangeDateTime,Passwor
 Sort-Object PasswordAgeDays 
  ```
 
-## 3. Device management
+## Device management
 
-### 3.1. Get devices from Intune with their Primary User
+### Get devices from Intune with their Primary User
 
 Get-MgDeviceManagementManagedDevice
 
@@ -63,7 +63,7 @@ Select DeviceName, UserPrincipalName, EnrolledDateTime, ComplianceState, IsEncry
 Sort OperatingSystem
 ```
 
-### 3.2. Get Generic Device Report from intune
+### Get Generic Device Report from intune
 
 ```powershell showLineNumbers
 # Connect with the relevant permission to read all user and device data.
@@ -73,7 +73,7 @@ Connect-MgGraph "User.Read.All", "DeviceManagementRBAC.Read.All", "DeviceManagem
 Get-MgDeviceManagementManagedDevice -All | select DeviceName, AzureAdDeviceId, UserPrincipalName, Id, ComplianceState, EnrolledDateTime, LastSyncDateTime, Manufacturer, Model, OSVersion, SerialNumber | sort UserPrincipalName |  ft -AutoSize
 ```
 
-### 3.3. Get a list of Configuration Profiles from Intune
+### Get a list of Configuration Profiles from Intune
 
 Get-MgDeviceManagementDeviceConfiguration
 
@@ -82,9 +82,36 @@ Get-MgDeviceManagementDeviceConfiguration
 Get-MgDeviceManagementDeviceConfiguration -All | select Id, DisplayName
 ```
 
-## 4. Module Management
+### Get a list of Compliance policies from Intune
 
-### 4.1. Connect & Update
+Get-MgDeviceManagementDeviceCompliancePolicy
+
+```powershell showLineNumbers
+# Get Compliance policies for an Org.
+Get-MgDeviceManagementDeviceCompliancePolicy -All | Select Displayname,LastModifiedDateTime, Id
+```
+
+#### Get a compliancy report for a compliance policy
+
+Get-MgDeviceManagementDeviceCompliancePolicyDeviceStatuses
+
+```powershell showLineNumbers
+# Get Compliancy report for a policy
+Get-MgDeviceManagementDeviceCompliancePolicyDeviceStatuses -DeviceCompliancePolicyId 6ac10074-0704-46d1-8fe2-04fa03d413d4 | Select DeviceDisplayName, Status, UserName
+```
+
+#### Get a compliance policy report for a single device
+
+Get-MgDeviceManagementManagedDeviceCompliancePolicyState
+
+```powershell showLineNumbers
+# Device Compliancy for a single device.
+Get-MgDeviceManagementManagedDeviceCompliancePolicyState -ManagedDeviceId f2c1e6c3-9330-41c9-9a91-50302c20655d
+````
+
+## Module Management
+
+### Connect & Update
 
 ```powershell showLineNumbers
 Connect-MGGraph
@@ -92,7 +119,7 @@ Connect-MGGraph
 Update-Module -Name Microsoft.Graph
 ```
  
-### 4.2. Connect to MG Graph with Read-only permissions
+### Connect to MG Graph with Read-only permissions
 
 Connect-MGGraph
 
