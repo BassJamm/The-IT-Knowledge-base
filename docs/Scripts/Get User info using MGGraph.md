@@ -33,13 +33,7 @@ cd C:\Temp\
 
 ```powershell showLineNumbers
 <#
-  Gets the users password settings, using Get-MSOLUser.
-  NOTE: connect-msolservice first to connect to the tenant.
-
-
-  Pipe username(s) into the script or specify them into the command line.
-
-  By Chris Ryan, March 2023.
+  Gets user information by piping values into the script.
 
 #>
 param(
