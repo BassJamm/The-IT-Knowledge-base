@@ -18,6 +18,56 @@
           "contentPathLocalized": "C:\\GitRepos\\The-IT-Knowledge-base\\i18n\\en\\docusaurus-plugin-content-docs\\current",
           "docs": [
             {
+              "unversionedId": "Azure Active Directory/App Registrations/Decom and AAD App",
+              "id": "Azure Active Directory/App Registrations/Decom and AAD App",
+              "title": "Decommission and AAD App",
+              "description": "Decommission and Azure AD App registration.",
+              "source": "@site/docs/Azure Active Directory/App Registrations/Decom and AAD App.md",
+              "sourceDirName": "Azure Active Directory/App Registrations",
+              "slug": "/Azure Active Directory/App Registrations/Decom and AAD App",
+              "permalink": "/Azure Active Directory/App Registrations/Decom and AAD App",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/edit/main/docs/api-doc-markdown.md",
+              "tags": [
+                {
+                  "label": "AzureAD",
+                  "permalink": "/tags/azure-ad"
+                },
+                {
+                  "label": "EntApp",
+                  "permalink": "/tags/ent-app"
+                }
+              ],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "draft": false,
+                "id": "Decom and AAD App",
+                "title": "Decommission and AAD App",
+                "hide_title": false,
+                "hide_table_of_contents": false,
+                "sidebar_label": "Decommission and AAD App",
+                "sidebar_position": 1,
+                "toc_max_heading_level": 4,
+                "pagination_label": "Decommission and AAD App",
+                "tags": [
+                  "AzureAD",
+                  "EntApp"
+                ],
+                "custom_edit_url": "https://github.com/facebook/docusaurus/edit/main/docs/api-doc-markdown.md",
+                "description": "Decommission and Azure AD App registration."
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "App Registrations",
+                "permalink": "/category/app-registrations"
+              },
+              "next": {
+                "title": "Certificates",
+                "permalink": "/category/certificates"
+              }
+            },
+            {
               "unversionedId": "Azure/Backup and Disaster Recovery/Setup Azure Backup",
               "id": "Azure/Backup and Disaster Recovery/Setup Azure Backup",
               "title": "Setup Azure Backup",
@@ -455,6 +505,186 @@
                 "permalink": "/category/networking"
               },
               "next": {
+                "title": "Azure Active Directory",
+                "permalink": "/category/azure-active-directory"
+              }
+            },
+            {
+              "unversionedId": "Certificates/Formats and Conversions",
+              "id": "Certificates/Formats and Conversions",
+              "title": "Certificate formats and Converting formats",
+              "description": "Certificate formatting and converting them to different formats.",
+              "source": "@site/docs/Certificates/Formats & Conversion.md",
+              "sourceDirName": "Certificates",
+              "slug": "/Certificates/Formats and Conversions",
+              "permalink": "/Certificates/Formats and Conversions",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/edit/main/docs/api-doc-markdown.md",
+              "tags": [
+                {
+                  "label": "Certificates",
+                  "permalink": "/tags/certificates"
+                }
+              ],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "draft": true,
+                "id": "Formats and Conversions",
+                "title": "Certificate formats and Converting formats",
+                "hide_title": false,
+                "hide_table_of_contents": false,
+                "sidebar_label": "Certificate formats and Converting formats",
+                "sidebar_position": 1,
+                "toc_max_heading_level": 4,
+                "pagination_label": "Certificate formats and Converting formats",
+                "tags": [
+                  "Certificates"
+                ],
+                "custom_edit_url": "https://github.com/facebook/docusaurus/edit/main/docs/api-doc-markdown.md",
+                "description": "Certificate formatting and converting them to different formats."
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Certificates",
+                "permalink": "/category/certificates"
+              },
+              "next": {
+                "title": "Generating a CSR",
+                "permalink": "/Certificates/Generating a CSR"
+              }
+            },
+            {
+              "unversionedId": "Certificates/Generating a CSR",
+              "id": "Certificates/Generating a CSR",
+              "title": "Generating a CSR",
+              "description": "Generating a CSR.",
+              "source": "@site/docs/Certificates/Generating a CSR.md",
+              "sourceDirName": "Certificates",
+              "slug": "/Certificates/Generating a CSR",
+              "permalink": "/Certificates/Generating a CSR",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/edit/main/docs/api-doc-markdown.md",
+              "tags": [
+                {
+                  "label": "Certificates",
+                  "permalink": "/tags/certificates"
+                }
+              ],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "draft": false,
+                "id": "Generating a CSR",
+                "title": "Generating a CSR",
+                "hide_title": false,
+                "hide_table_of_contents": false,
+                "sidebar_label": "Generating a CSR",
+                "sidebar_position": 2,
+                "toc_max_heading_level": 4,
+                "pagination_label": "Generating a CSR",
+                "tags": [
+                  "Certificates"
+                ],
+                "custom_edit_url": "https://github.com/facebook/docusaurus/edit/main/docs/api-doc-markdown.md",
+                "description": "Generating a CSR."
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Certificate formats and Converting formats",
+                "permalink": "/Certificates/Formats and Conversions"
+              },
+              "next": {
+                "title": "Request from Internal CA",
+                "permalink": "/Certificates/Request from Internal CA"
+              }
+            },
+            {
+              "unversionedId": "Certificates/Request from Internal CA",
+              "id": "Certificates/Request from Internal CA",
+              "title": "Request from Internal CA",
+              "description": "Request a Cert from Internal CA.",
+              "source": "@site/docs/Certificates/Using an Internal CA.md",
+              "sourceDirName": "Certificates",
+              "slug": "/Certificates/Request from Internal CA",
+              "permalink": "/Certificates/Request from Internal CA",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/edit/main/docs/api-doc-markdown.md",
+              "tags": [
+                {
+                  "label": "Certificates",
+                  "permalink": "/tags/certificates"
+                }
+              ],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "draft": true,
+                "id": "Request from Internal CA",
+                "title": "Request from Internal CA",
+                "hide_title": false,
+                "hide_table_of_contents": false,
+                "sidebar_label": "Request from Internal CAs",
+                "sidebar_position": 3,
+                "toc_max_heading_level": 4,
+                "pagination_label": "Request from Internal CA",
+                "tags": [
+                  "Certificates"
+                ],
+                "custom_edit_url": "https://github.com/facebook/docusaurus/edit/main/docs/api-doc-markdown.md",
+                "description": "Request a Cert from Internal CA."
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Generating a CSR",
+                "permalink": "/Certificates/Generating a CSR"
+              },
+              "next": {
+                "title": "Citrix",
+                "permalink": "/category/citrix"
+              }
+            },
+            {
+              "unversionedId": "Citrix/Updating an image",
+              "id": "Citrix/Updating an image",
+              "title": "Updating an image (Citrix Cloud)",
+              "description": "Updating a citrix image for Citrix Cloud.",
+              "source": "@site/docs/Citrix/Updating an image.md",
+              "sourceDirName": "Citrix",
+              "slug": "/Citrix/Updating an image",
+              "permalink": "/Citrix/Updating an image",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/edit/main/docs/api-doc-markdown.md",
+              "tags": [
+                {
+                  "label": "Citrix",
+                  "permalink": "/tags/citrix"
+                }
+              ],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "draft": false,
+                "id": "Updating an image",
+                "title": "Updating an image (Citrix Cloud)",
+                "hide_title": false,
+                "hide_table_of_contents": false,
+                "sidebar_label": "Updating an image",
+                "sidebar_position": 1,
+                "toc_max_heading_level": 4,
+                "pagination_label": "Updating an image",
+                "tags": [
+                  "Citrix"
+                ],
+                "custom_edit_url": "https://github.com/facebook/docusaurus/edit/main/docs/api-doc-markdown.md",
+                "description": "Updating a citrix image for Citrix Cloud."
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Citrix",
+                "permalink": "/category/citrix"
+              },
+              "next": {
                 "title": "Command Line References",
                 "permalink": "/category/command-line-references"
               }
@@ -498,6 +728,56 @@
               "previous": {
                 "title": "Command Line References",
                 "permalink": "/category/command-line-references"
+              },
+              "next": {
+                "title": "AzCLi",
+                "permalink": "/Command Line References/AzCLi"
+              }
+            },
+            {
+              "unversionedId": "Command Line References/AzCLi",
+              "id": "Command Line References/AzCLi",
+              "title": "Az Cli",
+              "description": "AzCLi command ref doc.",
+              "source": "@site/docs/Command Line References/Az CLi.md",
+              "sourceDirName": "Command Line References",
+              "slug": "/Command Line References/AzCLi",
+              "permalink": "/Command Line References/AzCLi",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/edit/main/docs/api-doc-markdown.md",
+              "tags": [
+                {
+                  "label": "Command Line",
+                  "permalink": "/tags/command-line"
+                },
+                {
+                  "label": "AzCLi",
+                  "permalink": "/tags/az-c-li"
+                }
+              ],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "draft": false,
+                "id": "AzCLi",
+                "title": "Az Cli",
+                "hide_title": false,
+                "hide_table_of_contents": false,
+                "sidebar_label": "Az Cli",
+                "sidebar_position": 2,
+                "toc_max_heading_level": 4,
+                "pagination_label": "AzCLi",
+                "tags": [
+                  "Command Line",
+                  "AzCLi"
+                ],
+                "custom_edit_url": "https://github.com/facebook/docusaurus/edit/main/docs/api-doc-markdown.md",
+                "description": "AzCLi command ref doc."
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "ActiveDirectory",
+                "permalink": "/Command Line References/Active Directory"
               },
               "next": {
                 "title": "Exchange Online",
@@ -546,8 +826,8 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "ActiveDirectory",
-                "permalink": "/Command Line References/Active Directory"
+                "title": "AzCLi",
+                "permalink": "/Command Line References/AzCLi"
               },
               "next": {
                 "title": "Microsoft Graph",
@@ -947,6 +1227,87 @@
               },
               {
                 "type": "category",
+                "label": "Azure Active Directory",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "category",
+                    "label": "App Registrations",
+                    "collapsible": true,
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "Azure Active Directory/App Registrations/Decom and AAD App",
+                        "label": "Decommission and AAD App"
+                      }
+                    ],
+                    "link": {
+                      "type": "generated-index",
+                      "description": "Guides for achieving an end result.",
+                      "slug": "/category/app-registrations",
+                      "permalink": "/category/app-registrations"
+                    }
+                  }
+                ],
+                "link": {
+                  "type": "generated-index",
+                  "description": "Guides for achieving an end result.",
+                  "slug": "/category/azure-active-directory",
+                  "permalink": "/category/azure-active-directory"
+                }
+              },
+              {
+                "type": "category",
+                "label": "Certificates",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "Certificates/Formats and Conversions",
+                    "label": "Certificate formats and Converting formats"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Certificates/Generating a CSR",
+                    "label": "Generating a CSR"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Certificates/Request from Internal CA",
+                    "label": "Request from Internal CAs"
+                  }
+                ],
+                "link": {
+                  "type": "generated-index",
+                  "description": "Cert Management.",
+                  "slug": "/category/certificates",
+                  "permalink": "/category/certificates"
+                }
+              },
+              {
+                "type": "category",
+                "label": "Citrix",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "Citrix/Updating an image",
+                    "label": "Updating an image"
+                  }
+                ],
+                "link": {
+                  "type": "generated-index",
+                  "description": "Citrix stuff.",
+                  "slug": "/category/citrix",
+                  "permalink": "/category/citrix"
+                }
+              },
+              {
+                "type": "category",
                 "label": "Command Line References",
                 "collapsible": true,
                 "collapsed": true,
@@ -955,6 +1316,11 @@
                     "type": "doc",
                     "id": "Command Line References/Active Directory",
                     "label": "Active Directory"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "Command Line References/AzCLi",
+                    "label": "Az Cli"
                   },
                   {
                     "type": "doc",

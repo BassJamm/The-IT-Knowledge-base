@@ -1,8 +1,18 @@
 [
   {
+    "label": "AzureAD",
+    "permalink": "/tags/azure-ad",
+    "count": 1
+  },
+  {
+    "label": "EntApp",
+    "permalink": "/tags/ent-app",
+    "count": 1
+  },
+  {
     "label": "Azure",
     "permalink": "/tags/azure",
-    "count": 9
+    "count": 8
   },
   {
     "label": "Resource Creation",
@@ -17,7 +27,7 @@
   {
     "label": "Guide",
     "permalink": "/tags/guide",
-    "count": 3
+    "count": 2
   },
   {
     "label": "Setup Azure Site Recovery",
@@ -33,11 +43,6 @@
     "label": "SnapShot",
     "permalink": "/tags/snap-shot",
     "count": 2
-  },
-  {
-    "label": "Azure Virtual Desktop",
-    "permalink": "/tags/azure-virtual-desktop",
-    "count": 1
   },
   {
     "label": "Automation",
@@ -70,14 +75,24 @@
     "count": 1
   },
   {
-    "label": "AzureAD",
-    "permalink": "/tags/azure-ad",
+    "label": "Certificates",
+    "permalink": "/tags/certificates",
+    "count": 1
+  },
+  {
+    "label": "Citrix",
+    "permalink": "/tags/citrix",
     "count": 1
   },
   {
     "label": "Command Line",
     "permalink": "/tags/command-line",
-    "count": 3
+    "count": 4
+  },
+  {
+    "label": "AzCLi",
+    "permalink": "/tags/az-c-li",
+    "count": 1
   },
   {
     "label": "Exchange Online",
@@ -95,14 +110,9 @@
     "count": 1
   },
   {
-    "label": "MGGraph",
-    "permalink": "/tags/mg-graph",
-    "count": 1
-  },
-  {
     "label": "Script",
     "permalink": "/tags/script",
-    "count": 2
+    "count": 1
   },
   {
     "label": "NSG",

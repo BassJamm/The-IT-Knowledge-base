@@ -1,0 +1,45 @@
+{
+  "unversionedId": "Citrix/Updating an image",
+  "id": "Citrix/Updating an image",
+  "title": "Updating an image (Citrix Cloud)",
+  "description": "Updating a citrix image for Citrix Cloud.",
+  "source": "@site/docs/Citrix/Updating an image.md",
+  "sourceDirName": "Citrix",
+  "slug": "/Citrix/Updating an image",
+  "permalink": "/Citrix/Updating an image",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/edit/main/docs/api-doc-markdown.md",
+  "tags": [
+    {
+      "label": "Citrix",
+      "permalink": "/tags/citrix"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "draft": false,
+    "id": "Updating an image",
+    "title": "Updating an image (Citrix Cloud)",
+    "hide_title": false,
+    "hide_table_of_contents": false,
+    "sidebar_label": "Updating an image",
+    "sidebar_position": 1,
+    "toc_max_heading_level": 4,
+    "pagination_label": "Updating an image",
+    "tags": [
+      "Citrix"
+    ],
+    "custom_edit_url": "https://github.com/facebook/docusaurus/edit/main/docs/api-doc-markdown.md",
+    "description": "Updating a citrix image for Citrix Cloud."
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Citrix",
+    "permalink": "/category/citrix"
+  },
+  "next": {
+    "title": "Command Line References",
+    "permalink": "/category/command-line-references"
+  }
+}

@@ -5,10 +5,10 @@
   "count": 1,
   "items": [
     {
-      "id": "Scripts/Get User info using MGGraph",
-      "title": "Get User info using MGGraph",
-      "description": "Get user information using MGGraph.",
-      "permalink": "/Scripts/Get User info using MGGraph"
+      "id": "Citrix/Updating an image",
+      "title": "Updating an image",
+      "description": "Reinstate admin privileges for a customer's Azure CSP subscriptions.",
+      "permalink": "/Citrix/Updating an image"
     }
   ]
 }

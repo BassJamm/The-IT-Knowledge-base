@@ -1,0 +1,23 @@
+{
+  "unversionedId": "Azure Active Directory/Test",
+  "id": "Azure Active Directory/Test",
+  "title": "Test",
+  "description": "",
+  "source": "@site/docs/Azure Active Directory/Test.md",
+  "sourceDirName": "Azure Active Directory",
+  "slug": "/Azure Active Directory/Test",
+  "permalink": "/Azure Active Directory/Test",
+  "draft": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Decommission and AAD App",
+    "permalink": "/Azure Active Directory/App Registrations/Decom and AAD App"
+  },
+  "next": {
+    "title": "Scripts",
+    "permalink": "/category/scripts"
+  }
+}

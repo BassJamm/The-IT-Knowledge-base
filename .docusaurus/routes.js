@@ -3,41 +3,6 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 
 export default [
   {
-    path: '/__docusaurus/debug',
-    component: ComponentCreator('/__docusaurus/debug', 'de6'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/config',
-    component: ComponentCreator('/__docusaurus/debug/config', 'e31'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/content',
-    component: ComponentCreator('/__docusaurus/debug/content', 'f8a'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/globalData',
-    component: ComponentCreator('/__docusaurus/debug/globalData', 'e73'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/metadata',
-    component: ComponentCreator('/__docusaurus/debug/metadata', 'ec8'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/registry',
-    component: ComponentCreator('/__docusaurus/debug/registry', 'aac'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/routes',
-    component: ComponentCreator('/__docusaurus/debug/routes', '1c0'),
-    exact: true
-  },
-  {
     path: '/markdown-page',
     component: ComponentCreator('/markdown-page', 'ca9'),
     exact: true
@@ -50,6 +15,11 @@ export default [
   {
     path: '/tags/automation',
     component: ComponentCreator('/tags/automation', 'dac'),
+    exact: true
+  },
+  {
+    path: '/tags/az-c-li',
+    component: ComponentCreator('/tags/az-c-li', 'be3'),
     exact: true
   },
   {
@@ -68,13 +38,23 @@ export default [
     exact: true
   },
   {
-    path: '/tags/azure-virtual-desktop',
-    component: ComponentCreator('/tags/azure-virtual-desktop', '07d'),
+    path: '/tags/certificates',
+    component: ComponentCreator('/tags/certificates', '160'),
+    exact: true
+  },
+  {
+    path: '/tags/citrix',
+    component: ComponentCreator('/tags/citrix', '1ff'),
     exact: true
   },
   {
     path: '/tags/command-line',
     component: ComponentCreator('/tags/command-line', 'c57'),
+    exact: true
+  },
+  {
+    path: '/tags/ent-app',
+    component: ComponentCreator('/tags/ent-app', 'f1b'),
     exact: true
   },
   {
@@ -95,11 +75,6 @@ export default [
   {
     path: '/tags/lighthouse',
     component: ComponentCreator('/tags/lighthouse', 'f1b'),
-    exact: true
-  },
-  {
-    path: '/tags/mg-graph',
-    component: ComponentCreator('/tags/mg-graph', 'dc7'),
     exact: true
   },
   {
@@ -174,11 +149,17 @@ export default [
   },
   {
     path: '/',
-    component: ComponentCreator('/', 'f43'),
+    component: ComponentCreator('/', 'a04'),
     routes: [
       {
         path: '/',
         component: ComponentCreator('/', '73d'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/Azure Active Directory/App Registrations/Decom and AAD App',
+        component: ComponentCreator('/Azure Active Directory/App Registrations/Decom and AAD App', '76c'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
@@ -207,12 +188,6 @@ export default [
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/Azure/Infrastructure/AVD Image Update Guidance',
-        component: ComponentCreator('/Azure/Infrastructure/AVD Image Update Guidance', '071'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
         path: '/Azure/Infrastructure/Create an Automation Account',
         component: ComponentCreator('/Azure/Infrastructure/Create an Automation Account', '444'),
         exact: true,
@@ -237,14 +212,38 @@ export default [
         sidebar: "tutorialSidebar"
       },
       {
+        path: '/category/app-registrations',
+        component: ComponentCreator('/category/app-registrations', '08d'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
         path: '/category/azure',
         component: ComponentCreator('/category/azure', 'd40'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
+        path: '/category/azure-active-directory',
+        component: ComponentCreator('/category/azure-active-directory', 'fbd'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
         path: '/category/backup-and-disaster-recovery',
         component: ComponentCreator('/category/backup-and-disaster-recovery', '641'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/category/certificates',
+        component: ComponentCreator('/category/certificates', 'b20'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/category/citrix',
+        component: ComponentCreator('/category/citrix', '08e'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
@@ -279,8 +278,20 @@ export default [
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/Command Line References/Active Directory',
-        component: ComponentCreator('/Command Line References/Active Directory', '49c'),
+        path: '/Certificates/Generating a CSR',
+        component: ComponentCreator('/Certificates/Generating a CSR', '608'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/Citrix/Updating an image',
+        component: ComponentCreator('/Citrix/Updating an image', 'e59'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/Command Line References/AzCLi',
+        component: ComponentCreator('/Command Line References/AzCLi', 'a3f'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
@@ -299,12 +310,6 @@ export default [
       {
         path: '/Command Line References/PowerShell',
         component: ComponentCreator('/Command Line References/PowerShell', 'b4d'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/Scripts/Get User info using MGGraph',
-        component: ComponentCreator('/Scripts/Get User info using MGGraph', '91d'),
         exact: true,
         sidebar: "tutorialSidebar"
       },

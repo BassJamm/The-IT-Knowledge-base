@@ -28,4 +28,4 @@ I took my layout and information from this documentation idea, https://documenta
 - The website is stored within a GitHub Repo, this is then copied over to a Static Web App hosted in Azure using a GitHub action.
 - The site is generated using [Docusaurus](https://docusaurus.io/), big shout to them for making this incredible beast!
 
-Site version 0.5 (Git)
+Site version 0.6 (Git)

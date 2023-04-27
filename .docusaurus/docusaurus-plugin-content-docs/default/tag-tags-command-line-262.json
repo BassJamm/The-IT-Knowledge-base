@@ -2,8 +2,14 @@
   "label": "Command Line",
   "permalink": "/tags/command-line",
   "allTagsPath": "/tags",
-  "count": 3,
+  "count": 4,
   "items": [
+    {
+      "id": "Command Line References/AzCLi",
+      "title": "Az Cli",
+      "description": "AzCLi command ref doc.",
+      "permalink": "/Command Line References/AzCLi"
+    },
     {
       "id": "Command Line References/Exchange Online",
       "title": "Exchange Online",

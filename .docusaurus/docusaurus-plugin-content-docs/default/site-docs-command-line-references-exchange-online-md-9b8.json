@@ -40,8 +40,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "ActiveDirectory",
-    "permalink": "/Command Line References/Active Directory"
+    "title": "AzCLi",
+    "permalink": "/Command Line References/AzCLi"
   },
   "next": {
     "title": "Microsoft Graph",

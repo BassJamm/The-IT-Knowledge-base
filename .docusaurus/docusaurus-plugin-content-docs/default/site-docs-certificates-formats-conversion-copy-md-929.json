@@ -1,0 +1,45 @@
+{
+  "unversionedId": "Certificates/Formats and Conversions",
+  "id": "Certificates/Formats and Conversions",
+  "title": "Certificate formats and Converting formats",
+  "description": "Certificate formatting and converting them to different formats.",
+  "source": "@site/docs/Certificates/Formats & Conversion copy.md",
+  "sourceDirName": "Certificates",
+  "slug": "/Certificates/Formats and Conversions",
+  "permalink": "/Certificates/Formats and Conversions",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/edit/main/docs/api-doc-markdown.md",
+  "tags": [
+    {
+      "label": "Certificates",
+      "permalink": "/tags/certificates"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "draft": true,
+    "id": "Formats and Conversions",
+    "title": "Certificate formats and Converting formats",
+    "hide_title": false,
+    "hide_table_of_contents": false,
+    "sidebar_label": "Certificate formats and Converting formats",
+    "sidebar_position": 2,
+    "toc_max_heading_level": 4,
+    "pagination_label": "Certificate formats and Converting formats",
+    "tags": [
+      "Certificates"
+    ],
+    "custom_edit_url": "https://github.com/facebook/docusaurus/edit/main/docs/api-doc-markdown.md",
+    "description": "Certificate formatting and converting them to different formats."
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Certificates",
+    "permalink": "/category/certificates"
+  },
+  "next": {
+    "title": "Certificate formats and Converting formats",
+    "permalink": "/Certificates/Formats and Conversions"
+  }
+}

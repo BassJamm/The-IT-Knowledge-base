@@ -1,0 +1,16 @@
+{
+  "title": "Citrix",
+  "description": "Citrix stuff.",
+  "slug": "/category/citrix",
+  "permalink": "/category/citrix",
+  "navigation": {
+    "previous": {
+      "title": "Generating a CSR",
+      "permalink": "/Certificates/Generating a CSR"
+    },
+    "next": {
+      "title": "Updating an image",
+      "permalink": "/Citrix/Updating an image"
+    }
+  }
+}

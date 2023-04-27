@@ -5,10 +5,10 @@
   "count": 1,
   "items": [
     {
-      "id": "Command Line References/Active Directory",
-      "title": "Active Directory",
-      "description": "All things related to Active Directory cmdlet.",
-      "permalink": "/Command Line References/Active Directory"
+      "id": "Azure Active Directory/App Registrations/Decom and AAD App",
+      "title": "Decommission and AAD App",
+      "description": "Decommission and Azure AD App registration.",
+      "permalink": "/Azure Active Directory/App Registrations/Decom and AAD App"
     }
   ]
 }

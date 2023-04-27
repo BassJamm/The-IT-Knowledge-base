@@ -5,12 +5,12 @@
   "permalink": "/category/command-line-references",
   "navigation": {
     "previous": {
-      "title": "Network Security Groups",
-      "permalink": "/Azure/Networking/Network Security Groups"
+      "title": "Updating an image",
+      "permalink": "/Citrix/Updating an image"
     },
     "next": {
-      "title": "ActiveDirectory",
-      "permalink": "/Command Line References/Active Directory"
+      "title": "AzCLi",
+      "permalink": "/Command Line References/AzCLi"
     }
   }
 }

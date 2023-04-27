@@ -1,0 +1,50 @@
+{
+  "unversionedId": "Command Line References/AzCLi",
+  "id": "Command Line References/AzCLi",
+  "title": "Az Cli",
+  "description": "AzCLi command ref doc.",
+  "source": "@site/docs/Command Line References/Az CLi.md",
+  "sourceDirName": "Command Line References",
+  "slug": "/Command Line References/AzCLi",
+  "permalink": "/Command Line References/AzCLi",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/edit/main/docs/api-doc-markdown.md",
+  "tags": [
+    {
+      "label": "Command Line",
+      "permalink": "/tags/command-line"
+    },
+    {
+      "label": "AzCLi",
+      "permalink": "/tags/az-c-li"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "draft": false,
+    "id": "AzCLi",
+    "title": "Az Cli",
+    "hide_title": false,
+    "hide_table_of_contents": false,
+    "sidebar_label": "Az Cli",
+    "sidebar_position": 2,
+    "toc_max_heading_level": 4,
+    "pagination_label": "AzCLi",
+    "tags": [
+      "Command Line",
+      "AzCLi"
+    ],
+    "custom_edit_url": "https://github.com/facebook/docusaurus/edit/main/docs/api-doc-markdown.md",
+    "description": "AzCLi command ref doc."
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Command Line References",
+    "permalink": "/category/command-line-references"
+  },
+  "next": {
+    "title": "Exchange Online",
+    "permalink": "/Command Line References/Exchange Online"
+  }
+}

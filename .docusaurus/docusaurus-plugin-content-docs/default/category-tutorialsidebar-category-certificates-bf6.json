@@ -1,16 +1,16 @@
 {
   "title": "Certificates",
-  "description": "Guides for achieving an end result.",
+  "description": "Cert Management.",
   "slug": "/category/certificates",
   "permalink": "/category/certificates",
   "navigation": {
     "previous": {
-      "title": "Decom an Azure AD App",
-      "permalink": "/How-to Guides/Azure Active Directory/Decom an Azure AD App"
+      "title": "Decommission and AAD App",
+      "permalink": "/Azure Active Directory/App Registrations/Decom and AAD App"
     },
     "next": {
-      "title": "Certificate Formats and Conversions",
-      "permalink": "/How-to Guides/Certificates/Certificate Formats and Conversions"
+      "title": "Generating a CSR",
+      "permalink": "/Certificates/Generating a CSR"
     }
   }
 }

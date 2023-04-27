@@ -1,0 +1,50 @@
+{
+  "unversionedId": "Azure Active Directory/App Registrations/Decom and AAD App",
+  "id": "Azure Active Directory/App Registrations/Decom and AAD App",
+  "title": "Decommission and AAD App",
+  "description": "Decommission and Azure AD App registration.",
+  "source": "@site/docs/Azure Active Directory/App Registrations/Decom and AAD App.md",
+  "sourceDirName": "Azure Active Directory/App Registrations",
+  "slug": "/Azure Active Directory/App Registrations/Decom and AAD App",
+  "permalink": "/Azure Active Directory/App Registrations/Decom and AAD App",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/edit/main/docs/api-doc-markdown.md",
+  "tags": [
+    {
+      "label": "AzureAD",
+      "permalink": "/tags/azure-ad"
+    },
+    {
+      "label": "EntApp",
+      "permalink": "/tags/ent-app"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "draft": false,
+    "id": "Decom and AAD App",
+    "title": "Decommission and AAD App",
+    "hide_title": false,
+    "hide_table_of_contents": false,
+    "sidebar_label": "Decommission and AAD App",
+    "sidebar_position": 1,
+    "toc_max_heading_level": 4,
+    "pagination_label": "Decommission and AAD App",
+    "tags": [
+      "AzureAD",
+      "EntApp"
+    ],
+    "custom_edit_url": "https://github.com/facebook/docusaurus/edit/main/docs/api-doc-markdown.md",
+    "description": "Decommission and Azure AD App registration."
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "App Registrations",
+    "permalink": "/category/app-registrations"
+  },
+  "next": {
+    "title": "Certificates",
+    "permalink": "/category/certificates"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "title": "Scripts",
+  "description": "Useful Scripts.",
+  "slug": "/category/scripts-1",
+  "permalink": "/category/scripts-1",
+  "navigation": {
+    "previous": {
+      "title": "Certificate formats and Converting formats",
+      "permalink": "/Certificates/Formats and Conversions"
+    },
+    "next": {
+      "title": "Get User info using MGGraph",
+      "permalink": "/Scripts/Get User info using MGGraph"
+    }
+  }
+}
