@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 id: Formats and Conversions
 title: Certificate formats and Converting formats
 hide_title: false
