@@ -149,7 +149,7 @@ export default [
   },
   {
     path: '/',
-    component: ComponentCreator('/', 'a04'),
+    component: ComponentCreator('/', 'faa'),
     routes: [
       {
         path: '/',
@@ -278,8 +278,20 @@ export default [
         sidebar: "tutorialSidebar"
       },
       {
+        path: '/Certificates/Formats and Conversions',
+        component: ComponentCreator('/Certificates/Formats and Conversions', 'b1f'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
         path: '/Certificates/Generating a CSR',
         component: ComponentCreator('/Certificates/Generating a CSR', '608'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/Certificates/Request from Internal CA',
+        component: ComponentCreator('/Certificates/Request from Internal CA', '0e1'),
         exact: true,
         sidebar: "tutorialSidebar"
       },

@@ -35,11 +35,11 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Certificates",
-    "permalink": "/category/certificates"
+    "title": "Certificate formats and Converting formats",
+    "permalink": "/Certificates/Formats and Conversions"
   },
   "next": {
-    "title": "Citrix",
-    "permalink": "/category/citrix"
+    "title": "Request from Internal CA",
+    "permalink": "/Certificates/Request from Internal CA"
   }
 }

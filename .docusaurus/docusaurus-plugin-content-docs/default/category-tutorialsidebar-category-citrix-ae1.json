@@ -5,8 +5,8 @@
   "permalink": "/category/citrix",
   "navigation": {
     "previous": {
-      "title": "Generating a CSR",
-      "permalink": "/Certificates/Generating a CSR"
+      "title": "Request from Internal CA",
+      "permalink": "/Certificates/Request from Internal CA"
     },
     "next": {
       "title": "Updating an image",

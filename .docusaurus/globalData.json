@@ -2,8 +2,8 @@
   "docusaurus-lunr-search": {
     "default": {
       "fileNames": {
-        "searchDoc": "search-doc-1682616156291.json",
-        "lunrIndex": "lunr-index-1682616156291.json"
+        "searchDoc": "search-doc-1682787520066.json",
+        "lunrIndex": "lunr-index-1682787520066.json"
       }
     }
   },
@@ -73,8 +73,18 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "Certificates/Formats and Conversions",
+              "path": "/Certificates/Formats and Conversions",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "Certificates/Generating a CSR",
               "path": "/Certificates/Generating a CSR",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Certificates/Request from Internal CA",
+              "path": "/Certificates/Request from Internal CA",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -174,8 +184,6 @@
             }
           ],
           "draftIds": [
-            "Certificates/Formats and Conversions",
-            "Certificates/Request from Internal CA",
             "Command Line References/Active Directory",
             "Scripts/Get User info using MGGraph",
             "Azure/Infrastructure/AVD Image Update Guidance"

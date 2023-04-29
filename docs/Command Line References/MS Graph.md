@@ -18,26 +18,48 @@ description: Microsoft Graph command ref doc.
 - Created: 2023/04/22
 - Last Updated: 2023/04/22
 
-## User Management
+## Module Management
 
-### Get Last Password reset time from Azure AD
+### Permissions Scopes
 
-Get-MgUser
+MG Graph uses permissions scopes that you assign at logon, use the command below to locate what permissions scopes you need for your logged in session.
 
 ```powershell showLineNumbers
-connect-mggraph -scopes "User.ReadWrite.All"
- 
-$mgUser = Get-MgUser -All -Property UserPrincipalName, DisplayName, LastPasswordChangeDateTime,PasswordPolicies | `
-Select UserPrincipalName, DisplayName, LastPasswordChangeDateTime,PasswordPolicies, @{l='PasswordAgeDays';e={ (New-TimeSpan -Start $_.LastPasswordChangeDateTime -End (get-date) ).TotalDays -as [int] }} | `
-Where UserPrincipalName -notmatch 'A-|-ADM|ad00|.onmicrosoft|Candidate' | `
-Sort PasswordAgeDays | `
-Ft -Autosize
+Find-MgGraphCommand -command Get-MgUser | Select -First 1 -ExpandProperty Permissions
 ```
+
+### Connect & Update
+
+```powershell showLineNumbers
+Connect-MGGraph
+Update-Module -Name Microsoft.Graph
+```
+ 
+### Connect to MG Graph with Read-only permissions
+
+Connect-MGGraph
+
+This will connect with read only permissions to manage Users and Devices.
+
+```powershell showLineNumbers
+Connect-MgGraph "User.Read.All", "Calendars.Read.Shared", "DeviceManagementRBAC.Read.All", "DeviceManagementServiceConfig.Read.All", "DeviceManagementConfiguration.Read.All", "DeviceManagementManagedDevices.Read.All" 
+```
+
+## Getting properties from commands
+
+Getting properties using MGGraph requires "declaring" them as part of the original command, if you don't so this they will be blank in the following commands or pipe. For example, `get-mguser -userid username@domain.com | select UserPrincipalName, DisplayName, LastPasswordChangeDateTime` will return the UPn & display name but, `LastPasswordChangeDateTime` will be blank. 
+
+You would need to type the command in this format, `get-mguser -userid username@domain.com -property -Property UserPrincipalName, DisplayName, LastPasswordChangeDateTime | select UserPrincipalName, DisplayName, LastPasswordChangeDateTime`.
+
+![gettingobjectproperties](../../static/img/msGraphcmdref/Getting-object-properties.png)
+
+## User Management
 
 ### Grab basic user information to work with
 
 ```powershell showLineNumbers
-Get-MGUser -All -Property Id, DisplayName, UserPrincipalName, AssignedLicenses | Select Id, DisplayName, UserPrincipalName, AssignedLicenses
+$userReport = Get-MgUser -All -property DisplayName, UserPrincipalName, AssignedLicenses, businessphones, CompanyName, CreatedDateTime, Id, jobTitle, LastPasswordChangeDateTime, MobilePhone, Manager, Usertype | `
+Select DisplayName, UserPrincipalName, AssignedLicenses, businessphones, CompanyName, CreatedDateTime, Id, jobTitle, LastPasswordChangeDateTime, MobilePhone, Manager, Usertype
 ```
 
 ### Grab a password report of all users.
@@ -108,23 +130,3 @@ Get-MgDeviceManagementManagedDeviceCompliancePolicyState
 # Device Compliancy for a single device.
 Get-MgDeviceManagementManagedDeviceCompliancePolicyState -ManagedDeviceId f2c1e6c3-9330-41c9-9a91-50302c20655d
 ````
-
-## Module Management
-
-### Connect & Update
-
-```powershell showLineNumbers
-Connect-MGGraph
-
-Update-Module -Name Microsoft.Graph
-```
- 
-### Connect to MG Graph with Read-only permissions
-
-Connect-MGGraph
-
-This will connect with read only permissions to manage Users and Devices.
-
-```powershell showLineNumbers
-Connect-MgGraph "User.Read.All", "DeviceManagementRBAC.Read.All", "DeviceManagementServiceConfig.Read.All", "DeviceManagementConfiguration.Read.All", "DeviceManagementManagedDevices.Read.All" 
-```
