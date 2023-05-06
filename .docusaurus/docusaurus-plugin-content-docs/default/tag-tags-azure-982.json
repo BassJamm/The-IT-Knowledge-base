@@ -2,14 +2,8 @@
   "label": "Azure",
   "permalink": "/tags/azure",
   "allTagsPath": "/tags",
-  "count": 9,
+  "count": 8,
   "items": [
-    {
-      "id": "Azure/Infrastructure/AVD Image Update Guidance",
-      "title": "AVD Image Update Guidance",
-      "description": "Reinstate admin privileges for a customer's Azure CSP subscriptions.",
-      "permalink": "/Azure/Infrastructure/AVD Image Update Guidance"
-    },
     {
       "id": "Azure/Infrastructure/Create an Automation Account",
       "title": "Create an Automation Account",
