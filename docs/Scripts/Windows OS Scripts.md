@@ -19,13 +19,23 @@ description: Windows OS Scripts and re-usable code.
 ## Folder size report (Get-childitem)
 
 ```powershell showLineNumbers
-$startFolder = "C:\FolderName"
+$startFolder = "C:\Temp\"
 
 $colItems = Get-ChildItem $startFolder | Where-Object {$_.PSIsContainer -eq $true} | Sort-Object
-foreach ($i in $colItems) {
-$subFolderItems = Get-ChildItem $i.FullName -recurse -force | Where-Object {$_.PSIsContainer -eq $false} | Measure-Object -property Length -sum | Select-Object Sum
-$i.FullName + ” — ” + “{0:N2}” -f ($subFolderItems.sum / 1GB) + ” GB”
+
+$Output = foreach ($i in $colItems) {
+
+    $subFolderItems = Get-ChildItem $i.FullName -recurse -force | Where-Object {$_.PSIsContainer -eq $false} | Measure-Object -property Length -sum | Select-Object Sum
+    
+    New-Object psobject -property @{
+        "Size(GB)" = “{0:N2}” -f ($subFolderItems.sum /1GB)
+        "Location" = $i.FullName
+    }
+
 }
+# Output options
+$Output | ft -a 
+# $Output | Export-csv -Path 'C:\Temp\FolderReport-$startFolder.csv' -NoTypeInformation # Output as csv file to the designated location.
 ```
 
 ## Service Management (Stop-Service, Start-Service)

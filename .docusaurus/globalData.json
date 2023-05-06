@@ -1,12 +1,4 @@
 {
-  "docusaurus-lunr-search": {
-    "default": {
-      "fileNames": {
-        "searchDoc": "search-doc-1682787520066.json",
-        "lunrIndex": "lunr-index-1682787520066.json"
-      }
-    }
-  },
   "docusaurus-plugin-google-gtag": {
     "default": {
       "trackingID": [
@@ -14,6 +6,14 @@
       ],
       "anonymizeIP": true,
       "id": "default"
+    }
+  },
+  "docusaurus-lunr-search": {
+    "default": {
+      "fileNames": {
+        "searchDoc": "search-doc-1683362458191.json",
+        "lunrIndex": "lunr-index-1683362458191.json"
+      }
     }
   },
   "docusaurus-plugin-content-docs": {
@@ -50,6 +50,11 @@
             {
               "id": "Azure/Data Management/Restore VM from Snapshot",
               "path": "/Azure/Data Management/Restore VM from Snapshot",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Azure/Infrastructure/AVD Image Update Guidance",
+              "path": "/Azure/Infrastructure/AVD Image Update Guidance",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -93,6 +98,11 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "Command Line References/Active Directory",
+              "path": "/Command Line References/Active Directory",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "Command Line References/AzCLi",
               "path": "/Command Line References/AzCLi",
               "sidebar": "tutorialSidebar"
@@ -103,6 +113,11 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "Command Line References/Git CMDLine Ref",
+              "path": "/Command Line References/Git CMDLine Ref",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "Command Line References/Microsoft Graph",
               "path": "/Command Line References/Microsoft Graph",
               "sidebar": "tutorialSidebar"
@@ -110,6 +125,11 @@
             {
               "id": "Command Line References/PowerShell",
               "path": "/Command Line References/PowerShell",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Scripts/Get User info using MGGraph",
+              "path": "/Scripts/Get User info using MGGraph",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -125,6 +145,11 @@
             {
               "id": "Welcome",
               "path": "/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Windows OS/Creating a nice pwsh prompt",
+              "path": "/Windows OS/Creating a nice pwsh prompt",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -181,13 +206,14 @@
               "id": "/category/scripts",
               "path": "/category/scripts",
               "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/windows-os",
+              "path": "/category/windows-os",
+              "sidebar": "tutorialSidebar"
             }
           ],
-          "draftIds": [
-            "Command Line References/Active Directory",
-            "Scripts/Get User info using MGGraph",
-            "Azure/Infrastructure/AVD Image Update Guidance"
-          ],
+          "draftIds": [],
           "sidebars": {
             "tutorialSidebar": {
               "link": {

@@ -44,8 +44,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Setup Azure Lighthouse",
-    "permalink": "/Azure/Infrastructure/Setup Azure Lighthouse"
+    "title": "AVD Image Update Guidance",
+    "permalink": "/Azure/Infrastructure/AVD Image Update Guidance"
   },
   "next": {
     "title": "Re-size a Virtual Machine",

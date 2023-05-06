@@ -830,6 +830,56 @@
                 "permalink": "/Command Line References/AzCLi"
               },
               "next": {
+                "title": "Git CMDLine Ref",
+                "permalink": "/Command Line References/Git CMDLine Ref"
+              }
+            },
+            {
+              "unversionedId": "Command Line References/Git CMDLine Ref",
+              "id": "Command Line References/Git CMDLine Ref",
+              "title": "Git CMDLine Ref",
+              "description": "Git command line refernce.",
+              "source": "@site/docs/Command Line References/Git Commands.md",
+              "sourceDirName": "Command Line References",
+              "slug": "/Command Line References/Git CMDLine Ref",
+              "permalink": "/Command Line References/Git CMDLine Ref",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/edit/main/docs/api-doc-markdown.md",
+              "tags": [
+                {
+                  "label": "Git",
+                  "permalink": "/tags/git"
+                },
+                {
+                  "label": "Command Line Ref",
+                  "permalink": "/tags/command-line-ref"
+                }
+              ],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "draft": false,
+                "id": "Git CMDLine Ref",
+                "title": "Git CMDLine Ref",
+                "hide_title": false,
+                "hide_table_of_contents": false,
+                "sidebar_label": "Git CMDLine Ref",
+                "sidebar_position": 3,
+                "toc_max_heading_level": 4,
+                "pagination_label": "Git CMDLine Ref",
+                "tags": [
+                  "Git",
+                  "Command Line Ref"
+                ],
+                "custom_edit_url": "https://github.com/facebook/docusaurus/edit/main/docs/api-doc-markdown.md",
+                "description": "Git command line refernce."
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Exchange Online",
+                "permalink": "/Command Line References/Exchange Online"
+              },
+              "next": {
                 "title": "Microsoft Graph",
                 "permalink": "/Command Line References/Microsoft Graph"
               }
@@ -876,8 +926,8 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Exchange Online",
-                "permalink": "/Command Line References/Exchange Online"
+                "title": "Git CMDLine Ref",
+                "permalink": "/Command Line References/Git CMDLine Ref"
               },
               "next": {
                 "title": "PowerShell",
@@ -1080,6 +1130,10 @@
               "previous": {
                 "title": "NSG Flow log Formatter",
                 "permalink": "/Scripts/NSG Flow log Formatter"
+              },
+              "next": {
+                "title": "Windows OS",
+                "permalink": "/category/windows-os"
               }
             },
             {
@@ -1105,6 +1159,47 @@
               "next": {
                 "title": "Azure",
                 "permalink": "/category/azure"
+              }
+            },
+            {
+              "unversionedId": "Windows OS/Creating a nice pwsh prompt",
+              "id": "Windows OS/Creating a nice pwsh prompt",
+              "title": "Creating a nice pwsh prompt",
+              "description": "Creating a nice PowerShell prompt using oh my posh & PSReadLine.",
+              "source": "@site/docs/Windows OS/Creating a nice pwsh prompt.md",
+              "sourceDirName": "Windows OS",
+              "slug": "/Windows OS/Creating a nice pwsh prompt",
+              "permalink": "/Windows OS/Creating a nice pwsh prompt",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/edit/main/docs/api-doc-markdown.md",
+              "tags": [
+                {
+                  "label": "PartnerCentre",
+                  "permalink": "/tags/partner-centre"
+                }
+              ],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "draft": false,
+                "id": "Creating a nice pwsh prompt",
+                "title": "Creating a nice pwsh prompt",
+                "hide_title": false,
+                "hide_table_of_contents": false,
+                "sidebar_label": "Creating a nice pwsh prompt",
+                "sidebar_position": 1,
+                "toc_max_heading_level": 4,
+                "pagination_label": "Creating a nice pwsh prompt",
+                "tags": [
+                  "PartnerCentre"
+                ],
+                "custom_edit_url": "https://github.com/facebook/docusaurus/edit/main/docs/api-doc-markdown.md",
+                "description": "Creating a nice PowerShell prompt using oh my posh & PSReadLine."
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Windows OS",
+                "permalink": "/category/windows-os"
               }
             }
           ],
@@ -1329,6 +1424,11 @@
                   },
                   {
                     "type": "doc",
+                    "id": "Command Line References/Git CMDLine Ref",
+                    "label": "Git CMDLine Ref"
+                  },
+                  {
+                    "type": "doc",
                     "id": "Command Line References/Microsoft Graph",
                     "label": "Microsoft Graph"
                   },
@@ -1372,6 +1472,25 @@
                   "description": "Useful Scripts.",
                   "slug": "/category/scripts",
                   "permalink": "/category/scripts"
+                }
+              },
+              {
+                "type": "category",
+                "label": "Windows OS",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "Windows OS/Creating a nice pwsh prompt",
+                    "label": "Creating a nice pwsh prompt"
+                  }
+                ],
+                "link": {
+                  "type": "generated-index",
+                  "description": "Windows stuff.",
+                  "slug": "/category/windows-os",
+                  "permalink": "/category/windows-os"
                 }
               }
             ]

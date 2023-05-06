@@ -1,0 +1,41 @@
+{
+  "unversionedId": "Windows OS/Creating a nice pwsh prompt",
+  "id": "Windows OS/Creating a nice pwsh prompt",
+  "title": "Creating a nice pwsh prompt",
+  "description": "Creating a nice PowerShell prompt using oh my posh & PSReadLine.",
+  "source": "@site/docs/Windows OS/Creating a nice pwsh prompt.md",
+  "sourceDirName": "Windows OS",
+  "slug": "/Windows OS/Creating a nice pwsh prompt",
+  "permalink": "/Windows OS/Creating a nice pwsh prompt",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/edit/main/docs/api-doc-markdown.md",
+  "tags": [
+    {
+      "label": "PartnerCentre",
+      "permalink": "/tags/partner-centre"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "draft": false,
+    "id": "Creating a nice pwsh prompt",
+    "title": "Creating a nice pwsh prompt",
+    "hide_title": false,
+    "hide_table_of_contents": false,
+    "sidebar_label": "Creating a nice pwsh prompt",
+    "sidebar_position": 1,
+    "toc_max_heading_level": 4,
+    "pagination_label": "Creating a nice pwsh prompt",
+    "tags": [
+      "PartnerCentre"
+    ],
+    "custom_edit_url": "https://github.com/facebook/docusaurus/edit/main/docs/api-doc-markdown.md",
+    "description": "Creating a nice PowerShell prompt using oh my posh & PSReadLine."
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Windows OS",
+    "permalink": "/category/windows-os"
+  }
+}

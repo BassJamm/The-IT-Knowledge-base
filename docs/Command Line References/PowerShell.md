@@ -283,3 +283,26 @@ systeminfo | Select-String -Pattern 'System Boot Time' | Out-File -Append -FileP
 systeminfo | Select-String -Pattern 'Time Zone' | Out-File -Append -FilePath C:\SystemDiagnosticCollection\System-Information.txt
 systeminfo | Select-String -Pattern 'Total Physical Memory' | Out-File -Append -FilePath C:\SystemDiagnosticCollection\System-Information.txt
 ```
+
+## Managing SMB Shares
+
+### Get active SMB Connections
+
+```powershell showLineNumbers
+Get-SMBSession
+```
+
+### Get Open files
+
+```powershell showLineNumbers
+Get-SMBopenFile # All sessions listed.
+Get-SmbOpenFile -FileId "file ID" | select -Property * # Lists all properties for a particular file ID, for file ID run the command above.
+
+# Example of querying live.
+Get-SmbOpenFile | Select clientcomputername, sessionid, clientusername, path | sort clientusername, path | ft -a # Retrieve active open files.
+Get-SmbOpenFile | where clientusername -like '*Name*' | Select clientcomputername, sessionid, clientusername,path | sort clientusername, path | ft -a # Search and sort example.
+
+# Example usage with variable.
+$smbOpenFiles = Get-SmbOpenFile | select -Property * # Get all open files information and store in variable.
+$smbOpenFiles | Select clientcomputername, sessionid,clientusername,path | sort clientusername,path | ft -a # Example of sorting the input.
+```

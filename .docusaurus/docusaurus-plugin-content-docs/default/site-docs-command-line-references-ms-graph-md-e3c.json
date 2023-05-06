@@ -40,8 +40,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Exchange Online",
-    "permalink": "/Command Line References/Exchange Online"
+    "title": "Git CMDLine Ref",
+    "permalink": "/Command Line References/Git CMDLine Ref"
   },
   "next": {
     "title": "PowerShell",

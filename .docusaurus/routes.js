@@ -3,6 +3,41 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 
 export default [
   {
+    path: '/__docusaurus/debug',
+    component: ComponentCreator('/__docusaurus/debug', 'de6'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/config',
+    component: ComponentCreator('/__docusaurus/debug/config', 'e31'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/content',
+    component: ComponentCreator('/__docusaurus/debug/content', 'f8a'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/globalData',
+    component: ComponentCreator('/__docusaurus/debug/globalData', 'e73'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/metadata',
+    component: ComponentCreator('/__docusaurus/debug/metadata', 'ec8'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/registry',
+    component: ComponentCreator('/__docusaurus/debug/registry', 'aac'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/routes',
+    component: ComponentCreator('/__docusaurus/debug/routes', '1c0'),
+    exact: true
+  },
+  {
     path: '/markdown-page',
     component: ComponentCreator('/markdown-page', 'ca9'),
     exact: true
@@ -38,6 +73,11 @@ export default [
     exact: true
   },
   {
+    path: '/tags/azure-virtual-desktop',
+    component: ComponentCreator('/tags/azure-virtual-desktop', '07d'),
+    exact: true
+  },
+  {
     path: '/tags/certificates',
     component: ComponentCreator('/tags/certificates', '160'),
     exact: true
@@ -50,6 +90,11 @@ export default [
   {
     path: '/tags/command-line',
     component: ComponentCreator('/tags/command-line', 'c57'),
+    exact: true
+  },
+  {
+    path: '/tags/command-line-ref',
+    component: ComponentCreator('/tags/command-line-ref', '2f7'),
     exact: true
   },
   {
@@ -68,6 +113,11 @@ export default [
     exact: true
   },
   {
+    path: '/tags/git',
+    component: ComponentCreator('/tags/git', 'a7a'),
+    exact: true
+  },
+  {
     path: '/tags/guide',
     component: ComponentCreator('/tags/guide', 'cf6'),
     exact: true
@@ -75,6 +125,11 @@ export default [
   {
     path: '/tags/lighthouse',
     component: ComponentCreator('/tags/lighthouse', 'f1b'),
+    exact: true
+  },
+  {
+    path: '/tags/mg-graph',
+    component: ComponentCreator('/tags/mg-graph', 'dc7'),
     exact: true
   },
   {
@@ -95,6 +150,11 @@ export default [
   {
     path: '/tags/nsg',
     component: ComponentCreator('/tags/nsg', 'd87'),
+    exact: true
+  },
+  {
+    path: '/tags/partner-centre',
+    component: ComponentCreator('/tags/partner-centre', 'a33'),
     exact: true
   },
   {
@@ -149,7 +209,7 @@ export default [
   },
   {
     path: '/',
-    component: ComponentCreator('/', 'faa'),
+    component: ComponentCreator('/', 'e77'),
     routes: [
       {
         path: '/',
@@ -184,6 +244,12 @@ export default [
       {
         path: '/Azure/Data Management/Restore VM from Snapshot',
         component: ComponentCreator('/Azure/Data Management/Restore VM from Snapshot', '4c8'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/Azure/Infrastructure/AVD Image Update Guidance',
+        component: ComponentCreator('/Azure/Infrastructure/AVD Image Update Guidance', '071'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
@@ -278,6 +344,12 @@ export default [
         sidebar: "tutorialSidebar"
       },
       {
+        path: '/category/windows-os',
+        component: ComponentCreator('/category/windows-os', '2fb'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
         path: '/Certificates/Formats and Conversions',
         component: ComponentCreator('/Certificates/Formats and Conversions', 'b1f'),
         exact: true,
@@ -302,6 +374,12 @@ export default [
         sidebar: "tutorialSidebar"
       },
       {
+        path: '/Command Line References/Active Directory',
+        component: ComponentCreator('/Command Line References/Active Directory', '49c'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
         path: '/Command Line References/AzCLi',
         component: ComponentCreator('/Command Line References/AzCLi', 'a3f'),
         exact: true,
@@ -310,6 +388,12 @@ export default [
       {
         path: '/Command Line References/Exchange Online',
         component: ComponentCreator('/Command Line References/Exchange Online', '9fa'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/Command Line References/Git CMDLine Ref',
+        component: ComponentCreator('/Command Line References/Git CMDLine Ref', '417'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
@@ -326,6 +410,12 @@ export default [
         sidebar: "tutorialSidebar"
       },
       {
+        path: '/Scripts/Get User info using MGGraph',
+        component: ComponentCreator('/Scripts/Get User info using MGGraph', '91d'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
         path: '/Scripts/NSG Flow log Formatter',
         component: ComponentCreator('/Scripts/NSG Flow log Formatter', 'c7e'),
         exact: true,
@@ -334,6 +424,12 @@ export default [
       {
         path: '/Scripts/Windows OS Scripts',
         component: ComponentCreator('/Scripts/Windows OS Scripts', '23d'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/Windows OS/Creating a nice pwsh prompt',
+        component: ComponentCreator('/Windows OS/Creating a nice pwsh prompt', '286'),
         exact: true,
         sidebar: "tutorialSidebar"
       }

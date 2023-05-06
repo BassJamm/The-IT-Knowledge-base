@@ -77,6 +77,12 @@
               },
               {
                 "type": "link",
+                "label": "AVD Image Update Guidance",
+                "href": "/Azure/Infrastructure/AVD Image Update Guidance",
+                "docId": "Azure/Infrastructure/AVD Image Update Guidance"
+              },
+              {
+                "type": "link",
                 "label": "Create an Automation Account",
                 "href": "/Azure/Infrastructure/Create an Automation Account",
                 "docId": "Azure/Infrastructure/Create an Automation Account"
@@ -182,6 +188,12 @@
         "items": [
           {
             "type": "link",
+            "label": "Active Directory",
+            "href": "/Command Line References/Active Directory",
+            "docId": "Command Line References/Active Directory"
+          },
+          {
+            "type": "link",
             "label": "Az Cli",
             "href": "/Command Line References/AzCLi",
             "docId": "Command Line References/AzCLi"
@@ -191,6 +203,12 @@
             "label": "Exchange Online",
             "href": "/Command Line References/Exchange Online",
             "docId": "Command Line References/Exchange Online"
+          },
+          {
+            "type": "link",
+            "label": "Git CMDLine Ref",
+            "href": "/Command Line References/Git CMDLine Ref",
+            "docId": "Command Line References/Git CMDLine Ref"
           },
           {
             "type": "link",
@@ -215,6 +233,12 @@
         "items": [
           {
             "type": "link",
+            "label": "Get User info using MGGraph",
+            "href": "/Scripts/Get User info using MGGraph",
+            "docId": "Scripts/Get User info using MGGraph"
+          },
+          {
+            "type": "link",
             "label": "NSG Flow log Formatter",
             "href": "/Scripts/NSG Flow log Formatter",
             "docId": "Scripts/NSG Flow log Formatter"
@@ -227,6 +251,21 @@
           }
         ],
         "href": "/category/scripts"
+      },
+      {
+        "type": "category",
+        "label": "Windows OS",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Creating a nice pwsh prompt",
+            "href": "/Windows OS/Creating a nice pwsh prompt",
+            "docId": "Windows OS/Creating a nice pwsh prompt"
+          }
+        ],
+        "href": "/category/windows-os"
       }
     ]
   },
@@ -259,6 +298,12 @@
       "id": "Azure/Data Management/Restore VM from Snapshot",
       "title": "Restore VM from Snapshot",
       "description": "We're assuming there is already a valid Snapshot taken of the machine you're trying to restore.",
+      "sidebar": "tutorialSidebar"
+    },
+    "Azure/Infrastructure/AVD Image Update Guidance": {
+      "id": "Azure/Infrastructure/AVD Image Update Guidance",
+      "title": "AVD Image Update Guidance",
+      "description": "Reinstate admin privileges for a customer's Azure CSP subscriptions.",
       "sidebar": "tutorialSidebar"
     },
     "Azure/Infrastructure/Create an Automation Account": {
@@ -309,6 +354,12 @@
       "description": "Updating a citrix image for Citrix Cloud.",
       "sidebar": "tutorialSidebar"
     },
+    "Command Line References/Active Directory": {
+      "id": "Command Line References/Active Directory",
+      "title": "Active Directory",
+      "description": "All things related to Active Directory cmdlet.",
+      "sidebar": "tutorialSidebar"
+    },
     "Command Line References/AzCLi": {
       "id": "Command Line References/AzCLi",
       "title": "Az Cli",
@@ -321,6 +372,12 @@
       "description": "Exchange Online command ref doc.",
       "sidebar": "tutorialSidebar"
     },
+    "Command Line References/Git CMDLine Ref": {
+      "id": "Command Line References/Git CMDLine Ref",
+      "title": "Git CMDLine Ref",
+      "description": "Git command line refernce.",
+      "sidebar": "tutorialSidebar"
+    },
     "Command Line References/Microsoft Graph": {
       "id": "Command Line References/Microsoft Graph",
       "title": "Microsoft Graph",
@@ -331,6 +388,12 @@
       "id": "Command Line References/PowerShell",
       "title": "PowerShell",
       "description": "All things PowerShell.",
+      "sidebar": "tutorialSidebar"
+    },
+    "Scripts/Get User info using MGGraph": {
+      "id": "Scripts/Get User info using MGGraph",
+      "title": "Get User info using MGGraph",
+      "description": "Get user information using MGGraph.",
       "sidebar": "tutorialSidebar"
     },
     "Scripts/NSG Flow log Formatter": {
@@ -349,6 +412,12 @@
       "id": "Welcome",
       "title": "Welcome to the Wiki",
       "description": "This documentation is an almagamation of my knowledge and experiences, to hopefully provide myself and others with reference material for their jobs and hobbies.",
+      "sidebar": "tutorialSidebar"
+    },
+    "Windows OS/Creating a nice pwsh prompt": {
+      "id": "Windows OS/Creating a nice pwsh prompt",
+      "title": "Creating a nice pwsh prompt",
+      "description": "Creating a nice PowerShell prompt using oh my posh & PSReadLine.",
       "sidebar": "tutorialSidebar"
     }
   }

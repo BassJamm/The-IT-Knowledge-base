@@ -2,7 +2,7 @@
   {
     "label": "AzureAD",
     "permalink": "/tags/azure-ad",
-    "count": 1
+    "count": 2
   },
   {
     "label": "EntApp",
@@ -12,7 +12,7 @@
   {
     "label": "Azure",
     "permalink": "/tags/azure",
-    "count": 8
+    "count": 9
   },
   {
     "label": "Resource Creation",
@@ -27,7 +27,7 @@
   {
     "label": "Guide",
     "permalink": "/tags/guide",
-    "count": 2
+    "count": 3
   },
   {
     "label": "Setup Azure Site Recovery",
@@ -43,6 +43,11 @@
     "label": "SnapShot",
     "permalink": "/tags/snap-shot",
     "count": 2
+  },
+  {
+    "label": "Azure Virtual Desktop",
+    "permalink": "/tags/azure-virtual-desktop",
+    "count": 1
   },
   {
     "label": "Automation",
@@ -100,6 +105,16 @@
     "count": 1
   },
   {
+    "label": "Git",
+    "permalink": "/tags/git",
+    "count": 1
+  },
+  {
+    "label": "Command Line Ref",
+    "permalink": "/tags/command-line-ref",
+    "count": 1
+  },
+  {
     "label": "Microsoft Graph",
     "permalink": "/tags/microsoft-graph",
     "count": 1
@@ -110,9 +125,14 @@
     "count": 1
   },
   {
+    "label": "MGGraph",
+    "permalink": "/tags/mg-graph",
+    "count": 1
+  },
+  {
     "label": "Script",
     "permalink": "/tags/script",
-    "count": 1
+    "count": 2
   },
   {
     "label": "NSG",
@@ -132,6 +152,11 @@
   {
     "label": "Re-usable Code",
     "permalink": "/tags/re-usable-code",
+    "count": 1
+  },
+  {
+    "label": "PartnerCentre",
+    "permalink": "/tags/partner-centre",
     "count": 1
   }
 ]

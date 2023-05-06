@@ -1,0 +1,50 @@
+{
+  "unversionedId": "Command Line References/Git CMDLine Ref",
+  "id": "Command Line References/Git CMDLine Ref",
+  "title": "Git CMDLine Ref",
+  "description": "Git command line refernce.",
+  "source": "@site/docs/Command Line References/Git Commands.md",
+  "sourceDirName": "Command Line References",
+  "slug": "/Command Line References/Git CMDLine Ref",
+  "permalink": "/Command Line References/Git CMDLine Ref",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/edit/main/docs/api-doc-markdown.md",
+  "tags": [
+    {
+      "label": "Git",
+      "permalink": "/tags/git"
+    },
+    {
+      "label": "Command Line Ref",
+      "permalink": "/tags/command-line-ref"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "draft": false,
+    "id": "Git CMDLine Ref",
+    "title": "Git CMDLine Ref",
+    "hide_title": false,
+    "hide_table_of_contents": false,
+    "sidebar_label": "Git CMDLine Ref",
+    "sidebar_position": 3,
+    "toc_max_heading_level": 4,
+    "pagination_label": "Git CMDLine Ref",
+    "tags": [
+      "Git",
+      "Command Line Ref"
+    ],
+    "custom_edit_url": "https://github.com/facebook/docusaurus/edit/main/docs/api-doc-markdown.md",
+    "description": "Git command line refernce."
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Exchange Online",
+    "permalink": "/Command Line References/Exchange Online"
+  },
+  "next": {
+    "title": "Microsoft Graph",
+    "permalink": "/Command Line References/Microsoft Graph"
+  }
+}
