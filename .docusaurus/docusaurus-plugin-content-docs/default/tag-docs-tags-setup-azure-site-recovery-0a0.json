@@ -5,10 +5,10 @@
   "count": 1,
   "items": [
     {
-      "id": "How-to Guides/Azure/Setup Azure Site Recovery",
+      "id": "Azure/Backup and Disaster Recovery/Setup Azure Site Recovery",
       "title": "Setup Azure Site Recovery",
-      "description": "High Level Overview of tasks",
-      "permalink": "/docs/How-to Guides/Azure/Setup Azure Site Recovery"
+      "description": "Reinstate admin privileges for a customer's Azure CSP subscriptions.",
+      "permalink": "/docs/Azure/Backup and Disaster Recovery/Setup Azure Site Recovery"
     }
   ]
 }

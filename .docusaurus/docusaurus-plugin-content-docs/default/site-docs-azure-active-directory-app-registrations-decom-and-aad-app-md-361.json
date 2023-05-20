@@ -6,17 +6,17 @@
   "source": "@site/docs/Azure Active Directory/App Registrations/Decom and AAD App.md",
   "sourceDirName": "Azure Active Directory/App Registrations",
   "slug": "/Azure Active Directory/App Registrations/Decom and AAD App",
-  "permalink": "/Azure Active Directory/App Registrations/Decom and AAD App",
+  "permalink": "/docs/Azure Active Directory/App Registrations/Decom and AAD App",
   "draft": false,
   "editUrl": "https://github.com/facebook/docusaurus/edit/main/docs/api-doc-markdown.md",
   "tags": [
     {
       "label": "AzureAD",
-      "permalink": "/tags/azure-ad"
+      "permalink": "/docs/tags/azure-ad"
     },
     {
       "label": "EntApp",
-      "permalink": "/tags/ent-app"
+      "permalink": "/docs/tags/ent-app"
     }
   ],
   "version": "current",
@@ -41,10 +41,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "App Registrations",
-    "permalink": "/category/app-registrations"
+    "permalink": "/docs/category/app-registrations"
   },
   "next": {
     "title": "Certificates",
-    "permalink": "/category/certificates"
+    "permalink": "/docs/category/certificates"
   }
 }

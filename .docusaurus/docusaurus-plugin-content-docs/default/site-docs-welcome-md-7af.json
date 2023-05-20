@@ -6,7 +6,7 @@
   "source": "@site/docs/Welcome.md",
   "sourceDirName": ".",
   "slug": "/",
-  "permalink": "/",
+  "permalink": "/docs/",
   "draft": false,
   "tags": [],
   "version": "current",
@@ -20,6 +20,6 @@
   "sidebar": "tutorialSidebar",
   "next": {
     "title": "Azure",
-    "permalink": "/category/azure"
+    "permalink": "/docs/category/azure"
   }
 }

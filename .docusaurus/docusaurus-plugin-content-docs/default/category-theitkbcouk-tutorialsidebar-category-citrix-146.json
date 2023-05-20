@@ -1,0 +1,16 @@
+{
+  "title": "Citrix",
+  "description": "Citrix stuff.",
+  "slug": "/category/citrix",
+  "permalink": "/theitkb.co.uk/category/citrix",
+  "navigation": {
+    "previous": {
+      "title": "Request from Internal CA",
+      "permalink": "/theitkb.co.uk/Certificates/Request from Internal CA"
+    },
+    "next": {
+      "title": "Updating an image",
+      "permalink": "/theitkb.co.uk/Citrix/Updating an image"
+    }
+  }
+}

@@ -1,21 +1,9 @@
 {
-  "title": "Recent posts",
+  "title": "All posts",
   "items": [
     {
-      "title": "My Automation Nightmare",
-      "permalink": "/blog/My-Automation-Nightmare"
-    },
-    {
-      "title": "What can you Automate",
-      "permalink": "/blog/What can you Automate"
-    },
-    {
-      "title": "What is Automation in Azure?",
-      "permalink": "/blog/What is Automation in Azure"
-    },
-    {
-      "title": "Azure Permission & Resource Management",
-      "permalink": "/blog/Azure Permission & Resource Management"
+      "title": "Welcome Docusaurus v2",
+      "permalink": "/blog/welcome-docusaurus-v2"
     }
   ]
 }

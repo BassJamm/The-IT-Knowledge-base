@@ -1,0 +1,16 @@
+{
+  "title": "Scripts",
+  "description": "Useful Scripts.",
+  "slug": "/category/scripts",
+  "permalink": "/docs/category/scripts",
+  "navigation": {
+    "previous": {
+      "title": "PowerShell",
+      "permalink": "/docs/Command Line References/PowerShell"
+    },
+    "next": {
+      "title": "Get User info using MGGraph",
+      "permalink": "/docs/Scripts/Get User info using MGGraph"
+    }
+  }
+}

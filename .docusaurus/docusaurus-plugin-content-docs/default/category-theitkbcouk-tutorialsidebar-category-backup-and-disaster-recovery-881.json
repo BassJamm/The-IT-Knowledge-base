@@ -1,0 +1,16 @@
+{
+  "title": "Backup and Disaster Recovery",
+  "description": "Guides for setting up and managing Backup and Disaster Recovery services in Azure.",
+  "slug": "/category/backup-and-disaster-recovery",
+  "permalink": "/theitkb.co.uk/category/backup-and-disaster-recovery",
+  "navigation": {
+    "previous": {
+      "title": "Azure",
+      "permalink": "/theitkb.co.uk/category/azure"
+    },
+    "next": {
+      "title": "Setup Azure Backup",
+      "permalink": "/theitkb.co.uk/Azure/Backup and Disaster Recovery/Setup Azure Backup"
+    }
+  }
+}

@@ -5,10 +5,10 @@
   "count": 1,
   "items": [
     {
-      "id": "How-to Guides/Azure/Setup Azure Lighthouse",
+      "id": "Azure/Infrastructure/Setup Azure Lighthouse",
       "title": "Setup Azure Lighthouse",
-      "description": "This document covers creating a template manually and uploading to a customer directly. Not an Azure Marketplace offering.",
-      "permalink": "/docs/How-to Guides/Azure/Setup Azure Lighthouse"
+      "description": "Document Control",
+      "permalink": "/docs/Azure/Infrastructure/Setup Azure Lighthouse"
     }
   ]
 }

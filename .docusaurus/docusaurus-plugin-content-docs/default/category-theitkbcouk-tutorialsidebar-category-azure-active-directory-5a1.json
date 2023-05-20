@@ -1,0 +1,16 @@
+{
+  "title": "Azure Active Directory",
+  "description": "Guides for achieving an end result.",
+  "slug": "/category/azure-active-directory",
+  "permalink": "/theitkb.co.uk/category/azure-active-directory",
+  "navigation": {
+    "previous": {
+      "title": "Network Security Groups",
+      "permalink": "/theitkb.co.uk/Azure/Networking/Network Security Groups"
+    },
+    "next": {
+      "title": "App Registrations",
+      "permalink": "/theitkb.co.uk/category/app-registrations"
+    }
+  }
+}

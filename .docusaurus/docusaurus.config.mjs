@@ -43,9 +43,16 @@ export default {
         "docs": {
           "path": "docs",
           "sidebarPath": "C:\\GitRepos\\The-IT-Knowledge-base\\sidebars.js",
-          "routeBasePath": "/"
+          "routeBasePath": "/docs/"
         },
-        "blog": false,
+        "blog": {
+          "path": "blog",
+          "postsPerPage": "ALL",
+          "blogSidebarTitle": "All posts",
+          "blogSidebarCount": "ALL",
+          "showReadingTime": true,
+          "routeBasePath": "/blog/"
+        },
         "theme": {
           "customCss": "C:\\GitRepos\\The-IT-Knowledge-base\\src\\css\\custom.css"
         }
@@ -65,6 +72,11 @@ export default {
           "docId": "Welcome",
           "position": "right",
           "label": "Docs"
+        },
+        {
+          "to": "blog",
+          "label": "Blog",
+          "position": "right"
         },
         {
           "href": "https://github.com/BassJamm",

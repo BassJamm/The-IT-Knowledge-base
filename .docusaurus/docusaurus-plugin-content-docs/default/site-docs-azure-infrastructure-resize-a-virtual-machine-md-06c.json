@@ -6,16 +6,16 @@
   "source": "@site/docs/Azure/Infrastructure/Resize a Virtual Machine.md",
   "sourceDirName": "Azure/Infrastructure",
   "slug": "/Azure/Infrastructure/Re-size a Virtual Machine",
-  "permalink": "/Azure/Infrastructure/Re-size a Virtual Machine",
+  "permalink": "/docs/Azure/Infrastructure/Re-size a Virtual Machine",
   "draft": false,
   "tags": [
     {
       "label": "Azure",
-      "permalink": "/tags/azure"
+      "permalink": "/docs/tags/azure"
     },
     {
       "label": "Virtual Machine",
-      "permalink": "/tags/virtual-machine"
+      "permalink": "/docs/tags/virtual-machine"
     }
   ],
   "version": "current",
@@ -32,10 +32,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Create an Automation Account",
-    "permalink": "/Azure/Infrastructure/Create an Automation Account"
+    "permalink": "/docs/Azure/Infrastructure/Create an Automation Account"
   },
   "next": {
     "title": "Networking",
-    "permalink": "/category/networking"
+    "permalink": "/docs/category/networking"
   }
 }

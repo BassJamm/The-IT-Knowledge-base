@@ -5,22 +5,22 @@
   "count": 3,
   "items": [
     {
-      "id": "How-to Guides/Certificates/Certificate Formats and Conversions",
-      "title": "Certificate Formats and Conversions",
-      "description": "Certificate Formats",
-      "permalink": "/docs/How-to Guides/Certificates/Certificate Formats and Conversions"
+      "id": "Certificates/Formats and Conversions",
+      "title": "Certificate formats and Converting formats",
+      "description": "Certificate formatting and converting them to different formats.",
+      "permalink": "/docs/Certificates/Formats and Conversions"
     },
     {
-      "id": "How-to Guides/Certificates/Generating a CSR",
+      "id": "Certificates/Generating a CSR",
       "title": "Generating a CSR",
-      "description": "What is a CSR?",
-      "permalink": "/docs/How-to Guides/Certificates/Generating a CSR"
+      "description": "Generating a CSR.",
+      "permalink": "/docs/Certificates/Generating a CSR"
     },
     {
-      "id": "How-to Guides/Certificates/Request Cert from internal CA",
-      "title": "Request Cert from internal CA",
-      "description": "Generating a CSR",
-      "permalink": "/docs/How-to Guides/Certificates/Request Cert from internal CA"
+      "id": "Certificates/Request from Internal CA",
+      "title": "Request from Internal CA",
+      "description": "Request a Cert from Internal CA.",
+      "permalink": "/docs/Certificates/Request from Internal CA"
     }
   ]
 }

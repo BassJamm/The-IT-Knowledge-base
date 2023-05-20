@@ -1,0 +1,14 @@
+{
+  "label": "Git",
+  "permalink": "/docs/tags/git",
+  "allTagsPath": "/docs/tags",
+  "count": 1,
+  "items": [
+    {
+      "id": "Command Line References/Git CMDLine Ref",
+      "title": "Git CMDLine Ref",
+      "description": "Git command line refernce.",
+      "permalink": "/docs/Command Line References/Git CMDLine Ref"
+    }
+  ]
+}

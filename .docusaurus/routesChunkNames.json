@@ -1,369 +1,509 @@
 {
+  "/__docusaurus/debug-de6": {
+    "__comp": "__comp---theme-debug-config-23-a-2ff",
+    "__context": {
+      "plugin": "plugin---docusaurus-debug-99-d-82f"
+    }
+  },
+  "/__docusaurus/debug/config-e31": {
+    "__comp": "__comp---theme-debug-config-23-a-2ff",
+    "__context": {
+      "plugin": "plugin---docusaurus-debug-99-d-82f"
+    }
+  },
+  "/__docusaurus/debug/content-f8a": {
+    "__comp": "__comp---theme-debug-contentba-8-ce7",
+    "__context": {
+      "plugin": "plugin---docusaurus-debug-99-d-82f"
+    },
+    "allContent": "allContent---docusaurus-debug-content-246-9aa"
+  },
+  "/__docusaurus/debug/globalData-e73": {
+    "__comp": "__comp---theme-debug-global-dataede-0fa",
+    "__context": {
+      "plugin": "plugin---docusaurus-debug-99-d-82f"
+    }
+  },
+  "/__docusaurus/debug/metadata-ec8": {
+    "__comp": "__comp---theme-debug-site-metadata-68-e-3d4",
+    "__context": {
+      "plugin": "plugin---docusaurus-debug-99-d-82f"
+    }
+  },
+  "/__docusaurus/debug/registry-aac": {
+    "__comp": "__comp---theme-debug-registry-679-501",
+    "__context": {
+      "plugin": "plugin---docusaurus-debug-99-d-82f"
+    }
+  },
+  "/__docusaurus/debug/routes-1c0": {
+    "__comp": "__comp---theme-debug-routes-946-699",
+    "__context": {
+      "plugin": "plugin---docusaurus-debug-99-d-82f"
+    }
+  },
+  "/blog/-785": {
+    "__comp": "__comp---theme-blog-list-pagea-6-a-7ba",
+    "__context": {
+      "plugin": "plugin---theitkb-co-uk-911-f72"
+    },
+    "sidebar": "sidebar---theitkb-co-uk-814-535",
+    "items": [
+      {
+        "content": "content---theitkb-co-uk-fd-0-a64"
+      }
+    ],
+    "metadata": "metadata---blog-441-255"
+  },
+  "/blog/archive-e18": {
+    "__comp": "__comp---theme-blog-archive-page-9-e-4-1d8",
+    "__context": {
+      "plugin": "plugin---theitkb-co-uk-911-f72"
+    },
+    "archive": "archive---blog-archiveb-2-f-393"
+  },
+  "/blog/tags-cce": {
+    "__comp": "__comp---theme-blog-tags-list-page-01-a-d0b",
+    "__context": {
+      "plugin": "plugin---theitkb-co-uk-911-f72"
+    },
+    "sidebar": "sidebar---theitkb-co-uk-814-535",
+    "tags": "tags---blog-tagsa-70-da2"
+  },
+  "/blog/tags/docusaurus-v-2-2d2": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---theitkb-co-uk-911-f72"
+    },
+    "sidebar": "sidebar---theitkb-co-uk-814-535",
+    "items": [
+      {
+        "content": "content---theitkb-co-uk-fd-0-a64"
+      }
+    ],
+    "tag": "tag---blog-tags-docusaurus-v-2-a-95-d2c",
+    "listMetadata": "listMetadata---blog-tags-docusaurus-v-21-e-7-d10"
+  },
+  "/blog/tags/hello-635": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---theitkb-co-uk-911-f72"
+    },
+    "sidebar": "sidebar---theitkb-co-uk-814-535",
+    "items": [
+      {
+        "content": "content---theitkb-co-uk-fd-0-a64"
+      }
+    ],
+    "tag": "tag---blog-tags-hello-30-a-bed",
+    "listMetadata": "listMetadata---blog-tags-hello-664-70a"
+  },
+  "/blog/welcome-docusaurus-v2-6a2": {
+    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__context": {
+      "plugin": "plugin---theitkb-co-uk-911-f72"
+    },
+    "sidebar": "sidebar---theitkb-co-uk-814-535",
+    "content": "content---theitkb-co-uk-welcome-docusaurus-v-2235-bae"
+  },
+  "/docs/tags-8b6": {
+    "__comp": "__comp---theme-doc-tags-list-page-372-89e",
+    "__context": {
+      "plugin": "plugin---theitkb-co-uk-tagsc-77-e93"
+    },
+    "tags": "tags---theitkb-co-uk-tags-559-f83"
+  },
+  "/docs/tags/automation-e8c": {
+    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
+    "__context": {
+      "plugin": "plugin---theitkb-co-uk-tagsc-77-e93"
+    },
+    "tag": "tag---docs-tags-automation-3-b-3-fc0"
+  },
+  "/docs/tags/az-c-li-c5f": {
+    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
+    "__context": {
+      "plugin": "plugin---theitkb-co-uk-tagsc-77-e93"
+    },
+    "tag": "tag---docs-tags-az-c-li-213-b39"
+  },
+  "/docs/tags/azure-9e5": {
+    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
+    "__context": {
+      "plugin": "plugin---theitkb-co-uk-tagsc-77-e93"
+    },
+    "tag": "tag---docs-tags-azure-81-e-386"
+  },
+  "/docs/tags/azure-ad-6ec": {
+    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
+    "__context": {
+      "plugin": "plugin---theitkb-co-uk-tagsc-77-e93"
+    },
+    "tag": "tag---docs-tags-azure-ad-48-e-bee"
+  },
+  "/docs/tags/azure-backup-ef5": {
+    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
+    "__context": {
+      "plugin": "plugin---theitkb-co-uk-tagsc-77-e93"
+    },
+    "tag": "tag---docs-tags-azure-backup-518-44f"
+  },
+  "/docs/tags/azure-virtual-desktop-517": {
+    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
+    "__context": {
+      "plugin": "plugin---theitkb-co-uk-tagsc-77-e93"
+    },
+    "tag": "tag---docs-tags-azure-virtual-desktop-512-273"
+  },
+  "/docs/tags/certificates-99a": {
+    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
+    "__context": {
+      "plugin": "plugin---theitkb-co-uk-tagsc-77-e93"
+    },
+    "tag": "tag---docs-tags-certificates-2-c-3-8e5"
+  },
+  "/docs/tags/citrix-49b": {
+    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
+    "__context": {
+      "plugin": "plugin---theitkb-co-uk-tagsc-77-e93"
+    },
+    "tag": "tag---docs-tags-citrixe-2-c-1b5"
+  },
+  "/docs/tags/command-line-6f2": {
+    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
+    "__context": {
+      "plugin": "plugin---theitkb-co-uk-tagsc-77-e93"
+    },
+    "tag": "tag---docs-tags-command-linee-75-529"
+  },
+  "/docs/tags/command-line-ref-cbe": {
+    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
+    "__context": {
+      "plugin": "plugin---theitkb-co-uk-tagsc-77-e93"
+    },
+    "tag": "tag---docs-tags-command-line-ref-1-d-4-218"
+  },
+  "/docs/tags/ent-app-e37": {
+    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
+    "__context": {
+      "plugin": "plugin---theitkb-co-uk-tagsc-77-e93"
+    },
+    "tag": "tag---docs-tags-ent-app-7-ea-4d8"
+  },
+  "/docs/tags/exchange-online-d7d": {
+    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
+    "__context": {
+      "plugin": "plugin---theitkb-co-uk-tagsc-77-e93"
+    },
+    "tag": "tag---docs-tags-exchange-online-20-a-344"
+  },
+  "/docs/tags/flow-log-398": {
+    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
+    "__context": {
+      "plugin": "plugin---theitkb-co-uk-tagsc-77-e93"
+    },
+    "tag": "tag---docs-tags-flow-log-90-b-235"
+  },
+  "/docs/tags/git-e5a": {
+    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
+    "__context": {
+      "plugin": "plugin---theitkb-co-uk-tagsc-77-e93"
+    },
+    "tag": "tag---docs-tags-git-7-b-6-99f"
+  },
+  "/docs/tags/guide-56a": {
+    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
+    "__context": {
+      "plugin": "plugin---theitkb-co-uk-tagsc-77-e93"
+    },
+    "tag": "tag---docs-tags-guideb-8-c-dba"
+  },
+  "/docs/tags/lighthouse-864": {
+    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
+    "__context": {
+      "plugin": "plugin---theitkb-co-uk-tagsc-77-e93"
+    },
+    "tag": "tag---docs-tags-lighthouseaa-4-a41"
+  },
+  "/docs/tags/mg-graph-22b": {
+    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
+    "__context": {
+      "plugin": "plugin---theitkb-co-uk-tagsc-77-e93"
+    },
+    "tag": "tag---docs-tags-mg-graphef-4-d9b"
+  },
+  "/docs/tags/microsoft-graph-069": {
+    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
+    "__context": {
+      "plugin": "plugin---theitkb-co-uk-tagsc-77-e93"
+    },
+    "tag": "tag---docs-tags-microsoft-graphce-8-86e"
+  },
+  "/docs/tags/network-security-groups-0c0": {
+    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
+    "__context": {
+      "plugin": "plugin---theitkb-co-uk-tagsc-77-e93"
+    },
+    "tag": "tag---docs-tags-network-security-groups-858-2da"
+  },
+  "/docs/tags/networking-1bd": {
+    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
+    "__context": {
+      "plugin": "plugin---theitkb-co-uk-tagsc-77-e93"
+    },
+    "tag": "tag---docs-tags-networking-872-e14"
+  },
+  "/docs/tags/nsg-4f6": {
+    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
+    "__context": {
+      "plugin": "plugin---theitkb-co-uk-tagsc-77-e93"
+    },
+    "tag": "tag---docs-tags-nsg-10-d-771"
+  },
+  "/docs/tags/partner-centre-ea3": {
+    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
+    "__context": {
+      "plugin": "plugin---theitkb-co-uk-tagsc-77-e93"
+    },
+    "tag": "tag---docs-tags-partner-centre-2-f-7-390"
+  },
+  "/docs/tags/power-shell-6f3": {
+    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
+    "__context": {
+      "plugin": "plugin---theitkb-co-uk-tagsc-77-e93"
+    },
+    "tag": "tag---docs-tags-power-shelle-4-c-dd0"
+  },
+  "/docs/tags/re-usable-code-f4c": {
+    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
+    "__context": {
+      "plugin": "plugin---theitkb-co-uk-tagsc-77-e93"
+    },
+    "tag": "tag---docs-tags-re-usable-code-77-c-0b7"
+  },
+  "/docs/tags/resource-creation-a86": {
+    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
+    "__context": {
+      "plugin": "plugin---theitkb-co-uk-tagsc-77-e93"
+    },
+    "tag": "tag---docs-tags-resource-creationb-1-e-b00"
+  },
+  "/docs/tags/restore-c8c": {
+    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
+    "__context": {
+      "plugin": "plugin---theitkb-co-uk-tagsc-77-e93"
+    },
+    "tag": "tag---docs-tags-restore-318-676"
+  },
+  "/docs/tags/script-4d5": {
+    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
+    "__context": {
+      "plugin": "plugin---theitkb-co-uk-tagsc-77-e93"
+    },
+    "tag": "tag---docs-tags-scriptfcd-25e"
+  },
+  "/docs/tags/scripting-856": {
+    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
+    "__context": {
+      "plugin": "plugin---theitkb-co-uk-tagsc-77-e93"
+    },
+    "tag": "tag---docs-tags-scriptingd-4-e-f84"
+  },
+  "/docs/tags/scripts-551": {
+    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
+    "__context": {
+      "plugin": "plugin---theitkb-co-uk-tagsc-77-e93"
+    },
+    "tag": "tag---docs-tags-scripts-6-b-5-495"
+  },
+  "/docs/tags/setup-azure-site-recovery-fc4": {
+    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
+    "__context": {
+      "plugin": "plugin---theitkb-co-uk-tagsc-77-e93"
+    },
+    "tag": "tag---docs-tags-setup-azure-site-recovery-2-f-3-1a1"
+  },
+  "/docs/tags/snap-shot-e15": {
+    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
+    "__context": {
+      "plugin": "plugin---theitkb-co-uk-tagsc-77-e93"
+    },
+    "tag": "tag---docs-tags-snap-shot-072-2a0"
+  },
+  "/docs/tags/virtual-machine-e28": {
+    "__comp": "__comp---theme-doc-tag-doc-list-pagedf-2-9f0",
+    "__context": {
+      "plugin": "plugin---theitkb-co-uk-tagsc-77-e93"
+    },
+    "tag": "tag---docs-tags-virtual-machine-84-e-a40"
+  },
   "/markdown-page-ca9": {
-    "__comp": "1f391b9e",
+    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
     "__context": {
-      "plugin": "cd8d6d88"
+      "plugin": "plugin---markdown-pagecd-8-057"
     },
-    "content": "393be207"
+    "content": "content---markdown-page-393-028"
   },
-  "/tags-8cc": {
-    "__comp": "3720c009",
+  "/docs/-f5a": {
+    "__comp": "__comp---theme-doc-page-1-be-9be",
     "__context": {
-      "plugin": "c7754192"
+      "plugin": "plugin---theitkb-co-uk-tagsc-77-e93"
     },
-    "tags": "55960ee5"
+    "versionMetadata": "versionMetadata---theitkb-co-uk-935-77b"
   },
-  "/tags/automation-dac": {
-    "__comp": "df203c0f",
+  "/docs/-63d": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---theitkb-co-uk-7-af-c77"
+  },
+  "/docs/Azure Active Directory/App Registrations/Decom and AAD App-d13": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---theitkb-co-uk-azure-active-directory-app-registrations-decom-and-aad-app-361-7e8"
+  },
+  "/docs/Azure/Backup and Disaster Recovery/Setup Azure Backup-014": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---theitkb-co-uk-azure-backup-and-disaster-recovery-setup-azure-backup-69-d-a69"
+  },
+  "/docs/Azure/Backup and Disaster Recovery/Setup Azure Site Recovery-173": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---theitkb-co-uk-azure-backup-and-disaster-recovery-setup-azure-site-recoveryde-2-d15"
+  },
+  "/docs/Azure/Data Management/Restore data from a Snapshot-fb6": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---theitkb-co-uk-azure-data-management-restore-data-from-a-snapshot-633-654"
+  },
+  "/docs/Azure/Data Management/Restore VM from Snapshot-5a8": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---theitkb-co-uk-azure-data-management-restore-vm-from-snapshotecf-8e6"
+  },
+  "/docs/Azure/Infrastructure/AVD Image Update Guidance-655": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---theitkb-co-uk-azure-infrastructure-avd-image-update-guidance-7-a-4-1c3"
+  },
+  "/docs/Azure/Infrastructure/Create an Automation Account-15e": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---theitkb-co-uk-azure-infrastructure-create-an-automation-accounte-93-4da"
+  },
+  "/docs/Azure/Infrastructure/Re-size a Virtual Machine-47d": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---theitkb-co-uk-azure-infrastructure-re-size-a-virtual-machine-06-c-faa"
+  },
+  "/docs/Azure/Infrastructure/Setup Azure Lighthouse-bf0": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---theitkb-co-uk-azure-infrastructure-setup-azure-lighthouse-144-6bd"
+  },
+  "/docs/Azure/Networking/Network Security Groups-89c": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---theitkb-co-uk-azure-networking-network-security-groups-75-d-b37"
+  },
+  "/docs/category/app-registrations-c1b": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "categoryGeneratedIndex": "categoryGeneratedIndex---docs-category-app-registrationseb-9-ebd"
+  },
+  "/docs/category/azure-ebb": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "categoryGeneratedIndex": "categoryGeneratedIndex---docs-category-azure-64-d-25a"
+  },
+  "/docs/category/azure-active-directory-e1f": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "categoryGeneratedIndex": "categoryGeneratedIndex---docs-category-azure-active-directory-49-b-4c2"
+  },
+  "/docs/category/backup-and-disaster-recovery-033": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "categoryGeneratedIndex": "categoryGeneratedIndex---docs-category-backup-and-disaster-recovery-0-ac-1c7"
+  },
+  "/docs/category/certificates-29d": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "categoryGeneratedIndex": "categoryGeneratedIndex---docs-category-certificates-39-f-de0"
+  },
+  "/docs/category/citrix-994": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "categoryGeneratedIndex": "categoryGeneratedIndex---docs-category-citrix-021-b9e"
+  },
+  "/docs/category/command-line-references-1a1": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "categoryGeneratedIndex": "categoryGeneratedIndex---docs-category-command-line-references-14-d-b5d"
+  },
+  "/docs/category/data-management-bea": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "categoryGeneratedIndex": "categoryGeneratedIndex---docs-category-data-managementbb-6-782"
+  },
+  "/docs/category/infrastructure-management-a26": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "categoryGeneratedIndex": "categoryGeneratedIndex---docs-category-infrastructure-management-443-ab8"
+  },
+  "/docs/category/networking-796": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "categoryGeneratedIndex": "categoryGeneratedIndex---docs-category-networking-888-e42"
+  },
+  "/docs/category/scripts-5d1": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "categoryGeneratedIndex": "categoryGeneratedIndex---docs-category-scriptsfdd-986"
+  },
+  "/docs/category/windows-os-b61": {
+    "__comp": "__comp---theme-doc-category-generated-index-page-14-e-640",
+    "categoryGeneratedIndex": "categoryGeneratedIndex---docs-category-windows-osafa-4a3"
+  },
+  "/docs/Certificates/Formats and Conversions-6ee": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---theitkb-co-uk-certificates-formats-and-conversionsc-10-a10"
+  },
+  "/docs/Certificates/Generating a CSR-192": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---theitkb-co-uk-certificates-generating-a-cs-re-65-933"
+  },
+  "/docs/Certificates/Request from Internal CA-e6d": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---theitkb-co-uk-certificates-request-from-internal-ca-2-d-0-8b0"
+  },
+  "/docs/Citrix/Updating an image-359": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---theitkb-co-uk-citrix-updating-an-image-8-b-1-1be"
+  },
+  "/docs/Command Line References/Active Directory-b6b": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---theitkb-co-uk-command-line-references-active-directory-82-d-b7e"
+  },
+  "/docs/Command Line References/AzCLi-443": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---theitkb-co-uk-command-line-references-az-c-li-427-b90"
+  },
+  "/docs/Command Line References/Exchange Online-561": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---theitkb-co-uk-command-line-references-exchange-online-9-b-8-408"
+  },
+  "/docs/Command Line References/Git CMDLine Ref-d9a": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---theitkb-co-uk-command-line-references-git-cmd-line-ref-75-d-bc8"
+  },
+  "/docs/Command Line References/Microsoft Graph-4de": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---theitkb-co-uk-command-line-references-microsoft-graphe-3-c-ed6"
+  },
+  "/docs/Command Line References/PowerShell-d0d": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---theitkb-co-uk-command-line-references-power-shell-221-e66"
+  },
+  "/docs/Scripts/Get User info using MGGraph-864": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---theitkb-co-uk-scripts-get-user-info-using-mg-graphda-6-38f"
+  },
+  "/docs/Scripts/NSG Flow log Formatter-909": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---theitkb-co-uk-scripts-nsg-flow-log-formatter-0-a-2-eb7"
+  },
+  "/docs/Scripts/Windows OS Scripts-f85": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---theitkb-co-uk-scripts-windows-os-scripts-110-f88"
+  },
+  "/docs/Windows OS/Creating a nice pwsh prompt-77a": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---theitkb-co-uk-windows-os-creating-a-nice-pwsh-prompt-0-df-ded"
+  },
+  "/-53b": {
+    "__comp": "__comp---site-src-pages-index-jsc-4-f-f99",
     "__context": {
-      "plugin": "c7754192"
+      "plugin": "plugin---markdown-pagecd-8-057"
     },
-    "tag": "35f7900b"
-  },
-  "/tags/az-c-li-be3": {
-    "__comp": "df203c0f",
-    "__context": {
-      "plugin": "c7754192"
-    },
-    "tag": "c1b29f04"
-  },
-  "/tags/azure-4e7": {
-    "__comp": "df203c0f",
-    "__context": {
-      "plugin": "c7754192"
-    },
-    "tag": "47ef1a4e"
-  },
-  "/tags/azure-ad-eaf": {
-    "__comp": "df203c0f",
-    "__context": {
-      "plugin": "c7754192"
-    },
-    "tag": "998fa919"
-  },
-  "/tags/azure-backup-2e9": {
-    "__comp": "df203c0f",
-    "__context": {
-      "plugin": "c7754192"
-    },
-    "tag": "654302a8"
-  },
-  "/tags/certificates-160": {
-    "__comp": "df203c0f",
-    "__context": {
-      "plugin": "c7754192"
-    },
-    "tag": "60bbb6a4"
-  },
-  "/tags/citrix-1ff": {
-    "__comp": "df203c0f",
-    "__context": {
-      "plugin": "c7754192"
-    },
-    "tag": "f937bcd7"
-  },
-  "/tags/command-line-c57": {
-    "__comp": "df203c0f",
-    "__context": {
-      "plugin": "c7754192"
-    },
-    "tag": "26e0c48a"
-  },
-  "/tags/command-line-ref-2f7": {
-    "__comp": "df203c0f",
-    "__context": {
-      "plugin": "c7754192"
-    },
-    "tag": "62e35f17"
-  },
-  "/tags/ent-app-f1b": {
-    "__comp": "df203c0f",
-    "__context": {
-      "plugin": "c7754192"
-    },
-    "tag": "4fdbac45"
-  },
-  "/tags/exchange-online-9c3": {
-    "__comp": "df203c0f",
-    "__context": {
-      "plugin": "c7754192"
-    },
-    "tag": "310ca1fe"
-  },
-  "/tags/flow-log-4b0": {
-    "__comp": "df203c0f",
-    "__context": {
-      "plugin": "c7754192"
-    },
-    "tag": "d6fb26d1"
-  },
-  "/tags/git-a7a": {
-    "__comp": "df203c0f",
-    "__context": {
-      "plugin": "c7754192"
-    },
-    "tag": "dba55630"
-  },
-  "/tags/guide-cf6": {
-    "__comp": "df203c0f",
-    "__context": {
-      "plugin": "c7754192"
-    },
-    "tag": "4b1126a3"
-  },
-  "/tags/lighthouse-f1b": {
-    "__comp": "df203c0f",
-    "__context": {
-      "plugin": "c7754192"
-    },
-    "tag": "8add7675"
-  },
-  "/tags/microsoft-graph-53f": {
-    "__comp": "df203c0f",
-    "__context": {
-      "plugin": "c7754192"
-    },
-    "tag": "65ab7dbd"
-  },
-  "/tags/network-security-groups-07c": {
-    "__comp": "df203c0f",
-    "__context": {
-      "plugin": "c7754192"
-    },
-    "tag": "1eac462a"
-  },
-  "/tags/networking-93a": {
-    "__comp": "df203c0f",
-    "__context": {
-      "plugin": "c7754192"
-    },
-    "tag": "7d16b062"
-  },
-  "/tags/nsg-d87": {
-    "__comp": "df203c0f",
-    "__context": {
-      "plugin": "c7754192"
-    },
-    "tag": "8d3ebb5b"
-  },
-  "/tags/partner-centre-a33": {
-    "__comp": "df203c0f",
-    "__context": {
-      "plugin": "c7754192"
-    },
-    "tag": "02219f10"
-  },
-  "/tags/power-shell-baa": {
-    "__comp": "df203c0f",
-    "__context": {
-      "plugin": "c7754192"
-    },
-    "tag": "27d82671"
-  },
-  "/tags/re-usable-code-55d": {
-    "__comp": "df203c0f",
-    "__context": {
-      "plugin": "c7754192"
-    },
-    "tag": "461ff80d"
-  },
-  "/tags/resource-creation-512": {
-    "__comp": "df203c0f",
-    "__context": {
-      "plugin": "c7754192"
-    },
-    "tag": "c0d92fde"
-  },
-  "/tags/restore-1a9": {
-    "__comp": "df203c0f",
-    "__context": {
-      "plugin": "c7754192"
-    },
-    "tag": "3b8a2e69"
-  },
-  "/tags/script-457": {
-    "__comp": "df203c0f",
-    "__context": {
-      "plugin": "c7754192"
-    },
-    "tag": "0117f8c7"
-  },
-  "/tags/scripting-77f": {
-    "__comp": "df203c0f",
-    "__context": {
-      "plugin": "c7754192"
-    },
-    "tag": "c5727fe4"
-  },
-  "/tags/scripts-e9e": {
-    "__comp": "df203c0f",
-    "__context": {
-      "plugin": "c7754192"
-    },
-    "tag": "723966d0"
-  },
-  "/tags/setup-azure-site-recovery-39e": {
-    "__comp": "df203c0f",
-    "__context": {
-      "plugin": "c7754192"
-    },
-    "tag": "16957870"
-  },
-  "/tags/snap-shot-fac": {
-    "__comp": "df203c0f",
-    "__context": {
-      "plugin": "c7754192"
-    },
-    "tag": "2c73809b"
-  },
-  "/tags/virtual-machine-3a1": {
-    "__comp": "df203c0f",
-    "__context": {
-      "plugin": "c7754192"
-    },
-    "tag": "714938ac"
-  },
-  "/-f98": {
-    "__comp": "1be78505",
-    "__context": {
-      "plugin": "c7754192"
-    },
-    "versionMetadata": "935f2afb"
-  },
-  "/-73d": {
-    "__comp": "17896441",
-    "content": "7afa52e9"
-  },
-  "/Azure Active Directory/App Registrations/Decom and AAD App-76c": {
-    "__comp": "17896441",
-    "content": "36162add"
-  },
-  "/Azure/Backup and Disaster Recovery/Setup Azure Backup-f2f": {
-    "__comp": "17896441",
-    "content": "69d8de3f"
-  },
-  "/Azure/Backup and Disaster Recovery/Setup Azure Site Recovery-f3d": {
-    "__comp": "17896441",
-    "content": "de2f75c1"
-  },
-  "/Azure/Data Management/Restore data from a Snapshot-337": {
-    "__comp": "17896441",
-    "content": "633ff5fc"
-  },
-  "/Azure/Data Management/Restore VM from Snapshot-4c8": {
-    "__comp": "17896441",
-    "content": "ecfadd68"
-  },
-  "/Azure/Infrastructure/Create an Automation Account-444": {
-    "__comp": "17896441",
-    "content": "e93304fd"
-  },
-  "/Azure/Infrastructure/Re-size a Virtual Machine-a1a": {
-    "__comp": "17896441",
-    "content": "06c13922"
-  },
-  "/Azure/Infrastructure/Setup Azure Lighthouse-a97": {
-    "__comp": "17896441",
-    "content": "14458ecb"
-  },
-  "/Azure/Networking/Network Security Groups-407": {
-    "__comp": "17896441",
-    "content": "75da3701"
-  },
-  "/category/app-registrations-08d": {
-    "__comp": "14eb3368",
-    "categoryGeneratedIndex": "32eda180"
-  },
-  "/category/azure-d40": {
-    "__comp": "14eb3368",
-    "categoryGeneratedIndex": "bd9c3e28"
-  },
-  "/category/azure-active-directory-fbd": {
-    "__comp": "14eb3368",
-    "categoryGeneratedIndex": "5234815a"
-  },
-  "/category/backup-and-disaster-recovery-641": {
-    "__comp": "14eb3368",
-    "categoryGeneratedIndex": "7f62fe86"
-  },
-  "/category/certificates-b20": {
-    "__comp": "14eb3368",
-    "categoryGeneratedIndex": "346d5a2b"
-  },
-  "/category/citrix-08e": {
-    "__comp": "14eb3368",
-    "categoryGeneratedIndex": "241621e3"
-  },
-  "/category/command-line-references-6a0": {
-    "__comp": "14eb3368",
-    "categoryGeneratedIndex": "98af2716"
-  },
-  "/category/data-management-d0e": {
-    "__comp": "14eb3368",
-    "categoryGeneratedIndex": "0b24f8eb"
-  },
-  "/category/infrastructure-management-079": {
-    "__comp": "14eb3368",
-    "categoryGeneratedIndex": "1002746b"
-  },
-  "/category/networking-728": {
-    "__comp": "14eb3368",
-    "categoryGeneratedIndex": "0a1b4e7e"
-  },
-  "/category/scripts-298": {
-    "__comp": "14eb3368",
-    "categoryGeneratedIndex": "6fc33768"
-  },
-  "/category/windows-os-2fb": {
-    "__comp": "14eb3368",
-    "categoryGeneratedIndex": "04190085"
-  },
-  "/Certificates/Formats and Conversions-b1f": {
-    "__comp": "17896441",
-    "content": "c103c149"
-  },
-  "/Certificates/Generating a CSR-608": {
-    "__comp": "17896441",
-    "content": "e6506e76"
-  },
-  "/Certificates/Request from Internal CA-0e1": {
-    "__comp": "17896441",
-    "content": "2d056ef3"
-  },
-  "/Citrix/Updating an image-e59": {
-    "__comp": "17896441",
-    "content": "8b10de21"
-  },
-  "/Command Line References/AzCLi-a3f": {
-    "__comp": "17896441",
-    "content": "427017c6"
-  },
-  "/Command Line References/Exchange Online-9fa": {
-    "__comp": "17896441",
-    "content": "9b834eb5"
-  },
-  "/Command Line References/Git CMDLine Ref-417": {
-    "__comp": "17896441",
-    "content": "75dd8d1a"
-  },
-  "/Command Line References/Microsoft Graph-217": {
-    "__comp": "17896441",
-    "content": "e3cf0ead"
-  },
-  "/Command Line References/PowerShell-b4d": {
-    "__comp": "17896441",
-    "content": "22149e4e"
-  },
-  "/Scripts/NSG Flow log Formatter-c7e": {
-    "__comp": "17896441",
-    "content": "0a26018d"
-  },
-  "/Scripts/Windows OS Scripts-23d": {
-    "__comp": "17896441",
-    "content": "1103146e"
-  },
-  "/Windows OS/Creating a nice pwsh prompt-286": {
-    "__comp": "17896441",
-    "content": "0dffff46"
+    "config": "config---5-e-9-4f3"
   }
 }

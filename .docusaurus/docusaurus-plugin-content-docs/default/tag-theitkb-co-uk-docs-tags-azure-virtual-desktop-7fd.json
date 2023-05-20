@@ -1,0 +1,14 @@
+{
+  "label": "Azure Virtual Desktop",
+  "permalink": "/theitkb.co.uk/docs/tags/azure-virtual-desktop",
+  "allTagsPath": "/theitkb.co.uk/docs/tags",
+  "count": 1,
+  "items": [
+    {
+      "id": "Azure/Infrastructure/AVD Image Update Guidance",
+      "title": "AVD Image Update Guidance",
+      "description": "Reinstate admin privileges for a customer's Azure CSP subscriptions.",
+      "permalink": "/theitkb.co.uk/docs/Azure/Infrastructure/AVD Image Update Guidance"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "label": "Command Line",
+  "permalink": "/theitkb.co.uk/tags/command-line",
+  "allTagsPath": "/theitkb.co.uk/tags",
+  "count": 4,
+  "items": [
+    {
+      "id": "Command Line References/AzCLi",
+      "title": "Az Cli",
+      "description": "AzCLi command ref doc.",
+      "permalink": "/theitkb.co.uk/Command Line References/AzCLi"
+    },
+    {
+      "id": "Command Line References/Exchange Online",
+      "title": "Exchange Online",
+      "description": "Exchange Online command ref doc.",
+      "permalink": "/theitkb.co.uk/Command Line References/Exchange Online"
+    },
+    {
+      "id": "Command Line References/Microsoft Graph",
+      "title": "Microsoft Graph",
+      "description": "Microsoft Graph command ref doc.",
+      "permalink": "/theitkb.co.uk/Command Line References/Microsoft Graph"
+    },
+    {
+      "id": "Command Line References/PowerShell",
+      "title": "PowerShell",
+      "description": "All things PowerShell.",
+      "permalink": "/theitkb.co.uk/Command Line References/PowerShell"
+    }
+  ]
+}

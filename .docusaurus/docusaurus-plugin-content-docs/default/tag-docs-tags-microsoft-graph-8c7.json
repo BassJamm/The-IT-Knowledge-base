@@ -1,0 +1,14 @@
+{
+  "label": "Microsoft Graph",
+  "permalink": "/docs/tags/microsoft-graph",
+  "allTagsPath": "/docs/tags",
+  "count": 1,
+  "items": [
+    {
+      "id": "Command Line References/Microsoft Graph",
+      "title": "Microsoft Graph",
+      "description": "Microsoft Graph command ref doc.",
+      "permalink": "/docs/Command Line References/Microsoft Graph"
+    }
+  ]
+}

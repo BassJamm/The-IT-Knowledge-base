@@ -1,0 +1,16 @@
+{
+  "title": "Data Management",
+  "description": "Guides for managing Data in Azure.",
+  "slug": "/category/data-management",
+  "permalink": "/theitkb.co.uk/docs/category/data-management",
+  "navigation": {
+    "previous": {
+      "title": "Setup Azure Site Recovery",
+      "permalink": "/theitkb.co.uk/docs/Azure/Backup and Disaster Recovery/Setup Azure Site Recovery"
+    },
+    "next": {
+      "title": "Restore data from a Snapshot",
+      "permalink": "/theitkb.co.uk/docs/Azure/Data Management/Restore data from a Snapshot"
+    }
+  }
+}

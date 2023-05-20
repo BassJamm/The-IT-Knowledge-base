@@ -6,13 +6,13 @@
   "source": "@site/docs/Citrix/Updating an image.md",
   "sourceDirName": "Citrix",
   "slug": "/Citrix/Updating an image",
-  "permalink": "/Citrix/Updating an image",
+  "permalink": "/docs/Citrix/Updating an image",
   "draft": false,
   "editUrl": "https://github.com/facebook/docusaurus/edit/main/docs/api-doc-markdown.md",
   "tags": [
     {
       "label": "Citrix",
-      "permalink": "/tags/citrix"
+      "permalink": "/docs/tags/citrix"
     }
   ],
   "version": "current",
@@ -36,10 +36,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Citrix",
-    "permalink": "/category/citrix"
+    "permalink": "/docs/category/citrix"
   },
   "next": {
     "title": "Command Line References",
-    "permalink": "/category/command-line-references"
+    "permalink": "/docs/category/command-line-references"
   }
 }

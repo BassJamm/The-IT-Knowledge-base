@@ -2,19 +2,13 @@
   "label": "PartnerCentre",
   "permalink": "/docs/tags/partner-centre",
   "allTagsPath": "/docs/tags",
-  "count": 2,
+  "count": 1,
   "items": [
     {
-      "id": "How-to Guides/Partner Centre/Setup an Azure Subscription from Partner Centre",
-      "title": "Setup an Azure Subscription from Partner Centre",
-      "description": "Description: Setup an Azure Subscription within Partner Centre for a customer. This has the added benefit of creating the PAL or DPOR link to earn partner credit.",
-      "permalink": "/docs/How-to Guides/Partner Centre/Setup an Azure Subscription from Partner Centre"
-    },
-    {
-      "id": "References/take ownership of customer azure subscription",
-      "title": "Take ownership of customer azure subscription",
-      "description": "Microsoft Article: Reinstate admin privileges for a customer's Azure CSP subscriptions.",
-      "permalink": "/docs/References/take ownership of customer azure subscription"
+      "id": "Windows OS/Creating a nice pwsh prompt",
+      "title": "Creating a nice pwsh prompt",
+      "description": "Creating a nice PowerShell prompt using oh my posh & PSReadLine.",
+      "permalink": "/docs/Windows OS/Creating a nice pwsh prompt"
     }
   ]
 }

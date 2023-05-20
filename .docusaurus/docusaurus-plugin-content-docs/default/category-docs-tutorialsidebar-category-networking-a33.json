@@ -1,0 +1,16 @@
+{
+  "title": "Networking",
+  "description": "Guides for achieving an end result.",
+  "slug": "/category/networking",
+  "permalink": "/docs/category/networking",
+  "navigation": {
+    "previous": {
+      "title": "Re-size a Virtual Machine",
+      "permalink": "/docs/Azure/Infrastructure/Re-size a Virtual Machine"
+    },
+    "next": {
+      "title": "Network Security Groups",
+      "permalink": "/docs/Azure/Networking/Network Security Groups"
+    }
+  }
+}

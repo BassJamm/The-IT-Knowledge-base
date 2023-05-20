@@ -6,13 +6,13 @@
   "source": "@site/docs/Command Line References/Active Directory.md",
   "sourceDirName": "Command Line References",
   "slug": "/Command Line References/Active Directory",
-  "permalink": "/Command Line References/Active Directory",
+  "permalink": "/docs/Command Line References/Active Directory",
   "draft": false,
   "editUrl": "https://github.com/facebook/docusaurus/edit/main/docs/api-doc-markdown.md",
   "tags": [
     {
       "label": "AzureAD",
-      "permalink": "/tags/azure-ad"
+      "permalink": "/docs/tags/azure-ad"
     }
   ],
   "version": "current",
@@ -36,10 +36,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Command Line References",
-    "permalink": "/category/command-line-references"
+    "permalink": "/docs/category/command-line-references"
   },
   "next": {
     "title": "AzCLi",
-    "permalink": "/Command Line References/AzCLi"
+    "permalink": "/docs/Command Line References/AzCLi"
   }
 }

@@ -6,21 +6,21 @@
   "source": "@site/docs/Scripts/NSG Flow Log Parser.md",
   "sourceDirName": "Scripts",
   "slug": "/Scripts/NSG Flow log Formatter",
-  "permalink": "/Scripts/NSG Flow log Formatter",
+  "permalink": "/docs/Scripts/NSG Flow log Formatter",
   "draft": false,
   "editUrl": "https://github.com/facebook/docusaurus/edit/main/docs/api-doc-markdown.md",
   "tags": [
     {
       "label": "Script",
-      "permalink": "/tags/script"
+      "permalink": "/docs/tags/script"
     },
     {
       "label": "NSG",
-      "permalink": "/tags/nsg"
+      "permalink": "/docs/tags/nsg"
     },
     {
       "label": "Flow Log",
-      "permalink": "/tags/flow-log"
+      "permalink": "/docs/tags/flow-log"
     }
   ],
   "version": "current",
@@ -45,11 +45,11 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Scripts",
-    "permalink": "/category/scripts"
+    "title": "Get User info using MGGraph",
+    "permalink": "/docs/Scripts/Get User info using MGGraph"
   },
   "next": {
     "title": "Windows OS Scripts",
-    "permalink": "/Scripts/Windows OS Scripts"
+    "permalink": "/docs/Scripts/Windows OS Scripts"
   }
 }

@@ -5,12 +5,12 @@
   "permalink": "/docs/category/azure-active-directory",
   "navigation": {
     "previous": {
-      "title": "Setup Azure Backup",
-      "permalink": "/docs/How-to Guides/Azure/Setup Azure Backup"
+      "title": "Network Security Groups",
+      "permalink": "/docs/Azure/Networking/Network Security Groups"
     },
     "next": {
-      "title": "Decom an Azure AD App",
-      "permalink": "/docs/How-to Guides/Azure Active Directory/Decom an Azure AD App"
+      "title": "App Registrations",
+      "permalink": "/docs/category/app-registrations"
     }
   }
 }

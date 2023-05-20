@@ -6,20 +6,20 @@
   "source": "@site/docs/Azure/Infrastructure/Azure Lighthouse Setup.md",
   "sourceDirName": "Azure/Infrastructure",
   "slug": "/Azure/Infrastructure/Setup Azure Lighthouse",
-  "permalink": "/Azure/Infrastructure/Setup Azure Lighthouse",
+  "permalink": "/docs/Azure/Infrastructure/Setup Azure Lighthouse",
   "draft": false,
   "tags": [
     {
       "label": "Guide",
-      "permalink": "/tags/guide"
+      "permalink": "/docs/tags/guide"
     },
     {
       "label": "Azure",
-      "permalink": "/tags/azure"
+      "permalink": "/docs/tags/azure"
     },
     {
       "label": "Lighthouse",
-      "permalink": "/tags/lighthouse"
+      "permalink": "/docs/tags/lighthouse"
     }
   ],
   "version": "current",
@@ -38,10 +38,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Infrastructure Management",
-    "permalink": "/category/infrastructure-management"
+    "permalink": "/docs/category/infrastructure-management"
   },
   "next": {
-    "title": "Create an Automation Account",
-    "permalink": "/Azure/Infrastructure/Create an Automation Account"
+    "title": "AVD Image Update Guidance",
+    "permalink": "/docs/Azure/Infrastructure/AVD Image Update Guidance"
   }
 }

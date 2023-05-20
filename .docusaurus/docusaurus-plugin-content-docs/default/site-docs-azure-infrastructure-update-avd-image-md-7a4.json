@@ -6,21 +6,21 @@
   "source": "@site/docs/Azure/Infrastructure/Update AVD Image.md",
   "sourceDirName": "Azure/Infrastructure",
   "slug": "/Azure/Infrastructure/AVD Image Update Guidance",
-  "permalink": "/Azure/Infrastructure/AVD Image Update Guidance",
+  "permalink": "/docs/Azure/Infrastructure/AVD Image Update Guidance",
   "draft": false,
   "editUrl": "https://github.com/facebook/docusaurus/edit/main/docs/api-doc-markdown.md",
   "tags": [
     {
       "label": "Guide",
-      "permalink": "/tags/guide"
+      "permalink": "/docs/tags/guide"
     },
     {
       "label": "Azure",
-      "permalink": "/tags/azure"
+      "permalink": "/docs/tags/azure"
     },
     {
       "label": "Azure Virtual Desktop",
-      "permalink": "/tags/azure-virtual-desktop"
+      "permalink": "/docs/tags/azure-virtual-desktop"
     }
   ],
   "version": "current",
@@ -46,10 +46,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Setup Azure Lighthouse",
-    "permalink": "/Azure/Infrastructure/Setup Azure Lighthouse"
+    "permalink": "/docs/Azure/Infrastructure/Setup Azure Lighthouse"
   },
   "next": {
     "title": "Create an Automation Account",
-    "permalink": "/Azure/Infrastructure/Create an Automation Account"
+    "permalink": "/docs/Azure/Infrastructure/Create an Automation Account"
   }
 }

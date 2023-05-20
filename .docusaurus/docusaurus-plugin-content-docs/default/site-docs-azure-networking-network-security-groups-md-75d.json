@@ -6,21 +6,21 @@
   "source": "@site/docs/Azure/Networking/Network Security Groups.md",
   "sourceDirName": "Azure/Networking",
   "slug": "/Azure/Networking/Network Security Groups",
-  "permalink": "/Azure/Networking/Network Security Groups",
+  "permalink": "/docs/Azure/Networking/Network Security Groups",
   "draft": false,
   "editUrl": "https://github.com/facebook/docusaurus/edit/main/docs/api-doc-markdown.md",
   "tags": [
     {
       "label": "Azure",
-      "permalink": "/tags/azure"
+      "permalink": "/docs/tags/azure"
     },
     {
       "label": "Network Security Groups",
-      "permalink": "/tags/network-security-groups"
+      "permalink": "/docs/tags/network-security-groups"
     },
     {
       "label": "Networking",
-      "permalink": "/tags/networking"
+      "permalink": "/docs/tags/networking"
     }
   ],
   "version": "current",
@@ -46,10 +46,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Networking",
-    "permalink": "/category/networking"
+    "permalink": "/docs/category/networking"
   },
   "next": {
     "title": "Azure Active Directory",
-    "permalink": "/category/azure-active-directory"
+    "permalink": "/docs/category/azure-active-directory"
   }
 }

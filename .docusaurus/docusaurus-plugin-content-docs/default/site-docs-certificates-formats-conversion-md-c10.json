@@ -6,13 +6,13 @@
   "source": "@site/docs/Certificates/Formats & Conversion.md",
   "sourceDirName": "Certificates",
   "slug": "/Certificates/Formats and Conversions",
-  "permalink": "/Certificates/Formats and Conversions",
+  "permalink": "/docs/Certificates/Formats and Conversions",
   "draft": false,
   "editUrl": "https://github.com/facebook/docusaurus/edit/main/docs/api-doc-markdown.md",
   "tags": [
     {
       "label": "Certificates",
-      "permalink": "/tags/certificates"
+      "permalink": "/docs/tags/certificates"
     }
   ],
   "version": "current",
@@ -36,10 +36,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Certificates",
-    "permalink": "/category/certificates"
+    "permalink": "/docs/category/certificates"
   },
   "next": {
     "title": "Generating a CSR",
-    "permalink": "/Certificates/Generating a CSR"
+    "permalink": "/docs/Certificates/Generating a CSR"
   }
 }

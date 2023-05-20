@@ -1,0 +1,26 @@
+{
+  "label": "Guide",
+  "permalink": "/theitkb.co.uk/docs/tags/guide",
+  "allTagsPath": "/theitkb.co.uk/docs/tags",
+  "count": 3,
+  "items": [
+    {
+      "id": "Azure/Infrastructure/AVD Image Update Guidance",
+      "title": "AVD Image Update Guidance",
+      "description": "Reinstate admin privileges for a customer's Azure CSP subscriptions.",
+      "permalink": "/theitkb.co.uk/docs/Azure/Infrastructure/AVD Image Update Guidance"
+    },
+    {
+      "id": "Azure/Infrastructure/Setup Azure Lighthouse",
+      "title": "Setup Azure Lighthouse",
+      "description": "Document Control",
+      "permalink": "/theitkb.co.uk/docs/Azure/Infrastructure/Setup Azure Lighthouse"
+    },
+    {
+      "id": "Azure/Backup and Disaster Recovery/Setup Azure Site Recovery",
+      "title": "Setup Azure Site Recovery",
+      "description": "Reinstate admin privileges for a customer's Azure CSP subscriptions.",
+      "permalink": "/theitkb.co.uk/docs/Azure/Backup and Disaster Recovery/Setup Azure Site Recovery"
+    }
+  ]
+}

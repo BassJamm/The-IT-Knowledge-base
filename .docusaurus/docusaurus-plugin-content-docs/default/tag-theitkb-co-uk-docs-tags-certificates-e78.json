@@ -1,0 +1,26 @@
+{
+  "label": "Certificates",
+  "permalink": "/theitkb.co.uk/docs/tags/certificates",
+  "allTagsPath": "/theitkb.co.uk/docs/tags",
+  "count": 3,
+  "items": [
+    {
+      "id": "Certificates/Formats and Conversions",
+      "title": "Certificate formats and Converting formats",
+      "description": "Certificate formatting and converting them to different formats.",
+      "permalink": "/theitkb.co.uk/docs/Certificates/Formats and Conversions"
+    },
+    {
+      "id": "Certificates/Generating a CSR",
+      "title": "Generating a CSR",
+      "description": "Generating a CSR.",
+      "permalink": "/theitkb.co.uk/docs/Certificates/Generating a CSR"
+    },
+    {
+      "id": "Certificates/Request from Internal CA",
+      "title": "Request from Internal CA",
+      "description": "Request a Cert from Internal CA.",
+      "permalink": "/theitkb.co.uk/docs/Certificates/Request from Internal CA"
+    }
+  ]
+}

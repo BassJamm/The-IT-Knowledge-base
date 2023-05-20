@@ -6,17 +6,17 @@
   "source": "@site/docs/Command Line References/PowerShell.md",
   "sourceDirName": "Command Line References",
   "slug": "/Command Line References/PowerShell",
-  "permalink": "/Command Line References/PowerShell",
+  "permalink": "/docs/Command Line References/PowerShell",
   "draft": false,
   "editUrl": "https://github.com/facebook/docusaurus/edit/main/docs/api-doc-markdown.md",
   "tags": [
     {
       "label": "Command Line",
-      "permalink": "/tags/command-line"
+      "permalink": "/docs/tags/command-line"
     },
     {
       "label": "PowerShell",
-      "permalink": "/tags/power-shell"
+      "permalink": "/docs/tags/power-shell"
     }
   ],
   "version": "current",
@@ -41,10 +41,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Microsoft Graph",
-    "permalink": "/Command Line References/Microsoft Graph"
+    "permalink": "/docs/Command Line References/Microsoft Graph"
   },
   "next": {
     "title": "Scripts",
-    "permalink": "/category/scripts"
+    "permalink": "/docs/category/scripts"
   }
 }

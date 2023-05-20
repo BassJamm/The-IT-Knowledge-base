@@ -1,0 +1,14 @@
+{
+  "label": "EntApp",
+  "permalink": "/docs/tags/ent-app",
+  "allTagsPath": "/docs/tags",
+  "count": 1,
+  "items": [
+    {
+      "id": "Azure Active Directory/App Registrations/Decom and AAD App",
+      "title": "Decommission and AAD App",
+      "description": "Decommission and Azure AD App registration.",
+      "permalink": "/docs/Azure Active Directory/App Registrations/Decom and AAD App"
+    }
+  ]
+}

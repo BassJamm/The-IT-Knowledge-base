@@ -1,0 +1,16 @@
+{
+  "title": "Scripts",
+  "description": "Useful Scripts.",
+  "slug": "/category/scripts",
+  "permalink": "/theitkb.co.uk/category/scripts",
+  "navigation": {
+    "previous": {
+      "title": "PowerShell",
+      "permalink": "/theitkb.co.uk/Command Line References/PowerShell"
+    },
+    "next": {
+      "title": "Get User info using MGGraph",
+      "permalink": "/theitkb.co.uk/Scripts/Get User info using MGGraph"
+    }
+  }
+}

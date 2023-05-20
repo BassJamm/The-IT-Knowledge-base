@@ -6,21 +6,21 @@
   "source": "@site/docs/Azure/Infrastructure/Create an Automation Account.md",
   "sourceDirName": "Azure/Infrastructure",
   "slug": "/Azure/Infrastructure/Create an Automation Account",
-  "permalink": "/Azure/Infrastructure/Create an Automation Account",
+  "permalink": "/docs/Azure/Infrastructure/Create an Automation Account",
   "draft": false,
   "editUrl": "https://github.com/facebook/docusaurus/edit/main/docs/api-doc-markdown.md",
   "tags": [
     {
       "label": "Azure",
-      "permalink": "/tags/azure"
+      "permalink": "/docs/tags/azure"
     },
     {
       "label": "Automation",
-      "permalink": "/tags/automation"
+      "permalink": "/docs/tags/automation"
     },
     {
       "label": "Scripting",
-      "permalink": "/tags/scripting"
+      "permalink": "/docs/tags/scripting"
     }
   ],
   "version": "current",
@@ -44,11 +44,11 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Setup Azure Lighthouse",
-    "permalink": "/Azure/Infrastructure/Setup Azure Lighthouse"
+    "title": "AVD Image Update Guidance",
+    "permalink": "/docs/Azure/Infrastructure/AVD Image Update Guidance"
   },
   "next": {
     "title": "Re-size a Virtual Machine",
-    "permalink": "/Azure/Infrastructure/Re-size a Virtual Machine"
+    "permalink": "/docs/Azure/Infrastructure/Re-size a Virtual Machine"
   }
 }

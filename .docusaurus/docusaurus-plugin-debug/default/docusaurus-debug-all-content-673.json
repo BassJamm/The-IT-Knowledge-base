@@ -9,8 +9,8 @@
           "badge": false,
           "noIndex": false,
           "className": "docs-version-current",
-          "path": "/",
-          "tagsPath": "/tags",
+          "path": "/docs/",
+          "tagsPath": "/docs/tags",
           "isLast": true,
           "routePriority": -1,
           "sidebarFilePath": "C:\\GitRepos\\The-IT-Knowledge-base\\sidebars.js",
@@ -25,17 +25,17 @@
               "source": "@site/docs/Azure Active Directory/App Registrations/Decom and AAD App.md",
               "sourceDirName": "Azure Active Directory/App Registrations",
               "slug": "/Azure Active Directory/App Registrations/Decom and AAD App",
-              "permalink": "/Azure Active Directory/App Registrations/Decom and AAD App",
+              "permalink": "/docs/Azure Active Directory/App Registrations/Decom and AAD App",
               "draft": false,
               "editUrl": "https://github.com/facebook/docusaurus/edit/main/docs/api-doc-markdown.md",
               "tags": [
                 {
                   "label": "AzureAD",
-                  "permalink": "/tags/azure-ad"
+                  "permalink": "/docs/tags/azure-ad"
                 },
                 {
                   "label": "EntApp",
-                  "permalink": "/tags/ent-app"
+                  "permalink": "/docs/tags/ent-app"
                 }
               ],
               "version": "current",
@@ -60,11 +60,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "App Registrations",
-                "permalink": "/category/app-registrations"
+                "permalink": "/docs/category/app-registrations"
               },
               "next": {
                 "title": "Certificates",
-                "permalink": "/category/certificates"
+                "permalink": "/docs/category/certificates"
               }
             },
             {
@@ -75,20 +75,20 @@
               "source": "@site/docs/Azure/Backup and Disaster Recovery/Setup Azure Backup.md",
               "sourceDirName": "Azure/Backup and Disaster Recovery",
               "slug": "/Azure/Backup and Disaster Recovery/Setup Azure Backup",
-              "permalink": "/Azure/Backup and Disaster Recovery/Setup Azure Backup",
+              "permalink": "/docs/Azure/Backup and Disaster Recovery/Setup Azure Backup",
               "draft": false,
               "tags": [
                 {
                   "label": "Azure",
-                  "permalink": "/tags/azure"
+                  "permalink": "/docs/tags/azure"
                 },
                 {
                   "label": "Resource Creation",
-                  "permalink": "/tags/resource-creation"
+                  "permalink": "/docs/tags/resource-creation"
                 },
                 {
                   "label": "Azure Backup",
-                  "permalink": "/tags/azure-backup"
+                  "permalink": "/docs/tags/azure-backup"
                 }
               ],
               "version": "current",
@@ -106,11 +106,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Backup and Disaster Recovery",
-                "permalink": "/category/backup-and-disaster-recovery"
+                "permalink": "/docs/category/backup-and-disaster-recovery"
               },
               "next": {
                 "title": "Setup Azure Site Recovery",
-                "permalink": "/Azure/Backup and Disaster Recovery/Setup Azure Site Recovery"
+                "permalink": "/docs/Azure/Backup and Disaster Recovery/Setup Azure Site Recovery"
               }
             },
             {
@@ -121,20 +121,20 @@
               "source": "@site/docs/Azure/Backup and Disaster Recovery/Setup Azure Site Recovery.md",
               "sourceDirName": "Azure/Backup and Disaster Recovery",
               "slug": "/Azure/Backup and Disaster Recovery/Setup Azure Site Recovery",
-              "permalink": "/Azure/Backup and Disaster Recovery/Setup Azure Site Recovery",
+              "permalink": "/docs/Azure/Backup and Disaster Recovery/Setup Azure Site Recovery",
               "draft": false,
               "tags": [
                 {
                   "label": "Guide",
-                  "permalink": "/tags/guide"
+                  "permalink": "/docs/tags/guide"
                 },
                 {
                   "label": "Azure",
-                  "permalink": "/tags/azure"
+                  "permalink": "/docs/tags/azure"
                 },
                 {
                   "label": "Setup Azure Site Recovery",
-                  "permalink": "/tags/setup-azure-site-recovery"
+                  "permalink": "/docs/tags/setup-azure-site-recovery"
                 }
               ],
               "version": "current",
@@ -158,11 +158,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Setup Azure Backup",
-                "permalink": "/Azure/Backup and Disaster Recovery/Setup Azure Backup"
+                "permalink": "/docs/Azure/Backup and Disaster Recovery/Setup Azure Backup"
               },
               "next": {
                 "title": "Data Management",
-                "permalink": "/category/data-management"
+                "permalink": "/docs/category/data-management"
               }
             },
             {
@@ -173,20 +173,20 @@
               "source": "@site/docs/Azure/Data Management/Restore data from a Snapshot.md",
               "sourceDirName": "Azure/Data Management",
               "slug": "/Azure/Data Management/Restore data from a Snapshot",
-              "permalink": "/Azure/Data Management/Restore data from a Snapshot",
+              "permalink": "/docs/Azure/Data Management/Restore data from a Snapshot",
               "draft": false,
               "tags": [
                 {
                   "label": "Azure",
-                  "permalink": "/tags/azure"
+                  "permalink": "/docs/tags/azure"
                 },
                 {
                   "label": "Restore",
-                  "permalink": "/tags/restore"
+                  "permalink": "/docs/tags/restore"
                 },
                 {
                   "label": "SnapShot",
-                  "permalink": "/tags/snap-shot"
+                  "permalink": "/docs/tags/snap-shot"
                 }
               ],
               "version": "current",
@@ -204,11 +204,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Data Management",
-                "permalink": "/category/data-management"
+                "permalink": "/docs/category/data-management"
               },
               "next": {
                 "title": "Restore VM from Snapshot",
-                "permalink": "/Azure/Data Management/Restore VM from Snapshot"
+                "permalink": "/docs/Azure/Data Management/Restore VM from Snapshot"
               }
             },
             {
@@ -219,20 +219,20 @@
               "source": "@site/docs/Azure/Data Management/Restore VM from Snapshot.md",
               "sourceDirName": "Azure/Data Management",
               "slug": "/Azure/Data Management/Restore VM from Snapshot",
-              "permalink": "/Azure/Data Management/Restore VM from Snapshot",
+              "permalink": "/docs/Azure/Data Management/Restore VM from Snapshot",
               "draft": false,
               "tags": [
                 {
                   "label": "Azure",
-                  "permalink": "/tags/azure"
+                  "permalink": "/docs/tags/azure"
                 },
                 {
                   "label": "Restore",
-                  "permalink": "/tags/restore"
+                  "permalink": "/docs/tags/restore"
                 },
                 {
                   "label": "SnapShot",
-                  "permalink": "/tags/snap-shot"
+                  "permalink": "/docs/tags/snap-shot"
                 }
               ],
               "version": "current",
@@ -250,11 +250,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Restore data from a Snapshot",
-                "permalink": "/Azure/Data Management/Restore data from a Snapshot"
+                "permalink": "/docs/Azure/Data Management/Restore data from a Snapshot"
               },
               "next": {
                 "title": "Infrastructure Management",
-                "permalink": "/category/infrastructure-management"
+                "permalink": "/docs/category/infrastructure-management"
               }
             },
             {
@@ -265,21 +265,21 @@
               "source": "@site/docs/Azure/Infrastructure/Update AVD Image.md",
               "sourceDirName": "Azure/Infrastructure",
               "slug": "/Azure/Infrastructure/AVD Image Update Guidance",
-              "permalink": "/Azure/Infrastructure/AVD Image Update Guidance",
+              "permalink": "/docs/Azure/Infrastructure/AVD Image Update Guidance",
               "draft": false,
               "editUrl": "https://github.com/facebook/docusaurus/edit/main/docs/api-doc-markdown.md",
               "tags": [
                 {
                   "label": "Guide",
-                  "permalink": "/tags/guide"
+                  "permalink": "/docs/tags/guide"
                 },
                 {
                   "label": "Azure",
-                  "permalink": "/tags/azure"
+                  "permalink": "/docs/tags/azure"
                 },
                 {
                   "label": "Azure Virtual Desktop",
-                  "permalink": "/tags/azure-virtual-desktop"
+                  "permalink": "/docs/tags/azure-virtual-desktop"
                 }
               ],
               "version": "current",
@@ -305,11 +305,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Setup Azure Lighthouse",
-                "permalink": "/Azure/Infrastructure/Setup Azure Lighthouse"
+                "permalink": "/docs/Azure/Infrastructure/Setup Azure Lighthouse"
               },
               "next": {
                 "title": "Create an Automation Account",
-                "permalink": "/Azure/Infrastructure/Create an Automation Account"
+                "permalink": "/docs/Azure/Infrastructure/Create an Automation Account"
               }
             },
             {
@@ -320,21 +320,21 @@
               "source": "@site/docs/Azure/Infrastructure/Create an Automation Account.md",
               "sourceDirName": "Azure/Infrastructure",
               "slug": "/Azure/Infrastructure/Create an Automation Account",
-              "permalink": "/Azure/Infrastructure/Create an Automation Account",
+              "permalink": "/docs/Azure/Infrastructure/Create an Automation Account",
               "draft": false,
               "editUrl": "https://github.com/facebook/docusaurus/edit/main/docs/api-doc-markdown.md",
               "tags": [
                 {
                   "label": "Azure",
-                  "permalink": "/tags/azure"
+                  "permalink": "/docs/tags/azure"
                 },
                 {
                   "label": "Automation",
-                  "permalink": "/tags/automation"
+                  "permalink": "/docs/tags/automation"
                 },
                 {
                   "label": "Scripting",
-                  "permalink": "/tags/scripting"
+                  "permalink": "/docs/tags/scripting"
                 }
               ],
               "version": "current",
@@ -359,11 +359,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "AVD Image Update Guidance",
-                "permalink": "/Azure/Infrastructure/AVD Image Update Guidance"
+                "permalink": "/docs/Azure/Infrastructure/AVD Image Update Guidance"
               },
               "next": {
                 "title": "Re-size a Virtual Machine",
-                "permalink": "/Azure/Infrastructure/Re-size a Virtual Machine"
+                "permalink": "/docs/Azure/Infrastructure/Re-size a Virtual Machine"
               }
             },
             {
@@ -374,16 +374,16 @@
               "source": "@site/docs/Azure/Infrastructure/Resize a Virtual Machine.md",
               "sourceDirName": "Azure/Infrastructure",
               "slug": "/Azure/Infrastructure/Re-size a Virtual Machine",
-              "permalink": "/Azure/Infrastructure/Re-size a Virtual Machine",
+              "permalink": "/docs/Azure/Infrastructure/Re-size a Virtual Machine",
               "draft": false,
               "tags": [
                 {
                   "label": "Azure",
-                  "permalink": "/tags/azure"
+                  "permalink": "/docs/tags/azure"
                 },
                 {
                   "label": "Virtual Machine",
-                  "permalink": "/tags/virtual-machine"
+                  "permalink": "/docs/tags/virtual-machine"
                 }
               ],
               "version": "current",
@@ -400,11 +400,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Create an Automation Account",
-                "permalink": "/Azure/Infrastructure/Create an Automation Account"
+                "permalink": "/docs/Azure/Infrastructure/Create an Automation Account"
               },
               "next": {
                 "title": "Networking",
-                "permalink": "/category/networking"
+                "permalink": "/docs/category/networking"
               }
             },
             {
@@ -415,20 +415,20 @@
               "source": "@site/docs/Azure/Infrastructure/Azure Lighthouse Setup.md",
               "sourceDirName": "Azure/Infrastructure",
               "slug": "/Azure/Infrastructure/Setup Azure Lighthouse",
-              "permalink": "/Azure/Infrastructure/Setup Azure Lighthouse",
+              "permalink": "/docs/Azure/Infrastructure/Setup Azure Lighthouse",
               "draft": false,
               "tags": [
                 {
                   "label": "Guide",
-                  "permalink": "/tags/guide"
+                  "permalink": "/docs/tags/guide"
                 },
                 {
                   "label": "Azure",
-                  "permalink": "/tags/azure"
+                  "permalink": "/docs/tags/azure"
                 },
                 {
                   "label": "Lighthouse",
-                  "permalink": "/tags/lighthouse"
+                  "permalink": "/docs/tags/lighthouse"
                 }
               ],
               "version": "current",
@@ -447,11 +447,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Infrastructure Management",
-                "permalink": "/category/infrastructure-management"
+                "permalink": "/docs/category/infrastructure-management"
               },
               "next": {
                 "title": "AVD Image Update Guidance",
-                "permalink": "/Azure/Infrastructure/AVD Image Update Guidance"
+                "permalink": "/docs/Azure/Infrastructure/AVD Image Update Guidance"
               }
             },
             {
@@ -462,21 +462,21 @@
               "source": "@site/docs/Azure/Networking/Network Security Groups.md",
               "sourceDirName": "Azure/Networking",
               "slug": "/Azure/Networking/Network Security Groups",
-              "permalink": "/Azure/Networking/Network Security Groups",
+              "permalink": "/docs/Azure/Networking/Network Security Groups",
               "draft": false,
               "editUrl": "https://github.com/facebook/docusaurus/edit/main/docs/api-doc-markdown.md",
               "tags": [
                 {
                   "label": "Azure",
-                  "permalink": "/tags/azure"
+                  "permalink": "/docs/tags/azure"
                 },
                 {
                   "label": "Network Security Groups",
-                  "permalink": "/tags/network-security-groups"
+                  "permalink": "/docs/tags/network-security-groups"
                 },
                 {
                   "label": "Networking",
-                  "permalink": "/tags/networking"
+                  "permalink": "/docs/tags/networking"
                 }
               ],
               "version": "current",
@@ -502,11 +502,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Networking",
-                "permalink": "/category/networking"
+                "permalink": "/docs/category/networking"
               },
               "next": {
                 "title": "Azure Active Directory",
-                "permalink": "/category/azure-active-directory"
+                "permalink": "/docs/category/azure-active-directory"
               }
             },
             {
@@ -517,13 +517,13 @@
               "source": "@site/docs/Certificates/Formats & Conversion.md",
               "sourceDirName": "Certificates",
               "slug": "/Certificates/Formats and Conversions",
-              "permalink": "/Certificates/Formats and Conversions",
+              "permalink": "/docs/Certificates/Formats and Conversions",
               "draft": false,
               "editUrl": "https://github.com/facebook/docusaurus/edit/main/docs/api-doc-markdown.md",
               "tags": [
                 {
                   "label": "Certificates",
-                  "permalink": "/tags/certificates"
+                  "permalink": "/docs/tags/certificates"
                 }
               ],
               "version": "current",
@@ -547,11 +547,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Certificates",
-                "permalink": "/category/certificates"
+                "permalink": "/docs/category/certificates"
               },
               "next": {
                 "title": "Generating a CSR",
-                "permalink": "/Certificates/Generating a CSR"
+                "permalink": "/docs/Certificates/Generating a CSR"
               }
             },
             {
@@ -562,13 +562,13 @@
               "source": "@site/docs/Certificates/Generating a CSR.md",
               "sourceDirName": "Certificates",
               "slug": "/Certificates/Generating a CSR",
-              "permalink": "/Certificates/Generating a CSR",
+              "permalink": "/docs/Certificates/Generating a CSR",
               "draft": false,
               "editUrl": "https://github.com/facebook/docusaurus/edit/main/docs/api-doc-markdown.md",
               "tags": [
                 {
                   "label": "Certificates",
-                  "permalink": "/tags/certificates"
+                  "permalink": "/docs/tags/certificates"
                 }
               ],
               "version": "current",
@@ -592,11 +592,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Certificate formats and Converting formats",
-                "permalink": "/Certificates/Formats and Conversions"
+                "permalink": "/docs/Certificates/Formats and Conversions"
               },
               "next": {
                 "title": "Request from Internal CA",
-                "permalink": "/Certificates/Request from Internal CA"
+                "permalink": "/docs/Certificates/Request from Internal CA"
               }
             },
             {
@@ -607,13 +607,13 @@
               "source": "@site/docs/Certificates/Using an Internal CA.md",
               "sourceDirName": "Certificates",
               "slug": "/Certificates/Request from Internal CA",
-              "permalink": "/Certificates/Request from Internal CA",
+              "permalink": "/docs/Certificates/Request from Internal CA",
               "draft": false,
               "editUrl": "https://github.com/facebook/docusaurus/edit/main/docs/api-doc-markdown.md",
               "tags": [
                 {
                   "label": "Certificates",
-                  "permalink": "/tags/certificates"
+                  "permalink": "/docs/tags/certificates"
                 }
               ],
               "version": "current",
@@ -637,11 +637,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Generating a CSR",
-                "permalink": "/Certificates/Generating a CSR"
+                "permalink": "/docs/Certificates/Generating a CSR"
               },
               "next": {
                 "title": "Citrix",
-                "permalink": "/category/citrix"
+                "permalink": "/docs/category/citrix"
               }
             },
             {
@@ -652,13 +652,13 @@
               "source": "@site/docs/Citrix/Updating an image.md",
               "sourceDirName": "Citrix",
               "slug": "/Citrix/Updating an image",
-              "permalink": "/Citrix/Updating an image",
+              "permalink": "/docs/Citrix/Updating an image",
               "draft": false,
               "editUrl": "https://github.com/facebook/docusaurus/edit/main/docs/api-doc-markdown.md",
               "tags": [
                 {
                   "label": "Citrix",
-                  "permalink": "/tags/citrix"
+                  "permalink": "/docs/tags/citrix"
                 }
               ],
               "version": "current",
@@ -682,11 +682,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Citrix",
-                "permalink": "/category/citrix"
+                "permalink": "/docs/category/citrix"
               },
               "next": {
                 "title": "Command Line References",
-                "permalink": "/category/command-line-references"
+                "permalink": "/docs/category/command-line-references"
               }
             },
             {
@@ -697,13 +697,13 @@
               "source": "@site/docs/Command Line References/Active Directory.md",
               "sourceDirName": "Command Line References",
               "slug": "/Command Line References/Active Directory",
-              "permalink": "/Command Line References/Active Directory",
+              "permalink": "/docs/Command Line References/Active Directory",
               "draft": false,
               "editUrl": "https://github.com/facebook/docusaurus/edit/main/docs/api-doc-markdown.md",
               "tags": [
                 {
                   "label": "AzureAD",
-                  "permalink": "/tags/azure-ad"
+                  "permalink": "/docs/tags/azure-ad"
                 }
               ],
               "version": "current",
@@ -727,11 +727,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Command Line References",
-                "permalink": "/category/command-line-references"
+                "permalink": "/docs/category/command-line-references"
               },
               "next": {
                 "title": "AzCLi",
-                "permalink": "/Command Line References/AzCLi"
+                "permalink": "/docs/Command Line References/AzCLi"
               }
             },
             {
@@ -742,17 +742,17 @@
               "source": "@site/docs/Command Line References/Az CLi.md",
               "sourceDirName": "Command Line References",
               "slug": "/Command Line References/AzCLi",
-              "permalink": "/Command Line References/AzCLi",
+              "permalink": "/docs/Command Line References/AzCLi",
               "draft": false,
               "editUrl": "https://github.com/facebook/docusaurus/edit/main/docs/api-doc-markdown.md",
               "tags": [
                 {
                   "label": "Command Line",
-                  "permalink": "/tags/command-line"
+                  "permalink": "/docs/tags/command-line"
                 },
                 {
                   "label": "AzCLi",
-                  "permalink": "/tags/az-c-li"
+                  "permalink": "/docs/tags/az-c-li"
                 }
               ],
               "version": "current",
@@ -777,11 +777,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "ActiveDirectory",
-                "permalink": "/Command Line References/Active Directory"
+                "permalink": "/docs/Command Line References/Active Directory"
               },
               "next": {
                 "title": "Exchange Online",
-                "permalink": "/Command Line References/Exchange Online"
+                "permalink": "/docs/Command Line References/Exchange Online"
               }
             },
             {
@@ -792,17 +792,17 @@
               "source": "@site/docs/Command Line References/Exchange Online.md",
               "sourceDirName": "Command Line References",
               "slug": "/Command Line References/Exchange Online",
-              "permalink": "/Command Line References/Exchange Online",
+              "permalink": "/docs/Command Line References/Exchange Online",
               "draft": false,
               "editUrl": "https://github.com/facebook/docusaurus/edit/main/docs/api-doc-markdown.md",
               "tags": [
                 {
                   "label": "Command Line",
-                  "permalink": "/tags/command-line"
+                  "permalink": "/docs/tags/command-line"
                 },
                 {
                   "label": "Exchange Online",
-                  "permalink": "/tags/exchange-online"
+                  "permalink": "/docs/tags/exchange-online"
                 }
               ],
               "version": "current",
@@ -827,11 +827,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "AzCLi",
-                "permalink": "/Command Line References/AzCLi"
+                "permalink": "/docs/Command Line References/AzCLi"
               },
               "next": {
                 "title": "Git CMDLine Ref",
-                "permalink": "/Command Line References/Git CMDLine Ref"
+                "permalink": "/docs/Command Line References/Git CMDLine Ref"
               }
             },
             {
@@ -842,17 +842,17 @@
               "source": "@site/docs/Command Line References/Git Commands.md",
               "sourceDirName": "Command Line References",
               "slug": "/Command Line References/Git CMDLine Ref",
-              "permalink": "/Command Line References/Git CMDLine Ref",
+              "permalink": "/docs/Command Line References/Git CMDLine Ref",
               "draft": false,
               "editUrl": "https://github.com/facebook/docusaurus/edit/main/docs/api-doc-markdown.md",
               "tags": [
                 {
                   "label": "Git",
-                  "permalink": "/tags/git"
+                  "permalink": "/docs/tags/git"
                 },
                 {
                   "label": "Command Line Ref",
-                  "permalink": "/tags/command-line-ref"
+                  "permalink": "/docs/tags/command-line-ref"
                 }
               ],
               "version": "current",
@@ -877,11 +877,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Exchange Online",
-                "permalink": "/Command Line References/Exchange Online"
+                "permalink": "/docs/Command Line References/Exchange Online"
               },
               "next": {
                 "title": "Microsoft Graph",
-                "permalink": "/Command Line References/Microsoft Graph"
+                "permalink": "/docs/Command Line References/Microsoft Graph"
               }
             },
             {
@@ -892,17 +892,17 @@
               "source": "@site/docs/Command Line References/MS Graph.md",
               "sourceDirName": "Command Line References",
               "slug": "/Command Line References/Microsoft Graph",
-              "permalink": "/Command Line References/Microsoft Graph",
+              "permalink": "/docs/Command Line References/Microsoft Graph",
               "draft": false,
               "editUrl": "https://github.com/facebook/docusaurus/edit/main/docs/api-doc-markdown.md",
               "tags": [
                 {
                   "label": "Command Line",
-                  "permalink": "/tags/command-line"
+                  "permalink": "/docs/tags/command-line"
                 },
                 {
                   "label": "Microsoft Graph",
-                  "permalink": "/tags/microsoft-graph"
+                  "permalink": "/docs/tags/microsoft-graph"
                 }
               ],
               "version": "current",
@@ -927,11 +927,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Git CMDLine Ref",
-                "permalink": "/Command Line References/Git CMDLine Ref"
+                "permalink": "/docs/Command Line References/Git CMDLine Ref"
               },
               "next": {
                 "title": "PowerShell",
-                "permalink": "/Command Line References/PowerShell"
+                "permalink": "/docs/Command Line References/PowerShell"
               }
             },
             {
@@ -942,17 +942,17 @@
               "source": "@site/docs/Command Line References/PowerShell.md",
               "sourceDirName": "Command Line References",
               "slug": "/Command Line References/PowerShell",
-              "permalink": "/Command Line References/PowerShell",
+              "permalink": "/docs/Command Line References/PowerShell",
               "draft": false,
               "editUrl": "https://github.com/facebook/docusaurus/edit/main/docs/api-doc-markdown.md",
               "tags": [
                 {
                   "label": "Command Line",
-                  "permalink": "/tags/command-line"
+                  "permalink": "/docs/tags/command-line"
                 },
                 {
                   "label": "PowerShell",
-                  "permalink": "/tags/power-shell"
+                  "permalink": "/docs/tags/power-shell"
                 }
               ],
               "version": "current",
@@ -977,11 +977,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Microsoft Graph",
-                "permalink": "/Command Line References/Microsoft Graph"
+                "permalink": "/docs/Command Line References/Microsoft Graph"
               },
               "next": {
                 "title": "Scripts",
-                "permalink": "/category/scripts"
+                "permalink": "/docs/category/scripts"
               }
             },
             {
@@ -992,17 +992,17 @@
               "source": "@site/docs/Scripts/Get User info using MGGraph.md",
               "sourceDirName": "Scripts",
               "slug": "/Scripts/Get User info using MGGraph",
-              "permalink": "/Scripts/Get User info using MGGraph",
+              "permalink": "/docs/Scripts/Get User info using MGGraph",
               "draft": false,
               "editUrl": "https://github.com/facebook/docusaurus/edit/main/docs/api-doc-markdown.md",
               "tags": [
                 {
                   "label": "MGGraph",
-                  "permalink": "/tags/mg-graph"
+                  "permalink": "/docs/tags/mg-graph"
                 },
                 {
                   "label": "Script",
-                  "permalink": "/tags/script"
+                  "permalink": "/docs/tags/script"
                 }
               ],
               "version": "current",
@@ -1027,11 +1027,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Scripts",
-                "permalink": "/category/scripts"
+                "permalink": "/docs/category/scripts"
               },
               "next": {
                 "title": "NSG Flow log Formatter",
-                "permalink": "/Scripts/NSG Flow log Formatter"
+                "permalink": "/docs/Scripts/NSG Flow log Formatter"
               }
             },
             {
@@ -1042,21 +1042,21 @@
               "source": "@site/docs/Scripts/NSG Flow Log Parser.md",
               "sourceDirName": "Scripts",
               "slug": "/Scripts/NSG Flow log Formatter",
-              "permalink": "/Scripts/NSG Flow log Formatter",
+              "permalink": "/docs/Scripts/NSG Flow log Formatter",
               "draft": false,
               "editUrl": "https://github.com/facebook/docusaurus/edit/main/docs/api-doc-markdown.md",
               "tags": [
                 {
                   "label": "Script",
-                  "permalink": "/tags/script"
+                  "permalink": "/docs/tags/script"
                 },
                 {
                   "label": "NSG",
-                  "permalink": "/tags/nsg"
+                  "permalink": "/docs/tags/nsg"
                 },
                 {
                   "label": "Flow Log",
-                  "permalink": "/tags/flow-log"
+                  "permalink": "/docs/tags/flow-log"
                 }
               ],
               "version": "current",
@@ -1082,11 +1082,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Get User info using MGGraph",
-                "permalink": "/Scripts/Get User info using MGGraph"
+                "permalink": "/docs/Scripts/Get User info using MGGraph"
               },
               "next": {
                 "title": "Windows OS Scripts",
-                "permalink": "/Scripts/Windows OS Scripts"
+                "permalink": "/docs/Scripts/Windows OS Scripts"
               }
             },
             {
@@ -1097,16 +1097,16 @@
               "source": "@site/docs/Scripts/Windows OS Scripts.md",
               "sourceDirName": "Scripts",
               "slug": "/Scripts/Windows OS Scripts",
-              "permalink": "/Scripts/Windows OS Scripts",
+              "permalink": "/docs/Scripts/Windows OS Scripts",
               "draft": false,
               "tags": [
                 {
                   "label": "Scripts",
-                  "permalink": "/tags/scripts"
+                  "permalink": "/docs/tags/scripts"
                 },
                 {
                   "label": "Re-usable Code",
-                  "permalink": "/tags/re-usable-code"
+                  "permalink": "/docs/tags/re-usable-code"
                 }
               ],
               "version": "current",
@@ -1129,11 +1129,11 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "NSG Flow log Formatter",
-                "permalink": "/Scripts/NSG Flow log Formatter"
+                "permalink": "/docs/Scripts/NSG Flow log Formatter"
               },
               "next": {
                 "title": "Windows OS",
-                "permalink": "/category/windows-os"
+                "permalink": "/docs/category/windows-os"
               }
             },
             {
@@ -1144,7 +1144,7 @@
               "source": "@site/docs/Welcome.md",
               "sourceDirName": ".",
               "slug": "/",
-              "permalink": "/",
+              "permalink": "/docs/",
               "draft": false,
               "tags": [],
               "version": "current",
@@ -1158,7 +1158,7 @@
               "sidebar": "tutorialSidebar",
               "next": {
                 "title": "Azure",
-                "permalink": "/category/azure"
+                "permalink": "/docs/category/azure"
               }
             },
             {
@@ -1169,13 +1169,13 @@
               "source": "@site/docs/Windows OS/Creating a nice pwsh prompt.md",
               "sourceDirName": "Windows OS",
               "slug": "/Windows OS/Creating a nice pwsh prompt",
-              "permalink": "/Windows OS/Creating a nice pwsh prompt",
+              "permalink": "/docs/Windows OS/Creating a nice pwsh prompt",
               "draft": false,
               "editUrl": "https://github.com/facebook/docusaurus/edit/main/docs/api-doc-markdown.md",
               "tags": [
                 {
                   "label": "PartnerCentre",
-                  "permalink": "/tags/partner-centre"
+                  "permalink": "/docs/tags/partner-centre"
                 }
               ],
               "version": "current",
@@ -1199,7 +1199,7 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Windows OS",
-                "permalink": "/category/windows-os"
+                "permalink": "/docs/category/windows-os"
               }
             }
           ],
@@ -1236,7 +1236,7 @@
                       "type": "generated-index",
                       "description": "Guides for setting up and managing Backup and Disaster Recovery services in Azure.",
                       "slug": "/category/backup-and-disaster-recovery",
-                      "permalink": "/category/backup-and-disaster-recovery"
+                      "permalink": "/docs/category/backup-and-disaster-recovery"
                     }
                   },
                   {
@@ -1258,7 +1258,7 @@
                       "type": "generated-index",
                       "description": "Guides for managing Data in Azure.",
                       "slug": "/category/data-management",
-                      "permalink": "/category/data-management"
+                      "permalink": "/docs/category/data-management"
                     }
                   },
                   {
@@ -1290,7 +1290,7 @@
                       "type": "generated-index",
                       "description": "Guides for Azure Infrastructure Resources.",
                       "slug": "/category/infrastructure-management",
-                      "permalink": "/category/infrastructure-management"
+                      "permalink": "/docs/category/infrastructure-management"
                     }
                   },
                   {
@@ -1309,7 +1309,7 @@
                       "type": "generated-index",
                       "description": "Guides for achieving an end result.",
                       "slug": "/category/networking",
-                      "permalink": "/category/networking"
+                      "permalink": "/docs/category/networking"
                     }
                   }
                 ],
@@ -1317,7 +1317,7 @@
                   "type": "generated-index",
                   "description": "Guides for achieving an end result.",
                   "slug": "/category/azure",
-                  "permalink": "/category/azure"
+                  "permalink": "/docs/category/azure"
                 }
               },
               {
@@ -1342,7 +1342,7 @@
                       "type": "generated-index",
                       "description": "Guides for achieving an end result.",
                       "slug": "/category/app-registrations",
-                      "permalink": "/category/app-registrations"
+                      "permalink": "/docs/category/app-registrations"
                     }
                   }
                 ],
@@ -1350,7 +1350,7 @@
                   "type": "generated-index",
                   "description": "Guides for achieving an end result.",
                   "slug": "/category/azure-active-directory",
-                  "permalink": "/category/azure-active-directory"
+                  "permalink": "/docs/category/azure-active-directory"
                 }
               },
               {
@@ -1379,7 +1379,7 @@
                   "type": "generated-index",
                   "description": "Cert Management.",
                   "slug": "/category/certificates",
-                  "permalink": "/category/certificates"
+                  "permalink": "/docs/category/certificates"
                 }
               },
               {
@@ -1398,7 +1398,7 @@
                   "type": "generated-index",
                   "description": "Citrix stuff.",
                   "slug": "/category/citrix",
-                  "permalink": "/category/citrix"
+                  "permalink": "/docs/category/citrix"
                 }
               },
               {
@@ -1442,7 +1442,7 @@
                   "type": "generated-index",
                   "description": "Guides for achieving an end result.",
                   "slug": "/category/command-line-references",
-                  "permalink": "/category/command-line-references"
+                  "permalink": "/docs/category/command-line-references"
                 }
               },
               {
@@ -1471,7 +1471,7 @@
                   "type": "generated-index",
                   "description": "Useful Scripts.",
                   "slug": "/category/scripts",
-                  "permalink": "/category/scripts"
+                  "permalink": "/docs/category/scripts"
                 }
               },
               {
@@ -1490,7 +1490,7 @@
                   "type": "generated-index",
                   "description": "Windows stuff.",
                   "slug": "/category/windows-os",
-                  "permalink": "/category/windows-os"
+                  "permalink": "/docs/category/windows-os"
                 }
               }
             ]
@@ -1499,8 +1499,135 @@
       ]
     }
   },
+  "docusaurus-plugin-content-blog": {
+    "default": {
+      "blogSidebarTitle": "All posts",
+      "blogPosts": [
+        {
+          "id": "welcome-docusaurus-v2",
+          "metadata": {
+            "permalink": "/blog/welcome-docusaurus-v2",
+            "source": "@site/blog/2019-09-05-hello-docusaurus-v2.md",
+            "title": "Welcome Docusaurus v2",
+            "description": "This is my first post on Docusaurus 2.",
+            "date": "2021-09-13T10:00:00.000Z",
+            "formattedDate": "September 13, 2021",
+            "tags": [
+              {
+                "label": "hello",
+                "permalink": "/blog/tags/hello"
+              },
+              {
+                "label": "docusaurus-v2",
+                "permalink": "/blog/tags/docusaurus-v-2"
+              }
+            ],
+            "readingTime": 0.12,
+            "hasTruncateMarker": true,
+            "authors": [
+              {
+                "name": "Will",
+                "title": "Creator of the IT KB.",
+                "url": "https://github.com/BassJamm?tab=repositories"
+              }
+            ],
+            "frontMatter": {
+              "title": "Welcome Docusaurus v2",
+              "description": "This is my first post on Docusaurus 2.",
+              "slug": "welcome-docusaurus-v2",
+              "date": "2021-09-13T10:00",
+              "authors": [
+                {
+                  "name": "Will",
+                  "title": "Creator of the IT KB.",
+                  "url": "https://github.com/BassJamm?tab=repositories"
+                }
+              ],
+              "tags": [
+                "hello",
+                "docusaurus-v2"
+              ],
+              "image": "https://i.imgur.com/mErPwqL.png",
+              "hide_table_of_contents": false
+            }
+          },
+          "content": "Welcome to this blog. This blog is created with [**Docusaurus 2**](https://docusaurus.io/).\r\n\r\n<!--truncate-->\r\n\r\nThis is my first post on Docusaurus 2.\r\n\r\nA whole bunch of exploration to follow.\r\n\r\n## Folder structure\r\n\r\nYear\\Day of the month-post-title.md\r\n\r\nExample: 2023\\15-05-AAD-Permissions.md"
+        }
+      ],
+      "blogListPaginated": [
+        {
+          "items": [
+            "welcome-docusaurus-v2"
+          ],
+          "metadata": {
+            "permalink": "/blog/",
+            "page": 1,
+            "postsPerPage": 1,
+            "totalPages": 1,
+            "totalCount": 1,
+            "blogDescription": "Blog",
+            "blogTitle": "Blog"
+          }
+        }
+      ],
+      "blogTags": {
+        "/blog/tags/hello": {
+          "label": "hello",
+          "items": [
+            "welcome-docusaurus-v2"
+          ],
+          "permalink": "/blog/tags/hello",
+          "pages": [
+            {
+              "items": [
+                "welcome-docusaurus-v2"
+              ],
+              "metadata": {
+                "permalink": "/blog/tags/hello",
+                "page": 1,
+                "postsPerPage": 1,
+                "totalPages": 1,
+                "totalCount": 1,
+                "blogDescription": "Blog",
+                "blogTitle": "Blog"
+              }
+            }
+          ]
+        },
+        "/blog/tags/docusaurus-v-2": {
+          "label": "docusaurus-v2",
+          "items": [
+            "welcome-docusaurus-v2"
+          ],
+          "permalink": "/blog/tags/docusaurus-v-2",
+          "pages": [
+            {
+              "items": [
+                "welcome-docusaurus-v2"
+              ],
+              "metadata": {
+                "permalink": "/blog/tags/docusaurus-v-2",
+                "page": 1,
+                "postsPerPage": 1,
+                "totalPages": 1,
+                "totalCount": 1,
+                "blogDescription": "Blog",
+                "blogTitle": "Blog"
+              }
+            }
+          ]
+        }
+      },
+      "blogTagsListPath": "/blog/tags"
+    }
+  },
   "docusaurus-plugin-content-pages": {
     "default": [
+      {
+        "type": "jsx",
+        "permalink": "/",
+        "source": "@site/src/pages/index.js"
+      },
       {
         "type": "mdx",
         "permalink": "/markdown-page",

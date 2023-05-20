@@ -1,47 +1,12 @@
 [
   {
-    "label": "Azure",
-    "permalink": "/blog/tags/azure",
-    "count": 2
-  },
-  {
-    "label": "Automation Account",
-    "permalink": "/blog/tags/automation-account",
+    "label": "hello",
+    "permalink": "/blog/tags/hello",
     "count": 1
   },
   {
-    "label": "PowerShell",
-    "permalink": "/blog/tags/power-shell",
-    "count": 1
-  },
-  {
-    "label": "Managed Identities",
-    "permalink": "/blog/tags/managed-identities",
-    "count": 1
-  },
-  {
-    "label": "Blogpost",
-    "permalink": "/blog/tags/blogpost",
-    "count": 1
-  },
-  {
-    "label": "Automation",
-    "permalink": "/blog/tags/automation",
-    "count": 2
-  },
-  {
-    "label": "BlogPost",
-    "permalink": "/blog/tags/blog-post",
-    "count": 1
-  },
-  {
-    "label": "KB",
-    "permalink": "/blog/tags/kb",
-    "count": 1
-  },
-  {
-    "label": "Permissions",
-    "permalink": "/blog/tags/permissions",
+    "label": "docusaurus-v2",
+    "permalink": "/blog/tags/docusaurus-v-2",
     "count": 1
   }
 ]

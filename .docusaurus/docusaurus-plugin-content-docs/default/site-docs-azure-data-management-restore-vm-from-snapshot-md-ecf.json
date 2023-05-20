@@ -6,20 +6,20 @@
   "source": "@site/docs/Azure/Data Management/Restore VM from Snapshot.md",
   "sourceDirName": "Azure/Data Management",
   "slug": "/Azure/Data Management/Restore VM from Snapshot",
-  "permalink": "/Azure/Data Management/Restore VM from Snapshot",
+  "permalink": "/docs/Azure/Data Management/Restore VM from Snapshot",
   "draft": false,
   "tags": [
     {
       "label": "Azure",
-      "permalink": "/tags/azure"
+      "permalink": "/docs/tags/azure"
     },
     {
       "label": "Restore",
-      "permalink": "/tags/restore"
+      "permalink": "/docs/tags/restore"
     },
     {
       "label": "SnapShot",
-      "permalink": "/tags/snap-shot"
+      "permalink": "/docs/tags/snap-shot"
     }
   ],
   "version": "current",
@@ -37,10 +37,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Restore data from a Snapshot",
-    "permalink": "/Azure/Data Management/Restore data from a Snapshot"
+    "permalink": "/docs/Azure/Data Management/Restore data from a Snapshot"
   },
   "next": {
     "title": "Infrastructure Management",
-    "permalink": "/category/infrastructure-management"
+    "permalink": "/docs/category/infrastructure-management"
   }
 }

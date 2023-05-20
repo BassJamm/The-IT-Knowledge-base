@@ -11,202 +11,213 @@
   "docusaurus-lunr-search": {
     "default": {
       "fileNames": {
-        "searchDoc": "search-doc-1683362529356.json",
-        "lunrIndex": "lunr-index-1683362529356.json"
+        "searchDoc": "search-doc-1684584081405.json",
+        "lunrIndex": "lunr-index-1684584081405.json"
       }
     }
   },
   "docusaurus-plugin-content-docs": {
     "default": {
-      "path": "/",
+      "path": "/docs/",
       "versions": [
         {
           "name": "current",
           "label": "Next",
           "isLast": true,
-          "path": "/",
+          "path": "/docs/",
           "mainDocId": "Welcome",
           "docs": [
             {
               "id": "Azure Active Directory/App Registrations/Decom and AAD App",
-              "path": "/Azure Active Directory/App Registrations/Decom and AAD App",
+              "path": "/docs/Azure Active Directory/App Registrations/Decom and AAD App",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "Azure/Backup and Disaster Recovery/Setup Azure Backup",
-              "path": "/Azure/Backup and Disaster Recovery/Setup Azure Backup",
+              "path": "/docs/Azure/Backup and Disaster Recovery/Setup Azure Backup",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "Azure/Backup and Disaster Recovery/Setup Azure Site Recovery",
-              "path": "/Azure/Backup and Disaster Recovery/Setup Azure Site Recovery",
+              "path": "/docs/Azure/Backup and Disaster Recovery/Setup Azure Site Recovery",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "Azure/Data Management/Restore data from a Snapshot",
-              "path": "/Azure/Data Management/Restore data from a Snapshot",
+              "path": "/docs/Azure/Data Management/Restore data from a Snapshot",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "Azure/Data Management/Restore VM from Snapshot",
-              "path": "/Azure/Data Management/Restore VM from Snapshot",
+              "path": "/docs/Azure/Data Management/Restore VM from Snapshot",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Azure/Infrastructure/AVD Image Update Guidance",
+              "path": "/docs/Azure/Infrastructure/AVD Image Update Guidance",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "Azure/Infrastructure/Create an Automation Account",
-              "path": "/Azure/Infrastructure/Create an Automation Account",
+              "path": "/docs/Azure/Infrastructure/Create an Automation Account",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "Azure/Infrastructure/Re-size a Virtual Machine",
-              "path": "/Azure/Infrastructure/Re-size a Virtual Machine",
+              "path": "/docs/Azure/Infrastructure/Re-size a Virtual Machine",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "Azure/Infrastructure/Setup Azure Lighthouse",
-              "path": "/Azure/Infrastructure/Setup Azure Lighthouse",
+              "path": "/docs/Azure/Infrastructure/Setup Azure Lighthouse",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "Azure/Networking/Network Security Groups",
-              "path": "/Azure/Networking/Network Security Groups",
+              "path": "/docs/Azure/Networking/Network Security Groups",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "Certificates/Formats and Conversions",
-              "path": "/Certificates/Formats and Conversions",
+              "path": "/docs/Certificates/Formats and Conversions",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "Certificates/Generating a CSR",
-              "path": "/Certificates/Generating a CSR",
+              "path": "/docs/Certificates/Generating a CSR",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "Certificates/Request from Internal CA",
-              "path": "/Certificates/Request from Internal CA",
+              "path": "/docs/Certificates/Request from Internal CA",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "Citrix/Updating an image",
-              "path": "/Citrix/Updating an image",
+              "path": "/docs/Citrix/Updating an image",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Command Line References/Active Directory",
+              "path": "/docs/Command Line References/Active Directory",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "Command Line References/AzCLi",
-              "path": "/Command Line References/AzCLi",
+              "path": "/docs/Command Line References/AzCLi",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "Command Line References/Exchange Online",
-              "path": "/Command Line References/Exchange Online",
+              "path": "/docs/Command Line References/Exchange Online",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "Command Line References/Git CMDLine Ref",
-              "path": "/Command Line References/Git CMDLine Ref",
+              "path": "/docs/Command Line References/Git CMDLine Ref",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "Command Line References/Microsoft Graph",
-              "path": "/Command Line References/Microsoft Graph",
+              "path": "/docs/Command Line References/Microsoft Graph",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "Command Line References/PowerShell",
-              "path": "/Command Line References/PowerShell",
+              "path": "/docs/Command Line References/PowerShell",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Scripts/Get User info using MGGraph",
+              "path": "/docs/Scripts/Get User info using MGGraph",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "Scripts/NSG Flow log Formatter",
-              "path": "/Scripts/NSG Flow log Formatter",
+              "path": "/docs/Scripts/NSG Flow log Formatter",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "Scripts/Windows OS Scripts",
-              "path": "/Scripts/Windows OS Scripts",
+              "path": "/docs/Scripts/Windows OS Scripts",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "Welcome",
-              "path": "/",
+              "path": "/docs/",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "Windows OS/Creating a nice pwsh prompt",
-              "path": "/Windows OS/Creating a nice pwsh prompt",
+              "path": "/docs/Windows OS/Creating a nice pwsh prompt",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "/category/azure",
-              "path": "/category/azure",
+              "path": "/docs/category/azure",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "/category/backup-and-disaster-recovery",
-              "path": "/category/backup-and-disaster-recovery",
+              "path": "/docs/category/backup-and-disaster-recovery",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "/category/data-management",
-              "path": "/category/data-management",
+              "path": "/docs/category/data-management",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "/category/infrastructure-management",
-              "path": "/category/infrastructure-management",
+              "path": "/docs/category/infrastructure-management",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "/category/networking",
-              "path": "/category/networking",
+              "path": "/docs/category/networking",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "/category/azure-active-directory",
-              "path": "/category/azure-active-directory",
+              "path": "/docs/category/azure-active-directory",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "/category/app-registrations",
-              "path": "/category/app-registrations",
+              "path": "/docs/category/app-registrations",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "/category/certificates",
-              "path": "/category/certificates",
+              "path": "/docs/category/certificates",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "/category/citrix",
-              "path": "/category/citrix",
+              "path": "/docs/category/citrix",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "/category/command-line-references",
-              "path": "/category/command-line-references",
+              "path": "/docs/category/command-line-references",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "/category/scripts",
-              "path": "/category/scripts",
+              "path": "/docs/category/scripts",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "/category/windows-os",
-              "path": "/category/windows-os",
+              "path": "/docs/category/windows-os",
               "sidebar": "tutorialSidebar"
             }
           ],
-          "draftIds": [
-            "Command Line References/Active Directory",
-            "Scripts/Get User info using MGGraph",
-            "Azure/Infrastructure/AVD Image Update Guidance"
-          ],
+          "draftIds": [],
           "sidebars": {
             "tutorialSidebar": {
               "link": {
-                "path": "/",
+                "path": "/docs/",
                 "label": "Welcome"
               }
             }

@@ -3,374 +3,472 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 
 export default [
   {
+    path: '/__docusaurus/debug',
+    component: ComponentCreator('/__docusaurus/debug', 'de6'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/config',
+    component: ComponentCreator('/__docusaurus/debug/config', 'e31'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/content',
+    component: ComponentCreator('/__docusaurus/debug/content', 'f8a'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/globalData',
+    component: ComponentCreator('/__docusaurus/debug/globalData', 'e73'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/metadata',
+    component: ComponentCreator('/__docusaurus/debug/metadata', 'ec8'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/registry',
+    component: ComponentCreator('/__docusaurus/debug/registry', 'aac'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/routes',
+    component: ComponentCreator('/__docusaurus/debug/routes', '1c0'),
+    exact: true
+  },
+  {
+    path: '/blog/',
+    component: ComponentCreator('/blog/', '785'),
+    exact: true
+  },
+  {
+    path: '/blog/archive',
+    component: ComponentCreator('/blog/archive', 'e18'),
+    exact: true
+  },
+  {
+    path: '/blog/tags',
+    component: ComponentCreator('/blog/tags', 'cce'),
+    exact: true
+  },
+  {
+    path: '/blog/tags/docusaurus-v-2',
+    component: ComponentCreator('/blog/tags/docusaurus-v-2', '2d2'),
+    exact: true
+  },
+  {
+    path: '/blog/tags/hello',
+    component: ComponentCreator('/blog/tags/hello', '635'),
+    exact: true
+  },
+  {
+    path: '/blog/welcome-docusaurus-v2',
+    component: ComponentCreator('/blog/welcome-docusaurus-v2', '6a2'),
+    exact: true
+  },
+  {
+    path: '/docs/tags',
+    component: ComponentCreator('/docs/tags', '8b6'),
+    exact: true
+  },
+  {
+    path: '/docs/tags/automation',
+    component: ComponentCreator('/docs/tags/automation', 'e8c'),
+    exact: true
+  },
+  {
+    path: '/docs/tags/az-c-li',
+    component: ComponentCreator('/docs/tags/az-c-li', 'c5f'),
+    exact: true
+  },
+  {
+    path: '/docs/tags/azure',
+    component: ComponentCreator('/docs/tags/azure', '9e5'),
+    exact: true
+  },
+  {
+    path: '/docs/tags/azure-ad',
+    component: ComponentCreator('/docs/tags/azure-ad', '6ec'),
+    exact: true
+  },
+  {
+    path: '/docs/tags/azure-backup',
+    component: ComponentCreator('/docs/tags/azure-backup', 'ef5'),
+    exact: true
+  },
+  {
+    path: '/docs/tags/azure-virtual-desktop',
+    component: ComponentCreator('/docs/tags/azure-virtual-desktop', '517'),
+    exact: true
+  },
+  {
+    path: '/docs/tags/certificates',
+    component: ComponentCreator('/docs/tags/certificates', '99a'),
+    exact: true
+  },
+  {
+    path: '/docs/tags/citrix',
+    component: ComponentCreator('/docs/tags/citrix', '49b'),
+    exact: true
+  },
+  {
+    path: '/docs/tags/command-line',
+    component: ComponentCreator('/docs/tags/command-line', '6f2'),
+    exact: true
+  },
+  {
+    path: '/docs/tags/command-line-ref',
+    component: ComponentCreator('/docs/tags/command-line-ref', 'cbe'),
+    exact: true
+  },
+  {
+    path: '/docs/tags/ent-app',
+    component: ComponentCreator('/docs/tags/ent-app', 'e37'),
+    exact: true
+  },
+  {
+    path: '/docs/tags/exchange-online',
+    component: ComponentCreator('/docs/tags/exchange-online', 'd7d'),
+    exact: true
+  },
+  {
+    path: '/docs/tags/flow-log',
+    component: ComponentCreator('/docs/tags/flow-log', '398'),
+    exact: true
+  },
+  {
+    path: '/docs/tags/git',
+    component: ComponentCreator('/docs/tags/git', 'e5a'),
+    exact: true
+  },
+  {
+    path: '/docs/tags/guide',
+    component: ComponentCreator('/docs/tags/guide', '56a'),
+    exact: true
+  },
+  {
+    path: '/docs/tags/lighthouse',
+    component: ComponentCreator('/docs/tags/lighthouse', '864'),
+    exact: true
+  },
+  {
+    path: '/docs/tags/mg-graph',
+    component: ComponentCreator('/docs/tags/mg-graph', '22b'),
+    exact: true
+  },
+  {
+    path: '/docs/tags/microsoft-graph',
+    component: ComponentCreator('/docs/tags/microsoft-graph', '069'),
+    exact: true
+  },
+  {
+    path: '/docs/tags/network-security-groups',
+    component: ComponentCreator('/docs/tags/network-security-groups', '0c0'),
+    exact: true
+  },
+  {
+    path: '/docs/tags/networking',
+    component: ComponentCreator('/docs/tags/networking', '1bd'),
+    exact: true
+  },
+  {
+    path: '/docs/tags/nsg',
+    component: ComponentCreator('/docs/tags/nsg', '4f6'),
+    exact: true
+  },
+  {
+    path: '/docs/tags/partner-centre',
+    component: ComponentCreator('/docs/tags/partner-centre', 'ea3'),
+    exact: true
+  },
+  {
+    path: '/docs/tags/power-shell',
+    component: ComponentCreator('/docs/tags/power-shell', '6f3'),
+    exact: true
+  },
+  {
+    path: '/docs/tags/re-usable-code',
+    component: ComponentCreator('/docs/tags/re-usable-code', 'f4c'),
+    exact: true
+  },
+  {
+    path: '/docs/tags/resource-creation',
+    component: ComponentCreator('/docs/tags/resource-creation', 'a86'),
+    exact: true
+  },
+  {
+    path: '/docs/tags/restore',
+    component: ComponentCreator('/docs/tags/restore', 'c8c'),
+    exact: true
+  },
+  {
+    path: '/docs/tags/script',
+    component: ComponentCreator('/docs/tags/script', '4d5'),
+    exact: true
+  },
+  {
+    path: '/docs/tags/scripting',
+    component: ComponentCreator('/docs/tags/scripting', '856'),
+    exact: true
+  },
+  {
+    path: '/docs/tags/scripts',
+    component: ComponentCreator('/docs/tags/scripts', '551'),
+    exact: true
+  },
+  {
+    path: '/docs/tags/setup-azure-site-recovery',
+    component: ComponentCreator('/docs/tags/setup-azure-site-recovery', 'fc4'),
+    exact: true
+  },
+  {
+    path: '/docs/tags/snap-shot',
+    component: ComponentCreator('/docs/tags/snap-shot', 'e15'),
+    exact: true
+  },
+  {
+    path: '/docs/tags/virtual-machine',
+    component: ComponentCreator('/docs/tags/virtual-machine', 'e28'),
+    exact: true
+  },
+  {
     path: '/markdown-page',
     component: ComponentCreator('/markdown-page', 'ca9'),
     exact: true
   },
   {
-    path: '/tags',
-    component: ComponentCreator('/tags', '8cc'),
-    exact: true
-  },
-  {
-    path: '/tags/automation',
-    component: ComponentCreator('/tags/automation', 'dac'),
-    exact: true
-  },
-  {
-    path: '/tags/az-c-li',
-    component: ComponentCreator('/tags/az-c-li', 'be3'),
-    exact: true
-  },
-  {
-    path: '/tags/azure',
-    component: ComponentCreator('/tags/azure', '4e7'),
-    exact: true
-  },
-  {
-    path: '/tags/azure-ad',
-    component: ComponentCreator('/tags/azure-ad', 'eaf'),
-    exact: true
-  },
-  {
-    path: '/tags/azure-backup',
-    component: ComponentCreator('/tags/azure-backup', '2e9'),
-    exact: true
-  },
-  {
-    path: '/tags/certificates',
-    component: ComponentCreator('/tags/certificates', '160'),
-    exact: true
-  },
-  {
-    path: '/tags/citrix',
-    component: ComponentCreator('/tags/citrix', '1ff'),
-    exact: true
-  },
-  {
-    path: '/tags/command-line',
-    component: ComponentCreator('/tags/command-line', 'c57'),
-    exact: true
-  },
-  {
-    path: '/tags/command-line-ref',
-    component: ComponentCreator('/tags/command-line-ref', '2f7'),
-    exact: true
-  },
-  {
-    path: '/tags/ent-app',
-    component: ComponentCreator('/tags/ent-app', 'f1b'),
-    exact: true
-  },
-  {
-    path: '/tags/exchange-online',
-    component: ComponentCreator('/tags/exchange-online', '9c3'),
-    exact: true
-  },
-  {
-    path: '/tags/flow-log',
-    component: ComponentCreator('/tags/flow-log', '4b0'),
-    exact: true
-  },
-  {
-    path: '/tags/git',
-    component: ComponentCreator('/tags/git', 'a7a'),
-    exact: true
-  },
-  {
-    path: '/tags/guide',
-    component: ComponentCreator('/tags/guide', 'cf6'),
-    exact: true
-  },
-  {
-    path: '/tags/lighthouse',
-    component: ComponentCreator('/tags/lighthouse', 'f1b'),
-    exact: true
-  },
-  {
-    path: '/tags/microsoft-graph',
-    component: ComponentCreator('/tags/microsoft-graph', '53f'),
-    exact: true
-  },
-  {
-    path: '/tags/network-security-groups',
-    component: ComponentCreator('/tags/network-security-groups', '07c'),
-    exact: true
-  },
-  {
-    path: '/tags/networking',
-    component: ComponentCreator('/tags/networking', '93a'),
-    exact: true
-  },
-  {
-    path: '/tags/nsg',
-    component: ComponentCreator('/tags/nsg', 'd87'),
-    exact: true
-  },
-  {
-    path: '/tags/partner-centre',
-    component: ComponentCreator('/tags/partner-centre', 'a33'),
-    exact: true
-  },
-  {
-    path: '/tags/power-shell',
-    component: ComponentCreator('/tags/power-shell', 'baa'),
-    exact: true
-  },
-  {
-    path: '/tags/re-usable-code',
-    component: ComponentCreator('/tags/re-usable-code', '55d'),
-    exact: true
-  },
-  {
-    path: '/tags/resource-creation',
-    component: ComponentCreator('/tags/resource-creation', '512'),
-    exact: true
-  },
-  {
-    path: '/tags/restore',
-    component: ComponentCreator('/tags/restore', '1a9'),
-    exact: true
-  },
-  {
-    path: '/tags/script',
-    component: ComponentCreator('/tags/script', '457'),
-    exact: true
-  },
-  {
-    path: '/tags/scripting',
-    component: ComponentCreator('/tags/scripting', '77f'),
-    exact: true
-  },
-  {
-    path: '/tags/scripts',
-    component: ComponentCreator('/tags/scripts', 'e9e'),
-    exact: true
-  },
-  {
-    path: '/tags/setup-azure-site-recovery',
-    component: ComponentCreator('/tags/setup-azure-site-recovery', '39e'),
-    exact: true
-  },
-  {
-    path: '/tags/snap-shot',
-    component: ComponentCreator('/tags/snap-shot', 'fac'),
-    exact: true
-  },
-  {
-    path: '/tags/virtual-machine',
-    component: ComponentCreator('/tags/virtual-machine', '3a1'),
-    exact: true
-  },
-  {
-    path: '/',
-    component: ComponentCreator('/', 'f98'),
+    path: '/docs/',
+    component: ComponentCreator('/docs/', 'f5a'),
     routes: [
       {
-        path: '/',
-        component: ComponentCreator('/', '73d'),
+        path: '/docs/',
+        component: ComponentCreator('/docs/', '63d'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/Azure Active Directory/App Registrations/Decom and AAD App',
-        component: ComponentCreator('/Azure Active Directory/App Registrations/Decom and AAD App', '76c'),
+        path: '/docs/Azure Active Directory/App Registrations/Decom and AAD App',
+        component: ComponentCreator('/docs/Azure Active Directory/App Registrations/Decom and AAD App', 'd13'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/Azure/Backup and Disaster Recovery/Setup Azure Backup',
-        component: ComponentCreator('/Azure/Backup and Disaster Recovery/Setup Azure Backup', 'f2f'),
+        path: '/docs/Azure/Backup and Disaster Recovery/Setup Azure Backup',
+        component: ComponentCreator('/docs/Azure/Backup and Disaster Recovery/Setup Azure Backup', '014'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/Azure/Backup and Disaster Recovery/Setup Azure Site Recovery',
-        component: ComponentCreator('/Azure/Backup and Disaster Recovery/Setup Azure Site Recovery', 'f3d'),
+        path: '/docs/Azure/Backup and Disaster Recovery/Setup Azure Site Recovery',
+        component: ComponentCreator('/docs/Azure/Backup and Disaster Recovery/Setup Azure Site Recovery', '173'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/Azure/Data Management/Restore data from a Snapshot',
-        component: ComponentCreator('/Azure/Data Management/Restore data from a Snapshot', '337'),
+        path: '/docs/Azure/Data Management/Restore data from a Snapshot',
+        component: ComponentCreator('/docs/Azure/Data Management/Restore data from a Snapshot', 'fb6'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/Azure/Data Management/Restore VM from Snapshot',
-        component: ComponentCreator('/Azure/Data Management/Restore VM from Snapshot', '4c8'),
+        path: '/docs/Azure/Data Management/Restore VM from Snapshot',
+        component: ComponentCreator('/docs/Azure/Data Management/Restore VM from Snapshot', '5a8'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/Azure/Infrastructure/Create an Automation Account',
-        component: ComponentCreator('/Azure/Infrastructure/Create an Automation Account', '444'),
+        path: '/docs/Azure/Infrastructure/AVD Image Update Guidance',
+        component: ComponentCreator('/docs/Azure/Infrastructure/AVD Image Update Guidance', '655'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/Azure/Infrastructure/Re-size a Virtual Machine',
-        component: ComponentCreator('/Azure/Infrastructure/Re-size a Virtual Machine', 'a1a'),
+        path: '/docs/Azure/Infrastructure/Create an Automation Account',
+        component: ComponentCreator('/docs/Azure/Infrastructure/Create an Automation Account', '15e'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/Azure/Infrastructure/Setup Azure Lighthouse',
-        component: ComponentCreator('/Azure/Infrastructure/Setup Azure Lighthouse', 'a97'),
+        path: '/docs/Azure/Infrastructure/Re-size a Virtual Machine',
+        component: ComponentCreator('/docs/Azure/Infrastructure/Re-size a Virtual Machine', '47d'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/Azure/Networking/Network Security Groups',
-        component: ComponentCreator('/Azure/Networking/Network Security Groups', '407'),
+        path: '/docs/Azure/Infrastructure/Setup Azure Lighthouse',
+        component: ComponentCreator('/docs/Azure/Infrastructure/Setup Azure Lighthouse', 'bf0'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/category/app-registrations',
-        component: ComponentCreator('/category/app-registrations', '08d'),
+        path: '/docs/Azure/Networking/Network Security Groups',
+        component: ComponentCreator('/docs/Azure/Networking/Network Security Groups', '89c'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/category/azure',
-        component: ComponentCreator('/category/azure', 'd40'),
+        path: '/docs/category/app-registrations',
+        component: ComponentCreator('/docs/category/app-registrations', 'c1b'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/category/azure-active-directory',
-        component: ComponentCreator('/category/azure-active-directory', 'fbd'),
+        path: '/docs/category/azure',
+        component: ComponentCreator('/docs/category/azure', 'ebb'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/category/backup-and-disaster-recovery',
-        component: ComponentCreator('/category/backup-and-disaster-recovery', '641'),
+        path: '/docs/category/azure-active-directory',
+        component: ComponentCreator('/docs/category/azure-active-directory', 'e1f'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/category/certificates',
-        component: ComponentCreator('/category/certificates', 'b20'),
+        path: '/docs/category/backup-and-disaster-recovery',
+        component: ComponentCreator('/docs/category/backup-and-disaster-recovery', '033'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/category/citrix',
-        component: ComponentCreator('/category/citrix', '08e'),
+        path: '/docs/category/certificates',
+        component: ComponentCreator('/docs/category/certificates', '29d'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/category/command-line-references',
-        component: ComponentCreator('/category/command-line-references', '6a0'),
+        path: '/docs/category/citrix',
+        component: ComponentCreator('/docs/category/citrix', '994'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/category/data-management',
-        component: ComponentCreator('/category/data-management', 'd0e'),
+        path: '/docs/category/command-line-references',
+        component: ComponentCreator('/docs/category/command-line-references', '1a1'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/category/infrastructure-management',
-        component: ComponentCreator('/category/infrastructure-management', '079'),
+        path: '/docs/category/data-management',
+        component: ComponentCreator('/docs/category/data-management', 'bea'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/category/networking',
-        component: ComponentCreator('/category/networking', '728'),
+        path: '/docs/category/infrastructure-management',
+        component: ComponentCreator('/docs/category/infrastructure-management', 'a26'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/category/scripts',
-        component: ComponentCreator('/category/scripts', '298'),
+        path: '/docs/category/networking',
+        component: ComponentCreator('/docs/category/networking', '796'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/category/windows-os',
-        component: ComponentCreator('/category/windows-os', '2fb'),
+        path: '/docs/category/scripts',
+        component: ComponentCreator('/docs/category/scripts', '5d1'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/Certificates/Formats and Conversions',
-        component: ComponentCreator('/Certificates/Formats and Conversions', 'b1f'),
+        path: '/docs/category/windows-os',
+        component: ComponentCreator('/docs/category/windows-os', 'b61'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/Certificates/Generating a CSR',
-        component: ComponentCreator('/Certificates/Generating a CSR', '608'),
+        path: '/docs/Certificates/Formats and Conversions',
+        component: ComponentCreator('/docs/Certificates/Formats and Conversions', '6ee'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/Certificates/Request from Internal CA',
-        component: ComponentCreator('/Certificates/Request from Internal CA', '0e1'),
+        path: '/docs/Certificates/Generating a CSR',
+        component: ComponentCreator('/docs/Certificates/Generating a CSR', '192'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/Citrix/Updating an image',
-        component: ComponentCreator('/Citrix/Updating an image', 'e59'),
+        path: '/docs/Certificates/Request from Internal CA',
+        component: ComponentCreator('/docs/Certificates/Request from Internal CA', 'e6d'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/Command Line References/AzCLi',
-        component: ComponentCreator('/Command Line References/AzCLi', 'a3f'),
+        path: '/docs/Citrix/Updating an image',
+        component: ComponentCreator('/docs/Citrix/Updating an image', '359'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/Command Line References/Exchange Online',
-        component: ComponentCreator('/Command Line References/Exchange Online', '9fa'),
+        path: '/docs/Command Line References/Active Directory',
+        component: ComponentCreator('/docs/Command Line References/Active Directory', 'b6b'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/Command Line References/Git CMDLine Ref',
-        component: ComponentCreator('/Command Line References/Git CMDLine Ref', '417'),
+        path: '/docs/Command Line References/AzCLi',
+        component: ComponentCreator('/docs/Command Line References/AzCLi', '443'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/Command Line References/Microsoft Graph',
-        component: ComponentCreator('/Command Line References/Microsoft Graph', '217'),
+        path: '/docs/Command Line References/Exchange Online',
+        component: ComponentCreator('/docs/Command Line References/Exchange Online', '561'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/Command Line References/PowerShell',
-        component: ComponentCreator('/Command Line References/PowerShell', 'b4d'),
+        path: '/docs/Command Line References/Git CMDLine Ref',
+        component: ComponentCreator('/docs/Command Line References/Git CMDLine Ref', 'd9a'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/Scripts/NSG Flow log Formatter',
-        component: ComponentCreator('/Scripts/NSG Flow log Formatter', 'c7e'),
+        path: '/docs/Command Line References/Microsoft Graph',
+        component: ComponentCreator('/docs/Command Line References/Microsoft Graph', '4de'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/Scripts/Windows OS Scripts',
-        component: ComponentCreator('/Scripts/Windows OS Scripts', '23d'),
+        path: '/docs/Command Line References/PowerShell',
+        component: ComponentCreator('/docs/Command Line References/PowerShell', 'd0d'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/Windows OS/Creating a nice pwsh prompt',
-        component: ComponentCreator('/Windows OS/Creating a nice pwsh prompt', '286'),
+        path: '/docs/Scripts/Get User info using MGGraph',
+        component: ComponentCreator('/docs/Scripts/Get User info using MGGraph', '864'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/Scripts/NSG Flow log Formatter',
+        component: ComponentCreator('/docs/Scripts/NSG Flow log Formatter', '909'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/Scripts/Windows OS Scripts',
+        component: ComponentCreator('/docs/Scripts/Windows OS Scripts', 'f85'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/Windows OS/Creating a nice pwsh prompt',
+        component: ComponentCreator('/docs/Windows OS/Creating a nice pwsh prompt', '77a'),
         exact: true,
         sidebar: "tutorialSidebar"
       }
     ]
+  },
+  {
+    path: '/',
+    component: ComponentCreator('/', '53b'),
+    exact: true
   },
   {
     path: '*',

@@ -6,17 +6,17 @@
   "source": "@site/docs/Command Line References/Exchange Online.md",
   "sourceDirName": "Command Line References",
   "slug": "/Command Line References/Exchange Online",
-  "permalink": "/Command Line References/Exchange Online",
+  "permalink": "/docs/Command Line References/Exchange Online",
   "draft": false,
   "editUrl": "https://github.com/facebook/docusaurus/edit/main/docs/api-doc-markdown.md",
   "tags": [
     {
       "label": "Command Line",
-      "permalink": "/tags/command-line"
+      "permalink": "/docs/tags/command-line"
     },
     {
       "label": "Exchange Online",
-      "permalink": "/tags/exchange-online"
+      "permalink": "/docs/tags/exchange-online"
     }
   ],
   "version": "current",
@@ -41,10 +41,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "AzCLi",
-    "permalink": "/Command Line References/AzCLi"
+    "permalink": "/docs/Command Line References/AzCLi"
   },
   "next": {
     "title": "Git CMDLine Ref",
-    "permalink": "/Command Line References/Git CMDLine Ref"
+    "permalink": "/docs/Command Line References/Git CMDLine Ref"
   }
 }

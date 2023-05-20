@@ -48,10 +48,19 @@ const config = {
         docs: {
           path: 'docs',
           sidebarPath: require.resolve('./sidebars.js'),
-          routeBasePath: '/',  // Serve the docs at the site's root
+          routeBasePath: '/docs/',  // Serve the docs at the site's root
           // Please change this to your repo.
         },
-        blog: false,
+        blog: {
+          path: 'blog',
+          postsPerPage: 'ALL',
+          blogSidebarTitle: 'All posts',
+          blogSidebarCount: 'ALL',
+          showReadingTime: true, // When set to false, the "x min read" won't be shown
+          readingTime: ({content, frontMatter, defaultReadingTime}) =>
+            defaultReadingTime({content, options: {wordsPerMinute: 300}}),
+          routeBasePath: '/blog/',  // Serve the docs at the site's root
+        },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
@@ -75,9 +84,10 @@ const config = {
             position: 'right',
             label: 'Docs',
           },
-         // {to: '/blog',
-         // label: 'Blog',
-          //position: 'right'},
+         {
+            to: 'blog',
+            label: 'Blog',
+            position: 'right'},
           {
             href: 'https://github.com/BassJamm',
             label: 'GitHub',

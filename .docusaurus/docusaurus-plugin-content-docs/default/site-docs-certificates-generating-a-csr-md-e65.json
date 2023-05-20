@@ -6,13 +6,13 @@
   "source": "@site/docs/Certificates/Generating a CSR.md",
   "sourceDirName": "Certificates",
   "slug": "/Certificates/Generating a CSR",
-  "permalink": "/Certificates/Generating a CSR",
+  "permalink": "/docs/Certificates/Generating a CSR",
   "draft": false,
   "editUrl": "https://github.com/facebook/docusaurus/edit/main/docs/api-doc-markdown.md",
   "tags": [
     {
       "label": "Certificates",
-      "permalink": "/tags/certificates"
+      "permalink": "/docs/tags/certificates"
     }
   ],
   "version": "current",
@@ -36,10 +36,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Certificate formats and Converting formats",
-    "permalink": "/Certificates/Formats and Conversions"
+    "permalink": "/docs/Certificates/Formats and Conversions"
   },
   "next": {
     "title": "Request from Internal CA",
-    "permalink": "/Certificates/Request from Internal CA"
+    "permalink": "/docs/Certificates/Request from Internal CA"
   }
 }

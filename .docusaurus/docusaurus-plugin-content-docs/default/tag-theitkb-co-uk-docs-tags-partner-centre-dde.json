@@ -1,0 +1,14 @@
+{
+  "label": "PartnerCentre",
+  "permalink": "/theitkb.co.uk/docs/tags/partner-centre",
+  "allTagsPath": "/theitkb.co.uk/docs/tags",
+  "count": 1,
+  "items": [
+    {
+      "id": "Windows OS/Creating a nice pwsh prompt",
+      "title": "Creating a nice pwsh prompt",
+      "description": "Creating a nice PowerShell prompt using oh my posh & PSReadLine.",
+      "permalink": "/theitkb.co.uk/docs/Windows OS/Creating a nice pwsh prompt"
+    }
+  ]
+}

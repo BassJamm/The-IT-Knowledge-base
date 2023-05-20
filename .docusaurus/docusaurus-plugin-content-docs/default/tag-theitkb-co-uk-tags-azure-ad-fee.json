@@ -1,0 +1,20 @@
+{
+  "label": "AzureAD",
+  "permalink": "/theitkb.co.uk/tags/azure-ad",
+  "allTagsPath": "/theitkb.co.uk/tags",
+  "count": 2,
+  "items": [
+    {
+      "id": "Command Line References/Active Directory",
+      "title": "Active Directory",
+      "description": "All things related to Active Directory cmdlet.",
+      "permalink": "/theitkb.co.uk/Command Line References/Active Directory"
+    },
+    {
+      "id": "Azure Active Directory/App Registrations/Decom and AAD App",
+      "title": "Decommission and AAD App",
+      "description": "Decommission and Azure AD App registration.",
+      "permalink": "/theitkb.co.uk/Azure Active Directory/App Registrations/Decom and AAD App"
+    }
+  ]
+}

@@ -12,7 +12,7 @@
       {
         "type": "link",
         "label": "Welcome to the Wiki",
-        "href": "/",
+        "href": "/docs/",
         "docId": "Welcome"
       },
       {
@@ -30,17 +30,17 @@
               {
                 "type": "link",
                 "label": "Setup Azure Backup",
-                "href": "/Azure/Backup and Disaster Recovery/Setup Azure Backup",
+                "href": "/docs/Azure/Backup and Disaster Recovery/Setup Azure Backup",
                 "docId": "Azure/Backup and Disaster Recovery/Setup Azure Backup"
               },
               {
                 "type": "link",
                 "label": "Setup Azure Site Recovery",
-                "href": "/Azure/Backup and Disaster Recovery/Setup Azure Site Recovery",
+                "href": "/docs/Azure/Backup and Disaster Recovery/Setup Azure Site Recovery",
                 "docId": "Azure/Backup and Disaster Recovery/Setup Azure Site Recovery"
               }
             ],
-            "href": "/category/backup-and-disaster-recovery"
+            "href": "/docs/category/backup-and-disaster-recovery"
           },
           {
             "type": "category",
@@ -51,17 +51,17 @@
               {
                 "type": "link",
                 "label": "Restore data from a Snapshot",
-                "href": "/Azure/Data Management/Restore data from a Snapshot",
+                "href": "/docs/Azure/Data Management/Restore data from a Snapshot",
                 "docId": "Azure/Data Management/Restore data from a Snapshot"
               },
               {
                 "type": "link",
                 "label": "Restore VM from Snapshot",
-                "href": "/Azure/Data Management/Restore VM from Snapshot",
+                "href": "/docs/Azure/Data Management/Restore VM from Snapshot",
                 "docId": "Azure/Data Management/Restore VM from Snapshot"
               }
             ],
-            "href": "/category/data-management"
+            "href": "/docs/category/data-management"
           },
           {
             "type": "category",
@@ -72,23 +72,29 @@
               {
                 "type": "link",
                 "label": "Setup Azure Lighthouse",
-                "href": "/Azure/Infrastructure/Setup Azure Lighthouse",
+                "href": "/docs/Azure/Infrastructure/Setup Azure Lighthouse",
                 "docId": "Azure/Infrastructure/Setup Azure Lighthouse"
               },
               {
                 "type": "link",
+                "label": "AVD Image Update Guidance",
+                "href": "/docs/Azure/Infrastructure/AVD Image Update Guidance",
+                "docId": "Azure/Infrastructure/AVD Image Update Guidance"
+              },
+              {
+                "type": "link",
                 "label": "Create an Automation Account",
-                "href": "/Azure/Infrastructure/Create an Automation Account",
+                "href": "/docs/Azure/Infrastructure/Create an Automation Account",
                 "docId": "Azure/Infrastructure/Create an Automation Account"
               },
               {
                 "type": "link",
                 "label": "Re-size a Virtual Machine",
-                "href": "/Azure/Infrastructure/Re-size a Virtual Machine",
+                "href": "/docs/Azure/Infrastructure/Re-size a Virtual Machine",
                 "docId": "Azure/Infrastructure/Re-size a Virtual Machine"
               }
             ],
-            "href": "/category/infrastructure-management"
+            "href": "/docs/category/infrastructure-management"
           },
           {
             "type": "category",
@@ -99,14 +105,14 @@
               {
                 "type": "link",
                 "label": "Network Security Groups",
-                "href": "/Azure/Networking/Network Security Groups",
+                "href": "/docs/Azure/Networking/Network Security Groups",
                 "docId": "Azure/Networking/Network Security Groups"
               }
             ],
-            "href": "/category/networking"
+            "href": "/docs/category/networking"
           }
         ],
-        "href": "/category/azure"
+        "href": "/docs/category/azure"
       },
       {
         "type": "category",
@@ -123,14 +129,14 @@
               {
                 "type": "link",
                 "label": "Decommission and AAD App",
-                "href": "/Azure Active Directory/App Registrations/Decom and AAD App",
+                "href": "/docs/Azure Active Directory/App Registrations/Decom and AAD App",
                 "docId": "Azure Active Directory/App Registrations/Decom and AAD App"
               }
             ],
-            "href": "/category/app-registrations"
+            "href": "/docs/category/app-registrations"
           }
         ],
-        "href": "/category/azure-active-directory"
+        "href": "/docs/category/azure-active-directory"
       },
       {
         "type": "category",
@@ -141,23 +147,23 @@
           {
             "type": "link",
             "label": "Certificate formats and Converting formats",
-            "href": "/Certificates/Formats and Conversions",
+            "href": "/docs/Certificates/Formats and Conversions",
             "docId": "Certificates/Formats and Conversions"
           },
           {
             "type": "link",
             "label": "Generating a CSR",
-            "href": "/Certificates/Generating a CSR",
+            "href": "/docs/Certificates/Generating a CSR",
             "docId": "Certificates/Generating a CSR"
           },
           {
             "type": "link",
             "label": "Request from Internal CAs",
-            "href": "/Certificates/Request from Internal CA",
+            "href": "/docs/Certificates/Request from Internal CA",
             "docId": "Certificates/Request from Internal CA"
           }
         ],
-        "href": "/category/certificates"
+        "href": "/docs/category/certificates"
       },
       {
         "type": "category",
@@ -168,11 +174,11 @@
           {
             "type": "link",
             "label": "Updating an image",
-            "href": "/Citrix/Updating an image",
+            "href": "/docs/Citrix/Updating an image",
             "docId": "Citrix/Updating an image"
           }
         ],
-        "href": "/category/citrix"
+        "href": "/docs/category/citrix"
       },
       {
         "type": "category",
@@ -182,36 +188,42 @@
         "items": [
           {
             "type": "link",
+            "label": "Active Directory",
+            "href": "/docs/Command Line References/Active Directory",
+            "docId": "Command Line References/Active Directory"
+          },
+          {
+            "type": "link",
             "label": "Az Cli",
-            "href": "/Command Line References/AzCLi",
+            "href": "/docs/Command Line References/AzCLi",
             "docId": "Command Line References/AzCLi"
           },
           {
             "type": "link",
             "label": "Exchange Online",
-            "href": "/Command Line References/Exchange Online",
+            "href": "/docs/Command Line References/Exchange Online",
             "docId": "Command Line References/Exchange Online"
           },
           {
             "type": "link",
             "label": "Git CMDLine Ref",
-            "href": "/Command Line References/Git CMDLine Ref",
+            "href": "/docs/Command Line References/Git CMDLine Ref",
             "docId": "Command Line References/Git CMDLine Ref"
           },
           {
             "type": "link",
             "label": "Microsoft Graph",
-            "href": "/Command Line References/Microsoft Graph",
+            "href": "/docs/Command Line References/Microsoft Graph",
             "docId": "Command Line References/Microsoft Graph"
           },
           {
             "type": "link",
             "label": "PowerShell",
-            "href": "/Command Line References/PowerShell",
+            "href": "/docs/Command Line References/PowerShell",
             "docId": "Command Line References/PowerShell"
           }
         ],
-        "href": "/category/command-line-references"
+        "href": "/docs/category/command-line-references"
       },
       {
         "type": "category",
@@ -221,18 +233,24 @@
         "items": [
           {
             "type": "link",
+            "label": "Get User info using MGGraph",
+            "href": "/docs/Scripts/Get User info using MGGraph",
+            "docId": "Scripts/Get User info using MGGraph"
+          },
+          {
+            "type": "link",
             "label": "NSG Flow log Formatter",
-            "href": "/Scripts/NSG Flow log Formatter",
+            "href": "/docs/Scripts/NSG Flow log Formatter",
             "docId": "Scripts/NSG Flow log Formatter"
           },
           {
             "type": "link",
             "label": "Windows OS Scripts",
-            "href": "/Scripts/Windows OS Scripts",
+            "href": "/docs/Scripts/Windows OS Scripts",
             "docId": "Scripts/Windows OS Scripts"
           }
         ],
-        "href": "/category/scripts"
+        "href": "/docs/category/scripts"
       },
       {
         "type": "category",
@@ -243,11 +261,11 @@
           {
             "type": "link",
             "label": "Creating a nice pwsh prompt",
-            "href": "/Windows OS/Creating a nice pwsh prompt",
+            "href": "/docs/Windows OS/Creating a nice pwsh prompt",
             "docId": "Windows OS/Creating a nice pwsh prompt"
           }
         ],
-        "href": "/category/windows-os"
+        "href": "/docs/category/windows-os"
       }
     ]
   },
@@ -280,6 +298,12 @@
       "id": "Azure/Data Management/Restore VM from Snapshot",
       "title": "Restore VM from Snapshot",
       "description": "We're assuming there is already a valid Snapshot taken of the machine you're trying to restore.",
+      "sidebar": "tutorialSidebar"
+    },
+    "Azure/Infrastructure/AVD Image Update Guidance": {
+      "id": "Azure/Infrastructure/AVD Image Update Guidance",
+      "title": "AVD Image Update Guidance",
+      "description": "Reinstate admin privileges for a customer's Azure CSP subscriptions.",
       "sidebar": "tutorialSidebar"
     },
     "Azure/Infrastructure/Create an Automation Account": {
@@ -330,6 +354,12 @@
       "description": "Updating a citrix image for Citrix Cloud.",
       "sidebar": "tutorialSidebar"
     },
+    "Command Line References/Active Directory": {
+      "id": "Command Line References/Active Directory",
+      "title": "Active Directory",
+      "description": "All things related to Active Directory cmdlet.",
+      "sidebar": "tutorialSidebar"
+    },
     "Command Line References/AzCLi": {
       "id": "Command Line References/AzCLi",
       "title": "Az Cli",
@@ -358,6 +388,12 @@
       "id": "Command Line References/PowerShell",
       "title": "PowerShell",
       "description": "All things PowerShell.",
+      "sidebar": "tutorialSidebar"
+    },
+    "Scripts/Get User info using MGGraph": {
+      "id": "Scripts/Get User info using MGGraph",
+      "title": "Get User info using MGGraph",
+      "description": "Get user information using MGGraph.",
       "sidebar": "tutorialSidebar"
     },
     "Scripts/NSG Flow log Formatter": {

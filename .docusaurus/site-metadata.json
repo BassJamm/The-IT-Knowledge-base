@@ -7,19 +7,24 @@
       "name": "@docusaurus/plugin-content-docs",
       "version": "2.4.0"
     },
+    "docusaurus-plugin-content-blog": {
+      "type": "package",
+      "name": "@docusaurus/plugin-content-blog",
+      "version": "2.4.0"
+    },
     "docusaurus-plugin-content-pages": {
       "type": "package",
       "name": "@docusaurus/plugin-content-pages",
       "version": "2.4.0"
     },
+    "docusaurus-plugin-debug": {
+      "type": "package",
+      "name": "@docusaurus/plugin-debug",
+      "version": "2.4.0"
+    },
     "docusaurus-plugin-google-gtag": {
       "type": "package",
       "name": "@docusaurus/plugin-google-gtag",
-      "version": "2.4.0"
-    },
-    "docusaurus-plugin-sitemap": {
-      "type": "package",
-      "name": "@docusaurus/plugin-sitemap",
       "version": "2.4.0"
     },
     "docusaurus-theme-classic": {

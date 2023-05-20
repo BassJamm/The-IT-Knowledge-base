@@ -6,17 +6,17 @@
   "source": "@site/docs/Scripts/Get User info using MGGraph.md",
   "sourceDirName": "Scripts",
   "slug": "/Scripts/Get User info using MGGraph",
-  "permalink": "/Scripts/Get User info using MGGraph",
+  "permalink": "/docs/Scripts/Get User info using MGGraph",
   "draft": false,
   "editUrl": "https://github.com/facebook/docusaurus/edit/main/docs/api-doc-markdown.md",
   "tags": [
     {
       "label": "MGGraph",
-      "permalink": "/tags/mg-graph"
+      "permalink": "/docs/tags/mg-graph"
     },
     {
       "label": "Script",
-      "permalink": "/tags/script"
+      "permalink": "/docs/tags/script"
     }
   ],
   "version": "current",
@@ -41,10 +41,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Scripts",
-    "permalink": "/category/scripts"
+    "permalink": "/docs/category/scripts"
   },
   "next": {
     "title": "NSG Flow log Formatter",
-    "permalink": "/Scripts/NSG Flow log Formatter"
+    "permalink": "/docs/Scripts/NSG Flow log Formatter"
   }
 }

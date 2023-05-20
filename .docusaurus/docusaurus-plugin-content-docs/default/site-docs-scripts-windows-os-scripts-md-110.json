@@ -6,16 +6,16 @@
   "source": "@site/docs/Scripts/Windows OS Scripts.md",
   "sourceDirName": "Scripts",
   "slug": "/Scripts/Windows OS Scripts",
-  "permalink": "/Scripts/Windows OS Scripts",
+  "permalink": "/docs/Scripts/Windows OS Scripts",
   "draft": false,
   "tags": [
     {
       "label": "Scripts",
-      "permalink": "/tags/scripts"
+      "permalink": "/docs/tags/scripts"
     },
     {
       "label": "Re-usable Code",
-      "permalink": "/tags/re-usable-code"
+      "permalink": "/docs/tags/re-usable-code"
     }
   ],
   "version": "current",
@@ -38,10 +38,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "NSG Flow log Formatter",
-    "permalink": "/Scripts/NSG Flow log Formatter"
+    "permalink": "/docs/Scripts/NSG Flow log Formatter"
   },
   "next": {
     "title": "Windows OS",
-    "permalink": "/category/windows-os"
+    "permalink": "/docs/category/windows-os"
   }
 }

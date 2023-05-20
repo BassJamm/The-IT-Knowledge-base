@@ -6,13 +6,13 @@
   "source": "@site/docs/Certificates/Using an Internal CA.md",
   "sourceDirName": "Certificates",
   "slug": "/Certificates/Request from Internal CA",
-  "permalink": "/Certificates/Request from Internal CA",
+  "permalink": "/docs/Certificates/Request from Internal CA",
   "draft": false,
   "editUrl": "https://github.com/facebook/docusaurus/edit/main/docs/api-doc-markdown.md",
   "tags": [
     {
       "label": "Certificates",
-      "permalink": "/tags/certificates"
+      "permalink": "/docs/tags/certificates"
     }
   ],
   "version": "current",
@@ -36,10 +36,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Generating a CSR",
-    "permalink": "/Certificates/Generating a CSR"
+    "permalink": "/docs/Certificates/Generating a CSR"
   },
   "next": {
     "title": "Citrix",
-    "permalink": "/category/citrix"
+    "permalink": "/docs/category/citrix"
   }
 }

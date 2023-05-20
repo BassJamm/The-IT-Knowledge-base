@@ -6,20 +6,20 @@
   "source": "@site/docs/Azure/Backup and Disaster Recovery/Setup Azure Backup.md",
   "sourceDirName": "Azure/Backup and Disaster Recovery",
   "slug": "/Azure/Backup and Disaster Recovery/Setup Azure Backup",
-  "permalink": "/Azure/Backup and Disaster Recovery/Setup Azure Backup",
+  "permalink": "/docs/Azure/Backup and Disaster Recovery/Setup Azure Backup",
   "draft": false,
   "tags": [
     {
       "label": "Azure",
-      "permalink": "/tags/azure"
+      "permalink": "/docs/tags/azure"
     },
     {
       "label": "Resource Creation",
-      "permalink": "/tags/resource-creation"
+      "permalink": "/docs/tags/resource-creation"
     },
     {
       "label": "Azure Backup",
-      "permalink": "/tags/azure-backup"
+      "permalink": "/docs/tags/azure-backup"
     }
   ],
   "version": "current",
@@ -37,10 +37,10 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Backup and Disaster Recovery",
-    "permalink": "/category/backup-and-disaster-recovery"
+    "permalink": "/docs/category/backup-and-disaster-recovery"
   },
   "next": {
     "title": "Setup Azure Site Recovery",
-    "permalink": "/Azure/Backup and Disaster Recovery/Setup Azure Site Recovery"
+    "permalink": "/docs/Azure/Backup and Disaster Recovery/Setup Azure Site Recovery"
   }
 }

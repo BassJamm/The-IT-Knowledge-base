@@ -1,0 +1,16 @@
+{
+  "title": "Certificates",
+  "description": "Cert Management.",
+  "slug": "/category/certificates",
+  "permalink": "/theitkb.co.uk/docs/category/certificates",
+  "navigation": {
+    "previous": {
+      "title": "Decommission and AAD App",
+      "permalink": "/theitkb.co.uk/docs/Azure Active Directory/App Registrations/Decom and AAD App"
+    },
+    "next": {
+      "title": "Certificate formats and Converting formats",
+      "permalink": "/theitkb.co.uk/docs/Certificates/Formats and Conversions"
+    }
+  }
+}

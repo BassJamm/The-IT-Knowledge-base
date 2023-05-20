@@ -1,0 +1,14 @@
+{
+  "label": "Networking",
+  "permalink": "/theitkb.co.uk/docs/tags/networking",
+  "allTagsPath": "/theitkb.co.uk/docs/tags",
+  "count": 1,
+  "items": [
+    {
+      "id": "Azure/Networking/Network Security Groups",
+      "title": "Network Security Groups",
+      "description": "Guidance for Network Security Groups.",
+      "permalink": "/theitkb.co.uk/docs/Azure/Networking/Network Security Groups"
+    }
+  ]
+}
