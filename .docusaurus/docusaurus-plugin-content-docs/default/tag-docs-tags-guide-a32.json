@@ -2,14 +2,8 @@
   "label": "Guide",
   "permalink": "/docs/tags/guide",
   "allTagsPath": "/docs/tags",
-  "count": 3,
+  "count": 2,
   "items": [
-    {
-      "id": "Azure/Infrastructure/AVD Image Update Guidance",
-      "title": "AVD Image Update Guidance",
-      "description": "Reinstate admin privileges for a customer's Azure CSP subscriptions.",
-      "permalink": "/docs/Azure/Infrastructure/AVD Image Update Guidance"
-    },
     {
       "id": "Azure/Infrastructure/Setup Azure Lighthouse",
       "title": "Setup Azure Lighthouse",

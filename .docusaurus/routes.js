@@ -3,43 +3,8 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 
 export default [
   {
-    path: '/__docusaurus/debug',
-    component: ComponentCreator('/__docusaurus/debug', 'de6'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/config',
-    component: ComponentCreator('/__docusaurus/debug/config', 'e31'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/content',
-    component: ComponentCreator('/__docusaurus/debug/content', 'f8a'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/globalData',
-    component: ComponentCreator('/__docusaurus/debug/globalData', 'e73'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/metadata',
-    component: ComponentCreator('/__docusaurus/debug/metadata', 'ec8'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/registry',
-    component: ComponentCreator('/__docusaurus/debug/registry', 'aac'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/routes',
-    component: ComponentCreator('/__docusaurus/debug/routes', '1c0'),
-    exact: true
-  },
-  {
     path: '/blog/',
-    component: ComponentCreator('/blog/', '785'),
+    component: ComponentCreator('/blog/', '9fc'),
     exact: true
   },
   {
@@ -48,23 +13,33 @@ export default [
     exact: true
   },
   {
+    path: '/blog/Code-Challenge-001',
+    component: ComponentCreator('/blog/Code-Challenge-001', 'de3'),
+    exact: true
+  },
+  {
     path: '/blog/tags',
     component: ComponentCreator('/blog/tags', 'cce'),
     exact: true
   },
   {
+    path: '/blog/tags/code-challenge',
+    component: ComponentCreator('/blog/tags/code-challenge', '501'),
+    exact: true
+  },
+  {
     path: '/blog/tags/docusaurus-v-2',
-    component: ComponentCreator('/blog/tags/docusaurus-v-2', '2d2'),
+    component: ComponentCreator('/blog/tags/docusaurus-v-2', '04a'),
     exact: true
   },
   {
     path: '/blog/tags/hello',
-    component: ComponentCreator('/blog/tags/hello', '635'),
+    component: ComponentCreator('/blog/tags/hello', 'd9a'),
     exact: true
   },
   {
     path: '/blog/welcome-docusaurus-v2',
-    component: ComponentCreator('/blog/welcome-docusaurus-v2', '6a2'),
+    component: ComponentCreator('/blog/welcome-docusaurus-v2', '979'),
     exact: true
   },
   {
@@ -95,11 +70,6 @@ export default [
   {
     path: '/docs/tags/azure-backup',
     component: ComponentCreator('/docs/tags/azure-backup', 'ef5'),
-    exact: true
-  },
-  {
-    path: '/docs/tags/azure-virtual-desktop',
-    component: ComponentCreator('/docs/tags/azure-virtual-desktop', '517'),
     exact: true
   },
   {
@@ -150,11 +120,6 @@ export default [
   {
     path: '/docs/tags/lighthouse',
     component: ComponentCreator('/docs/tags/lighthouse', '864'),
-    exact: true
-  },
-  {
-    path: '/docs/tags/mg-graph',
-    component: ComponentCreator('/docs/tags/mg-graph', '22b'),
     exact: true
   },
   {
@@ -239,7 +204,7 @@ export default [
   },
   {
     path: '/docs/',
-    component: ComponentCreator('/docs/', 'f5a'),
+    component: ComponentCreator('/docs/', '4b0'),
     routes: [
       {
         path: '/docs/',
@@ -274,12 +239,6 @@ export default [
       {
         path: '/docs/Azure/Data Management/Restore VM from Snapshot',
         component: ComponentCreator('/docs/Azure/Data Management/Restore VM from Snapshot', '5a8'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/Azure/Infrastructure/AVD Image Update Guidance',
-        component: ComponentCreator('/docs/Azure/Infrastructure/AVD Image Update Guidance', '655'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
@@ -404,12 +363,6 @@ export default [
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/Command Line References/Active Directory',
-        component: ComponentCreator('/docs/Command Line References/Active Directory', 'b6b'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
         path: '/docs/Command Line References/AzCLi',
         component: ComponentCreator('/docs/Command Line References/AzCLi', '443'),
         exact: true,
@@ -436,12 +389,6 @@ export default [
       {
         path: '/docs/Command Line References/PowerShell',
         component: ComponentCreator('/docs/Command Line References/PowerShell', 'd0d'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/Scripts/Get User info using MGGraph',
-        component: ComponentCreator('/docs/Scripts/Get User info using MGGraph', '864'),
         exact: true,
         sidebar: "tutorialSidebar"
       },

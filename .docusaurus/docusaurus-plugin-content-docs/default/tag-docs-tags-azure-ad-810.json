@@ -2,14 +2,8 @@
   "label": "AzureAD",
   "permalink": "/docs/tags/azure-ad",
   "allTagsPath": "/docs/tags",
-  "count": 2,
+  "count": 1,
   "items": [
-    {
-      "id": "Command Line References/Active Directory",
-      "title": "Active Directory",
-      "description": "All things related to Active Directory cmdlet.",
-      "permalink": "/docs/Command Line References/Active Directory"
-    },
     {
       "id": "Azure Active Directory/App Registrations/Decom and AAD App",
       "title": "Decommission and AAD App",

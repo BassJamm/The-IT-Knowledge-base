@@ -40,8 +40,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "ActiveDirectory",
-    "permalink": "/docs/Command Line References/Active Directory"
+    "title": "Command Line References",
+    "permalink": "/docs/category/command-line-references"
   },
   "next": {
     "title": "Exchange Online",

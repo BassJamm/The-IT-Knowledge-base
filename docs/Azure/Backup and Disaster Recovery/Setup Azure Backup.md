@@ -2,7 +2,9 @@
 sidebar_position: 1
 id: Setup Azure Backup
 title: Setup Azure Backup
+description: Suggestions for setting up Azure Backup.
 tags: [Azure, Resource Creation, Azure Backup]
+custom_edit_url: https://github.com/BassJamm/The-IT-Knowledge-base/blob/5543dc18b6c22eed57e767e6d130c28946d157c1/docs/Azure/Backup%20and%20Disaster%20Recovery/Setup%20Azure%20Backup.md
 ---
 
 ## Document Control

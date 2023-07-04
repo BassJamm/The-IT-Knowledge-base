@@ -2,6 +2,10 @@
   "title": "All posts",
   "items": [
     {
+      "title": "Code Challenge - 001 - File Backup Utility",
+      "permalink": "/blog/Code-Challenge-001"
+    },
+    {
       "title": "Welcome Docusaurus v2",
       "permalink": "/blog/welcome-docusaurus-v2"
     }

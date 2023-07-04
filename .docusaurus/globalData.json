@@ -11,8 +11,8 @@
   "docusaurus-lunr-search": {
     "default": {
       "fileNames": {
-        "searchDoc": "search-doc-1684584081405.json",
-        "lunrIndex": "lunr-index-1684584081405.json"
+        "searchDoc": "search-doc-1688508265303.json",
+        "lunrIndex": "lunr-index-1688508265303.json"
       }
     }
   },
@@ -50,11 +50,6 @@
             {
               "id": "Azure/Data Management/Restore VM from Snapshot",
               "path": "/docs/Azure/Data Management/Restore VM from Snapshot",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "Azure/Infrastructure/AVD Image Update Guidance",
-              "path": "/docs/Azure/Infrastructure/AVD Image Update Guidance",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -98,11 +93,6 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Command Line References/Active Directory",
-              "path": "/docs/Command Line References/Active Directory",
-              "sidebar": "tutorialSidebar"
-            },
-            {
               "id": "Command Line References/AzCLi",
               "path": "/docs/Command Line References/AzCLi",
               "sidebar": "tutorialSidebar"
@@ -125,11 +115,6 @@
             {
               "id": "Command Line References/PowerShell",
               "path": "/docs/Command Line References/PowerShell",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "Scripts/Get User info using MGGraph",
-              "path": "/docs/Scripts/Get User info using MGGraph",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -213,7 +198,11 @@
               "sidebar": "tutorialSidebar"
             }
           ],
-          "draftIds": [],
+          "draftIds": [
+            "Command Line References/Active Directory",
+            "Scripts/Get User info using MGGraph",
+            "Azure/Infrastructure/AVD Image Update Guidance"
+          ],
           "sidebars": {
             "tutorialSidebar": {
               "link": {

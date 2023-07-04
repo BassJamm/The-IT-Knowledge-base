@@ -77,12 +77,6 @@
               },
               {
                 "type": "link",
-                "label": "AVD Image Update Guidance",
-                "href": "/docs/Azure/Infrastructure/AVD Image Update Guidance",
-                "docId": "Azure/Infrastructure/AVD Image Update Guidance"
-              },
-              {
-                "type": "link",
                 "label": "Create an Automation Account",
                 "href": "/docs/Azure/Infrastructure/Create an Automation Account",
                 "docId": "Azure/Infrastructure/Create an Automation Account"
@@ -188,12 +182,6 @@
         "items": [
           {
             "type": "link",
-            "label": "Active Directory",
-            "href": "/docs/Command Line References/Active Directory",
-            "docId": "Command Line References/Active Directory"
-          },
-          {
-            "type": "link",
             "label": "Az Cli",
             "href": "/docs/Command Line References/AzCLi",
             "docId": "Command Line References/AzCLi"
@@ -231,12 +219,6 @@
         "collapsible": true,
         "collapsed": true,
         "items": [
-          {
-            "type": "link",
-            "label": "Get User info using MGGraph",
-            "href": "/docs/Scripts/Get User info using MGGraph",
-            "docId": "Scripts/Get User info using MGGraph"
-          },
           {
             "type": "link",
             "label": "NSG Flow log Formatter",
@@ -279,7 +261,7 @@
     "Azure/Backup and Disaster Recovery/Setup Azure Backup": {
       "id": "Azure/Backup and Disaster Recovery/Setup Azure Backup",
       "title": "Setup Azure Backup",
-      "description": "Document Control",
+      "description": "Suggestions for setting up Azure Backup.",
       "sidebar": "tutorialSidebar"
     },
     "Azure/Backup and Disaster Recovery/Setup Azure Site Recovery": {
@@ -298,12 +280,6 @@
       "id": "Azure/Data Management/Restore VM from Snapshot",
       "title": "Restore VM from Snapshot",
       "description": "We're assuming there is already a valid Snapshot taken of the machine you're trying to restore.",
-      "sidebar": "tutorialSidebar"
-    },
-    "Azure/Infrastructure/AVD Image Update Guidance": {
-      "id": "Azure/Infrastructure/AVD Image Update Guidance",
-      "title": "AVD Image Update Guidance",
-      "description": "Reinstate admin privileges for a customer's Azure CSP subscriptions.",
       "sidebar": "tutorialSidebar"
     },
     "Azure/Infrastructure/Create an Automation Account": {
@@ -354,12 +330,6 @@
       "description": "Updating a citrix image for Citrix Cloud.",
       "sidebar": "tutorialSidebar"
     },
-    "Command Line References/Active Directory": {
-      "id": "Command Line References/Active Directory",
-      "title": "Active Directory",
-      "description": "All things related to Active Directory cmdlet.",
-      "sidebar": "tutorialSidebar"
-    },
     "Command Line References/AzCLi": {
       "id": "Command Line References/AzCLi",
       "title": "Az Cli",
@@ -388,12 +358,6 @@
       "id": "Command Line References/PowerShell",
       "title": "PowerShell",
       "description": "All things PowerShell.",
-      "sidebar": "tutorialSidebar"
-    },
-    "Scripts/Get User info using MGGraph": {
-      "id": "Scripts/Get User info using MGGraph",
-      "title": "Get User info using MGGraph",
-      "description": "Get user information using MGGraph.",
       "sidebar": "tutorialSidebar"
     },
     "Scripts/NSG Flow log Formatter": {

@@ -2,14 +2,8 @@
   "label": "Azure",
   "permalink": "/docs/tags/azure",
   "allTagsPath": "/docs/tags",
-  "count": 9,
+  "count": 8,
   "items": [
-    {
-      "id": "Azure/Infrastructure/AVD Image Update Guidance",
-      "title": "AVD Image Update Guidance",
-      "description": "Reinstate admin privileges for a customer's Azure CSP subscriptions.",
-      "permalink": "/docs/Azure/Infrastructure/AVD Image Update Guidance"
-    },
     {
       "id": "Azure/Infrastructure/Create an Automation Account",
       "title": "Create an Automation Account",
@@ -43,7 +37,7 @@
     {
       "id": "Azure/Backup and Disaster Recovery/Setup Azure Backup",
       "title": "Setup Azure Backup",
-      "description": "Document Control",
+      "description": "Suggestions for setting up Azure Backup.",
       "permalink": "/docs/Azure/Backup and Disaster Recovery/Setup Azure Backup"
     },
     {

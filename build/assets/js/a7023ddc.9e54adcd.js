@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[1713],{3457:e=>{e.exports=JSON.parse('[{"label":"Code-Challenge","permalink":"/blog/tags/code-challenge","count":1},{"label":"hello","permalink":"/blog/tags/hello","count":1},{"label":"docusaurus-v2","permalink":"/blog/tags/docusaurus-v-2","count":1}]')}}]);

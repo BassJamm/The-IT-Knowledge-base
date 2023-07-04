@@ -2,7 +2,7 @@
   {
     "label": "AzureAD",
     "permalink": "/docs/tags/azure-ad",
-    "count": 2
+    "count": 1
   },
   {
     "label": "EntApp",
@@ -12,7 +12,7 @@
   {
     "label": "Azure",
     "permalink": "/docs/tags/azure",
-    "count": 9
+    "count": 8
   },
   {
     "label": "Resource Creation",
@@ -27,7 +27,7 @@
   {
     "label": "Guide",
     "permalink": "/docs/tags/guide",
-    "count": 3
+    "count": 2
   },
   {
     "label": "Setup Azure Site Recovery",
@@ -43,11 +43,6 @@
     "label": "SnapShot",
     "permalink": "/docs/tags/snap-shot",
     "count": 2
-  },
-  {
-    "label": "Azure Virtual Desktop",
-    "permalink": "/docs/tags/azure-virtual-desktop",
-    "count": 1
   },
   {
     "label": "Automation",
@@ -125,14 +120,9 @@
     "count": 1
   },
   {
-    "label": "MGGraph",
-    "permalink": "/docs/tags/mg-graph",
-    "count": 1
-  },
-  {
     "label": "Script",
     "permalink": "/docs/tags/script",
-    "count": 2
+    "count": 1
   },
   {
     "label": "NSG",

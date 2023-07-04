@@ -1,0 +1,45 @@
+{
+  "permalink": "/blog/Code-Challenge-001",
+  "source": "@site/blog/2023/05-07-Code-Challenge-001-File-Backup.md",
+  "title": "Code Challenge - 001 - File Backup Utility",
+  "description": "Build a basic script that will copy data from source to destination.",
+  "date": "2023-07-05T12:00:00.000Z",
+  "formattedDate": "July 5, 2023",
+  "tags": [
+    {
+      "label": "Code-Challenge",
+      "permalink": "/blog/tags/code-challenge"
+    }
+  ],
+  "readingTime": 4.876666666666667,
+  "hasTruncateMarker": true,
+  "authors": [
+    {
+      "name": "Will",
+      "title": "Creator of the IT KB.",
+      "url": "https://github.com/BassJamm?tab=repositories"
+    }
+  ],
+  "frontMatter": {
+    "title": "Code Challenge - 001 - File Backup Utility",
+    "description": "Build a basic script that will copy data from source to destination.",
+    "slug": "Code-Challenge-001",
+    "date": "2023-07-05T12:00",
+    "authors": [
+      {
+        "name": "Will",
+        "title": "Creator of the IT KB.",
+        "url": "https://github.com/BassJamm?tab=repositories"
+      }
+    ],
+    "tags": [
+      "Code-Challenge"
+    ],
+    "image": "https://i.imgur.com/mErPwqL.png",
+    "hide_table_of_contents": false
+  },
+  "nextItem": {
+    "title": "Welcome Docusaurus v2",
+    "permalink": "/blog/welcome-docusaurus-v2"
+  }
+}

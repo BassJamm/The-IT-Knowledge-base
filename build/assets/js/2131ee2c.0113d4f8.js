@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[7347],{3256:e=>{e.exports=JSON.parse('{"label":"AzCLi","permalink":"/docs/tags/az-c-li","allTagsPath":"/docs/tags","count":1,"items":[{"id":"Command Line References/AzCLi","title":"Az Cli","description":"AzCLi command ref doc.","permalink":"/docs/Command Line References/AzCLi"}]}')}}]);

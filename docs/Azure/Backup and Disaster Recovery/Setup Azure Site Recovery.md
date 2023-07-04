@@ -20,7 +20,7 @@ description: Reinstate admin privileges for a customer's Azure CSP subscriptions
 
 1. Create Recovery Vault and Resource Group.
 2. Setup replication for the resources needing it.
-3. Confirm Network information of each VM.
+3. Confirm Network information of each VM.zen
 4. Allow the initial Synchronization to run.
 5. Setup a Recovery Plan.
 6. Run a Test Failover.
