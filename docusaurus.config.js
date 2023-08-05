@@ -54,7 +54,7 @@ const config = {
         blog: {
           path: 'blog',
           postsPerPage: 'ALL',
-          blogSidebarTitle: 'All posts',
+          blogSidebarTitle: 'Posts So Far',
           blogSidebarCount: 'ALL',
           showReadingTime: true, // When set to false, the "x min read" won't be shown
           readingTime: ({content, frontMatter, defaultReadingTime}) =>
