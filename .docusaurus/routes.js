@@ -4,7 +4,7 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 export default [
   {
     path: '/blog/',
-    component: ComponentCreator('/blog/', '9fc'),
+    component: ComponentCreator('/blog/', '2ff'),
     exact: true
   },
   {
@@ -13,8 +13,8 @@ export default [
     exact: true
   },
   {
-    path: '/blog/Code-Challenge-001',
-    component: ComponentCreator('/blog/Code-Challenge-001', 'de3'),
+    path: '/blog/pwsh-challenge-001',
+    component: ComponentCreator('/blog/pwsh-challenge-001', 'a06'),
     exact: true
   },
   {
@@ -23,23 +23,33 @@ export default [
     exact: true
   },
   {
-    path: '/blog/tags/code-challenge',
-    component: ComponentCreator('/blog/tags/code-challenge', '501'),
+    path: '/blog/tags/challenge',
+    component: ComponentCreator('/blog/tags/challenge', 'dbc'),
     exact: true
   },
   {
     path: '/blog/tags/docusaurus-v-2',
-    component: ComponentCreator('/blog/tags/docusaurus-v-2', '04a'),
+    component: ComponentCreator('/blog/tags/docusaurus-v-2', '3ba'),
     exact: true
   },
   {
     path: '/blog/tags/hello',
-    component: ComponentCreator('/blog/tags/hello', 'd9a'),
+    component: ComponentCreator('/blog/tags/hello', 'b35'),
     exact: true
   },
   {
-    path: '/blog/welcome-docusaurus-v2',
-    component: ComponentCreator('/blog/welcome-docusaurus-v2', '979'),
+    path: '/blog/tags/power-shell',
+    component: ComponentCreator('/blog/tags/power-shell', 'a0c'),
+    exact: true
+  },
+  {
+    path: '/blog/tags/script',
+    component: ComponentCreator('/blog/tags/script', '02b'),
+    exact: true
+  },
+  {
+    path: '/blog/welcome',
+    component: ComponentCreator('/blog/welcome', 'c05'),
     exact: true
   },
   {

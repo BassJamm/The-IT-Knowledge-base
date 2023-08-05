@@ -1504,24 +1504,32 @@
   },
   "docusaurus-plugin-content-blog": {
     "default": {
-      "blogSidebarTitle": "All posts",
+      "blogSidebarTitle": "Posts So Far",
       "blogPosts": [
         {
-          "id": "Code-Challenge-001",
+          "id": "pwsh-challenge-001",
           "metadata": {
-            "permalink": "/blog/Code-Challenge-001",
-            "source": "@site/blog/2023/05-07-Code-Challenge-001-File-Backup.md",
-            "title": "Code Challenge - 001 - File Backup Utility",
-            "description": "Build a basic script that will copy data from source to destination.",
-            "date": "2023-07-05T12:00:00.000Z",
-            "formattedDate": "July 5, 2023",
+            "permalink": "/blog/pwsh-challenge-001",
+            "source": "@site/blog/2023/05-08-PWSH-Challenge-001.md",
+            "title": "Challenge 1 - File Download Script with PowerShell",
+            "description": "Create a script that can download any file by the URL given by a user.",
+            "date": "2023-08-05T11:00:00.000Z",
+            "formattedDate": "August 5, 2023",
             "tags": [
               {
-                "label": "Code-Challenge",
-                "permalink": "/blog/tags/code-challenge"
+                "label": "PowerShell",
+                "permalink": "/blog/tags/power-shell"
+              },
+              {
+                "label": "Script",
+                "permalink": "/blog/tags/script"
+              },
+              {
+                "label": "Challenge",
+                "permalink": "/blog/tags/challenge"
               }
             ],
-            "readingTime": 4.876666666666667,
+            "readingTime": 3.4366666666666665,
             "hasTruncateMarker": true,
             "authors": [
               {
@@ -1531,10 +1539,10 @@
               }
             ],
             "frontMatter": {
-              "title": "Code Challenge - 001 - File Backup Utility",
-              "description": "Build a basic script that will copy data from source to destination.",
-              "slug": "Code-Challenge-001",
-              "date": "2023-07-05T12:00",
+              "title": "Challenge 1 - File Download Script with PowerShell",
+              "description": "Create a script that can download any file by the URL given by a user.",
+              "slug": "pwsh-challenge-001",
+              "date": "2023-08-05T11:00",
               "authors": [
                 {
                   "name": "Will",
@@ -1543,25 +1551,27 @@
                 }
               ],
               "tags": [
-                "Code-Challenge"
+                "PowerShell",
+                "Script",
+                "Challenge"
               ],
               "image": "https://i.imgur.com/mErPwqL.png",
               "hide_table_of_contents": false
             },
             "nextItem": {
-              "title": "Welcome Docusaurus v2",
-              "permalink": "/blog/welcome-docusaurus-v2"
+              "title": "Hi!",
+              "permalink": "/blog/welcome"
             }
           },
-          "content": "The first of many code challenges that I'll be tackling, these will be as much a learning experience for me as they may help you.\r\n\r\n<!--truncate-->\r\nIn the world of software development, coding challenges have emerged as an effective way to sharpen programming skills, test problem-solving abilities, and demonstrate expertise. I however, am not in the software development world, I am in the realm of Infrastructure design and maintenance; where I am hoping to apply the same type of challenges to further my knowledge of PowerShell, Bicep & perhaps one or two more along the way.\r\n\r\n## The challenge\r\n\r\nCreate a PowerShell script that backs up a specified directory to another location. The script should recursively copy all files and subdirectories while preserving the directory structure. It can include options for excluding certain file types or directories from the backup.\r\n\r\nThis seems rather arbitray to script this but, I got an AI to generate these challenges so, I'll dig in none the less.\r\n\r\n## My solution\r\n\r\n:::note Before anyone rolls their eyes at the below.\r\nThis is just a learning expereince, I am aware of the other commands\\applications that can do this (RoboCopy for examepl).\r\n:::\r\n\r\n## Using the `Copy-Item` command\r\n\r\nThis is the very basic first attempt at solving this challenge. Using `Read-Host` we take in a user input stored as a string, we then substitute the variables `$backupdirectory` and `$destinationDirectory` in place of the file paths.\r\n\r\n```powershell showLineNumbers\r\n# Takes user input for source directory.\r\n$sourceDirectory = Read-Host -Prompt \"Enter source directory\"\r\n\r\n# Takes user input for the destination directory.        \r\n$destinationdirectory = Read-Host -Prompt \"Enter destination directory\"\r\n\r\n# Copy-Item command does the copying.\r\nCopy-Item -Path $sourceDirectory -Destination $destinationdirectory -Recurse\r\n```\r\n\r\nThis would do the job but, there’s a few issues to note with this: -\r\n\r\n1. It’ll error if you run it more than once, since the directory will already exist in the destination location.\r\n2. There’s no output to the console to comfort a nervy user that something is happening.\r\n3. There’s no checks going on to confirm what exists already & no log file to help a techy see what is going on.\r\n\r\nWe’ll deal with them in order.\r\n\r\n### Solving the “this already exists” error\r\n\r\nThere’s two options that can be easily done to solve this, either use the `-force` switch, which’ll just overwrite the destination location, or you can differentiate the destination data from the source by changing the name of the top level folder for example, adding the date and time to the folder or re-naming it to something else; this is what we’ll do this time.\r\n\r\nIn the below snippet we now have the `$dateNow` variable, which fetches the date and time of when the script runs. The `.ToString('dd-MM-yyyy_hh-mm-ss')` part converts the object to a string, so that we can add it to the new folder we’ll create as part of the `Copy-Item` command.\r\n\r\nThe `(Get-Date)` command is in brackets so PowerShell knows to run this part first before the section just after it.\r\n\r\n```powershell showLineNumbers\r\n# Copy-Item command does the copying.\r\n# The destination location is set using the $destinationdirectory variable, then appending the text DataBackup.\r\n# It then appends the date using the $dateNow variable. It's encased in brackets so that he variable is substitued into the string.\r\n# The recurse switch includes all subdirectories of the specified source location.\r\nCopy-Item -Path $sourceDirectory -Destination $destinationdirectory\\DataBackup-$($dateNow) -Recurse\r\n```\r\n\r\n### Outputting something to console\r\n\r\nThis option can be up for debate, some would say that you don’t need an output just a comprehensive log file but, I like a bit of an info dump to the console as long as it is relevant.\r\n\r\n:::caution\r\nBe careful when using Write-Host it’s not processed as part of the Pipeline within PowerShell, so it can be printed to console before the previous command has finished running\\computing. Use it sparingly.\r\n:::\r\n\r\nTo dump out some simple updates to the console, I have added some Write-Host commands, this literally writes whatever text you put after it in quotes to console and you can change it’s colour using the -foregroundcolor swtich.\r\n\r\n```powershell showLineNumbers\r\nWrite-Host \"Copy $($sourceDirectory) data to $($destinationdirectory), into the folder named DataBackup-$($dateNow).\" -ForegroundColor Yellow\r\nStart-Sleep 1\r\n\r\nWrite-Host \"Beginning Copy job.\" -ForegroundColor Yellow\r\nStart-Sleep 1 # This is here to add some \"nice\" timings to the script.\r\n\r\nCopy-Item -Path $sourceDirectory -Destination $destinationdirectory\\DataBackup-$($dateNow) -Recurse\r\n\r\nStart-Sleep 1 # This one is here to make sure the comamnd above has finished before the write-host command executes.\r\nWrite-Host \"Copy Job Completed.\" -ForegroundColor Green\r\n```\r\n\r\n### Error logging\r\n\r\nThis can be tricky for larger scripts and there’s multiple ways of handling errors in scripts, I have gone for the simplest option (I think!). Whilst I really don’t think this is best practice or going to win any favor with a PowerShell Guru (myself not included, I am still learning), it is simple to get your head around.\r\n\r\n`Try {} Catch{}` blocks are great for trying something and then catching the error relating to that command, by default though, I would suggest doing only one thing in in the whole try\\catch segment, trying to do too much in one block negates the benefit of using it!\r\n\r\n:::note\r\nIf you should want to test the Try Catch block, simple add \"NonsenseString\" to your try segment, it'll always produce an error.\r\n:::\r\n\r\n```powershell showLineNumbers\r\n# Try Catch blocks are great for trying a thing and catching an error.\r\ntry {\r\n    # Copy-Item -Path $sourceDirectory -Destination $destinationdirectory\\DataBackup-$($dateNow) -Recurse\r\n    \r\n}\r\ncatch {\r\n    # Write-Warning $Error[0] - This will write only the error message to console if you don't want the whole error.\r\n    $_ # This wil dump the whole error to consol for you.\r\n}\r\n```\r\n\r\n### Bonus: Creating a log file\r\n\r\nAs a bit extra, here’s a function that creates a log file and how you can write to it.\r\n\r\n```powershell showLineNumbers\r\n$date = Get-Date -Format dd-mm-yyyy\r\n$logFileLocation = \"C:\\Temp\\\"\r\n\r\n<# Create the log file. #>\r\n\r\ntry {\r\n    <# Try the following. #>\r\n    function WriteToLogFile ($message) {\r\n        Add-Content $logFileLocation\\LogFile_$date.log -Value $message\r\n    }\r\n    if (Test-Path $logFileLocation\\LogFile_$date.log) {\r\n        Write-Host 'Log file already exists, deleting and re-creating.'\r\n        Start-Sleep 2\r\n        Remove-Item $logFileLocation\\LogFile_$date.log\r\n    }\r\n    WriteToLogFile \"$(Get-Date) - Log File created.\"\r\n}\r\ncatch {\r\n    <# Collect and report any errors. #>\r\n    Write-Host \"Failed to create log file at the following location:\"$logFileLocation -ForegroundColor Red\", continuing without logging.\"\r\n    Write-Host $_ -ForegroundColor Red\r\n    WriteToLogFile \"$(Get-Date) - $($_)\"\r\n    throw  'Script terminated.' \r\n}\r\n```\r\n\r\nTo use this function, change the `$logFileLocation` variable to the desired location, maybe use the destination location variable.\r\n\r\nYou can then use the command `WriteToLogFile -Message \"Add text here\"` anything in-between the quotes will appended to the log file, check out the full solution below to see what I mean.\r\n\r\n## Full script\r\n\r\nAs I mentioned at the top, the best method for doing large copy jobs is `RoboCopy`, you can find more on that [here](https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/robocopy). Otherwise for this learning exercise, you review, steal and re-use whatever it below for your own needs.\r\n\r\n```powershell showLineNumbers\r\n$date = Get-Date -Format dd-mm-yyyy\r\n$logFileLocation = \"C:\\Temp\\\"\r\n\r\n<# Create the log file. #>\r\n\r\ntry {\r\n    <# Try the following. #>\r\n    function WriteToLogFile ($message) {\r\n        Add-Content $logFileLocation\\LogFile_$date.log -Value $message\r\n    }\r\n    if (Test-Path $logFileLocation\\LogFile_$date.log) {\r\n        Write-Host 'Log file already exists, deleting and re-creating.'\r\n        Start-Sleep 2\r\n        Remove-Item $logFileLocation\\LogFile_$date.log\r\n    }\r\n    WriteToLogFile \"$(Get-Date) - Log File created.\"\r\n}\r\ncatch {\r\n    <# Collect and report any errors. #>\r\n    Write-Host \"Failed to create log file at the following location:\"$logFileLocation -ForegroundColor Red\", continuing without logging.\"\r\n    Write-Host $_ -ForegroundColor Red\r\n    WriteToLogFile \"$(Get-Date) - $($_)\"\r\n    throw  'Script terminated.' \r\n}\r\n\r\n# Takes user input for source directory.\r\n$sourceDirectory = Read-Host -Prompt \"Enter source directory\"\r\nWriteToLogFile -message \"User inputed $($sourceDirectory) as the source.\"\r\n\r\n# Takes user input for the destination directory.        \r\n$destinationdirectory = Read-Host -Prompt \"Enter destination directory\"\r\nWriteToLogFile -message \"User entered ($destinationdirectory) as the destination.\"\r\n\r\n# Gets the date and time in seconds when the script is ran.\r\n$dateNow = (Get-Date).ToString('dd-MM-yyyy_hh-mm-ss')\r\n\r\nWrite-Host \"Copy $($sourceDirectory) data to $($destinationdirectory), into the folder named DataBackup-$($dateNow).\" -ForegroundColor Yellow\r\nStart-Sleep 1\r\n\r\n\r\nWrite-Host \"Beginning Copy job.\" -ForegroundColor Yellow\r\nWriteToLogFile -message \"Copy job starting.\"\r\nStart-Sleep 1 # This is here to add some \"nice\" timings to the script.\r\n\r\n# Copy-Item command does the copying.\r\n# The destination location is set using the $destinationdirectory variable, then appending the text DataBackup.\r\n# It then appends the date using the $dateNow variable. It's encased in brackets so that he variable is substitued into the string.\r\n# The recurse switch includes all subdirectories of the specified source location.\r\ntry {\r\n    Copy-Item -Path $sourceDirectory -Destination $destinationdirectory\\DataBackup-$($dateNow) -Recurse\r\n    WriteToLogFile -message \"Copy job running.\"\r\n}\r\ncatch {\r\n    Write-Warning $Error[0]\r\n    WriteToLogFile -message \"$($Error[0])\"\r\n}\r\n\r\nStart-Sleep 1 # This one is here to make sure the comamnd above has finished before the write-host command executes.\r\nWrite-Host \"Copy Job Completed.\" -ForegroundColor Green\r\nWriteToLogFile -message \"Copy Job Completed.\"\r\n```"
+          "content": "Create a script that can download any file by the URL given by a user. Add in the ability to download multiple items at once.\r\n\r\n<!--truncate-->\r\n:::info Quick Social Plug\r\n\r\nCheck out my other post locations: -\r\n\r\n- [HashNode Link](https://willh.hashnode.dev/)\r\n- [Patreon Link](https://patreon.com/BassJamm?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=creatorshare_creator&utm_content=join_link)\r\n\r\n:::\r\n\r\n## Creating the script\r\n\r\n### Basic functionality\r\n\r\nFirstly, we'll create the logic outline, by that I mean, create the bare bones of the script without any error handling or console output.\r\n\r\n:::note\r\n\r\nI've seen parameter blocks written in multiple ways, I write them this way as I think they're more easily understood by those who are not familiar with them.\r\n\r\n:::\r\n\r\n```powershell showLineNumbers\r\n<# Parameter List #>\r\n[CmdletBinding()]\r\nparam (\r\n    [Parameter(Mandatory=$true)]\r\n    [string] $Source,\r\n    [Parameter(Mandatory=$true)]\r\n    [string] $Destination\r\n)\r\n<# Bare bones of the command to download an item. #>\r\nStart-BitsTransfer -Source $Source -Destination $Destination -TransferType Download\r\n```\r\n\r\nRunning the above script file by type `.\\TOOL-File-download.ps1 -Source \"`[`https://go.microsoft.com/fwlink/p/?LinkID=2195167&clcid=0x409&culture=en-us&country=US`](https://go.microsoft.com/fwlink/p/?LinkID=2195167&clcid=0x409&culture=en-us&country=US)`\" -Destination C:\\Temp\\Server2019.iso` does the job; the output is below.\r\n\r\n\r\nNow to add the ability to see running jobs and historic jobs.\r\n\r\n## Adding running and historic job reports\r\n\r\nAs you can see below, this is becoming a bit longer but, I would not say it is getting any more complex.\r\n\r\n```powershell showLineNumbers\r\n\r\n<# Parameter List #>\r\n[CmdletBinding()]\r\nparam (\r\n    [Parameter()]\r\n    [switch] $JobReport,\r\n    [Parameter()]\r\n    [switch] $JobHistory\r\n)\r\n###### Add the ability to review in-progress download job(s). ######\r\nif ($JobReport) {\r\n    <# Action to perform if the condition is true #>\r\n    Write-Host \"Getting running downloads.\"\r\n    Get-BitsTransfer | Where-Object JobState -EQ 'transferring' | Format-Table JobId, CreationTime,DisplayName,TransferType,JobState,BytesTransferred,BytesTotal -AutoSize\r\n}\r\n###### Add the ability to review historic job(s). ######\r\nif ($JobHistory) {\r\n    <# Action to perform if the condition is true #>\r\n    Write-Host \"Getting historic downloads.\"\r\n    Get-BitsTransfer | Sort-Object CreationTime -Descending | Format-Table JobId, CreationTime,DisplayName,TransferType,JobState,BytesTransferred,BytesTotal -AutoSize\r\n}\r\n```\r\nNow to add a way to cancel running jobs.\r\n\r\n## Canceling jobs\r\n\r\nBelow I have added the code to cancel a running job, although a bit basic and rough it does work.\r\n\r\n```powershell showLineNumbers\r\n\r\n<# Parameter List #>\r\n[CmdletBinding()]\r\nparam (\r\n    [Parameter()]\r\n    [String] $CancelJob\r\n)\r\n\r\n###### Add the ability to cancel job(s). ######\r\nif ($CancelJob) {\r\n    <# Action to perform if the condition is true #>\r\n    Get-BitsTransfer -Name $CancelJob | Remove-BitsTransfer\r\n    Get-BitsTransfer | Where-Object JobState -EQ 'transferring' | Format-Table JobId, CreationTime,DisplayName,TransferType,JobState,BytesTransferred,BytesTotal -AutoSize\r\n    \r\n}\r\n```\r\n\r\n## Adding in some error handling and console output\r\n\r\nBelow I have added in some 'fluff', some try\\\\catch blocks and some write-host functionality to make using this a bit easier.\r\n\r\nTry\\\\Catch blocks are a godsend when it comes to error handling, essentially it means try what is in the try area and catch anything that comes out of it.\r\n\r\n### Downloading the file section\r\n\r\n```powershell showLineNumbers\r\n###### Download a file. ######\r\nif ($Source) {\r\n    <# Action to perform if the condition is true #>\r\n    try {\r\n        Start-BitsTransfer -Source $Source -Destination $Destination -TransferType Download -Asynchronous -DisplayName $JobName\r\n        Write-Host \"Beginning download from $($Source).\"\r\n        Write-Host \"\" # This just adds some more space in the console.\r\n        \r\n    }\r\n    catch {\r\n        <#Do this if a terminating exception happens#>\r\n        Write-Host \"Error when starting the job.\"\r\n        $_\r\n    }\r\n}\r\n```\r\n\r\n### Canceling the download section\r\n\r\n```powershell showLineNumbers\r\n\r\n###### Add the ability to cancel job(s). ######\r\nif ($CancelJob) {\r\n    <# Action to perform if the condition is true #>\r\n    try {\r\n        Get-BitsTransfer -Name $CancelJob | Remove-BitsTransfer\r\n        Write-Host \"Job cancelled successfully.\" -ForegroundColor Green\r\n        Write-Host \"\" # This just adds some more space in the console.\r\n        Start-sleep 2\r\n        Write-Host \"Remaining jobs listed below.\" -ForegroundColor Yellow\r\n        Write-Host \"\" # This just adds some more space in the console.\r\n        Start-sleep 1\r\n        Get-BitsTransfer | Where-Object JobState -EQ 'transferring' | Format-Table JobId, CreationTime,DisplayName,TransferType,JobState,BytesTransferred,BytesTotal -AutoSize    \r\n    }\r\n    catch {\r\n        <#Do this if a terminating exception happens#>\r\n        Write-Host \"Error when cancelling job.\"\r\n        $_\r\n    }\r\n}\r\n```\r\n\r\n## Full Script\r\n\r\n```powershell\r\n\r\n<# Parameter List #>\r\n[CmdletBinding()]\r\nparam (\r\n    [Parameter()]\r\n    [string] $Source,\r\n    [Parameter()]\r\n    [string] $Destination,\r\n    [Parameter()]\r\n    [string] $JobName,\r\n    [Parameter()]\r\n    [switch] $RunningJobs,\r\n    [Parameter()]\r\n    [switch] $JobHistory,\r\n    [Parameter()]\r\n    [String] $CancelJob\r\n)\r\n###### Download a file. ######\r\nif ($Source) {\r\n    <# Action to perform if the condition is true #>\r\n    try {\r\n        Start-BitsTransfer -Source $Source -Destination $Destination -TransferType Download -Asynchronous -DisplayName $JobName\r\n        Write-Host \"Beginning download from $($Source).\"\r\n        Write-Host \"\" # This just adds some more space in the console.\r\n        \r\n    }\r\n    catch {\r\n        <#Do this if a terminating exception happens#>\r\n        Write-Host \"Error when starting the job.\"\r\n        $_\r\n    }\r\n}\r\n\r\n###### Add the ability to review in-progress download job(s). ######\r\nif ($RunningJobs) {\r\n    <# Action to perform if the condition is true #>\r\n    Write-Host \"Getting running downloads.\"\r\n    Write-Host \"\" # This just adds some more space in the console.\r\n    Get-BitsTransfer | Where-Object JobState -EQ 'transferring' | Format-Table JobId, CreationTime,DisplayName,TransferType,JobState,BytesTransferred,BytesTotal -AutoSize\r\n}\r\n\r\n###### Add the ability to review historic job(s). ######\r\nif ($JobHistory) {\r\n    <# Action to perform if the condition is true #>\r\n    Write-Host \"Getting historic downloads.\"\r\n    Get-BitsTransfer | Sort-Object CreationTime -Descending | Format-Table JobId, CreationTime,DisplayName,TransferType,JobState,BytesTransferred,BytesTotal -AutoSize\r\n}\r\n\r\n###### Add the ability to cancel job(s). ######\r\nif ($CancelJob) {\r\n    <# Action to perform if the condition is true #>\r\n\r\n    try {\r\n        Get-BitsTransfer -Name $CancelJob | Remove-BitsTransfer\r\n        Write-Host \"Job cancelled successfully.\" -ForegroundColor Green\r\n        Write-Host \"\" # This just adds some more space in the console.\r\n        Start-sleep 2\r\n        Write-Host \"Remaining jobs listed below.\" -ForegroundColor Yellow\r\n        Write-Host \"\" # This just adds some more space in the console.\r\n        Start-sleep 1\r\n        Get-BitsTransfer | Where-Object JobState -EQ 'transferring' | Format-Table JobId, CreationTime,DisplayName,TransferType,JobState,BytesTransferred,BytesTotal -AutoSize\r\n        \r\n    }\r\n    catch {\r\n        <#Do this if a terminating exception happens#>\r\n        Write-Host \"Error when cancelling job.\"\r\n        $_\r\n    }\r\n\r\n}\r\n```\r\n\r\n## Bonus: Multiple downloads\r\n\r\nThe `Start-BitsTransfer` command supports pipeline input, so you can add multiple download links using a text file.\r\n\r\nCreate a text file in the format below, this is a typical csv format.\r\n\r\n![](https://cdn.hashnode.com/res/hashnode/image/upload/v1690560380176/0d5d0ab7-5b77-4010-9ed7-e30d780a510a.png align=\"center\")\r\n\r\nAdditional Code was added to the script.\r\n\r\n```powershell\r\n\r\n<# Parameter List #>\r\n[CmdletBinding()]\r\nparam (\r\n    [Parameter()]\r\n    [string] $MultiJobDownload\r\n)\r\n###### Download multiple files. ######\r\nif ($MultiJobDownload) {\r\n    <# Action to perform if the condition is true #>\r\n    try {\r\n        Import-csv -Path $MultiJobDownload | Start-BitsTransfer -Asynchronous\r\n        Write-Host \"Beginning download from listed sources.\"\r\n        Write-Host \"\" # This just adds some more space in the console.\r\n        Start-Sleep 1\r\n        Write-Host \" Sources and destinations below: -\"\r\n        Get-Content -Path $MultiJobDownload\r\n        \r\n    }\r\n    catch {\r\n        <#Do this if a terminating exception happens#>\r\n        Write-Host \"Error when starting the job.\"\r\n        $_\r\n    }\r\n}\r\n```"
         },
         {
-          "id": "welcome-docusaurus-v2",
+          "id": "welcome",
           "metadata": {
-            "permalink": "/blog/welcome-docusaurus-v2",
-            "source": "@site/blog/09-05-hello-docusaurus-v2.md",
-            "title": "Welcome Docusaurus v2",
-            "description": "This is my first post on Docusaurus 2.",
+            "permalink": "/blog/welcome",
+            "source": "@site/blog/09-05-welcome-v2.md",
+            "title": "Hi!",
+            "description": "First blog post.",
             "date": "2023-05-20T10:00:00.000Z",
             "formattedDate": "May 20, 2023",
             "tags": [
@@ -1574,7 +1584,7 @@
                 "permalink": "/blog/tags/docusaurus-v-2"
               }
             ],
-            "readingTime": 0.09,
+            "readingTime": 0.1,
             "hasTruncateMarker": true,
             "authors": [
               {
@@ -1584,9 +1594,9 @@
               }
             ],
             "frontMatter": {
-              "title": "Welcome Docusaurus v2",
-              "description": "This is my first post on Docusaurus 2.",
-              "slug": "welcome-docusaurus-v2",
+              "title": "Hi!",
+              "description": "First blog post.",
+              "slug": "welcome",
               "date": "2023-05-20T10:00",
               "authors": [
                 {
@@ -1603,18 +1613,18 @@
               "hide_table_of_contents": false
             },
             "prevItem": {
-              "title": "Code Challenge - 001 - File Backup Utility",
-              "permalink": "/blog/Code-Challenge-001"
+              "title": "Challenge 1 - File Download Script with PowerShell",
+              "permalink": "/blog/pwsh-challenge-001"
             }
           },
-          "content": "Welcome to this blog. This blog is created with [**Docusaurus 2**](https://docusaurus.io/).\r\n\r\n<!--truncate-->\r\n\r\nThis is my first post on Docusaurus 2.\r\n\r\nA whole bunch of exploration to follow!"
+          "content": "Welcome to the blog.\r\n\r\nThis blog is created with [**Docusaurus 2**](https://docusaurus.io/).\r\n\r\n<!--truncate-->\r\n:::info Quick Social Plug\r\n\r\nCheck out my other post locations: -\r\n\r\n- [HashNode Link](https://willh.hashnode.dev/)\r\n- [Patreon Link](https://patreon.com/BassJamm?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=creatorshare_creator&utm_content=join_link)\r\n\r\n:::"
         }
       ],
       "blogListPaginated": [
         {
           "items": [
-            "Code-Challenge-001",
-            "welcome-docusaurus-v2"
+            "pwsh-challenge-001",
+            "welcome"
           ],
           "metadata": {
             "permalink": "/blog/",
@@ -1628,19 +1638,65 @@
         }
       ],
       "blogTags": {
-        "/blog/tags/code-challenge": {
-          "label": "Code-Challenge",
+        "/blog/tags/power-shell": {
+          "label": "PowerShell",
           "items": [
-            "Code-Challenge-001"
+            "pwsh-challenge-001"
           ],
-          "permalink": "/blog/tags/code-challenge",
+          "permalink": "/blog/tags/power-shell",
           "pages": [
             {
               "items": [
-                "Code-Challenge-001"
+                "pwsh-challenge-001"
               ],
               "metadata": {
-                "permalink": "/blog/tags/code-challenge",
+                "permalink": "/blog/tags/power-shell",
+                "page": 1,
+                "postsPerPage": 1,
+                "totalPages": 1,
+                "totalCount": 1,
+                "blogDescription": "Blog",
+                "blogTitle": "Blog"
+              }
+            }
+          ]
+        },
+        "/blog/tags/script": {
+          "label": "Script",
+          "items": [
+            "pwsh-challenge-001"
+          ],
+          "permalink": "/blog/tags/script",
+          "pages": [
+            {
+              "items": [
+                "pwsh-challenge-001"
+              ],
+              "metadata": {
+                "permalink": "/blog/tags/script",
+                "page": 1,
+                "postsPerPage": 1,
+                "totalPages": 1,
+                "totalCount": 1,
+                "blogDescription": "Blog",
+                "blogTitle": "Blog"
+              }
+            }
+          ]
+        },
+        "/blog/tags/challenge": {
+          "label": "Challenge",
+          "items": [
+            "pwsh-challenge-001"
+          ],
+          "permalink": "/blog/tags/challenge",
+          "pages": [
+            {
+              "items": [
+                "pwsh-challenge-001"
+              ],
+              "metadata": {
+                "permalink": "/blog/tags/challenge",
                 "page": 1,
                 "postsPerPage": 1,
                 "totalPages": 1,
@@ -1654,13 +1710,13 @@
         "/blog/tags/hello": {
           "label": "hello",
           "items": [
-            "welcome-docusaurus-v2"
+            "welcome"
           ],
           "permalink": "/blog/tags/hello",
           "pages": [
             {
               "items": [
-                "welcome-docusaurus-v2"
+                "welcome"
               ],
               "metadata": {
                 "permalink": "/blog/tags/hello",
@@ -1677,13 +1733,13 @@
         "/blog/tags/docusaurus-v-2": {
           "label": "docusaurus-v2",
           "items": [
-            "welcome-docusaurus-v2"
+            "welcome"
           ],
           "permalink": "/blog/tags/docusaurus-v-2",
           "pages": [
             {
               "items": [
-                "welcome-docusaurus-v2"
+                "welcome"
               ],
               "metadata": {
                 "permalink": "/blog/tags/docusaurus-v-2",

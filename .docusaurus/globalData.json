@@ -1,4 +1,12 @@
 {
+  "docusaurus-lunr-search": {
+    "default": {
+      "fileNames": {
+        "searchDoc": "search-doc-1691229520621.json",
+        "lunrIndex": "lunr-index-1691229520621.json"
+      }
+    }
+  },
   "docusaurus-plugin-google-gtag": {
     "default": {
       "trackingID": [
@@ -6,14 +14,6 @@
       ],
       "anonymizeIP": true,
       "id": "default"
-    }
-  },
-  "docusaurus-lunr-search": {
-    "default": {
-      "fileNames": {
-        "searchDoc": "search-doc-1688508265303.json",
-        "lunrIndex": "lunr-index-1688508265303.json"
-      }
     }
   },
   "docusaurus-plugin-content-docs": {

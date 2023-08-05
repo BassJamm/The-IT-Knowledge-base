@@ -1,0 +1,55 @@
+{
+  "permalink": "/blog/pwsh-challenge-001",
+  "source": "@site/blog/2023/05-08-PWSH-Challenge-001.md",
+  "title": "Challenge 1 - File Download Script with PowerShell",
+  "description": "Create a script that can download any file by the URL given by a user.",
+  "date": "2023-08-05T11:00:00.000Z",
+  "formattedDate": "August 5, 2023",
+  "tags": [
+    {
+      "label": "PowerShell",
+      "permalink": "/blog/tags/power-shell"
+    },
+    {
+      "label": "Script",
+      "permalink": "/blog/tags/script"
+    },
+    {
+      "label": "Challenge",
+      "permalink": "/blog/tags/challenge"
+    }
+  ],
+  "readingTime": 3.4366666666666665,
+  "hasTruncateMarker": true,
+  "authors": [
+    {
+      "name": "Will",
+      "title": "Creator of the IT KB.",
+      "url": "https://github.com/BassJamm?tab=repositories"
+    }
+  ],
+  "frontMatter": {
+    "title": "Challenge 1 - File Download Script with PowerShell",
+    "description": "Create a script that can download any file by the URL given by a user.",
+    "slug": "pwsh-challenge-001",
+    "date": "2023-08-05T11:00",
+    "authors": [
+      {
+        "name": "Will",
+        "title": "Creator of the IT KB.",
+        "url": "https://github.com/BassJamm?tab=repositories"
+      }
+    ],
+    "tags": [
+      "PowerShell",
+      "Script",
+      "Challenge"
+    ],
+    "image": "https://i.imgur.com/mErPwqL.png",
+    "hide_table_of_contents": false
+  },
+  "nextItem": {
+    "title": "Hi!",
+    "permalink": "/blog/welcome"
+  }
+}

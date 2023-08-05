@@ -38,6 +38,10 @@
     "image": "https://i.imgur.com/mErPwqL.png",
     "hide_table_of_contents": false
   },
+  "prevItem": {
+    "title": "Challenge 1 - File Download Script with PowerShell",
+    "permalink": "/blog/pwsh-challenge-001"
+  },
   "nextItem": {
     "title": "Welcome Docusaurus v2",
     "permalink": "/blog/welcome-docusaurus-v2"

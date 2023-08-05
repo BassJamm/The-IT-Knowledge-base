@@ -48,7 +48,7 @@ export default {
         "blog": {
           "path": "blog",
           "postsPerPage": "ALL",
-          "blogSidebarTitle": "All posts",
+          "blogSidebarTitle": "Posts So Far",
           "blogSidebarCount": "ALL",
           "showReadingTime": true,
           "routeBasePath": "/blog/"

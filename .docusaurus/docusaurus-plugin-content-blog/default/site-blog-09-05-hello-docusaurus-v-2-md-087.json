@@ -1,8 +1,8 @@
 {
-  "permalink": "/blog/welcome-docusaurus-v2",
+  "permalink": "/blog/welcome",
   "source": "@site/blog/09-05-hello-docusaurus-v2.md",
-  "title": "Welcome Docusaurus v2",
-  "description": "This is my first post on Docusaurus 2.",
+  "title": "Hi!",
+  "description": "First blog post.",
   "date": "2023-05-20T10:00:00.000Z",
   "formattedDate": "May 20, 2023",
   "tags": [
@@ -15,7 +15,7 @@
       "permalink": "/blog/tags/docusaurus-v-2"
     }
   ],
-  "readingTime": 0.09,
+  "readingTime": 0.1,
   "hasTruncateMarker": true,
   "authors": [
     {
@@ -25,9 +25,9 @@
     }
   ],
   "frontMatter": {
-    "title": "Welcome Docusaurus v2",
-    "description": "This is my first post on Docusaurus 2.",
-    "slug": "welcome-docusaurus-v2",
+    "title": "Hi!",
+    "description": "First blog post.",
+    "slug": "welcome",
     "date": "2023-05-20T10:00",
     "authors": [
       {
@@ -44,7 +44,7 @@
     "hide_table_of_contents": false
   },
   "prevItem": {
-    "title": "Code Challenge - 001 - File Backup Utility",
-    "permalink": "/blog/Code-Challenge-001"
+    "title": "Challenge 1 - File Download Script with PowerShell",
+    "permalink": "/blog/pwsh-challenge-001"
   }
 }

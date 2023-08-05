@@ -1,5 +1,5 @@
 {
-  "/blog/-9fc": {
+  "/blog/-2ff": {
     "__comp": "a6aa9e1f",
     "__context": {
       "plugin": "911c5ad8"
@@ -7,10 +7,10 @@
     "sidebar": "814f3328",
     "items": [
       {
-        "content": "2a346711"
+        "content": "95c790e9"
       },
       {
-        "content": "db262c79"
+        "content": "852a0d3f"
       }
     ],
     "metadata": "44176adc"
@@ -22,13 +22,13 @@
     },
     "archive": "b2f554cd"
   },
-  "/blog/Code-Challenge-001-de3": {
+  "/blog/pwsh-challenge-001-a06": {
     "__comp": "ccc49370",
     "__context": {
       "plugin": "911c5ad8"
     },
     "sidebar": "814f3328",
-    "content": "a0489afd"
+    "content": "5c2e4d19"
   },
   "/blog/tags-cce": {
     "__comp": "01a85c17",
@@ -38,7 +38,7 @@
     "sidebar": "814f3328",
     "tags": "a7023ddc"
   },
-  "/blog/tags/code-challenge-501": {
+  "/blog/tags/challenge-dbc": {
     "__comp": "6875c492",
     "__context": {
       "plugin": "911c5ad8"
@@ -46,13 +46,13 @@
     "sidebar": "814f3328",
     "items": [
       {
-        "content": "2a346711"
+        "content": "95c790e9"
       }
     ],
-    "tag": "11368303",
-    "listMetadata": "3f6cbbf6"
+    "tag": "3d2c9dad",
+    "listMetadata": "9943c147"
   },
-  "/blog/tags/docusaurus-v-2-04a": {
+  "/blog/tags/docusaurus-v-2-3ba": {
     "__comp": "6875c492",
     "__context": {
       "plugin": "911c5ad8"
@@ -60,13 +60,13 @@
     "sidebar": "814f3328",
     "items": [
       {
-        "content": "db262c79"
+        "content": "852a0d3f"
       }
     ],
     "tag": "a95024e1",
     "listMetadata": "1e7a3abd"
   },
-  "/blog/tags/hello-d9a": {
+  "/blog/tags/hello-b35": {
     "__comp": "6875c492",
     "__context": {
       "plugin": "911c5ad8"
@@ -74,19 +74,47 @@
     "sidebar": "814f3328",
     "items": [
       {
-        "content": "db262c79"
+        "content": "852a0d3f"
       }
     ],
     "tag": "30a24c52",
     "listMetadata": "66406991"
   },
-  "/blog/welcome-docusaurus-v2-979": {
+  "/blog/tags/power-shell-a0c": {
+    "__comp": "6875c492",
+    "__context": {
+      "plugin": "911c5ad8"
+    },
+    "sidebar": "814f3328",
+    "items": [
+      {
+        "content": "95c790e9"
+      }
+    ],
+    "tag": "ceb630ed",
+    "listMetadata": "ca9c5852"
+  },
+  "/blog/tags/script-02b": {
+    "__comp": "6875c492",
+    "__context": {
+      "plugin": "911c5ad8"
+    },
+    "sidebar": "814f3328",
+    "items": [
+      {
+        "content": "95c790e9"
+      }
+    ],
+    "tag": "c5432e98",
+    "listMetadata": "fb7ca695"
+  },
+  "/blog/welcome-c05": {
     "__comp": "ccc49370",
     "__context": {
       "plugin": "911c5ad8"
     },
     "sidebar": "814f3328",
-    "content": "087bcd2f"
+    "content": "c13a3802"
   },
   "/docs/tags-8b6": {
     "__comp": "3720c009",

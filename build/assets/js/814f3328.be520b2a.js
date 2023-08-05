@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[2535],{5641:e=>{e.exports=JSON.parse('{"title":"All posts","items":[{"title":"Code Challenge - 001 - File Backup Utility","permalink":"/blog/Code-Challenge-001"},{"title":"Welcome Docusaurus v2","permalink":"/blog/welcome-docusaurus-v2"}]}')}}]);
