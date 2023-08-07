@@ -1507,6 +1507,66 @@
       "blogSidebarTitle": "Posts So Far",
       "blogPosts": [
         {
+          "id": "pwsh-challenge-002",
+          "metadata": {
+            "permalink": "/blog/pwsh-challenge-002",
+            "source": "@site/blog/2023/07-08-PWSH-Challenge-002.md",
+            "title": "Challenge 2 - Folder Size Report with PowerShell",
+            "description": "Create a script that can download any file by the URL given by a user.",
+            "date": "2023-08-07T11:00:00.000Z",
+            "formattedDate": "August 7, 2023",
+            "tags": [
+              {
+                "label": "PowerShell",
+                "permalink": "/blog/tags/power-shell"
+              },
+              {
+                "label": "Script",
+                "permalink": "/blog/tags/script"
+              },
+              {
+                "label": "Challenge",
+                "permalink": "/blog/tags/challenge"
+              }
+            ],
+            "readingTime": 1.45,
+            "hasTruncateMarker": true,
+            "authors": [
+              {
+                "name": "Will",
+                "title": "Creator of the IT KB.",
+                "url": "https://github.com/BassJamm?tab=repositories"
+              }
+            ],
+            "frontMatter": {
+              "draft": true,
+              "title": "Challenge 2 - Folder Size Report with PowerShell",
+              "description": "Create a script that can download any file by the URL given by a user.",
+              "slug": "pwsh-challenge-002",
+              "date": "2023-08-07T11:00",
+              "authors": [
+                {
+                  "name": "Will",
+                  "title": "Creator of the IT KB.",
+                  "url": "https://github.com/BassJamm?tab=repositories"
+                }
+              ],
+              "tags": [
+                "PowerShell",
+                "Script",
+                "Challenge"
+              ],
+              "image": "https://i.imgur.com/mErPwqL.png",
+              "hide_table_of_contents": false
+            },
+            "nextItem": {
+              "title": "Challenge 1 - File Download Script with PowerShell",
+              "permalink": "/blog/pwsh-challenge-001"
+            }
+          },
+          "content": "Create a script that calculates the total size of a given folder and all its subfolders (recursively). The script should display the size in a human-readable format (e.g., KB, MB, GB).\r\n\r\n<!--truncate-->\r\n:::info Quick Social Plug\r\n\r\nCheck out my other post locations: -\r\n\r\n- [HashNode Link](https://willh.hashnode.dev/)\r\n- [Patreon Link](https://patreon.com/BassJamm?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=creatorshare_creator&utm_content=join_link)\r\n\r\n:::\r\n\r\n## End Result\r\n\r\nThought I would put the result first, and save people from scrolling, those who wish to see the process can read the rest of this!\r\n\r\nI decided not to add any error handling into this, as it's quite hard to break this one!\r\n\r\n:::note\r\n\r\nSorry for the backticks, it makes it a bit easier to read on the page as it's quite slim!\r\n\r\n:::\r\n\r\n[Link to script in GitHub!](https://github.com/BassJamm/PowerShellChallenge/blob/51799e1b087f846285f15bff9df9f019caa12fdc/Folder-Report/TOOL-Folder-Report.ps1)\r\n\r\n```powershell showLineNumbers\r\n\r\n###### Prompt user for flder input. ######\r\n$sourceDirectory = Read-Host -Prompt \"Please enter the directory you wish to scan\"\r\n\r\n###### Get all Directories in that location. ######\r\n$ChildDirectories = Get-ChildItem $sourceDirectory | `\r\n                        Where-Object {$_.PSIsContainer -eq $true} | `\r\n                        Sort-Object Name\r\n\r\n###### Foreach directory get all items recursively. ######\r\n$childDirectorySizes = foreach ($folder in $ChildDirectories) {\r\n\r\n    $subFolderItems = Get-ChildItem $folder.FullName -recurse -force | `\r\n    Where-Object {$_.PSIsContainer -eq $false} | `\r\n    Measure-Object -property Length -sum | `\r\n    Select-Object Sum  \r\n\r\n    New-Object psobject -property @{\r\n        \"Location\" = $folder.FullName\r\n        \"Size(MB)\" = [Math]::Round($subFolderItems.sum /1MB, 2)\r\n    }\r\n}\r\n\r\n###### Provide a size report of the directory and child directories. ######\r\n$childDirectorySizes | Format-Table 'Location','Size(MB)' -AutoSize\r\n\r\n```\r\n\r\n## Building the script\r\n\r\nI would like to start by saying I am not an expert at this but, these challenges prompt learning and thus I aim to be better for the next challenge and so on.\r\n\r\n### Prompting for user input\r\n\r\nFirstly, we need to get the folder location from the end user. I've done this using the Read-Host command with the `-prompt` parameter. This is a staple command I have found in almost every script requiring user input.\r\n\r\n```powershell showLineNumbers\r\n$sourceDirectory = Read-Host -Prompt \"Please enter the directory you wish to scan\"\r\n```\r\n\r\nThe `Read-Host -prompt` input is then stored in the `$sourceDirectory`` variable for later use.\r\n\r\n### Getting the Folders\r\n\r\nSecondly, we need to identify the folders that are within the directory the user gave us. We are doing this with the `Get-ChildItem` command, which gets everything in that location, Folders, or Files.\r\n\r\nI'm then piping this `|` into a `Where-Object` command which then identifies the Folders or containers.\r\n\r\n:::info\r\nI've added a sort by \"name\" at the end, as I want to display the first 10 items in the console, to indicate that the script has found items to the end user. It is completely unnecessary!\r\n:::"
+        },
+        {
           "id": "pwsh-challenge-001",
           "metadata": {
             "permalink": "/blog/pwsh-challenge-001",
@@ -1557,6 +1617,10 @@
               ],
               "image": "https://i.imgur.com/mErPwqL.png",
               "hide_table_of_contents": false
+            },
+            "prevItem": {
+              "title": "Challenge 2 - Folder Size Report with PowerShell",
+              "permalink": "/blog/pwsh-challenge-002"
             },
             "nextItem": {
               "title": "Hi!",
@@ -1623,15 +1687,16 @@
       "blogListPaginated": [
         {
           "items": [
+            "pwsh-challenge-002",
             "pwsh-challenge-001",
             "welcome"
           ],
           "metadata": {
             "permalink": "/blog/",
             "page": 1,
-            "postsPerPage": 2,
+            "postsPerPage": 3,
             "totalPages": 1,
-            "totalCount": 2,
+            "totalCount": 3,
             "blogDescription": "Blog",
             "blogTitle": "Blog"
           }
@@ -1641,20 +1706,22 @@
         "/blog/tags/power-shell": {
           "label": "PowerShell",
           "items": [
+            "pwsh-challenge-002",
             "pwsh-challenge-001"
           ],
           "permalink": "/blog/tags/power-shell",
           "pages": [
             {
               "items": [
+                "pwsh-challenge-002",
                 "pwsh-challenge-001"
               ],
               "metadata": {
                 "permalink": "/blog/tags/power-shell",
                 "page": 1,
-                "postsPerPage": 1,
+                "postsPerPage": 2,
                 "totalPages": 1,
-                "totalCount": 1,
+                "totalCount": 2,
                 "blogDescription": "Blog",
                 "blogTitle": "Blog"
               }
@@ -1664,20 +1731,22 @@
         "/blog/tags/script": {
           "label": "Script",
           "items": [
+            "pwsh-challenge-002",
             "pwsh-challenge-001"
           ],
           "permalink": "/blog/tags/script",
           "pages": [
             {
               "items": [
+                "pwsh-challenge-002",
                 "pwsh-challenge-001"
               ],
               "metadata": {
                 "permalink": "/blog/tags/script",
                 "page": 1,
-                "postsPerPage": 1,
+                "postsPerPage": 2,
                 "totalPages": 1,
-                "totalCount": 1,
+                "totalCount": 2,
                 "blogDescription": "Blog",
                 "blogTitle": "Blog"
               }
@@ -1687,20 +1756,22 @@
         "/blog/tags/challenge": {
           "label": "Challenge",
           "items": [
+            "pwsh-challenge-002",
             "pwsh-challenge-001"
           ],
           "permalink": "/blog/tags/challenge",
           "pages": [
             {
               "items": [
+                "pwsh-challenge-002",
                 "pwsh-challenge-001"
               ],
               "metadata": {
                 "permalink": "/blog/tags/challenge",
                 "page": 1,
-                "postsPerPage": 1,
+                "postsPerPage": 2,
                 "totalPages": 1,
-                "totalCount": 1,
+                "totalCount": 2,
                 "blogDescription": "Blog",
                 "blogTitle": "Blog"
               }
