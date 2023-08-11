@@ -1,11 +1,14 @@
 {
-  "/blog/-2ff": {
+  "/blog/-5da": {
     "__comp": "a6aa9e1f",
     "__context": {
       "plugin": "911c5ad8"
     },
     "sidebar": "814f3328",
     "items": [
+      {
+        "content": "f7bec949"
+      },
       {
         "content": "95c790e9"
       },
@@ -30,6 +33,14 @@
     "sidebar": "814f3328",
     "content": "5c2e4d19"
   },
+  "/blog/pwsh-challenge-002-e5f": {
+    "__comp": "ccc49370",
+    "__context": {
+      "plugin": "911c5ad8"
+    },
+    "sidebar": "814f3328",
+    "content": "a5aa853d"
+  },
   "/blog/tags-cce": {
     "__comp": "01a85c17",
     "__context": {
@@ -38,13 +49,16 @@
     "sidebar": "814f3328",
     "tags": "a7023ddc"
   },
-  "/blog/tags/challenge-dbc": {
+  "/blog/tags/challenge-cdc": {
     "__comp": "6875c492",
     "__context": {
       "plugin": "911c5ad8"
     },
     "sidebar": "814f3328",
     "items": [
+      {
+        "content": "f7bec949"
+      },
       {
         "content": "95c790e9"
       }
@@ -80,7 +94,7 @@
     "tag": "30a24c52",
     "listMetadata": "66406991"
   },
-  "/blog/tags/power-shell-a0c": {
+  "/blog/tags/power-shell-a94": {
     "__comp": "6875c492",
     "__context": {
       "plugin": "911c5ad8"
@@ -88,19 +102,25 @@
     "sidebar": "814f3328",
     "items": [
       {
+        "content": "f7bec949"
+      },
+      {
         "content": "95c790e9"
       }
     ],
     "tag": "ceb630ed",
     "listMetadata": "ca9c5852"
   },
-  "/blog/tags/script-02b": {
+  "/blog/tags/script-33b": {
     "__comp": "6875c492",
     "__context": {
       "plugin": "911c5ad8"
     },
     "sidebar": "814f3328",
     "items": [
+      {
+        "content": "f7bec949"
+      },
       {
         "content": "95c790e9"
       }

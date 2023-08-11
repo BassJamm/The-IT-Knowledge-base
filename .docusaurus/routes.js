@@ -4,7 +4,7 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 export default [
   {
     path: '/blog/',
-    component: ComponentCreator('/blog/', '2ff'),
+    component: ComponentCreator('/blog/', '5da'),
     exact: true
   },
   {
@@ -18,13 +18,18 @@ export default [
     exact: true
   },
   {
+    path: '/blog/pwsh-challenge-002',
+    component: ComponentCreator('/blog/pwsh-challenge-002', 'e5f'),
+    exact: true
+  },
+  {
     path: '/blog/tags',
     component: ComponentCreator('/blog/tags', 'cce'),
     exact: true
   },
   {
     path: '/blog/tags/challenge',
-    component: ComponentCreator('/blog/tags/challenge', 'dbc'),
+    component: ComponentCreator('/blog/tags/challenge', 'cdc'),
     exact: true
   },
   {
@@ -39,12 +44,12 @@ export default [
   },
   {
     path: '/blog/tags/power-shell',
-    component: ComponentCreator('/blog/tags/power-shell', 'a0c'),
+    component: ComponentCreator('/blog/tags/power-shell', 'a94'),
     exact: true
   },
   {
     path: '/blog/tags/script',
-    component: ComponentCreator('/blog/tags/script', '02b'),
+    component: ComponentCreator('/blog/tags/script', '33b'),
     exact: true
   },
   {

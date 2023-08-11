@@ -2,6 +2,10 @@
   "title": "Posts So Far",
   "items": [
     {
+      "title": "Challenge 2 - Folder Size Report with PowerShell",
+      "permalink": "/blog/pwsh-challenge-002"
+    },
+    {
       "title": "Challenge 1 - File Download Script with PowerShell",
       "permalink": "/blog/pwsh-challenge-001"
     },

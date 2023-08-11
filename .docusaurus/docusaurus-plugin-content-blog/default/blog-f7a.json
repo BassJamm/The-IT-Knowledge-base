@@ -1,9 +1,9 @@
 {
   "permalink": "/blog/",
   "page": 1,
-  "postsPerPage": 2,
+  "postsPerPage": 3,
   "totalPages": 1,
-  "totalCount": 2,
+  "totalCount": 3,
   "blogDescription": "Blog",
   "blogTitle": "Blog"
 }

@@ -19,7 +19,7 @@
       "permalink": "/blog/tags/challenge"
     }
   ],
-  "readingTime": 1.45,
+  "readingTime": 3.3766666666666665,
   "hasTruncateMarker": true,
   "authors": [
     {
@@ -29,7 +29,7 @@
     }
   ],
   "frontMatter": {
-    "draft": true,
+    "draft": false,
     "title": "Challenge 2 - Folder Size Report with PowerShell",
     "description": "Create a script that can download any file by the URL given by a user.",
     "slug": "pwsh-challenge-002",
@@ -46,7 +46,7 @@
       "Script",
       "Challenge"
     ],
-    "image": "https://i.imgur.com/mErPwqL.png",
+    "image": "https://cdn.hashnode.com/res/hashnode/image/upload/v1690624765820/c7da8f32-0c1e-4ca0-a807-bb4efe449c18.png?w=1600&h=840&fit=crop&crop=entropy&auto=compress,format&format=webp",
     "hide_table_of_contents": false
   },
   "nextItem": {

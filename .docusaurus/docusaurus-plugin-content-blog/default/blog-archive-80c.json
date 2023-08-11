@@ -1,6 +1,66 @@
 {
   "blogPosts": [
     {
+      "id": "pwsh-challenge-002",
+      "metadata": {
+        "permalink": "/blog/pwsh-challenge-002",
+        "source": "@site/blog/2023/07-08-PWSH-Challenge-002.md",
+        "title": "Challenge 2 - Folder Size Report with PowerShell",
+        "description": "Create a script that can download any file by the URL given by a user.",
+        "date": "2023-08-07T11:00:00.000Z",
+        "formattedDate": "August 7, 2023",
+        "tags": [
+          {
+            "label": "PowerShell",
+            "permalink": "/blog/tags/power-shell"
+          },
+          {
+            "label": "Script",
+            "permalink": "/blog/tags/script"
+          },
+          {
+            "label": "Challenge",
+            "permalink": "/blog/tags/challenge"
+          }
+        ],
+        "readingTime": 3.3766666666666665,
+        "hasTruncateMarker": true,
+        "authors": [
+          {
+            "name": "Will",
+            "title": "Creator of the IT KB.",
+            "url": "https://github.com/BassJamm?tab=repositories"
+          }
+        ],
+        "frontMatter": {
+          "draft": false,
+          "title": "Challenge 2 - Folder Size Report with PowerShell",
+          "description": "Create a script that can download any file by the URL given by a user.",
+          "slug": "pwsh-challenge-002",
+          "date": "2023-08-07T11:00",
+          "authors": [
+            {
+              "name": "Will",
+              "title": "Creator of the IT KB.",
+              "url": "https://github.com/BassJamm?tab=repositories"
+            }
+          ],
+          "tags": [
+            "PowerShell",
+            "Script",
+            "Challenge"
+          ],
+          "image": "https://cdn.hashnode.com/res/hashnode/image/upload/v1690624765820/c7da8f32-0c1e-4ca0-a807-bb4efe449c18.png?w=1600&h=840&fit=crop&crop=entropy&auto=compress,format&format=webp",
+          "hide_table_of_contents": false
+        },
+        "nextItem": {
+          "title": "Challenge 1 - File Download Script with PowerShell",
+          "permalink": "/blog/pwsh-challenge-001"
+        }
+      },
+      "content": "Create a script that calculates the total size of a given folder and all its subfolders (recursively). The script should display the size in a human-readable format (e.g., KB, MB, GB).\r\n\r\n<!--truncate-->\r\n:::info Quick Social Plug\r\n\r\nCheck out my other post locations: -\r\n\r\n- [HashNode Link](https://willh.hashnode.dev/)\r\n- [Patreon Link](https://patreon.com/BassJamm?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=creatorshare_creator&utm_content=join_link)\r\n\r\n:::\r\n\r\n## End Result\r\n\r\nThought I would put the result first, and save people from scrolling, those who wish to see the process can read the rest of this!\r\n\r\nI decided not to add any error handling into this, as it's quite hard to break this one!\r\n\r\n:::note\r\n\r\nSorry for the backticks, it makes it a bit easier to read on the page as it's quite slim!\r\n\r\n:::\r\n\r\n[Link to script in GitHub!](https://github.com/BassJamm/PowerShellChallenge/blob/51799e1b087f846285f15bff9df9f019caa12fdc/Folder-Report/TOOL-Folder-Report.ps1)\r\n\r\n```powershell showLineNumbers\r\n###### Prompt user for flder input. ######\r\n$sourceDirectory = Read-Host -Prompt \"Please enter the directory you wish to scan\"\r\n\r\n###### Get all Directories in that location. ######\r\nWrite-Host \"Collecting the diretory information.\" -ForegroundColor Yellow\r\n$ChildDirectories = (Get-ChildItem $sourceDirectory -Directory).FullName\r\nStart-Sleep 1\r\nWrite-Host \"Directories found successfully.\" -ForegroundColor Green\r\n\r\n###### Foreach directory get all items recursively. ######\r\nWrite-Host \"Processing items.\" -ForegroundColor Yellow\r\n$childDirectorySizes = foreach ($folder in $ChildDirectories) {\r\n    [PSCustomObject]@{\r\n        \"Location\"  = $folder\r\n        \"FileItems\" = (Get-ChildItem $folder -Recurse -Force | Where-Object { $_.PSIsContainer -eq $false } | Measure-Object | Select-Object Count).Count\r\n        \"Size(MB)\"  = [Math]::Round((Get-ChildItem $folder -Recurse -Force | Where-Object { $_.PSIsContainer -eq $false } | Measure-Object -Property Length -Sum | Select-Object Sum).Sum / 1MB, 3)\r\n    }\r\n\r\n}\r\nWrite-Host \"All subdirectories processed successfully.\" -ForegroundColor Green\r\n\r\n###### Provide a size report of the directory and child directories. ######\r\n$childDirectorySizes | Format-Table * -AutoSize\r\n\r\n```\r\n\r\n## Building the script\r\n\r\nI would like to start by saying I am not an expert at this but, these challenges prompt learning and thus I aim to be better for the next challenge and so on.\r\n\r\n### Prompting for user input\r\n\r\nFirstly, we need to get the folder location from the end user. I've done this using the Read-Host command with the `-prompt` parameter. This is a staple command I have found in almost every script requiring user input.\r\n\r\n```powershell showLineNumbers\r\n$sourceDirectory = Read-Host -Prompt \"Please enter the directory you wish to scan\"\r\n```\r\n\r\nThe `Read-Host -prompt` input is then stored in the `$sourceDirectory`` variable for later use.\r\n\r\n### Getting the Folders\r\n\r\nSecondly, we need to identify the folders that are within the directory the user gave us. We are doing this with the `Get-ChildItem` command, which gets everything in that location, Folders, or Files.\r\n\r\nI'm then piping this `|` into a `Where-Object` command which then identifies the Folders or containers.\r\n\r\n:::info\r\nI've added a sort by \"name\" at the end, as I want to display the first 10 items in the console, to indicate that the script has found items to the end user. It is completely unnecessary!\r\n:::\r\n\r\n```powershell showlineNumbers\r\n###### Prompt user for flder input. ######\r\n$sourceDirectory = Read-Host -Prompt \"Please enter the directory you wish to scan\"\r\n```\r\n\r\nWe then get all of hte directories in the folder location promtped for using the lin above.\r\n\r\n```powershell showLineNumbers\r\n###### Get all Directories in that location. ######\r\n$ChildDirectories = (Get-ChildItem $sourceDirectory -Directory).FullName\r\nStart-Sleep 1 # Add this for slightly better pacing when using the script.\r\n\r\n```\r\n\r\n### Getting the Folder Sizes\r\n\r\nThirdly, we need to get the folder sizes and convert them into a nicer format to read, quite a bit to unpack on this one, so please bear with my explanation; you may also want to blow this image up, it's a little small, sorry!\r\n\r\n```powershell showLineNumbers\r\n###### Foreach directory get all items recursively. ######\r\nWrite-Host \"Processing items.\" -ForegroundColor Yellow\r\n$childDirectorySizes = foreach ($folder in $ChildDirectories) {\r\n    [PSCustomObject]@{\r\n        \"Location\"  = $folder\r\n        \"FileItems\" = (Get-ChildItem $folder -Recurse -Force | Where-Object { $_.PSIsContainer -eq $false } | Measure-Object | Select-Object Count).Count\r\n        \"Size(MB)\"  = [Math]::Round((Get-ChildItem $folder -Recurse -Force | Where-Object { $_.PSIsContainer -eq $false } | Measure-Object -Property Length -Sum | Select-Object Sum).Sum / 1MB, 3)\r\n    }\r\n}\r\n```\r\n\r\nI've created a new variable called, `$childDirectorySizes` in this variable, we are going to store the output of the foreach loop.\r\n\r\nThe foreach the argument takes each folder entry found within the `$ChildDirectories` & then loops through the script inside the squiggly brackets.\r\n\r\n```powershell showLineNumbers\r\nforeach ($folder in $ChildDirectories)\r\n```\r\n\r\nThe foreach loop does the following: -\r\n\r\n1. Grabs the full file paths for each file recursively using `Get-ChildItem $folder.FullName -recurse -force`.\r\n2. Then it searches for any objects that are not a Folder using `Where-Object {$_.PSIsContainer -eq $false}`.\r\n3. It then measures the object using `Measure-Object -property Length -sum`.\r\n4. We then select only the one property that we want, `Select-Object Sum`.\r\n5. It then stores results inside the variable `$subFolderItems`.\r\n6. We then create a new PowerShell object using the command, `[PSCustomObject]`, as this is going to be a new Hash table, we add the `@{}` after it, all properties go inside the squiggly brackets.\r\n7. We then create 2 new properties, `Location` and `Size(MB)`. For each of these properties, we need to tell it where the information comes from and how to format it.\r\n\r\nFor `Location`, we are going to use the Items Full name, which is equal to its full UNC path. `$folder.FullName`.\r\n\r\nFor `Size(MB)`, we are going to use the Output of steps 1 to 5. The output from this should be the SUM of all the files under the folder item that's stored in the variable `$folder` which is in the foreach loop argument.\r\n\r\nWe also want to round this to MBs with 2 Decimal places; we can do this with the command, `[Math]::Round($subFolderItems.sum /1MB, 2)`.\r\n\r\n### Creating a console Ouput\r\n\r\nFor this point, I have taken the variable that is holding the output from the Foreach loop noted above and piped this into a Format-Table command with the order of the properties to show.\r\n\r\n```powershell showLineNumbers\r\n###### Provide a size report of the directory and child directories. ######\r\n$childDirectorySizes | Format-Table * -AutoSize\r\n```\r\n\r\nWhich gives you this.\r\n\r\n```powershell showLineNumbers\r\nLocation                           FileItems Size(MB)\r\n--------                           --------- --------\r\nC:\\GitRepos\\100-days-of-javascript       287   59.772\r\nC:\\GitRepos\\PowerShellChallenge          106    0.072\r\nC:\\GitRepos\\Private-Code-Dump            253   14.089\r\nC:\\GitRepos\\python-app                    97    0.067\r\nC:\\GitRepos\\The-IT-Knowledge-base      36396  414.871\r\n```"
+    },
+    {
       "id": "pwsh-challenge-001",
       "metadata": {
         "permalink": "/blog/pwsh-challenge-001",
@@ -51,6 +111,10 @@
           ],
           "image": "https://i.imgur.com/mErPwqL.png",
           "hide_table_of_contents": false
+        },
+        "prevItem": {
+          "title": "Challenge 2 - Folder Size Report with PowerShell",
+          "permalink": "/blog/pwsh-challenge-002"
         },
         "nextItem": {
           "title": "Hi!",

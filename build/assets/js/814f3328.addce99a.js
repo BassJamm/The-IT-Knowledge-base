@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[2535],{5641:e=>{e.exports=JSON.parse('{"title":"Posts So Far","items":[{"title":"Challenge 1 - File Download Script with PowerShell","permalink":"/blog/pwsh-challenge-001"},{"title":"Hi!","permalink":"/blog/welcome"}]}')}}]);
