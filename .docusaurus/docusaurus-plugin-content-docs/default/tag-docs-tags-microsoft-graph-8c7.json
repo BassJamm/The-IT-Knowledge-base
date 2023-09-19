@@ -5,10 +5,10 @@
   "count": 1,
   "items": [
     {
-      "id": "Command Line References/Microsoft Graph",
-      "title": "Microsoft Graph",
+      "id": "PowerShell/MS-Graph/Microsoft Graph Cheatsheet",
+      "title": "Microsoft Graph Cheatsheet",
       "description": "Microsoft Graph command ref doc.",
-      "permalink": "/docs/Command Line References/Microsoft Graph"
+      "permalink": "/docs/PowerShell/MS-Graph/Microsoft Graph Cheatsheet"
     }
   ]
 }

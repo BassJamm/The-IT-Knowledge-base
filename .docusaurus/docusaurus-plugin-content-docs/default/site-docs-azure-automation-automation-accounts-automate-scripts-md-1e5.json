@@ -1,0 +1,57 @@
+{
+  "unversionedId": "Azure/Automation/Automation-Accounts/Create an Automation Account",
+  "id": "Azure/Automation/Automation-Accounts/Create an Automation Account",
+  "title": "Create an Automation Account",
+  "description": "Create an Automation Account for script automation in Azure.",
+  "source": "@site/docs/Azure/Automation/Automation-Accounts/Automate-Scripts.md",
+  "sourceDirName": "Azure/Automation/Automation-Accounts",
+  "slug": "/Azure/Automation/Automation-Accounts/Create an Automation Account",
+  "permalink": "/docs/Azure/Automation/Automation-Accounts/Create an Automation Account",
+  "draft": false,
+  "editUrl": null,
+  "tags": [
+    {
+      "label": "Azure",
+      "permalink": "/docs/tags/azure"
+    },
+    {
+      "label": "Automation",
+      "permalink": "/docs/tags/automation"
+    },
+    {
+      "label": "Scripting",
+      "permalink": "/docs/tags/scripting"
+    },
+    {
+      "label": "Resource Creation",
+      "permalink": "/docs/tags/resource-creation"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "id": "Create an Automation Account",
+    "title": "Create an Automation Account",
+    "sidebar_label": "Create an Automation Account",
+    "sidebar_position": 2,
+    "toc_max_heading_level": 4,
+    "pagination_label": "Create an Automation Account",
+    "tags": [
+      "Azure",
+      "Automation",
+      "Scripting",
+      "Resource Creation"
+    ],
+    "custom_edit_url": null,
+    "description": "Create an Automation Account for script automation in Azure."
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Automation Accounts",
+    "permalink": "/docs/category/automation-accounts"
+  },
+  "next": {
+    "title": "Azure Backup",
+    "permalink": "/docs/category/azure-backup"
+  }
+}

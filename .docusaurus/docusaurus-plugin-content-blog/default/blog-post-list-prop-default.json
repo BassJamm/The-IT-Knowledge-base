@@ -10,7 +10,11 @@
       "permalink": "/blog/pwsh-challenge-001"
     },
     {
-      "title": "Hi!",
+      "title": "Microsoft Defender for Endpoint Woes",
+      "permalink": "/blog/Defender-for-Endpoint-Woes"
+    },
+    {
+      "title": "Welcome!",
       "permalink": "/blog/welcome"
     }
   ]

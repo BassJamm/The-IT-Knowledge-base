@@ -1,12 +1,11 @@
 {
   "title": "Azure Active Directory",
-  "description": "Guides for achieving an end result.",
   "slug": "/category/azure-active-directory",
   "permalink": "/docs/category/azure-active-directory",
   "navigation": {
     "previous": {
-      "title": "Network Security Groups",
-      "permalink": "/docs/Azure/Networking/Network Security Groups"
+      "title": "Restore data from a Snapshot",
+      "permalink": "/docs/Azure/Disks/Restore data from a Snapshot"
     },
     "next": {
       "title": "App Registrations",

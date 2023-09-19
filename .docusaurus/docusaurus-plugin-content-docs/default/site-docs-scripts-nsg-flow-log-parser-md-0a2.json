@@ -45,8 +45,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Scripts",
-    "permalink": "/docs/category/scripts"
+    "title": "Get User info using MGGraph",
+    "permalink": "/docs/Scripts/Get User info using MGGraph"
   },
   "next": {
     "title": "Windows OS Scripts",

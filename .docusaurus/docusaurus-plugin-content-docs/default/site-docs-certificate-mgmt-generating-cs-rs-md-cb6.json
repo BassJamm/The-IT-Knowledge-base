@@ -1,0 +1,45 @@
+{
+  "unversionedId": "Certificate-Mgmt/Generating CSRs",
+  "id": "Certificate-Mgmt/Generating CSRs",
+  "title": "Generating CSRs",
+  "description": "Reinstate admin privileges for a customer's Azure CSP subscriptions.",
+  "source": "@site/docs/Certificate-Mgmt/Generating-CSRs.md",
+  "sourceDirName": "Certificate-Mgmt",
+  "slug": "/Certificate-Mgmt/Generating CSRs",
+  "permalink": "/docs/Certificate-Mgmt/Generating CSRs",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/edit/main/docs/api-doc-markdown.md",
+  "tags": [
+    {
+      "label": "Certificates",
+      "permalink": "/docs/tags/certificates"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "draft": true,
+    "id": "Generating CSRs",
+    "title": "Generating CSRs",
+    "hide_title": false,
+    "hide_table_of_contents": false,
+    "sidebar_label": "Generating CSRs",
+    "sidebar_position": 2,
+    "toc_max_heading_level": 4,
+    "pagination_label": "Generating CSRs",
+    "tags": [
+      "Certificates"
+    ],
+    "custom_edit_url": "https://github.com/facebook/docusaurus/edit/main/docs/api-doc-markdown.md",
+    "description": "Reinstate admin privileges for a customer's Azure CSP subscriptions."
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Formats and Conversions",
+    "permalink": "/docs/Certificate-Mgmt/Formats and Conversions"
+  },
+  "next": {
+    "title": "Request a Certificate from internal CA",
+    "permalink": "/docs/Certificate-Mgmt/Request a Certificate from internal CA"
+  }
+}

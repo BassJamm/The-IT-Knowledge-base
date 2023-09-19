@@ -1,22 +1,25 @@
 {
   "unversionedId": "intro",
   "id": "intro",
-  "title": "intro",
-  "description": "Use the navigation bar to the left to find relevant articles.",
+  "title": "Welcome to the Wiki",
+  "description": "This documentation is an almagamation of my knowledge and experiences, to hopefully provide myself and others with reference material for their jobs and hobbies.",
   "source": "@site/docs/intro.md",
   "sourceDirName": ".",
-  "slug": "/intro",
-  "permalink": "/docs/intro",
+  "slug": "/",
+  "permalink": "/docs/",
   "draft": false,
   "tags": [],
   "version": "current",
   "sidebarPosition": 0,
   "frontMatter": {
-    "sidebar_position": 0
+    "slug": "/",
+    "sidebar_position": 0,
+    "Id": "Welcome to the Wiki",
+    "title": "Welcome to the Wiki"
   },
   "sidebar": "tutorialSidebar",
   "next": {
-    "title": "Azure Cli",
-    "permalink": "/docs/category/azure-cli"
+    "title": "Azure",
+    "permalink": "/docs/category/azure"
   }
 }

@@ -23,87 +23,72 @@
         "items": [
           {
             "type": "category",
-            "label": "Backup and Disaster Recovery",
+            "label": "Automation",
+            "collapsible": true,
+            "collapsed": true,
+            "items": [
+              {
+                "type": "category",
+                "label": "Automation Accounts",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "link",
+                    "label": "Create an Automation Account",
+                    "href": "/docs/Azure/Automation/Automation-Accounts/Create an Automation Account",
+                    "docId": "Azure/Automation/Automation-Accounts/Create an Automation Account"
+                  }
+                ],
+                "href": "/docs/category/automation-accounts"
+              }
+            ],
+            "href": "/docs/category/automation"
+          },
+          {
+            "type": "category",
+            "label": "Azure Backup",
             "collapsible": true,
             "collapsed": true,
             "items": [
               {
                 "type": "link",
                 "label": "Setup Azure Backup",
-                "href": "/docs/Azure/Backup and Disaster Recovery/Setup Azure Backup",
-                "docId": "Azure/Backup and Disaster Recovery/Setup Azure Backup"
-              },
-              {
-                "type": "link",
-                "label": "Setup Azure Site Recovery",
-                "href": "/docs/Azure/Backup and Disaster Recovery/Setup Azure Site Recovery",
-                "docId": "Azure/Backup and Disaster Recovery/Setup Azure Site Recovery"
+                "href": "/docs/Azure/Azure-Backup/Setup Azure Backup",
+                "docId": "Azure/Azure-Backup/Setup Azure Backup"
               }
             ],
-            "href": "/docs/category/backup-and-disaster-recovery"
+            "href": "/docs/category/azure-backup"
           },
           {
             "type": "category",
-            "label": "Data Management",
-            "collapsible": true,
-            "collapsed": true,
-            "items": [
-              {
-                "type": "link",
-                "label": "Restore data from a Snapshot",
-                "href": "/docs/Azure/Data Management/Restore data from a Snapshot",
-                "docId": "Azure/Data Management/Restore data from a Snapshot"
-              },
-              {
-                "type": "link",
-                "label": "Restore VM from Snapshot",
-                "href": "/docs/Azure/Data Management/Restore VM from Snapshot",
-                "docId": "Azure/Data Management/Restore VM from Snapshot"
-              }
-            ],
-            "href": "/docs/category/data-management"
-          },
-          {
-            "type": "category",
-            "label": "Infrastructure Management",
+            "label": "Azure Lighthouse",
             "collapsible": true,
             "collapsed": true,
             "items": [
               {
                 "type": "link",
                 "label": "Setup Azure Lighthouse",
-                "href": "/docs/Azure/Infrastructure/Setup Azure Lighthouse",
-                "docId": "Azure/Infrastructure/Setup Azure Lighthouse"
-              },
-              {
-                "type": "link",
-                "label": "Create an Automation Account",
-                "href": "/docs/Azure/Infrastructure/Create an Automation Account",
-                "docId": "Azure/Infrastructure/Create an Automation Account"
-              },
-              {
-                "type": "link",
-                "label": "Re-size a Virtual Machine",
-                "href": "/docs/Azure/Infrastructure/Re-size a Virtual Machine",
-                "docId": "Azure/Infrastructure/Re-size a Virtual Machine"
+                "href": "/docs/Azure/Azure-Lighthouse/Setup Azure Lighthouse",
+                "docId": "Azure/Azure-Lighthouse/Setup Azure Lighthouse"
               }
             ],
-            "href": "/docs/category/infrastructure-management"
+            "href": "/docs/category/azure-lighthouse"
           },
           {
             "type": "category",
-            "label": "Networking",
+            "label": "Disks",
             "collapsible": true,
             "collapsed": true,
             "items": [
               {
                 "type": "link",
-                "label": "Network Security Groups",
-                "href": "/docs/Azure/Networking/Network Security Groups",
-                "docId": "Azure/Networking/Network Security Groups"
+                "label": "Restore data from a Snapshot",
+                "href": "/docs/Azure/Disks/Restore data from a Snapshot",
+                "docId": "Azure/Disks/Restore data from a Snapshot"
               }
             ],
-            "href": "/docs/category/networking"
+            "href": "/docs/category/disks"
           }
         ],
         "href": "/docs/category/azure"
@@ -122,9 +107,9 @@
             "items": [
               {
                 "type": "link",
-                "label": "Decommission and AAD App",
-                "href": "/docs/Azure Active Directory/App Registrations/Decom and AAD App",
-                "docId": "Azure Active Directory/App Registrations/Decom and AAD App"
+                "label": "Decom an Azure AD App",
+                "href": "/docs/Azure-Active-Directory/App-Registrations/Decom an Azure AD App",
+                "docId": "Azure-Active-Directory/App-Registrations/Decom an Azure AD App"
               }
             ],
             "href": "/docs/category/app-registrations"
@@ -134,254 +119,113 @@
       },
       {
         "type": "category",
-        "label": "Certificates",
+        "label": "PowerShell",
         "collapsible": true,
         "collapsed": true,
         "items": [
           {
-            "type": "link",
-            "label": "Certificate formats and Converting formats",
-            "href": "/docs/Certificates/Formats and Conversions",
-            "docId": "Certificates/Formats and Conversions"
+            "type": "category",
+            "label": "Git",
+            "collapsible": true,
+            "collapsed": true,
+            "items": [
+              {
+                "type": "link",
+                "label": "Git Cheatsheet",
+                "href": "/docs/PowerShell/Git/Git Cheatsheet",
+                "docId": "PowerShell/Git/Git Cheatsheet"
+              }
+            ],
+            "href": "/docs/category/git"
           },
           {
-            "type": "link",
-            "label": "Generating a CSR",
-            "href": "/docs/Certificates/Generating a CSR",
-            "docId": "Certificates/Generating a CSR"
-          },
-          {
-            "type": "link",
-            "label": "Request from Internal CAs",
-            "href": "/docs/Certificates/Request from Internal CA",
-            "docId": "Certificates/Request from Internal CA"
-          }
-        ],
-        "href": "/docs/category/certificates"
-      },
-      {
-        "type": "category",
-        "label": "Citrix",
-        "collapsible": true,
-        "collapsed": true,
-        "items": [
-          {
-            "type": "link",
-            "label": "Updating an image",
-            "href": "/docs/Citrix/Updating an image",
-            "docId": "Citrix/Updating an image"
-          }
-        ],
-        "href": "/docs/category/citrix"
-      },
-      {
-        "type": "category",
-        "label": "Command Line References",
-        "collapsible": true,
-        "collapsed": true,
-        "items": [
-          {
-            "type": "link",
-            "label": "Az Cli",
-            "href": "/docs/Command Line References/AzCLi",
-            "docId": "Command Line References/AzCLi"
-          },
-          {
-            "type": "link",
-            "label": "Exchange Online",
-            "href": "/docs/Command Line References/Exchange Online",
-            "docId": "Command Line References/Exchange Online"
-          },
-          {
-            "type": "link",
-            "label": "Git CMDLine Ref",
-            "href": "/docs/Command Line References/Git CMDLine Ref",
-            "docId": "Command Line References/Git CMDLine Ref"
-          },
-          {
-            "type": "link",
+            "type": "category",
             "label": "Microsoft Graph",
-            "href": "/docs/Command Line References/Microsoft Graph",
-            "docId": "Command Line References/Microsoft Graph"
+            "collapsible": true,
+            "collapsed": true,
+            "items": [
+              {
+                "type": "link",
+                "label": "Microsoft Graph Cheatsheet",
+                "href": "/docs/PowerShell/MS-Graph/Microsoft Graph Cheatsheet",
+                "docId": "PowerShell/MS-Graph/Microsoft Graph Cheatsheet"
+              }
+            ],
+            "href": "/docs/category/microsoft-graph"
           },
           {
-            "type": "link",
+            "type": "category",
             "label": "PowerShell",
-            "href": "/docs/Command Line References/PowerShell",
-            "docId": "Command Line References/PowerShell"
+            "collapsible": true,
+            "collapsed": true,
+            "items": [
+              {
+                "type": "link",
+                "label": "PowerShell Cheatsheet",
+                "href": "/docs/PowerShell/PowerShell-cheatsheet/",
+                "docId": "PowerShell/PowerShell-cheatsheet/PowerShell Cheatsheet"
+              }
+            ],
+            "href": "/docs/category/powershell-1"
           }
         ],
-        "href": "/docs/category/command-line-references"
-      },
-      {
-        "type": "category",
-        "label": "Scripts",
-        "collapsible": true,
-        "collapsed": true,
-        "items": [
-          {
-            "type": "link",
-            "label": "NSG Flow log Formatter",
-            "href": "/docs/Scripts/NSG Flow log Formatter",
-            "docId": "Scripts/NSG Flow log Formatter"
-          },
-          {
-            "type": "link",
-            "label": "Windows OS Scripts",
-            "href": "/docs/Scripts/Windows OS Scripts",
-            "docId": "Scripts/Windows OS Scripts"
-          }
-        ],
-        "href": "/docs/category/scripts"
-      },
-      {
-        "type": "category",
-        "label": "Windows OS",
-        "collapsible": true,
-        "collapsed": true,
-        "items": [
-          {
-            "type": "link",
-            "label": "Creating a nice pwsh prompt",
-            "href": "/docs/Windows OS/Creating a nice pwsh prompt",
-            "docId": "Windows OS/Creating a nice pwsh prompt"
-          }
-        ],
-        "href": "/docs/category/windows-os"
+        "href": "/docs/category/powershell"
       }
     ]
   },
   "docs": {
-    "Azure Active Directory/App Registrations/Decom and AAD App": {
-      "id": "Azure Active Directory/App Registrations/Decom and AAD App",
-      "title": "Decommission and AAD App",
-      "description": "Decommission and Azure AD App registration.",
+    "Azure-Active-Directory/App-Registrations/Decom an Azure AD App": {
+      "id": "Azure-Active-Directory/App-Registrations/Decom an Azure AD App",
+      "title": "Decom an Azure AD App",
+      "description": "Suggested guidance for decommissioning an Azure AD App.",
       "sidebar": "tutorialSidebar"
     },
-    "Azure/Backup and Disaster Recovery/Setup Azure Backup": {
-      "id": "Azure/Backup and Disaster Recovery/Setup Azure Backup",
-      "title": "Setup Azure Backup",
-      "description": "Suggestions for setting up Azure Backup.",
-      "sidebar": "tutorialSidebar"
-    },
-    "Azure/Backup and Disaster Recovery/Setup Azure Site Recovery": {
-      "id": "Azure/Backup and Disaster Recovery/Setup Azure Site Recovery",
-      "title": "Setup Azure Site Recovery",
-      "description": "Reinstate admin privileges for a customer's Azure CSP subscriptions.",
-      "sidebar": "tutorialSidebar"
-    },
-    "Azure/Data Management/Restore data from a Snapshot": {
-      "id": "Azure/Data Management/Restore data from a Snapshot",
-      "title": "Restore data from a Snapshot",
-      "description": "Document Control",
-      "sidebar": "tutorialSidebar"
-    },
-    "Azure/Data Management/Restore VM from Snapshot": {
-      "id": "Azure/Data Management/Restore VM from Snapshot",
-      "title": "Restore VM from Snapshot",
-      "description": "We're assuming there is already a valid Snapshot taken of the machine you're trying to restore.",
-      "sidebar": "tutorialSidebar"
-    },
-    "Azure/Infrastructure/Create an Automation Account": {
-      "id": "Azure/Infrastructure/Create an Automation Account",
+    "Azure/Automation/Automation-Accounts/Create an Automation Account": {
+      "id": "Azure/Automation/Automation-Accounts/Create an Automation Account",
       "title": "Create an Automation Account",
       "description": "Create an Automation Account for script automation in Azure.",
       "sidebar": "tutorialSidebar"
     },
-    "Azure/Infrastructure/Re-size a Virtual Machine": {
-      "id": "Azure/Infrastructure/Re-size a Virtual Machine",
-      "title": "Re-size a Virtual Machine",
-      "description": "Before you begin",
+    "Azure/Azure-Backup/Setup Azure Backup": {
+      "id": "Azure/Azure-Backup/Setup Azure Backup",
+      "title": "Setup Azure Backup",
+      "description": "Suggestions for setting up Azure Backup.",
       "sidebar": "tutorialSidebar"
     },
-    "Azure/Infrastructure/Setup Azure Lighthouse": {
-      "id": "Azure/Infrastructure/Setup Azure Lighthouse",
+    "Azure/Azure-Lighthouse/Setup Azure Lighthouse": {
+      "id": "Azure/Azure-Lighthouse/Setup Azure Lighthouse",
       "title": "Setup Azure Lighthouse",
       "description": "Document Control",
       "sidebar": "tutorialSidebar"
     },
-    "Azure/Networking/Network Security Groups": {
-      "id": "Azure/Networking/Network Security Groups",
-      "title": "Network Security Groups",
-      "description": "Guidance for Network Security Groups.",
+    "Azure/Disks/Restore data from a Snapshot": {
+      "id": "Azure/Disks/Restore data from a Snapshot",
+      "title": "Restore data from a Snapshot",
+      "description": "Restore data from a Snapshot.",
       "sidebar": "tutorialSidebar"
     },
-    "Certificates/Formats and Conversions": {
-      "id": "Certificates/Formats and Conversions",
-      "title": "Certificate formats and Converting formats",
-      "description": "Certificate formatting and converting them to different formats.",
-      "sidebar": "tutorialSidebar"
-    },
-    "Certificates/Generating a CSR": {
-      "id": "Certificates/Generating a CSR",
-      "title": "Generating a CSR",
-      "description": "Generating a CSR.",
-      "sidebar": "tutorialSidebar"
-    },
-    "Certificates/Request from Internal CA": {
-      "id": "Certificates/Request from Internal CA",
-      "title": "Request from Internal CA",
-      "description": "Request a Cert from Internal CA.",
-      "sidebar": "tutorialSidebar"
-    },
-    "Citrix/Updating an image": {
-      "id": "Citrix/Updating an image",
-      "title": "Updating an image (Citrix Cloud)",
-      "description": "Updating a citrix image for Citrix Cloud.",
-      "sidebar": "tutorialSidebar"
-    },
-    "Command Line References/AzCLi": {
-      "id": "Command Line References/AzCLi",
-      "title": "Az Cli",
-      "description": "AzCLi command ref doc.",
-      "sidebar": "tutorialSidebar"
-    },
-    "Command Line References/Exchange Online": {
-      "id": "Command Line References/Exchange Online",
-      "title": "Exchange Online",
-      "description": "Exchange Online command ref doc.",
-      "sidebar": "tutorialSidebar"
-    },
-    "Command Line References/Git CMDLine Ref": {
-      "id": "Command Line References/Git CMDLine Ref",
-      "title": "Git CMDLine Ref",
+    "PowerShell/Git/Git Cheatsheet": {
+      "id": "PowerShell/Git/Git Cheatsheet",
+      "title": "Git Cheatsheet",
       "description": "Git command line refernce.",
       "sidebar": "tutorialSidebar"
     },
-    "Command Line References/Microsoft Graph": {
-      "id": "Command Line References/Microsoft Graph",
-      "title": "Microsoft Graph",
+    "PowerShell/MS-Graph/Microsoft Graph Cheatsheet": {
+      "id": "PowerShell/MS-Graph/Microsoft Graph Cheatsheet",
+      "title": "Microsoft Graph Cheatsheet",
       "description": "Microsoft Graph command ref doc.",
       "sidebar": "tutorialSidebar"
     },
-    "Command Line References/PowerShell": {
-      "id": "Command Line References/PowerShell",
-      "title": "PowerShell",
+    "PowerShell/PowerShell-cheatsheet/PowerShell Cheatsheet": {
+      "id": "PowerShell/PowerShell-cheatsheet/PowerShell Cheatsheet",
+      "title": "PowerShell Cheatsheet",
       "description": "All things PowerShell.",
-      "sidebar": "tutorialSidebar"
-    },
-    "Scripts/NSG Flow log Formatter": {
-      "id": "Scripts/NSG Flow log Formatter",
-      "title": "NSG Flow log Formatter",
-      "description": "Script will help with readability of NSG flow logs.",
-      "sidebar": "tutorialSidebar"
-    },
-    "Scripts/Windows OS Scripts": {
-      "id": "Scripts/Windows OS Scripts",
-      "title": "Windows OS Scripts",
-      "description": "Windows OS Scripts and re-usable code.",
       "sidebar": "tutorialSidebar"
     },
     "Welcome": {
       "id": "Welcome",
       "title": "Welcome to the Wiki",
       "description": "This documentation is an almagamation of my knowledge and experiences, to hopefully provide myself and others with reference material for their jobs and hobbies.",
-      "sidebar": "tutorialSidebar"
-    },
-    "Windows OS/Creating a nice pwsh prompt": {
-      "id": "Windows OS/Creating a nice pwsh prompt",
-      "title": "Creating a nice pwsh prompt",
-      "description": "Creating a nice PowerShell prompt using oh my posh & PSReadLine.",
       "sidebar": "tutorialSidebar"
     }
   }

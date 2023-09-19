@@ -1,0 +1,16 @@
+{
+  "title": "Disks",
+  "description": "Azure Docs.",
+  "slug": "/category/disks",
+  "permalink": "/docs/category/disks",
+  "navigation": {
+    "previous": {
+      "title": "Setup Azure Lighthouse",
+      "permalink": "/docs/Azure/Azure-Lighthouse/Setup Azure Lighthouse"
+    },
+    "next": {
+      "title": "Restore data from a Snapshot",
+      "permalink": "/docs/Azure/Disks/Restore data from a Snapshot"
+    }
+  }
+}

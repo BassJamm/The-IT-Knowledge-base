@@ -1,16 +1,15 @@
 {
   "title": "Citrix",
-  "description": "Citrix stuff.",
   "slug": "/category/citrix",
   "permalink": "/docs/category/citrix",
   "navigation": {
     "previous": {
-      "title": "Request from Internal CA",
-      "permalink": "/docs/Certificates/Request from Internal CA"
+      "title": "Request a Certificate from internal CA",
+      "permalink": "/docs/Certificate-Mgmt/Request a Certificate from internal CA"
     },
     "next": {
-      "title": "Updating an image",
-      "permalink": "/docs/Citrix/Updating an image"
+      "title": "Updating a Citrix Cloud Image",
+      "permalink": "/docs/Citrix/Updating a Citrix Cloud Image"
     }
   }
 }

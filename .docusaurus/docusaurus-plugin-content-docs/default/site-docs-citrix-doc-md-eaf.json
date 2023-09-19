@@ -1,0 +1,45 @@
+{
+  "unversionedId": "Citrix/Updating a Citrix Cloud Image",
+  "id": "Citrix/Updating a Citrix Cloud Image",
+  "title": "Updating a Citrix Cloud Image",
+  "description": "Reinstate admin privileges for a customer's Azure CSP subscriptions.",
+  "source": "@site/docs/Citrix/Doc.md",
+  "sourceDirName": "Citrix",
+  "slug": "/Citrix/Updating a Citrix Cloud Image",
+  "permalink": "/docs/Citrix/Updating a Citrix Cloud Image",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/edit/main/docs/api-doc-markdown.md",
+  "tags": [
+    {
+      "label": "Citrix",
+      "permalink": "/docs/tags/citrix"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "draft": true,
+    "id": "Updating a Citrix Cloud Image",
+    "title": "Updating a Citrix Cloud Image",
+    "hide_title": false,
+    "hide_table_of_contents": false,
+    "sidebar_label": "Updating a Citrix Cloud Image",
+    "sidebar_position": 1,
+    "toc_max_heading_level": 4,
+    "pagination_label": "Updating a Citrix Cloud Image",
+    "tags": [
+      "Citrix"
+    ],
+    "custom_edit_url": "https://github.com/facebook/docusaurus/edit/main/docs/api-doc-markdown.md",
+    "description": "Reinstate admin privileges for a customer's Azure CSP subscriptions."
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Citrix",
+    "permalink": "/docs/category/citrix"
+  },
+  "next": {
+    "title": "PowerShell",
+    "permalink": "/docs/category/powershell"
+  }
+}

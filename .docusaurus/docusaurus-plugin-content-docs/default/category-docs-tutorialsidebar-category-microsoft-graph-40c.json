@@ -1,0 +1,15 @@
+{
+  "title": "Microsoft Graph",
+  "slug": "/category/microsoft-graph",
+  "permalink": "/docs/category/microsoft-graph",
+  "navigation": {
+    "previous": {
+      "title": "Git Cheatsheet",
+      "permalink": "/docs/PowerShell/Git/Git Cheatsheet"
+    },
+    "next": {
+      "title": "Microsoft Graph Cheatsheet",
+      "permalink": "/docs/PowerShell/MS-Graph/Microsoft Graph Cheatsheet"
+    }
+  }
+}

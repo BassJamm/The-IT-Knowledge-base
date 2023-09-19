@@ -1,0 +1,54 @@
+{
+  "permalink": "/blog/Defender-for-Endpoint-Woes",
+  "source": "@site/blog/2023-09-12-Defender-Woes/Microsoft-Defender-for-Endpoint-Woes.md",
+  "title": "Microsoft Defender for Endpoint Woes",
+  "description": "Windows services hating each other on Server 2012 R2.",
+  "date": "2023-08-05T11:00:00.000Z",
+  "formattedDate": "August 5, 2023",
+  "tags": [
+    {
+      "label": "Defender",
+      "permalink": "/blog/tags/defender"
+    },
+    {
+      "label": "Azure",
+      "permalink": "/blog/tags/azure"
+    }
+  ],
+  "readingTime": 1.3333333333333333,
+  "hasTruncateMarker": true,
+  "authors": [
+    {
+      "name": "Will",
+      "title": "Creator of the IT KB.",
+      "url": "https://github.com/BassJamm?tab=repositories"
+    }
+  ],
+  "frontMatter": {
+    "title": "Microsoft Defender for Endpoint Woes",
+    "description": "Windows services hating each other on Server 2012 R2.",
+    "slug": "Defender-for-Endpoint-Woes",
+    "date": "2023-08-05T11:00",
+    "authors": [
+      {
+        "name": "Will",
+        "title": "Creator of the IT KB.",
+        "url": "https://github.com/BassJamm?tab=repositories"
+      }
+    ],
+    "tags": [
+      "Defender",
+      "Azure"
+    ],
+    "image": "https://i.imgur.com/mErPwqL.png",
+    "hide_table_of_contents": false
+  },
+  "prevItem": {
+    "title": "Challenge 1 - File Download Script with PowerShell",
+    "permalink": "/blog/pwsh-challenge-001"
+  },
+  "nextItem": {
+    "title": "Welcome!",
+    "permalink": "/blog/welcome"
+  }
+}

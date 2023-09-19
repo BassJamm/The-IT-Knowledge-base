@@ -1,14 +1,14 @@
 {
-  "label": "Command Line Ref",
+  "label": "Command-Line-Ref",
   "permalink": "/docs/tags/command-line-ref",
   "allTagsPath": "/docs/tags",
   "count": 1,
   "items": [
     {
-      "id": "Command Line References/Git CMDLine Ref",
-      "title": "Git CMDLine Ref",
+      "id": "PowerShell/Git/Git Cheatsheet",
+      "title": "Git Cheatsheet",
       "description": "Git command line refernce.",
-      "permalink": "/docs/Command Line References/Git CMDLine Ref"
+      "permalink": "/docs/PowerShell/Git/Git Cheatsheet"
     }
   ]
 }

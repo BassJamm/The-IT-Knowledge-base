@@ -1,0 +1,14 @@
+{
+  "label": "AppRegistrations",
+  "permalink": "/docs/tags/app-registrations",
+  "allTagsPath": "/docs/tags",
+  "count": 1,
+  "items": [
+    {
+      "id": "Azure-Active-Directory/App-Registrations/Decom an Azure AD App",
+      "title": "Decom an Azure AD App",
+      "description": "Suggested guidance for decommissioning an Azure AD App.",
+      "permalink": "/docs/Azure-Active-Directory/App-Registrations/Decom an Azure AD App"
+    }
+  ]
+}

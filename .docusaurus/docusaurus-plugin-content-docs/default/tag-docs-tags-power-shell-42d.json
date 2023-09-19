@@ -5,10 +5,10 @@
   "count": 1,
   "items": [
     {
-      "id": "Command Line References/PowerShell",
-      "title": "PowerShell",
+      "id": "PowerShell/PowerShell-cheatsheet/PowerShell Cheatsheet",
+      "title": "PowerShell Cheatsheet",
       "description": "All things PowerShell.",
-      "permalink": "/docs/Command Line References/PowerShell"
+      "permalink": "/docs/PowerShell/PowerShell-cheatsheet/"
     }
   ]
 }

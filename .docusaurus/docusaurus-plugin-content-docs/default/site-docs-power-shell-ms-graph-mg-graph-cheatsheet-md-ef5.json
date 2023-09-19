@@ -1,0 +1,50 @@
+{
+  "unversionedId": "PowerShell/MS-Graph/Microsoft Graph Cheatsheet",
+  "id": "PowerShell/MS-Graph/Microsoft Graph Cheatsheet",
+  "title": "Microsoft Graph Cheatsheet",
+  "description": "Microsoft Graph command ref doc.",
+  "source": "@site/docs/PowerShell/MS-Graph/MG-Graph-Cheatsheet.md",
+  "sourceDirName": "PowerShell/MS-Graph",
+  "slug": "/PowerShell/MS-Graph/Microsoft Graph Cheatsheet",
+  "permalink": "/docs/PowerShell/MS-Graph/Microsoft Graph Cheatsheet",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/edit/main/docs/api-doc-markdown.md",
+  "tags": [
+    {
+      "label": "Command Line",
+      "permalink": "/docs/tags/command-line"
+    },
+    {
+      "label": "Microsoft Graph",
+      "permalink": "/docs/tags/microsoft-graph"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "draft": false,
+    "id": "Microsoft Graph Cheatsheet",
+    "title": "Microsoft Graph Cheatsheet",
+    "hide_title": false,
+    "hide_table_of_contents": false,
+    "sidebar_label": "Microsoft Graph Cheatsheet",
+    "sidebar_position": 3,
+    "toc_max_heading_level": 4,
+    "pagination_label": "Microsoft Graph Cheatsheet",
+    "tags": [
+      "Command Line",
+      "Microsoft Graph"
+    ],
+    "custom_edit_url": "https://github.com/facebook/docusaurus/edit/main/docs/api-doc-markdown.md",
+    "description": "Microsoft Graph command ref doc."
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Microsoft Graph",
+    "permalink": "/docs/category/microsoft-graph"
+  },
+  "next": {
+    "title": "PowerShell",
+    "permalink": "/docs/category/powershell-1"
+  }
+}

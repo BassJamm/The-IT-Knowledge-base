@@ -1,0 +1,50 @@
+{
+  "unversionedId": "PowerShell/Git/Git Cheatsheet",
+  "id": "PowerShell/Git/Git Cheatsheet",
+  "title": "Git Cheatsheet",
+  "description": "Git command line refernce.",
+  "source": "@site/docs/PowerShell/Git/Git-cheatsheet.md",
+  "sourceDirName": "PowerShell/Git",
+  "slug": "/PowerShell/Git/Git Cheatsheet",
+  "permalink": "/docs/PowerShell/Git/Git Cheatsheet",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/edit/main/docs/api-doc-markdown.md",
+  "tags": [
+    {
+      "label": "Git",
+      "permalink": "/docs/tags/git"
+    },
+    {
+      "label": "Command-Line-Ref",
+      "permalink": "/docs/tags/command-line-ref"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "draft": false,
+    "id": "Git Cheatsheet",
+    "title": "Git Cheatsheet",
+    "hide_title": false,
+    "hide_table_of_contents": false,
+    "sidebar_label": "Git Cheatsheet",
+    "sidebar_position": 1,
+    "toc_max_heading_level": 4,
+    "pagination_label": "Git Cheatsheet",
+    "tags": [
+      "Git",
+      "Command-Line-Ref"
+    ],
+    "custom_edit_url": "https://github.com/facebook/docusaurus/edit/main/docs/api-doc-markdown.md",
+    "description": "Git command line refernce."
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Git",
+    "permalink": "/docs/category/git"
+  },
+  "next": {
+    "title": "Microsoft Graph",
+    "permalink": "/docs/category/microsoft-graph"
+  }
+}

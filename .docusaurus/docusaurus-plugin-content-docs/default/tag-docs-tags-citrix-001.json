@@ -5,10 +5,10 @@
   "count": 1,
   "items": [
     {
-      "id": "Citrix/Updating an image",
-      "title": "Updating an image (Citrix Cloud)",
-      "description": "Updating a citrix image for Citrix Cloud.",
-      "permalink": "/docs/Citrix/Updating an image"
+      "id": "Citrix/Updating a Citrix Cloud Image",
+      "title": "Updating a Citrix Cloud Image",
+      "description": "Reinstate admin privileges for a customer's Azure CSP subscriptions.",
+      "permalink": "/docs/Citrix/Updating a Citrix Cloud Image"
     }
   ]
 }

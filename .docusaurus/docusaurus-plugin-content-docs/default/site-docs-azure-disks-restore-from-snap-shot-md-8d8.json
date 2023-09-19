@@ -1,0 +1,49 @@
+{
+  "unversionedId": "Azure/Disks/Restore data from a Snapshot",
+  "id": "Azure/Disks/Restore data from a Snapshot",
+  "title": "Restore data from a Snapshot",
+  "description": "Restore data from a Snapshot.",
+  "source": "@site/docs/Azure/Disks/Restore-from-SnapShot.md",
+  "sourceDirName": "Azure/Disks",
+  "slug": "/Azure/Disks/Restore data from a Snapshot",
+  "permalink": "/docs/Azure/Disks/Restore data from a Snapshot",
+  "draft": false,
+  "editUrl": null,
+  "tags": [
+    {
+      "label": "Azure",
+      "permalink": "/docs/tags/azure"
+    },
+    {
+      "label": "Snapshot",
+      "permalink": "/docs/tags/snapshot"
+    },
+    {
+      "label": "Restore",
+      "permalink": "/docs/tags/restore"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2,
+    "id": "Restore data from a Snapshot",
+    "title": "Restore data from a Snapshot",
+    "description": "Restore data from a Snapshot.",
+    "tags": [
+      "Azure",
+      "Snapshot",
+      "Restore"
+    ],
+    "custom_edit_url": null
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Disks",
+    "permalink": "/docs/category/disks"
+  },
+  "next": {
+    "title": "Azure Active Directory",
+    "permalink": "/docs/category/azure-active-directory"
+  }
+}

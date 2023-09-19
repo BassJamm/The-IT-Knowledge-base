@@ -1,0 +1,16 @@
+{
+  "title": "Azure Lighthouse",
+  "description": "Azure Docs.",
+  "slug": "/category/azure-lighthouse",
+  "permalink": "/docs/category/azure-lighthouse",
+  "navigation": {
+    "previous": {
+      "title": "Setup Azure Backup",
+      "permalink": "/docs/Azure/Azure-Backup/Setup Azure Backup"
+    },
+    "next": {
+      "title": "Setup Azure Lighthouse",
+      "permalink": "/docs/Azure/Azure-Lighthouse/Setup Azure Lighthouse"
+    }
+  }
+}

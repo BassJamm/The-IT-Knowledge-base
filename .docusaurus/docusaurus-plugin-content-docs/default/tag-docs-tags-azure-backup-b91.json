@@ -5,10 +5,10 @@
   "count": 1,
   "items": [
     {
-      "id": "Azure/Backup and Disaster Recovery/Setup Azure Backup",
+      "id": "Azure/Azure-Backup/Setup Azure Backup",
       "title": "Setup Azure Backup",
       "description": "Suggestions for setting up Azure Backup.",
-      "permalink": "/docs/Azure/Backup and Disaster Recovery/Setup Azure Backup"
+      "permalink": "/docs/Azure/Azure-Backup/Setup Azure Backup"
     }
   ]
 }

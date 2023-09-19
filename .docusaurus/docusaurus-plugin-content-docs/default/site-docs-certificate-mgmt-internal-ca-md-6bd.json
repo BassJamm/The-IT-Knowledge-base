@@ -1,0 +1,45 @@
+{
+  "unversionedId": "Certificate-Mgmt/Request a Certificate from internal CA",
+  "id": "Certificate-Mgmt/Request a Certificate from internal CA",
+  "title": "Request a Certificate from internal CA",
+  "description": "Requesting a Certificate from an Internal Certificate Authority.",
+  "source": "@site/docs/Certificate-Mgmt/Internal-CA.md",
+  "sourceDirName": "Certificate-Mgmt",
+  "slug": "/Certificate-Mgmt/Request a Certificate from internal CA",
+  "permalink": "/docs/Certificate-Mgmt/Request a Certificate from internal CA",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/edit/main/docs/api-doc-markdown.md",
+  "tags": [
+    {
+      "label": "Certificates",
+      "permalink": "/docs/tags/certificates"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "draft": true,
+    "id": "Request a Certificate from internal CA",
+    "title": "Request a Certificate from internal CA",
+    "hide_title": false,
+    "hide_table_of_contents": false,
+    "sidebar_label": "Request a Certificate from internal CA",
+    "sidebar_position": 3,
+    "toc_max_heading_level": 4,
+    "pagination_label": "Request a Certificate from internal CA",
+    "tags": [
+      "Certificates"
+    ],
+    "custom_edit_url": "https://github.com/facebook/docusaurus/edit/main/docs/api-doc-markdown.md",
+    "description": "Requesting a Certificate from an Internal Certificate Authority."
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Generating CSRs",
+    "permalink": "/docs/Certificate-Mgmt/Generating CSRs"
+  },
+  "next": {
+    "title": "Citrix",
+    "permalink": "/docs/category/citrix"
+  }
+}

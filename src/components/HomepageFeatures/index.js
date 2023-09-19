@@ -8,7 +8,8 @@ const FeatureList = [
     Svg: require('@site/static/img/laptop-online-education-12493.svg').default,
     description: (
       <>
-        Check out the Knowledge Base for articles and tutorials. Link's at the top of the page.
+        Where I brain dump everything I possibly can "generally" speaking,
+         I omit any sensitive information that would compromise my day job.
       </>
     ),
   },
@@ -17,8 +18,8 @@ const FeatureList = [
     Svg: require('@site/static/img/laptop-and-coding-12467.svg').default,
     description: (
       <>
-        Take a look around my GitHub for PowerShell, Bicep and Kusto.
-        I'll be uploading regularly to this area.
+        I dable with PowerShell and Bicep, 
+        I stick it all here since I break stuff constantly, source control was my only option.
       </>
     ),
   },
@@ -27,7 +28,7 @@ const FeatureList = [
     Svg: require('@site/static/img/laptop-document-and-file-12489.svg').default,
     description: (
       <>
-        I am trying to write blog posts a couple of times per week around technologies and code.
+        My rantings, I don't expect any of this to be read.....
       </>
     ),
   },

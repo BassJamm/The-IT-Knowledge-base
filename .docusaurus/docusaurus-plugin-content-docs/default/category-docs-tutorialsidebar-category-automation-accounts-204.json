@@ -1,0 +1,16 @@
+{
+  "title": "Automation Accounts",
+  "description": "Azure Docs.",
+  "slug": "/category/automation-accounts",
+  "permalink": "/docs/category/automation-accounts",
+  "navigation": {
+    "previous": {
+      "title": "Automation",
+      "permalink": "/docs/category/automation"
+    },
+    "next": {
+      "title": "Create an Automation Account",
+      "permalink": "/docs/Azure/Automation/Automation-Accounts/Create an Automation Account"
+    }
+  }
+}

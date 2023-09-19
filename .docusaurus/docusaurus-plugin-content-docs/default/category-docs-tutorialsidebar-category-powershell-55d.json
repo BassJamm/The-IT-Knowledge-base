@@ -1,16 +1,15 @@
 {
   "title": "PowerShell",
-  "description": "Articles all about PowerShell.",
   "slug": "/category/powershell",
   "permalink": "/docs/category/powershell",
   "navigation": {
     "previous": {
-      "title": "Approve or Block an App",
-      "permalink": "/docs/Articles/Microsoft/Teams/Approve or Block an App"
+      "title": "Decom an Azure AD App",
+      "permalink": "/docs/Azure-Active-Directory/App-Registrations/Decom an Azure AD App"
     },
     "next": {
-      "title": "PwshCli CheatSheet",
-      "permalink": "/docs/Articles/PowerShell/PwshCli CheatSheet"
+      "title": "Git",
+      "permalink": "/docs/category/git"
     }
   }
 }

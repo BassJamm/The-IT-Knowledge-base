@@ -13,9 +13,9 @@ function HomepageHeader() {
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
         <h1 className="hero__title">{'Welcome'}</h1>
-        <p className="hero__subtitle">{"Hi, I've been working in IT for a while now and wanted to set up a place for me to store bits of information I've amassed in my career and thought that rather than hoarding it all to myself, I'd stick it up online instead. "}</p>
-        <p className="hero__subtitle">{"Check out the links up top for my GitHub and my Knowledge Base. "}</p>
-        <p className="hero__subtitle">{"Happy reading and I hope I can solve an issue for you! "}</p>
+        <p className="hero__subtitle">{"I've been in need of a central knowledege base for ages to save me trawling the internet again and again for things I have found already, this seemed like a good idea at the time.... "}</p>
+        <p className="hero__subtitle">{"I am maybe regretting the amount of effort it takes to upload to a static website each week but, still it was interesting to setup. "}</p>
+        <p className="hero__subtitle">{"If you wish to, check out the links up top for my GitHub, my docs and the blog (maybe avoid the blog). "}</p>
       </div>
     </header>
   );
@@ -26,7 +26,7 @@ export default function Home() {
   return (
     <Layout
       title={`${siteConfig.title}`}
-      description="Welcome to The IT KB, a place where I dump all my IT Info! <head />">
+      description="Welcome to The IT KB, my personal brain dump! <head />">
       <HomepageHeader />
       <main>
         <HomepageFeatures />

@@ -1,6 +1,5 @@
 {
   "title": "App Registrations",
-  "description": "Guides for achieving an end result.",
   "slug": "/category/app-registrations",
   "permalink": "/docs/category/app-registrations",
   "navigation": {
@@ -9,8 +8,8 @@
       "permalink": "/docs/category/azure-active-directory"
     },
     "next": {
-      "title": "Decommission and AAD App",
-      "permalink": "/docs/Azure Active Directory/App Registrations/Decom and AAD App"
+      "title": "Decom an Azure AD App",
+      "permalink": "/docs/Azure-Active-Directory/App-Registrations/Decom an Azure AD App"
     }
   }
 }

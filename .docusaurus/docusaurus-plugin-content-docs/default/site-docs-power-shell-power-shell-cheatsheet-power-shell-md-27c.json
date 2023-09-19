@@ -1,0 +1,46 @@
+{
+  "unversionedId": "PowerShell/PowerShell-cheatsheet/PowerShell",
+  "id": "PowerShell/PowerShell-cheatsheet/PowerShell",
+  "title": "PowerShell",
+  "description": "All things PowerShell.",
+  "source": "@site/docs/PowerShell/PowerShell-cheatsheet/PowerShell.md",
+  "sourceDirName": "PowerShell/PowerShell-cheatsheet",
+  "slug": "/PowerShell/PowerShell-cheatsheet/PowerShell",
+  "permalink": "/docs/PowerShell/PowerShell-cheatsheet/PowerShell",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/edit/main/docs/api-doc-markdown.md",
+  "tags": [
+    {
+      "label": "Command Line",
+      "permalink": "/docs/tags/command-line"
+    },
+    {
+      "label": "PowerShell",
+      "permalink": "/docs/tags/power-shell"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "draft": false,
+    "id": "PowerShell",
+    "title": "PowerShell",
+    "hide_title": false,
+    "hide_table_of_contents": false,
+    "sidebar_label": "PowerShell",
+    "sidebar_position": 4,
+    "toc_max_heading_level": 4,
+    "pagination_label": "PowerShell",
+    "tags": [
+      "Command Line",
+      "PowerShell"
+    ],
+    "custom_edit_url": "https://github.com/facebook/docusaurus/edit/main/docs/api-doc-markdown.md",
+    "description": "All things PowerShell."
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "PowerShell",
+    "permalink": "/docs/category/powershell-1"
+  }
+}

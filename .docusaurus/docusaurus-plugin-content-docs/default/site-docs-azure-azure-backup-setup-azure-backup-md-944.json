@@ -1,0 +1,51 @@
+{
+  "unversionedId": "Azure/Azure-Backup/Setup Azure Backup",
+  "id": "Azure/Azure-Backup/Setup Azure Backup",
+  "title": "Setup Azure Backup",
+  "description": "Suggestions for setting up Azure Backup.",
+  "source": "@site/docs/Azure/Azure-Backup/Setup-Azure-Backup.md",
+  "sourceDirName": "Azure/Azure-Backup",
+  "slug": "/Azure/Azure-Backup/Setup Azure Backup",
+  "permalink": "/docs/Azure/Azure-Backup/Setup Azure Backup",
+  "draft": false,
+  "editUrl": "https://github.com/BassJamm/The-IT-Knowledge-base/blob/5543dc18b6c22eed57e767e6d130c28946d157c1/docs/Azure/Backup%20and%20Disaster%20Recovery/Setup%20Azure%20Backup.md",
+  "tags": [
+    {
+      "label": "Azure",
+      "permalink": "/docs/tags/azure"
+    },
+    {
+      "label": "Resource Creation",
+      "permalink": "/docs/tags/resource-creation"
+    },
+    {
+      "label": "Azure Backup",
+      "permalink": "/docs/tags/azure-backup"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "toc_max_heading_level": 4,
+    "id": "Setup Azure Backup",
+    "title": "Setup Azure Backup",
+    "sidebar_label": "Setup Azure Backup",
+    "description": "Suggestions for setting up Azure Backup.",
+    "tags": [
+      "Azure",
+      "Resource Creation",
+      "Azure Backup"
+    ],
+    "custom_edit_url": "https://github.com/BassJamm/The-IT-Knowledge-base/blob/5543dc18b6c22eed57e767e6d130c28946d157c1/docs/Azure/Backup%20and%20Disaster%20Recovery/Setup%20Azure%20Backup.md"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Azure Backup",
+    "permalink": "/docs/category/azure-backup"
+  },
+  "next": {
+    "title": "Azure Lighthouse",
+    "permalink": "/docs/category/azure-lighthouse"
+  }
+}

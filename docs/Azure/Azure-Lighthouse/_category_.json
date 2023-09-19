@@ -1,0 +1,8 @@
+{
+  "label": "Azure Lighthouse",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "Azure Docs."
+  }
+}

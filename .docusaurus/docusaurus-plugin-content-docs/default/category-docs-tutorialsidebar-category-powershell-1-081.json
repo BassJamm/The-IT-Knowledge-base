@@ -1,0 +1,15 @@
+{
+  "title": "PowerShell",
+  "slug": "/category/powershell-1",
+  "permalink": "/docs/category/powershell-1",
+  "navigation": {
+    "previous": {
+      "title": "Microsoft Graph Cheatsheet",
+      "permalink": "/docs/PowerShell/MS-Graph/Microsoft Graph Cheatsheet"
+    },
+    "next": {
+      "title": "PowerShell Cheatsheet",
+      "permalink": "/docs/PowerShell/PowerShell-cheatsheet/"
+    }
+  }
+}

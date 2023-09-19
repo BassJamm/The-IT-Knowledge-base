@@ -13,49 +13,43 @@
           "tagsPath": "/docs/tags",
           "isLast": true,
           "routePriority": -1,
-          "sidebarFilePath": "C:\\GitRepos\\The-IT-Knowledge-base\\sidebars.js",
-          "contentPath": "C:\\GitRepos\\The-IT-Knowledge-base\\docs",
-          "contentPathLocalized": "C:\\GitRepos\\The-IT-Knowledge-base\\i18n\\en\\docusaurus-plugin-content-docs\\current",
+          "sidebarFilePath": "C:\\Git\\The-IT-Knowledge-base\\sidebars.js",
+          "contentPath": "C:\\Git\\The-IT-Knowledge-base\\docs",
+          "contentPathLocalized": "C:\\Git\\The-IT-Knowledge-base\\i18n\\en\\docusaurus-plugin-content-docs\\current",
           "docs": [
             {
-              "unversionedId": "Azure Active Directory/App Registrations/Decom and AAD App",
-              "id": "Azure Active Directory/App Registrations/Decom and AAD App",
-              "title": "Decommission and AAD App",
-              "description": "Decommission and Azure AD App registration.",
-              "source": "@site/docs/Azure Active Directory/App Registrations/Decom and AAD App.md",
-              "sourceDirName": "Azure Active Directory/App Registrations",
-              "slug": "/Azure Active Directory/App Registrations/Decom and AAD App",
-              "permalink": "/docs/Azure Active Directory/App Registrations/Decom and AAD App",
+              "unversionedId": "Azure-Active-Directory/App-Registrations/Decom an Azure AD App",
+              "id": "Azure-Active-Directory/App-Registrations/Decom an Azure AD App",
+              "title": "Decom an Azure AD App",
+              "description": "Suggested guidance for decommissioning an Azure AD App.",
+              "source": "@site/docs/Azure-Active-Directory/App-Registrations/Decom-AAD-App.md",
+              "sourceDirName": "Azure-Active-Directory/App-Registrations",
+              "slug": "/Azure-Active-Directory/App-Registrations/Decom an Azure AD App",
+              "permalink": "/docs/Azure-Active-Directory/App-Registrations/Decom an Azure AD App",
               "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/edit/main/docs/api-doc-markdown.md",
+              "editUrl": "https://github.com/BassJamm/The-IT-Knowledge-base/",
               "tags": [
                 {
                   "label": "AzureAD",
                   "permalink": "/docs/tags/azure-ad"
                 },
                 {
-                  "label": "EntApp",
-                  "permalink": "/docs/tags/ent-app"
+                  "label": "AppRegistrations",
+                  "permalink": "/docs/tags/app-registrations"
                 }
               ],
               "version": "current",
               "sidebarPosition": 1,
               "frontMatter": {
-                "draft": false,
-                "id": "Decom and AAD App",
-                "title": "Decommission and AAD App",
-                "hide_title": false,
-                "hide_table_of_contents": false,
-                "sidebar_label": "Decommission and AAD App",
                 "sidebar_position": 1,
-                "toc_max_heading_level": 4,
-                "pagination_label": "Decommission and AAD App",
+                "id": "Decom an Azure AD App",
+                "title": "Decom an Azure AD App",
+                "description": "Suggested guidance for decommissioning an Azure AD App.",
                 "tags": [
                   "AzureAD",
-                  "EntApp"
+                  "AppRegistrations"
                 ],
-                "custom_edit_url": "https://github.com/facebook/docusaurus/edit/main/docs/api-doc-markdown.md",
-                "description": "Decommission and Azure AD App registration."
+                "custom_edit_url": "https://github.com/BassJamm/The-IT-Knowledge-base/"
               },
               "sidebar": "tutorialSidebar",
               "previous": {
@@ -63,19 +57,76 @@
                 "permalink": "/docs/category/app-registrations"
               },
               "next": {
-                "title": "Certificates",
-                "permalink": "/docs/category/certificates"
+                "title": "Certificate Management",
+                "permalink": "/docs/category/certificate-management"
               }
             },
             {
-              "unversionedId": "Azure/Backup and Disaster Recovery/Setup Azure Backup",
-              "id": "Azure/Backup and Disaster Recovery/Setup Azure Backup",
+              "unversionedId": "Azure/Automation/Automation-Accounts/Create an Automation Account",
+              "id": "Azure/Automation/Automation-Accounts/Create an Automation Account",
+              "title": "Create an Automation Account",
+              "description": "Create an Automation Account for script automation in Azure.",
+              "source": "@site/docs/Azure/Automation/Automation-Accounts/Automate-Scripts.md",
+              "sourceDirName": "Azure/Automation/Automation-Accounts",
+              "slug": "/Azure/Automation/Automation-Accounts/Create an Automation Account",
+              "permalink": "/docs/Azure/Automation/Automation-Accounts/Create an Automation Account",
+              "draft": false,
+              "editUrl": null,
+              "tags": [
+                {
+                  "label": "Azure",
+                  "permalink": "/docs/tags/azure"
+                },
+                {
+                  "label": "Automation",
+                  "permalink": "/docs/tags/automation"
+                },
+                {
+                  "label": "Scripting",
+                  "permalink": "/docs/tags/scripting"
+                },
+                {
+                  "label": "Resource Creation",
+                  "permalink": "/docs/tags/resource-creation"
+                }
+              ],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "id": "Create an Automation Account",
+                "title": "Create an Automation Account",
+                "sidebar_label": "Create an Automation Account",
+                "sidebar_position": 2,
+                "toc_max_heading_level": 4,
+                "pagination_label": "Create an Automation Account",
+                "tags": [
+                  "Azure",
+                  "Automation",
+                  "Scripting",
+                  "Resource Creation"
+                ],
+                "custom_edit_url": null,
+                "description": "Create an Automation Account for script automation in Azure."
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Automation Accounts",
+                "permalink": "/docs/category/automation-accounts"
+              },
+              "next": {
+                "title": "Azure Backup",
+                "permalink": "/docs/category/azure-backup"
+              }
+            },
+            {
+              "unversionedId": "Azure/Azure-Backup/Setup Azure Backup",
+              "id": "Azure/Azure-Backup/Setup Azure Backup",
               "title": "Setup Azure Backup",
               "description": "Suggestions for setting up Azure Backup.",
-              "source": "@site/docs/Azure/Backup and Disaster Recovery/Setup Azure Backup.md",
-              "sourceDirName": "Azure/Backup and Disaster Recovery",
-              "slug": "/Azure/Backup and Disaster Recovery/Setup Azure Backup",
-              "permalink": "/docs/Azure/Backup and Disaster Recovery/Setup Azure Backup",
+              "source": "@site/docs/Azure/Azure-Backup/Setup-Azure-Backup.md",
+              "sourceDirName": "Azure/Azure-Backup",
+              "slug": "/Azure/Azure-Backup/Setup Azure Backup",
+              "permalink": "/docs/Azure/Azure-Backup/Setup Azure Backup",
               "draft": false,
               "editUrl": "https://github.com/BassJamm/The-IT-Knowledge-base/blob/5543dc18b6c22eed57e767e6d130c28946d157c1/docs/Azure/Backup%20and%20Disaster%20Recovery/Setup%20Azure%20Backup.md",
               "tags": [
@@ -96,8 +147,10 @@
               "sidebarPosition": 1,
               "frontMatter": {
                 "sidebar_position": 1,
+                "toc_max_heading_level": 4,
                 "id": "Setup Azure Backup",
                 "title": "Setup Azure Backup",
+                "sidebar_label": "Setup Azure Backup",
                 "description": "Suggestions for setting up Azure Backup.",
                 "tags": [
                   "Azure",
@@ -108,323 +161,25 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Backup and Disaster Recovery",
-                "permalink": "/docs/category/backup-and-disaster-recovery"
+                "title": "Azure Backup",
+                "permalink": "/docs/category/azure-backup"
               },
               "next": {
-                "title": "Setup Azure Site Recovery",
-                "permalink": "/docs/Azure/Backup and Disaster Recovery/Setup Azure Site Recovery"
+                "title": "Azure Lighthouse",
+                "permalink": "/docs/category/azure-lighthouse"
               }
             },
             {
-              "unversionedId": "Azure/Backup and Disaster Recovery/Setup Azure Site Recovery",
-              "id": "Azure/Backup and Disaster Recovery/Setup Azure Site Recovery",
-              "title": "Setup Azure Site Recovery",
-              "description": "Reinstate admin privileges for a customer's Azure CSP subscriptions.",
-              "source": "@site/docs/Azure/Backup and Disaster Recovery/Setup Azure Site Recovery.md",
-              "sourceDirName": "Azure/Backup and Disaster Recovery",
-              "slug": "/Azure/Backup and Disaster Recovery/Setup Azure Site Recovery",
-              "permalink": "/docs/Azure/Backup and Disaster Recovery/Setup Azure Site Recovery",
-              "draft": false,
-              "tags": [
-                {
-                  "label": "Guide",
-                  "permalink": "/docs/tags/guide"
-                },
-                {
-                  "label": "Azure",
-                  "permalink": "/docs/tags/azure"
-                },
-                {
-                  "label": "Setup Azure Site Recovery",
-                  "permalink": "/docs/tags/setup-azure-site-recovery"
-                }
-              ],
-              "version": "current",
-              "sidebarPosition": 2,
-              "frontMatter": {
-                "id": "Setup Azure Site Recovery",
-                "title": "Setup Azure Site Recovery",
-                "hide_title": false,
-                "hide_table_of_contents": false,
-                "sidebar_label": "Setup Azure Site Recovery",
-                "sidebar_position": 2,
-                "toc_max_heading_level": 4,
-                "pagination_label": "Setup Azure Site Recovery",
-                "tags": [
-                  "Guide",
-                  "Azure",
-                  "Setup Azure Site Recovery"
-                ],
-                "description": "Reinstate admin privileges for a customer's Azure CSP subscriptions."
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Setup Azure Backup",
-                "permalink": "/docs/Azure/Backup and Disaster Recovery/Setup Azure Backup"
-              },
-              "next": {
-                "title": "Data Management",
-                "permalink": "/docs/category/data-management"
-              }
-            },
-            {
-              "unversionedId": "Azure/Data Management/Restore data from a Snapshot",
-              "id": "Azure/Data Management/Restore data from a Snapshot",
-              "title": "Restore data from a Snapshot",
-              "description": "Document Control",
-              "source": "@site/docs/Azure/Data Management/Restore data from a Snapshot.md",
-              "sourceDirName": "Azure/Data Management",
-              "slug": "/Azure/Data Management/Restore data from a Snapshot",
-              "permalink": "/docs/Azure/Data Management/Restore data from a Snapshot",
-              "draft": false,
-              "tags": [
-                {
-                  "label": "Azure",
-                  "permalink": "/docs/tags/azure"
-                },
-                {
-                  "label": "Restore",
-                  "permalink": "/docs/tags/restore"
-                },
-                {
-                  "label": "SnapShot",
-                  "permalink": "/docs/tags/snap-shot"
-                }
-              ],
-              "version": "current",
-              "sidebarPosition": 6,
-              "frontMatter": {
-                "sidebar_position": 6,
-                "id": "Restore data from a Snapshot",
-                "title": "Restore data from a Snapshot",
-                "tags": [
-                  "Azure",
-                  "Restore",
-                  "SnapShot"
-                ]
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Data Management",
-                "permalink": "/docs/category/data-management"
-              },
-              "next": {
-                "title": "Restore VM from Snapshot",
-                "permalink": "/docs/Azure/Data Management/Restore VM from Snapshot"
-              }
-            },
-            {
-              "unversionedId": "Azure/Data Management/Restore VM from Snapshot",
-              "id": "Azure/Data Management/Restore VM from Snapshot",
-              "title": "Restore VM from Snapshot",
-              "description": "We're assuming there is already a valid Snapshot taken of the machine you're trying to restore.",
-              "source": "@site/docs/Azure/Data Management/Restore VM from Snapshot.md",
-              "sourceDirName": "Azure/Data Management",
-              "slug": "/Azure/Data Management/Restore VM from Snapshot",
-              "permalink": "/docs/Azure/Data Management/Restore VM from Snapshot",
-              "draft": false,
-              "tags": [
-                {
-                  "label": "Azure",
-                  "permalink": "/docs/tags/azure"
-                },
-                {
-                  "label": "Restore",
-                  "permalink": "/docs/tags/restore"
-                },
-                {
-                  "label": "SnapShot",
-                  "permalink": "/docs/tags/snap-shot"
-                }
-              ],
-              "version": "current",
-              "sidebarPosition": 7,
-              "frontMatter": {
-                "sidebar_position": 7,
-                "id": "Restore VM from Snapshot",
-                "title": "Restore VM from Snapshot",
-                "tags": [
-                  "Azure",
-                  "Restore",
-                  "SnapShot"
-                ]
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Restore data from a Snapshot",
-                "permalink": "/docs/Azure/Data Management/Restore data from a Snapshot"
-              },
-              "next": {
-                "title": "Infrastructure Management",
-                "permalink": "/docs/category/infrastructure-management"
-              }
-            },
-            {
-              "unversionedId": "Azure/Infrastructure/AVD Image Update Guidance",
-              "id": "Azure/Infrastructure/AVD Image Update Guidance",
-              "title": "AVD Image Update Guidance",
-              "description": "Reinstate admin privileges for a customer's Azure CSP subscriptions.",
-              "source": "@site/docs/Azure/Infrastructure/Update AVD Image.md",
-              "sourceDirName": "Azure/Infrastructure",
-              "slug": "/Azure/Infrastructure/AVD Image Update Guidance",
-              "permalink": "/docs/Azure/Infrastructure/AVD Image Update Guidance",
-              "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/edit/main/docs/api-doc-markdown.md",
-              "tags": [
-                {
-                  "label": "Guide",
-                  "permalink": "/docs/tags/guide"
-                },
-                {
-                  "label": "Azure",
-                  "permalink": "/docs/tags/azure"
-                },
-                {
-                  "label": "Azure Virtual Desktop",
-                  "permalink": "/docs/tags/azure-virtual-desktop"
-                }
-              ],
-              "version": "current",
-              "sidebarPosition": 1,
-              "frontMatter": {
-                "draft": true,
-                "id": "AVD Image Update Guidance",
-                "title": "AVD Image Update Guidance",
-                "hide_title": false,
-                "hide_table_of_contents": false,
-                "sidebar_label": "AVD Image Update Guidance",
-                "sidebar_position": 1,
-                "toc_max_heading_level": 4,
-                "pagination_label": "AVD Image Update Guidance",
-                "tags": [
-                  "Guide",
-                  "Azure",
-                  "Azure Virtual Desktop"
-                ],
-                "custom_edit_url": "https://github.com/facebook/docusaurus/edit/main/docs/api-doc-markdown.md",
-                "description": "Reinstate admin privileges for a customer's Azure CSP subscriptions."
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Setup Azure Lighthouse",
-                "permalink": "/docs/Azure/Infrastructure/Setup Azure Lighthouse"
-              },
-              "next": {
-                "title": "Create an Automation Account",
-                "permalink": "/docs/Azure/Infrastructure/Create an Automation Account"
-              }
-            },
-            {
-              "unversionedId": "Azure/Infrastructure/Create an Automation Account",
-              "id": "Azure/Infrastructure/Create an Automation Account",
-              "title": "Create an Automation Account",
-              "description": "Create an Automation Account for script automation in Azure.",
-              "source": "@site/docs/Azure/Infrastructure/Create an Automation Account.md",
-              "sourceDirName": "Azure/Infrastructure",
-              "slug": "/Azure/Infrastructure/Create an Automation Account",
-              "permalink": "/docs/Azure/Infrastructure/Create an Automation Account",
-              "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/edit/main/docs/api-doc-markdown.md",
-              "tags": [
-                {
-                  "label": "Azure",
-                  "permalink": "/docs/tags/azure"
-                },
-                {
-                  "label": "Automation",
-                  "permalink": "/docs/tags/automation"
-                },
-                {
-                  "label": "Scripting",
-                  "permalink": "/docs/tags/scripting"
-                }
-              ],
-              "version": "current",
-              "sidebarPosition": 2,
-              "frontMatter": {
-                "id": "Create an Automation Account",
-                "title": "Create an Automation Account",
-                "hide_title": false,
-                "hide_table_of_contents": false,
-                "sidebar_label": "Create an Automation Account",
-                "sidebar_position": 2,
-                "toc_max_heading_level": 4,
-                "pagination_label": "Create an Automation Account",
-                "tags": [
-                  "Azure",
-                  "Automation",
-                  "Scripting"
-                ],
-                "custom_edit_url": "https://github.com/facebook/docusaurus/edit/main/docs/api-doc-markdown.md",
-                "description": "Create an Automation Account for script automation in Azure."
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "AVD Image Update Guidance",
-                "permalink": "/docs/Azure/Infrastructure/AVD Image Update Guidance"
-              },
-              "next": {
-                "title": "Re-size a Virtual Machine",
-                "permalink": "/docs/Azure/Infrastructure/Re-size a Virtual Machine"
-              }
-            },
-            {
-              "unversionedId": "Azure/Infrastructure/Re-size a Virtual Machine",
-              "id": "Azure/Infrastructure/Re-size a Virtual Machine",
-              "title": "Re-size a Virtual Machine",
-              "description": "Before you begin",
-              "source": "@site/docs/Azure/Infrastructure/Resize a Virtual Machine.md",
-              "sourceDirName": "Azure/Infrastructure",
-              "slug": "/Azure/Infrastructure/Re-size a Virtual Machine",
-              "permalink": "/docs/Azure/Infrastructure/Re-size a Virtual Machine",
-              "draft": false,
-              "tags": [
-                {
-                  "label": "Azure",
-                  "permalink": "/docs/tags/azure"
-                },
-                {
-                  "label": "Virtual Machine",
-                  "permalink": "/docs/tags/virtual-machine"
-                }
-              ],
-              "version": "current",
-              "sidebarPosition": 5,
-              "frontMatter": {
-                "sidebar_position": 5,
-                "id": "Re-size a Virtual Machine",
-                "title": "Re-size a Virtual Machine",
-                "tags": [
-                  "Azure",
-                  "Virtual Machine"
-                ]
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Create an Automation Account",
-                "permalink": "/docs/Azure/Infrastructure/Create an Automation Account"
-              },
-              "next": {
-                "title": "Networking",
-                "permalink": "/docs/category/networking"
-              }
-            },
-            {
-              "unversionedId": "Azure/Infrastructure/Setup Azure Lighthouse",
-              "id": "Azure/Infrastructure/Setup Azure Lighthouse",
+              "unversionedId": "Azure/Azure-Lighthouse/Setup Azure Lighthouse",
+              "id": "Azure/Azure-Lighthouse/Setup Azure Lighthouse",
               "title": "Setup Azure Lighthouse",
               "description": "Document Control",
-              "source": "@site/docs/Azure/Infrastructure/Azure Lighthouse Setup.md",
-              "sourceDirName": "Azure/Infrastructure",
-              "slug": "/Azure/Infrastructure/Setup Azure Lighthouse",
-              "permalink": "/docs/Azure/Infrastructure/Setup Azure Lighthouse",
+              "source": "@site/docs/Azure/Azure-Lighthouse/Suggestions-to-Setup.md",
+              "sourceDirName": "Azure/Azure-Lighthouse",
+              "slug": "/Azure/Azure-Lighthouse/Setup Azure Lighthouse",
+              "permalink": "/docs/Azure/Azure-Lighthouse/Setup Azure Lighthouse",
               "draft": false,
               "tags": [
-                {
-                  "label": "Guide",
-                  "permalink": "/docs/tags/guide"
-                },
                 {
                   "label": "Azure",
                   "permalink": "/docs/tags/azure"
@@ -442,70 +197,63 @@
                 "title": "Setup Azure Lighthouse",
                 "toc_max_heading_level": 4,
                 "tags": [
-                  "Guide",
                   "Azure",
                   "Lighthouse"
                 ]
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Infrastructure Management",
-                "permalink": "/docs/category/infrastructure-management"
+                "title": "Azure Lighthouse",
+                "permalink": "/docs/category/azure-lighthouse"
               },
               "next": {
-                "title": "AVD Image Update Guidance",
-                "permalink": "/docs/Azure/Infrastructure/AVD Image Update Guidance"
+                "title": "Disks",
+                "permalink": "/docs/category/disks"
               }
             },
             {
-              "unversionedId": "Azure/Networking/Network Security Groups",
-              "id": "Azure/Networking/Network Security Groups",
-              "title": "Network Security Groups",
-              "description": "Guidance for Network Security Groups.",
-              "source": "@site/docs/Azure/Networking/Network Security Groups.md",
-              "sourceDirName": "Azure/Networking",
-              "slug": "/Azure/Networking/Network Security Groups",
-              "permalink": "/docs/Azure/Networking/Network Security Groups",
+              "unversionedId": "Azure/Disks/Restore data from a Snapshot",
+              "id": "Azure/Disks/Restore data from a Snapshot",
+              "title": "Restore data from a Snapshot",
+              "description": "Restore data from a Snapshot.",
+              "source": "@site/docs/Azure/Disks/Restore-from-SnapShot.md",
+              "sourceDirName": "Azure/Disks",
+              "slug": "/Azure/Disks/Restore data from a Snapshot",
+              "permalink": "/docs/Azure/Disks/Restore data from a Snapshot",
               "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/edit/main/docs/api-doc-markdown.md",
+              "editUrl": null,
               "tags": [
                 {
                   "label": "Azure",
                   "permalink": "/docs/tags/azure"
                 },
                 {
-                  "label": "Network Security Groups",
-                  "permalink": "/docs/tags/network-security-groups"
+                  "label": "Snapshot",
+                  "permalink": "/docs/tags/snapshot"
                 },
                 {
-                  "label": "Networking",
-                  "permalink": "/docs/tags/networking"
+                  "label": "Restore",
+                  "permalink": "/docs/tags/restore"
                 }
               ],
               "version": "current",
-              "sidebarPosition": 1,
+              "sidebarPosition": 2,
               "frontMatter": {
-                "draft": false,
-                "id": "Network Security Groups",
-                "title": "Network Security Groups",
-                "hide_title": false,
-                "hide_table_of_contents": false,
-                "sidebar_label": "Network Security Groups",
-                "sidebar_position": 1,
-                "toc_max_heading_level": 4,
-                "pagination_label": "Network Security Groups",
+                "sidebar_position": 2,
+                "id": "Restore data from a Snapshot",
+                "title": "Restore data from a Snapshot",
+                "description": "Restore data from a Snapshot.",
                 "tags": [
                   "Azure",
-                  "Network Security Groups",
-                  "Networking"
+                  "Snapshot",
+                  "Restore"
                 ],
-                "custom_edit_url": "https://github.com/facebook/docusaurus/edit/main/docs/api-doc-markdown.md",
-                "description": "Guidance for Network Security Groups."
+                "custom_edit_url": null
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Networking",
-                "permalink": "/docs/category/networking"
+                "title": "Disks",
+                "permalink": "/docs/category/disks"
               },
               "next": {
                 "title": "Azure Active Directory",
@@ -513,14 +261,14 @@
               }
             },
             {
-              "unversionedId": "Certificates/Formats and Conversions",
-              "id": "Certificates/Formats and Conversions",
-              "title": "Certificate formats and Converting formats",
-              "description": "Certificate formatting and converting them to different formats.",
-              "source": "@site/docs/Certificates/Formats & Conversion.md",
-              "sourceDirName": "Certificates",
-              "slug": "/Certificates/Formats and Conversions",
-              "permalink": "/docs/Certificates/Formats and Conversions",
+              "unversionedId": "Certificate-Mgmt/Formats and Conversions",
+              "id": "Certificate-Mgmt/Formats and Conversions",
+              "title": "Formats and Conversions",
+              "description": "Reinstate admin privileges for a customer's Azure CSP subscriptions.",
+              "source": "@site/docs/Certificate-Mgmt/Formats-&-Conversions.md",
+              "sourceDirName": "Certificate-Mgmt",
+              "slug": "/Certificate-Mgmt/Formats and Conversions",
+              "permalink": "/docs/Certificate-Mgmt/Formats and Conversions",
               "draft": false,
               "editUrl": "https://github.com/facebook/docusaurus/edit/main/docs/api-doc-markdown.md",
               "tags": [
@@ -532,40 +280,40 @@
               "version": "current",
               "sidebarPosition": 1,
               "frontMatter": {
-                "draft": false,
+                "draft": true,
                 "id": "Formats and Conversions",
-                "title": "Certificate formats and Converting formats",
+                "title": "Formats and Conversions",
                 "hide_title": false,
                 "hide_table_of_contents": false,
-                "sidebar_label": "Certificate formats and Converting formats",
+                "sidebar_label": "Formats and Conversions",
                 "sidebar_position": 1,
                 "toc_max_heading_level": 4,
-                "pagination_label": "Certificate formats and Converting formats",
+                "pagination_label": "Formats and Conversions",
                 "tags": [
                   "Certificates"
                 ],
                 "custom_edit_url": "https://github.com/facebook/docusaurus/edit/main/docs/api-doc-markdown.md",
-                "description": "Certificate formatting and converting them to different formats."
+                "description": "Reinstate admin privileges for a customer's Azure CSP subscriptions."
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Certificates",
-                "permalink": "/docs/category/certificates"
+                "title": "Certificate Management",
+                "permalink": "/docs/category/certificate-management"
               },
               "next": {
-                "title": "Generating a CSR",
-                "permalink": "/docs/Certificates/Generating a CSR"
+                "title": "Generating CSRs",
+                "permalink": "/docs/Certificate-Mgmt/Generating CSRs"
               }
             },
             {
-              "unversionedId": "Certificates/Generating a CSR",
-              "id": "Certificates/Generating a CSR",
-              "title": "Generating a CSR",
-              "description": "Generating a CSR.",
-              "source": "@site/docs/Certificates/Generating a CSR.md",
-              "sourceDirName": "Certificates",
-              "slug": "/Certificates/Generating a CSR",
-              "permalink": "/docs/Certificates/Generating a CSR",
+              "unversionedId": "Certificate-Mgmt/Generating CSRs",
+              "id": "Certificate-Mgmt/Generating CSRs",
+              "title": "Generating CSRs",
+              "description": "Reinstate admin privileges for a customer's Azure CSP subscriptions.",
+              "source": "@site/docs/Certificate-Mgmt/Generating-CSRs.md",
+              "sourceDirName": "Certificate-Mgmt",
+              "slug": "/Certificate-Mgmt/Generating CSRs",
+              "permalink": "/docs/Certificate-Mgmt/Generating CSRs",
               "draft": false,
               "editUrl": "https://github.com/facebook/docusaurus/edit/main/docs/api-doc-markdown.md",
               "tags": [
@@ -577,40 +325,40 @@
               "version": "current",
               "sidebarPosition": 2,
               "frontMatter": {
-                "draft": false,
-                "id": "Generating a CSR",
-                "title": "Generating a CSR",
+                "draft": true,
+                "id": "Generating CSRs",
+                "title": "Generating CSRs",
                 "hide_title": false,
                 "hide_table_of_contents": false,
-                "sidebar_label": "Generating a CSR",
+                "sidebar_label": "Generating CSRs",
                 "sidebar_position": 2,
                 "toc_max_heading_level": 4,
-                "pagination_label": "Generating a CSR",
+                "pagination_label": "Generating CSRs",
                 "tags": [
                   "Certificates"
                 ],
                 "custom_edit_url": "https://github.com/facebook/docusaurus/edit/main/docs/api-doc-markdown.md",
-                "description": "Generating a CSR."
+                "description": "Reinstate admin privileges for a customer's Azure CSP subscriptions."
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Certificate formats and Converting formats",
-                "permalink": "/docs/Certificates/Formats and Conversions"
+                "title": "Formats and Conversions",
+                "permalink": "/docs/Certificate-Mgmt/Formats and Conversions"
               },
               "next": {
-                "title": "Request from Internal CA",
-                "permalink": "/docs/Certificates/Request from Internal CA"
+                "title": "Request a Certificate from internal CA",
+                "permalink": "/docs/Certificate-Mgmt/Request a Certificate from internal CA"
               }
             },
             {
-              "unversionedId": "Certificates/Request from Internal CA",
-              "id": "Certificates/Request from Internal CA",
-              "title": "Request from Internal CA",
-              "description": "Request a Cert from Internal CA.",
-              "source": "@site/docs/Certificates/Using an Internal CA.md",
-              "sourceDirName": "Certificates",
-              "slug": "/Certificates/Request from Internal CA",
-              "permalink": "/docs/Certificates/Request from Internal CA",
+              "unversionedId": "Certificate-Mgmt/Request a Certificate from internal CA",
+              "id": "Certificate-Mgmt/Request a Certificate from internal CA",
+              "title": "Request a Certificate from internal CA",
+              "description": "Requesting a Certificate from an Internal Certificate Authority.",
+              "source": "@site/docs/Certificate-Mgmt/Internal-CA.md",
+              "sourceDirName": "Certificate-Mgmt",
+              "slug": "/Certificate-Mgmt/Request a Certificate from internal CA",
+              "permalink": "/docs/Certificate-Mgmt/Request a Certificate from internal CA",
               "draft": false,
               "editUrl": "https://github.com/facebook/docusaurus/edit/main/docs/api-doc-markdown.md",
               "tags": [
@@ -622,25 +370,25 @@
               "version": "current",
               "sidebarPosition": 3,
               "frontMatter": {
-                "draft": false,
-                "id": "Request from Internal CA",
-                "title": "Request from Internal CA",
+                "draft": true,
+                "id": "Request a Certificate from internal CA",
+                "title": "Request a Certificate from internal CA",
                 "hide_title": false,
                 "hide_table_of_contents": false,
-                "sidebar_label": "Request from Internal CAs",
+                "sidebar_label": "Request a Certificate from internal CA",
                 "sidebar_position": 3,
                 "toc_max_heading_level": 4,
-                "pagination_label": "Request from Internal CA",
+                "pagination_label": "Request a Certificate from internal CA",
                 "tags": [
                   "Certificates"
                 ],
                 "custom_edit_url": "https://github.com/facebook/docusaurus/edit/main/docs/api-doc-markdown.md",
-                "description": "Request a Cert from Internal CA."
+                "description": "Requesting a Certificate from an Internal Certificate Authority."
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Generating a CSR",
-                "permalink": "/docs/Certificates/Generating a CSR"
+                "title": "Generating CSRs",
+                "permalink": "/docs/Certificate-Mgmt/Generating CSRs"
               },
               "next": {
                 "title": "Citrix",
@@ -648,14 +396,14 @@
               }
             },
             {
-              "unversionedId": "Citrix/Updating an image",
-              "id": "Citrix/Updating an image",
-              "title": "Updating an image (Citrix Cloud)",
-              "description": "Updating a citrix image for Citrix Cloud.",
-              "source": "@site/docs/Citrix/Updating an image.md",
+              "unversionedId": "Citrix/Updating a Citrix Cloud Image",
+              "id": "Citrix/Updating a Citrix Cloud Image",
+              "title": "Updating a Citrix Cloud Image",
+              "description": "Reinstate admin privileges for a customer's Azure CSP subscriptions.",
+              "source": "@site/docs/Citrix/Doc.md",
               "sourceDirName": "Citrix",
-              "slug": "/Citrix/Updating an image",
-              "permalink": "/docs/Citrix/Updating an image",
+              "slug": "/Citrix/Updating a Citrix Cloud Image",
+              "permalink": "/docs/Citrix/Updating a Citrix Cloud Image",
               "draft": false,
               "editUrl": "https://github.com/facebook/docusaurus/edit/main/docs/api-doc-markdown.md",
               "tags": [
@@ -667,20 +415,20 @@
               "version": "current",
               "sidebarPosition": 1,
               "frontMatter": {
-                "draft": false,
-                "id": "Updating an image",
-                "title": "Updating an image (Citrix Cloud)",
+                "draft": true,
+                "id": "Updating a Citrix Cloud Image",
+                "title": "Updating a Citrix Cloud Image",
                 "hide_title": false,
                 "hide_table_of_contents": false,
-                "sidebar_label": "Updating an image",
+                "sidebar_label": "Updating a Citrix Cloud Image",
                 "sidebar_position": 1,
                 "toc_max_heading_level": 4,
-                "pagination_label": "Updating an image",
+                "pagination_label": "Updating a Citrix Cloud Image",
                 "tags": [
                   "Citrix"
                 ],
                 "custom_edit_url": "https://github.com/facebook/docusaurus/edit/main/docs/api-doc-markdown.md",
-                "description": "Updating a citrix image for Citrix Cloud."
+                "description": "Reinstate admin privileges for a customer's Azure CSP subscriptions."
               },
               "sidebar": "tutorialSidebar",
               "previous": {
@@ -688,164 +436,19 @@
                 "permalink": "/docs/category/citrix"
               },
               "next": {
-                "title": "Command Line References",
-                "permalink": "/docs/category/command-line-references"
+                "title": "PowerShell",
+                "permalink": "/docs/category/powershell"
               }
             },
             {
-              "unversionedId": "Command Line References/Active Directory",
-              "id": "Command Line References/Active Directory",
-              "title": "Active Directory",
-              "description": "All things related to Active Directory cmdlet.",
-              "source": "@site/docs/Command Line References/Active Directory.md",
-              "sourceDirName": "Command Line References",
-              "slug": "/Command Line References/Active Directory",
-              "permalink": "/docs/Command Line References/Active Directory",
-              "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/edit/main/docs/api-doc-markdown.md",
-              "tags": [
-                {
-                  "label": "AzureAD",
-                  "permalink": "/docs/tags/azure-ad"
-                }
-              ],
-              "version": "current",
-              "sidebarPosition": 1,
-              "frontMatter": {
-                "draft": true,
-                "id": "Active Directory",
-                "title": "Active Directory",
-                "hide_title": false,
-                "hide_table_of_contents": false,
-                "sidebar_label": "Active Directory",
-                "sidebar_position": 1,
-                "toc_max_heading_level": 4,
-                "pagination_label": "ActiveDirectory",
-                "tags": [
-                  "AzureAD"
-                ],
-                "custom_edit_url": "https://github.com/facebook/docusaurus/edit/main/docs/api-doc-markdown.md",
-                "description": "All things related to Active Directory cmdlet."
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Command Line References",
-                "permalink": "/docs/category/command-line-references"
-              },
-              "next": {
-                "title": "AzCLi",
-                "permalink": "/docs/Command Line References/AzCLi"
-              }
-            },
-            {
-              "unversionedId": "Command Line References/AzCLi",
-              "id": "Command Line References/AzCLi",
-              "title": "Az Cli",
-              "description": "AzCLi command ref doc.",
-              "source": "@site/docs/Command Line References/Az CLi.md",
-              "sourceDirName": "Command Line References",
-              "slug": "/Command Line References/AzCLi",
-              "permalink": "/docs/Command Line References/AzCLi",
-              "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/edit/main/docs/api-doc-markdown.md",
-              "tags": [
-                {
-                  "label": "Command Line",
-                  "permalink": "/docs/tags/command-line"
-                },
-                {
-                  "label": "AzCLi",
-                  "permalink": "/docs/tags/az-c-li"
-                }
-              ],
-              "version": "current",
-              "sidebarPosition": 2,
-              "frontMatter": {
-                "draft": false,
-                "id": "AzCLi",
-                "title": "Az Cli",
-                "hide_title": false,
-                "hide_table_of_contents": false,
-                "sidebar_label": "Az Cli",
-                "sidebar_position": 2,
-                "toc_max_heading_level": 4,
-                "pagination_label": "AzCLi",
-                "tags": [
-                  "Command Line",
-                  "AzCLi"
-                ],
-                "custom_edit_url": "https://github.com/facebook/docusaurus/edit/main/docs/api-doc-markdown.md",
-                "description": "AzCLi command ref doc."
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "ActiveDirectory",
-                "permalink": "/docs/Command Line References/Active Directory"
-              },
-              "next": {
-                "title": "Exchange Online",
-                "permalink": "/docs/Command Line References/Exchange Online"
-              }
-            },
-            {
-              "unversionedId": "Command Line References/Exchange Online",
-              "id": "Command Line References/Exchange Online",
-              "title": "Exchange Online",
-              "description": "Exchange Online command ref doc.",
-              "source": "@site/docs/Command Line References/Exchange Online.md",
-              "sourceDirName": "Command Line References",
-              "slug": "/Command Line References/Exchange Online",
-              "permalink": "/docs/Command Line References/Exchange Online",
-              "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/edit/main/docs/api-doc-markdown.md",
-              "tags": [
-                {
-                  "label": "Command Line",
-                  "permalink": "/docs/tags/command-line"
-                },
-                {
-                  "label": "Exchange Online",
-                  "permalink": "/docs/tags/exchange-online"
-                }
-              ],
-              "version": "current",
-              "sidebarPosition": 2,
-              "frontMatter": {
-                "draft": false,
-                "id": "Exchange Online",
-                "title": "Exchange Online",
-                "hide_title": false,
-                "hide_table_of_contents": false,
-                "sidebar_label": "Exchange Online",
-                "sidebar_position": 2,
-                "toc_max_heading_level": 4,
-                "pagination_label": "Exchange Online",
-                "tags": [
-                  "Command Line",
-                  "Exchange Online"
-                ],
-                "custom_edit_url": "https://github.com/facebook/docusaurus/edit/main/docs/api-doc-markdown.md",
-                "description": "Exchange Online command ref doc."
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "AzCLi",
-                "permalink": "/docs/Command Line References/AzCLi"
-              },
-              "next": {
-                "title": "Git CMDLine Ref",
-                "permalink": "/docs/Command Line References/Git CMDLine Ref"
-              }
-            },
-            {
-              "unversionedId": "Command Line References/Git CMDLine Ref",
-              "id": "Command Line References/Git CMDLine Ref",
-              "title": "Git CMDLine Ref",
+              "unversionedId": "PowerShell/Git/Git Cheatsheet",
+              "id": "PowerShell/Git/Git Cheatsheet",
+              "title": "Git Cheatsheet",
               "description": "Git command line refernce.",
-              "source": "@site/docs/Command Line References/Git Commands.md",
-              "sourceDirName": "Command Line References",
-              "slug": "/Command Line References/Git CMDLine Ref",
-              "permalink": "/docs/Command Line References/Git CMDLine Ref",
+              "source": "@site/docs/PowerShell/Git/Git-cheatsheet.md",
+              "sourceDirName": "PowerShell/Git",
+              "slug": "/PowerShell/Git/Git Cheatsheet",
+              "permalink": "/docs/PowerShell/Git/Git Cheatsheet",
               "draft": false,
               "editUrl": "https://github.com/facebook/docusaurus/edit/main/docs/api-doc-markdown.md",
               "tags": [
@@ -854,48 +457,48 @@
                   "permalink": "/docs/tags/git"
                 },
                 {
-                  "label": "Command Line Ref",
+                  "label": "Command-Line-Ref",
                   "permalink": "/docs/tags/command-line-ref"
                 }
               ],
               "version": "current",
-              "sidebarPosition": 3,
+              "sidebarPosition": 1,
               "frontMatter": {
                 "draft": false,
-                "id": "Git CMDLine Ref",
-                "title": "Git CMDLine Ref",
+                "id": "Git Cheatsheet",
+                "title": "Git Cheatsheet",
                 "hide_title": false,
                 "hide_table_of_contents": false,
-                "sidebar_label": "Git CMDLine Ref",
-                "sidebar_position": 3,
+                "sidebar_label": "Git Cheatsheet",
+                "sidebar_position": 1,
                 "toc_max_heading_level": 4,
-                "pagination_label": "Git CMDLine Ref",
+                "pagination_label": "Git Cheatsheet",
                 "tags": [
                   "Git",
-                  "Command Line Ref"
+                  "Command-Line-Ref"
                 ],
                 "custom_edit_url": "https://github.com/facebook/docusaurus/edit/main/docs/api-doc-markdown.md",
                 "description": "Git command line refernce."
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Exchange Online",
-                "permalink": "/docs/Command Line References/Exchange Online"
+                "title": "Git",
+                "permalink": "/docs/category/git"
               },
               "next": {
                 "title": "Microsoft Graph",
-                "permalink": "/docs/Command Line References/Microsoft Graph"
+                "permalink": "/docs/category/microsoft-graph"
               }
             },
             {
-              "unversionedId": "Command Line References/Microsoft Graph",
-              "id": "Command Line References/Microsoft Graph",
-              "title": "Microsoft Graph",
+              "unversionedId": "PowerShell/MS-Graph/Microsoft Graph Cheatsheet",
+              "id": "PowerShell/MS-Graph/Microsoft Graph Cheatsheet",
+              "title": "Microsoft Graph Cheatsheet",
               "description": "Microsoft Graph command ref doc.",
-              "source": "@site/docs/Command Line References/MS Graph.md",
-              "sourceDirName": "Command Line References",
-              "slug": "/Command Line References/Microsoft Graph",
-              "permalink": "/docs/Command Line References/Microsoft Graph",
+              "source": "@site/docs/PowerShell/MS-Graph/MG-Graph-Cheatsheet.md",
+              "sourceDirName": "PowerShell/MS-Graph",
+              "slug": "/PowerShell/MS-Graph/Microsoft Graph Cheatsheet",
+              "permalink": "/docs/PowerShell/MS-Graph/Microsoft Graph Cheatsheet",
               "draft": false,
               "editUrl": "https://github.com/facebook/docusaurus/edit/main/docs/api-doc-markdown.md",
               "tags": [
@@ -912,14 +515,14 @@
               "sidebarPosition": 3,
               "frontMatter": {
                 "draft": false,
-                "id": "Microsoft Graph",
-                "title": "Microsoft Graph",
+                "id": "Microsoft Graph Cheatsheet",
+                "title": "Microsoft Graph Cheatsheet",
                 "hide_title": false,
                 "hide_table_of_contents": false,
-                "sidebar_label": "Microsoft Graph",
+                "sidebar_label": "Microsoft Graph Cheatsheet",
                 "sidebar_position": 3,
                 "toc_max_heading_level": 4,
-                "pagination_label": "Microsoft Graph",
+                "pagination_label": "Microsoft Graph Cheatsheet",
                 "tags": [
                   "Command Line",
                   "Microsoft Graph"
@@ -929,23 +532,23 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Git CMDLine Ref",
-                "permalink": "/docs/Command Line References/Git CMDLine Ref"
+                "title": "Microsoft Graph",
+                "permalink": "/docs/category/microsoft-graph"
               },
               "next": {
                 "title": "PowerShell",
-                "permalink": "/docs/Command Line References/PowerShell"
+                "permalink": "/docs/category/powershell-1"
               }
             },
             {
-              "unversionedId": "Command Line References/PowerShell",
-              "id": "Command Line References/PowerShell",
-              "title": "PowerShell",
+              "unversionedId": "PowerShell/PowerShell-cheatsheet/PowerShell Cheatsheet",
+              "id": "PowerShell/PowerShell-cheatsheet/PowerShell Cheatsheet",
+              "title": "PowerShell Cheatsheet",
               "description": "All things PowerShell.",
-              "source": "@site/docs/Command Line References/PowerShell.md",
-              "sourceDirName": "Command Line References",
-              "slug": "/Command Line References/PowerShell",
-              "permalink": "/docs/Command Line References/PowerShell",
+              "source": "@site/docs/PowerShell/PowerShell-cheatsheet/PowerShell-Cheatsheet.md",
+              "sourceDirName": "PowerShell/PowerShell-cheatsheet",
+              "slug": "/PowerShell/PowerShell-cheatsheet/",
+              "permalink": "/docs/PowerShell/PowerShell-cheatsheet/",
               "draft": false,
               "editUrl": "https://github.com/facebook/docusaurus/edit/main/docs/api-doc-markdown.md",
               "tags": [
@@ -962,14 +565,14 @@
               "sidebarPosition": 4,
               "frontMatter": {
                 "draft": false,
-                "id": "PowerShell",
-                "title": "PowerShell",
+                "id": "PowerShell Cheatsheet",
+                "title": "PowerShell Cheatsheet",
                 "hide_title": false,
                 "hide_table_of_contents": false,
-                "sidebar_label": "PowerShell",
+                "sidebar_label": "PowerShell Cheatsheet",
                 "sidebar_position": 4,
                 "toc_max_heading_level": 4,
-                "pagination_label": "PowerShell",
+                "pagination_label": "PowerShell Cheatsheet",
                 "tags": [
                   "Command Line",
                   "PowerShell"
@@ -979,164 +582,8 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Microsoft Graph",
-                "permalink": "/docs/Command Line References/Microsoft Graph"
-              },
-              "next": {
-                "title": "Scripts",
-                "permalink": "/docs/category/scripts"
-              }
-            },
-            {
-              "unversionedId": "Scripts/Get User info using MGGraph",
-              "id": "Scripts/Get User info using MGGraph",
-              "title": "Get User info using MGGraph",
-              "description": "Get user information using MGGraph.",
-              "source": "@site/docs/Scripts/Get User info using MGGraph.md",
-              "sourceDirName": "Scripts",
-              "slug": "/Scripts/Get User info using MGGraph",
-              "permalink": "/docs/Scripts/Get User info using MGGraph",
-              "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/edit/main/docs/api-doc-markdown.md",
-              "tags": [
-                {
-                  "label": "MGGraph",
-                  "permalink": "/docs/tags/mg-graph"
-                },
-                {
-                  "label": "Script",
-                  "permalink": "/docs/tags/script"
-                }
-              ],
-              "version": "current",
-              "sidebarPosition": 2,
-              "frontMatter": {
-                "draft": true,
-                "id": "Get User info using MGGraph",
-                "title": "Get User info using MGGraph",
-                "hide_title": false,
-                "hide_table_of_contents": false,
-                "sidebar_label": "Get User info using MGGraph",
-                "sidebar_position": 2,
-                "toc_max_heading_level": 4,
-                "pagination_label": "Get User info using MGGraph",
-                "tags": [
-                  "MGGraph",
-                  "Script"
-                ],
-                "custom_edit_url": "https://github.com/facebook/docusaurus/edit/main/docs/api-doc-markdown.md",
-                "description": "Get user information using MGGraph."
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Scripts",
-                "permalink": "/docs/category/scripts"
-              },
-              "next": {
-                "title": "NSG Flow log Formatter",
-                "permalink": "/docs/Scripts/NSG Flow log Formatter"
-              }
-            },
-            {
-              "unversionedId": "Scripts/NSG Flow log Formatter",
-              "id": "Scripts/NSG Flow log Formatter",
-              "title": "NSG Flow log Formatter",
-              "description": "Script will help with readability of NSG flow logs.",
-              "source": "@site/docs/Scripts/NSG Flow Log Parser.md",
-              "sourceDirName": "Scripts",
-              "slug": "/Scripts/NSG Flow log Formatter",
-              "permalink": "/docs/Scripts/NSG Flow log Formatter",
-              "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/edit/main/docs/api-doc-markdown.md",
-              "tags": [
-                {
-                  "label": "Script",
-                  "permalink": "/docs/tags/script"
-                },
-                {
-                  "label": "NSG",
-                  "permalink": "/docs/tags/nsg"
-                },
-                {
-                  "label": "Flow Log",
-                  "permalink": "/docs/tags/flow-log"
-                }
-              ],
-              "version": "current",
-              "sidebarPosition": 2,
-              "frontMatter": {
-                "draft": false,
-                "id": "NSG Flow log Formatter",
-                "title": "NSG Flow log Formatter",
-                "hide_title": false,
-                "hide_table_of_contents": false,
-                "sidebar_label": "NSG Flow log Formatter",
-                "sidebar_position": 2,
-                "toc_max_heading_level": 4,
-                "pagination_label": "NSG Flow log Formatter",
-                "tags": [
-                  "Script",
-                  "NSG",
-                  "Flow Log"
-                ],
-                "custom_edit_url": "https://github.com/facebook/docusaurus/edit/main/docs/api-doc-markdown.md",
-                "description": "Script will help with readability of NSG flow logs."
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Get User info using MGGraph",
-                "permalink": "/docs/Scripts/Get User info using MGGraph"
-              },
-              "next": {
-                "title": "Windows OS Scripts",
-                "permalink": "/docs/Scripts/Windows OS Scripts"
-              }
-            },
-            {
-              "unversionedId": "Scripts/Windows OS Scripts",
-              "id": "Scripts/Windows OS Scripts",
-              "title": "Windows OS Scripts",
-              "description": "Windows OS Scripts and re-usable code.",
-              "source": "@site/docs/Scripts/Windows OS Scripts.md",
-              "sourceDirName": "Scripts",
-              "slug": "/Scripts/Windows OS Scripts",
-              "permalink": "/docs/Scripts/Windows OS Scripts",
-              "draft": false,
-              "tags": [
-                {
-                  "label": "Scripts",
-                  "permalink": "/docs/tags/scripts"
-                },
-                {
-                  "label": "Re-usable Code",
-                  "permalink": "/docs/tags/re-usable-code"
-                }
-              ],
-              "version": "current",
-              "sidebarPosition": 3,
-              "frontMatter": {
-                "id": "Windows OS Scripts",
-                "title": "Windows OS Scripts",
-                "hide_title": false,
-                "hide_table_of_contents": false,
-                "sidebar_label": "Windows OS Scripts",
-                "sidebar_position": 3,
-                "toc_max_heading_level": 4,
-                "pagination_label": "Windows OS Scripts",
-                "tags": [
-                  "Scripts",
-                  "Re-usable Code"
-                ],
-                "description": "Windows OS Scripts and re-usable code."
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "NSG Flow log Formatter",
-                "permalink": "/docs/Scripts/NSG Flow log Formatter"
-              },
-              "next": {
-                "title": "Windows OS",
-                "permalink": "/docs/category/windows-os"
+                "title": "PowerShell",
+                "permalink": "/docs/category/powershell-1"
               }
             },
             {
@@ -1163,47 +610,6 @@
                 "title": "Azure",
                 "permalink": "/docs/category/azure"
               }
-            },
-            {
-              "unversionedId": "Windows OS/Creating a nice pwsh prompt",
-              "id": "Windows OS/Creating a nice pwsh prompt",
-              "title": "Creating a nice pwsh prompt",
-              "description": "Creating a nice PowerShell prompt using oh my posh & PSReadLine.",
-              "source": "@site/docs/Windows OS/Creating a nice pwsh prompt.md",
-              "sourceDirName": "Windows OS",
-              "slug": "/Windows OS/Creating a nice pwsh prompt",
-              "permalink": "/docs/Windows OS/Creating a nice pwsh prompt",
-              "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/edit/main/docs/api-doc-markdown.md",
-              "tags": [
-                {
-                  "label": "PartnerCentre",
-                  "permalink": "/docs/tags/partner-centre"
-                }
-              ],
-              "version": "current",
-              "sidebarPosition": 1,
-              "frontMatter": {
-                "draft": false,
-                "id": "Creating a nice pwsh prompt",
-                "title": "Creating a nice pwsh prompt",
-                "hide_title": false,
-                "hide_table_of_contents": false,
-                "sidebar_label": "Creating a nice pwsh prompt",
-                "sidebar_position": 1,
-                "toc_max_heading_level": 4,
-                "pagination_label": "Creating a nice pwsh prompt",
-                "tags": [
-                  "PartnerCentre"
-                ],
-                "custom_edit_url": "https://github.com/facebook/docusaurus/edit/main/docs/api-doc-markdown.md",
-                "description": "Creating a nice PowerShell prompt using oh my posh & PSReadLine."
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Windows OS",
-                "permalink": "/docs/category/windows-os"
-              }
             }
           ],
           "drafts": [],
@@ -1221,104 +627,96 @@
                 "items": [
                   {
                     "type": "category",
-                    "label": "Backup and Disaster Recovery",
+                    "label": "Automation",
                     "collapsible": true,
                     "collapsed": true,
                     "items": [
                       {
-                        "type": "doc",
-                        "id": "Azure/Backup and Disaster Recovery/Setup Azure Backup"
-                      },
-                      {
-                        "type": "doc",
-                        "id": "Azure/Backup and Disaster Recovery/Setup Azure Site Recovery",
-                        "label": "Setup Azure Site Recovery"
+                        "type": "category",
+                        "label": "Automation Accounts",
+                        "collapsible": true,
+                        "collapsed": true,
+                        "items": [
+                          {
+                            "type": "doc",
+                            "id": "Azure/Automation/Automation-Accounts/Create an Automation Account",
+                            "label": "Create an Automation Account"
+                          }
+                        ],
+                        "link": {
+                          "type": "generated-index",
+                          "description": "Azure Docs.",
+                          "slug": "/category/automation-accounts",
+                          "permalink": "/docs/category/automation-accounts"
+                        }
                       }
                     ],
                     "link": {
                       "type": "generated-index",
-                      "description": "Guides for setting up and managing Backup and Disaster Recovery services in Azure.",
-                      "slug": "/category/backup-and-disaster-recovery",
-                      "permalink": "/docs/category/backup-and-disaster-recovery"
+                      "description": "Azure Docs.",
+                      "slug": "/category/automation",
+                      "permalink": "/docs/category/automation"
                     }
                   },
                   {
                     "type": "category",
-                    "label": "Data Management",
+                    "label": "Azure Backup",
                     "collapsible": true,
                     "collapsed": true,
                     "items": [
                       {
                         "type": "doc",
-                        "id": "Azure/Data Management/Restore data from a Snapshot"
-                      },
-                      {
-                        "type": "doc",
-                        "id": "Azure/Data Management/Restore VM from Snapshot"
+                        "id": "Azure/Azure-Backup/Setup Azure Backup",
+                        "label": "Setup Azure Backup"
                       }
                     ],
                     "link": {
                       "type": "generated-index",
-                      "description": "Guides for managing Data in Azure.",
-                      "slug": "/category/data-management",
-                      "permalink": "/docs/category/data-management"
+                      "description": "Azure Docs.",
+                      "slug": "/category/azure-backup",
+                      "permalink": "/docs/category/azure-backup"
                     }
                   },
                   {
                     "type": "category",
-                    "label": "Infrastructure Management",
+                    "label": "Azure Lighthouse",
                     "collapsible": true,
                     "collapsed": true,
                     "items": [
                       {
                         "type": "doc",
-                        "id": "Azure/Infrastructure/Setup Azure Lighthouse"
-                      },
-                      {
-                        "type": "doc",
-                        "id": "Azure/Infrastructure/AVD Image Update Guidance",
-                        "label": "AVD Image Update Guidance"
-                      },
-                      {
-                        "type": "doc",
-                        "id": "Azure/Infrastructure/Create an Automation Account",
-                        "label": "Create an Automation Account"
-                      },
-                      {
-                        "type": "doc",
-                        "id": "Azure/Infrastructure/Re-size a Virtual Machine"
+                        "id": "Azure/Azure-Lighthouse/Setup Azure Lighthouse"
                       }
                     ],
                     "link": {
                       "type": "generated-index",
-                      "description": "Guides for Azure Infrastructure Resources.",
-                      "slug": "/category/infrastructure-management",
-                      "permalink": "/docs/category/infrastructure-management"
+                      "description": "Azure Docs.",
+                      "slug": "/category/azure-lighthouse",
+                      "permalink": "/docs/category/azure-lighthouse"
                     }
                   },
                   {
                     "type": "category",
-                    "label": "Networking",
+                    "label": "Disks",
                     "collapsible": true,
                     "collapsed": true,
                     "items": [
                       {
                         "type": "doc",
-                        "id": "Azure/Networking/Network Security Groups",
-                        "label": "Network Security Groups"
+                        "id": "Azure/Disks/Restore data from a Snapshot"
                       }
                     ],
                     "link": {
                       "type": "generated-index",
-                      "description": "Guides for achieving an end result.",
-                      "slug": "/category/networking",
-                      "permalink": "/docs/category/networking"
+                      "description": "Azure Docs.",
+                      "slug": "/category/disks",
+                      "permalink": "/docs/category/disks"
                     }
                   }
                 ],
                 "link": {
                   "type": "generated-index",
-                  "description": "Guides for achieving an end result.",
+                  "description": "Azure Docs.",
                   "slug": "/category/azure",
                   "permalink": "/docs/category/azure"
                 }
@@ -1337,13 +735,11 @@
                     "items": [
                       {
                         "type": "doc",
-                        "id": "Azure Active Directory/App Registrations/Decom and AAD App",
-                        "label": "Decommission and AAD App"
+                        "id": "Azure-Active-Directory/App-Registrations/Decom an Azure AD App"
                       }
                     ],
                     "link": {
                       "type": "generated-index",
-                      "description": "Guides for achieving an end result.",
                       "slug": "/category/app-registrations",
                       "permalink": "/docs/category/app-registrations"
                     }
@@ -1351,38 +747,36 @@
                 ],
                 "link": {
                   "type": "generated-index",
-                  "description": "Guides for achieving an end result.",
                   "slug": "/category/azure-active-directory",
                   "permalink": "/docs/category/azure-active-directory"
                 }
               },
               {
                 "type": "category",
-                "label": "Certificates",
+                "label": "Certificate Management",
                 "collapsible": true,
                 "collapsed": true,
                 "items": [
                   {
                     "type": "doc",
-                    "id": "Certificates/Formats and Conversions",
-                    "label": "Certificate formats and Converting formats"
+                    "id": "Certificate-Mgmt/Formats and Conversions",
+                    "label": "Formats and Conversions"
                   },
                   {
                     "type": "doc",
-                    "id": "Certificates/Generating a CSR",
-                    "label": "Generating a CSR"
+                    "id": "Certificate-Mgmt/Generating CSRs",
+                    "label": "Generating CSRs"
                   },
                   {
                     "type": "doc",
-                    "id": "Certificates/Request from Internal CA",
-                    "label": "Request from Internal CAs"
+                    "id": "Certificate-Mgmt/Request a Certificate from internal CA",
+                    "label": "Request a Certificate from internal CA"
                   }
                 ],
                 "link": {
                   "type": "generated-index",
-                  "description": "Cert Management.",
-                  "slug": "/category/certificates",
-                  "permalink": "/docs/category/certificates"
+                  "slug": "/category/certificate-management",
+                  "permalink": "/docs/category/certificate-management"
                 }
               },
               {
@@ -1393,107 +787,81 @@
                 "items": [
                   {
                     "type": "doc",
-                    "id": "Citrix/Updating an image",
-                    "label": "Updating an image"
+                    "id": "Citrix/Updating a Citrix Cloud Image",
+                    "label": "Updating a Citrix Cloud Image"
                   }
                 ],
                 "link": {
                   "type": "generated-index",
-                  "description": "Citrix stuff.",
                   "slug": "/category/citrix",
                   "permalink": "/docs/category/citrix"
                 }
               },
               {
                 "type": "category",
-                "label": "Command Line References",
+                "label": "PowerShell",
                 "collapsible": true,
                 "collapsed": true,
                 "items": [
                   {
-                    "type": "doc",
-                    "id": "Command Line References/Active Directory",
-                    "label": "Active Directory"
+                    "type": "category",
+                    "label": "Git",
+                    "collapsible": true,
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "PowerShell/Git/Git Cheatsheet",
+                        "label": "Git Cheatsheet"
+                      }
+                    ],
+                    "link": {
+                      "type": "generated-index",
+                      "slug": "/category/git",
+                      "permalink": "/docs/category/git"
+                    }
                   },
                   {
-                    "type": "doc",
-                    "id": "Command Line References/AzCLi",
-                    "label": "Az Cli"
+                    "type": "category",
+                    "label": "Microsoft Graph",
+                    "collapsible": true,
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "PowerShell/MS-Graph/Microsoft Graph Cheatsheet",
+                        "label": "Microsoft Graph Cheatsheet"
+                      }
+                    ],
+                    "link": {
+                      "type": "generated-index",
+                      "slug": "/category/microsoft-graph",
+                      "permalink": "/docs/category/microsoft-graph"
+                    }
                   },
                   {
-                    "type": "doc",
-                    "id": "Command Line References/Exchange Online",
-                    "label": "Exchange Online"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "Command Line References/Git CMDLine Ref",
-                    "label": "Git CMDLine Ref"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "Command Line References/Microsoft Graph",
-                    "label": "Microsoft Graph"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "Command Line References/PowerShell",
-                    "label": "PowerShell"
+                    "type": "category",
+                    "label": "PowerShell",
+                    "collapsible": true,
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "PowerShell/PowerShell-cheatsheet/PowerShell Cheatsheet",
+                        "label": "PowerShell Cheatsheet"
+                      }
+                    ],
+                    "link": {
+                      "type": "generated-index",
+                      "slug": "/category/powershell-1",
+                      "permalink": "/docs/category/powershell-1"
+                    }
                   }
                 ],
                 "link": {
                   "type": "generated-index",
-                  "description": "Guides for achieving an end result.",
-                  "slug": "/category/command-line-references",
-                  "permalink": "/docs/category/command-line-references"
-                }
-              },
-              {
-                "type": "category",
-                "label": "Scripts",
-                "collapsible": true,
-                "collapsed": true,
-                "items": [
-                  {
-                    "type": "doc",
-                    "id": "Scripts/Get User info using MGGraph",
-                    "label": "Get User info using MGGraph"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "Scripts/NSG Flow log Formatter",
-                    "label": "NSG Flow log Formatter"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "Scripts/Windows OS Scripts",
-                    "label": "Windows OS Scripts"
-                  }
-                ],
-                "link": {
-                  "type": "generated-index",
-                  "description": "Useful Scripts.",
-                  "slug": "/category/scripts",
-                  "permalink": "/docs/category/scripts"
-                }
-              },
-              {
-                "type": "category",
-                "label": "Windows OS",
-                "collapsible": true,
-                "collapsed": true,
-                "items": [
-                  {
-                    "type": "doc",
-                    "id": "Windows OS/Creating a nice pwsh prompt",
-                    "label": "Creating a nice pwsh prompt"
-                  }
-                ],
-                "link": {
-                  "type": "generated-index",
-                  "description": "Windows stuff.",
-                  "slug": "/category/windows-os",
-                  "permalink": "/docs/category/windows-os"
+                  "slug": "/category/powershell",
+                  "permalink": "/docs/category/powershell"
                 }
               }
             ]
@@ -1510,7 +878,7 @@
           "id": "pwsh-challenge-002",
           "metadata": {
             "permalink": "/blog/pwsh-challenge-002",
-            "source": "@site/blog/2023/07-08-PWSH-Challenge-002.md",
+            "source": "@site/blog/2023-08-02-pwsh-challenge002/PWSH-Challenge-002.md",
             "title": "Challenge 2 - Folder Size Report with PowerShell",
             "description": "Create a script that can download any file by the URL given by a user.",
             "date": "2023-08-07T11:00:00.000Z",
@@ -1560,17 +928,75 @@
               "hide_table_of_contents": false
             },
             "nextItem": {
-              "title": "Challenge 1 - File Download Script with PowerShell",
-              "permalink": "/blog/pwsh-challenge-001"
+              "title": "Microsoft Defender for Endpoint Woes",
+              "permalink": "/blog/Defender-for-Endpoint-Woes"
             }
           },
           "content": "Create a script that calculates the total size of a given folder and all its subfolders (recursively). The script should display the size in a human-readable format (e.g., KB, MB, GB).\r\n\r\n<!--truncate-->\r\n:::info Quick Social Plug\r\n\r\nCheck out my other post locations: -\r\n\r\n- [HashNode Link](https://willh.hashnode.dev/)\r\n- [Patreon Link](https://patreon.com/BassJamm?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=creatorshare_creator&utm_content=join_link)\r\n\r\n:::\r\n\r\n## End Result\r\n\r\nThought I would put the result first, and save people from scrolling, those who wish to see the process can read the rest of this!\r\n\r\nI decided not to add any error handling into this, as it's quite hard to break this one!\r\n\r\n:::note\r\n\r\nSorry for the backticks, it makes it a bit easier to read on the page as it's quite slim!\r\n\r\n:::\r\n\r\n[Link to script in GitHub!](https://github.com/BassJamm/PowerShellChallenge/blob/51799e1b087f846285f15bff9df9f019caa12fdc/Folder-Report/TOOL-Folder-Report.ps1)\r\n\r\n```powershell showLineNumbers\r\n###### Prompt user for flder input. ######\r\n$sourceDirectory = Read-Host -Prompt \"Please enter the directory you wish to scan\"\r\n\r\n###### Get all Directories in that location. ######\r\nWrite-Host \"Collecting the diretory information.\" -ForegroundColor Yellow\r\n$ChildDirectories = (Get-ChildItem $sourceDirectory -Directory).FullName\r\nStart-Sleep 1\r\nWrite-Host \"Directories found successfully.\" -ForegroundColor Green\r\n\r\n###### Foreach directory get all items recursively. ######\r\nWrite-Host \"Processing items.\" -ForegroundColor Yellow\r\n$childDirectorySizes = foreach ($folder in $ChildDirectories) {\r\n    [PSCustomObject]@{\r\n        \"Location\"  = $folder\r\n        \"FileItems\" = (Get-ChildItem $folder -Recurse -Force | Where-Object { $_.PSIsContainer -eq $false } | Measure-Object | Select-Object Count).Count\r\n        \"Size(MB)\"  = [Math]::Round((Get-ChildItem $folder -Recurse -Force | Where-Object { $_.PSIsContainer -eq $false } | Measure-Object -Property Length -Sum | Select-Object Sum).Sum / 1MB, 3)\r\n    }\r\n\r\n}\r\nWrite-Host \"All subdirectories processed successfully.\" -ForegroundColor Green\r\n\r\n###### Provide a size report of the directory and child directories. ######\r\n$childDirectorySizes | Format-Table * -AutoSize\r\n\r\n```\r\n\r\n## Building the script\r\n\r\nI would like to start by saying I am not an expert at this but, these challenges prompt learning and thus I aim to be better for the next challenge and so on.\r\n\r\n### Prompting for user input\r\n\r\nFirstly, we need to get the folder location from the end user. I've done this using the Read-Host command with the `-prompt` parameter. This is a staple command I have found in almost every script requiring user input.\r\n\r\n```powershell showLineNumbers\r\n$sourceDirectory = Read-Host -Prompt \"Please enter the directory you wish to scan\"\r\n```\r\n\r\nThe `Read-Host -prompt` input is then stored in the `$sourceDirectory`` variable for later use.\r\n\r\n### Getting the Folders\r\n\r\nSecondly, we need to identify the folders that are within the directory the user gave us. We are doing this with the `Get-ChildItem` command, which gets everything in that location, Folders, or Files.\r\n\r\nI'm then piping this `|` into a `Where-Object` command which then identifies the Folders or containers.\r\n\r\n:::info\r\nI've added a sort by \"name\" at the end, as I want to display the first 10 items in the console, to indicate that the script has found items to the end user. It is completely unnecessary!\r\n:::\r\n\r\n```powershell showlineNumbers\r\n###### Prompt user for flder input. ######\r\n$sourceDirectory = Read-Host -Prompt \"Please enter the directory you wish to scan\"\r\n```\r\n\r\nWe then get all of hte directories in the folder location promtped for using the lin above.\r\n\r\n```powershell showLineNumbers\r\n###### Get all Directories in that location. ######\r\n$ChildDirectories = (Get-ChildItem $sourceDirectory -Directory).FullName\r\nStart-Sleep 1 # Add this for slightly better pacing when using the script.\r\n\r\n```\r\n\r\n### Getting the Folder Sizes\r\n\r\nThirdly, we need to get the folder sizes and convert them into a nicer format to read, quite a bit to unpack on this one, so please bear with my explanation; you may also want to blow this image up, it's a little small, sorry!\r\n\r\n```powershell showLineNumbers\r\n###### Foreach directory get all items recursively. ######\r\nWrite-Host \"Processing items.\" -ForegroundColor Yellow\r\n$childDirectorySizes = foreach ($folder in $ChildDirectories) {\r\n    [PSCustomObject]@{\r\n        \"Location\"  = $folder\r\n        \"FileItems\" = (Get-ChildItem $folder -Recurse -Force | Where-Object { $_.PSIsContainer -eq $false } | Measure-Object | Select-Object Count).Count\r\n        \"Size(MB)\"  = [Math]::Round((Get-ChildItem $folder -Recurse -Force | Where-Object { $_.PSIsContainer -eq $false } | Measure-Object -Property Length -Sum | Select-Object Sum).Sum / 1MB, 3)\r\n    }\r\n}\r\n```\r\n\r\nI've created a new variable called, `$childDirectorySizes` in this variable, we are going to store the output of the foreach loop.\r\n\r\nThe foreach the argument takes each folder entry found within the `$ChildDirectories` & then loops through the script inside the squiggly brackets.\r\n\r\n```powershell showLineNumbers\r\nforeach ($folder in $ChildDirectories)\r\n```\r\n\r\nThe foreach loop does the following: -\r\n\r\n1. Grabs the full file paths for each file recursively using `Get-ChildItem $folder.FullName -recurse -force`.\r\n2. Then it searches for any objects that are not a Folder using `Where-Object {$_.PSIsContainer -eq $false}`.\r\n3. It then measures the object using `Measure-Object -property Length -sum`.\r\n4. We then select only the one property that we want, `Select-Object Sum`.\r\n5. It then stores results inside the variable `$subFolderItems`.\r\n6. We then create a new PowerShell object using the command, `[PSCustomObject]`, as this is going to be a new Hash table, we add the `@{}` after it, all properties go inside the squiggly brackets.\r\n7. We then create 2 new properties, `Location` and `Size(MB)`. For each of these properties, we need to tell it where the information comes from and how to format it.\r\n\r\nFor `Location`, we are going to use the Items Full name, which is equal to its full UNC path. `$folder.FullName`.\r\n\r\nFor `Size(MB)`, we are going to use the Output of steps 1 to 5. The output from this should be the SUM of all the files under the folder item that's stored in the variable `$folder` which is in the foreach loop argument.\r\n\r\nWe also want to round this to MBs with 2 Decimal places; we can do this with the command, `[Math]::Round($subFolderItems.sum /1MB, 2)`.\r\n\r\n### Creating a console Ouput\r\n\r\nFor this point, I have taken the variable that is holding the output from the Foreach loop noted above and piped this into a Format-Table command with the order of the properties to show.\r\n\r\n```powershell showLineNumbers\r\n###### Provide a size report of the directory and child directories. ######\r\n$childDirectorySizes | Format-Table * -AutoSize\r\n```\r\n\r\nWhich gives you this.\r\n\r\n```powershell showLineNumbers\r\nLocation                           FileItems Size(MB)\r\n--------                           --------- --------\r\nC:\\GitRepos\\100-days-of-javascript       287   59.772\r\nC:\\GitRepos\\PowerShellChallenge          106    0.072\r\nC:\\GitRepos\\Private-Code-Dump            253   14.089\r\nC:\\GitRepos\\python-app                    97    0.067\r\nC:\\GitRepos\\The-IT-Knowledge-base      36396  414.871\r\n```"
         },
         {
+          "id": "Defender-for-Endpoint-Woes",
+          "metadata": {
+            "permalink": "/blog/Defender-for-Endpoint-Woes",
+            "source": "@site/blog/2023-09-12-Defender-Woes/Microsoft-Defender-for-Endpoint-Woes.md",
+            "title": "Microsoft Defender for Endpoint Woes",
+            "description": "Windows services hating each other on Server 2012 R2.",
+            "date": "2023-08-05T11:00:00.000Z",
+            "formattedDate": "August 5, 2023",
+            "tags": [
+              {
+                "label": "Defender",
+                "permalink": "/blog/tags/defender"
+              },
+              {
+                "label": "Azure",
+                "permalink": "/blog/tags/azure"
+              }
+            ],
+            "readingTime": 1.3333333333333333,
+            "hasTruncateMarker": true,
+            "authors": [
+              {
+                "name": "Will",
+                "title": "Creator of the IT KB.",
+                "url": "https://github.com/BassJamm?tab=repositories"
+              }
+            ],
+            "frontMatter": {
+              "title": "Microsoft Defender for Endpoint Woes",
+              "description": "Windows services hating each other on Server 2012 R2.",
+              "slug": "Defender-for-Endpoint-Woes",
+              "date": "2023-08-05T11:00",
+              "authors": [
+                {
+                  "name": "Will",
+                  "title": "Creator of the IT KB.",
+                  "url": "https://github.com/BassJamm?tab=repositories"
+                }
+              ],
+              "tags": [
+                "Defender",
+                "Azure"
+              ],
+              "image": "https://i.imgur.com/mErPwqL.png",
+              "hide_table_of_contents": false
+            },
+            "prevItem": {
+              "title": "Challenge 2 - Folder Size Report with PowerShell",
+              "permalink": "/blog/pwsh-challenge-002"
+            },
+            "nextItem": {
+              "title": "Challenge 1 - File Download Script with PowerShell",
+              "permalink": "/blog/pwsh-challenge-001"
+            }
+          },
+          "content": "For the last 3 months our monitoring team at my workplace has been spammed with alerts about the Windows Defender Advanced Threat Protection Service has entered the \"stopped\" state for one 2012 R2 server.\r\n\r\nQuickly followed about 6 minutes later with another alert saying, the service is okay.\r\n<!--truncate-->\r\n:::info Quick Social Plug\r\n\r\nCheck out my other post locations: -\r\n\r\n- [HashNode Link](https://willh.hashnode.dev/)\r\n\r\n:::\r\n\r\n## The Investigation\r\n\r\nFrom checking the alert, I could see the service was stopping and starting but, no real reason as to why it was doing this. This is when I turned to PowerShell (*still unsure of why I did this over trusty Event Viewer, just seems to be my default now*).\r\n\r\nQuickly smashed out the below command to see what I could find.\r\n\r\nThis promptly spat out these errors.\r\n\r\nAfter googling this (as any techy would), there are a lot of mentions of this error message all over the place with suggestions to do the following:-\r\n\r\n1. Disable or uninstall any other AV products on the device.\r\n\r\n2. Run a Full system scan for viruses.\r\n\r\n3. Run a System File Checker scan from the command line, `sfc /scannow`.\r\n\r\n4. Re-install the Defender for Endpoint on that device.\r\n\r\n5. Update the OS to a new version (*A bit extreme mind you however, new OS versions have much better support for Defender, you don't need this service on Server 2016 and above, so it's still valid!*)\r\n\r\n## What Solved It\r\n\r\nThe short answer is, I'm not 100% certain.\r\n\r\nOur first port of call was to remove the *System Center Endpoint Protection* application, which we probably should have done before installing the *Defender for Endpoint* application to be honest.\r\n\r\nSecondly, we off-boarded the appliance from Defedner and then on-boarded it again by doing the following: -\r\n\r\n- Download the off-boarding script from your Defender portal.\r\n\r\n  - In the navigation pane, select Settings &gt; Endpoints &gt; Device management &gt; Offboarding.\r\n\r\n- Off-Board the Server using the script provided by Microsoft below.\r\n\r\n  - `C:\\Packages\\Plugins\\Microsoft.Azure.AzureDefenderForServers.MDE.Windows\\versionNo\\Install.ps1.`\r\n\r\n  - The command is, `Install.ps1 -OffboardingScript .\\WindowsDefenderATPOffboardingScript_valid_until_*.cmd`\r\n\r\n- Reboot the server.\r\n\r\n- Check the Defender application is gone from Programs and Features and that the Services are gone. If not, manually uninstall using Programs and Features.\r\n\r\n- On-Board the server again using the script provided by Microsoft. Command below.\r\n\r\n  - `C:\\Packages\\Plugins\\Microsoft.Azure.AzureDefenderForServers.MDE.Windows\\versionNo\\Install.ps1.`\r\n\r\n  - The command is, `.\\Install.ps1 -OnboardingScript .\\WindowsDefenderATPOnboardingScript_valid_until_*.cmd`\r\n\r\n- Reboot the server.\r\n\r\nHopefully this helps somone!"
+        },
+        {
           "id": "pwsh-challenge-001",
           "metadata": {
             "permalink": "/blog/pwsh-challenge-001",
-            "source": "@site/blog/2023/05-08-PWSH-Challenge-001.md",
+            "source": "@site/blog/2023-08-05-pwsh-challenge001/PWSH-challenge-001.md",
             "title": "Challenge 1 - File Download Script with PowerShell",
             "description": "Create a script that can download any file by the URL given by a user.",
             "date": "2023-08-05T11:00:00.000Z",
@@ -1619,22 +1045,22 @@
               "hide_table_of_contents": false
             },
             "prevItem": {
-              "title": "Challenge 2 - Folder Size Report with PowerShell",
-              "permalink": "/blog/pwsh-challenge-002"
+              "title": "Microsoft Defender for Endpoint Woes",
+              "permalink": "/blog/Defender-for-Endpoint-Woes"
             },
             "nextItem": {
-              "title": "Hi!",
+              "title": "Welcome!",
               "permalink": "/blog/welcome"
             }
           },
-          "content": "Create a script that can download any file by the URL given by a user. Add in the ability to download multiple items at once.\r\n\r\n<!--truncate-->\r\n:::info Quick Social Plug\r\n\r\nCheck out my other post locations: -\r\n\r\n- [HashNode Link](https://willh.hashnode.dev/)\r\n- [Patreon Link](https://patreon.com/BassJamm?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=creatorshare_creator&utm_content=join_link)\r\n\r\n:::\r\n\r\n## Creating the script\r\n\r\n### Basic functionality\r\n\r\nFirstly, we'll create the logic outline, by that I mean, create the bare bones of the script without any error handling or console output.\r\n\r\n:::note\r\n\r\nI've seen parameter blocks written in multiple ways, I write them this way as I think they're more easily understood by those who are not familiar with them.\r\n\r\n:::\r\n\r\n```powershell showLineNumbers\r\n<# Parameter List #>\r\n[CmdletBinding()]\r\nparam (\r\n    [Parameter(Mandatory=$true)]\r\n    [string] $Source,\r\n    [Parameter(Mandatory=$true)]\r\n    [string] $Destination\r\n)\r\n<# Bare bones of the command to download an item. #>\r\nStart-BitsTransfer -Source $Source -Destination $Destination -TransferType Download\r\n```\r\n\r\nRunning the above script file by type `.\\TOOL-File-download.ps1 -Source \"`[`https://go.microsoft.com/fwlink/p/?LinkID=2195167&clcid=0x409&culture=en-us&country=US`](https://go.microsoft.com/fwlink/p/?LinkID=2195167&clcid=0x409&culture=en-us&country=US)`\" -Destination C:\\Temp\\Server2019.iso` does the job; the output is below.\r\n\r\n\r\nNow to add the ability to see running jobs and historic jobs.\r\n\r\n## Adding running and historic job reports\r\n\r\nAs you can see below, this is becoming a bit longer but, I would not say it is getting any more complex.\r\n\r\n```powershell showLineNumbers\r\n\r\n<# Parameter List #>\r\n[CmdletBinding()]\r\nparam (\r\n    [Parameter()]\r\n    [switch] $JobReport,\r\n    [Parameter()]\r\n    [switch] $JobHistory\r\n)\r\n###### Add the ability to review in-progress download job(s). ######\r\nif ($JobReport) {\r\n    <# Action to perform if the condition is true #>\r\n    Write-Host \"Getting running downloads.\"\r\n    Get-BitsTransfer | Where-Object JobState -EQ 'transferring' | Format-Table JobId, CreationTime,DisplayName,TransferType,JobState,BytesTransferred,BytesTotal -AutoSize\r\n}\r\n###### Add the ability to review historic job(s). ######\r\nif ($JobHistory) {\r\n    <# Action to perform if the condition is true #>\r\n    Write-Host \"Getting historic downloads.\"\r\n    Get-BitsTransfer | Sort-Object CreationTime -Descending | Format-Table JobId, CreationTime,DisplayName,TransferType,JobState,BytesTransferred,BytesTotal -AutoSize\r\n}\r\n```\r\nNow to add a way to cancel running jobs.\r\n\r\n## Canceling jobs\r\n\r\nBelow I have added the code to cancel a running job, although a bit basic and rough it does work.\r\n\r\n```powershell showLineNumbers\r\n\r\n<# Parameter List #>\r\n[CmdletBinding()]\r\nparam (\r\n    [Parameter()]\r\n    [String] $CancelJob\r\n)\r\n\r\n###### Add the ability to cancel job(s). ######\r\nif ($CancelJob) {\r\n    <# Action to perform if the condition is true #>\r\n    Get-BitsTransfer -Name $CancelJob | Remove-BitsTransfer\r\n    Get-BitsTransfer | Where-Object JobState -EQ 'transferring' | Format-Table JobId, CreationTime,DisplayName,TransferType,JobState,BytesTransferred,BytesTotal -AutoSize\r\n    \r\n}\r\n```\r\n\r\n## Adding in some error handling and console output\r\n\r\nBelow I have added in some 'fluff', some try\\\\catch blocks and some write-host functionality to make using this a bit easier.\r\n\r\nTry\\\\Catch blocks are a godsend when it comes to error handling, essentially it means try what is in the try area and catch anything that comes out of it.\r\n\r\n### Downloading the file section\r\n\r\n```powershell showLineNumbers\r\n###### Download a file. ######\r\nif ($Source) {\r\n    <# Action to perform if the condition is true #>\r\n    try {\r\n        Start-BitsTransfer -Source $Source -Destination $Destination -TransferType Download -Asynchronous -DisplayName $JobName\r\n        Write-Host \"Beginning download from $($Source).\"\r\n        Write-Host \"\" # This just adds some more space in the console.\r\n        \r\n    }\r\n    catch {\r\n        <#Do this if a terminating exception happens#>\r\n        Write-Host \"Error when starting the job.\"\r\n        $_\r\n    }\r\n}\r\n```\r\n\r\n### Canceling the download section\r\n\r\n```powershell showLineNumbers\r\n\r\n###### Add the ability to cancel job(s). ######\r\nif ($CancelJob) {\r\n    <# Action to perform if the condition is true #>\r\n    try {\r\n        Get-BitsTransfer -Name $CancelJob | Remove-BitsTransfer\r\n        Write-Host \"Job cancelled successfully.\" -ForegroundColor Green\r\n        Write-Host \"\" # This just adds some more space in the console.\r\n        Start-sleep 2\r\n        Write-Host \"Remaining jobs listed below.\" -ForegroundColor Yellow\r\n        Write-Host \"\" # This just adds some more space in the console.\r\n        Start-sleep 1\r\n        Get-BitsTransfer | Where-Object JobState -EQ 'transferring' | Format-Table JobId, CreationTime,DisplayName,TransferType,JobState,BytesTransferred,BytesTotal -AutoSize    \r\n    }\r\n    catch {\r\n        <#Do this if a terminating exception happens#>\r\n        Write-Host \"Error when cancelling job.\"\r\n        $_\r\n    }\r\n}\r\n```\r\n\r\n## Full Script\r\n\r\n```powershell\r\n\r\n<# Parameter List #>\r\n[CmdletBinding()]\r\nparam (\r\n    [Parameter()]\r\n    [string] $Source,\r\n    [Parameter()]\r\n    [string] $Destination,\r\n    [Parameter()]\r\n    [string] $JobName,\r\n    [Parameter()]\r\n    [switch] $RunningJobs,\r\n    [Parameter()]\r\n    [switch] $JobHistory,\r\n    [Parameter()]\r\n    [String] $CancelJob\r\n)\r\n###### Download a file. ######\r\nif ($Source) {\r\n    <# Action to perform if the condition is true #>\r\n    try {\r\n        Start-BitsTransfer -Source $Source -Destination $Destination -TransferType Download -Asynchronous -DisplayName $JobName\r\n        Write-Host \"Beginning download from $($Source).\"\r\n        Write-Host \"\" # This just adds some more space in the console.\r\n        \r\n    }\r\n    catch {\r\n        <#Do this if a terminating exception happens#>\r\n        Write-Host \"Error when starting the job.\"\r\n        $_\r\n    }\r\n}\r\n\r\n###### Add the ability to review in-progress download job(s). ######\r\nif ($RunningJobs) {\r\n    <# Action to perform if the condition is true #>\r\n    Write-Host \"Getting running downloads.\"\r\n    Write-Host \"\" # This just adds some more space in the console.\r\n    Get-BitsTransfer | Where-Object JobState -EQ 'transferring' | Format-Table JobId, CreationTime,DisplayName,TransferType,JobState,BytesTransferred,BytesTotal -AutoSize\r\n}\r\n\r\n###### Add the ability to review historic job(s). ######\r\nif ($JobHistory) {\r\n    <# Action to perform if the condition is true #>\r\n    Write-Host \"Getting historic downloads.\"\r\n    Get-BitsTransfer | Sort-Object CreationTime -Descending | Format-Table JobId, CreationTime,DisplayName,TransferType,JobState,BytesTransferred,BytesTotal -AutoSize\r\n}\r\n\r\n###### Add the ability to cancel job(s). ######\r\nif ($CancelJob) {\r\n    <# Action to perform if the condition is true #>\r\n\r\n    try {\r\n        Get-BitsTransfer -Name $CancelJob | Remove-BitsTransfer\r\n        Write-Host \"Job cancelled successfully.\" -ForegroundColor Green\r\n        Write-Host \"\" # This just adds some more space in the console.\r\n        Start-sleep 2\r\n        Write-Host \"Remaining jobs listed below.\" -ForegroundColor Yellow\r\n        Write-Host \"\" # This just adds some more space in the console.\r\n        Start-sleep 1\r\n        Get-BitsTransfer | Where-Object JobState -EQ 'transferring' | Format-Table JobId, CreationTime,DisplayName,TransferType,JobState,BytesTransferred,BytesTotal -AutoSize\r\n        \r\n    }\r\n    catch {\r\n        <#Do this if a terminating exception happens#>\r\n        Write-Host \"Error when cancelling job.\"\r\n        $_\r\n    }\r\n\r\n}\r\n```\r\n\r\n## Bonus: Multiple downloads\r\n\r\nThe `Start-BitsTransfer` command supports pipeline input, so you can add multiple download links using a text file.\r\n\r\nCreate a text file in the format below, this is a typical csv format.\r\n\r\n![](https://cdn.hashnode.com/res/hashnode/image/upload/v1690560380176/0d5d0ab7-5b77-4010-9ed7-e30d780a510a.png align=\"center\")\r\n\r\nAdditional Code was added to the script.\r\n\r\n```powershell\r\n\r\n<# Parameter List #>\r\n[CmdletBinding()]\r\nparam (\r\n    [Parameter()]\r\n    [string] $MultiJobDownload\r\n)\r\n###### Download multiple files. ######\r\nif ($MultiJobDownload) {\r\n    <# Action to perform if the condition is true #>\r\n    try {\r\n        Import-csv -Path $MultiJobDownload | Start-BitsTransfer -Asynchronous\r\n        Write-Host \"Beginning download from listed sources.\"\r\n        Write-Host \"\" # This just adds some more space in the console.\r\n        Start-Sleep 1\r\n        Write-Host \" Sources and destinations below: -\"\r\n        Get-Content -Path $MultiJobDownload\r\n        \r\n    }\r\n    catch {\r\n        <#Do this if a terminating exception happens#>\r\n        Write-Host \"Error when starting the job.\"\r\n        $_\r\n    }\r\n}\r\n```"
+          "content": "Create a script that can download any file by the URL given by a user. Add in the ability to download multiple items at once.\r\n\r\n<!--truncate-->\r\n:::info Quick Social Plug\r\n\r\nCheck out my other post locations: -\r\n\r\n- [HashNode Link](https://willh.hashnode.dev/)\r\n- [Patreon Link](https://patreon.com/BassJamm?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=creatorshare_creator&utm_content=join_link)\r\n\r\n:::\r\n\r\n## Creating the script\r\n\r\n### Basic functionality\r\n\r\nFirstly, we'll create the logic outline, by that I mean, create the bare bones of the script without any error handling or console output.\r\n\r\n:::note\r\n\r\nI've seen parameter blocks written in multiple ways, I write them this way as I think they're more easily understood by those who are not familiar with them.\r\n\r\n:::\r\n\r\n```powershell showLineNumbers\r\n<# Parameter List #>\r\n[CmdletBinding()]\r\nparam (\r\n    [Parameter(Mandatory=$true)]\r\n    [string] $Source,\r\n    [Parameter(Mandatory=$true)]\r\n    [string] $Destination\r\n)\r\n<# Bare bones of the command to download an item. #>\r\nStart-BitsTransfer -Source $Source -Destination $Destination -TransferType Download\r\n```\r\n\r\nRunning the above script file by type `.\\TOOL-File-download.ps1 -Source \"`[`https://go.microsoft.com/fwlink/p/?LinkID=2195167&clcid=0x409&culture=en-us&country=US`](https://go.microsoft.com/fwlink/p/?LinkID=2195167&clcid=0x409&culture=en-us&country=US)`\" -Destination C:\\Temp\\Server2019.iso` does the job; the output is below.\r\n\r\nNow to add the ability to see running jobs and historic jobs.\r\n\r\n## Adding running and historic job reports\r\n\r\nAs you can see below, this is becoming a bit longer but, I would not say it is getting any more complex.\r\n\r\n```powershell showLineNumbers\r\n\r\n<# Parameter List #>\r\n[CmdletBinding()]\r\nparam (\r\n    [Parameter()]\r\n    [switch] $JobReport,\r\n    [Parameter()]\r\n    [switch] $JobHistory\r\n)\r\n###### Add the ability to review in-progress download job(s). ######\r\nif ($JobReport) {\r\n    <# Action to perform if the condition is true #>\r\n    Write-Host \"Getting running downloads.\"\r\n    Get-BitsTransfer | Where-Object JobState -EQ 'transferring' | Format-Table JobId, CreationTime,DisplayName,TransferType,JobState,BytesTransferred,BytesTotal -AutoSize\r\n}\r\n###### Add the ability to review historic job(s). ######\r\nif ($JobHistory) {\r\n    <# Action to perform if the condition is true #>\r\n    Write-Host \"Getting historic downloads.\"\r\n    Get-BitsTransfer | Sort-Object CreationTime -Descending | Format-Table JobId, CreationTime,DisplayName,TransferType,JobState,BytesTransferred,BytesTotal -AutoSize\r\n}\r\n```\r\n\r\nNow to add a way to cancel running jobs.\r\n\r\n## Canceling jobs\r\n\r\nBelow I have added the code to cancel a running job, although a bit basic and rough it does work.\r\n\r\n```powershell showLineNumbers\r\n\r\n<# Parameter List #>\r\n[CmdletBinding()]\r\nparam (\r\n    [Parameter()]\r\n    [String] $CancelJob\r\n)\r\n\r\n###### Add the ability to cancel job(s). ######\r\nif ($CancelJob) {\r\n    <# Action to perform if the condition is true #>\r\n    Get-BitsTransfer -Name $CancelJob | Remove-BitsTransfer\r\n    Get-BitsTransfer | Where-Object JobState -EQ 'transferring' | Format-Table JobId, CreationTime,DisplayName,TransferType,JobState,BytesTransferred,BytesTotal -AutoSize\r\n    \r\n}\r\n```\r\n\r\n## Adding in some error handling and console output\r\n\r\nBelow I have added in some 'fluff', some try\\\\catch blocks and some write-host functionality to make using this a bit easier.\r\n\r\nTry\\\\Catch blocks are a godsend when it comes to error handling, essentially it means try what is in the try area and catch anything that comes out of it.\r\n\r\n### Downloading the file section\r\n\r\n```powershell showLineNumbers\r\n###### Download a file. ######\r\nif ($Source) {\r\n    <# Action to perform if the condition is true #>\r\n    try {\r\n        Start-BitsTransfer -Source $Source -Destination $Destination -TransferType Download -Asynchronous -DisplayName $JobName\r\n        Write-Host \"Beginning download from $($Source).\"\r\n        Write-Host \"\" # This just adds some more space in the console.\r\n        \r\n    }\r\n    catch {\r\n        <#Do this if a terminating exception happens#>\r\n        Write-Host \"Error when starting the job.\"\r\n        $_\r\n    }\r\n}\r\n```\r\n\r\n### Canceling the download section\r\n\r\n```powershell showLineNumbers\r\n\r\n###### Add the ability to cancel job(s). ######\r\nif ($CancelJob) {\r\n    <# Action to perform if the condition is true #>\r\n    try {\r\n        Get-BitsTransfer -Name $CancelJob | Remove-BitsTransfer\r\n        Write-Host \"Job cancelled successfully.\" -ForegroundColor Green\r\n        Write-Host \"\" # This just adds some more space in the console.\r\n        Start-sleep 2\r\n        Write-Host \"Remaining jobs listed below.\" -ForegroundColor Yellow\r\n        Write-Host \"\" # This just adds some more space in the console.\r\n        Start-sleep 1\r\n        Get-BitsTransfer | Where-Object JobState -EQ 'transferring' | Format-Table JobId, CreationTime,DisplayName,TransferType,JobState,BytesTransferred,BytesTotal -AutoSize    \r\n    }\r\n    catch {\r\n        <#Do this if a terminating exception happens#>\r\n        Write-Host \"Error when cancelling job.\"\r\n        $_\r\n    }\r\n}\r\n```\r\n\r\n## Full Script\r\n\r\n```powershell\r\n\r\n<# Parameter List #>\r\n[CmdletBinding()]\r\nparam (\r\n    [Parameter()]\r\n    [string] $Source,\r\n    [Parameter()]\r\n    [string] $Destination,\r\n    [Parameter()]\r\n    [string] $JobName,\r\n    [Parameter()]\r\n    [switch] $RunningJobs,\r\n    [Parameter()]\r\n    [switch] $JobHistory,\r\n    [Parameter()]\r\n    [String] $CancelJob\r\n)\r\n###### Download a file. ######\r\nif ($Source) {\r\n    <# Action to perform if the condition is true #>\r\n    try {\r\n        Start-BitsTransfer -Source $Source -Destination $Destination -TransferType Download -Asynchronous -DisplayName $JobName\r\n        Write-Host \"Beginning download from $($Source).\"\r\n        Write-Host \"\" # This just adds some more space in the console.\r\n        \r\n    }\r\n    catch {\r\n        <#Do this if a terminating exception happens#>\r\n        Write-Host \"Error when starting the job.\"\r\n        $_\r\n    }\r\n}\r\n\r\n###### Add the ability to review in-progress download job(s). ######\r\nif ($RunningJobs) {\r\n    <# Action to perform if the condition is true #>\r\n    Write-Host \"Getting running downloads.\"\r\n    Write-Host \"\" # This just adds some more space in the console.\r\n    Get-BitsTransfer | Where-Object JobState -EQ 'transferring' | Format-Table JobId, CreationTime,DisplayName,TransferType,JobState,BytesTransferred,BytesTotal -AutoSize\r\n}\r\n\r\n###### Add the ability to review historic job(s). ######\r\nif ($JobHistory) {\r\n    <# Action to perform if the condition is true #>\r\n    Write-Host \"Getting historic downloads.\"\r\n    Get-BitsTransfer | Sort-Object CreationTime -Descending | Format-Table JobId, CreationTime,DisplayName,TransferType,JobState,BytesTransferred,BytesTotal -AutoSize\r\n}\r\n\r\n###### Add the ability to cancel job(s). ######\r\nif ($CancelJob) {\r\n    <# Action to perform if the condition is true #>\r\n\r\n    try {\r\n        Get-BitsTransfer -Name $CancelJob | Remove-BitsTransfer\r\n        Write-Host \"Job cancelled successfully.\" -ForegroundColor Green\r\n        Write-Host \"\" # This just adds some more space in the console.\r\n        Start-sleep 2\r\n        Write-Host \"Remaining jobs listed below.\" -ForegroundColor Yellow\r\n        Write-Host \"\" # This just adds some more space in the console.\r\n        Start-sleep 1\r\n        Get-BitsTransfer | Where-Object JobState -EQ 'transferring' | Format-Table JobId, CreationTime,DisplayName,TransferType,JobState,BytesTransferred,BytesTotal -AutoSize\r\n        \r\n    }\r\n    catch {\r\n        <#Do this if a terminating exception happens#>\r\n        Write-Host \"Error when cancelling job.\"\r\n        $_\r\n    }\r\n\r\n}\r\n```\r\n\r\n## Bonus: Multiple downloads\r\n\r\nThe `Start-BitsTransfer` command supports pipeline input, so you can add multiple download links using a text file.\r\n\r\nCreate a text file in the format below, this is a typical csv format.\r\n\r\n![](<https://cdn.hashnode.com/res/hashnode/image/upload/v1690560380176/0d5d0ab7-5b77-4010-9ed7-e30d780a510a.png> align=\"center\")\r\n\r\nAdditional Code was added to the script.\r\n\r\n```powershell\r\n\r\n<# Parameter List #>\r\n[CmdletBinding()]\r\nparam (\r\n    [Parameter()]\r\n    [string] $MultiJobDownload\r\n)\r\n###### Download multiple files. ######\r\nif ($MultiJobDownload) {\r\n    <# Action to perform if the condition is true #>\r\n    try {\r\n        Import-csv -Path $MultiJobDownload | Start-BitsTransfer -Asynchronous\r\n        Write-Host \"Beginning download from listed sources.\"\r\n        Write-Host \"\" # This just adds some more space in the console.\r\n        Start-Sleep 1\r\n        Write-Host \" Sources and destinations below: -\"\r\n        Get-Content -Path $MultiJobDownload\r\n        \r\n    }\r\n    catch {\r\n        <#Do this if a terminating exception happens#>\r\n        Write-Host \"Error when starting the job.\"\r\n        $_\r\n    }\r\n}\r\n```"
         },
         {
           "id": "welcome",
           "metadata": {
             "permalink": "/blog/welcome",
-            "source": "@site/blog/09-05-welcome-v2.md",
-            "title": "Hi!",
+            "source": "@site/blog/2023-05-20-welcome/index.md",
+            "title": "Welcome!",
             "description": "First blog post.",
             "date": "2023-05-20T10:00:00.000Z",
             "formattedDate": "May 20, 2023",
@@ -1648,7 +1074,7 @@
                 "permalink": "/blog/tags/docusaurus-v-2"
               }
             ],
-            "readingTime": 0.1,
+            "readingTime": 0.09,
             "hasTruncateMarker": true,
             "authors": [
               {
@@ -1658,7 +1084,7 @@
               }
             ],
             "frontMatter": {
-              "title": "Hi!",
+              "title": "Welcome!",
               "description": "First blog post.",
               "slug": "welcome",
               "date": "2023-05-20T10:00",
@@ -1681,22 +1107,23 @@
               "permalink": "/blog/pwsh-challenge-001"
             }
           },
-          "content": "Welcome to the blog.\r\n\r\nThis blog is created with [**Docusaurus 2**](https://docusaurus.io/).\r\n\r\n<!--truncate-->\r\n:::info Quick Social Plug\r\n\r\nCheck out my other post locations: -\r\n\r\n- [HashNode Link](https://willh.hashnode.dev/)\r\n- [Patreon Link](https://patreon.com/BassJamm?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=creatorshare_creator&utm_content=join_link)\r\n\r\n:::"
+          "content": "Welcome to the blog.\n\nThis blog is created with [**Docusaurus 2**](https://docusaurus.io/).\n\n<!--truncate-->\n:::info Quick Social Plug\n\nCheck out my other post locations: -\n\n- [HashNode Link](https://willh.hashnode.dev/)\n\n:::"
         }
       ],
       "blogListPaginated": [
         {
           "items": [
             "pwsh-challenge-002",
+            "Defender-for-Endpoint-Woes",
             "pwsh-challenge-001",
             "welcome"
           ],
           "metadata": {
             "permalink": "/blog/",
             "page": 1,
-            "postsPerPage": 3,
+            "postsPerPage": 4,
             "totalPages": 1,
-            "totalCount": 3,
+            "totalCount": 4,
             "blogDescription": "Blog",
             "blogTitle": "Blog"
           }
@@ -1772,6 +1199,52 @@
                 "postsPerPage": 2,
                 "totalPages": 1,
                 "totalCount": 2,
+                "blogDescription": "Blog",
+                "blogTitle": "Blog"
+              }
+            }
+          ]
+        },
+        "/blog/tags/defender": {
+          "label": "Defender",
+          "items": [
+            "Defender-for-Endpoint-Woes"
+          ],
+          "permalink": "/blog/tags/defender",
+          "pages": [
+            {
+              "items": [
+                "Defender-for-Endpoint-Woes"
+              ],
+              "metadata": {
+                "permalink": "/blog/tags/defender",
+                "page": 1,
+                "postsPerPage": 1,
+                "totalPages": 1,
+                "totalCount": 1,
+                "blogDescription": "Blog",
+                "blogTitle": "Blog"
+              }
+            }
+          ]
+        },
+        "/blog/tags/azure": {
+          "label": "Azure",
+          "items": [
+            "Defender-for-Endpoint-Woes"
+          ],
+          "permalink": "/blog/tags/azure",
+          "pages": [
+            {
+              "items": [
+                "Defender-for-Endpoint-Woes"
+              ],
+              "metadata": {
+                "permalink": "/blog/tags/azure",
+                "page": 1,
+                "postsPerPage": 1,
+                "totalPages": 1,
+                "totalCount": 1,
                 "blogDescription": "Blog",
                 "blogTitle": "Blog"
               }

@@ -1,0 +1,44 @@
+{
+  "unversionedId": "Azure-Active-Directory/App-Registrations/Decom an Azure AD App",
+  "id": "Azure-Active-Directory/App-Registrations/Decom an Azure AD App",
+  "title": "Decom an Azure AD App",
+  "description": "Suggested guidance for decommissioning an Azure AD App.",
+  "source": "@site/docs/Azure-Active-Directory/App-Registrations/Decom-AAD-App.md",
+  "sourceDirName": "Azure-Active-Directory/App-Registrations",
+  "slug": "/Azure-Active-Directory/App-Registrations/Decom an Azure AD App",
+  "permalink": "/docs/Azure-Active-Directory/App-Registrations/Decom an Azure AD App",
+  "draft": false,
+  "editUrl": "https://github.com/BassJamm/The-IT-Knowledge-base/",
+  "tags": [
+    {
+      "label": "AzureAD",
+      "permalink": "/docs/tags/azure-ad"
+    },
+    {
+      "label": "AppRegistrations",
+      "permalink": "/docs/tags/app-registrations"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "id": "Decom an Azure AD App",
+    "title": "Decom an Azure AD App",
+    "description": "Suggested guidance for decommissioning an Azure AD App.",
+    "tags": [
+      "AzureAD",
+      "AppRegistrations"
+    ],
+    "custom_edit_url": "https://github.com/BassJamm/The-IT-Knowledge-base/"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "App Registrations",
+    "permalink": "/docs/category/app-registrations"
+  },
+  "next": {
+    "title": "PowerShell",
+    "permalink": "/docs/category/powershell"
+  }
+}

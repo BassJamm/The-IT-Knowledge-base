@@ -1,0 +1,15 @@
+{
+  "title": "Git",
+  "slug": "/category/git",
+  "permalink": "/docs/category/git",
+  "navigation": {
+    "previous": {
+      "title": "PowerShell",
+      "permalink": "/docs/category/powershell"
+    },
+    "next": {
+      "title": "Git Cheatsheet",
+      "permalink": "/docs/PowerShell/Git/Git Cheatsheet"
+    }
+  }
+}

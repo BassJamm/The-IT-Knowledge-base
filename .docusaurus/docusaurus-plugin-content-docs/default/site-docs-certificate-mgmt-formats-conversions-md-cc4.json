@@ -1,0 +1,45 @@
+{
+  "unversionedId": "Certificate-Mgmt/Formats and Conversions",
+  "id": "Certificate-Mgmt/Formats and Conversions",
+  "title": "Formats and Conversions",
+  "description": "Reinstate admin privileges for a customer's Azure CSP subscriptions.",
+  "source": "@site/docs/Certificate-Mgmt/Formats-&-Conversions.md",
+  "sourceDirName": "Certificate-Mgmt",
+  "slug": "/Certificate-Mgmt/Formats and Conversions",
+  "permalink": "/docs/Certificate-Mgmt/Formats and Conversions",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/edit/main/docs/api-doc-markdown.md",
+  "tags": [
+    {
+      "label": "Certificates",
+      "permalink": "/docs/tags/certificates"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "draft": true,
+    "id": "Formats and Conversions",
+    "title": "Formats and Conversions",
+    "hide_title": false,
+    "hide_table_of_contents": false,
+    "sidebar_label": "Formats and Conversions",
+    "sidebar_position": 1,
+    "toc_max_heading_level": 4,
+    "pagination_label": "Formats and Conversions",
+    "tags": [
+      "Certificates"
+    ],
+    "custom_edit_url": "https://github.com/facebook/docusaurus/edit/main/docs/api-doc-markdown.md",
+    "description": "Reinstate admin privileges for a customer's Azure CSP subscriptions."
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Certificate Management",
+    "permalink": "/docs/category/certificate-management"
+  },
+  "next": {
+    "title": "Generating CSRs",
+    "permalink": "/docs/Certificate-Mgmt/Generating CSRs"
+  }
+}

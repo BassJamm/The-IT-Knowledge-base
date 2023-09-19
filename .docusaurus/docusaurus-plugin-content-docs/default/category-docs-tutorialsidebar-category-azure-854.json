@@ -1,6 +1,6 @@
 {
   "title": "Azure",
-  "description": "Guides for achieving an end result.",
+  "description": "Azure Docs.",
   "slug": "/category/azure",
   "permalink": "/docs/category/azure",
   "navigation": {
@@ -9,8 +9,8 @@
       "permalink": "/docs/"
     },
     "next": {
-      "title": "Backup and Disaster Recovery",
-      "permalink": "/docs/category/backup-and-disaster-recovery"
+      "title": "Automation",
+      "permalink": "/docs/category/automation"
     }
   }
 }

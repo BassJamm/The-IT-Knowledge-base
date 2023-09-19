@@ -1,0 +1,42 @@
+{
+  "unversionedId": "Azure/Azure-Lighthouse/Setup Azure Lighthouse",
+  "id": "Azure/Azure-Lighthouse/Setup Azure Lighthouse",
+  "title": "Setup Azure Lighthouse",
+  "description": "Document Control",
+  "source": "@site/docs/Azure/Azure-Lighthouse/Suggestions-to-Setup.md",
+  "sourceDirName": "Azure/Azure-Lighthouse",
+  "slug": "/Azure/Azure-Lighthouse/Setup Azure Lighthouse",
+  "permalink": "/docs/Azure/Azure-Lighthouse/Setup Azure Lighthouse",
+  "draft": false,
+  "tags": [
+    {
+      "label": "Azure",
+      "permalink": "/docs/tags/azure"
+    },
+    {
+      "label": "Lighthouse",
+      "permalink": "/docs/tags/lighthouse"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "id": "Setup Azure Lighthouse",
+    "title": "Setup Azure Lighthouse",
+    "toc_max_heading_level": 4,
+    "tags": [
+      "Azure",
+      "Lighthouse"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Azure Lighthouse",
+    "permalink": "/docs/category/azure-lighthouse"
+  },
+  "next": {
+    "title": "Disks",
+    "permalink": "/docs/category/disks"
+  }
+}
