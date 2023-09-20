@@ -196,6 +196,13 @@
     },
     "tag": "3b360413"
   },
+  "/docs/tags/autopilot-269": {
+    "__comp": "df203c0f",
+    "__context": {
+      "plugin": "4984407c"
+    },
+    "tag": "948b9c5a"
+  },
   "/docs/tags/azure-999": {
     "__comp": "df203c0f",
     "__context": {
@@ -231,12 +238,26 @@
     },
     "tag": "1d4e8a40"
   },
+  "/docs/tags/defender-fe-3b6": {
+    "__comp": "df203c0f",
+    "__context": {
+      "plugin": "4984407c"
+    },
+    "tag": "25b629ea"
+  },
   "/docs/tags/git-808": {
     "__comp": "df203c0f",
     "__context": {
       "plugin": "4984407c"
     },
     "tag": "7b667a7f"
+  },
+  "/docs/tags/intune-8db": {
+    "__comp": "df203c0f",
+    "__context": {
+      "plugin": "4984407c"
+    },
+    "tag": "5d2620c1"
   },
   "/docs/tags/lighthouse-075": {
     "__comp": "df203c0f",
@@ -287,6 +308,13 @@
     },
     "tag": "a9ae2a32"
   },
+  "/docs/tags/windows-os-e51": {
+    "__comp": "df203c0f",
+    "__context": {
+      "plugin": "4984407c"
+    },
+    "tag": "31eb3a3a"
+  },
   "/markdown-page-cdf": {
     "__comp": "1f391b9e",
     "__context": {
@@ -294,7 +322,7 @@
     },
     "content": "393be207"
   },
-  "/docs/-76e": {
+  "/docs/-5ef": {
     "__comp": "1be78505",
     "__context": {
       "plugin": "4984407c"
@@ -337,6 +365,10 @@
     "__comp": "14eb3368",
     "categoryGeneratedIndex": "7498d363"
   },
+  "/docs/category/autopilot-ea8": {
+    "__comp": "14eb3368",
+    "categoryGeneratedIndex": "8409821f"
+  },
   "/docs/category/azure-ebb": {
     "__comp": "14eb3368",
     "categoryGeneratedIndex": "64de5a25"
@@ -353,6 +385,10 @@
     "__comp": "14eb3368",
     "categoryGeneratedIndex": "c732fd87"
   },
+  "/docs/category/defender-for-endpoint-5a1": {
+    "__comp": "14eb3368",
+    "categoryGeneratedIndex": "60ff6b12"
+  },
   "/docs/category/disks-4ce": {
     "__comp": "14eb3368",
     "categoryGeneratedIndex": "67ff139d"
@@ -360,6 +396,10 @@
   "/docs/category/git-5f4": {
     "__comp": "14eb3368",
     "categoryGeneratedIndex": "8c84eba0"
+  },
+  "/docs/category/intune-887": {
+    "__comp": "14eb3368",
+    "categoryGeneratedIndex": "7aaba8fd"
   },
   "/docs/category/microsoft-graph-7e0": {
     "__comp": "14eb3368",
@@ -373,6 +413,14 @@
     "__comp": "14eb3368",
     "categoryGeneratedIndex": "21ffa992"
   },
+  "/docs/category/windows-os-b61": {
+    "__comp": "14eb3368",
+    "categoryGeneratedIndex": "afa85ebf"
+  },
+  "/docs/Intune/Autopilot/Diagnose Autopilot Errors-e22": {
+    "__comp": "17896441",
+    "content": "4a54484e"
+  },
   "/docs/PowerShell/Git/Git Cheatsheet-974": {
     "__comp": "17896441",
     "content": "2c244b90"
@@ -384,6 +432,10 @@
   "/docs/PowerShell/PowerShell-cheatsheet/-6d1": {
     "__comp": "17896441",
     "content": "79e40ba8"
+  },
+  "/docs/Windows-OS/Defender-for-Endpoint/Check Defender AV Status-555": {
+    "__comp": "17896441",
+    "content": "106a998a"
   },
   "/-a89": {
     "__comp": "c4f5d8e4",

@@ -5,10 +5,10 @@
   "count": 1,
   "items": [
     {
-      "id": "Windows OS/Creating a nice pwsh prompt",
-      "title": "Creating a nice pwsh prompt",
-      "description": "Creating a nice PowerShell prompt using oh my posh & PSReadLine.",
-      "permalink": "/docs/Windows OS/Creating a nice pwsh prompt"
+      "id": "Intune/Autopilot/Diagnose Autopilot Errors",
+      "title": "Diagnose Autopilot Errors",
+      "description": "Details how to review the Autopilot logs on a device.",
+      "permalink": "/docs/Intune/Autopilot/Diagnose Autopilot Errors"
     }
   ]
 }

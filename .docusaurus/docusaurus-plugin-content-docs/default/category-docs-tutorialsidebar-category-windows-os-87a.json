@@ -1,16 +1,15 @@
 {
   "title": "Windows OS",
-  "description": "Windows stuff.",
   "slug": "/category/windows-os",
   "permalink": "/docs/category/windows-os",
   "navigation": {
     "previous": {
-      "title": "Windows OS Scripts",
-      "permalink": "/docs/Scripts/Windows OS Scripts"
+      "title": "PowerShell Cheatsheet",
+      "permalink": "/docs/PowerShell/PowerShell-cheatsheet/"
     },
     "next": {
-      "title": "Creating a nice pwsh prompt",
-      "permalink": "/docs/Windows OS/Creating a nice pwsh prompt"
+      "title": "Defender for Endpoint",
+      "permalink": "/docs/category/defender-for-endpoint"
     }
   }
 }

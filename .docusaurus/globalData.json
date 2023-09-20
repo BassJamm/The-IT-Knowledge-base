@@ -11,8 +11,8 @@
   "docusaurus-lunr-search": {
     "default": {
       "fileNames": {
-        "searchDoc": "search-doc-1695161385003.json",
-        "lunrIndex": "lunr-index-1695161385003.json"
+        "searchDoc": "search-doc-1695248137894.json",
+        "lunrIndex": "lunr-index-1695248137894.json"
       }
     }
   },
@@ -53,6 +53,11 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "Intune/Autopilot/Diagnose Autopilot Errors",
+              "path": "/docs/Intune/Autopilot/Diagnose Autopilot Errors",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "PowerShell/Git/Git Cheatsheet",
               "path": "/docs/PowerShell/Git/Git Cheatsheet",
               "sidebar": "tutorialSidebar"
@@ -70,6 +75,11 @@
             {
               "id": "Welcome",
               "path": "/docs/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Windows-OS/Defender-for-Endpoint/Check Defender AV Status",
+              "path": "/docs/Windows-OS/Defender-for-Endpoint/Check Defender AV Status",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -113,6 +123,16 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "/category/intune",
+              "path": "/docs/category/intune",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/autopilot",
+              "path": "/docs/category/autopilot",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "/category/powershell",
               "path": "/docs/category/powershell",
               "sidebar": "tutorialSidebar"
@@ -130,6 +150,16 @@
             {
               "id": "/category/powershell-1",
               "path": "/docs/category/powershell-1",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/windows-os",
+              "path": "/docs/category/windows-os",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/defender-for-endpoint",
+              "path": "/docs/category/defender-for-endpoint",
               "sidebar": "tutorialSidebar"
             }
           ],

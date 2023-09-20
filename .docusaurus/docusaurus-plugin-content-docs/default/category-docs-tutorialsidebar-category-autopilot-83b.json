@@ -1,0 +1,15 @@
+{
+  "title": "Autopilot",
+  "slug": "/category/autopilot",
+  "permalink": "/docs/category/autopilot",
+  "navigation": {
+    "previous": {
+      "title": "Intune",
+      "permalink": "/docs/category/intune"
+    },
+    "next": {
+      "title": "Diagnose Autopilot Errors",
+      "permalink": "/docs/Intune/Autopilot/Diagnose Autopilot Errors"
+    }
+  }
+}

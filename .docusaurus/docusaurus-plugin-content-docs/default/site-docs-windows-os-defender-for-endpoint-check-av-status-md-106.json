@@ -1,0 +1,46 @@
+{
+  "unversionedId": "Windows-OS/Defender-for-Endpoint/Check Defender AV Status",
+  "id": "Windows-OS/Defender-for-Endpoint/Check Defender AV Status",
+  "title": "Check Defender AV Status",
+  "description": "The variouse options for checking the AV status on a Windows (desktop) device.",
+  "source": "@site/docs/Windows-OS/Defender-for-Endpoint/Check-av-status.md",
+  "sourceDirName": "Windows-OS/Defender-for-Endpoint",
+  "slug": "/Windows-OS/Defender-for-Endpoint/Check Defender AV Status",
+  "permalink": "/docs/Windows-OS/Defender-for-Endpoint/Check Defender AV Status",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/edit/main/docs/api-doc-markdown.md",
+  "tags": [
+    {
+      "label": "WindowsOS",
+      "permalink": "/docs/tags/windows-os"
+    },
+    {
+      "label": "DefenderFE",
+      "permalink": "/docs/tags/defender-fe"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "draft": false,
+    "id": "Check Defender AV Status",
+    "title": "Check Defender AV Status",
+    "hide_title": false,
+    "hide_table_of_contents": false,
+    "sidebar_label": "Check Defender AV Status",
+    "sidebar_position": 1,
+    "toc_max_heading_level": 4,
+    "pagination_label": "Check Defender AV Status",
+    "tags": [
+      "WindowsOS",
+      "DefenderFE"
+    ],
+    "custom_edit_url": "https://github.com/facebook/docusaurus/edit/main/docs/api-doc-markdown.md",
+    "description": "The variouse options for checking the AV status on a Windows (desktop) device."
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Defender for Endpoint",
+    "permalink": "/docs/category/defender-for-endpoint"
+  }
+}

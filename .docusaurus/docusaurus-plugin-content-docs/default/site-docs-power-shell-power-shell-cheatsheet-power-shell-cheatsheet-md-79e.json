@@ -42,5 +42,9 @@
   "previous": {
     "title": "PowerShell",
     "permalink": "/docs/category/powershell-1"
+  },
+  "next": {
+    "title": "Windows OS",
+    "permalink": "/docs/category/windows-os"
   }
 }

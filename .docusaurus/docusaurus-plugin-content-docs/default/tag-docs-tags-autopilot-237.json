@@ -5,10 +5,10 @@
   "count": 1,
   "items": [
     {
-      "id": "How-to Guides/Intune/Perform an AutoPilot Reset",
-      "title": "Perform an AutoPilot Reset",
-      "description": "Description: Perform an AutoPilot Reset on a Windows Device.",
-      "permalink": "/docs/How-to Guides/Intune/Perform an AutoPilot Reset"
+      "id": "Intune/Autopilot/Diagnose Autopilot Errors",
+      "title": "Diagnose Autopilot Errors",
+      "description": "Details how to review the Autopilot logs on a device.",
+      "permalink": "/docs/Intune/Autopilot/Diagnose Autopilot Errors"
     }
   ]
 }

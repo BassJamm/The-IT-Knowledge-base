@@ -88,6 +88,11 @@ export default [
     exact: true
   },
   {
+    path: '/docs/tags/autopilot',
+    component: ComponentCreator('/docs/tags/autopilot', '269'),
+    exact: true
+  },
+  {
     path: '/docs/tags/azure',
     component: ComponentCreator('/docs/tags/azure', '999'),
     exact: true
@@ -113,8 +118,18 @@ export default [
     exact: true
   },
   {
+    path: '/docs/tags/defender-fe',
+    component: ComponentCreator('/docs/tags/defender-fe', '3b6'),
+    exact: true
+  },
+  {
     path: '/docs/tags/git',
     component: ComponentCreator('/docs/tags/git', '808'),
+    exact: true
+  },
+  {
+    path: '/docs/tags/intune',
+    component: ComponentCreator('/docs/tags/intune', '8db'),
     exact: true
   },
   {
@@ -153,13 +168,18 @@ export default [
     exact: true
   },
   {
+    path: '/docs/tags/windows-os',
+    component: ComponentCreator('/docs/tags/windows-os', 'e51'),
+    exact: true
+  },
+  {
     path: '/markdown-page',
     component: ComponentCreator('/markdown-page', 'cdf'),
     exact: true
   },
   {
     path: '/docs/',
-    component: ComponentCreator('/docs/', '76e'),
+    component: ComponentCreator('/docs/', '5ef'),
     routes: [
       {
         path: '/docs/',
@@ -216,6 +236,12 @@ export default [
         sidebar: "tutorialSidebar"
       },
       {
+        path: '/docs/category/autopilot',
+        component: ComponentCreator('/docs/category/autopilot', 'ea8'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
         path: '/docs/category/azure',
         component: ComponentCreator('/docs/category/azure', 'ebb'),
         exact: true,
@@ -240,6 +266,12 @@ export default [
         sidebar: "tutorialSidebar"
       },
       {
+        path: '/docs/category/defender-for-endpoint',
+        component: ComponentCreator('/docs/category/defender-for-endpoint', '5a1'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
         path: '/docs/category/disks',
         component: ComponentCreator('/docs/category/disks', '4ce'),
         exact: true,
@@ -248,6 +280,12 @@ export default [
       {
         path: '/docs/category/git',
         component: ComponentCreator('/docs/category/git', '5f4'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/category/intune',
+        component: ComponentCreator('/docs/category/intune', '887'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
@@ -270,6 +308,18 @@ export default [
         sidebar: "tutorialSidebar"
       },
       {
+        path: '/docs/category/windows-os',
+        component: ComponentCreator('/docs/category/windows-os', 'b61'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/Intune/Autopilot/Diagnose Autopilot Errors',
+        component: ComponentCreator('/docs/Intune/Autopilot/Diagnose Autopilot Errors', 'e22'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
         path: '/docs/PowerShell/Git/Git Cheatsheet',
         component: ComponentCreator('/docs/PowerShell/Git/Git Cheatsheet', '974'),
         exact: true,
@@ -284,6 +334,12 @@ export default [
       {
         path: '/docs/PowerShell/PowerShell-cheatsheet/',
         component: ComponentCreator('/docs/PowerShell/PowerShell-cheatsheet/', '6d1'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/Windows-OS/Defender-for-Endpoint/Check Defender AV Status',
+        component: ComponentCreator('/docs/Windows-OS/Defender-for-Endpoint/Check Defender AV Status', '555'),
         exact: true,
         sidebar: "tutorialSidebar"
       }

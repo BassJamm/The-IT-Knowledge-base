@@ -50,6 +50,16 @@
     "count": 1
   },
   {
+    "label": "Autopilot",
+    "permalink": "/docs/tags/autopilot",
+    "count": 1
+  },
+  {
+    "label": "Intune",
+    "permalink": "/docs/tags/intune",
+    "count": 1
+  },
+  {
     "label": "Git",
     "permalink": "/docs/tags/git",
     "count": 1
@@ -72,6 +82,16 @@
   {
     "label": "PowerShell",
     "permalink": "/docs/tags/power-shell",
+    "count": 1
+  },
+  {
+    "label": "WindowsOS",
+    "permalink": "/docs/tags/windows-os",
+    "count": 1
+  },
+  {
+    "label": "DefenderFE",
+    "permalink": "/docs/tags/defender-fe",
     "count": 1
   }
 ]

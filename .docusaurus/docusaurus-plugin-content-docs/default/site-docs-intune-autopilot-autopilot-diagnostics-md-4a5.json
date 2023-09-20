@@ -1,0 +1,50 @@
+{
+  "unversionedId": "Intune/Autopilot/Diagnose Autopilot Errors",
+  "id": "Intune/Autopilot/Diagnose Autopilot Errors",
+  "title": "Diagnose Autopilot Errors",
+  "description": "Details how to review the Autopilot logs on a device.",
+  "source": "@site/docs/Intune/Autopilot/Autopilot-Diagnostics.md",
+  "sourceDirName": "Intune/Autopilot",
+  "slug": "/Intune/Autopilot/Diagnose Autopilot Errors",
+  "permalink": "/docs/Intune/Autopilot/Diagnose Autopilot Errors",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/edit/main/docs/api-doc-markdown.md",
+  "tags": [
+    {
+      "label": "Autopilot",
+      "permalink": "/docs/tags/autopilot"
+    },
+    {
+      "label": "Intune",
+      "permalink": "/docs/tags/intune"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "draft": false,
+    "id": "Diagnose Autopilot Errors",
+    "title": "Diagnose Autopilot Errors",
+    "hide_title": false,
+    "hide_table_of_contents": false,
+    "sidebar_label": "Diagnose Autopilot Errors",
+    "sidebar_position": 1,
+    "toc_max_heading_level": 4,
+    "pagination_label": "Diagnose Autopilot Errors",
+    "tags": [
+      "Autopilot",
+      "Intune"
+    ],
+    "custom_edit_url": "https://github.com/facebook/docusaurus/edit/main/docs/api-doc-markdown.md",
+    "description": "Details how to review the Autopilot logs on a device."
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Autopilot",
+    "permalink": "/docs/category/autopilot"
+  },
+  "next": {
+    "title": "PowerShell",
+    "permalink": "/docs/category/powershell"
+  }
+}

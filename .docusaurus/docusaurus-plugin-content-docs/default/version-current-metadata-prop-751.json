@@ -119,6 +119,30 @@
       },
       {
         "type": "category",
+        "label": "Intune",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "category",
+            "label": "Autopilot",
+            "collapsible": true,
+            "collapsed": true,
+            "items": [
+              {
+                "type": "link",
+                "label": "Diagnose Autopilot Errors",
+                "href": "/docs/Intune/Autopilot/Diagnose Autopilot Errors",
+                "docId": "Intune/Autopilot/Diagnose Autopilot Errors"
+              }
+            ],
+            "href": "/docs/category/autopilot"
+          }
+        ],
+        "href": "/docs/category/intune"
+      },
+      {
+        "type": "category",
         "label": "PowerShell",
         "collapsible": true,
         "collapsed": true,
@@ -170,6 +194,30 @@
           }
         ],
         "href": "/docs/category/powershell"
+      },
+      {
+        "type": "category",
+        "label": "Windows OS",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "category",
+            "label": "Defender for Endpoint",
+            "collapsible": true,
+            "collapsed": true,
+            "items": [
+              {
+                "type": "link",
+                "label": "Check Defender AV Status",
+                "href": "/docs/Windows-OS/Defender-for-Endpoint/Check Defender AV Status",
+                "docId": "Windows-OS/Defender-for-Endpoint/Check Defender AV Status"
+              }
+            ],
+            "href": "/docs/category/defender-for-endpoint"
+          }
+        ],
+        "href": "/docs/category/windows-os"
       }
     ]
   },
@@ -204,6 +252,12 @@
       "description": "Restore data from a Snapshot.",
       "sidebar": "tutorialSidebar"
     },
+    "Intune/Autopilot/Diagnose Autopilot Errors": {
+      "id": "Intune/Autopilot/Diagnose Autopilot Errors",
+      "title": "Diagnose Autopilot Errors",
+      "description": "Details how to review the Autopilot logs on a device.",
+      "sidebar": "tutorialSidebar"
+    },
     "PowerShell/Git/Git Cheatsheet": {
       "id": "PowerShell/Git/Git Cheatsheet",
       "title": "Git Cheatsheet",
@@ -226,6 +280,12 @@
       "id": "Welcome",
       "title": "Welcome to the Wiki",
       "description": "This documentation is an almagamation of my knowledge and experiences, to hopefully provide myself and others with reference material for their jobs and hobbies.",
+      "sidebar": "tutorialSidebar"
+    },
+    "Windows-OS/Defender-for-Endpoint/Check Defender AV Status": {
+      "id": "Windows-OS/Defender-for-Endpoint/Check Defender AV Status",
+      "title": "Check Defender AV Status",
+      "description": "The variouse options for checking the AV status on a Windows (desktop) device.",
       "sidebar": "tutorialSidebar"
     }
   }

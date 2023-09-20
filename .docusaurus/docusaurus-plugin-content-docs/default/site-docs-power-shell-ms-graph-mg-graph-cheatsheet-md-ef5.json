@@ -20,7 +20,7 @@
     }
   ],
   "version": "current",
-  "sidebarPosition": 3,
+  "sidebarPosition": 1,
   "frontMatter": {
     "draft": false,
     "id": "Microsoft Graph Cheatsheet",
@@ -28,7 +28,7 @@
     "hide_title": false,
     "hide_table_of_contents": false,
     "sidebar_label": "Microsoft Graph Cheatsheet",
-    "sidebar_position": 3,
+    "sidebar_position": 1,
     "toc_max_heading_level": 4,
     "pagination_label": "Microsoft Graph Cheatsheet",
     "tags": [

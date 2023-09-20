@@ -4,8 +4,8 @@
   "permalink": "/docs/category/powershell",
   "navigation": {
     "previous": {
-      "title": "Decom an Azure AD App",
-      "permalink": "/docs/Azure-Active-Directory/App-Registrations/Decom an Azure AD App"
+      "title": "Diagnose Autopilot Errors",
+      "permalink": "/docs/Intune/Autopilot/Diagnose Autopilot Errors"
     },
     "next": {
       "title": "Git",
