@@ -1,0 +1,50 @@
+{
+  "unversionedId": "Intune/Autopilot/Autopilot Setup Suggestions",
+  "id": "Intune/Autopilot/Autopilot Setup Suggestions",
+  "title": "Autopilot Setup Suggestions",
+  "description": "Details some advice and things I have learnt when setting up Autopilot.",
+  "source": "@site/docs/Intune/Autopilot/Autopilot-Setup-Suggestions.md",
+  "sourceDirName": "Intune/Autopilot",
+  "slug": "/Intune/Autopilot/Autopilot Setup Suggestions",
+  "permalink": "/docs/Intune/Autopilot/Autopilot Setup Suggestions",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/edit/main/docs/api-doc-markdown.md",
+  "tags": [
+    {
+      "label": "Autopilot",
+      "permalink": "/docs/tags/autopilot"
+    },
+    {
+      "label": "Intune",
+      "permalink": "/docs/tags/intune"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "draft": false,
+    "id": "Autopilot Setup Suggestions",
+    "title": "Autopilot Setup Suggestions",
+    "hide_title": false,
+    "hide_table_of_contents": false,
+    "sidebar_label": "Autopilot Setup Suggestions",
+    "sidebar_position": 1,
+    "toc_max_heading_level": 4,
+    "pagination_label": "Autopilot Setup Suggestions",
+    "tags": [
+      "Autopilot",
+      "Intune"
+    ],
+    "custom_edit_url": "https://github.com/facebook/docusaurus/edit/main/docs/api-doc-markdown.md",
+    "description": "Details some advice and things I have learnt when setting up Autopilot."
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Autopilot",
+    "permalink": "/docs/category/autopilot"
+  },
+  "next": {
+    "title": "Diagnose Autopilot Errors",
+    "permalink": "/docs/Intune/Autopilot/Diagnose Autopilot Errors"
+  }
+}

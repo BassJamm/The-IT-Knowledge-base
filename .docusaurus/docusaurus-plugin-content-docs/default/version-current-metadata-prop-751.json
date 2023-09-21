@@ -119,6 +119,48 @@
       },
       {
         "type": "category",
+        "label": "Certificate Management",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Formats and Conversions",
+            "href": "/docs/Certificate-Mgmt/Formats and Conversions",
+            "docId": "Certificate-Mgmt/Formats and Conversions"
+          },
+          {
+            "type": "link",
+            "label": "Generating CSRs",
+            "href": "/docs/Certificate-Mgmt/Generating CSRs",
+            "docId": "Certificate-Mgmt/Generating CSRs"
+          },
+          {
+            "type": "link",
+            "label": "Request a Certificate from internal CA",
+            "href": "/docs/Certificate-Mgmt/Request a Certificate from internal CA",
+            "docId": "Certificate-Mgmt/Request a Certificate from internal CA"
+          }
+        ],
+        "href": "/docs/category/certificate-management"
+      },
+      {
+        "type": "category",
+        "label": "Citrix",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Updating a Citrix Cloud Image",
+            "href": "/docs/Citrix/Updating a Citrix Cloud Image",
+            "docId": "Citrix/Updating a Citrix Cloud Image"
+          }
+        ],
+        "href": "/docs/category/citrix"
+      },
+      {
+        "type": "category",
         "label": "Intune",
         "collapsible": true,
         "collapsed": true,
@@ -129,6 +171,12 @@
             "collapsible": true,
             "collapsed": true,
             "items": [
+              {
+                "type": "link",
+                "label": "Autopilot Setup Suggestions",
+                "href": "/docs/Intune/Autopilot/Autopilot Setup Suggestions",
+                "docId": "Intune/Autopilot/Autopilot Setup Suggestions"
+              },
               {
                 "type": "link",
                 "label": "Diagnose Autopilot Errors",
@@ -250,6 +298,36 @@
       "id": "Azure/Disks/Restore data from a Snapshot",
       "title": "Restore data from a Snapshot",
       "description": "Restore data from a Snapshot.",
+      "sidebar": "tutorialSidebar"
+    },
+    "Certificate-Mgmt/Formats and Conversions": {
+      "id": "Certificate-Mgmt/Formats and Conversions",
+      "title": "Formats and Conversions",
+      "description": "Reinstate admin privileges for a customer's Azure CSP subscriptions.",
+      "sidebar": "tutorialSidebar"
+    },
+    "Certificate-Mgmt/Generating CSRs": {
+      "id": "Certificate-Mgmt/Generating CSRs",
+      "title": "Generating CSRs",
+      "description": "Reinstate admin privileges for a customer's Azure CSP subscriptions.",
+      "sidebar": "tutorialSidebar"
+    },
+    "Certificate-Mgmt/Request a Certificate from internal CA": {
+      "id": "Certificate-Mgmt/Request a Certificate from internal CA",
+      "title": "Request a Certificate from internal CA",
+      "description": "Requesting a Certificate from an Internal Certificate Authority.",
+      "sidebar": "tutorialSidebar"
+    },
+    "Citrix/Updating a Citrix Cloud Image": {
+      "id": "Citrix/Updating a Citrix Cloud Image",
+      "title": "Updating a Citrix Cloud Image",
+      "description": "Reinstate admin privileges for a customer's Azure CSP subscriptions.",
+      "sidebar": "tutorialSidebar"
+    },
+    "Intune/Autopilot/Autopilot Setup Suggestions": {
+      "id": "Intune/Autopilot/Autopilot Setup Suggestions",
+      "title": "Autopilot Setup Suggestions",
+      "description": "Details some advice and things I have learnt when setting up Autopilot.",
       "sidebar": "tutorialSidebar"
     },
     "Intune/Autopilot/Diagnose Autopilot Errors": {

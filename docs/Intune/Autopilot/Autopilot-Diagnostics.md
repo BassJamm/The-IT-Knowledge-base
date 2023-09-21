@@ -5,7 +5,7 @@ title: Diagnose Autopilot Errors
 hide_title: false
 hide_table_of_contents: false
 sidebar_label: Diagnose Autopilot Errors
-sidebar_position: 1
+sidebar_position: 2
 toc_max_heading_level: 4 
 pagination_label: Diagnose Autopilot Errors
 tags: [Autopilot, Intune]

@@ -2,8 +2,14 @@
   "label": "Autopilot",
   "permalink": "/docs/tags/autopilot",
   "allTagsPath": "/docs/tags",
-  "count": 1,
+  "count": 2,
   "items": [
+    {
+      "id": "Intune/Autopilot/Autopilot Setup Suggestions",
+      "title": "Autopilot Setup Suggestions",
+      "description": "Details some advice and things I have learnt when setting up Autopilot.",
+      "permalink": "/docs/Intune/Autopilot/Autopilot Setup Suggestions"
+    },
     {
       "id": "Intune/Autopilot/Diagnose Autopilot Errors",
       "title": "Diagnose Autopilot Errors",

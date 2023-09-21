@@ -18,7 +18,7 @@
   "version": "current",
   "sidebarPosition": 3,
   "frontMatter": {
-    "draft": true,
+    "draft": false,
     "id": "Request a Certificate from internal CA",
     "title": "Request a Certificate from internal CA",
     "hide_title": false,

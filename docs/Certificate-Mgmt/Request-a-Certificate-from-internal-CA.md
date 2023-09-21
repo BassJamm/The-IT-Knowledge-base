@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 id: Request a Certificate from internal CA
 title: Request a Certificate from internal CA
 hide_title: false
@@ -20,7 +20,7 @@ description: Requesting a Certificate from an Internal Certificate Authority.
 
 ## Generating a CSR
 
-Generate a CSR from another server, doing this from IIS is a tried and tested method. To see how to do this, there's a reference guide here, [Generating a CSR](link.com).
+Generate a CSR from another server, doing this from IIS is a tried and tested method.
 
 ## Submitting the request to the CA
 

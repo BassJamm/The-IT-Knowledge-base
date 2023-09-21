@@ -280,7 +280,7 @@
               "version": "current",
               "sidebarPosition": 1,
               "frontMatter": {
-                "draft": true,
+                "draft": false,
                 "id": "Formats and Conversions",
                 "title": "Formats and Conversions",
                 "hide_title": false,
@@ -325,7 +325,7 @@
               "version": "current",
               "sidebarPosition": 2,
               "frontMatter": {
-                "draft": true,
+                "draft": false,
                 "id": "Generating CSRs",
                 "title": "Generating CSRs",
                 "hide_title": false,
@@ -344,51 +344,6 @@
               "previous": {
                 "title": "Formats and Conversions",
                 "permalink": "/docs/Certificate-Mgmt/Formats and Conversions"
-              },
-              "next": {
-                "title": "Request a Certificate from internal CA",
-                "permalink": "/docs/Certificate-Mgmt/Request a Certificate from internal CA"
-              }
-            },
-            {
-              "unversionedId": "Certificate-Mgmt/Request a Certificate from internal CA",
-              "id": "Certificate-Mgmt/Request a Certificate from internal CA",
-              "title": "Request a Certificate from internal CA",
-              "description": "Requesting a Certificate from an Internal Certificate Authority.",
-              "source": "@site/docs/Certificate-Mgmt/Internal-CA.md",
-              "sourceDirName": "Certificate-Mgmt",
-              "slug": "/Certificate-Mgmt/Request a Certificate from internal CA",
-              "permalink": "/docs/Certificate-Mgmt/Request a Certificate from internal CA",
-              "draft": false,
-              "editUrl": "https://github.com/facebook/docusaurus/edit/main/docs/api-doc-markdown.md",
-              "tags": [
-                {
-                  "label": "Certificates",
-                  "permalink": "/docs/tags/certificates"
-                }
-              ],
-              "version": "current",
-              "sidebarPosition": 3,
-              "frontMatter": {
-                "draft": true,
-                "id": "Request a Certificate from internal CA",
-                "title": "Request a Certificate from internal CA",
-                "hide_title": false,
-                "hide_table_of_contents": false,
-                "sidebar_label": "Request a Certificate from internal CA",
-                "sidebar_position": 3,
-                "toc_max_heading_level": 4,
-                "pagination_label": "Request a Certificate from internal CA",
-                "tags": [
-                  "Certificates"
-                ],
-                "custom_edit_url": "https://github.com/facebook/docusaurus/edit/main/docs/api-doc-markdown.md",
-                "description": "Requesting a Certificate from an Internal Certificate Authority."
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Generating CSRs",
-                "permalink": "/docs/Certificate-Mgmt/Generating CSRs"
               },
               "next": {
                 "title": "Citrix",
@@ -415,7 +370,7 @@
               "version": "current",
               "sidebarPosition": 1,
               "frontMatter": {
-                "draft": true,
+                "draft": false,
                 "id": "Updating a Citrix Cloud Image",
                 "title": "Updating a Citrix Cloud Image",
                 "hide_title": false,
@@ -441,6 +396,56 @@
               }
             },
             {
+              "unversionedId": "Intune/Autopilot/Autopilot Setup Suggestions",
+              "id": "Intune/Autopilot/Autopilot Setup Suggestions",
+              "title": "Autopilot Setup Suggestions",
+              "description": "Details some advice and things I have learnt when setting up Autopilot.",
+              "source": "@site/docs/Intune/Autopilot/Autopilot-Setup-Suggestions.md",
+              "sourceDirName": "Intune/Autopilot",
+              "slug": "/Intune/Autopilot/Autopilot Setup Suggestions",
+              "permalink": "/docs/Intune/Autopilot/Autopilot Setup Suggestions",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/edit/main/docs/api-doc-markdown.md",
+              "tags": [
+                {
+                  "label": "Autopilot",
+                  "permalink": "/docs/tags/autopilot"
+                },
+                {
+                  "label": "Intune",
+                  "permalink": "/docs/tags/intune"
+                }
+              ],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "draft": false,
+                "id": "Autopilot Setup Suggestions",
+                "title": "Autopilot Setup Suggestions",
+                "hide_title": false,
+                "hide_table_of_contents": false,
+                "sidebar_label": "Autopilot Setup Suggestions",
+                "sidebar_position": 1,
+                "toc_max_heading_level": 4,
+                "pagination_label": "Autopilot Setup Suggestions",
+                "tags": [
+                  "Autopilot",
+                  "Intune"
+                ],
+                "custom_edit_url": "https://github.com/facebook/docusaurus/edit/main/docs/api-doc-markdown.md",
+                "description": "Details some advice and things I have learnt when setting up Autopilot."
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Autopilot",
+                "permalink": "/docs/category/autopilot"
+              },
+              "next": {
+                "title": "Diagnose Autopilot Errors",
+                "permalink": "/docs/Intune/Autopilot/Diagnose Autopilot Errors"
+              }
+            },
+            {
               "unversionedId": "Intune/Autopilot/Diagnose Autopilot Errors",
               "id": "Intune/Autopilot/Diagnose Autopilot Errors",
               "title": "Diagnose Autopilot Errors",
@@ -462,7 +467,7 @@
                 }
               ],
               "version": "current",
-              "sidebarPosition": 1,
+              "sidebarPosition": 2,
               "frontMatter": {
                 "draft": false,
                 "id": "Diagnose Autopilot Errors",
@@ -470,7 +475,7 @@
                 "hide_title": false,
                 "hide_table_of_contents": false,
                 "sidebar_label": "Diagnose Autopilot Errors",
-                "sidebar_position": 1,
+                "sidebar_position": 2,
                 "toc_max_heading_level": 4,
                 "pagination_label": "Diagnose Autopilot Errors",
                 "tags": [
@@ -482,8 +487,8 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Autopilot",
-                "permalink": "/docs/category/autopilot"
+                "title": "Autopilot Setup Suggestions",
+                "permalink": "/docs/Intune/Autopilot/Autopilot Setup Suggestions"
               },
               "next": {
                 "title": "PowerShell",
@@ -866,11 +871,6 @@
                     "type": "doc",
                     "id": "Certificate-Mgmt/Generating CSRs",
                     "label": "Generating CSRs"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "Certificate-Mgmt/Request a Certificate from internal CA",
-                    "label": "Request a Certificate from internal CA"
                   }
                 ],
                 "link": {
@@ -909,6 +909,11 @@
                     "collapsible": true,
                     "collapsed": true,
                     "items": [
+                      {
+                        "type": "doc",
+                        "id": "Intune/Autopilot/Autopilot Setup Suggestions",
+                        "label": "Autopilot Setup Suggestions"
+                      },
                       {
                         "type": "doc",
                         "id": "Intune/Autopilot/Diagnose Autopilot Errors",

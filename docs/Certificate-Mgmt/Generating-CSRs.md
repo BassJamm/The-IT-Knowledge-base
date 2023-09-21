@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 id: Generating CSRs
 title: Generating CSRs
 hide_title: false

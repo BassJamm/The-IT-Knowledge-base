@@ -108,6 +108,16 @@ export default [
     exact: true
   },
   {
+    path: '/docs/tags/certificates',
+    component: ComponentCreator('/docs/tags/certificates', '873'),
+    exact: true
+  },
+  {
+    path: '/docs/tags/citrix',
+    component: ComponentCreator('/docs/tags/citrix', 'c09'),
+    exact: true
+  },
+  {
     path: '/docs/tags/command-line',
     component: ComponentCreator('/docs/tags/command-line', 'b41'),
     exact: true
@@ -179,7 +189,7 @@ export default [
   },
   {
     path: '/docs/',
-    component: ComponentCreator('/docs/', '5ef'),
+    component: ComponentCreator('/docs/', '249'),
     routes: [
       {
         path: '/docs/',
@@ -266,6 +276,18 @@ export default [
         sidebar: "tutorialSidebar"
       },
       {
+        path: '/docs/category/certificate-management',
+        component: ComponentCreator('/docs/category/certificate-management', 'c85'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/category/citrix',
+        component: ComponentCreator('/docs/category/citrix', '994'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
         path: '/docs/category/defender-for-endpoint',
         component: ComponentCreator('/docs/category/defender-for-endpoint', '5a1'),
         exact: true,
@@ -310,6 +332,36 @@ export default [
       {
         path: '/docs/category/windows-os',
         component: ComponentCreator('/docs/category/windows-os', 'b61'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/Certificate-Mgmt/Formats and Conversions',
+        component: ComponentCreator('/docs/Certificate-Mgmt/Formats and Conversions', 'eb9'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/Certificate-Mgmt/Generating CSRs',
+        component: ComponentCreator('/docs/Certificate-Mgmt/Generating CSRs', 'df2'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/Certificate-Mgmt/Request a Certificate from internal CA',
+        component: ComponentCreator('/docs/Certificate-Mgmt/Request a Certificate from internal CA', '7a2'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/Citrix/Updating a Citrix Cloud Image',
+        component: ComponentCreator('/docs/Citrix/Updating a Citrix Cloud Image', '1e0'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/Intune/Autopilot/Autopilot Setup Suggestions',
+        component: ComponentCreator('/docs/Intune/Autopilot/Autopilot Setup Suggestions', 'cfe'),
         exact: true,
         sidebar: "tutorialSidebar"
       },

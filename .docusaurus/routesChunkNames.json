@@ -224,6 +224,20 @@
     },
     "tag": "518c9e7c"
   },
+  "/docs/tags/certificates-873": {
+    "__comp": "df203c0f",
+    "__context": {
+      "plugin": "4984407c"
+    },
+    "tag": "2c31d35e"
+  },
+  "/docs/tags/citrix-c09": {
+    "__comp": "df203c0f",
+    "__context": {
+      "plugin": "4984407c"
+    },
+    "tag": "e2c3c2eb"
+  },
   "/docs/tags/command-line-b41": {
     "__comp": "df203c0f",
     "__context": {
@@ -322,7 +336,7 @@
     },
     "content": "393be207"
   },
-  "/docs/-5ef": {
+  "/docs/-249": {
     "__comp": "1be78505",
     "__context": {
       "plugin": "4984407c"
@@ -385,6 +399,14 @@
     "__comp": "14eb3368",
     "categoryGeneratedIndex": "c732fd87"
   },
+  "/docs/category/certificate-management-c85": {
+    "__comp": "14eb3368",
+    "categoryGeneratedIndex": "0e099754"
+  },
+  "/docs/category/citrix-994": {
+    "__comp": "14eb3368",
+    "categoryGeneratedIndex": "0219c4a5"
+  },
   "/docs/category/defender-for-endpoint-5a1": {
     "__comp": "14eb3368",
     "categoryGeneratedIndex": "60ff6b12"
@@ -416,6 +438,26 @@
   "/docs/category/windows-os-b61": {
     "__comp": "14eb3368",
     "categoryGeneratedIndex": "afa85ebf"
+  },
+  "/docs/Certificate-Mgmt/Formats and Conversions-eb9": {
+    "__comp": "17896441",
+    "content": "cc448a56"
+  },
+  "/docs/Certificate-Mgmt/Generating CSRs-df2": {
+    "__comp": "17896441",
+    "content": "cb614f7f"
+  },
+  "/docs/Certificate-Mgmt/Request a Certificate from internal CA-7a2": {
+    "__comp": "17896441",
+    "content": "0eccf5e8"
+  },
+  "/docs/Citrix/Updating a Citrix Cloud Image-1e0": {
+    "__comp": "17896441",
+    "content": "eafea727"
+  },
+  "/docs/Intune/Autopilot/Autopilot Setup Suggestions-cfe": {
+    "__comp": "17896441",
+    "content": "03ddcc88"
   },
   "/docs/Intune/Autopilot/Diagnose Autopilot Errors-e22": {
     "__comp": "17896441",

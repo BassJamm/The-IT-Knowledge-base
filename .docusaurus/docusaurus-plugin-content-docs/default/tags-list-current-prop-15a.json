@@ -50,14 +50,24 @@
     "count": 1
   },
   {
+    "label": "Certificates",
+    "permalink": "/docs/tags/certificates",
+    "count": 3
+  },
+  {
+    "label": "Citrix",
+    "permalink": "/docs/tags/citrix",
+    "count": 1
+  },
+  {
     "label": "Autopilot",
     "permalink": "/docs/tags/autopilot",
-    "count": 1
+    "count": 2
   },
   {
     "label": "Intune",
     "permalink": "/docs/tags/intune",
-    "count": 1
+    "count": 2
   },
   {
     "label": "Git",

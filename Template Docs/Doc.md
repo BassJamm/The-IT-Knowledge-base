@@ -1,22 +1,24 @@
 ---
 draft: true
-id: Partner access to Az Sub
-title: Grant Partner Access to Azure Sub
+id: 
+title: 
 hide_title: false
 hide_table_of_contents: false
-sidebar_label: Grant Partner Access to Azure Sub
-sidebar_position: 2
+sidebar_label: 
+sidebar_position: 1
 toc_max_heading_level: 4 
-pagination_label: Grant Partner Access to Azure Sub
-tags: [PartnerCentre]
+pagination_label: 
+tags: []
 custom_edit_url: https://github.com/facebook/docusaurus/edit/main/docs/api-doc-markdown.md
-description: Reinstate admin privileges for a customer's Azure CSP subscriptions.
+description: 
+---
 ---
 
-## Document Control
+## Too Long; Didn't Read
 
-- Created: x
-- Last Updated: x (date in reverse format.)
+- Summarise the main points.
+- Keep it short and snappy.
+- Add any reference URLS.
 
 ## PowerShell Example
 
@@ -34,3 +36,6 @@ description: Reinstate admin privileges for a customer's Azure CSP subscriptions
 ## Section referencing
 
 [section](#document-control)
+
+---
+Created: (date in reverse format.), Last Updated: (date in reverse format.)

@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 id: Updating a Citrix Cloud Image
 title: Updating a Citrix Cloud Image
 hide_title: false
