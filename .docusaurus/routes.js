@@ -189,7 +189,7 @@ export default [
   },
   {
     path: '/docs/',
-    component: ComponentCreator('/docs/', '249'),
+    component: ComponentCreator('/docs/', '267'),
     routes: [
       {
         path: '/docs/',
@@ -200,6 +200,12 @@ export default [
       {
         path: '/docs/Azure-Active-Directory/App-Registrations/Decom an Azure AD App',
         component: ComponentCreator('/docs/Azure-Active-Directory/App-Registrations/Decom an Azure AD App', '84b'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/Azure-Active-Directory/Conditional-Access/Useful Conditional Access Policies',
+        component: ComponentCreator('/docs/Azure-Active-Directory/Conditional-Access/Useful Conditional Access Policies', 'eb0'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
@@ -252,6 +258,12 @@ export default [
         sidebar: "tutorialSidebar"
       },
       {
+        path: '/docs/category/az',
+        component: ComponentCreator('/docs/category/az', '33c'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
         path: '/docs/category/azure',
         component: ComponentCreator('/docs/category/azure', 'ebb'),
         exact: true,
@@ -288,8 +300,20 @@ export default [
         sidebar: "tutorialSidebar"
       },
       {
+        path: '/docs/category/conditional-access',
+        component: ComponentCreator('/docs/category/conditional-access', '587'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
         path: '/docs/category/defender-for-endpoint',
         component: ComponentCreator('/docs/category/defender-for-endpoint', '5a1'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/category/device-configon-boarding',
+        component: ComponentCreator('/docs/category/device-configon-boarding', '86e'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
@@ -372,6 +396,24 @@ export default [
         sidebar: "tutorialSidebar"
       },
       {
+        path: '/docs/Intune/Device-Configuration-&-Oboarding/Windows Device Config',
+        component: ComponentCreator('/docs/Intune/Device-Configuration-&-Oboarding/Windows Device Config', '950'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/PowerShell/Az/Code Snippet',
+        component: ComponentCreator('/docs/PowerShell/Az/Code Snippet', '0a8'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/PowerShell/Az/Command Reference',
+        component: ComponentCreator('/docs/PowerShell/Az/Command Reference', '425'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
         path: '/docs/PowerShell/Git/Git Cheatsheet',
         component: ComponentCreator('/docs/PowerShell/Git/Git Cheatsheet', '974'),
         exact: true,
@@ -384,8 +426,14 @@ export default [
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/PowerShell/PowerShell-cheatsheet/',
-        component: ComponentCreator('/docs/PowerShell/PowerShell-cheatsheet/', '6d1'),
+        path: '/docs/PowerShell/PowerShell-cheatsheet/Code-Snippets',
+        component: ComponentCreator('/docs/PowerShell/PowerShell-cheatsheet/Code-Snippets', 'fb2'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/PowerShell/PowerShell-cheatsheet/Command Reference',
+        component: ComponentCreator('/docs/PowerShell/PowerShell-cheatsheet/Command Reference', '699'),
         exact: true,
         sidebar: "tutorialSidebar"
       },

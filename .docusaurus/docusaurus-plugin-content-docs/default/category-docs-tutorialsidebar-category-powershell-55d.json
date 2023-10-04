@@ -4,12 +4,12 @@
   "permalink": "/docs/category/powershell",
   "navigation": {
     "previous": {
-      "title": "Diagnose Autopilot Errors",
-      "permalink": "/docs/Intune/Autopilot/Diagnose Autopilot Errors"
+      "title": "Windows Device Config",
+      "permalink": "/docs/Intune/Device-Configuration-&-Oboarding/Windows Device Config"
     },
     "next": {
-      "title": "Git",
-      "permalink": "/docs/category/git"
+      "title": "Az",
+      "permalink": "/docs/category/az"
     }
   }
 }

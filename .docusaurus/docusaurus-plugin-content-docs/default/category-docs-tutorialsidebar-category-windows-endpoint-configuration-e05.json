@@ -1,0 +1,15 @@
+{
+  "title": "Windows Endpoint Configuration",
+  "slug": "/category/windows-endpoint-configuration",
+  "permalink": "/docs/category/windows-endpoint-configuration",
+  "navigation": {
+    "previous": {
+      "title": "Diagnose Autopilot Errors",
+      "permalink": "/docs/Intune/Autopilot/Diagnose Autopilot Errors"
+    },
+    "next": {
+      "title": "Useful Config Profiles",
+      "permalink": "/docs/Intune/Windows-Configuration/Useful Configuration Profiles"
+    }
+  }
+}

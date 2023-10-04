@@ -113,6 +113,21 @@
               }
             ],
             "href": "/docs/category/app-registrations"
+          },
+          {
+            "type": "category",
+            "label": "Conditional Access",
+            "collapsible": true,
+            "collapsed": true,
+            "items": [
+              {
+                "type": "link",
+                "label": "Useful CA Policies",
+                "href": "/docs/Azure-Active-Directory/Conditional-Access/Useful Conditional Access Policies",
+                "docId": "Azure-Active-Directory/Conditional-Access/Useful Conditional Access Policies"
+              }
+            ],
+            "href": "/docs/category/conditional-access"
           }
         ],
         "href": "/docs/category/azure-active-directory"
@@ -185,6 +200,21 @@
               }
             ],
             "href": "/docs/category/autopilot"
+          },
+          {
+            "type": "category",
+            "label": "Device Config/On-boarding",
+            "collapsible": true,
+            "collapsed": true,
+            "items": [
+              {
+                "type": "link",
+                "label": "Windows Device Config",
+                "href": "/docs/Intune/Device-Configuration-&-Oboarding/Windows Device Config",
+                "docId": "Intune/Device-Configuration-&-Oboarding/Windows Device Config"
+              }
+            ],
+            "href": "/docs/category/device-configon-boarding"
           }
         ],
         "href": "/docs/category/intune"
@@ -195,6 +225,27 @@
         "collapsible": true,
         "collapsed": true,
         "items": [
+          {
+            "type": "category",
+            "label": "Az",
+            "collapsible": true,
+            "collapsed": true,
+            "items": [
+              {
+                "type": "link",
+                "label": "Code Snippet",
+                "href": "/docs/PowerShell/Az/Code Snippet",
+                "docId": "PowerShell/Az/Code Snippet"
+              },
+              {
+                "type": "link",
+                "label": "Command Reference",
+                "href": "/docs/PowerShell/Az/Command Reference",
+                "docId": "PowerShell/Az/Command Reference"
+              }
+            ],
+            "href": "/docs/category/az"
+          },
           {
             "type": "category",
             "label": "Git",
@@ -233,9 +284,15 @@
             "items": [
               {
                 "type": "link",
-                "label": "PowerShell Cheatsheet",
-                "href": "/docs/PowerShell/PowerShell-cheatsheet/",
-                "docId": "PowerShell/PowerShell-cheatsheet/PowerShell Cheatsheet"
+                "label": "Code-Snippets",
+                "href": "/docs/PowerShell/PowerShell-cheatsheet/Code-Snippets",
+                "docId": "PowerShell/PowerShell-cheatsheet/Code-Snippets"
+              },
+              {
+                "type": "link",
+                "label": "Command Reference",
+                "href": "/docs/PowerShell/PowerShell-cheatsheet/Command Reference",
+                "docId": "PowerShell/PowerShell-cheatsheet/Command Reference"
               }
             ],
             "href": "/docs/category/powershell-1"
@@ -274,6 +331,12 @@
       "id": "Azure-Active-Directory/App-Registrations/Decom an Azure AD App",
       "title": "Decom an Azure AD App",
       "description": "Suggested guidance for decommissioning an Azure AD App.",
+      "sidebar": "tutorialSidebar"
+    },
+    "Azure-Active-Directory/Conditional-Access/Useful Conditional Access Policies": {
+      "id": "Azure-Active-Directory/Conditional-Access/Useful Conditional Access Policies",
+      "title": "Useful Conditional Access Policies",
+      "description": "Descibes the settings an uses of some good Conditional Access policies to setup.",
       "sidebar": "tutorialSidebar"
     },
     "Azure/Automation/Automation-Accounts/Create an Automation Account": {
@@ -336,6 +399,24 @@
       "description": "Details how to review the Autopilot logs on a device.",
       "sidebar": "tutorialSidebar"
     },
+    "Intune/Device-Configuration-&-Oboarding/Windows Device Config": {
+      "id": "Intune/Device-Configuration-&-Oboarding/Windows Device Config",
+      "title": "Useful Windows Device Configuration",
+      "description": "This doc lists out the basic configurations for Windows in intune.",
+      "sidebar": "tutorialSidebar"
+    },
+    "PowerShell/Az/Code Snippet": {
+      "id": "PowerShell/Az/Code Snippet",
+      "title": "Code Snippet",
+      "description": "All things PowerShell.",
+      "sidebar": "tutorialSidebar"
+    },
+    "PowerShell/Az/Command Reference": {
+      "id": "PowerShell/Az/Command Reference",
+      "title": "Command Reference",
+      "description": "All things PowerShell.",
+      "sidebar": "tutorialSidebar"
+    },
     "PowerShell/Git/Git Cheatsheet": {
       "id": "PowerShell/Git/Git Cheatsheet",
       "title": "Git Cheatsheet",
@@ -348,9 +429,15 @@
       "description": "Microsoft Graph command ref doc.",
       "sidebar": "tutorialSidebar"
     },
-    "PowerShell/PowerShell-cheatsheet/PowerShell Cheatsheet": {
-      "id": "PowerShell/PowerShell-cheatsheet/PowerShell Cheatsheet",
-      "title": "PowerShell Cheatsheet",
+    "PowerShell/PowerShell-cheatsheet/Code-Snippets": {
+      "id": "PowerShell/PowerShell-cheatsheet/Code-Snippets",
+      "title": "Code-Snippets",
+      "description": "All things PowerShell.",
+      "sidebar": "tutorialSidebar"
+    },
+    "PowerShell/PowerShell-cheatsheet/Command Reference": {
+      "id": "PowerShell/PowerShell-cheatsheet/Command Reference",
+      "title": "Command Reference",
       "description": "All things PowerShell.",
       "sidebar": "tutorialSidebar"
     },

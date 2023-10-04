@@ -4,8 +4,8 @@
   "permalink": "/docs/category/git",
   "navigation": {
     "previous": {
-      "title": "PowerShell",
-      "permalink": "/docs/category/powershell"
+      "title": "Command Reference",
+      "permalink": "/docs/PowerShell/Az/Command Reference"
     },
     "next": {
       "title": "Git Cheatsheet",

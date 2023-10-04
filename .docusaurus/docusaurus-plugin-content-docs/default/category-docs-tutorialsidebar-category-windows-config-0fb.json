@@ -1,0 +1,15 @@
+{
+  "title": "Windows Config",
+  "slug": "/category/windows-config",
+  "permalink": "/docs/category/windows-config",
+  "navigation": {
+    "previous": {
+      "title": "Diagnose Autopilot Errors",
+      "permalink": "/docs/Intune/Autopilot/Diagnose Autopilot Errors"
+    },
+    "next": {
+      "title": "Useful Config Profiles",
+      "permalink": "/docs/Intune/Windows-Configuration/Useful Configuration Profiles"
+    }
+  }
+}

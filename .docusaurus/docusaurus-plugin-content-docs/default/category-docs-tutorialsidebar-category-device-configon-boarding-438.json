@@ -1,0 +1,15 @@
+{
+  "title": "Device Config/On-boarding",
+  "slug": "/category/device-configon-boarding",
+  "permalink": "/docs/category/device-configon-boarding",
+  "navigation": {
+    "previous": {
+      "title": "Diagnose Autopilot Errors",
+      "permalink": "/docs/Intune/Autopilot/Diagnose Autopilot Errors"
+    },
+    "next": {
+      "title": "Windows Device Config",
+      "permalink": "/docs/Intune/Device-Configuration-&-Oboarding/Windows Device Config"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "title": "Az",
+  "slug": "/category/az",
+  "permalink": "/docs/category/az",
+  "navigation": {
+    "previous": {
+      "title": "PowerShell",
+      "permalink": "/docs/category/powershell"
+    },
+    "next": {
+      "title": "Code Snippet",
+      "permalink": "/docs/PowerShell/Az/Code Snippet"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "title": "Conditional Access",
+  "slug": "/category/conditional-access",
+  "permalink": "/docs/category/conditional-access",
+  "navigation": {
+    "previous": {
+      "title": "Decom an Azure AD App",
+      "permalink": "/docs/Azure-Active-Directory/App-Registrations/Decom an Azure AD App"
+    },
+    "next": {
+      "title": "Useful CA Policies",
+      "permalink": "/docs/Azure-Active-Directory/Conditional-Access/Useful Conditional Access Policies"
+    }
+  }
+}

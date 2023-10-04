@@ -1,12 +1,4 @@
 {
-  "docusaurus-lunr-search": {
-    "default": {
-      "fileNames": {
-        "searchDoc": "search-doc-1695332354879.json",
-        "lunrIndex": "lunr-index-1695332354879.json"
-      }
-    }
-  },
   "docusaurus-plugin-google-gtag": {
     "default": {
       "trackingID": [
@@ -14,6 +6,14 @@
       ],
       "anonymizeIP": true,
       "id": "default"
+    }
+  },
+  "docusaurus-lunr-search": {
+    "default": {
+      "fileNames": {
+        "searchDoc": "search-doc-1696448656392.json",
+        "lunrIndex": "lunr-index-1696448656392.json"
+      }
     }
   },
   "docusaurus-plugin-content-docs": {
@@ -30,6 +30,11 @@
             {
               "id": "Azure-Active-Directory/App-Registrations/Decom an Azure AD App",
               "path": "/docs/Azure-Active-Directory/App-Registrations/Decom an Azure AD App",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Azure-Active-Directory/Conditional-Access/Useful Conditional Access Policies",
+              "path": "/docs/Azure-Active-Directory/Conditional-Access/Useful Conditional Access Policies",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -83,6 +88,21 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "Intune/Device-Configuration-&-Oboarding/Windows Device Config",
+              "path": "/docs/Intune/Device-Configuration-&-Oboarding/Windows Device Config",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "PowerShell/Az/Code Snippet",
+              "path": "/docs/PowerShell/Az/Code Snippet",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "PowerShell/Az/Command Reference",
+              "path": "/docs/PowerShell/Az/Command Reference",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "PowerShell/Git/Git Cheatsheet",
               "path": "/docs/PowerShell/Git/Git Cheatsheet",
               "sidebar": "tutorialSidebar"
@@ -93,8 +113,13 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "PowerShell/PowerShell-cheatsheet/PowerShell Cheatsheet",
-              "path": "/docs/PowerShell/PowerShell-cheatsheet/",
+              "id": "PowerShell/PowerShell-cheatsheet/Code-Snippets",
+              "path": "/docs/PowerShell/PowerShell-cheatsheet/Code-Snippets",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "PowerShell/PowerShell-cheatsheet/Command Reference",
+              "path": "/docs/PowerShell/PowerShell-cheatsheet/Command Reference",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -148,6 +173,11 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "/category/conditional-access",
+              "path": "/docs/category/conditional-access",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "/category/certificate-management",
               "path": "/docs/category/certificate-management",
               "sidebar": "tutorialSidebar"
@@ -168,8 +198,18 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "/category/device-configon-boarding",
+              "path": "/docs/category/device-configon-boarding",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "/category/powershell",
               "path": "/docs/category/powershell",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/az",
+              "path": "/docs/category/az",
               "sidebar": "tutorialSidebar"
             },
             {

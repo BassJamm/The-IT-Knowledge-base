@@ -1,0 +1,50 @@
+{
+  "unversionedId": "PowerShell/Az/Command Reference",
+  "id": "PowerShell/Az/Command Reference",
+  "title": "Command Reference",
+  "description": "All things PowerShell.",
+  "source": "@site/docs/PowerShell/Az/Command-Reference.md",
+  "sourceDirName": "PowerShell/Az",
+  "slug": "/PowerShell/Az/Command Reference",
+  "permalink": "/docs/PowerShell/Az/Command Reference",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/edit/main/docs/api-doc-markdown.md",
+  "tags": [
+    {
+      "label": "Command Line",
+      "permalink": "/docs/tags/command-line"
+    },
+    {
+      "label": "PowerShell",
+      "permalink": "/docs/tags/power-shell"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "draft": false,
+    "id": "Command Reference",
+    "title": "Command Reference",
+    "hide_title": false,
+    "hide_table_of_contents": false,
+    "sidebar_label": "Command Reference",
+    "sidebar_position": 1,
+    "toc_max_heading_level": 4,
+    "pagination_label": "Command Reference",
+    "tags": [
+      "Command Line",
+      "PowerShell"
+    ],
+    "custom_edit_url": "https://github.com/facebook/docusaurus/edit/main/docs/api-doc-markdown.md",
+    "description": "All things PowerShell."
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Code Snippet",
+    "permalink": "/docs/PowerShell/Az/Code Snippet"
+  },
+  "next": {
+    "title": "Git",
+    "permalink": "/docs/category/git"
+  }
+}

@@ -44,7 +44,7 @@
     "permalink": "/docs/Intune/Autopilot/Autopilot Setup Suggestions"
   },
   "next": {
-    "title": "PowerShell",
-    "permalink": "/docs/category/powershell"
+    "title": "Device Config/On-boarding",
+    "permalink": "/docs/category/device-configon-boarding"
   }
 }

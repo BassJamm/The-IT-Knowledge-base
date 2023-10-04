@@ -4,8 +4,8 @@
   "permalink": "/docs/category/certificate-management",
   "navigation": {
     "previous": {
-      "title": "Decom an Azure AD App",
-      "permalink": "/docs/Azure-Active-Directory/App-Registrations/Decom an Azure AD App"
+      "title": "Useful CA Policies",
+      "permalink": "/docs/Azure-Active-Directory/Conditional-Access/Useful Conditional Access Policies"
     },
     "next": {
       "title": "Formats and Conversions",

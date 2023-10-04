@@ -1,0 +1,38 @@
+{
+  "unversionedId": "Azure-Active-Directory/Conditional-Access/Useful Conditional Access Policies",
+  "id": "Azure-Active-Directory/Conditional-Access/Useful Conditional Access Policies",
+  "title": "Useful Conditional Access Policies",
+  "description": "Descibes the settings an uses of some good Conditional Access policies to setup.",
+  "source": "@site/docs/Azure-Active-Directory/Conditional-Access/Useful-Policies.md",
+  "sourceDirName": "Azure-Active-Directory/Conditional-Access",
+  "slug": "/Azure-Active-Directory/Conditional-Access/Useful Conditional Access Policies",
+  "permalink": "/docs/Azure-Active-Directory/Conditional-Access/Useful Conditional Access Policies",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/edit/main/docs/api-doc-markdown.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "draft": false,
+    "id": "Useful Conditional Access Policies",
+    "title": "Useful Conditional Access Policies",
+    "hide_title": false,
+    "hide_table_of_contents": false,
+    "sidebar_label": "Useful CA Policies",
+    "sidebar_position": 1,
+    "toc_max_heading_level": 4,
+    "pagination_label": "Useful CA Policies",
+    "tags": [],
+    "custom_edit_url": "https://github.com/facebook/docusaurus/edit/main/docs/api-doc-markdown.md",
+    "description": "Descibes the settings an uses of some good Conditional Access policies to setup."
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Conditional Access",
+    "permalink": "/docs/category/conditional-access"
+  },
+  "next": {
+    "title": "Certificate Management",
+    "permalink": "/docs/category/certificate-management"
+  }
+}

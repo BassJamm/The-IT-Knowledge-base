@@ -1,0 +1,38 @@
+{
+  "unversionedId": "Intune/Windows-Configuration/Windows Device Config",
+  "id": "Intune/Windows-Configuration/Windows Device Config",
+  "title": "Useful Windows Device Config",
+  "description": "This doc lists out the basic configurations for Windows in intune.",
+  "source": "@site/docs/Intune/Windows-Configuration/Windows-Device-Config.md",
+  "sourceDirName": "Intune/Windows-Configuration",
+  "slug": "/Intune/Windows-Configuration/Windows Device Config",
+  "permalink": "/docs/Intune/Windows-Configuration/Windows Device Config",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/edit/main/docs/api-doc-markdown.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "draft": true,
+    "id": "Windows Device Config",
+    "title": "Useful Windows Device Config",
+    "hide_title": false,
+    "hide_table_of_contents": false,
+    "sidebar_label": "Windows Device Config",
+    "sidebar_position": 1,
+    "toc_max_heading_level": 4,
+    "pagination_label": "Windows Device Config",
+    "tags": [],
+    "custom_edit_url": "https://github.com/facebook/docusaurus/edit/main/docs/api-doc-markdown.md",
+    "description": "This doc lists out the basic configurations for Windows in intune."
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Windows Endpoint Config",
+    "permalink": "/docs/category/windows-endpoint-config"
+  },
+  "next": {
+    "title": "PowerShell",
+    "permalink": "/docs/category/powershell"
+  }
+}

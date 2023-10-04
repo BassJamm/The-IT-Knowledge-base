@@ -20,20 +20,22 @@ description:
 - Keep it short and snappy.
 - Add any reference URLS.
 
-## PowerShell Example
+## Layout examples
+
+### PowerShell Example
 
 ```powershell showLineNumbers
 # With numbers.
 ```
 
-## Table Example
+### Table Example
 
 |  |  |  |
 |--|--|--|
 |  |  |  |
-|  |  |  
+|  |  |  |
 
-## Section referencing
+### Section referencing
 
 [section](#document-control)
 

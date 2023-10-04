@@ -70,6 +70,16 @@
     "count": 2
   },
   {
+    "label": "Command Line",
+    "permalink": "/docs/tags/command-line",
+    "count": 5
+  },
+  {
+    "label": "PowerShell",
+    "permalink": "/docs/tags/power-shell",
+    "count": 4
+  },
+  {
     "label": "Git",
     "permalink": "/docs/tags/git",
     "count": 1
@@ -80,18 +90,8 @@
     "count": 1
   },
   {
-    "label": "Command Line",
-    "permalink": "/docs/tags/command-line",
-    "count": 2
-  },
-  {
     "label": "Microsoft Graph",
     "permalink": "/docs/tags/microsoft-graph",
-    "count": 1
-  },
-  {
-    "label": "PowerShell",
-    "permalink": "/docs/tags/power-shell",
     "count": 1
   },
   {

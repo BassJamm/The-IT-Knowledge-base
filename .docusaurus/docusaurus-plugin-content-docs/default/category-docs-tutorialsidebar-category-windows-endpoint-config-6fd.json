@@ -1,0 +1,15 @@
+{
+  "title": "Windows Endpoint Config",
+  "slug": "/category/windows-endpoint-config",
+  "permalink": "/docs/category/windows-endpoint-config",
+  "navigation": {
+    "previous": {
+      "title": "Diagnose Autopilot Errors",
+      "permalink": "/docs/Intune/Autopilot/Diagnose Autopilot Errors"
+    },
+    "next": {
+      "title": "Windows Device Config",
+      "permalink": "/docs/Intune/Device-Configuration-&-Oboarding/Windows Device Config"
+    }
+  }
+}

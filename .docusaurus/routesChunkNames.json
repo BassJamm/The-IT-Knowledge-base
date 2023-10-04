@@ -336,7 +336,7 @@
     },
     "content": "393be207"
   },
-  "/docs/-249": {
+  "/docs/-267": {
     "__comp": "1be78505",
     "__context": {
       "plugin": "4984407c"
@@ -350,6 +350,10 @@
   "/docs/Azure-Active-Directory/App-Registrations/Decom an Azure AD App-84b": {
     "__comp": "17896441",
     "content": "df5ecdec"
+  },
+  "/docs/Azure-Active-Directory/Conditional-Access/Useful Conditional Access Policies-eb0": {
+    "__comp": "17896441",
+    "content": "76a0f6ea"
   },
   "/docs/Azure/Automation/Automation-Accounts/Create an Automation Account-bfa": {
     "__comp": "17896441",
@@ -383,6 +387,10 @@
     "__comp": "14eb3368",
     "categoryGeneratedIndex": "8409821f"
   },
+  "/docs/category/az-33c": {
+    "__comp": "14eb3368",
+    "categoryGeneratedIndex": "5a968800"
+  },
   "/docs/category/azure-ebb": {
     "__comp": "14eb3368",
     "categoryGeneratedIndex": "64de5a25"
@@ -407,9 +415,17 @@
     "__comp": "14eb3368",
     "categoryGeneratedIndex": "0219c4a5"
   },
+  "/docs/category/conditional-access-587": {
+    "__comp": "14eb3368",
+    "categoryGeneratedIndex": "bfb104f4"
+  },
   "/docs/category/defender-for-endpoint-5a1": {
     "__comp": "14eb3368",
     "categoryGeneratedIndex": "60ff6b12"
+  },
+  "/docs/category/device-configon-boarding-86e": {
+    "__comp": "14eb3368",
+    "categoryGeneratedIndex": "dafca119"
   },
   "/docs/category/disks-4ce": {
     "__comp": "14eb3368",
@@ -463,6 +479,18 @@
     "__comp": "17896441",
     "content": "4a54484e"
   },
+  "/docs/Intune/Device-Configuration-&-Oboarding/Windows Device Config-950": {
+    "__comp": "17896441",
+    "content": "b3fa0250"
+  },
+  "/docs/PowerShell/Az/Code Snippet-0a8": {
+    "__comp": "17896441",
+    "content": "54d58943"
+  },
+  "/docs/PowerShell/Az/Command Reference-425": {
+    "__comp": "17896441",
+    "content": "9011dba6"
+  },
   "/docs/PowerShell/Git/Git Cheatsheet-974": {
     "__comp": "17896441",
     "content": "2c244b90"
@@ -471,9 +499,13 @@
     "__comp": "17896441",
     "content": "ef53c515"
   },
-  "/docs/PowerShell/PowerShell-cheatsheet/-6d1": {
+  "/docs/PowerShell/PowerShell-cheatsheet/Code-Snippets-fb2": {
     "__comp": "17896441",
-    "content": "79e40ba8"
+    "content": "405fff37"
+  },
+  "/docs/PowerShell/PowerShell-cheatsheet/Command Reference-699": {
+    "__comp": "17896441",
+    "content": "49705594"
   },
   "/docs/Windows-OS/Defender-for-Endpoint/Check Defender AV Status-555": {
     "__comp": "17896441",

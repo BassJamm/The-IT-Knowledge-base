@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[7229],{8163:e=>{e.exports=JSON.parse('{"title":"Az","slug":"/category/az","permalink":"/docs/category/az","navigation":{"previous":{"title":"PowerShell","permalink":"/docs/category/powershell"},"next":{"title":"Code Snippet","permalink":"/docs/PowerShell/Az/Code Snippet"}}}')}}]);

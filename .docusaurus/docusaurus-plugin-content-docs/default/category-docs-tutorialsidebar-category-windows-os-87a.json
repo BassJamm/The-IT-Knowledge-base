@@ -4,8 +4,8 @@
   "permalink": "/docs/category/windows-os",
   "navigation": {
     "previous": {
-      "title": "PowerShell Cheatsheet",
-      "permalink": "/docs/PowerShell/PowerShell-cheatsheet/"
+      "title": "Command Reference",
+      "permalink": "/docs/PowerShell/PowerShell-cheatsheet/Command Reference"
     },
     "next": {
       "title": "Defender for Endpoint",

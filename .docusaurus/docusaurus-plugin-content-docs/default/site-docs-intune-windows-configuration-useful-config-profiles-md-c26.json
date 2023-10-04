@@ -1,0 +1,38 @@
+{
+  "unversionedId": "Intune/Windows-Configuration/Useful Configuration Profiles",
+  "id": "Intune/Windows-Configuration/Useful Configuration Profiles",
+  "title": "Useful Configuration Profiles",
+  "description": "This doc lists out some useful Configuration Profiles for Windows devices.",
+  "source": "@site/docs/Intune/Windows-Configuration/Useful-Config-profiles.md",
+  "sourceDirName": "Intune/Windows-Configuration",
+  "slug": "/Intune/Windows-Configuration/Useful Configuration Profiles",
+  "permalink": "/docs/Intune/Windows-Configuration/Useful Configuration Profiles",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/edit/main/docs/api-doc-markdown.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "draft": true,
+    "id": "Useful Configuration Profiles",
+    "title": "Useful Configuration Profiles",
+    "hide_title": false,
+    "hide_table_of_contents": false,
+    "sidebar_label": "Useful Config Profiles",
+    "sidebar_position": 1,
+    "toc_max_heading_level": 4,
+    "pagination_label": "Useful Config Profiles",
+    "tags": [],
+    "custom_edit_url": "https://github.com/facebook/docusaurus/edit/main/docs/api-doc-markdown.md",
+    "description": "This doc lists out some useful Configuration Profiles for Windows devices."
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Windows Endpoint Config",
+    "permalink": "/docs/category/windows-endpoint-config"
+  },
+  "next": {
+    "title": "PowerShell",
+    "permalink": "/docs/category/powershell"
+  }
+}
