@@ -4,7 +4,7 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 export default [
   {
     path: '/blog/',
-    component: ComponentCreator('/blog/', '353'),
+    component: ComponentCreator('/blog/', '44f'),
     exact: true
   },
   {
@@ -148,11 +148,6 @@ export default [
     exact: true
   },
   {
-    path: '/docs/tags/microsoft-graph',
-    component: ComponentCreator('/docs/tags/microsoft-graph', 'a3f'),
-    exact: true
-  },
-  {
     path: '/docs/tags/power-shell',
     component: ComponentCreator('/docs/tags/power-shell', 'cc1'),
     exact: true
@@ -189,7 +184,7 @@ export default [
   },
   {
     path: '/docs/',
-    component: ComponentCreator('/docs/', '267'),
+    component: ComponentCreator('/docs/', '117'),
     routes: [
       {
         path: '/docs/',
@@ -258,12 +253,6 @@ export default [
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/category/az',
-        component: ComponentCreator('/docs/category/az', '33c'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
         path: '/docs/category/azure',
         component: ComponentCreator('/docs/category/azure', 'ebb'),
         exact: true,
@@ -284,6 +273,12 @@ export default [
       {
         path: '/docs/category/azure-lighthouse',
         component: ComponentCreator('/docs/category/azure-lighthouse', '79a'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/category/azure-module',
+        component: ComponentCreator('/docs/category/azure-module', '599'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
@@ -332,12 +327,6 @@ export default [
       {
         path: '/docs/category/intune',
         component: ComponentCreator('/docs/category/intune', '887'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/category/microsoft-graph',
-        component: ComponentCreator('/docs/category/microsoft-graph', '7e0'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
@@ -416,12 +405,6 @@ export default [
       {
         path: '/docs/PowerShell/Git/Git Cheatsheet',
         component: ComponentCreator('/docs/PowerShell/Git/Git Cheatsheet', '974'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/PowerShell/MS-Graph/Microsoft Graph Cheatsheet',
-        component: ComponentCreator('/docs/PowerShell/MS-Graph/Microsoft Graph Cheatsheet', '466'),
         exact: true,
         sidebar: "tutorialSidebar"
       },

@@ -13,7 +13,69 @@ custom_edit_url: https://github.com/facebook/docusaurus/edit/main/docs/api-doc-m
 description: All things PowerShell.
 ---
 
+## Script Template
+
+---
+
+Script Template.
+
+```powershell showLineNumbers
+<# Internal documentation fields.
+    Script Title: [Title of your script]
+    Description: [Brief description of the script's purpose]
+    Author: [Your name or organization]
+    Date: [Date of script creation or last modification]
+#>
+<# Parameters that show up in command line using `-help`.
+    .SYNOPSIS
+        Retrieves user information from Active Directory.
+    .PARAMETER Username
+        Specifies the username of the user to retrieve.
+    .OUTPUTS
+        System.Management.Automation.PSObject
+    .EXAMPLE
+        Get-User -Username "jdoe"
+    #>
+
+# Script Parameters
+param (
+    # [Parameter 1 Description]
+    [Parameter(Mandatory = $true)]
+    [string]$Parameter1,
+
+    # [Parameter 2 Description]
+    [Parameter(Mandatory = $false)]
+    [int]$Parameter2 = 10
+)
+
+# Script Initialization
+Write-Host "Initializing the script..."
+
+try {
+    # Main Script Logic
+    Write-Host "Executing the main logic of the script..."
+
+    # Your code goes here...
+
+    # Example: Outputting parameter values
+    Write-Host "Parameter 1: $Parameter1"
+    Write-Host "Parameter 2: $Parameter2"
+
+    # End of Script
+    Write-Host "Script execution completed."
+
+} catch {
+    # Error Handling
+    Write-Host "An error occurred: $($_.Exception.Message)"
+    # Additional error handling and reporting can be added as needed
+}
+```
+
 ## Collect and Encrypt Credentials
+
+---
+
+Get-Credential
 
 ```powershell showLineNumbers
 $credential = Get-Credential
@@ -28,6 +90,10 @@ $credential = New-Object System.Management.Automation.PsCredential($emailusernam
 ```
 
 ## User confirmation statement
+
+---
+
+Read-Host
 
 ```powershell showLineNumbers
 <# Disclaimer to confirm user is happy to begin the process. #>
@@ -44,7 +110,9 @@ if ($decisionConfirmation -ne 'y') {
 }
 ```
 
-## Create a log file
+## Log file function
+
+---
 
 The below is a small function that creates the log file and a new command `WriteToLogFile`, which will add the content to the log file.
 
@@ -77,60 +145,24 @@ catch {
 
 ## Folder Size Report
 
-```powershell showLineNumbers
-$directory = C:\Users\whornsby
- 
-# Retrieve the files and the total size of them combines. Note that Folders do not hold file sizes.
-$getFileSizes | Get-ChildItem -Recurse | Measure-Object -Sum Length | Select-Object @{Name=”Path”; Expression={$directory.FullName}}, @{Name=”Files”; Expression={$_.Count}}, @{Name=”Size(GB)”; Expression={$_.Sum/1GB}}
- 
-# Converts output to GB
-$_.Sum/1GB
- 
-# Converts output to MB
-$_.Sum/1MB
-```
-
-### Collect System information
-
-systeminfo
+---
 
 ```powershell showLineNumbers
-<#The Command below relies on there being a folder created before running the command, use the command below to do this if needed.#>
-New-Item "C:\SystemDiagnosticCollection" -itemType Directory # Creates the folder and the desired path.
-Write-host 'Folder created at C:\SystemDiagnosticCollection' # Add this if you're writing a script where you need to update the PowerShell prompt.
+########################## Basic File report for the directory you're currently in. ##########################
+Get-ChildItem | Select FullName,@{l='Size(GB)';e={ [math]::round($_.length/1024,2) } }, CreationTime, LastAccessTime, LastWriteTime
 
+########################## Folder size. ##########################
+# /1MB - Convert to MB.
+# /1GB - Convert to GB
+(gci -path "Folder Path" -Recurse | measure -Property Length -Sum).sum /1MB
 
-systeminfo | Out-File -FilePath C:\SystemDiagnosticCollection\SystemInfo.txt # Command collects the systeminfo data and dumps it to text file.
-Write-host 'System Info Collected' # Add this if you're writing a script where you need to update the PowerShell prompt.
+# Round to 2 decimal places.
+[Math]::round((gci .\Networking\ -Recurse | measure -Property Length -Sum).sum /1MB,2)
 ```
 
-### Collect IP address info 
+## Time stamped ping
 
-Ipconfig
-
-```powershell showLineNumbers
-<#The Command below relies on there being a folder created before running the command, use the command below to do this if needed.#>
-New-Item "C:\SystemDiagnosticCollection" -itemType Directory # Creates the folder and the desired path.
-Write-host 'Folder created at C:\SystemDiagnosticCollection' # Add this if you're writing a script where you need to update the PowerShell prompt.
-
-ipconfig /all | Out-File -FilePath C:\SystemDiagnosticCollection\IpAddressingInfo.txt # Collects the IP info and dumps it to text file.
-Write-host 'ipconfig ran successfully' # Add this if you're writing a script where you need to update the PowerShell prompt.
-```
-
-### Test Connection
-
-Test-NetConnection
-
-```powershell showLineNumbers
-<#The Command below relies on there being a folder created before running the command, use the command below to do this if needed.#>
-New-Item "C:\SystemDiagnosticCollection" -itemType Directory # Creates the folder and the desired path.
-Write-host 'Folder created at C:\SystemDiagnosticCollection' # Add this if you're writing a script where you need to update the PowerShell prompt.
-
-# Test Connection to Google
-Test-NetConnection www.google.com -InformationLevel "Detailed" | Out-File -FilePath C:\SystemDiagnosticCollection\pingtoGoogle-FQDN.txt
-```
-
-#### Time stamped ping
+---
 
 Test-NetConnection
 
@@ -144,7 +176,9 @@ Test-connection 8.8.8.8 -count 10 | format-table -AutoSize @{n='TimeStamp';e={Ge
 Write-host 'Network Tests ran successfully' # Add this if you're writing a script where you need to update the PowerShell prompt.
 ```
 
-### Collecting Event Logs
+## Collecting Event Logs
+
+---
 
 Get-EventLog
 
@@ -160,7 +194,9 @@ Get-Eventlog -LogName Application -EntryType Error,Warning -After (Get-Date).Add
 Write-host 'Successfully gathered Event Logs'
 ```
 
-### Collect Printer information
+## Collect Printer information
+
+---
 
 Get-printer
 
@@ -174,43 +210,11 @@ Get-printer | Out-File -FilePath C:\SystemDiagnosticCollection\Printer-Info.txt
 Write-host 'Gathered Printer info' # Add this if you're writing a script where you need to update the PowerShell prompt.
 ```
 
-### Collect Group Policy Information 
+## Collect the 'key' info from dsregcmd command
 
-gpresult /v
+---
 
-```powershell showLineNumbers
-<#The Command below relies on there being a folder created before running the command, use the command below to do this if needed.#>
-New-Item "C:\SystemDiagnosticCollection" -itemType Directory # Creates the folder and the desired path.
-Write-host 'Folder created at C:\SystemDiagnosticCollection' # Add this if you're writing a script where you need to update the PowerShell prompt.
-
-# Collect printer information
-gpresult /v | Out-file -FilePath C:\SystemDiagnosticCollection\GpResult.txt
-Write-host 'Gathered GPO status' # Add this if you're writing a script where you need to update the PowerShell prompt.
-```
-
-### Collect Azure Active Directory
-
-dsregcmd
-
-:::info dsregcmd
-This command is a command prompt command only.
-:::
-
-```powershell showLineNumbers
-<#The Command below relies on there being a folder created before running the command, use the command below to do this if needed.#>
-New-Item "C:\SystemDiagnosticCollection" -itemType Directory # Creates the folder and the desired path.
-Write-host 'Folder created at C:\SystemDiagnosticCollection' # Add this if you're writing a script where you need to update the PowerShell prompt.
-
-# Collect printer information
-dsregcmd /status | Out-File -FilePath C:\SystemDiagnosticCollection\Hybrid-Joined-status.txt
-Write-host 'Successfully checked for Hybrid-Joined status' # Add this if you're writing a script where you need to update the PowerShell prompt.
-```
-
-#### Collect the 'key' info from dsregcmd command
-
-:::info
-This script could use a little tidying up but, it should give you an idea of what is needed.
-:::
+dsregcmd /status
 
 ```powershell showLineNumbers
 
@@ -239,6 +243,10 @@ systeminfo | Select-String -Pattern 'Total Physical Memory' | Out-File -Append -
 
 ## Get Open files
 
+---
+
+Get-SMBopenFile
+
 ```powershell showLineNumbers
 Get-SMBopenFile # All sessions listed.
 Get-SmbOpenFile -FileId "file ID" | select -Property * # Lists all properties for a particular file ID, for file ID run the command above.
@@ -250,4 +258,292 @@ Get-SmbOpenFile | where clientusername -like '*Name*' | Select clientcomputernam
 # Example usage with variable.
 $smbOpenFiles = Get-SmbOpenFile | select -Property * # Get all open files information and store in variable.
 $smbOpenFiles | Select clientcomputername, sessionid,clientusername,path | sort clientusername,path | ft -a # Example of sorting the input.
+```
+
+## Uninstall App using Uninstall String
+
+---
+
+Get-ItemProperty
+
+```powershell showLineNumbers
+$regKeyPaths = @(
+  'HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall'
+  'HKLM:\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall'
+)
+
+$regItems = Get-ChildItem -Path $regKeyPaths | Get-ItemProperty | where displayname -Like '*searchterm*' | Select-Object DisplayName, Uninstallstring
+foreach ($string in $regitems) {
+    $uninstallString = $string.Uninstallstring.replace('MsiExec.exe','').replace('/I','/x ').replace('{','').replace('}','')
+    Start-Process C:\Windows\System32\msiexec.exe -ArgumentList $uninstallString -wait -Verbose
+}
+
+Start-Process C:\Windows\System32\msiexec.exe -ArgumentList $uninstallStrings[0] -wait
+Start-Process C:\Windows\System32\msiexec.exe -ArgumentList $uninstallStrings[1] -wait
+```
+
+## PSSendGrid Module Example
+
+---
+
+Send-PSSendGridMail
+
+```powershell showLineNumbers
+$sendGridToken = "SG.apikey"
+$attachmentPath = $reportFile # File path to the attachment\data.
+$attachmentDisposition = "attachment" # Value can either be "attachment" or "inline", inlines is for images, check the command help examples for info. 
+$emailBody = @(
+  "Ener text here, the '`n' adds a carrige return `n"
+) -join " "
+
+try {
+    
+    # Basic email with just content.
+    $Parameters = @{
+        FromAddress             = "fromaddress@domain.com"
+        ToAddress               = "AddressOne@domain.com", "AddressTwo@domain.com"
+        Subject                 = "Subject text"
+        Body                    = $emailBody
+        AttachmentPath          = $attachmentPath
+        AttachmentDisposition   = $attachmentDisposition
+        Token                   = $sendGridToken
+        FromName                = "Name to show who from."
+        ToName                  = "test"
+    }
+} catch {
+    $_
+}
+Send-PSSendGridMail @Parameters
+```
+
+## Assign Permissions to Managed Identity
+
+---
+
+```powershell showLineNumbers
+# Your tenant id.
+$TenantID=""
+# Microsoft Graph App ID (DON'T CHANGE).
+$GraphAppId = "00000003-0000-0000-c000-000000000000"
+# Name of the manage identity (same as the Logic App name).
+$DisplayNameOfMSI="" 
+# Check the Microsoft Graph documentation for the permission you need for the operation.
+$PermissionName = "User.Read.All" 
+
+# Install the module (You need admin on the machine)
+Install-Module AzureAD -Scope CurrentUser 
+
+# Connect to Azure AD via tenant ID, you'll need an admin account to login with though.
+Connect-AzureAD -TenantId $TenantID
+# Collects the Target System Managed Identities information into the MSI variable.
+$MSI = (Get-AzureADServicePrincipal -Filter "displayName eq '$DisplayNameOfMSI'")
+Start-Sleep -Seconds 10
+# Store the Microsoft Graph API informaiton into the GraphServicePrincipal variable.
+$GraphServicePrincipal = Get-AzureADServicePrincipal -Filter "appId eq '$GraphAppId'"
+# Searches Microsoft Graph API for the value matching the PermissionName variable populated above and stores this in the AppRole Variable.
+$AppRole = $GraphServicePrincipal.AppRoles |  Where-Object {$_.Value -eq $PermissionName -and $_.AllowedMemberTypes -contains "Application"}
+# Assigned the permission from the Microsoft Graph API to the target Managed Identity.
+New-AzureADServiceAppRoleAssignment -ObjectId $MSI.ObjectId -ResourceId $GraphServicePrincipal.ObjectId -Id $appRole.Id -PrincipalId $MSI.ObjectId
+```
+
+## Get FISMO roles
+
+---
+
+Get-ADForest
+
+```powershell showLineNumbers
+$properties = @(
+    'SchemaMaster',
+    'DomainNamingMaster',
+    @{ n='pdcemulator';e={ Get-ADDomain | Select -ExpandProperty pdcemulator} },
+    @{ n='ridmaster';e={ Get-ADDomain | Select -ExpandProperty ridmaster} },
+    @{ n='infrastructuremaster';e={ Get-ADDomain | Select -ExpandProperty infrastructuremaster} }
+)
+
+Get-ADForest | Select $properties | Format-List
+```
+
+## Adding output from two sources in the PipeLine
+
+---
+
+```powershell showLineNumbers
+$source1 = # Some sort of input source.
+$source2 = # Secondary input source.
+
+# Take source1 variable & add a property to the output from source2.
+# You may need to include 'Select -ExpandProperty attributeName' if you get brackets or other special characters in your final output.
+$source1 | Select *, @{ l='itemName';e={$source2 | where mostrecentuser -Match $_.attributeName}}, * -ExcludeProperty attributeName
+```
+
+## Direct Send
+
+---
+
+Send-MailMessage
+
+```powershell showLineNumbers
+# Get the credential
+$credential = Get-Credential
+
+## Define the Send-MailMessage parameters
+$mailParams = @{
+    SmtpServer                 = 'smtp.office365.com'
+    Port                       = '587' # or '25' if not using TLS
+    UseSSL                     = $true ## or not if using non-TLS
+    Credential                 = $credential
+    From                       = 'Email.Address@domain.com'
+    To                         = 'Email.Address@domain.com'# , 'recipient@NotYourDomain.com'
+    Subject                    = "SMTP Client Submission - $(Get-Date -Format g)"
+    Body                       = 'This is a test email using SMTP Client Submission'
+    Attachment                 = "$env:USERPROFILE\Desktop\File.csv"
+    DeliveryNotificationOption = 'OnFailure', 'OnSuccess'
+}
+
+## Send the message
+Send-MailMessage @mailParams
+```
+
+## Find Microsoft Graph Permissions Scopes
+
+---
+
+Find-MgGraphCommand
+
+```powershell showLineNumbers
+Find-MgGraphCommand -command Get-MgUser | Select -First 1 -ExpandProperty Permissions
+```
+
+## Microsoft Graph Connection Scopes
+
+---
+
+Connect-MGGraph
+
+```powershell showLineNumbers
+$mggraphScopes = @(
+    "User.Read.All",
+    "Group.Read.All",
+    "DeviceManagementRBAC.Read.All",
+    "DeviceManagementServiceConfig.Read.All",
+    "DeviceManagementConfiguration.Read.All",
+    "DeviceManagementManagedDevices.Read.All",
+    "DeviceManagementApps.Read.All",
+    "Policy.Read.All"
+)
+
+Connect-MgGraph -Scopes $mggraphScopes -TenantId $tenantID
+```
+
+## Azure AD User Password Reset Report
+
+---
+
+Get-MGUser
+
+```powershell showLineNumbers
+$properties = @(
+    'UserPrincipalName',
+    'DisplayName',
+    'LastPasswordChangeDateTime',
+    'PasswordPolicies',
+     @{l='PasswordAgeDays';e={ (New-TimeSpan -Start $_.LastPasswordChangeDateTime -End (get-date) )TotalDays -as [int] }}
+)
+Get-MgUser -All -Property UserPrincipalName, DisplayName, Id, LastPasswordChangeDateTime,PasswordPolicies | Select-Object $properties  | Sort-Object PasswordAgeDays 
+```
+
+## Get Intune Device Report with Primary User
+
+---
+
+Get-MGDeviceManagementManagedDevice
+
+```powershell showLineNumbers
+$mggraphScopes = @(
+    "User.Read.All",
+    "Group.Read.All",
+    "DeviceManagementRBAC.Read.All",
+    "DeviceManagementServiceConfig.Read.All",
+    "DeviceManagementConfiguration.Read.All",
+    "DeviceManagementManagedDevices.Read.All",
+    "DeviceManagementApps.Read.All",
+    "Policy.Read.All"
+)
+
+Connect-MgGraph -Scopes $mggraphScopes -TenantId $tenantID
+
+$properties = @(
+    'DeviceName', 
+    'UserPrincipalName', 
+    'EnrolledDateTime', 
+    'ComplianceState', 
+    'IsEncrypted', 
+    'LastSyncDateTime', 
+    'Id', 
+    'Manufacturer', 
+    'Model', 
+    'OperatingSystem', 
+    'OSVersion', 
+    'SerialNumber',
+    @{l='PrimaryUser';e={$device = $_;Get-MgDeviceManagementManagedDeviceUser -ManagedDeviceId $device.id | select -expandproperty UserPrincipalName}} 
+)
+ 
+$getAllDevices = Get-MgDeviceManagementManagedDevice -All | Select-Object $properties | Sort OperatingSystem
+```
+
+## List Intune Configuration Profiles
+
+---
+
+Get-MgDeviceManagementDeviceConfiguration
+
+```powershell showLineNumbers
+$mggraphScopes = @(
+    "User.Read.All",
+    "Group.Read.All",
+    "DeviceManagementRBAC.Read.All",
+    "DeviceManagementServiceConfig.Read.All",
+    "DeviceManagementConfiguration.Read.All",
+    "DeviceManagementManagedDevices.Read.All",
+    "DeviceManagementApps.Read.All",
+    "Policy.Read.All"
+)
+
+Connect-MgGraph -Scopes $mggraphScopes -TenantId $tenantID
+
+# Get Configuration Profiles for an Org.
+Get-MgDeviceManagementDeviceConfiguration -All | select Id, DisplayName
+```
+
+## List Intune Compliance Policies
+
+---
+
+Get-MgDeviceManagementDeviceCompliancePolicy
+
+```powershell showLineNumbers
+$mggraphScopes = @(
+    "User.Read.All",
+    "Group.Read.All",
+    "DeviceManagementRBAC.Read.All",
+    "DeviceManagementServiceConfig.Read.All",
+    "DeviceManagementConfiguration.Read.All",
+    "DeviceManagementManagedDevices.Read.All",
+    "DeviceManagementApps.Read.All",
+    "Policy.Read.All"
+)
+
+Connect-MgGraph -Scopes $mggraphScopes -TenantId $tenantID
+# Get Compliance policies for an Org.
+Get-MgDeviceManagementDeviceCompliancePolicy -All | Select Displayname,LastModifiedDateTime, Id
+```
+
+### List Compliance Policies for a single device
+
+Get-MgDeviceManagementManagedDeviceCompliancePolicyState
+
+```powershell showLineNumbers
+# Device Compliancy for a single device.
+Get-MgDeviceManagementManagedDeviceCompliancePolicyState -ManagedDeviceId 
 ```

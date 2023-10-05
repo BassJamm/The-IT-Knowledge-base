@@ -227,7 +227,7 @@
         "items": [
           {
             "type": "category",
-            "label": "Az",
+            "label": "Azure Module",
             "collapsible": true,
             "collapsed": true,
             "items": [
@@ -244,7 +244,7 @@
                 "docId": "PowerShell/Az/Command Reference"
               }
             ],
-            "href": "/docs/category/az"
+            "href": "/docs/category/azure-module"
           },
           {
             "type": "category",
@@ -260,21 +260,6 @@
               }
             ],
             "href": "/docs/category/git"
-          },
-          {
-            "type": "category",
-            "label": "Microsoft Graph",
-            "collapsible": true,
-            "collapsed": true,
-            "items": [
-              {
-                "type": "link",
-                "label": "Microsoft Graph Cheatsheet",
-                "href": "/docs/PowerShell/MS-Graph/Microsoft Graph Cheatsheet",
-                "docId": "PowerShell/MS-Graph/Microsoft Graph Cheatsheet"
-              }
-            ],
-            "href": "/docs/category/microsoft-graph"
           },
           {
             "type": "category",
@@ -421,12 +406,6 @@
       "id": "PowerShell/Git/Git Cheatsheet",
       "title": "Git Cheatsheet",
       "description": "Git command line refernce.",
-      "sidebar": "tutorialSidebar"
-    },
-    "PowerShell/MS-Graph/Microsoft Graph Cheatsheet": {
-      "id": "PowerShell/MS-Graph/Microsoft Graph Cheatsheet",
-      "title": "Microsoft Graph Cheatsheet",
-      "description": "Microsoft Graph command ref doc.",
       "sidebar": "tutorialSidebar"
     },
     "PowerShell/PowerShell-cheatsheet/Code-Snippets": {

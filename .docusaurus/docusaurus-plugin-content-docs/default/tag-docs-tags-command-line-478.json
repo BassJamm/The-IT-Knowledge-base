@@ -2,7 +2,7 @@
   "label": "Command Line",
   "permalink": "/docs/tags/command-line",
   "allTagsPath": "/docs/tags",
-  "count": 5,
+  "count": 4,
   "items": [
     {
       "id": "PowerShell/Az/Code Snippet",
@@ -27,12 +27,6 @@
       "title": "Command Reference",
       "description": "All things PowerShell.",
       "permalink": "/docs/PowerShell/PowerShell-cheatsheet/Command Reference"
-    },
-    {
-      "id": "PowerShell/MS-Graph/Microsoft Graph Cheatsheet",
-      "title": "Microsoft Graph Cheatsheet",
-      "description": "Microsoft Graph command ref doc.",
-      "permalink": "/docs/PowerShell/MS-Graph/Microsoft Graph Cheatsheet"
     }
   ]
 }

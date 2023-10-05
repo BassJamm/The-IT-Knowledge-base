@@ -40,8 +40,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Az",
-    "permalink": "/docs/category/az"
+    "title": "Azure Module",
+    "permalink": "/docs/category/azure-module"
   },
   "next": {
     "title": "Command Reference",

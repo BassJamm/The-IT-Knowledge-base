@@ -1,4 +1,12 @@
 {
+  "docusaurus-lunr-search": {
+    "default": {
+      "fileNames": {
+        "searchDoc": "search-doc-1696537539354.json",
+        "lunrIndex": "lunr-index-1696537539354.json"
+      }
+    }
+  },
   "docusaurus-plugin-google-gtag": {
     "default": {
       "trackingID": [
@@ -6,14 +14,6 @@
       ],
       "anonymizeIP": true,
       "id": "default"
-    }
-  },
-  "docusaurus-lunr-search": {
-    "default": {
-      "fileNames": {
-        "searchDoc": "search-doc-1696448656392.json",
-        "lunrIndex": "lunr-index-1696448656392.json"
-      }
     }
   },
   "docusaurus-plugin-content-docs": {
@@ -105,11 +105,6 @@
             {
               "id": "PowerShell/Git/Git Cheatsheet",
               "path": "/docs/PowerShell/Git/Git Cheatsheet",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "PowerShell/MS-Graph/Microsoft Graph Cheatsheet",
-              "path": "/docs/PowerShell/MS-Graph/Microsoft Graph Cheatsheet",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -208,18 +203,13 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "/category/az",
-              "path": "/docs/category/az",
+              "id": "/category/azure-module",
+              "path": "/docs/category/azure-module",
               "sidebar": "tutorialSidebar"
             },
             {
               "id": "/category/git",
               "path": "/docs/category/git",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "/category/microsoft-graph",
-              "path": "/docs/category/microsoft-graph",
               "sidebar": "tutorialSidebar"
             },
             {
