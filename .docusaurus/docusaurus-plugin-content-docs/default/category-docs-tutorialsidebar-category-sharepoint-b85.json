@@ -1,0 +1,15 @@
+{
+  "title": "SharePoint",
+  "slug": "/category/sharepoint",
+  "permalink": "/docs/category/sharepoint",
+  "navigation": {
+    "previous": {
+      "title": "Command Reference",
+      "permalink": "/docs/PowerShell/PowerShell-cheatsheet/Command Reference"
+    },
+    "next": {
+      "title": "Grant access to a User’s OneDrive",
+      "permalink": "/docs/SharePoint/Grant access to a User’s OneDrive"
+    }
+  }
+}

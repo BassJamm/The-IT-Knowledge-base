@@ -1,8 +1,8 @@
 {
-  "/blog/-44f": {
+  "/blog/-91a": {
     "__comp": "a6aa9e1f",
     "__context": {
-      "plugin": "7d14f86c"
+      "plugin": "b1f0dd6c"
     },
     "sidebar": "814f3328",
     "items": [
@@ -10,10 +10,10 @@
         "content": "1e18dbdf"
       },
       {
-        "content": "3d905fbe"
+        "content": "5ec2ef4d"
       },
       {
-        "content": "5ec2ef4d"
+        "content": "3d905fbe"
       },
       {
         "content": "45d15ca2"
@@ -21,49 +21,49 @@
     ],
     "metadata": "44176adc"
   },
-  "/blog/archive-1bd": {
+  "/blog/archive-826": {
     "__comp": "9e4087bc",
     "__context": {
-      "plugin": "7d14f86c"
+      "plugin": "b1f0dd6c"
     },
     "archive": "b2f554cd"
   },
-  "/blog/Defender-for-Endpoint-Woes-d7b": {
+  "/blog/Defender-for-Endpoint-Woes-a00": {
     "__comp": "ccc49370",
     "__context": {
-      "plugin": "7d14f86c"
+      "plugin": "b1f0dd6c"
     },
     "sidebar": "814f3328",
     "content": "ef651c25"
   },
-  "/blog/pwsh-challenge-001-582": {
+  "/blog/pwsh-challenge-001-3c0": {
     "__comp": "ccc49370",
     "__context": {
-      "plugin": "7d14f86c"
+      "plugin": "b1f0dd6c"
     },
     "sidebar": "814f3328",
     "content": "e3ebe9c1"
   },
-  "/blog/pwsh-challenge-002-f57": {
+  "/blog/pwsh-challenge-002-f04": {
     "__comp": "ccc49370",
     "__context": {
-      "plugin": "7d14f86c"
+      "plugin": "b1f0dd6c"
     },
     "sidebar": "814f3328",
     "content": "d8186090"
   },
-  "/blog/tags-3c3": {
+  "/blog/tags-2ec": {
     "__comp": "01a85c17",
     "__context": {
-      "plugin": "7d14f86c"
+      "plugin": "b1f0dd6c"
     },
     "sidebar": "814f3328",
     "tags": "a7023ddc"
   },
-  "/blog/tags/azure-bd3": {
+  "/blog/tags/azure-123": {
     "__comp": "6875c492",
     "__context": {
-      "plugin": "7d14f86c"
+      "plugin": "b1f0dd6c"
     },
     "sidebar": "814f3328",
     "items": [
@@ -74,10 +74,10 @@
     "tag": "2f169d55",
     "listMetadata": "9f821037"
   },
-  "/blog/tags/challenge-d01": {
+  "/blog/tags/challenge-bf6": {
     "__comp": "6875c492",
     "__context": {
-      "plugin": "7d14f86c"
+      "plugin": "b1f0dd6c"
     },
     "sidebar": "814f3328",
     "items": [
@@ -91,10 +91,10 @@
     "tag": "3d2c9dad",
     "listMetadata": "9943c147"
   },
-  "/blog/tags/defender-2c9": {
+  "/blog/tags/defender-9a7": {
     "__comp": "6875c492",
     "__context": {
-      "plugin": "7d14f86c"
+      "plugin": "b1f0dd6c"
     },
     "sidebar": "814f3328",
     "items": [
@@ -105,10 +105,10 @@
     "tag": "425a5c80",
     "listMetadata": "e73304b9"
   },
-  "/blog/tags/docusaurus-v-2-42e": {
+  "/blog/tags/docusaurus-v-2-614": {
     "__comp": "6875c492",
     "__context": {
-      "plugin": "7d14f86c"
+      "plugin": "b1f0dd6c"
     },
     "sidebar": "814f3328",
     "items": [
@@ -119,10 +119,10 @@
     "tag": "a95024e1",
     "listMetadata": "1e7a3abd"
   },
-  "/blog/tags/hello-98e": {
+  "/blog/tags/hello-a75": {
     "__comp": "6875c492",
     "__context": {
-      "plugin": "7d14f86c"
+      "plugin": "b1f0dd6c"
     },
     "sidebar": "814f3328",
     "items": [
@@ -133,10 +133,10 @@
     "tag": "30a24c52",
     "listMetadata": "66406991"
   },
-  "/blog/tags/power-shell-400": {
+  "/blog/tags/power-shell-c70": {
     "__comp": "6875c492",
     "__context": {
-      "plugin": "7d14f86c"
+      "plugin": "b1f0dd6c"
     },
     "sidebar": "814f3328",
     "items": [
@@ -150,10 +150,10 @@
     "tag": "ceb630ed",
     "listMetadata": "ca9c5852"
   },
-  "/blog/tags/script-8f2": {
+  "/blog/tags/script-a80": {
     "__comp": "6875c492",
     "__context": {
-      "plugin": "7d14f86c"
+      "plugin": "b1f0dd6c"
     },
     "sidebar": "814f3328",
     "items": [
@@ -167,172 +167,172 @@
     "tag": "c5432e98",
     "listMetadata": "fb7ca695"
   },
-  "/blog/welcome-524": {
+  "/blog/welcome-459": {
     "__comp": "ccc49370",
     "__context": {
-      "plugin": "7d14f86c"
+      "plugin": "b1f0dd6c"
     },
     "sidebar": "814f3328",
     "content": "f211c282"
   },
-  "/docs/tags-769": {
+  "/docs/tags-0af": {
     "__comp": "3720c009",
     "__context": {
-      "plugin": "4984407c"
+      "plugin": "b0ccbe94"
     },
     "tags": "55960ee5"
   },
-  "/docs/tags/app-registrations-628": {
+  "/docs/tags/app-registrations-b74": {
     "__comp": "df203c0f",
     "__context": {
-      "plugin": "4984407c"
+      "plugin": "b0ccbe94"
     },
     "tag": "3758c7e7"
   },
-  "/docs/tags/automation-346": {
+  "/docs/tags/automation-42c": {
     "__comp": "df203c0f",
     "__context": {
-      "plugin": "4984407c"
+      "plugin": "b0ccbe94"
     },
     "tag": "3b360413"
   },
-  "/docs/tags/autopilot-269": {
+  "/docs/tags/autopilot-7a7": {
     "__comp": "df203c0f",
     "__context": {
-      "plugin": "4984407c"
+      "plugin": "b0ccbe94"
     },
     "tag": "948b9c5a"
   },
-  "/docs/tags/azure-999": {
+  "/docs/tags/azure-68c": {
     "__comp": "df203c0f",
     "__context": {
-      "plugin": "4984407c"
+      "plugin": "b0ccbe94"
     },
     "tag": "81e81680"
   },
-  "/docs/tags/azure-ad-861": {
+  "/docs/tags/azure-ad-d86": {
     "__comp": "df203c0f",
     "__context": {
-      "plugin": "4984407c"
+      "plugin": "b0ccbe94"
     },
     "tag": "48e4e6f3"
   },
-  "/docs/tags/azure-backup-72e": {
+  "/docs/tags/azure-backup-3aa": {
     "__comp": "df203c0f",
     "__context": {
-      "plugin": "4984407c"
+      "plugin": "b0ccbe94"
     },
     "tag": "518c9e7c"
   },
-  "/docs/tags/certificates-873": {
+  "/docs/tags/certificates-074": {
     "__comp": "df203c0f",
     "__context": {
-      "plugin": "4984407c"
+      "plugin": "b0ccbe94"
     },
     "tag": "2c31d35e"
   },
-  "/docs/tags/citrix-c09": {
+  "/docs/tags/citrix-2db": {
     "__comp": "df203c0f",
     "__context": {
-      "plugin": "4984407c"
+      "plugin": "b0ccbe94"
     },
     "tag": "e2c3c2eb"
   },
-  "/docs/tags/command-line-b41": {
+  "/docs/tags/command-line-1c5": {
     "__comp": "df203c0f",
     "__context": {
-      "plugin": "4984407c"
+      "plugin": "b0ccbe94"
     },
     "tag": "e75b050c"
   },
-  "/docs/tags/command-line-ref-544": {
+  "/docs/tags/command-line-ref-70a": {
     "__comp": "df203c0f",
     "__context": {
-      "plugin": "4984407c"
+      "plugin": "b0ccbe94"
     },
     "tag": "1d4e8a40"
   },
-  "/docs/tags/defender-fe-3b6": {
+  "/docs/tags/defender-fe-7bf": {
     "__comp": "df203c0f",
     "__context": {
-      "plugin": "4984407c"
+      "plugin": "b0ccbe94"
     },
     "tag": "25b629ea"
   },
-  "/docs/tags/git-808": {
+  "/docs/tags/git-2b7": {
     "__comp": "df203c0f",
     "__context": {
-      "plugin": "4984407c"
+      "plugin": "b0ccbe94"
     },
     "tag": "7b667a7f"
   },
-  "/docs/tags/intune-8db": {
+  "/docs/tags/intune-fe3": {
     "__comp": "df203c0f",
     "__context": {
-      "plugin": "4984407c"
+      "plugin": "b0ccbe94"
     },
     "tag": "5d2620c1"
   },
-  "/docs/tags/lighthouse-075": {
+  "/docs/tags/lighthouse-51f": {
     "__comp": "df203c0f",
     "__context": {
-      "plugin": "4984407c"
+      "plugin": "b0ccbe94"
     },
     "tag": "aa421edc"
   },
-  "/docs/tags/power-shell-cc1": {
+  "/docs/tags/power-shell-1ce": {
     "__comp": "df203c0f",
     "__context": {
-      "plugin": "4984407c"
+      "plugin": "b0ccbe94"
     },
     "tag": "e4cdc878"
   },
-  "/docs/tags/resource-creation-cbf": {
+  "/docs/tags/resource-creation-309": {
     "__comp": "df203c0f",
     "__context": {
-      "plugin": "4984407c"
+      "plugin": "b0ccbe94"
     },
     "tag": "b1e615bb"
   },
-  "/docs/tags/restore-f5e": {
+  "/docs/tags/restore-1de": {
     "__comp": "df203c0f",
     "__context": {
-      "plugin": "4984407c"
+      "plugin": "b0ccbe94"
     },
     "tag": "3184d1e4"
   },
-  "/docs/tags/scripting-8ec": {
+  "/docs/tags/scripting-5fc": {
     "__comp": "df203c0f",
     "__context": {
-      "plugin": "4984407c"
+      "plugin": "b0ccbe94"
     },
     "tag": "d4e0ba98"
   },
-  "/docs/tags/snapshot-22a": {
+  "/docs/tags/snapshot-3e6": {
     "__comp": "df203c0f",
     "__context": {
-      "plugin": "4984407c"
+      "plugin": "b0ccbe94"
     },
     "tag": "a9ae2a32"
   },
-  "/docs/tags/windows-os-e51": {
+  "/docs/tags/windows-os-04b": {
     "__comp": "df203c0f",
     "__context": {
-      "plugin": "4984407c"
+      "plugin": "b0ccbe94"
     },
     "tag": "31eb3a3a"
   },
-  "/markdown-page-cdf": {
+  "/markdown-page-ec3": {
     "__comp": "1f391b9e",
     "__context": {
-      "plugin": "80a156e7"
+      "plugin": "5e9bb9e0"
     },
     "content": "393be207"
   },
-  "/docs/-117": {
+  "/docs/-1c4": {
     "__comp": "1be78505",
     "__context": {
-      "plugin": "4984407c"
+      "plugin": "b0ccbe94"
     },
     "versionMetadata": "935f2afb"
   },
@@ -348,9 +348,9 @@
     "__comp": "17896441",
     "content": "76a0f6ea"
   },
-  "/docs/Azure/Automation/Automation-Accounts/Create an Automation Account-bfa": {
+  "/docs/Azure/Automation/Create an Automation Account-f0d": {
     "__comp": "17896441",
-    "content": "1e5abce7"
+    "content": "840bbaa4"
   },
   "/docs/Azure/Azure-Backup/Setup Azure Backup-637": {
     "__comp": "17896441",
@@ -364,6 +364,10 @@
     "__comp": "17896441",
     "content": "8d8373b0"
   },
+  "/docs/Azure/Networking/Network Security Groups-b4d": {
+    "__comp": "17896441",
+    "content": "d85b4312"
+  },
   "/docs/category/app-registrations-c1b": {
     "__comp": "14eb3368",
     "categoryGeneratedIndex": "eb987be4"
@@ -371,10 +375,6 @@
   "/docs/category/automation-5c6": {
     "__comp": "14eb3368",
     "categoryGeneratedIndex": "2913656e"
-  },
-  "/docs/category/automation-accounts-7e2": {
-    "__comp": "14eb3368",
-    "categoryGeneratedIndex": "7498d363"
   },
   "/docs/category/autopilot-ea8": {
     "__comp": "14eb3368",
@@ -432,6 +432,14 @@
     "__comp": "14eb3368",
     "categoryGeneratedIndex": "7aaba8fd"
   },
+  "/docs/category/networking-796": {
+    "__comp": "14eb3368",
+    "categoryGeneratedIndex": "88826178"
+  },
+  "/docs/category/office-apps-eb5": {
+    "__comp": "14eb3368",
+    "categoryGeneratedIndex": "130caffc"
+  },
   "/docs/category/powershell-4b3": {
     "__comp": "14eb3368",
     "categoryGeneratedIndex": "da08afa4"
@@ -439,6 +447,10 @@
   "/docs/category/powershell-1-4ba": {
     "__comp": "14eb3368",
     "categoryGeneratedIndex": "21ffa992"
+  },
+  "/docs/category/sharepoint-4f6": {
+    "__comp": "14eb3368",
+    "categoryGeneratedIndex": "f6ce7e01"
   },
   "/docs/category/windows-os-b61": {
     "__comp": "14eb3368",
@@ -492,14 +504,22 @@
     "__comp": "17896441",
     "content": "49705594"
   },
+  "/docs/SharePoint/Grant access to a User’s OneDrive-489": {
+    "__comp": "17896441",
+    "content": "2175c5ee"
+  },
   "/docs/Windows-OS/Defender-for-Endpoint/Check Defender AV Status-555": {
     "__comp": "17896441",
     "content": "106a998a"
   },
-  "/-a89": {
+  "/docs/Windows-OS/Office-Apps/Calendar Sharing Error-fb9": {
+    "__comp": "17896441",
+    "content": "a5ceca5e"
+  },
+  "/-a6e": {
     "__comp": "c4f5d8e4",
     "__context": {
-      "plugin": "80a156e7"
+      "plugin": "5e9bb9e0"
     },
     "config": "5e9f5e1a"
   }

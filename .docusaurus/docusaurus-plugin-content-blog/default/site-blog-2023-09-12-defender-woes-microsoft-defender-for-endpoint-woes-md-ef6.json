@@ -44,11 +44,11 @@
     "hide_table_of_contents": false
   },
   "prevItem": {
-    "title": "Challenge 2 - Folder Size Report with PowerShell",
-    "permalink": "/blog/pwsh-challenge-002"
-  },
-  "nextItem": {
     "title": "Challenge 1 - File Download Script with PowerShell",
     "permalink": "/blog/pwsh-challenge-001"
+  },
+  "nextItem": {
+    "title": "Welcome!",
+    "permalink": "/blog/welcome"
   }
 }

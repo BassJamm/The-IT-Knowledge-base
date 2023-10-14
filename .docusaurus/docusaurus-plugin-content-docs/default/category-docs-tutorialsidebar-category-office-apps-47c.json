@@ -1,0 +1,15 @@
+{
+  "title": "Office Apps",
+  "slug": "/category/office-apps",
+  "permalink": "/docs/category/office-apps",
+  "navigation": {
+    "previous": {
+      "title": "Check Defender AV Status",
+      "permalink": "/docs/Windows-OS/Defender-for-Endpoint/Check Defender AV Status"
+    },
+    "next": {
+      "title": "Calendar Sharing Error",
+      "permalink": "/docs/Windows-OS/Office-Apps/Calendar Sharing Error"
+    }
+  }
+}

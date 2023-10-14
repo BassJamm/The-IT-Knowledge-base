@@ -1,12 +1,12 @@
 {
   "title": "Networking",
-  "description": "Guides for achieving an end result.",
+  "description": "Azure Docs.",
   "slug": "/category/networking",
   "permalink": "/docs/category/networking",
   "navigation": {
     "previous": {
-      "title": "Re-size a Virtual Machine",
-      "permalink": "/docs/Azure/Infrastructure/Re-size a Virtual Machine"
+      "title": "Restore data from a Snapshot",
+      "permalink": "/docs/Azure/Disks/Restore data from a Snapshot"
     },
     "next": {
       "title": "Network Security Groups",

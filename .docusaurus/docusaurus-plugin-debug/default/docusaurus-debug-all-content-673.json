@@ -13,9 +13,9 @@
           "tagsPath": "/docs/tags",
           "isLast": true,
           "routePriority": -1,
-          "sidebarFilePath": "C:\\Git\\The-IT-Knowledge-base\\sidebars.js",
-          "contentPath": "C:\\Git\\The-IT-Knowledge-base\\docs",
-          "contentPathLocalized": "C:\\Git\\The-IT-Knowledge-base\\i18n\\en\\docusaurus-plugin-content-docs\\current",
+          "sidebarFilePath": "/Users/williamhornsby/Documents/Git/The-IT-Knowledge-base/sidebars.js",
+          "contentPath": "/Users/williamhornsby/Documents/Git/The-IT-Knowledge-base/docs",
+          "contentPathLocalized": "/Users/williamhornsby/Documents/Git/The-IT-Knowledge-base/i18n/en/docusaurus-plugin-content-docs/current",
           "docs": [
             {
               "unversionedId": "Azure-Active-Directory/App-Registrations/Decom an Azure AD App",
@@ -100,14 +100,14 @@
               }
             },
             {
-              "unversionedId": "Azure/Automation/Automation-Accounts/Create an Automation Account",
-              "id": "Azure/Automation/Automation-Accounts/Create an Automation Account",
+              "unversionedId": "Azure/Automation/Create an Automation Account",
+              "id": "Azure/Automation/Create an Automation Account",
               "title": "Create an Automation Account",
               "description": "Create an Automation Account for script automation in Azure.",
-              "source": "@site/docs/Azure/Automation/Automation-Accounts/Automate-Scripts.md",
-              "sourceDirName": "Azure/Automation/Automation-Accounts",
-              "slug": "/Azure/Automation/Automation-Accounts/Create an Automation Account",
-              "permalink": "/docs/Azure/Automation/Automation-Accounts/Create an Automation Account",
+              "source": "@site/docs/Azure/Automation/Automate-Scripts.md",
+              "sourceDirName": "Azure/Automation",
+              "slug": "/Azure/Automation/Create an Automation Account",
+              "permalink": "/docs/Azure/Automation/Create an Automation Account",
               "draft": false,
               "editUrl": null,
               "tags": [
@@ -148,8 +148,8 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Automation Accounts",
-                "permalink": "/docs/category/automation-accounts"
+                "title": "Automation",
+                "permalink": "/docs/category/automation"
               },
               "next": {
                 "title": "Azure Backup",
@@ -292,6 +292,44 @@
               "previous": {
                 "title": "Disks",
                 "permalink": "/docs/category/disks"
+              },
+              "next": {
+                "title": "Networking",
+                "permalink": "/docs/category/networking"
+              }
+            },
+            {
+              "unversionedId": "Azure/Networking/Network Security Groups",
+              "id": "Azure/Networking/Network Security Groups",
+              "title": "Network Security Groups",
+              "description": "Document outlines the key information about NSGs.",
+              "source": "@site/docs/Azure/Networking/NSGs.md",
+              "sourceDirName": "Azure/Networking",
+              "slug": "/Azure/Networking/Network Security Groups",
+              "permalink": "/docs/Azure/Networking/Network Security Groups",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/edit/main/docs/api-doc-markdown.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "draft": false,
+                "id": "Network Security Groups",
+                "title": "Network Security Groups",
+                "hide_title": false,
+                "hide_table_of_contents": false,
+                "sidebar_label": "Network Security Groups",
+                "sidebar_position": 1,
+                "toc_max_heading_level": 4,
+                "pagination_label": "Network Security Groups",
+                "tags": [],
+                "custom_edit_url": "https://github.com/facebook/docusaurus/edit/main/docs/api-doc-markdown.md",
+                "description": "Document outlines the key information about NSGs."
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Networking",
+                "permalink": "/docs/category/networking"
               },
               "next": {
                 "title": "Azure Active Directory",
@@ -862,6 +900,44 @@
                 "permalink": "/docs/PowerShell/PowerShell-cheatsheet/Code-Snippets"
               },
               "next": {
+                "title": "SharePoint",
+                "permalink": "/docs/category/sharepoint"
+              }
+            },
+            {
+              "unversionedId": "SharePoint/Grant access to a User’s OneDrive",
+              "id": "SharePoint/Grant access to a User’s OneDrive",
+              "title": "Grant access to a User’s OneDrive",
+              "description": "Docuemnt describes how to give access to a user's OneDrive using the Admin centre.",
+              "source": "@site/docs/SharePoint/Access-a-leavers-OneDrive.md",
+              "sourceDirName": "SharePoint",
+              "slug": "/SharePoint/Grant access to a User’s OneDrive",
+              "permalink": "/docs/SharePoint/Grant access to a User’s OneDrive",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/edit/main/docs/api-doc-markdown.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "draft": false,
+                "id": "Grant access to a User’s OneDrive",
+                "title": "Grant access to a User’s OneDrive",
+                "hide_title": false,
+                "hide_table_of_contents": false,
+                "sidebar_label": "Grant access to a User’s OneDrive",
+                "sidebar_position": 1,
+                "toc_max_heading_level": 4,
+                "pagination_label": "Grant access to a User’s OneDrive",
+                "tags": [],
+                "custom_edit_url": "https://github.com/facebook/docusaurus/edit/main/docs/api-doc-markdown.md",
+                "description": "Docuemnt describes how to give access to a user's OneDrive using the Admin centre."
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "SharePoint",
+                "permalink": "/docs/category/sharepoint"
+              },
+              "next": {
                 "title": "Windows OS",
                 "permalink": "/docs/category/windows-os"
               }
@@ -935,6 +1011,44 @@
               "previous": {
                 "title": "Defender for Endpoint",
                 "permalink": "/docs/category/defender-for-endpoint"
+              },
+              "next": {
+                "title": "Office Apps",
+                "permalink": "/docs/category/office-apps"
+              }
+            },
+            {
+              "unversionedId": "Windows-OS/Office-Apps/Calendar Sharing Error",
+              "id": "Windows-OS/Office-Apps/Calendar Sharing Error",
+              "title": "Calendar Sharing Error",
+              "description": "This document outlines a possible solution to a specific calendar sharing error for an org.",
+              "source": "@site/docs/Windows-OS/Office-Apps/MS-Outlook-Invite-error.md",
+              "sourceDirName": "Windows-OS/Office-Apps",
+              "slug": "/Windows-OS/Office-Apps/Calendar Sharing Error",
+              "permalink": "/docs/Windows-OS/Office-Apps/Calendar Sharing Error",
+              "draft": false,
+              "editUrl": "https://github.com/facebook/docusaurus/edit/main/docs/api-doc-markdown.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "draft": false,
+                "id": "Calendar Sharing Error",
+                "title": "Calendar Sharing Error",
+                "hide_title": false,
+                "hide_table_of_contents": false,
+                "sidebar_label": "Calendar Sharing Error",
+                "sidebar_position": 1,
+                "toc_max_heading_level": 4,
+                "pagination_label": "Calendar Sharing Error",
+                "tags": [],
+                "custom_edit_url": "https://github.com/facebook/docusaurus/edit/main/docs/api-doc-markdown.md",
+                "description": "This document outlines a possible solution to a specific calendar sharing error for an org."
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Office Apps",
+                "permalink": "/docs/category/office-apps"
               }
             }
           ],
@@ -958,23 +1072,9 @@
                     "collapsed": true,
                     "items": [
                       {
-                        "type": "category",
-                        "label": "Automation Accounts",
-                        "collapsible": true,
-                        "collapsed": true,
-                        "items": [
-                          {
-                            "type": "doc",
-                            "id": "Azure/Automation/Automation-Accounts/Create an Automation Account",
-                            "label": "Create an Automation Account"
-                          }
-                        ],
-                        "link": {
-                          "type": "generated-index",
-                          "description": "Azure Docs.",
-                          "slug": "/category/automation-accounts",
-                          "permalink": "/docs/category/automation-accounts"
-                        }
+                        "type": "doc",
+                        "id": "Azure/Automation/Create an Automation Account",
+                        "label": "Create an Automation Account"
                       }
                     ],
                     "link": {
@@ -1037,6 +1137,25 @@
                       "description": "Azure Docs.",
                       "slug": "/category/disks",
                       "permalink": "/docs/category/disks"
+                    }
+                  },
+                  {
+                    "type": "category",
+                    "label": "Networking",
+                    "collapsible": true,
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "Azure/Networking/Network Security Groups",
+                        "label": "Network Security Groups"
+                      }
+                    ],
+                    "link": {
+                      "type": "generated-index",
+                      "description": "Azure Docs.",
+                      "slug": "/category/networking",
+                      "permalink": "/docs/category/networking"
                     }
                   }
                 ],
@@ -1274,6 +1393,24 @@
               },
               {
                 "type": "category",
+                "label": "SharePoint",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "SharePoint/Grant access to a User’s OneDrive",
+                    "label": "Grant access to a User’s OneDrive"
+                  }
+                ],
+                "link": {
+                  "type": "generated-index",
+                  "slug": "/category/sharepoint",
+                  "permalink": "/docs/category/sharepoint"
+                }
+              },
+              {
+                "type": "category",
                 "label": "Windows OS",
                 "collapsible": true,
                 "collapsed": true,
@@ -1294,6 +1431,24 @@
                       "type": "generated-index",
                       "slug": "/category/defender-for-endpoint",
                       "permalink": "/docs/category/defender-for-endpoint"
+                    }
+                  },
+                  {
+                    "type": "category",
+                    "label": "Office Apps",
+                    "collapsible": true,
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "Windows-OS/Office-Apps/Calendar Sharing Error",
+                        "label": "Calendar Sharing Error"
+                      }
+                    ],
+                    "link": {
+                      "type": "generated-index",
+                      "slug": "/category/office-apps",
+                      "permalink": "/docs/category/office-apps"
                     }
                   }
                 ],
@@ -1367,11 +1522,69 @@
               "hide_table_of_contents": false
             },
             "nextItem": {
+              "title": "Microsoft Defender for Endpoint Woes",
+              "permalink": "/blog/Defender-for-Endpoint-Woes"
+            }
+          },
+          "content": "Create a script that calculates the total size of a given folder and all its subfolders (recursively). The script should display the size in a human-readable format (e.g., KB, MB, GB).\n\n<!--truncate-->\n:::info Quick Social Plug\n\nCheck out my other post locations: -\n\n- [HashNode Link](https://willh.hashnode.dev/)\n- [Patreon Link](https://patreon.com/BassJamm?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=creatorshare_creator&utm_content=join_link)\n\n:::\n\n## End Result\n\nThought I would put the result first, and save people from scrolling, those who wish to see the process can read the rest of this!\n\nI decided not to add any error handling into this, as it's quite hard to break this one!\n\n:::note\n\nSorry for the backticks, it makes it a bit easier to read on the page as it's quite slim!\n\n:::\n\n[Link to script in GitHub!](https://github.com/BassJamm/PowerShellChallenge/blob/51799e1b087f846285f15bff9df9f019caa12fdc/Folder-Report/TOOL-Folder-Report.ps1)\n\n```powershell showLineNumbers\n###### Prompt user for flder input. ######\n$sourceDirectory = Read-Host -Prompt \"Please enter the directory you wish to scan\"\n\n###### Get all Directories in that location. ######\nWrite-Host \"Collecting the diretory information.\" -ForegroundColor Yellow\n$ChildDirectories = (Get-ChildItem $sourceDirectory -Directory).FullName\nStart-Sleep 1\nWrite-Host \"Directories found successfully.\" -ForegroundColor Green\n\n###### Foreach directory get all items recursively. ######\nWrite-Host \"Processing items.\" -ForegroundColor Yellow\n$childDirectorySizes = foreach ($folder in $ChildDirectories) {\n    [PSCustomObject]@{\n        \"Location\"  = $folder\n        \"FileItems\" = (Get-ChildItem $folder -Recurse -Force | Where-Object { $_.PSIsContainer -eq $false } | Measure-Object | Select-Object Count).Count\n        \"Size(MB)\"  = [Math]::Round((Get-ChildItem $folder -Recurse -Force | Where-Object { $_.PSIsContainer -eq $false } | Measure-Object -Property Length -Sum | Select-Object Sum).Sum / 1MB, 3)\n    }\n\n}\nWrite-Host \"All subdirectories processed successfully.\" -ForegroundColor Green\n\n###### Provide a size report of the directory and child directories. ######\n$childDirectorySizes | Format-Table * -AutoSize\n\n```\n\n## Building the script\n\nI would like to start by saying I am not an expert at this but, these challenges prompt learning and thus I aim to be better for the next challenge and so on.\n\n### Prompting for user input\n\nFirstly, we need to get the folder location from the end user. I've done this using the Read-Host command with the `-prompt` parameter. This is a staple command I have found in almost every script requiring user input.\n\n```powershell showLineNumbers\n$sourceDirectory = Read-Host -Prompt \"Please enter the directory you wish to scan\"\n```\n\nThe `Read-Host -prompt` input is then stored in the `$sourceDirectory`` variable for later use.\n\n### Getting the Folders\n\nSecondly, we need to identify the folders that are within the directory the user gave us. We are doing this with the `Get-ChildItem` command, which gets everything in that location, Folders, or Files.\n\nI'm then piping this `|` into a `Where-Object` command which then identifies the Folders or containers.\n\n:::info\nI've added a sort by \"name\" at the end, as I want to display the first 10 items in the console, to indicate that the script has found items to the end user. It is completely unnecessary!\n:::\n\n```powershell showlineNumbers\n###### Prompt user for flder input. ######\n$sourceDirectory = Read-Host -Prompt \"Please enter the directory you wish to scan\"\n```\n\nWe then get all of hte directories in the folder location promtped for using the lin above.\n\n```powershell showLineNumbers\n###### Get all Directories in that location. ######\n$ChildDirectories = (Get-ChildItem $sourceDirectory -Directory).FullName\nStart-Sleep 1 # Add this for slightly better pacing when using the script.\n\n```\n\n### Getting the Folder Sizes\n\nThirdly, we need to get the folder sizes and convert them into a nicer format to read, quite a bit to unpack on this one, so please bear with my explanation; you may also want to blow this image up, it's a little small, sorry!\n\n```powershell showLineNumbers\n###### Foreach directory get all items recursively. ######\nWrite-Host \"Processing items.\" -ForegroundColor Yellow\n$childDirectorySizes = foreach ($folder in $ChildDirectories) {\n    [PSCustomObject]@{\n        \"Location\"  = $folder\n        \"FileItems\" = (Get-ChildItem $folder -Recurse -Force | Where-Object { $_.PSIsContainer -eq $false } | Measure-Object | Select-Object Count).Count\n        \"Size(MB)\"  = [Math]::Round((Get-ChildItem $folder -Recurse -Force | Where-Object { $_.PSIsContainer -eq $false } | Measure-Object -Property Length -Sum | Select-Object Sum).Sum / 1MB, 3)\n    }\n}\n```\n\nI've created a new variable called, `$childDirectorySizes` in this variable, we are going to store the output of the foreach loop.\n\nThe foreach the argument takes each folder entry found within the `$ChildDirectories` & then loops through the script inside the squiggly brackets.\n\n```powershell showLineNumbers\nforeach ($folder in $ChildDirectories)\n```\n\nThe foreach loop does the following: -\n\n1. Grabs the full file paths for each file recursively using `Get-ChildItem $folder.FullName -recurse -force`.\n2. Then it searches for any objects that are not a Folder using `Where-Object {$_.PSIsContainer -eq $false}`.\n3. It then measures the object using `Measure-Object -property Length -sum`.\n4. We then select only the one property that we want, `Select-Object Sum`.\n5. It then stores results inside the variable `$subFolderItems`.\n6. We then create a new PowerShell object using the command, `[PSCustomObject]`, as this is going to be a new Hash table, we add the `@{}` after it, all properties go inside the squiggly brackets.\n7. We then create 2 new properties, `Location` and `Size(MB)`. For each of these properties, we need to tell it where the information comes from and how to format it.\n\nFor `Location`, we are going to use the Items Full name, which is equal to its full UNC path. `$folder.FullName`.\n\nFor `Size(MB)`, we are going to use the Output of steps 1 to 5. The output from this should be the SUM of all the files under the folder item that's stored in the variable `$folder` which is in the foreach loop argument.\n\nWe also want to round this to MBs with 2 Decimal places; we can do this with the command, `[Math]::Round($subFolderItems.sum /1MB, 2)`.\n\n### Creating a console Ouput\n\nFor this point, I have taken the variable that is holding the output from the Foreach loop noted above and piped this into a Format-Table command with the order of the properties to show.\n\n```powershell showLineNumbers\n###### Provide a size report of the directory and child directories. ######\n$childDirectorySizes | Format-Table * -AutoSize\n```\n\nWhich gives you this.\n\n```powershell showLineNumbers\nLocation                           FileItems Size(MB)\n--------                           --------- --------\nC:\\GitRepos\\100-days-of-javascript       287   59.772\nC:\\GitRepos\\PowerShellChallenge          106    0.072\nC:\\GitRepos\\Private-Code-Dump            253   14.089\nC:\\GitRepos\\python-app                    97    0.067\nC:\\GitRepos\\The-IT-Knowledge-base      36396  414.871\n```"
+        },
+        {
+          "id": "Defender-for-Endpoint-Woes",
+          "metadata": {
+            "permalink": "/blog/Defender-for-Endpoint-Woes",
+            "source": "@site/blog/2023-09-12-Defender-Woes/Microsoft-Defender-for-Endpoint-Woes.md",
+            "title": "Microsoft Defender for Endpoint Woes",
+            "description": "Windows services hating each other on Server 2012 R2.",
+            "date": "2023-08-05T11:00:00.000Z",
+            "formattedDate": "August 5, 2023",
+            "tags": [
+              {
+                "label": "Defender",
+                "permalink": "/blog/tags/defender"
+              },
+              {
+                "label": "Azure",
+                "permalink": "/blog/tags/azure"
+              }
+            ],
+            "readingTime": 1.3333333333333333,
+            "hasTruncateMarker": true,
+            "authors": [
+              {
+                "name": "Will",
+                "title": "Creator of the IT KB.",
+                "url": "https://github.com/BassJamm?tab=repositories"
+              }
+            ],
+            "frontMatter": {
+              "title": "Microsoft Defender for Endpoint Woes",
+              "description": "Windows services hating each other on Server 2012 R2.",
+              "slug": "Defender-for-Endpoint-Woes",
+              "date": "2023-08-05T11:00",
+              "authors": [
+                {
+                  "name": "Will",
+                  "title": "Creator of the IT KB.",
+                  "url": "https://github.com/BassJamm?tab=repositories"
+                }
+              ],
+              "tags": [
+                "Defender",
+                "Azure"
+              ],
+              "image": "https://i.imgur.com/mErPwqL.png",
+              "hide_table_of_contents": false
+            },
+            "prevItem": {
+              "title": "Challenge 2 - Folder Size Report with PowerShell",
+              "permalink": "/blog/pwsh-challenge-002"
+            },
+            "nextItem": {
               "title": "Challenge 1 - File Download Script with PowerShell",
               "permalink": "/blog/pwsh-challenge-001"
             }
           },
-          "content": "Create a script that calculates the total size of a given folder and all its subfolders (recursively). The script should display the size in a human-readable format (e.g., KB, MB, GB).\r\n\r\n<!--truncate-->\r\n:::info Quick Social Plug\r\n\r\nCheck out my other post locations: -\r\n\r\n- [HashNode Link](https://willh.hashnode.dev/)\r\n- [Patreon Link](https://patreon.com/BassJamm?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=creatorshare_creator&utm_content=join_link)\r\n\r\n:::\r\n\r\n## End Result\r\n\r\nThought I would put the result first, and save people from scrolling, those who wish to see the process can read the rest of this!\r\n\r\nI decided not to add any error handling into this, as it's quite hard to break this one!\r\n\r\n:::note\r\n\r\nSorry for the backticks, it makes it a bit easier to read on the page as it's quite slim!\r\n\r\n:::\r\n\r\n[Link to script in GitHub!](https://github.com/BassJamm/PowerShellChallenge/blob/51799e1b087f846285f15bff9df9f019caa12fdc/Folder-Report/TOOL-Folder-Report.ps1)\r\n\r\n```powershell showLineNumbers\r\n###### Prompt user for flder input. ######\r\n$sourceDirectory = Read-Host -Prompt \"Please enter the directory you wish to scan\"\r\n\r\n###### Get all Directories in that location. ######\r\nWrite-Host \"Collecting the diretory information.\" -ForegroundColor Yellow\r\n$ChildDirectories = (Get-ChildItem $sourceDirectory -Directory).FullName\r\nStart-Sleep 1\r\nWrite-Host \"Directories found successfully.\" -ForegroundColor Green\r\n\r\n###### Foreach directory get all items recursively. ######\r\nWrite-Host \"Processing items.\" -ForegroundColor Yellow\r\n$childDirectorySizes = foreach ($folder in $ChildDirectories) {\r\n    [PSCustomObject]@{\r\n        \"Location\"  = $folder\r\n        \"FileItems\" = (Get-ChildItem $folder -Recurse -Force | Where-Object { $_.PSIsContainer -eq $false } | Measure-Object | Select-Object Count).Count\r\n        \"Size(MB)\"  = [Math]::Round((Get-ChildItem $folder -Recurse -Force | Where-Object { $_.PSIsContainer -eq $false } | Measure-Object -Property Length -Sum | Select-Object Sum).Sum / 1MB, 3)\r\n    }\r\n\r\n}\r\nWrite-Host \"All subdirectories processed successfully.\" -ForegroundColor Green\r\n\r\n###### Provide a size report of the directory and child directories. ######\r\n$childDirectorySizes | Format-Table * -AutoSize\r\n\r\n```\r\n\r\n## Building the script\r\n\r\nI would like to start by saying I am not an expert at this but, these challenges prompt learning and thus I aim to be better for the next challenge and so on.\r\n\r\n### Prompting for user input\r\n\r\nFirstly, we need to get the folder location from the end user. I've done this using the Read-Host command with the `-prompt` parameter. This is a staple command I have found in almost every script requiring user input.\r\n\r\n```powershell showLineNumbers\r\n$sourceDirectory = Read-Host -Prompt \"Please enter the directory you wish to scan\"\r\n```\r\n\r\nThe `Read-Host -prompt` input is then stored in the `$sourceDirectory`` variable for later use.\r\n\r\n### Getting the Folders\r\n\r\nSecondly, we need to identify the folders that are within the directory the user gave us. We are doing this with the `Get-ChildItem` command, which gets everything in that location, Folders, or Files.\r\n\r\nI'm then piping this `|` into a `Where-Object` command which then identifies the Folders or containers.\r\n\r\n:::info\r\nI've added a sort by \"name\" at the end, as I want to display the first 10 items in the console, to indicate that the script has found items to the end user. It is completely unnecessary!\r\n:::\r\n\r\n```powershell showlineNumbers\r\n###### Prompt user for flder input. ######\r\n$sourceDirectory = Read-Host -Prompt \"Please enter the directory you wish to scan\"\r\n```\r\n\r\nWe then get all of hte directories in the folder location promtped for using the lin above.\r\n\r\n```powershell showLineNumbers\r\n###### Get all Directories in that location. ######\r\n$ChildDirectories = (Get-ChildItem $sourceDirectory -Directory).FullName\r\nStart-Sleep 1 # Add this for slightly better pacing when using the script.\r\n\r\n```\r\n\r\n### Getting the Folder Sizes\r\n\r\nThirdly, we need to get the folder sizes and convert them into a nicer format to read, quite a bit to unpack on this one, so please bear with my explanation; you may also want to blow this image up, it's a little small, sorry!\r\n\r\n```powershell showLineNumbers\r\n###### Foreach directory get all items recursively. ######\r\nWrite-Host \"Processing items.\" -ForegroundColor Yellow\r\n$childDirectorySizes = foreach ($folder in $ChildDirectories) {\r\n    [PSCustomObject]@{\r\n        \"Location\"  = $folder\r\n        \"FileItems\" = (Get-ChildItem $folder -Recurse -Force | Where-Object { $_.PSIsContainer -eq $false } | Measure-Object | Select-Object Count).Count\r\n        \"Size(MB)\"  = [Math]::Round((Get-ChildItem $folder -Recurse -Force | Where-Object { $_.PSIsContainer -eq $false } | Measure-Object -Property Length -Sum | Select-Object Sum).Sum / 1MB, 3)\r\n    }\r\n}\r\n```\r\n\r\nI've created a new variable called, `$childDirectorySizes` in this variable, we are going to store the output of the foreach loop.\r\n\r\nThe foreach the argument takes each folder entry found within the `$ChildDirectories` & then loops through the script inside the squiggly brackets.\r\n\r\n```powershell showLineNumbers\r\nforeach ($folder in $ChildDirectories)\r\n```\r\n\r\nThe foreach loop does the following: -\r\n\r\n1. Grabs the full file paths for each file recursively using `Get-ChildItem $folder.FullName -recurse -force`.\r\n2. Then it searches for any objects that are not a Folder using `Where-Object {$_.PSIsContainer -eq $false}`.\r\n3. It then measures the object using `Measure-Object -property Length -sum`.\r\n4. We then select only the one property that we want, `Select-Object Sum`.\r\n5. It then stores results inside the variable `$subFolderItems`.\r\n6. We then create a new PowerShell object using the command, `[PSCustomObject]`, as this is going to be a new Hash table, we add the `@{}` after it, all properties go inside the squiggly brackets.\r\n7. We then create 2 new properties, `Location` and `Size(MB)`. For each of these properties, we need to tell it where the information comes from and how to format it.\r\n\r\nFor `Location`, we are going to use the Items Full name, which is equal to its full UNC path. `$folder.FullName`.\r\n\r\nFor `Size(MB)`, we are going to use the Output of steps 1 to 5. The output from this should be the SUM of all the files under the folder item that's stored in the variable `$folder` which is in the foreach loop argument.\r\n\r\nWe also want to round this to MBs with 2 Decimal places; we can do this with the command, `[Math]::Round($subFolderItems.sum /1MB, 2)`.\r\n\r\n### Creating a console Ouput\r\n\r\nFor this point, I have taken the variable that is holding the output from the Foreach loop noted above and piped this into a Format-Table command with the order of the properties to show.\r\n\r\n```powershell showLineNumbers\r\n###### Provide a size report of the directory and child directories. ######\r\n$childDirectorySizes | Format-Table * -AutoSize\r\n```\r\n\r\nWhich gives you this.\r\n\r\n```powershell showLineNumbers\r\nLocation                           FileItems Size(MB)\r\n--------                           --------- --------\r\nC:\\GitRepos\\100-days-of-javascript       287   59.772\r\nC:\\GitRepos\\PowerShellChallenge          106    0.072\r\nC:\\GitRepos\\Private-Code-Dump            253   14.089\r\nC:\\GitRepos\\python-app                    97    0.067\r\nC:\\GitRepos\\The-IT-Knowledge-base      36396  414.871\r\n```"
+          "content": "For the last 3 months our monitoring team at my workplace has been spammed with alerts about the Windows Defender Advanced Threat Protection Service has entered the \"stopped\" state for one 2012 R2 server.\n\nQuickly followed about 6 minutes later with another alert saying, the service is okay.\n<!--truncate-->\n:::info Quick Social Plug\n\nCheck out my other post locations: -\n\n- [HashNode Link](https://willh.hashnode.dev/)\n\n:::\n\n## The Investigation\n\nFrom checking the alert, I could see the service was stopping and starting but, no real reason as to why it was doing this. This is when I turned to PowerShell (*still unsure of why I did this over trusty Event Viewer, just seems to be my default now*).\n\nQuickly smashed out the below command to see what I could find.\n\nThis promptly spat out these errors.\n\nAfter googling this (as any techy would), there are a lot of mentions of this error message all over the place with suggestions to do the following:-\n\n1. Disable or uninstall any other AV products on the device.\n\n2. Run a Full system scan for viruses.\n\n3. Run a System File Checker scan from the command line, `sfc /scannow`.\n\n4. Re-install the Defender for Endpoint on that device.\n\n5. Update the OS to a new version (*A bit extreme mind you however, new OS versions have much better support for Defender, you don't need this service on Server 2016 and above, so it's still valid!*)\n\n## What Solved It\n\nThe short answer is, I'm not 100% certain.\n\nOur first port of call was to remove the *System Center Endpoint Protection* application, which we probably should have done before installing the *Defender for Endpoint* application to be honest.\n\nSecondly, we off-boarded the appliance from Defedner and then on-boarded it again by doing the following: -\n\n- Download the off-boarding script from your Defender portal.\n\n  - In the navigation pane, select Settings &gt; Endpoints &gt; Device management &gt; Offboarding.\n\n- Off-Board the Server using the script provided by Microsoft below.\n\n  - `C:\\Packages\\Plugins\\Microsoft.Azure.AzureDefenderForServers.MDE.Windows\\versionNo\\Install.ps1.`\n\n  - The command is, `Install.ps1 -OffboardingScript .\\WindowsDefenderATPOffboardingScript_valid_until_*.cmd`\n\n- Reboot the server.\n\n- Check the Defender application is gone from Programs and Features and that the Services are gone. If not, manually uninstall using Programs and Features.\n\n- On-Board the server again using the script provided by Microsoft. Command below.\n\n  - `C:\\Packages\\Plugins\\Microsoft.Azure.AzureDefenderForServers.MDE.Windows\\versionNo\\Install.ps1.`\n\n  - The command is, `.\\Install.ps1 -OnboardingScript .\\WindowsDefenderATPOnboardingScript_valid_until_*.cmd`\n\n- Reboot the server.\n\nHopefully this helps somone!"
         },
         {
           "id": "pwsh-challenge-001",
@@ -1426,73 +1639,15 @@
               "hide_table_of_contents": false
             },
             "prevItem": {
-              "title": "Challenge 2 - Folder Size Report with PowerShell",
-              "permalink": "/blog/pwsh-challenge-002"
-            },
-            "nextItem": {
               "title": "Microsoft Defender for Endpoint Woes",
               "permalink": "/blog/Defender-for-Endpoint-Woes"
-            }
-          },
-          "content": "Create a script that can download any file by the URL given by a user. Add in the ability to download multiple items at once.\r\n\r\n<!--truncate-->\r\n:::info Quick Social Plug\r\n\r\nCheck out my other post locations: -\r\n\r\n- [HashNode Link](https://willh.hashnode.dev/)\r\n- [Patreon Link](https://patreon.com/BassJamm?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=creatorshare_creator&utm_content=join_link)\r\n\r\n:::\r\n\r\n## Creating the script\r\n\r\n### Basic functionality\r\n\r\nFirstly, we'll create the logic outline, by that I mean, create the bare bones of the script without any error handling or console output.\r\n\r\n:::note\r\n\r\nI've seen parameter blocks written in multiple ways, I write them this way as I think they're more easily understood by those who are not familiar with them.\r\n\r\n:::\r\n\r\n```powershell showLineNumbers\r\n<# Parameter List #>\r\n[CmdletBinding()]\r\nparam (\r\n    [Parameter(Mandatory=$true)]\r\n    [string] $Source,\r\n    [Parameter(Mandatory=$true)]\r\n    [string] $Destination\r\n)\r\n<# Bare bones of the command to download an item. #>\r\nStart-BitsTransfer -Source $Source -Destination $Destination -TransferType Download\r\n```\r\n\r\nRunning the above script file by type `.\\TOOL-File-download.ps1 -Source \"`[`https://go.microsoft.com/fwlink/p/?LinkID=2195167&clcid=0x409&culture=en-us&country=US`](https://go.microsoft.com/fwlink/p/?LinkID=2195167&clcid=0x409&culture=en-us&country=US)`\" -Destination C:\\Temp\\Server2019.iso` does the job; the output is below.\r\n\r\nNow to add the ability to see running jobs and historic jobs.\r\n\r\n## Adding running and historic job reports\r\n\r\nAs you can see below, this is becoming a bit longer but, I would not say it is getting any more complex.\r\n\r\n```powershell showLineNumbers\r\n\r\n<# Parameter List #>\r\n[CmdletBinding()]\r\nparam (\r\n    [Parameter()]\r\n    [switch] $JobReport,\r\n    [Parameter()]\r\n    [switch] $JobHistory\r\n)\r\n###### Add the ability to review in-progress download job(s). ######\r\nif ($JobReport) {\r\n    <# Action to perform if the condition is true #>\r\n    Write-Host \"Getting running downloads.\"\r\n    Get-BitsTransfer | Where-Object JobState -EQ 'transferring' | Format-Table JobId, CreationTime,DisplayName,TransferType,JobState,BytesTransferred,BytesTotal -AutoSize\r\n}\r\n###### Add the ability to review historic job(s). ######\r\nif ($JobHistory) {\r\n    <# Action to perform if the condition is true #>\r\n    Write-Host \"Getting historic downloads.\"\r\n    Get-BitsTransfer | Sort-Object CreationTime -Descending | Format-Table JobId, CreationTime,DisplayName,TransferType,JobState,BytesTransferred,BytesTotal -AutoSize\r\n}\r\n```\r\n\r\nNow to add a way to cancel running jobs.\r\n\r\n## Canceling jobs\r\n\r\nBelow I have added the code to cancel a running job, although a bit basic and rough it does work.\r\n\r\n```powershell showLineNumbers\r\n\r\n<# Parameter List #>\r\n[CmdletBinding()]\r\nparam (\r\n    [Parameter()]\r\n    [String] $CancelJob\r\n)\r\n\r\n###### Add the ability to cancel job(s). ######\r\nif ($CancelJob) {\r\n    <# Action to perform if the condition is true #>\r\n    Get-BitsTransfer -Name $CancelJob | Remove-BitsTransfer\r\n    Get-BitsTransfer | Where-Object JobState -EQ 'transferring' | Format-Table JobId, CreationTime,DisplayName,TransferType,JobState,BytesTransferred,BytesTotal -AutoSize\r\n    \r\n}\r\n```\r\n\r\n## Adding in some error handling and console output\r\n\r\nBelow I have added in some 'fluff', some try\\\\catch blocks and some write-host functionality to make using this a bit easier.\r\n\r\nTry\\\\Catch blocks are a godsend when it comes to error handling, essentially it means try what is in the try area and catch anything that comes out of it.\r\n\r\n### Downloading the file section\r\n\r\n```powershell showLineNumbers\r\n###### Download a file. ######\r\nif ($Source) {\r\n    <# Action to perform if the condition is true #>\r\n    try {\r\n        Start-BitsTransfer -Source $Source -Destination $Destination -TransferType Download -Asynchronous -DisplayName $JobName\r\n        Write-Host \"Beginning download from $($Source).\"\r\n        Write-Host \"\" # This just adds some more space in the console.\r\n        \r\n    }\r\n    catch {\r\n        <#Do this if a terminating exception happens#>\r\n        Write-Host \"Error when starting the job.\"\r\n        $_\r\n    }\r\n}\r\n```\r\n\r\n### Canceling the download section\r\n\r\n```powershell showLineNumbers\r\n\r\n###### Add the ability to cancel job(s). ######\r\nif ($CancelJob) {\r\n    <# Action to perform if the condition is true #>\r\n    try {\r\n        Get-BitsTransfer -Name $CancelJob | Remove-BitsTransfer\r\n        Write-Host \"Job cancelled successfully.\" -ForegroundColor Green\r\n        Write-Host \"\" # This just adds some more space in the console.\r\n        Start-sleep 2\r\n        Write-Host \"Remaining jobs listed below.\" -ForegroundColor Yellow\r\n        Write-Host \"\" # This just adds some more space in the console.\r\n        Start-sleep 1\r\n        Get-BitsTransfer | Where-Object JobState -EQ 'transferring' | Format-Table JobId, CreationTime,DisplayName,TransferType,JobState,BytesTransferred,BytesTotal -AutoSize    \r\n    }\r\n    catch {\r\n        <#Do this if a terminating exception happens#>\r\n        Write-Host \"Error when cancelling job.\"\r\n        $_\r\n    }\r\n}\r\n```\r\n\r\n## Full Script\r\n\r\n```powershell\r\n\r\n<# Parameter List #>\r\n[CmdletBinding()]\r\nparam (\r\n    [Parameter()]\r\n    [string] $Source,\r\n    [Parameter()]\r\n    [string] $Destination,\r\n    [Parameter()]\r\n    [string] $JobName,\r\n    [Parameter()]\r\n    [switch] $RunningJobs,\r\n    [Parameter()]\r\n    [switch] $JobHistory,\r\n    [Parameter()]\r\n    [String] $CancelJob\r\n)\r\n###### Download a file. ######\r\nif ($Source) {\r\n    <# Action to perform if the condition is true #>\r\n    try {\r\n        Start-BitsTransfer -Source $Source -Destination $Destination -TransferType Download -Asynchronous -DisplayName $JobName\r\n        Write-Host \"Beginning download from $($Source).\"\r\n        Write-Host \"\" # This just adds some more space in the console.\r\n        \r\n    }\r\n    catch {\r\n        <#Do this if a terminating exception happens#>\r\n        Write-Host \"Error when starting the job.\"\r\n        $_\r\n    }\r\n}\r\n\r\n###### Add the ability to review in-progress download job(s). ######\r\nif ($RunningJobs) {\r\n    <# Action to perform if the condition is true #>\r\n    Write-Host \"Getting running downloads.\"\r\n    Write-Host \"\" # This just adds some more space in the console.\r\n    Get-BitsTransfer | Where-Object JobState -EQ 'transferring' | Format-Table JobId, CreationTime,DisplayName,TransferType,JobState,BytesTransferred,BytesTotal -AutoSize\r\n}\r\n\r\n###### Add the ability to review historic job(s). ######\r\nif ($JobHistory) {\r\n    <# Action to perform if the condition is true #>\r\n    Write-Host \"Getting historic downloads.\"\r\n    Get-BitsTransfer | Sort-Object CreationTime -Descending | Format-Table JobId, CreationTime,DisplayName,TransferType,JobState,BytesTransferred,BytesTotal -AutoSize\r\n}\r\n\r\n###### Add the ability to cancel job(s). ######\r\nif ($CancelJob) {\r\n    <# Action to perform if the condition is true #>\r\n\r\n    try {\r\n        Get-BitsTransfer -Name $CancelJob | Remove-BitsTransfer\r\n        Write-Host \"Job cancelled successfully.\" -ForegroundColor Green\r\n        Write-Host \"\" # This just adds some more space in the console.\r\n        Start-sleep 2\r\n        Write-Host \"Remaining jobs listed below.\" -ForegroundColor Yellow\r\n        Write-Host \"\" # This just adds some more space in the console.\r\n        Start-sleep 1\r\n        Get-BitsTransfer | Where-Object JobState -EQ 'transferring' | Format-Table JobId, CreationTime,DisplayName,TransferType,JobState,BytesTransferred,BytesTotal -AutoSize\r\n        \r\n    }\r\n    catch {\r\n        <#Do this if a terminating exception happens#>\r\n        Write-Host \"Error when cancelling job.\"\r\n        $_\r\n    }\r\n\r\n}\r\n```\r\n\r\n## Bonus: Multiple downloads\r\n\r\nThe `Start-BitsTransfer` command supports pipeline input, so you can add multiple download links using a text file.\r\n\r\nCreate a text file in the format below, this is a typical csv format.\r\n\r\n![](<https://cdn.hashnode.com/res/hashnode/image/upload/v1690560380176/0d5d0ab7-5b77-4010-9ed7-e30d780a510a.png> align=\"center\")\r\n\r\nAdditional Code was added to the script.\r\n\r\n```powershell\r\n\r\n<# Parameter List #>\r\n[CmdletBinding()]\r\nparam (\r\n    [Parameter()]\r\n    [string] $MultiJobDownload\r\n)\r\n###### Download multiple files. ######\r\nif ($MultiJobDownload) {\r\n    <# Action to perform if the condition is true #>\r\n    try {\r\n        Import-csv -Path $MultiJobDownload | Start-BitsTransfer -Asynchronous\r\n        Write-Host \"Beginning download from listed sources.\"\r\n        Write-Host \"\" # This just adds some more space in the console.\r\n        Start-Sleep 1\r\n        Write-Host \" Sources and destinations below: -\"\r\n        Get-Content -Path $MultiJobDownload\r\n        \r\n    }\r\n    catch {\r\n        <#Do this if a terminating exception happens#>\r\n        Write-Host \"Error when starting the job.\"\r\n        $_\r\n    }\r\n}\r\n```"
-        },
-        {
-          "id": "Defender-for-Endpoint-Woes",
-          "metadata": {
-            "permalink": "/blog/Defender-for-Endpoint-Woes",
-            "source": "@site/blog/2023-09-12-Defender-Woes/Microsoft-Defender-for-Endpoint-Woes.md",
-            "title": "Microsoft Defender for Endpoint Woes",
-            "description": "Windows services hating each other on Server 2012 R2.",
-            "date": "2023-08-05T11:00:00.000Z",
-            "formattedDate": "August 5, 2023",
-            "tags": [
-              {
-                "label": "Defender",
-                "permalink": "/blog/tags/defender"
-              },
-              {
-                "label": "Azure",
-                "permalink": "/blog/tags/azure"
-              }
-            ],
-            "readingTime": 1.3333333333333333,
-            "hasTruncateMarker": true,
-            "authors": [
-              {
-                "name": "Will",
-                "title": "Creator of the IT KB.",
-                "url": "https://github.com/BassJamm?tab=repositories"
-              }
-            ],
-            "frontMatter": {
-              "title": "Microsoft Defender for Endpoint Woes",
-              "description": "Windows services hating each other on Server 2012 R2.",
-              "slug": "Defender-for-Endpoint-Woes",
-              "date": "2023-08-05T11:00",
-              "authors": [
-                {
-                  "name": "Will",
-                  "title": "Creator of the IT KB.",
-                  "url": "https://github.com/BassJamm?tab=repositories"
-                }
-              ],
-              "tags": [
-                "Defender",
-                "Azure"
-              ],
-              "image": "https://i.imgur.com/mErPwqL.png",
-              "hide_table_of_contents": false
-            },
-            "prevItem": {
-              "title": "Challenge 1 - File Download Script with PowerShell",
-              "permalink": "/blog/pwsh-challenge-001"
             },
             "nextItem": {
               "title": "Welcome!",
               "permalink": "/blog/welcome"
             }
           },
-          "content": "For the last 3 months our monitoring team at my workplace has been spammed with alerts about the Windows Defender Advanced Threat Protection Service has entered the \"stopped\" state for one 2012 R2 server.\r\n\r\nQuickly followed about 6 minutes later with another alert saying, the service is okay.\r\n<!--truncate-->\r\n:::info Quick Social Plug\r\n\r\nCheck out my other post locations: -\r\n\r\n- [HashNode Link](https://willh.hashnode.dev/)\r\n\r\n:::\r\n\r\n## The Investigation\r\n\r\nFrom checking the alert, I could see the service was stopping and starting but, no real reason as to why it was doing this. This is when I turned to PowerShell (*still unsure of why I did this over trusty Event Viewer, just seems to be my default now*).\r\n\r\nQuickly smashed out the below command to see what I could find.\r\n\r\nThis promptly spat out these errors.\r\n\r\nAfter googling this (as any techy would), there are a lot of mentions of this error message all over the place with suggestions to do the following:-\r\n\r\n1. Disable or uninstall any other AV products on the device.\r\n\r\n2. Run a Full system scan for viruses.\r\n\r\n3. Run a System File Checker scan from the command line, `sfc /scannow`.\r\n\r\n4. Re-install the Defender for Endpoint on that device.\r\n\r\n5. Update the OS to a new version (*A bit extreme mind you however, new OS versions have much better support for Defender, you don't need this service on Server 2016 and above, so it's still valid!*)\r\n\r\n## What Solved It\r\n\r\nThe short answer is, I'm not 100% certain.\r\n\r\nOur first port of call was to remove the *System Center Endpoint Protection* application, which we probably should have done before installing the *Defender for Endpoint* application to be honest.\r\n\r\nSecondly, we off-boarded the appliance from Defedner and then on-boarded it again by doing the following: -\r\n\r\n- Download the off-boarding script from your Defender portal.\r\n\r\n  - In the navigation pane, select Settings &gt; Endpoints &gt; Device management &gt; Offboarding.\r\n\r\n- Off-Board the Server using the script provided by Microsoft below.\r\n\r\n  - `C:\\Packages\\Plugins\\Microsoft.Azure.AzureDefenderForServers.MDE.Windows\\versionNo\\Install.ps1.`\r\n\r\n  - The command is, `Install.ps1 -OffboardingScript .\\WindowsDefenderATPOffboardingScript_valid_until_*.cmd`\r\n\r\n- Reboot the server.\r\n\r\n- Check the Defender application is gone from Programs and Features and that the Services are gone. If not, manually uninstall using Programs and Features.\r\n\r\n- On-Board the server again using the script provided by Microsoft. Command below.\r\n\r\n  - `C:\\Packages\\Plugins\\Microsoft.Azure.AzureDefenderForServers.MDE.Windows\\versionNo\\Install.ps1.`\r\n\r\n  - The command is, `.\\Install.ps1 -OnboardingScript .\\WindowsDefenderATPOnboardingScript_valid_until_*.cmd`\r\n\r\n- Reboot the server.\r\n\r\nHopefully this helps somone!"
+          "content": "Create a script that can download any file by the URL given by a user. Add in the ability to download multiple items at once.\n\n<!--truncate-->\n:::info Quick Social Plug\n\nCheck out my other post locations: -\n\n- [HashNode Link](https://willh.hashnode.dev/)\n- [Patreon Link](https://patreon.com/BassJamm?utm_medium=clipboard_copy&utm_source=copyLink&utm_campaign=creatorshare_creator&utm_content=join_link)\n\n:::\n\n## Creating the script\n\n### Basic functionality\n\nFirstly, we'll create the logic outline, by that I mean, create the bare bones of the script without any error handling or console output.\n\n:::note\n\nI've seen parameter blocks written in multiple ways, I write them this way as I think they're more easily understood by those who are not familiar with them.\n\n:::\n\n```powershell showLineNumbers\n<# Parameter List #>\n[CmdletBinding()]\nparam (\n    [Parameter(Mandatory=$true)]\n    [string] $Source,\n    [Parameter(Mandatory=$true)]\n    [string] $Destination\n)\n<# Bare bones of the command to download an item. #>\nStart-BitsTransfer -Source $Source -Destination $Destination -TransferType Download\n```\n\nRunning the above script file by type `.\\TOOL-File-download.ps1 -Source \"`[`https://go.microsoft.com/fwlink/p/?LinkID=2195167&clcid=0x409&culture=en-us&country=US`](https://go.microsoft.com/fwlink/p/?LinkID=2195167&clcid=0x409&culture=en-us&country=US)`\" -Destination C:\\Temp\\Server2019.iso` does the job; the output is below.\n\nNow to add the ability to see running jobs and historic jobs.\n\n## Adding running and historic job reports\n\nAs you can see below, this is becoming a bit longer but, I would not say it is getting any more complex.\n\n```powershell showLineNumbers\n\n<# Parameter List #>\n[CmdletBinding()]\nparam (\n    [Parameter()]\n    [switch] $JobReport,\n    [Parameter()]\n    [switch] $JobHistory\n)\n###### Add the ability to review in-progress download job(s). ######\nif ($JobReport) {\n    <# Action to perform if the condition is true #>\n    Write-Host \"Getting running downloads.\"\n    Get-BitsTransfer | Where-Object JobState -EQ 'transferring' | Format-Table JobId, CreationTime,DisplayName,TransferType,JobState,BytesTransferred,BytesTotal -AutoSize\n}\n###### Add the ability to review historic job(s). ######\nif ($JobHistory) {\n    <# Action to perform if the condition is true #>\n    Write-Host \"Getting historic downloads.\"\n    Get-BitsTransfer | Sort-Object CreationTime -Descending | Format-Table JobId, CreationTime,DisplayName,TransferType,JobState,BytesTransferred,BytesTotal -AutoSize\n}\n```\n\nNow to add a way to cancel running jobs.\n\n## Canceling jobs\n\nBelow I have added the code to cancel a running job, although a bit basic and rough it does work.\n\n```powershell showLineNumbers\n\n<# Parameter List #>\n[CmdletBinding()]\nparam (\n    [Parameter()]\n    [String] $CancelJob\n)\n\n###### Add the ability to cancel job(s). ######\nif ($CancelJob) {\n    <# Action to perform if the condition is true #>\n    Get-BitsTransfer -Name $CancelJob | Remove-BitsTransfer\n    Get-BitsTransfer | Where-Object JobState -EQ 'transferring' | Format-Table JobId, CreationTime,DisplayName,TransferType,JobState,BytesTransferred,BytesTotal -AutoSize\n    \n}\n```\n\n## Adding in some error handling and console output\n\nBelow I have added in some 'fluff', some try\\\\catch blocks and some write-host functionality to make using this a bit easier.\n\nTry\\\\Catch blocks are a godsend when it comes to error handling, essentially it means try what is in the try area and catch anything that comes out of it.\n\n### Downloading the file section\n\n```powershell showLineNumbers\n###### Download a file. ######\nif ($Source) {\n    <# Action to perform if the condition is true #>\n    try {\n        Start-BitsTransfer -Source $Source -Destination $Destination -TransferType Download -Asynchronous -DisplayName $JobName\n        Write-Host \"Beginning download from $($Source).\"\n        Write-Host \"\" # This just adds some more space in the console.\n        \n    }\n    catch {\n        <#Do this if a terminating exception happens#>\n        Write-Host \"Error when starting the job.\"\n        $_\n    }\n}\n```\n\n### Canceling the download section\n\n```powershell showLineNumbers\n\n###### Add the ability to cancel job(s). ######\nif ($CancelJob) {\n    <# Action to perform if the condition is true #>\n    try {\n        Get-BitsTransfer -Name $CancelJob | Remove-BitsTransfer\n        Write-Host \"Job cancelled successfully.\" -ForegroundColor Green\n        Write-Host \"\" # This just adds some more space in the console.\n        Start-sleep 2\n        Write-Host \"Remaining jobs listed below.\" -ForegroundColor Yellow\n        Write-Host \"\" # This just adds some more space in the console.\n        Start-sleep 1\n        Get-BitsTransfer | Where-Object JobState -EQ 'transferring' | Format-Table JobId, CreationTime,DisplayName,TransferType,JobState,BytesTransferred,BytesTotal -AutoSize    \n    }\n    catch {\n        <#Do this if a terminating exception happens#>\n        Write-Host \"Error when cancelling job.\"\n        $_\n    }\n}\n```\n\n## Full Script\n\n```powershell\n\n<# Parameter List #>\n[CmdletBinding()]\nparam (\n    [Parameter()]\n    [string] $Source,\n    [Parameter()]\n    [string] $Destination,\n    [Parameter()]\n    [string] $JobName,\n    [Parameter()]\n    [switch] $RunningJobs,\n    [Parameter()]\n    [switch] $JobHistory,\n    [Parameter()]\n    [String] $CancelJob\n)\n###### Download a file. ######\nif ($Source) {\n    <# Action to perform if the condition is true #>\n    try {\n        Start-BitsTransfer -Source $Source -Destination $Destination -TransferType Download -Asynchronous -DisplayName $JobName\n        Write-Host \"Beginning download from $($Source).\"\n        Write-Host \"\" # This just adds some more space in the console.\n        \n    }\n    catch {\n        <#Do this if a terminating exception happens#>\n        Write-Host \"Error when starting the job.\"\n        $_\n    }\n}\n\n###### Add the ability to review in-progress download job(s). ######\nif ($RunningJobs) {\n    <# Action to perform if the condition is true #>\n    Write-Host \"Getting running downloads.\"\n    Write-Host \"\" # This just adds some more space in the console.\n    Get-BitsTransfer | Where-Object JobState -EQ 'transferring' | Format-Table JobId, CreationTime,DisplayName,TransferType,JobState,BytesTransferred,BytesTotal -AutoSize\n}\n\n###### Add the ability to review historic job(s). ######\nif ($JobHistory) {\n    <# Action to perform if the condition is true #>\n    Write-Host \"Getting historic downloads.\"\n    Get-BitsTransfer | Sort-Object CreationTime -Descending | Format-Table JobId, CreationTime,DisplayName,TransferType,JobState,BytesTransferred,BytesTotal -AutoSize\n}\n\n###### Add the ability to cancel job(s). ######\nif ($CancelJob) {\n    <# Action to perform if the condition is true #>\n\n    try {\n        Get-BitsTransfer -Name $CancelJob | Remove-BitsTransfer\n        Write-Host \"Job cancelled successfully.\" -ForegroundColor Green\n        Write-Host \"\" # This just adds some more space in the console.\n        Start-sleep 2\n        Write-Host \"Remaining jobs listed below.\" -ForegroundColor Yellow\n        Write-Host \"\" # This just adds some more space in the console.\n        Start-sleep 1\n        Get-BitsTransfer | Where-Object JobState -EQ 'transferring' | Format-Table JobId, CreationTime,DisplayName,TransferType,JobState,BytesTransferred,BytesTotal -AutoSize\n        \n    }\n    catch {\n        <#Do this if a terminating exception happens#>\n        Write-Host \"Error when cancelling job.\"\n        $_\n    }\n\n}\n```\n\n## Bonus: Multiple downloads\n\nThe `Start-BitsTransfer` command supports pipeline input, so you can add multiple download links using a text file.\n\nCreate a text file in the format below, this is a typical csv format.\n\n![](<https://cdn.hashnode.com/res/hashnode/image/upload/v1690560380176/0d5d0ab7-5b77-4010-9ed7-e30d780a510a.png> align=\"center\")\n\nAdditional Code was added to the script.\n\n```powershell\n\n<# Parameter List #>\n[CmdletBinding()]\nparam (\n    [Parameter()]\n    [string] $MultiJobDownload\n)\n###### Download multiple files. ######\nif ($MultiJobDownload) {\n    <# Action to perform if the condition is true #>\n    try {\n        Import-csv -Path $MultiJobDownload | Start-BitsTransfer -Asynchronous\n        Write-Host \"Beginning download from listed sources.\"\n        Write-Host \"\" # This just adds some more space in the console.\n        Start-Sleep 1\n        Write-Host \" Sources and destinations below: -\"\n        Get-Content -Path $MultiJobDownload\n        \n    }\n    catch {\n        <#Do this if a terminating exception happens#>\n        Write-Host \"Error when starting the job.\"\n        $_\n    }\n}\n```"
         },
         {
           "id": "welcome",
@@ -1542,8 +1697,8 @@
               "hide_table_of_contents": false
             },
             "prevItem": {
-              "title": "Microsoft Defender for Endpoint Woes",
-              "permalink": "/blog/Defender-for-Endpoint-Woes"
+              "title": "Challenge 1 - File Download Script with PowerShell",
+              "permalink": "/blog/pwsh-challenge-001"
             }
           },
           "content": "Welcome to the blog.\n\nThis blog is created with [**Docusaurus 2**](https://docusaurus.io/).\n\n<!--truncate-->\n:::info Quick Social Plug\n\nCheck out my other post locations: -\n\n- [HashNode Link](https://willh.hashnode.dev/)\n\n:::"
@@ -1553,8 +1708,8 @@
         {
           "items": [
             "pwsh-challenge-002",
-            "pwsh-challenge-001",
             "Defender-for-Endpoint-Woes",
+            "pwsh-challenge-001",
             "welcome"
           ],
           "metadata": {

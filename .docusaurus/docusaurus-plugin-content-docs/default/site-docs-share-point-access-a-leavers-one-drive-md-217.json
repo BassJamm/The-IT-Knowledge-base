@@ -1,0 +1,38 @@
+{
+  "unversionedId": "SharePoint/Grant access to a User’s OneDrive",
+  "id": "SharePoint/Grant access to a User’s OneDrive",
+  "title": "Grant access to a User’s OneDrive",
+  "description": "Docuemnt describes how to give access to a user's OneDrive using the Admin centre.",
+  "source": "@site/docs/SharePoint/Access-a-leavers-OneDrive.md",
+  "sourceDirName": "SharePoint",
+  "slug": "/SharePoint/Grant access to a User’s OneDrive",
+  "permalink": "/docs/SharePoint/Grant access to a User’s OneDrive",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/edit/main/docs/api-doc-markdown.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "draft": false,
+    "id": "Grant access to a User’s OneDrive",
+    "title": "Grant access to a User’s OneDrive",
+    "hide_title": false,
+    "hide_table_of_contents": false,
+    "sidebar_label": "Grant access to a User’s OneDrive",
+    "sidebar_position": 1,
+    "toc_max_heading_level": 4,
+    "pagination_label": "Grant access to a User’s OneDrive",
+    "tags": [],
+    "custom_edit_url": "https://github.com/facebook/docusaurus/edit/main/docs/api-doc-markdown.md",
+    "description": "Docuemnt describes how to give access to a user's OneDrive using the Admin centre."
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "SharePoint",
+    "permalink": "/docs/category/sharepoint"
+  },
+  "next": {
+    "title": "Windows OS",
+    "permalink": "/docs/category/windows-os"
+  }
+}

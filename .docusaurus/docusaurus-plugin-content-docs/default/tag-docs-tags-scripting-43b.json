@@ -5,10 +5,10 @@
   "count": 1,
   "items": [
     {
-      "id": "Azure/Automation/Automation-Accounts/Create an Automation Account",
+      "id": "Azure/Automation/Create an Automation Account",
       "title": "Create an Automation Account",
       "description": "Create an Automation Account for script automation in Azure.",
-      "permalink": "/docs/Azure/Automation/Automation-Accounts/Create an Automation Account"
+      "permalink": "/docs/Azure/Automation/Create an Automation Account"
     }
   ]
 }

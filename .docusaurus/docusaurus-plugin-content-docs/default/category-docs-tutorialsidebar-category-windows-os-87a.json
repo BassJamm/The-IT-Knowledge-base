@@ -4,8 +4,8 @@
   "permalink": "/docs/category/windows-os",
   "navigation": {
     "previous": {
-      "title": "Command Reference",
-      "permalink": "/docs/PowerShell/PowerShell-cheatsheet/Command Reference"
+      "title": "Grant access to a User’s OneDrive",
+      "permalink": "/docs/SharePoint/Grant access to a User’s OneDrive"
     },
     "next": {
       "title": "Defender for Endpoint",

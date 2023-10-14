@@ -1,0 +1,34 @@
+{
+  "unversionedId": "Windows-OS/Office-Apps/Calendar Sharing Error",
+  "id": "Windows-OS/Office-Apps/Calendar Sharing Error",
+  "title": "Calendar Sharing Error",
+  "description": "This document outlines a possible solution to a specific calendar sharing error for an org.",
+  "source": "@site/docs/Windows-OS/Office-Apps/MS-Outlook-Invite-error.md",
+  "sourceDirName": "Windows-OS/Office-Apps",
+  "slug": "/Windows-OS/Office-Apps/Calendar Sharing Error",
+  "permalink": "/docs/Windows-OS/Office-Apps/Calendar Sharing Error",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/edit/main/docs/api-doc-markdown.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "draft": false,
+    "id": "Calendar Sharing Error",
+    "title": "Calendar Sharing Error",
+    "hide_title": false,
+    "hide_table_of_contents": false,
+    "sidebar_label": "Calendar Sharing Error",
+    "sidebar_position": 1,
+    "toc_max_heading_level": 4,
+    "pagination_label": "Calendar Sharing Error",
+    "tags": [],
+    "custom_edit_url": "https://github.com/facebook/docusaurus/edit/main/docs/api-doc-markdown.md",
+    "description": "This document outlines a possible solution to a specific calendar sharing error for an org."
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Office Apps",
+    "permalink": "/docs/category/office-apps"
+  }
+}

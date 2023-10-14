@@ -1,12 +1,4 @@
 {
-  "docusaurus-lunr-search": {
-    "default": {
-      "fileNames": {
-        "searchDoc": "search-doc-1696537539354.json",
-        "lunrIndex": "lunr-index-1696537539354.json"
-      }
-    }
-  },
   "docusaurus-plugin-google-gtag": {
     "default": {
       "trackingID": [
@@ -14,6 +6,14 @@
       ],
       "anonymizeIP": true,
       "id": "default"
+    }
+  },
+  "docusaurus-lunr-search": {
+    "default": {
+      "fileNames": {
+        "searchDoc": "search-doc-1697279122078.json",
+        "lunrIndex": "lunr-index-1697279122078.json"
+      }
     }
   },
   "docusaurus-plugin-content-docs": {
@@ -38,8 +38,8 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Azure/Automation/Automation-Accounts/Create an Automation Account",
-              "path": "/docs/Azure/Automation/Automation-Accounts/Create an Automation Account",
+              "id": "Azure/Automation/Create an Automation Account",
+              "path": "/docs/Azure/Automation/Create an Automation Account",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -55,6 +55,11 @@
             {
               "id": "Azure/Disks/Restore data from a Snapshot",
               "path": "/docs/Azure/Disks/Restore data from a Snapshot",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Azure/Networking/Network Security Groups",
+              "path": "/docs/Azure/Networking/Network Security Groups",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -118,6 +123,11 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "SharePoint/Grant access to a User’s OneDrive",
+              "path": "/docs/SharePoint/Grant access to a User’s OneDrive",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "Welcome",
               "path": "/docs/",
               "sidebar": "tutorialSidebar"
@@ -128,6 +138,11 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "Windows-OS/Office-Apps/Calendar Sharing Error",
+              "path": "/docs/Windows-OS/Office-Apps/Calendar Sharing Error",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "/category/azure",
               "path": "/docs/category/azure",
               "sidebar": "tutorialSidebar"
@@ -135,11 +150,6 @@
             {
               "id": "/category/automation",
               "path": "/docs/category/automation",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "/category/automation-accounts",
-              "path": "/docs/category/automation-accounts",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -155,6 +165,11 @@
             {
               "id": "/category/disks",
               "path": "/docs/category/disks",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/networking",
+              "path": "/docs/category/networking",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -218,6 +233,11 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "/category/sharepoint",
+              "path": "/docs/category/sharepoint",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "/category/windows-os",
               "path": "/docs/category/windows-os",
               "sidebar": "tutorialSidebar"
@@ -225,6 +245,11 @@
             {
               "id": "/category/defender-for-endpoint",
               "path": "/docs/category/defender-for-endpoint",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/office-apps",
+              "path": "/docs/category/office-apps",
               "sidebar": "tutorialSidebar"
             }
           ],

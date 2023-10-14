@@ -42,5 +42,9 @@
   "previous": {
     "title": "Defender for Endpoint",
     "permalink": "/docs/category/defender-for-endpoint"
+  },
+  "next": {
+    "title": "Office Apps",
+    "permalink": "/docs/category/office-apps"
   }
 }

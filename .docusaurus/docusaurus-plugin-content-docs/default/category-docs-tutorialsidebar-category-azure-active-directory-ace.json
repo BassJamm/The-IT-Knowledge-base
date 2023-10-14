@@ -4,8 +4,8 @@
   "permalink": "/docs/category/azure-active-directory",
   "navigation": {
     "previous": {
-      "title": "Restore data from a Snapshot",
-      "permalink": "/docs/Azure/Disks/Restore data from a Snapshot"
+      "title": "Network Security Groups",
+      "permalink": "/docs/Azure/Networking/Network Security Groups"
     },
     "next": {
       "title": "App Registrations",

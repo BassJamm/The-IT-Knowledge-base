@@ -93,11 +93,13 @@ Example of the syntax for the commmand:
 ```powershell showLineNumbers
 Start-MpScan -ScanType CustomScan -ScanPath PATH\TO\FOLDER-FILES
 ```
+
 Example of scanning the downloads folder:
 
 ```powershell showLineNumbers
 Start-MpScan -ScanType CustomScan -ScanPath "C:\Users\user\Downloads"
 ```
+
 ## Sheduling a Scan
 
 Scheduling a scan is good practice for most security teams; normally though this automation is not needed and is carried out by Defender.
