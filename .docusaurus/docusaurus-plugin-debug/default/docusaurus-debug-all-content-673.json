@@ -131,6 +131,7 @@
               "version": "current",
               "sidebarPosition": 2,
               "frontMatter": {
+                "draft": true,
                 "id": "Create an Automation Account",
                 "title": "Create an Automation Account",
                 "sidebar_label": "Create an Automation Account",
@@ -184,6 +185,7 @@
               "version": "current",
               "sidebarPosition": 1,
               "frontMatter": {
+                "draft": true,
                 "sidebar_position": 1,
                 "toc_max_heading_level": 4,
                 "id": "Setup Azure Backup",
@@ -201,48 +203,6 @@
               "previous": {
                 "title": "Azure Backup",
                 "permalink": "/docs/category/azure-backup"
-              },
-              "next": {
-                "title": "Azure Lighthouse",
-                "permalink": "/docs/category/azure-lighthouse"
-              }
-            },
-            {
-              "unversionedId": "Azure/Azure-Lighthouse/Setup Azure Lighthouse",
-              "id": "Azure/Azure-Lighthouse/Setup Azure Lighthouse",
-              "title": "Setup Azure Lighthouse",
-              "description": "Document Control",
-              "source": "@site/docs/Azure/Azure-Lighthouse/Suggestions-to-Setup.md",
-              "sourceDirName": "Azure/Azure-Lighthouse",
-              "slug": "/Azure/Azure-Lighthouse/Setup Azure Lighthouse",
-              "permalink": "/docs/Azure/Azure-Lighthouse/Setup Azure Lighthouse",
-              "draft": false,
-              "tags": [
-                {
-                  "label": "Azure",
-                  "permalink": "/docs/tags/azure"
-                },
-                {
-                  "label": "Lighthouse",
-                  "permalink": "/docs/tags/lighthouse"
-                }
-              ],
-              "version": "current",
-              "sidebarPosition": 1,
-              "frontMatter": {
-                "sidebar_position": 1,
-                "id": "Setup Azure Lighthouse",
-                "title": "Setup Azure Lighthouse",
-                "toc_max_heading_level": 4,
-                "tags": [
-                  "Azure",
-                  "Lighthouse"
-                ]
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Azure Lighthouse",
-                "permalink": "/docs/category/azure-lighthouse"
               },
               "next": {
                 "title": "Disks",
@@ -1105,24 +1065,6 @@
                   },
                   {
                     "type": "category",
-                    "label": "Azure Lighthouse",
-                    "collapsible": true,
-                    "collapsed": true,
-                    "items": [
-                      {
-                        "type": "doc",
-                        "id": "Azure/Azure-Lighthouse/Setup Azure Lighthouse"
-                      }
-                    ],
-                    "link": {
-                      "type": "generated-index",
-                      "description": "Azure Docs.",
-                      "slug": "/category/azure-lighthouse",
-                      "permalink": "/docs/category/azure-lighthouse"
-                    }
-                  },
-                  {
-                    "type": "category",
                     "label": "Disks",
                     "collapsible": true,
                     "collapsed": true,
@@ -1469,6 +1411,62 @@
       "blogSidebarTitle": "Posts So Far",
       "blogPosts": [
         {
+          "id": "Setup-Azure-Lighthouse",
+          "metadata": {
+            "permalink": "/blog/Setup-Azure-Lighthouse",
+            "source": "@site/blog/2023-10-21-Setup-Lighthouse/Setup-AzureLighthouse.md",
+            "title": "Azure ligthhouse Setup",
+            "description": "The lesssons I have learned setting up Azure Ligthouse.",
+            "date": "2023-10-21T13:00:00.000Z",
+            "formattedDate": "October 21, 2023",
+            "tags": [
+              {
+                "label": "Azure",
+                "permalink": "/blog/tags/azure"
+              },
+              {
+                "label": "Lighthouse",
+                "permalink": "/blog/tags/lighthouse"
+              }
+            ],
+            "readingTime": 4.836666666666667,
+            "hasTruncateMarker": true,
+            "authors": [
+              {
+                "name": "Will",
+                "title": "Creator of the IT KB.",
+                "url": "https://github.com/BassJamm?tab=repositories"
+              }
+            ],
+            "frontMatter": {
+              "draft": false,
+              "title": "Azure ligthhouse Setup",
+              "description": "The lesssons I have learned setting up Azure Ligthouse.",
+              "slug": "Setup-Azure-Lighthouse",
+              "date": "2023-10-21T13:00",
+              "toc_max_heading_level": 5,
+              "authors": [
+                {
+                  "name": "Will",
+                  "title": "Creator of the IT KB.",
+                  "url": "https://github.com/BassJamm?tab=repositories"
+                }
+              ],
+              "tags": [
+                "Azure",
+                "Lighthouse"
+              ],
+              "image": "https://i.imgur.com/mErPwqL.png",
+              "hide_table_of_contents": false
+            },
+            "nextItem": {
+              "title": "Challenge 2 - Folder Size Report with PowerShell",
+              "permalink": "/blog/pwsh-challenge-002"
+            }
+          },
+          "content": "In this post, are the lessons learned when I first setup Azure Lighthouse as well as things I have picked up over the course of my year of using/supporting it within the company I work for.\n\n<!--truncate-->\n\nAzure Lighthouse serves as a central command hub for businesses and service providers in the Azure cloud. It simplifies the management of various Azure accounts, making it a breeze to oversee resources and services while boosting security and efficiency. Think of it as your go-to control center for all things Azure.\n\n## Online Reading\n\nBelow are some links that are good reading before you dig into setting up the application.\n\n- [Microsoft doc - What is Azure Lighthouse?](https://learn.microsoft.com/en-us/azure/lighthouse/overview).\n- [Microsoft doc - Onboard a customer to Azure Lighthouse](https://learn.microsoft.com/en-us/azure/lighthouse/how-to/onboard-customer).\n\n## Setup Guidance\n\nYou've got some key areas to think about here before you get started, Azure AD and your Azure Lighthouse offering/delegation. Before you get cracking think about the following:\n\n> These are all explained further down!\n\nAzure Active Directory:\n\n- Are you going to create seperate groups per department.\n- What is your naming convention going to be.\n\nAzure Lighthouse offering/delegation:\n\n- Offering Naming Convention (Client will see this).\n- Offering Description (Client will see this).\n- Authorisations.\n- Delegation Scopes (Subscription level or Resource Group Leve.)\n\n:::caution My Opinions\nI'd highly recommend reviewing the links mentioned in the Online Reading section for up to date information. The information following this point are from my notes.\n:::\n\n### Azure AD\n\nTo set things up, start by creating some groups within Azure AD. These groups will include the satff members who need access to the customer/client through Azure lighthouse. You have the flexibility to make these groups as detailed and numerous as needed.\n\nI recommend considering two key roles, these roles can be fine-tuned to meet your specific requirements:\n\n- *Azure Lighthouse Contributor*\n- *Azure Lighthouse Reader*\n\n:::tip Role Assignment to staff business roles.\nInitially, I attempted to set up separate groups for each department, such as Operations, Service Desk, and Finance. While this approach worked well for the technical teams, it didn't meet my expectations when it came to granting access to billing information for the Finance team. After extensive testing, I discovered that using direct or named accounts, or leveraging the Microsoft Partner Center, provided a more effective solution.\n:::\n\n### Azure Lighthouse Offering\n\n#### ARM Template\n\nBelow is an outline and suggestion for each relevant configurable options for the ARM template.\n\n:::info On-boarding multiple Subscriptions or Resource Groups for one client\\customer.\nYou have the option to delegate multiple resource groups and subscriptions all at once from the Service Providers dashboard within the customer's tenant. While the documentation might imply otherwise, it is indeed possible and functional.\n:::\n\n##### Offering Name\n\nWhen naming your offering, remember that it will be visible in your customer's tenant, so it's important that it looks good. I recommend using a format like this:\n\n- `Managing Company Name` Lighthouse Offering for `Customer Name` - `Subscription or Resource Group Name`.\n\nBe sure to replace the placeholders with the relevant details based on your naming convention.\n\n##### Description(s)\n\nThe description is customer-facing, so it should be clear and informative. Here's a suggested format:\n\n- `Managing Company Name` managed services offer for overseeing supported resources.\n- `Managing Company Name` offer for managing and overseeing project resources for `project or PO number`.\n\n##### Delegation Scope(s)\n\nYou have two options: `Subscription` and `Resource Group`. These choices are quite self-explanatory. However, it's important to note that you cannot change these after deployment, so be sure to select the one that suits your specific needs.\n\n##### Authorisations\n\nAuthorisations represent the roles you intend to assign to your pre-configured Azure AD groups. You have the flexibility to define these roles as either broad or specific, although I recommend a broader approach to minimize the need for creating or updating new delegations in the future.\n\n:::caution Broader Authorisations\nWhile this approach may sound appealing in theory, it's crucial to think about security. It may not be advisable if you are responsible for managing a small portion or a specific resource within your customer's environment. Additionally, consider the nature of your customer in this context.\n:::\n\n- **Principal type**: Group\n- **Name**: Choose one of the mentioned groups in the section above.\n- **Display Name**: Please do not edit. (This is the friendly name displayed in the customer's tenant, and it will default to the group name.)\n- **Role**: Assign the roles as indicated for the groups listed above.\n- **Access Type**: Permanent.\n\n### ARM template Example\n\nYou can skip the initial lines until you locate `mspOfferName`. In the vicinity of this, you'll find the description field. To make changes, modify the `defaultValue:` data, not the `description:` information.\n\n:::tip Confirming your scope\nLocate the line `\"$schema\": \"https://schema.management.azure.com/schemas/2019-08-01/subscriptionDeploymentTemplate.json#\",` and modify it to reflect either a subscription or resource deployment template, depending on your initial selection.\n:::\n\n\nSimilar situation with the `mspOfferDescription:` as well.\n\n```json showLineNumbers\n\"mspOfferName\": {\n   \"type\": \"string\",\n   \"metadata\": {\n    \"description\": \"Specify a unique name for your offer\"\n   },\n   \"defaultValue\": \"My Company Lighthouse Contributor Offer for Customer Name - Subscription Name \"\n  },\n\n  \"mspOfferDescription\": {\n   \"type\": \"string\",\n   \"metadata\": {\n    \"description\": \"Name of the Managed Service Provider offering\"\n   },\n   \"defaultValue\": \"My Company managed services offer to administer support resources.\"\n  }\n```\n\n\nLocate the `variables:` section to define your group and the Azure role assignments.\n\n- `managedByTenantId\"` - is your tenant or partner tenant ID.\n- `\"authorizations\":` - Are you Azure Roles assignments.\n- `\"principalId\"` - Is your object in the managing tenant.\n- `\"roleDefinitionId\"` - Is the Azure AD role you've assigned. In the case below, it's `Contributor` and the `Managed Services Registration assignment Delete` roles.\n- `\"principalIdDisplayName\"` - Is your friendly Group name, this will show in your customer tenant, it does not need to match the group name in the managing tenant.\n\nYou'll see some of the information repeated for each role you assign to the same object in the managing tenant.\n\n```json showLineNumbers\n\"variables\": {\n  \"mspRegistrationName\": \"[guid(parameters('mspOfferName'))]\",\n  \"mspAssignmentName\": \"[guid(parameters('mspOfferName'))]\",\n  \"managedByTenantId\": \"Your tenant ID\",\n  \"authorizations\": [\n   {\n    \"principalId\": \"Your object in the managing tenant\",\n    \"roleDefinitionId\": \"Id-number-here\",\n    \"principalIdDisplayName\": \"Lighthouse Contributor\"\n   },\n   {\n    \"principalId\": \"Your object in the managing tenant\",\n    \"roleDefinitionId\": \"Id-number-here\",\n    \"principalIdDisplayName\": \"Lighthouse Contributor\"\n   }\n  ]\n },\n ```\n\n:::tip You can edit the JSON template directly!\nYou don't need to always duck back into Azure Lighthouse to create the templates, you can just edit the JSON files if you're comfortable doing so.\n:::\n\n## Using Lighthouse\n\nAfter setting up and assigning your Lighthouse delegations to your staff, there's no specific action required to access Azure Lighthouse. It's consistently available. Below, we provide two methods to verify the status of your delegations.\n\n### Via the Lighthouse blade\n\n1. Open the **Azure Management Portal**.\n2. Search for **Azure Lighthouse**.\n3. Click on the **Delegations** option on the left-hand side, you may need to click manage my customers if you’ve no connections.\n4. You will then see your list of your customer’s subscriptions that you have access to.\n\n### Via the subscriptions blade\n\n> You'll need to show the customer in the subscription filter first though.\n\n1. Open the **Azure Management Portal**.\n2. Navigate to the **Subscriptions blade**.\n3. The list of subscriptions will also list the customer subscriptions you have access too.\n4. In the **Azure portal**, Select the **Directory + subscriptions** or **Settings icon** in the top right of the page.\n5. In the Directories + subscriptions settings page, ensure that the **Advanced filters toggle is turned off**.\n6. In the Default subscription filter section, **select the appropriate directory** and subscription.\n\n:::info\nIf you have been granted access to one or more resource groups, rather than to an entire subscription, select the subscription to which that resource group belongs. You'll then work in the context of that subscription, but will only be able to access the designated resource group(s).\n:::\n\n## Partner Earned Credit (PEC) using PAL\n\nPAL (Partner Admin Link) is how a partner can be recognized by Microsoft for their work in Azure on-behalf-of their customer.\n\n- [Microsoft doc - Associate your partner ID when you onboard new customers vai Lighthouse](https://learn.microsoft.com/en-us/azure/lighthouse/how-to/partner-earned-credit#associate-your-partner-id-when-you-onboard-new-customers).\n- [Microsoft doc - Link a PartnerID with PAL or DPOR for PAL](https://learn.microsoft.com/en-us/partner-center/link-partner-id-for-azure-performance-pal-dpor#link-to-a-partnerid-with-pal)\n\nTo do this via Lighthouse, in a nutshell.\n\n1. [**Create a service principal**](https://learn.microsoft.com/en-us/azure/active-directory/develop/howto-authenticate-service-principal-powershell) user account in your managing tenant.\n2. Using that service principal account, [**link to your Associated Partner ID**](https://learn.microsoft.com/en-us/azure/cost-management-billing/manage/link-partner-id#link-to-a-partner-id) in your managing tenant.\n3. Include at least one authorization which includes the service principal Account as a user with an Azure built-in role that is eligible for PEC.\n\n:::caution\nThis role must be granted as a permanent assignment, not as a just-in-time eligible authorization, in order for PEC to apply.\n:::"
+        },
+        {
           "id": "pwsh-challenge-002",
           "metadata": {
             "permalink": "/blog/pwsh-challenge-002",
@@ -1520,6 +1518,10 @@
               ],
               "image": "https://cdn.hashnode.com/res/hashnode/image/upload/v1690624765820/c7da8f32-0c1e-4ca0-a807-bb4efe449c18.png?w=1600&h=840&fit=crop&crop=entropy&auto=compress,format&format=webp",
               "hide_table_of_contents": false
+            },
+            "prevItem": {
+              "title": "Azure ligthhouse Setup",
+              "permalink": "/blog/Setup-Azure-Lighthouse"
             },
             "nextItem": {
               "title": "Microsoft Defender for Endpoint Woes",
@@ -1707,6 +1709,7 @@
       "blogListPaginated": [
         {
           "items": [
+            "Setup-Azure-Lighthouse",
             "pwsh-challenge-002",
             "Defender-for-Endpoint-Woes",
             "pwsh-challenge-001",
@@ -1715,15 +1718,63 @@
           "metadata": {
             "permalink": "/blog/",
             "page": 1,
-            "postsPerPage": 4,
+            "postsPerPage": 5,
             "totalPages": 1,
-            "totalCount": 4,
+            "totalCount": 5,
             "blogDescription": "Blog",
             "blogTitle": "Blog"
           }
         }
       ],
       "blogTags": {
+        "/blog/tags/azure": {
+          "label": "Azure",
+          "items": [
+            "Setup-Azure-Lighthouse",
+            "Defender-for-Endpoint-Woes"
+          ],
+          "permalink": "/blog/tags/azure",
+          "pages": [
+            {
+              "items": [
+                "Setup-Azure-Lighthouse",
+                "Defender-for-Endpoint-Woes"
+              ],
+              "metadata": {
+                "permalink": "/blog/tags/azure",
+                "page": 1,
+                "postsPerPage": 2,
+                "totalPages": 1,
+                "totalCount": 2,
+                "blogDescription": "Blog",
+                "blogTitle": "Blog"
+              }
+            }
+          ]
+        },
+        "/blog/tags/lighthouse": {
+          "label": "Lighthouse",
+          "items": [
+            "Setup-Azure-Lighthouse"
+          ],
+          "permalink": "/blog/tags/lighthouse",
+          "pages": [
+            {
+              "items": [
+                "Setup-Azure-Lighthouse"
+              ],
+              "metadata": {
+                "permalink": "/blog/tags/lighthouse",
+                "page": 1,
+                "postsPerPage": 1,
+                "totalPages": 1,
+                "totalCount": 1,
+                "blogDescription": "Blog",
+                "blogTitle": "Blog"
+              }
+            }
+          ]
+        },
         "/blog/tags/power-shell": {
           "label": "PowerShell",
           "items": [
@@ -1812,29 +1863,6 @@
               ],
               "metadata": {
                 "permalink": "/blog/tags/defender",
-                "page": 1,
-                "postsPerPage": 1,
-                "totalPages": 1,
-                "totalCount": 1,
-                "blogDescription": "Blog",
-                "blogTitle": "Blog"
-              }
-            }
-          ]
-        },
-        "/blog/tags/azure": {
-          "label": "Azure",
-          "items": [
-            "Defender-for-Endpoint-Woes"
-          ],
-          "permalink": "/blog/tags/azure",
-          "pages": [
-            {
-              "items": [
-                "Defender-for-Endpoint-Woes"
-              ],
-              "metadata": {
-                "permalink": "/blog/tags/azure",
                 "page": 1,
                 "postsPerPage": 1,
                 "totalPages": 1,

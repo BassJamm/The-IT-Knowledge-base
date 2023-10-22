@@ -26,6 +26,7 @@
   "version": "current",
   "sidebarPosition": 1,
   "frontMatter": {
+    "draft": true,
     "sidebar_position": 1,
     "toc_max_heading_level": 4,
     "id": "Setup Azure Backup",
@@ -45,7 +46,7 @@
     "permalink": "/docs/category/azure-backup"
   },
   "next": {
-    "title": "Azure Lighthouse",
-    "permalink": "/docs/category/azure-lighthouse"
+    "title": "Disks",
+    "permalink": "/docs/category/disks"
   }
 }

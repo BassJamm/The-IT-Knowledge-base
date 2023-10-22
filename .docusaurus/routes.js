@@ -4,7 +4,7 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 export default [
   {
     path: '/blog/',
-    component: ComponentCreator('/blog/', '91a'),
+    component: ComponentCreator('/blog/', '75b'),
     exact: true
   },
   {
@@ -28,13 +28,18 @@ export default [
     exact: true
   },
   {
+    path: '/blog/Setup-Azure-Lighthouse',
+    component: ComponentCreator('/blog/Setup-Azure-Lighthouse', '939'),
+    exact: true
+  },
+  {
     path: '/blog/tags',
     component: ComponentCreator('/blog/tags', '2ec'),
     exact: true
   },
   {
     path: '/blog/tags/azure',
-    component: ComponentCreator('/blog/tags/azure', '123'),
+    component: ComponentCreator('/blog/tags/azure', 'dc4'),
     exact: true
   },
   {
@@ -55,6 +60,11 @@ export default [
   {
     path: '/blog/tags/hello',
     component: ComponentCreator('/blog/tags/hello', 'a75'),
+    exact: true
+  },
+  {
+    path: '/blog/tags/lighthouse',
+    component: ComponentCreator('/blog/tags/lighthouse', '1d8'),
     exact: true
   },
   {
@@ -83,11 +93,6 @@ export default [
     exact: true
   },
   {
-    path: '/docs/tags/automation',
-    component: ComponentCreator('/docs/tags/automation', '42c'),
-    exact: true
-  },
-  {
     path: '/docs/tags/autopilot',
     component: ComponentCreator('/docs/tags/autopilot', '7a7'),
     exact: true
@@ -100,11 +105,6 @@ export default [
   {
     path: '/docs/tags/azure-ad',
     component: ComponentCreator('/docs/tags/azure-ad', 'd86'),
-    exact: true
-  },
-  {
-    path: '/docs/tags/azure-backup',
-    component: ComponentCreator('/docs/tags/azure-backup', '3aa'),
     exact: true
   },
   {
@@ -143,28 +143,13 @@ export default [
     exact: true
   },
   {
-    path: '/docs/tags/lighthouse',
-    component: ComponentCreator('/docs/tags/lighthouse', '51f'),
-    exact: true
-  },
-  {
     path: '/docs/tags/power-shell',
     component: ComponentCreator('/docs/tags/power-shell', '1ce'),
     exact: true
   },
   {
-    path: '/docs/tags/resource-creation',
-    component: ComponentCreator('/docs/tags/resource-creation', '309'),
-    exact: true
-  },
-  {
     path: '/docs/tags/restore',
     component: ComponentCreator('/docs/tags/restore', '1de'),
-    exact: true
-  },
-  {
-    path: '/docs/tags/scripting',
-    component: ComponentCreator('/docs/tags/scripting', '5fc'),
     exact: true
   },
   {
@@ -184,7 +169,7 @@ export default [
   },
   {
     path: '/docs/',
-    component: ComponentCreator('/docs/', '1c4'),
+    component: ComponentCreator('/docs/', '686'),
     routes: [
       {
         path: '/docs/',
@@ -201,24 +186,6 @@ export default [
       {
         path: '/docs/Azure-Active-Directory/Conditional-Access/Useful Conditional Access Policies',
         component: ComponentCreator('/docs/Azure-Active-Directory/Conditional-Access/Useful Conditional Access Policies', 'eb0'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/Azure/Automation/Create an Automation Account',
-        component: ComponentCreator('/docs/Azure/Automation/Create an Automation Account', 'f0d'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/Azure/Azure-Backup/Setup Azure Backup',
-        component: ComponentCreator('/docs/Azure/Azure-Backup/Setup Azure Backup', '637'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/Azure/Azure-Lighthouse/Setup Azure Lighthouse',
-        component: ComponentCreator('/docs/Azure/Azure-Lighthouse/Setup Azure Lighthouse', '835'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
@@ -241,12 +208,6 @@ export default [
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/category/automation',
-        component: ComponentCreator('/docs/category/automation', '5c6'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
         path: '/docs/category/autopilot',
         component: ComponentCreator('/docs/category/autopilot', 'ea8'),
         exact: true,
@@ -261,18 +222,6 @@ export default [
       {
         path: '/docs/category/azure-active-directory',
         component: ComponentCreator('/docs/category/azure-active-directory', 'e1f'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/category/azure-backup',
-        component: ComponentCreator('/docs/category/azure-backup', 'e40'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/category/azure-lighthouse',
-        component: ComponentCreator('/docs/category/azure-lighthouse', '79a'),
         exact: true,
         sidebar: "tutorialSidebar"
       },

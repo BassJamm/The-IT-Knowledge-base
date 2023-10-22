@@ -2,31 +2,13 @@
   "label": "Azure",
   "permalink": "/docs/tags/azure",
   "allTagsPath": "/docs/tags",
-  "count": 4,
+  "count": 1,
   "items": [
-    {
-      "id": "Azure/Automation/Create an Automation Account",
-      "title": "Create an Automation Account",
-      "description": "Create an Automation Account for script automation in Azure.",
-      "permalink": "/docs/Azure/Automation/Create an Automation Account"
-    },
     {
       "id": "Azure/Disks/Restore data from a Snapshot",
       "title": "Restore data from a Snapshot",
       "description": "Restore data from a Snapshot.",
       "permalink": "/docs/Azure/Disks/Restore data from a Snapshot"
-    },
-    {
-      "id": "Azure/Azure-Backup/Setup Azure Backup",
-      "title": "Setup Azure Backup",
-      "description": "Suggestions for setting up Azure Backup.",
-      "permalink": "/docs/Azure/Azure-Backup/Setup Azure Backup"
-    },
-    {
-      "id": "Azure/Azure-Lighthouse/Setup Azure Lighthouse",
-      "title": "Setup Azure Lighthouse",
-      "description": "Document Control",
-      "permalink": "/docs/Azure/Azure-Lighthouse/Setup Azure Lighthouse"
     }
   ]
 }

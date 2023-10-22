@@ -2,6 +2,10 @@
   "title": "Posts So Far",
   "items": [
     {
+      "title": "Azure ligthhouse Setup",
+      "permalink": "/blog/Setup-Azure-Lighthouse"
+    },
+    {
       "title": "Challenge 2 - Folder Size Report with PowerShell",
       "permalink": "/blog/pwsh-challenge-002"
     },

@@ -1,4 +1,12 @@
 {
+  "docusaurus-lunr-search": {
+    "default": {
+      "fileNames": {
+        "searchDoc": "search-doc-1697969423572.json",
+        "lunrIndex": "lunr-index-1697969423572.json"
+      }
+    }
+  },
   "docusaurus-plugin-google-gtag": {
     "default": {
       "trackingID": [
@@ -6,14 +14,6 @@
       ],
       "anonymizeIP": true,
       "id": "default"
-    }
-  },
-  "docusaurus-lunr-search": {
-    "default": {
-      "fileNames": {
-        "searchDoc": "search-doc-1697279122078.json",
-        "lunrIndex": "lunr-index-1697279122078.json"
-      }
     }
   },
   "docusaurus-plugin-content-docs": {
@@ -35,21 +35,6 @@
             {
               "id": "Azure-Active-Directory/Conditional-Access/Useful Conditional Access Policies",
               "path": "/docs/Azure-Active-Directory/Conditional-Access/Useful Conditional Access Policies",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "Azure/Automation/Create an Automation Account",
-              "path": "/docs/Azure/Automation/Create an Automation Account",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "Azure/Azure-Backup/Setup Azure Backup",
-              "path": "/docs/Azure/Azure-Backup/Setup Azure Backup",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "Azure/Azure-Lighthouse/Setup Azure Lighthouse",
-              "path": "/docs/Azure/Azure-Lighthouse/Setup Azure Lighthouse",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -148,21 +133,6 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "/category/automation",
-              "path": "/docs/category/automation",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "/category/azure-backup",
-              "path": "/docs/category/azure-backup",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "/category/azure-lighthouse",
-              "path": "/docs/category/azure-lighthouse",
-              "sidebar": "tutorialSidebar"
-            },
-            {
               "id": "/category/disks",
               "path": "/docs/category/disks",
               "sidebar": "tutorialSidebar"
@@ -253,7 +223,10 @@
               "sidebar": "tutorialSidebar"
             }
           ],
-          "draftIds": [],
+          "draftIds": [
+            "Azure/Automation/Create an Automation Account",
+            "Azure/Azure-Backup/Setup Azure Backup"
+          ],
           "sidebars": {
             "tutorialSidebar": {
               "link": {

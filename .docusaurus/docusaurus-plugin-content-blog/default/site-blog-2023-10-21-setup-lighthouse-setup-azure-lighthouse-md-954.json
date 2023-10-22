@@ -1,0 +1,52 @@
+{
+  "permalink": "/blog/Setup-Azure-Lighthouse",
+  "source": "@site/blog/2023-10-21-Setup-Lighthouse/Setup-AzureLighthouse.md",
+  "title": "Azure ligthhouse Setup",
+  "description": "The lesssons I have learned setting up Azure Ligthouse.",
+  "date": "2023-10-21T13:00:00.000Z",
+  "formattedDate": "October 21, 2023",
+  "tags": [
+    {
+      "label": "Azure",
+      "permalink": "/blog/tags/azure"
+    },
+    {
+      "label": "Lighthouse",
+      "permalink": "/blog/tags/lighthouse"
+    }
+  ],
+  "readingTime": 4.836666666666667,
+  "hasTruncateMarker": true,
+  "authors": [
+    {
+      "name": "Will",
+      "title": "Creator of the IT KB.",
+      "url": "https://github.com/BassJamm?tab=repositories"
+    }
+  ],
+  "frontMatter": {
+    "draft": false,
+    "title": "Azure ligthhouse Setup",
+    "description": "The lesssons I have learned setting up Azure Ligthouse.",
+    "slug": "Setup-Azure-Lighthouse",
+    "date": "2023-10-21T13:00",
+    "toc_max_heading_level": 5,
+    "authors": [
+      {
+        "name": "Will",
+        "title": "Creator of the IT KB.",
+        "url": "https://github.com/BassJamm?tab=repositories"
+      }
+    ],
+    "tags": [
+      "Azure",
+      "Lighthouse"
+    ],
+    "image": "https://i.imgur.com/mErPwqL.png",
+    "hide_table_of_contents": false
+  },
+  "nextItem": {
+    "title": "Challenge 2 - Folder Size Report with PowerShell",
+    "permalink": "/blog/pwsh-challenge-002"
+  }
+}

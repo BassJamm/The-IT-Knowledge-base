@@ -21,6 +21,7 @@
   "version": "current",
   "sidebarPosition": 1,
   "frontMatter": {
+    "draft": true,
     "sidebar_position": 1,
     "id": "Setup Azure Lighthouse",
     "title": "Setup Azure Lighthouse",

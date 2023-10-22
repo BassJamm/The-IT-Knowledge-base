@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[8322],{5863:e=>{e.exports=JSON.parse('{"title":"Azure","description":"Azure Docs.","slug":"/category/azure","permalink":"/docs/category/azure","navigation":{"previous":{"title":"Welcome to the Wiki","permalink":"/docs/"},"next":{"title":"Automation","permalink":"/docs/category/automation"}}}')}}]);

@@ -1,11 +1,14 @@
 {
-  "/blog/-91a": {
+  "/blog/-75b": {
     "__comp": "a6aa9e1f",
     "__context": {
       "plugin": "b1f0dd6c"
     },
     "sidebar": "814f3328",
     "items": [
+      {
+        "content": "ece705f2"
+      },
       {
         "content": "1e18dbdf"
       },
@@ -52,6 +55,14 @@
     "sidebar": "814f3328",
     "content": "d8186090"
   },
+  "/blog/Setup-Azure-Lighthouse-939": {
+    "__comp": "ccc49370",
+    "__context": {
+      "plugin": "b1f0dd6c"
+    },
+    "sidebar": "814f3328",
+    "content": "95482ffb"
+  },
   "/blog/tags-2ec": {
     "__comp": "01a85c17",
     "__context": {
@@ -60,13 +71,16 @@
     "sidebar": "814f3328",
     "tags": "a7023ddc"
   },
-  "/blog/tags/azure-123": {
+  "/blog/tags/azure-dc4": {
     "__comp": "6875c492",
     "__context": {
       "plugin": "b1f0dd6c"
     },
     "sidebar": "814f3328",
     "items": [
+      {
+        "content": "ece705f2"
+      },
       {
         "content": "3d905fbe"
       }
@@ -133,6 +147,20 @@
     "tag": "30a24c52",
     "listMetadata": "66406991"
   },
+  "/blog/tags/lighthouse-1d8": {
+    "__comp": "6875c492",
+    "__context": {
+      "plugin": "b1f0dd6c"
+    },
+    "sidebar": "814f3328",
+    "items": [
+      {
+        "content": "ece705f2"
+      }
+    ],
+    "tag": "fcd8a25a",
+    "listMetadata": "c08bebca"
+  },
   "/blog/tags/power-shell-c70": {
     "__comp": "6875c492",
     "__context": {
@@ -189,13 +217,6 @@
     },
     "tag": "3758c7e7"
   },
-  "/docs/tags/automation-42c": {
-    "__comp": "df203c0f",
-    "__context": {
-      "plugin": "b0ccbe94"
-    },
-    "tag": "3b360413"
-  },
   "/docs/tags/autopilot-7a7": {
     "__comp": "df203c0f",
     "__context": {
@@ -216,13 +237,6 @@
       "plugin": "b0ccbe94"
     },
     "tag": "48e4e6f3"
-  },
-  "/docs/tags/azure-backup-3aa": {
-    "__comp": "df203c0f",
-    "__context": {
-      "plugin": "b0ccbe94"
-    },
-    "tag": "518c9e7c"
   },
   "/docs/tags/certificates-074": {
     "__comp": "df203c0f",
@@ -273,13 +287,6 @@
     },
     "tag": "5d2620c1"
   },
-  "/docs/tags/lighthouse-51f": {
-    "__comp": "df203c0f",
-    "__context": {
-      "plugin": "b0ccbe94"
-    },
-    "tag": "aa421edc"
-  },
   "/docs/tags/power-shell-1ce": {
     "__comp": "df203c0f",
     "__context": {
@@ -287,26 +294,12 @@
     },
     "tag": "e4cdc878"
   },
-  "/docs/tags/resource-creation-309": {
-    "__comp": "df203c0f",
-    "__context": {
-      "plugin": "b0ccbe94"
-    },
-    "tag": "b1e615bb"
-  },
   "/docs/tags/restore-1de": {
     "__comp": "df203c0f",
     "__context": {
       "plugin": "b0ccbe94"
     },
     "tag": "3184d1e4"
-  },
-  "/docs/tags/scripting-5fc": {
-    "__comp": "df203c0f",
-    "__context": {
-      "plugin": "b0ccbe94"
-    },
-    "tag": "d4e0ba98"
   },
   "/docs/tags/snapshot-3e6": {
     "__comp": "df203c0f",
@@ -329,7 +322,7 @@
     },
     "content": "393be207"
   },
-  "/docs/-1c4": {
+  "/docs/-686": {
     "__comp": "1be78505",
     "__context": {
       "plugin": "b0ccbe94"
@@ -348,18 +341,6 @@
     "__comp": "17896441",
     "content": "76a0f6ea"
   },
-  "/docs/Azure/Automation/Create an Automation Account-f0d": {
-    "__comp": "17896441",
-    "content": "840bbaa4"
-  },
-  "/docs/Azure/Azure-Backup/Setup Azure Backup-637": {
-    "__comp": "17896441",
-    "content": "944b0593"
-  },
-  "/docs/Azure/Azure-Lighthouse/Setup Azure Lighthouse-835": {
-    "__comp": "17896441",
-    "content": "495afce5"
-  },
   "/docs/Azure/Disks/Restore data from a Snapshot-a3e": {
     "__comp": "17896441",
     "content": "8d8373b0"
@@ -372,10 +353,6 @@
     "__comp": "14eb3368",
     "categoryGeneratedIndex": "eb987be4"
   },
-  "/docs/category/automation-5c6": {
-    "__comp": "14eb3368",
-    "categoryGeneratedIndex": "2913656e"
-  },
   "/docs/category/autopilot-ea8": {
     "__comp": "14eb3368",
     "categoryGeneratedIndex": "8409821f"
@@ -387,14 +364,6 @@
   "/docs/category/azure-active-directory-e1f": {
     "__comp": "14eb3368",
     "categoryGeneratedIndex": "49bfb57d"
-  },
-  "/docs/category/azure-backup-e40": {
-    "__comp": "14eb3368",
-    "categoryGeneratedIndex": "c0f4626d"
-  },
-  "/docs/category/azure-lighthouse-79a": {
-    "__comp": "14eb3368",
-    "categoryGeneratedIndex": "c732fd87"
   },
   "/docs/category/azure-module-599": {
     "__comp": "14eb3368",

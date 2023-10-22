@@ -23,51 +23,6 @@
         "items": [
           {
             "type": "category",
-            "label": "Automation",
-            "collapsible": true,
-            "collapsed": true,
-            "items": [
-              {
-                "type": "link",
-                "label": "Create an Automation Account",
-                "href": "/docs/Azure/Automation/Create an Automation Account",
-                "docId": "Azure/Automation/Create an Automation Account"
-              }
-            ],
-            "href": "/docs/category/automation"
-          },
-          {
-            "type": "category",
-            "label": "Azure Backup",
-            "collapsible": true,
-            "collapsed": true,
-            "items": [
-              {
-                "type": "link",
-                "label": "Setup Azure Backup",
-                "href": "/docs/Azure/Azure-Backup/Setup Azure Backup",
-                "docId": "Azure/Azure-Backup/Setup Azure Backup"
-              }
-            ],
-            "href": "/docs/category/azure-backup"
-          },
-          {
-            "type": "category",
-            "label": "Azure Lighthouse",
-            "collapsible": true,
-            "collapsed": true,
-            "items": [
-              {
-                "type": "link",
-                "label": "Setup Azure Lighthouse",
-                "href": "/docs/Azure/Azure-Lighthouse/Setup Azure Lighthouse",
-                "docId": "Azure/Azure-Lighthouse/Setup Azure Lighthouse"
-              }
-            ],
-            "href": "/docs/category/azure-lighthouse"
-          },
-          {
-            "type": "category",
             "label": "Disks",
             "collapsible": true,
             "collapsed": true,
@@ -358,24 +313,6 @@
       "id": "Azure-Active-Directory/Conditional-Access/Useful Conditional Access Policies",
       "title": "Useful Conditional Access Policies",
       "description": "Descibes the settings an uses of some good Conditional Access policies to setup.",
-      "sidebar": "tutorialSidebar"
-    },
-    "Azure/Automation/Create an Automation Account": {
-      "id": "Azure/Automation/Create an Automation Account",
-      "title": "Create an Automation Account",
-      "description": "Create an Automation Account for script automation in Azure.",
-      "sidebar": "tutorialSidebar"
-    },
-    "Azure/Azure-Backup/Setup Azure Backup": {
-      "id": "Azure/Azure-Backup/Setup Azure Backup",
-      "title": "Setup Azure Backup",
-      "description": "Suggestions for setting up Azure Backup.",
-      "sidebar": "tutorialSidebar"
-    },
-    "Azure/Azure-Lighthouse/Setup Azure Lighthouse": {
-      "id": "Azure/Azure-Lighthouse/Setup Azure Lighthouse",
-      "title": "Setup Azure Lighthouse",
-      "description": "Document Control",
       "sidebar": "tutorialSidebar"
     },
     "Azure/Disks/Restore data from a Snapshot": {

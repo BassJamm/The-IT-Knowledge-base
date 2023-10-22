@@ -5,8 +5,8 @@
   "permalink": "/docs/category/disks",
   "navigation": {
     "previous": {
-      "title": "Setup Azure Lighthouse",
-      "permalink": "/docs/Azure/Azure-Lighthouse/Setup Azure Lighthouse"
+      "title": "Azure",
+      "permalink": "/docs/category/azure"
     },
     "next": {
       "title": "Restore data from a Snapshot",

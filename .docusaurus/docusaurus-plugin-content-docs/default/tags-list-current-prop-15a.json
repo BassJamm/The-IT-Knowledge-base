@@ -12,31 +12,6 @@
   {
     "label": "Azure",
     "permalink": "/docs/tags/azure",
-    "count": 4
-  },
-  {
-    "label": "Automation",
-    "permalink": "/docs/tags/automation",
-    "count": 1
-  },
-  {
-    "label": "Scripting",
-    "permalink": "/docs/tags/scripting",
-    "count": 1
-  },
-  {
-    "label": "Resource Creation",
-    "permalink": "/docs/tags/resource-creation",
-    "count": 2
-  },
-  {
-    "label": "Azure Backup",
-    "permalink": "/docs/tags/azure-backup",
-    "count": 1
-  },
-  {
-    "label": "Lighthouse",
-    "permalink": "/docs/tags/lighthouse",
     "count": 1
   },
   {
