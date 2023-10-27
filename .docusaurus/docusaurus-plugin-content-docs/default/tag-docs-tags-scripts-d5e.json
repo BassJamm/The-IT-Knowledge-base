@@ -5,10 +5,10 @@
   "count": 1,
   "items": [
     {
-      "id": "Scripts/Windows OS Scripts",
-      "title": "Windows OS Scripts",
-      "description": "Windows OS Scripts and re-usable code.",
-      "permalink": "/docs/Scripts/Windows OS Scripts"
+      "id": "Intune/Remediation-Scripts/Remediation Scripts",
+      "title": "Remediation Scripts",
+      "description": "Document contains remediation scripts for use.",
+      "permalink": "/docs/Intune/Remediation-Scripts/"
     }
   ]
 }

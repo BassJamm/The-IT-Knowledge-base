@@ -35,14 +35,34 @@
     "count": 1
   },
   {
+    "label": "Intune",
+    "permalink": "/docs/tags/intune",
+    "count": 5
+  },
+  {
+    "label": "Application",
+    "permalink": "/docs/tags/application",
+    "count": 2
+  },
+  {
+    "label": "Script",
+    "permalink": "/docs/tags/script",
+    "count": 2
+  },
+  {
     "label": "Autopilot",
     "permalink": "/docs/tags/autopilot",
     "count": 2
   },
   {
-    "label": "Intune",
-    "permalink": "/docs/tags/intune",
-    "count": 2
+    "label": "Remediation",
+    "permalink": "/docs/tags/remediation",
+    "count": 1
+  },
+  {
+    "label": "Scripts",
+    "permalink": "/docs/tags/scripts",
+    "count": 1
   },
   {
     "label": "Command Line",

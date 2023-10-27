@@ -11,10 +11,10 @@
       "permalink": "/docs/PowerShell/Az/Code Snippet"
     },
     {
-      "id": "PowerShell/PowerShell-cheatsheet/Code-Snippets",
+      "id": "PowerShell/PowerShell/Code-Snippets",
       "title": "Code-Snippets",
       "description": "All things PowerShell.",
-      "permalink": "/docs/PowerShell/PowerShell-cheatsheet/Code-Snippets"
+      "permalink": "/docs/PowerShell/PowerShell/Code-Snippets"
     },
     {
       "id": "PowerShell/Az/Command Reference",
@@ -23,10 +23,10 @@
       "permalink": "/docs/PowerShell/Az/Command Reference"
     },
     {
-      "id": "PowerShell/PowerShell-cheatsheet/Command Reference",
+      "id": "PowerShell/PowerShell/Command Reference",
       "title": "Command Reference",
       "description": "All things PowerShell.",
-      "permalink": "/docs/PowerShell/PowerShell-cheatsheet/Command Reference"
+      "permalink": "/docs/PowerShell/PowerShell/Command Reference"
     }
   ]
 }

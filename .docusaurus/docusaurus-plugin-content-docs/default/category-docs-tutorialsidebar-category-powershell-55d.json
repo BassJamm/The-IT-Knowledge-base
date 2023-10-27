@@ -4,8 +4,8 @@
   "permalink": "/docs/category/powershell",
   "navigation": {
     "previous": {
-      "title": "Windows Device Config",
-      "permalink": "/docs/Intune/Device-Configuration-&-Oboarding/Windows Device Config"
+      "title": "Remediation Scripts",
+      "permalink": "/docs/Intune/Remediation-Scripts/"
     },
     "next": {
       "title": "Azure Module",

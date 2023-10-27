@@ -143,6 +143,27 @@
         "items": [
           {
             "type": "category",
+            "label": "App Deployments",
+            "collapsible": true,
+            "collapsed": true,
+            "items": [
+              {
+                "type": "link",
+                "label": "Destroy McAfee",
+                "href": "/docs/Intune/Application-Deployments/Uninstall McAfee",
+                "docId": "Intune/Application-Deployments/Uninstall McAfee"
+              },
+              {
+                "type": "link",
+                "label": "EveryOne Print",
+                "href": "/docs/Intune/Application-Deployments/EveryOne Print",
+                "docId": "Intune/Application-Deployments/EveryOne Print"
+              }
+            ],
+            "href": "/docs/category/app-deployments"
+          },
+          {
+            "type": "category",
             "label": "Autopilot",
             "collapsible": true,
             "collapsed": true,
@@ -176,6 +197,21 @@
               }
             ],
             "href": "/docs/category/device-configon-boarding"
+          },
+          {
+            "type": "category",
+            "label": "Remediation Scripts",
+            "collapsible": true,
+            "collapsed": true,
+            "items": [
+              {
+                "type": "link",
+                "label": "Remediation Scripts",
+                "href": "/docs/Intune/Remediation-Scripts/",
+                "docId": "Intune/Remediation-Scripts/Remediation Scripts"
+              }
+            ],
+            "href": "/docs/category/remediation-scripts"
           }
         ],
         "href": "/docs/category/intune"
@@ -231,14 +267,14 @@
               {
                 "type": "link",
                 "label": "Code-Snippets",
-                "href": "/docs/PowerShell/PowerShell-cheatsheet/Code-Snippets",
-                "docId": "PowerShell/PowerShell-cheatsheet/Code-Snippets"
+                "href": "/docs/PowerShell/PowerShell/Code-Snippets",
+                "docId": "PowerShell/PowerShell/Code-Snippets"
               },
               {
                 "type": "link",
                 "label": "Command Reference",
-                "href": "/docs/PowerShell/PowerShell-cheatsheet/Command Reference",
-                "docId": "PowerShell/PowerShell-cheatsheet/Command Reference"
+                "href": "/docs/PowerShell/PowerShell/Command Reference",
+                "docId": "PowerShell/PowerShell/Command Reference"
               }
             ],
             "href": "/docs/category/powershell-1"
@@ -351,6 +387,18 @@
       "description": "Reinstate admin privileges for a customer's Azure CSP subscriptions.",
       "sidebar": "tutorialSidebar"
     },
+    "Intune/Application-Deployments/EveryOne Print": {
+      "id": "Intune/Application-Deployments/EveryOne Print",
+      "title": "Deploy EveryOne Print",
+      "description": "Documents how to deploy EveryOne Print.",
+      "sidebar": "tutorialSidebar"
+    },
+    "Intune/Application-Deployments/Uninstall McAfee": {
+      "id": "Intune/Application-Deployments/Uninstall McAfee",
+      "title": "Uninstall McAfee",
+      "description": "Documents how to deploy McAfee.",
+      "sidebar": "tutorialSidebar"
+    },
     "Intune/Autopilot/Autopilot Setup Suggestions": {
       "id": "Intune/Autopilot/Autopilot Setup Suggestions",
       "title": "Autopilot Setup Suggestions",
@@ -367,6 +415,12 @@
       "id": "Intune/Device-Configuration-&-Oboarding/Windows Device Config",
       "title": "Useful Windows Device Configuration",
       "description": "This doc lists out the basic configurations for Windows in intune.",
+      "sidebar": "tutorialSidebar"
+    },
+    "Intune/Remediation-Scripts/Remediation Scripts": {
+      "id": "Intune/Remediation-Scripts/Remediation Scripts",
+      "title": "Remediation Scripts",
+      "description": "Document contains remediation scripts for use.",
       "sidebar": "tutorialSidebar"
     },
     "PowerShell/Az/Code Snippet": {
@@ -387,14 +441,14 @@
       "description": "Git command line refernce.",
       "sidebar": "tutorialSidebar"
     },
-    "PowerShell/PowerShell-cheatsheet/Code-Snippets": {
-      "id": "PowerShell/PowerShell-cheatsheet/Code-Snippets",
+    "PowerShell/PowerShell/Code-Snippets": {
+      "id": "PowerShell/PowerShell/Code-Snippets",
       "title": "Code-Snippets",
       "description": "All things PowerShell.",
       "sidebar": "tutorialSidebar"
     },
-    "PowerShell/PowerShell-cheatsheet/Command Reference": {
-      "id": "PowerShell/PowerShell-cheatsheet/Command Reference",
+    "PowerShell/PowerShell/Command Reference": {
+      "id": "PowerShell/PowerShell/Command Reference",
       "title": "Command Reference",
       "description": "All things PowerShell.",
       "sidebar": "tutorialSidebar"

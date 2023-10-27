@@ -1,0 +1,15 @@
+{
+  "title": "Remediation Scripts",
+  "slug": "/category/remediation-scripts",
+  "permalink": "/docs/category/remediation-scripts",
+  "navigation": {
+    "previous": {
+      "title": "Windows Device Config",
+      "permalink": "/docs/Intune/Device-Configuration-&-Oboarding/Windows Device Config"
+    },
+    "next": {
+      "title": "Remediation Scripts",
+      "permalink": "/docs/Intune/Remediation-Scripts/"
+    }
+  }
+}

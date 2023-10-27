@@ -2,7 +2,7 @@
   "label": "Intune",
   "permalink": "/docs/tags/intune",
   "allTagsPath": "/docs/tags",
-  "count": 2,
+  "count": 5,
   "items": [
     {
       "id": "Intune/Autopilot/Autopilot Setup Suggestions",
@@ -11,10 +11,28 @@
       "permalink": "/docs/Intune/Autopilot/Autopilot Setup Suggestions"
     },
     {
+      "id": "Intune/Application-Deployments/EveryOne Print",
+      "title": "Deploy EveryOne Print",
+      "description": "Documents how to deploy EveryOne Print.",
+      "permalink": "/docs/Intune/Application-Deployments/EveryOne Print"
+    },
+    {
       "id": "Intune/Autopilot/Diagnose Autopilot Errors",
       "title": "Diagnose Autopilot Errors",
       "description": "Details how to review the Autopilot logs on a device.",
       "permalink": "/docs/Intune/Autopilot/Diagnose Autopilot Errors"
+    },
+    {
+      "id": "Intune/Remediation-Scripts/Remediation Scripts",
+      "title": "Remediation Scripts",
+      "description": "Document contains remediation scripts for use.",
+      "permalink": "/docs/Intune/Remediation-Scripts/"
+    },
+    {
+      "id": "Intune/Application-Deployments/Uninstall McAfee",
+      "title": "Uninstall McAfee",
+      "description": "Documents how to deploy McAfee.",
+      "permalink": "/docs/Intune/Application-Deployments/Uninstall McAfee"
     }
   ]
 }

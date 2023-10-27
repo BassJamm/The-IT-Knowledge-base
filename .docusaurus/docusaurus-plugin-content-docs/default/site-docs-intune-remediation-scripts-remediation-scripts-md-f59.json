@@ -1,0 +1,55 @@
+{
+  "unversionedId": "Intune/Remediation-Scripts/Remediation Scripts",
+  "id": "Intune/Remediation-Scripts/Remediation Scripts",
+  "title": "Remediation Scripts",
+  "description": "Document contains remediation scripts for use.",
+  "source": "@site/docs/Intune/Remediation-Scripts/Remediation-Scripts.md",
+  "sourceDirName": "Intune/Remediation-Scripts",
+  "slug": "/Intune/Remediation-Scripts/",
+  "permalink": "/docs/Intune/Remediation-Scripts/",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/edit/main/docs/api-doc-markdown.md",
+  "tags": [
+    {
+      "label": "Intune",
+      "permalink": "/docs/tags/intune"
+    },
+    {
+      "label": "Remediation",
+      "permalink": "/docs/tags/remediation"
+    },
+    {
+      "label": "Scripts",
+      "permalink": "/docs/tags/scripts"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "draft": false,
+    "id": "Remediation Scripts",
+    "title": "Remediation Scripts",
+    "hide_title": false,
+    "hide_table_of_contents": false,
+    "sidebar_label": "Remediation Scripts",
+    "sidebar_position": 1,
+    "toc_max_heading_level": 4,
+    "pagination_label": "Remediation Scripts",
+    "tags": [
+      "Intune",
+      "Remediation",
+      "Scripts"
+    ],
+    "custom_edit_url": "https://github.com/facebook/docusaurus/edit/main/docs/api-doc-markdown.md",
+    "description": "Document contains remediation scripts for use."
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Remediation Scripts",
+    "permalink": "/docs/category/remediation-scripts"
+  },
+  "next": {
+    "title": "PowerShell",
+    "permalink": "/docs/category/powershell"
+  }
+}

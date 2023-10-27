@@ -45,6 +45,10 @@
     "image": "https://i.imgur.com/mErPwqL.png",
     "hide_table_of_contents": false
   },
+  "prevItem": {
+    "title": "Automate Scripts in Azure",
+    "permalink": "/blog/Automate-scripts-in-Azure"
+  },
   "nextItem": {
     "title": "Challenge 2 - Folder Size Report with PowerShell",
     "permalink": "/blog/pwsh-challenge-002"

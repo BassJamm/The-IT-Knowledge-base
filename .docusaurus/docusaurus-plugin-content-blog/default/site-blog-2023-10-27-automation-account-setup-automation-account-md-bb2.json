@@ -1,0 +1,55 @@
+{
+  "permalink": "/blog/Automate-scripts-in-Azure",
+  "source": "@site/blog/2023-10-27-Automation-Account/Setup-Automation-Account.md",
+  "title": "Automate Scripts in Azure",
+  "description": "Setting up an Automation Account in Azure to script things.",
+  "date": "2023-10-27T15:00:00.000Z",
+  "formattedDate": "October 27, 2023",
+  "tags": [
+    {
+      "label": "Azure",
+      "permalink": "/blog/tags/azure"
+    },
+    {
+      "label": "Automation",
+      "permalink": "/blog/tags/automation"
+    },
+    {
+      "label": "Scripting",
+      "permalink": "/blog/tags/scripting"
+    }
+  ],
+  "readingTime": 6.32,
+  "hasTruncateMarker": true,
+  "authors": [
+    {
+      "name": "Will",
+      "title": "Creator of the IT KB.",
+      "url": "https://github.com/BassJamm?tab=repositories"
+    }
+  ],
+  "frontMatter": {
+    "title": "Automate Scripts in Azure",
+    "description": "Setting up an Automation Account in Azure to script things.",
+    "slug": "Automate-scripts-in-Azure",
+    "date": "2023-10-27T15:00",
+    "authors": [
+      {
+        "name": "Will",
+        "title": "Creator of the IT KB.",
+        "url": "https://github.com/BassJamm?tab=repositories"
+      }
+    ],
+    "tags": [
+      "Azure",
+      "Automation",
+      "Scripting"
+    ],
+    "image": "https://i.imgur.com/mErPwqL.png",
+    "hide_table_of_contents": false
+  },
+  "nextItem": {
+    "title": "Azure ligthhouse Setup",
+    "permalink": "/blog/Setup-Azure-Lighthouse"
+  }
+}

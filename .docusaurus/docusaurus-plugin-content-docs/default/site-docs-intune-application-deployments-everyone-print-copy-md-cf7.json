@@ -1,0 +1,55 @@
+{
+  "unversionedId": "Intune/Application-Deployments/EveryOne Print",
+  "id": "Intune/Application-Deployments/EveryOne Print",
+  "title": "Deploy EveryOne Print",
+  "description": "Documents how to deploy EveryOne Print.",
+  "source": "@site/docs/Intune/Application-Deployments/Everyone-Print copy.md",
+  "sourceDirName": "Intune/Application-Deployments",
+  "slug": "/Intune/Application-Deployments/EveryOne Print",
+  "permalink": "/docs/Intune/Application-Deployments/EveryOne Print",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/edit/main/docs/api-doc-markdown.md",
+  "tags": [
+    {
+      "label": "Intune",
+      "permalink": "/docs/tags/intune"
+    },
+    {
+      "label": "Application",
+      "permalink": "/docs/tags/application"
+    },
+    {
+      "label": "Script",
+      "permalink": "/docs/tags/script"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "draft": true,
+    "id": "EveryOne Print",
+    "title": "Deploy EveryOne Print",
+    "hide_title": false,
+    "hide_table_of_contents": false,
+    "sidebar_label": "EveryOne Print",
+    "sidebar_position": 1,
+    "toc_max_heading_level": 4,
+    "pagination_label": "EveryOne Print",
+    "tags": [
+      "Intune",
+      "Application",
+      "Script"
+    ],
+    "custom_edit_url": "https://github.com/facebook/docusaurus/edit/main/docs/api-doc-markdown.md",
+    "description": "Documents how to deploy EveryOne Print."
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "App Deployments",
+    "permalink": "/docs/category/app-deployments"
+  },
+  "next": {
+    "title": "EveryOne Print",
+    "permalink": "/docs/Intune/Application-Deployments/EveryOne Print"
+  }
+}

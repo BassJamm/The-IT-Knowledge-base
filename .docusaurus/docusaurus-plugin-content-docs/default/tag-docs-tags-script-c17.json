@@ -5,16 +5,16 @@
   "count": 2,
   "items": [
     {
-      "id": "Scripts/Get User info using MGGraph",
-      "title": "Get User info using MGGraph",
-      "description": "Get user information using MGGraph.",
-      "permalink": "/docs/Scripts/Get User info using MGGraph"
+      "id": "Intune/Application-Deployments/EveryOne Print",
+      "title": "Deploy EveryOne Print",
+      "description": "Documents how to deploy EveryOne Print.",
+      "permalink": "/docs/Intune/Application-Deployments/EveryOne Print"
     },
     {
-      "id": "Scripts/NSG Flow log Formatter",
-      "title": "NSG Flow log Formatter",
-      "description": "Script will help with readability of NSG flow logs.",
-      "permalink": "/docs/Scripts/NSG Flow log Formatter"
+      "id": "Intune/Application-Deployments/Uninstall McAfee",
+      "title": "Uninstall McAfee",
+      "description": "Documents how to deploy McAfee.",
+      "permalink": "/docs/Intune/Application-Deployments/Uninstall McAfee"
     }
   ]
 }

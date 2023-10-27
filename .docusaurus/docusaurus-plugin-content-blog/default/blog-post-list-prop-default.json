@@ -2,6 +2,10 @@
   "title": "Posts So Far",
   "items": [
     {
+      "title": "Automate Scripts in Azure",
+      "permalink": "/blog/Automate-scripts-in-Azure"
+    },
+    {
       "title": "Azure ligthhouse Setup",
       "permalink": "/blog/Setup-Azure-Lighthouse"
     },

@@ -4,172 +4,207 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 export default [
   {
     path: '/blog/',
-    component: ComponentCreator('/blog/', '75b'),
+    component: ComponentCreator('/blog/', 'be9'),
     exact: true
   },
   {
     path: '/blog/archive',
-    component: ComponentCreator('/blog/archive', '826'),
+    component: ComponentCreator('/blog/archive', '1bd'),
+    exact: true
+  },
+  {
+    path: '/blog/Automate-scripts-in-Azure',
+    component: ComponentCreator('/blog/Automate-scripts-in-Azure', '4ae'),
     exact: true
   },
   {
     path: '/blog/Defender-for-Endpoint-Woes',
-    component: ComponentCreator('/blog/Defender-for-Endpoint-Woes', 'a00'),
+    component: ComponentCreator('/blog/Defender-for-Endpoint-Woes', 'd7b'),
     exact: true
   },
   {
     path: '/blog/pwsh-challenge-001',
-    component: ComponentCreator('/blog/pwsh-challenge-001', '3c0'),
+    component: ComponentCreator('/blog/pwsh-challenge-001', '582'),
     exact: true
   },
   {
     path: '/blog/pwsh-challenge-002',
-    component: ComponentCreator('/blog/pwsh-challenge-002', 'f04'),
+    component: ComponentCreator('/blog/pwsh-challenge-002', 'f57'),
     exact: true
   },
   {
     path: '/blog/Setup-Azure-Lighthouse',
-    component: ComponentCreator('/blog/Setup-Azure-Lighthouse', '939'),
+    component: ComponentCreator('/blog/Setup-Azure-Lighthouse', '8fe'),
     exact: true
   },
   {
     path: '/blog/tags',
-    component: ComponentCreator('/blog/tags', '2ec'),
+    component: ComponentCreator('/blog/tags', '3c3'),
+    exact: true
+  },
+  {
+    path: '/blog/tags/automation',
+    component: ComponentCreator('/blog/tags/automation', 'e3c'),
     exact: true
   },
   {
     path: '/blog/tags/azure',
-    component: ComponentCreator('/blog/tags/azure', 'dc4'),
+    component: ComponentCreator('/blog/tags/azure', 'ff0'),
     exact: true
   },
   {
     path: '/blog/tags/challenge',
-    component: ComponentCreator('/blog/tags/challenge', 'bf6'),
+    component: ComponentCreator('/blog/tags/challenge', 'd01'),
     exact: true
   },
   {
     path: '/blog/tags/defender',
-    component: ComponentCreator('/blog/tags/defender', '9a7'),
+    component: ComponentCreator('/blog/tags/defender', '2c9'),
     exact: true
   },
   {
     path: '/blog/tags/docusaurus-v-2',
-    component: ComponentCreator('/blog/tags/docusaurus-v-2', '614'),
+    component: ComponentCreator('/blog/tags/docusaurus-v-2', '42e'),
     exact: true
   },
   {
     path: '/blog/tags/hello',
-    component: ComponentCreator('/blog/tags/hello', 'a75'),
+    component: ComponentCreator('/blog/tags/hello', '98e'),
     exact: true
   },
   {
     path: '/blog/tags/lighthouse',
-    component: ComponentCreator('/blog/tags/lighthouse', '1d8'),
+    component: ComponentCreator('/blog/tags/lighthouse', '988'),
     exact: true
   },
   {
     path: '/blog/tags/power-shell',
-    component: ComponentCreator('/blog/tags/power-shell', 'c70'),
+    component: ComponentCreator('/blog/tags/power-shell', '400'),
     exact: true
   },
   {
     path: '/blog/tags/script',
-    component: ComponentCreator('/blog/tags/script', 'a80'),
+    component: ComponentCreator('/blog/tags/script', '8f2'),
+    exact: true
+  },
+  {
+    path: '/blog/tags/scripting',
+    component: ComponentCreator('/blog/tags/scripting', 'da0'),
     exact: true
   },
   {
     path: '/blog/welcome',
-    component: ComponentCreator('/blog/welcome', '459'),
+    component: ComponentCreator('/blog/welcome', '524'),
     exact: true
   },
   {
     path: '/docs/tags',
-    component: ComponentCreator('/docs/tags', '0af'),
+    component: ComponentCreator('/docs/tags', '769'),
     exact: true
   },
   {
     path: '/docs/tags/app-registrations',
-    component: ComponentCreator('/docs/tags/app-registrations', 'b74'),
+    component: ComponentCreator('/docs/tags/app-registrations', '628'),
+    exact: true
+  },
+  {
+    path: '/docs/tags/application',
+    component: ComponentCreator('/docs/tags/application', '099'),
     exact: true
   },
   {
     path: '/docs/tags/autopilot',
-    component: ComponentCreator('/docs/tags/autopilot', '7a7'),
+    component: ComponentCreator('/docs/tags/autopilot', '269'),
     exact: true
   },
   {
     path: '/docs/tags/azure',
-    component: ComponentCreator('/docs/tags/azure', '68c'),
+    component: ComponentCreator('/docs/tags/azure', '999'),
     exact: true
   },
   {
     path: '/docs/tags/azure-ad',
-    component: ComponentCreator('/docs/tags/azure-ad', 'd86'),
+    component: ComponentCreator('/docs/tags/azure-ad', '861'),
     exact: true
   },
   {
     path: '/docs/tags/certificates',
-    component: ComponentCreator('/docs/tags/certificates', '074'),
+    component: ComponentCreator('/docs/tags/certificates', '873'),
     exact: true
   },
   {
     path: '/docs/tags/citrix',
-    component: ComponentCreator('/docs/tags/citrix', '2db'),
+    component: ComponentCreator('/docs/tags/citrix', 'c09'),
     exact: true
   },
   {
     path: '/docs/tags/command-line',
-    component: ComponentCreator('/docs/tags/command-line', '1c5'),
+    component: ComponentCreator('/docs/tags/command-line', 'b41'),
     exact: true
   },
   {
     path: '/docs/tags/command-line-ref',
-    component: ComponentCreator('/docs/tags/command-line-ref', '70a'),
+    component: ComponentCreator('/docs/tags/command-line-ref', '544'),
     exact: true
   },
   {
     path: '/docs/tags/defender-fe',
-    component: ComponentCreator('/docs/tags/defender-fe', '7bf'),
+    component: ComponentCreator('/docs/tags/defender-fe', '3b6'),
     exact: true
   },
   {
     path: '/docs/tags/git',
-    component: ComponentCreator('/docs/tags/git', '2b7'),
+    component: ComponentCreator('/docs/tags/git', '808'),
     exact: true
   },
   {
     path: '/docs/tags/intune',
-    component: ComponentCreator('/docs/tags/intune', 'fe3'),
+    component: ComponentCreator('/docs/tags/intune', '8db'),
     exact: true
   },
   {
     path: '/docs/tags/power-shell',
-    component: ComponentCreator('/docs/tags/power-shell', '1ce'),
+    component: ComponentCreator('/docs/tags/power-shell', 'cc1'),
+    exact: true
+  },
+  {
+    path: '/docs/tags/remediation',
+    component: ComponentCreator('/docs/tags/remediation', 'd8a'),
     exact: true
   },
   {
     path: '/docs/tags/restore',
-    component: ComponentCreator('/docs/tags/restore', '1de'),
+    component: ComponentCreator('/docs/tags/restore', 'f5e'),
+    exact: true
+  },
+  {
+    path: '/docs/tags/script',
+    component: ComponentCreator('/docs/tags/script', '10d'),
+    exact: true
+  },
+  {
+    path: '/docs/tags/scripts',
+    component: ComponentCreator('/docs/tags/scripts', 'bef'),
     exact: true
   },
   {
     path: '/docs/tags/snapshot',
-    component: ComponentCreator('/docs/tags/snapshot', '3e6'),
+    component: ComponentCreator('/docs/tags/snapshot', '22a'),
     exact: true
   },
   {
     path: '/docs/tags/windows-os',
-    component: ComponentCreator('/docs/tags/windows-os', '04b'),
+    component: ComponentCreator('/docs/tags/windows-os', 'e51'),
     exact: true
   },
   {
     path: '/markdown-page',
-    component: ComponentCreator('/markdown-page', 'ec3'),
+    component: ComponentCreator('/markdown-page', 'cdf'),
     exact: true
   },
   {
     path: '/docs/',
-    component: ComponentCreator('/docs/', '686'),
+    component: ComponentCreator('/docs/', 'bd0'),
     routes: [
       {
         path: '/docs/',
@@ -198,6 +233,12 @@ export default [
       {
         path: '/docs/Azure/Networking/Network Security Groups',
         component: ComponentCreator('/docs/Azure/Networking/Network Security Groups', 'b4d'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/category/app-deployments',
+        component: ComponentCreator('/docs/category/app-deployments', 'd3a'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
@@ -304,6 +345,12 @@ export default [
         sidebar: "tutorialSidebar"
       },
       {
+        path: '/docs/category/remediation-scripts',
+        component: ComponentCreator('/docs/category/remediation-scripts', '652'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
         path: '/docs/category/sharepoint',
         component: ComponentCreator('/docs/category/sharepoint', '4f6'),
         exact: true,
@@ -340,6 +387,18 @@ export default [
         sidebar: "tutorialSidebar"
       },
       {
+        path: '/docs/Intune/Application-Deployments/EveryOne Print',
+        component: ComponentCreator('/docs/Intune/Application-Deployments/EveryOne Print', '627'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/Intune/Application-Deployments/Uninstall McAfee',
+        component: ComponentCreator('/docs/Intune/Application-Deployments/Uninstall McAfee', '9b7'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
         path: '/docs/Intune/Autopilot/Autopilot Setup Suggestions',
         component: ComponentCreator('/docs/Intune/Autopilot/Autopilot Setup Suggestions', 'cfe'),
         exact: true,
@@ -354,6 +413,12 @@ export default [
       {
         path: '/docs/Intune/Device-Configuration-&-Oboarding/Windows Device Config',
         component: ComponentCreator('/docs/Intune/Device-Configuration-&-Oboarding/Windows Device Config', '950'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/Intune/Remediation-Scripts/',
+        component: ComponentCreator('/docs/Intune/Remediation-Scripts/', 'd35'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
@@ -376,14 +441,14 @@ export default [
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/PowerShell/PowerShell-cheatsheet/Code-Snippets',
-        component: ComponentCreator('/docs/PowerShell/PowerShell-cheatsheet/Code-Snippets', 'fb2'),
+        path: '/docs/PowerShell/PowerShell/Code-Snippets',
+        component: ComponentCreator('/docs/PowerShell/PowerShell/Code-Snippets', '5ed'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/PowerShell/PowerShell-cheatsheet/Command Reference',
-        component: ComponentCreator('/docs/PowerShell/PowerShell-cheatsheet/Command Reference', '699'),
+        path: '/docs/PowerShell/PowerShell/Command Reference',
+        component: ComponentCreator('/docs/PowerShell/PowerShell/Command Reference', 'b28'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
@@ -409,7 +474,7 @@ export default [
   },
   {
     path: '/',
-    component: ComponentCreator('/', 'a6e'),
+    component: ComponentCreator('/', 'a89'),
     exact: true
   },
   {

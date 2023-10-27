@@ -1,0 +1,55 @@
+{
+  "unversionedId": "Intune/Application-Deployments/Uninstall McAfee",
+  "id": "Intune/Application-Deployments/Uninstall McAfee",
+  "title": "Uninstall McAfee",
+  "description": "Documents how to deploy McAfee.",
+  "source": "@site/docs/Intune/Application-Deployments/Destroy-McAfee.md",
+  "sourceDirName": "Intune/Application-Deployments",
+  "slug": "/Intune/Application-Deployments/Uninstall McAfee",
+  "permalink": "/docs/Intune/Application-Deployments/Uninstall McAfee",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/edit/main/docs/api-doc-markdown.md",
+  "tags": [
+    {
+      "label": "Intune",
+      "permalink": "/docs/tags/intune"
+    },
+    {
+      "label": "Application",
+      "permalink": "/docs/tags/application"
+    },
+    {
+      "label": "Script",
+      "permalink": "/docs/tags/script"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "draft": false,
+    "id": "Uninstall McAfee",
+    "title": "Uninstall McAfee",
+    "hide_title": false,
+    "hide_table_of_contents": false,
+    "sidebar_label": "Destroy McAfee",
+    "sidebar_position": 1,
+    "toc_max_heading_level": 4,
+    "pagination_label": "Uninstall McAfee",
+    "tags": [
+      "Intune",
+      "Application",
+      "Script"
+    ],
+    "custom_edit_url": "https://github.com/facebook/docusaurus/edit/main/docs/api-doc-markdown.md",
+    "description": "Documents how to deploy McAfee."
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "App Deployments",
+    "permalink": "/docs/category/app-deployments"
+  },
+  "next": {
+    "title": "EveryOne Print",
+    "permalink": "/docs/Intune/Application-Deployments/EveryOne Print"
+  }
+}

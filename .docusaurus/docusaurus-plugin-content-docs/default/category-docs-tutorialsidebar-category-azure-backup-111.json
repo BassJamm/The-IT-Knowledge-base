@@ -5,8 +5,8 @@
   "permalink": "/docs/category/azure-backup",
   "navigation": {
     "previous": {
-      "title": "Create an Automation Account",
-      "permalink": "/docs/Azure/Automation/Create an Automation Account"
+      "title": "Azure",
+      "permalink": "/docs/category/azure"
     },
     "next": {
       "title": "Setup Azure Backup",

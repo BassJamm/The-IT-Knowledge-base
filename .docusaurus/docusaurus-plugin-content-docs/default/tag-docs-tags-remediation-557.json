@@ -1,0 +1,14 @@
+{
+  "label": "Remediation",
+  "permalink": "/docs/tags/remediation",
+  "allTagsPath": "/docs/tags",
+  "count": 1,
+  "items": [
+    {
+      "id": "Intune/Remediation-Scripts/Remediation Scripts",
+      "title": "Remediation Scripts",
+      "description": "Document contains remediation scripts for use.",
+      "permalink": "/docs/Intune/Remediation-Scripts/"
+    }
+  ]
+}

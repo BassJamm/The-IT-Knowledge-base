@@ -2,7 +2,17 @@
   {
     "label": "Azure",
     "permalink": "/blog/tags/azure",
-    "count": 2
+    "count": 3
+  },
+  {
+    "label": "Automation",
+    "permalink": "/blog/tags/automation",
+    "count": 1
+  },
+  {
+    "label": "Scripting",
+    "permalink": "/blog/tags/scripting",
+    "count": 1
   },
   {
     "label": "Lighthouse",

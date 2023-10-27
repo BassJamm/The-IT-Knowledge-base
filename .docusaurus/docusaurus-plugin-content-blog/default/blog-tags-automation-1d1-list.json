@@ -1,9 +1,9 @@
 {
   "permalink": "/blog/tags/automation",
   "page": 1,
-  "postsPerPage": 2,
+  "postsPerPage": 1,
   "totalPages": 1,
-  "totalCount": 2,
-  "blogDescription": "A tech blog powered by Docusaurus!",
-  "blogTitle": "The"
+  "totalCount": 1,
+  "blogDescription": "Blog",
+  "blogTitle": "Blog"
 }

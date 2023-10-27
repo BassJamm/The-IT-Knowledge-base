@@ -2,8 +2,8 @@
   "docusaurus-lunr-search": {
     "default": {
       "fileNames": {
-        "searchDoc": "search-doc-1697969423572.json",
-        "lunrIndex": "lunr-index-1697969423572.json"
+        "searchDoc": "search-doc-1698421458289.json",
+        "lunrIndex": "lunr-index-1698421458289.json"
       }
     }
   },
@@ -68,6 +68,16 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "Intune/Application-Deployments/EveryOne Print",
+              "path": "/docs/Intune/Application-Deployments/EveryOne Print",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Intune/Application-Deployments/Uninstall McAfee",
+              "path": "/docs/Intune/Application-Deployments/Uninstall McAfee",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "Intune/Autopilot/Autopilot Setup Suggestions",
               "path": "/docs/Intune/Autopilot/Autopilot Setup Suggestions",
               "sidebar": "tutorialSidebar"
@@ -80,6 +90,11 @@
             {
               "id": "Intune/Device-Configuration-&-Oboarding/Windows Device Config",
               "path": "/docs/Intune/Device-Configuration-&-Oboarding/Windows Device Config",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Intune/Remediation-Scripts/Remediation Scripts",
+              "path": "/docs/Intune/Remediation-Scripts/",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -98,13 +113,13 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "PowerShell/PowerShell-cheatsheet/Code-Snippets",
-              "path": "/docs/PowerShell/PowerShell-cheatsheet/Code-Snippets",
+              "id": "PowerShell/PowerShell/Code-Snippets",
+              "path": "/docs/PowerShell/PowerShell/Code-Snippets",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "PowerShell/PowerShell-cheatsheet/Command Reference",
-              "path": "/docs/PowerShell/PowerShell-cheatsheet/Command Reference",
+              "id": "PowerShell/PowerShell/Command Reference",
+              "path": "/docs/PowerShell/PowerShell/Command Reference",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -173,6 +188,11 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "/category/app-deployments",
+              "path": "/docs/category/app-deployments",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "/category/autopilot",
               "path": "/docs/category/autopilot",
               "sidebar": "tutorialSidebar"
@@ -180,6 +200,11 @@
             {
               "id": "/category/device-configon-boarding",
               "path": "/docs/category/device-configon-boarding",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "/category/remediation-scripts",
+              "path": "/docs/category/remediation-scripts",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -224,7 +249,6 @@
             }
           ],
           "draftIds": [
-            "Azure/Automation/Create an Automation Account",
             "Azure/Azure-Backup/Setup Azure Backup"
           ],
           "sidebars": {

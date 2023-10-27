@@ -1,0 +1,15 @@
+{
+  "title": "App Deployments",
+  "slug": "/category/app-deployments",
+  "permalink": "/docs/category/app-deployments",
+  "navigation": {
+    "previous": {
+      "title": "Intune",
+      "permalink": "/docs/category/intune"
+    },
+    "next": {
+      "title": "Uninstall McAfee",
+      "permalink": "/docs/Intune/Application-Deployments/Uninstall McAfee"
+    }
+  }
+}

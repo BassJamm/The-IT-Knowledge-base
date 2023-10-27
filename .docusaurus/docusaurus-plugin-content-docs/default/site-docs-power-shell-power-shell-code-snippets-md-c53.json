@@ -1,0 +1,50 @@
+{
+  "unversionedId": "PowerShell/PowerShell/Code-Snippets",
+  "id": "PowerShell/PowerShell/Code-Snippets",
+  "title": "Code-Snippets",
+  "description": "All things PowerShell.",
+  "source": "@site/docs/PowerShell/PowerShell/Code-Snippets.md",
+  "sourceDirName": "PowerShell/PowerShell",
+  "slug": "/PowerShell/PowerShell/Code-Snippets",
+  "permalink": "/docs/PowerShell/PowerShell/Code-Snippets",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/edit/main/docs/api-doc-markdown.md",
+  "tags": [
+    {
+      "label": "Command Line",
+      "permalink": "/docs/tags/command-line"
+    },
+    {
+      "label": "PowerShell",
+      "permalink": "/docs/tags/power-shell"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "draft": false,
+    "id": "Code-Snippets",
+    "title": "Code-Snippets",
+    "hide_title": false,
+    "hide_table_of_contents": false,
+    "sidebar_label": "Code-Snippets",
+    "sidebar_position": 4,
+    "toc_max_heading_level": 4,
+    "pagination_label": "Code-Snippets",
+    "tags": [
+      "Command Line",
+      "PowerShell"
+    ],
+    "custom_edit_url": "https://github.com/facebook/docusaurus/edit/main/docs/api-doc-markdown.md",
+    "description": "All things PowerShell."
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "PowerShell",
+    "permalink": "/docs/category/powershell-1"
+  },
+  "next": {
+    "title": "Command Reference",
+    "permalink": "/docs/PowerShell/PowerShell/Command Reference"
+  }
+}
