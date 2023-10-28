@@ -1,6 +1,60 @@
 {
   "blogPosts": [
     {
+      "id": "Backing-up-resources-with-AzBackup",
+      "metadata": {
+        "permalink": "/blog/Backing-up-resources-with-AzBackup",
+        "source": "@site/blog/2023-10-28-Azure-Backup/Backing-up-VMs.md",
+        "title": "Backing up Resources in Azure",
+        "description": "Pointers for setting up Azure Backup.",
+        "date": "2023-10-28T13:00:00.000Z",
+        "formattedDate": "October 28, 2023",
+        "tags": [
+          {
+            "label": "hello",
+            "permalink": "/blog/tags/hello"
+          },
+          {
+            "label": "docusaurus-v2",
+            "permalink": "/blog/tags/docusaurus-v-2"
+          }
+        ],
+        "readingTime": 1.6,
+        "hasTruncateMarker": true,
+        "authors": [
+          {
+            "name": "Will",
+            "title": "Creator of the IT KB.",
+            "url": "https://github.com/BassJamm?tab=repositories"
+          }
+        ],
+        "frontMatter": {
+          "title": "Backing up Resources in Azure",
+          "description": "Pointers for setting up Azure Backup.",
+          "slug": "Backing-up-resources-with-AzBackup",
+          "date": "2023-10-28T13:00",
+          "authors": [
+            {
+              "name": "Will",
+              "title": "Creator of the IT KB.",
+              "url": "https://github.com/BassJamm?tab=repositories"
+            }
+          ],
+          "tags": [
+            "hello",
+            "docusaurus-v2"
+          ],
+          "image": "https://i.imgur.com/mErPwqL.png",
+          "hide_table_of_contents": false
+        },
+        "nextItem": {
+          "title": "Automate Scripts in Azure",
+          "permalink": "/blog/Automate-scripts-in-Azure"
+        }
+      },
+      "content": "An outline of setting up Azure Backup and the decisions around doing so that I learn along the way.\r\n\r\n<!--truncate-->\r\n\r\nAzure Backup is a Microsoft Azure service that provides reliable and cost-effective data protection for your critical workloads. It enables you to securely back up and recover data from on-premises systems and Azure virtual machines, offering peace of mind for safeguarding your business-critical information.\r\n\r\n:::note It might not be the best way!\r\nThis document is for setting backup policeis for Virutal Machines only. If you need to backup other resources, go to section 1.2, step 4 and select a differnet resource.\r\n:::\r\n\r\n## Before you dive in\r\n\r\nSome decisions to consider before clicking about and winging it:\r\n\r\n- Policy Naming Conventions.\r\n- How are you going to group your resources? (Don't care or different policies per resource type?)\r\n- Backup Schedules.\r\n- Alerting.\r\n\r\nYou'll need to setup the following:\r\n\r\n- A resource Group.\r\n- Service Recovery Services Vault.\r\n- Log Analytics Workspace.\r\n\r\n## The Run down\r\n\r\n:::info\r\nUse whatever naming conention fits in with what’s being used already, I am just suggesting something here.\r\n:::\r\n\r\nBelow sections outline my steps for setting up Azure Backup.\r\n\r\n### Creating the Resources\r\n\r\n1. Create the resource group, for example, `rg-customername-region-prod/dev-backups-01`.\r\n2. Create a recovery services vault to store the backups (GRS is the preferred option, LRS for lowest cost), for example, `rsv-customername-region-prod/dev-backup-01`.\r\n3. Create a log analytics workspace or reuse another one, for example, `la-customername-region-prod/dev-backup-01`.\r\n\r\n### Configure Backup Policy\r\n\r\nConfigure the backup policy in-line with whatever standard is being used already, my suggestions are below.\r\n\r\n1. In the Azure portal, select a Recovery Services vault to back up the VM.\r\n2. Under Backup, select Backup Policies.\r\n3. Click +Add.\r\n4. On Select policy type, select Azure Virtual Machine.\r\n5. On Create policy, perform the following actions:\r\n6. Policy sub type: Standard\r\n7. Suggested Name format: `Bkup-policy-time of day-policy type` (example name: bkup-policy-nightly-std).\r\n\r\n### Configure Alerting\r\n\r\n:::tip\r\nNote that this method is using the old backup alerting method, this is being replaced by Azure Monitor.\r\n:::\r\n\r\n[Microsoft Link for more information](https://learn.microsoft.com/en-us/azure/backup/backup-azure-monitoring-built-in-monitor?tabs=recovery-services-vaults#turning-on-azure-monitor-alerts-for-job-failure-scenarios)\r\n\r\nConfigure diagnostic logs to be sent from Azure Backup to the Log Anlytics workspace above.\r\n\r\n1. From the Recovery services vault just setup.\r\n2. Click on Backup Alerts, under the Monitoring section.\r\n3. Click Configure Notifications.\r\n4. Enable Notifications: Yes\r\n5. Recipients(Email): monitoring@DomainName.com\r\n6. Notify: Hourly digest\r\n7. Severity: Critical & Warning\r\n\r\n### Configure Diagnostic log collection\r\n\r\nConfigure diagnostic logs to be sent from Azure Backup to the Log Anlytics workspace above.\r\n\r\n1. Navigate to Diagnostic settings under Monitoring.\r\n2. Click Add Diagnostic Settings.\r\n3. Name your diagnostic setting, something informational, for example, “AzBkup-Diagnostics”, suggestion, Backup Report Data.\r\n4. Select Send to Log Analytics Workspace.\r\n5. Add a workspace and don’t touch any other settings.\r\n6. Hit Save.\r\n\r\n:::tip\r\nMake sure to run the initial backup job from the Azure Backup Dashboard.\r\n:::"
+    },
+    {
       "id": "Automate-scripts-in-Azure",
       "metadata": {
         "permalink": "/blog/Automate-scripts-in-Azure",
@@ -51,6 +105,10 @@
           ],
           "image": "https://i.imgur.com/mErPwqL.png",
           "hide_table_of_contents": false
+        },
+        "prevItem": {
+          "title": "Backing up Resources in Azure",
+          "permalink": "/blog/Backing-up-resources-with-AzBackup"
         },
         "nextItem": {
           "title": "Azure ligthhouse Setup",

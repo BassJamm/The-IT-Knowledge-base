@@ -1,11 +1,14 @@
 {
-  "/blog/-be9": {
+  "/blog/-ada": {
     "__comp": "a6aa9e1f",
     "__context": {
       "plugin": "7d14f86c"
     },
     "sidebar": "814f3328",
     "items": [
+      {
+        "content": "06f6622a"
+      },
       {
         "content": "52b82288"
       },
@@ -41,6 +44,14 @@
     },
     "sidebar": "814f3328",
     "content": "bb2daa22"
+  },
+  "/blog/Backing-up-resources-with-AzBackup-9f8": {
+    "__comp": "ccc49370",
+    "__context": {
+      "plugin": "7d14f86c"
+    },
+    "sidebar": "814f3328",
+    "content": "55b2fdf7"
   },
   "/blog/Defender-for-Endpoint-Woes-d7b": {
     "__comp": "ccc49370",
@@ -147,7 +158,7 @@
     "tag": "425a5c80",
     "listMetadata": "e73304b9"
   },
-  "/blog/tags/docusaurus-v-2-42e": {
+  "/blog/tags/docusaurus-v-2-1fb": {
     "__comp": "6875c492",
     "__context": {
       "plugin": "7d14f86c"
@@ -155,19 +166,25 @@
     "sidebar": "814f3328",
     "items": [
       {
+        "content": "06f6622a"
+      },
+      {
         "content": "45d15ca2"
       }
     ],
     "tag": "a95024e1",
     "listMetadata": "1e7a3abd"
   },
-  "/blog/tags/hello-98e": {
+  "/blog/tags/hello-099": {
     "__comp": "6875c492",
     "__context": {
       "plugin": "7d14f86c"
     },
     "sidebar": "814f3328",
     "items": [
+      {
+        "content": "06f6622a"
+      },
       {
         "content": "45d15ca2"
       }
@@ -392,7 +409,7 @@
     },
     "content": "393be207"
   },
-  "/docs/-bd0": {
+  "/docs/-96a": {
     "__comp": "1be78505",
     "__context": {
       "plugin": "4984407c"
@@ -539,9 +556,13 @@
     "__comp": "17896441",
     "content": "b3fa0250"
   },
-  "/docs/Intune/Remediation-Scripts/-d35": {
+  "/docs/Intune/Remediation-Scripts/Display-FTP-executable-for-users-735": {
     "__comp": "17896441",
-    "content": "f59416af"
+    "content": "0065e951"
+  },
+  "/docs/Intune/Remediation-Scripts/Re-Mapping-Drives-87c": {
+    "__comp": "17896441",
+    "content": "d81eb66d"
   },
   "/docs/PowerShell/Az/Code Snippet-0a8": {
     "__comp": "17896441",

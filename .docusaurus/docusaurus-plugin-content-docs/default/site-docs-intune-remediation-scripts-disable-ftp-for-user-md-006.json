@@ -1,0 +1,38 @@
+{
+  "unversionedId": "Intune/Remediation-Scripts/Display-FTP-executable-for-users",
+  "id": "Intune/Remediation-Scripts/Display-FTP-executable-for-users",
+  "title": "Disable FTP Executable",
+  "description": "Disable FTP Executable for end users.",
+  "source": "@site/docs/Intune/Remediation-Scripts/Disable-FTP-for-User.md",
+  "sourceDirName": "Intune/Remediation-Scripts",
+  "slug": "/Intune/Remediation-Scripts/Display-FTP-executable-for-users",
+  "permalink": "/docs/Intune/Remediation-Scripts/Display-FTP-executable-for-users",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/edit/main/docs/api-doc-markdown.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "draft": false,
+    "id": "Display-FTP-executable-for-users",
+    "title": "Disable FTP Executable",
+    "hide_title": false,
+    "hide_table_of_contents": false,
+    "sidebar_label": "Disable FTP Executable",
+    "sidebar_position": 1,
+    "toc_max_heading_level": 4,
+    "pagination_label": "Disable FTP Executable",
+    "tags": [],
+    "custom_edit_url": "https://github.com/facebook/docusaurus/edit/main/docs/api-doc-markdown.md",
+    "description": "Disable FTP Executable for end users."
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Remediation Scripts",
+    "permalink": "/docs/category/remediation-scripts"
+  },
+  "next": {
+    "title": "Remediation Scripts",
+    "permalink": "/docs/Intune/Remediation-Scripts/Re-Mapping-Drives"
+  }
+}

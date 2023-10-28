@@ -4,7 +4,7 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 export default [
   {
     path: '/blog/',
-    component: ComponentCreator('/blog/', 'be9'),
+    component: ComponentCreator('/blog/', 'ada'),
     exact: true
   },
   {
@@ -15,6 +15,11 @@ export default [
   {
     path: '/blog/Automate-scripts-in-Azure',
     component: ComponentCreator('/blog/Automate-scripts-in-Azure', '4ae'),
+    exact: true
+  },
+  {
+    path: '/blog/Backing-up-resources-with-AzBackup',
+    component: ComponentCreator('/blog/Backing-up-resources-with-AzBackup', '9f8'),
     exact: true
   },
   {
@@ -64,12 +69,12 @@ export default [
   },
   {
     path: '/blog/tags/docusaurus-v-2',
-    component: ComponentCreator('/blog/tags/docusaurus-v-2', '42e'),
+    component: ComponentCreator('/blog/tags/docusaurus-v-2', '1fb'),
     exact: true
   },
   {
     path: '/blog/tags/hello',
-    component: ComponentCreator('/blog/tags/hello', '98e'),
+    component: ComponentCreator('/blog/tags/hello', '099'),
     exact: true
   },
   {
@@ -204,7 +209,7 @@ export default [
   },
   {
     path: '/docs/',
-    component: ComponentCreator('/docs/', 'bd0'),
+    component: ComponentCreator('/docs/', '96a'),
     routes: [
       {
         path: '/docs/',
@@ -417,8 +422,14 @@ export default [
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/Intune/Remediation-Scripts/',
-        component: ComponentCreator('/docs/Intune/Remediation-Scripts/', 'd35'),
+        path: '/docs/Intune/Remediation-Scripts/Display-FTP-executable-for-users',
+        component: ComponentCreator('/docs/Intune/Remediation-Scripts/Display-FTP-executable-for-users', '735'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/Intune/Remediation-Scripts/Re-Mapping-Drives',
+        component: ComponentCreator('/docs/Intune/Remediation-Scripts/Re-Mapping-Drives', '87c'),
         exact: true,
         sidebar: "tutorialSidebar"
       },

@@ -2,6 +2,10 @@
   "title": "Posts So Far",
   "items": [
     {
+      "title": "Backing up Resources in Azure",
+      "permalink": "/blog/Backing-up-resources-with-AzBackup"
+    },
+    {
       "title": "Automate Scripts in Azure",
       "permalink": "/blog/Automate-scripts-in-Azure"
     },

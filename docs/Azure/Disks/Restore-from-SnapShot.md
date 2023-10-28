@@ -32,7 +32,7 @@ I'm assuming that there's already a Snapshot ready to go.
 6. **Click Edit** on the far right hand side. As shown in red above.
 7. **Name your Disk**, I'd suggest, snapshot_ServerName_Date_Time
 8. Source, **Select snapshot**.
-9.  **Select the Snapshot** you wish to attach.
+9. **Select the Snapshot** you wish to attach.
 10. ![Select the snapshot](../../../static/img/Attach_Disk02_05.png)
 11. Make any changes to the Encryption Type.
 12. I'd suggest it **not** to be a shared disk.

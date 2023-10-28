@@ -48,6 +48,10 @@
     "image": "https://i.imgur.com/mErPwqL.png",
     "hide_table_of_contents": false
   },
+  "prevItem": {
+    "title": "Backing up Resources in Azure",
+    "permalink": "/blog/Backing-up-resources-with-AzBackup"
+  },
   "nextItem": {
     "title": "Azure ligthhouse Setup",
     "permalink": "/blog/Setup-Azure-Lighthouse"
