@@ -14,7 +14,7 @@ export default {
   "organizationName": "TheITKB",
   "projectName": "KB-Project",
   "plugins": [
-    "C:\\Git\\The-IT-Knowledge-base\\node_modules\\docusaurus-lunr-search\\src\\index.js"
+    "/Users/williamhornsby/Documents/Git/The-IT-Knowledge-base/node_modules/docusaurus-lunr-search/src/index.js"
   ],
   "i18n": {
     "defaultLocale": "en",
@@ -42,7 +42,7 @@ export default {
         },
         "docs": {
           "path": "docs",
-          "sidebarPath": "C:\\Git\\The-IT-Knowledge-base\\sidebars.js",
+          "sidebarPath": "/Users/williamhornsby/Documents/Git/The-IT-Knowledge-base/sidebars.js",
           "routeBasePath": "/docs/"
         },
         "blog": {
@@ -54,7 +54,7 @@ export default {
           "routeBasePath": "/blog/"
         },
         "theme": {
-          "customCss": "C:\\Git\\The-IT-Knowledge-base\\src\\css\\custom.css"
+          "customCss": "/Users/williamhornsby/Documents/Git/The-IT-Knowledge-base/src/css/custom.css"
         }
       }
     ]
@@ -75,17 +75,12 @@ export default {
         },
         {
           "to": "blog",
-          "label": "Blog",
+          "label": "Blog/Articles",
           "position": "right"
         },
         {
           "href": "https://github.com/BassJamm",
           "label": "GitHub",
-          "position": "right"
-        },
-        {
-          "href": "https://gist.github.com/BassJamm",
-          "label": "GitHub Gists",
           "position": "right"
         }
       ],

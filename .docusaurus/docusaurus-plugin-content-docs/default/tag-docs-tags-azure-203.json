@@ -2,13 +2,19 @@
   "label": "Azure",
   "permalink": "/docs/tags/azure",
   "allTagsPath": "/docs/tags",
-  "count": 1,
+  "count": 2,
   "items": [
     {
       "id": "Azure/Disks/Restore data from a Snapshot",
       "title": "Restore data from a Snapshot",
       "description": "Restore data from a Snapshot.",
       "permalink": "/docs/Azure/Disks/Restore data from a Snapshot"
+    },
+    {
+      "id": "Azure/Azure-Backup/Setup Azure Backup",
+      "title": "Setup Azure Backup",
+      "description": "Suggestions for setting up Azure Backup.",
+      "permalink": "/docs/Azure/Azure-Backup/Setup Azure Backup"
     }
   ]
 }

@@ -4,7 +4,7 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Knowledge Base',
+    title: 'Docs',
     Svg: require('@site/static/img/laptop-online-education-12493.svg').default,
     description: (
       <>
@@ -24,11 +24,11 @@ const FeatureList = [
     ),
   },
   {
-    title: 'The Blog',
+    title: 'Articles/Blog',
     Svg: require('@site/static/img/laptop-document-and-file-12489.svg').default,
     description: (
       <>
-        My rantings, I don't expect any of this to be read.....
+        Here are longer Articles that don't really have a place in the docs.
       </>
     ),
   },

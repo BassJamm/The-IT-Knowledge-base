@@ -23,6 +23,21 @@
         "items": [
           {
             "type": "category",
+            "label": "Azure Backup",
+            "collapsible": true,
+            "collapsed": true,
+            "items": [
+              {
+                "type": "link",
+                "label": "Setup Azure Backup",
+                "href": "/docs/Azure/Azure-Backup/Setup Azure Backup",
+                "docId": "Azure/Azure-Backup/Setup Azure Backup"
+              }
+            ],
+            "href": "/docs/category/azure-backup"
+          },
+          {
+            "type": "category",
             "label": "Disks",
             "collapsible": true,
             "collapsed": true,
@@ -349,6 +364,12 @@
       "id": "Azure-Active-Directory/Conditional-Access/Useful Conditional Access Policies",
       "title": "Useful Conditional Access Policies",
       "description": "Descibes the settings an uses of some good Conditional Access policies to setup.",
+      "sidebar": "tutorialSidebar"
+    },
+    "Azure/Azure-Backup/Setup Azure Backup": {
+      "id": "Azure/Azure-Backup/Setup Azure Backup",
+      "title": "Setup Azure Backup",
+      "description": "Suggestions for setting up Azure Backup.",
       "sidebar": "tutorialSidebar"
     },
     "Azure/Disks/Restore data from a Snapshot": {

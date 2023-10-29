@@ -86,16 +86,11 @@ const config = {
           },
          {
             to: 'blog',
-            label: 'Blog',
+            label: 'Blog/Articles',
             position: 'right'},
           {
             href: 'https://github.com/BassJamm',
             label: 'GitHub',
-            position: 'right',
-          },
-          {
-            href: 'https://gist.github.com/BassJamm',
-            label: 'GitHub Gists',
             position: 'right',
           },
         ],

@@ -13,9 +13,8 @@ function HomepageHeader() {
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
         <h1 className="hero__title">{'Welcome'}</h1>
-        <p className="hero__subtitle">{"I've been in need of a central knowledege base for ages to save me trawling the internet again and again for things I have found already, this seemed like a good idea at the time.... "}</p>
-        <p className="hero__subtitle">{"I am maybe regretting the amount of effort it takes to upload to a static website each week but, still it was interesting to setup. "}</p>
-        <p className="hero__subtitle">{"If you wish to, check out the links up top for my GitHub, my docs and the blog (maybe avoid the blog). "}</p>
+        <p className="hero__subtitle">{"Docs holds KBs, short(ish) and to the point. Github is where I upload scripts and the Blog is where longer KBs/Articles live."}</p>
+        <p className="hero__subtitle">{"The Search bar in the top right will show results from the whole site."}</p>
       </div>
     </header>
   );

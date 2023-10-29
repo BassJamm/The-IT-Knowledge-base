@@ -1,12 +1,4 @@
 {
-  "docusaurus-lunr-search": {
-    "default": {
-      "fileNames": {
-        "searchDoc": "search-doc-1698421458289.json",
-        "lunrIndex": "lunr-index-1698421458289.json"
-      }
-    }
-  },
   "docusaurus-plugin-google-gtag": {
     "default": {
       "trackingID": [
@@ -14,6 +6,14 @@
       ],
       "anonymizeIP": true,
       "id": "default"
+    }
+  },
+  "docusaurus-lunr-search": {
+    "default": {
+      "fileNames": {
+        "searchDoc": "search-doc-1698576051266.json",
+        "lunrIndex": "lunr-index-1698576051266.json"
+      }
     }
   },
   "docusaurus-plugin-content-docs": {
@@ -35,6 +35,11 @@
             {
               "id": "Azure-Active-Directory/Conditional-Access/Useful Conditional Access Policies",
               "path": "/docs/Azure-Active-Directory/Conditional-Access/Useful Conditional Access Policies",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Azure/Azure-Backup/Setup Azure Backup",
+              "path": "/docs/Azure/Azure-Backup/Setup Azure Backup",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -148,6 +153,11 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "/category/azure-backup",
+              "path": "/docs/category/azure-backup",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "/category/disks",
               "path": "/docs/category/disks",
               "sidebar": "tutorialSidebar"
@@ -248,9 +258,7 @@
               "sidebar": "tutorialSidebar"
             }
           ],
-          "draftIds": [
-            "Azure/Azure-Backup/Setup Azure Backup"
-          ],
+          "draftIds": [],
           "sidebars": {
             "tutorialSidebar": {
               "link": {

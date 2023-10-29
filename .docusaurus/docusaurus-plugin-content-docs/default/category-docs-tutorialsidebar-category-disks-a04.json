@@ -5,8 +5,8 @@
   "permalink": "/docs/category/disks",
   "navigation": {
     "previous": {
-      "title": "Azure",
-      "permalink": "/docs/category/azure"
+      "title": "Setup Azure Backup",
+      "permalink": "/docs/Azure/Azure-Backup/Setup Azure Backup"
     },
     "next": {
       "title": "Restore data from a Snapshot",

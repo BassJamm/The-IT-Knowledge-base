@@ -17,10 +17,3 @@ Welcome to the blog.
 This blog is created with [**Docusaurus 2**](https://docusaurus.io/).
 
 <!--truncate-->
-:::info Quick Social Plug
-
-Check out my other post locations: -
-
-- [HashNode Link](https://willh.hashnode.dev/)
-
-:::
