@@ -8,8 +8,8 @@
       "permalink": "/docs/Intune/Device-Configuration-&-Oboarding/Windows Device Config"
     },
     "next": {
-      "title": "Remediation Scripts",
-      "permalink": "/docs/Intune/Remediation-Scripts/"
+      "title": "Disable FTP Executable",
+      "permalink": "/docs/Intune/Remediation-Scripts/Display-FTP-executable-for-users"
     }
   }
 }

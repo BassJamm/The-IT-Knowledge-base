@@ -23,10 +23,10 @@
       "permalink": "/docs/Intune/Autopilot/Diagnose Autopilot Errors"
     },
     {
-      "id": "Intune/Remediation-Scripts/Remediation Scripts",
-      "title": "Remediation Scripts",
-      "description": "Document contains remediation scripts for use.",
-      "permalink": "/docs/Intune/Remediation-Scripts/"
+      "id": "Intune/Remediation-Scripts/Re-Mapping-Drives",
+      "title": "Re-Map Drives",
+      "description": "Document contains remediation script for removing and re-adding Drives before a VPN connection.",
+      "permalink": "/docs/Intune/Remediation-Scripts/Re-Mapping-Drives"
     },
     {
       "id": "Intune/Application-Deployments/Uninstall McAfee",

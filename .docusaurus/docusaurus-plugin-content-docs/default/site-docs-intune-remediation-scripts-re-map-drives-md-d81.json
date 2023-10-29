@@ -1,0 +1,55 @@
+{
+  "unversionedId": "Intune/Remediation-Scripts/Re-Mapping-Drives",
+  "id": "Intune/Remediation-Scripts/Re-Mapping-Drives",
+  "title": "Re-Map Drives",
+  "description": "Document contains remediation script for removing and re-adding Drives before a VPN connection.",
+  "source": "@site/docs/Intune/Remediation-Scripts/Re-MapDrives.md",
+  "sourceDirName": "Intune/Remediation-Scripts",
+  "slug": "/Intune/Remediation-Scripts/Re-Mapping-Drives",
+  "permalink": "/docs/Intune/Remediation-Scripts/Re-Mapping-Drives",
+  "draft": false,
+  "editUrl": "https://github.com/facebook/docusaurus/edit/main/docs/api-doc-markdown.md",
+  "tags": [
+    {
+      "label": "Intune",
+      "permalink": "/docs/tags/intune"
+    },
+    {
+      "label": "Remediation",
+      "permalink": "/docs/tags/remediation"
+    },
+    {
+      "label": "Scripts",
+      "permalink": "/docs/tags/scripts"
+    }
+  ],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "draft": false,
+    "id": "Re-Mapping-Drives",
+    "title": "Re-Map Drives",
+    "hide_title": false,
+    "hide_table_of_contents": false,
+    "sidebar_label": "Remediation Scripts",
+    "sidebar_position": 1,
+    "toc_max_heading_level": 4,
+    "pagination_label": "Remediation Scripts",
+    "tags": [
+      "Intune",
+      "Remediation",
+      "Scripts"
+    ],
+    "custom_edit_url": "https://github.com/facebook/docusaurus/edit/main/docs/api-doc-markdown.md",
+    "description": "Document contains remediation script for removing and re-adding Drives before a VPN connection."
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Disable FTP Executable",
+    "permalink": "/docs/Intune/Remediation-Scripts/Display-FTP-executable-for-users"
+  },
+  "next": {
+    "title": "PowerShell",
+    "permalink": "/docs/category/powershell"
+  }
+}

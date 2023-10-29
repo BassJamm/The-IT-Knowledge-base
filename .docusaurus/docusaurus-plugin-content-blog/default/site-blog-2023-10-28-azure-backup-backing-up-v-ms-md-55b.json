@@ -1,0 +1,50 @@
+{
+  "permalink": "/blog/Backing-up-resources-with-AzBackup",
+  "source": "@site/blog/2023-10-28-Azure-Backup/Backing-up-VMs.md",
+  "title": "Backing up Resources in Azure",
+  "description": "Pointers for setting up Azure Backup.",
+  "date": "2023-10-28T13:00:00.000Z",
+  "formattedDate": "October 28, 2023",
+  "tags": [
+    {
+      "label": "hello",
+      "permalink": "/blog/tags/hello"
+    },
+    {
+      "label": "docusaurus-v2",
+      "permalink": "/blog/tags/docusaurus-v-2"
+    }
+  ],
+  "readingTime": 1.6,
+  "hasTruncateMarker": true,
+  "authors": [
+    {
+      "name": "Will",
+      "title": "Creator of the IT KB.",
+      "url": "https://github.com/BassJamm?tab=repositories"
+    }
+  ],
+  "frontMatter": {
+    "title": "Backing up Resources in Azure",
+    "description": "Pointers for setting up Azure Backup.",
+    "slug": "Backing-up-resources-with-AzBackup",
+    "date": "2023-10-28T13:00",
+    "authors": [
+      {
+        "name": "Will",
+        "title": "Creator of the IT KB.",
+        "url": "https://github.com/BassJamm?tab=repositories"
+      }
+    ],
+    "tags": [
+      "hello",
+      "docusaurus-v2"
+    ],
+    "image": "https://i.imgur.com/mErPwqL.png",
+    "hide_table_of_contents": false
+  },
+  "nextItem": {
+    "title": "Automate Scripts in Azure",
+    "permalink": "/blog/Automate-scripts-in-Azure"
+  }
+}

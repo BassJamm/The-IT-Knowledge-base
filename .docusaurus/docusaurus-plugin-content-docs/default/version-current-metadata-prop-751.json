@@ -221,9 +221,15 @@
             "items": [
               {
                 "type": "link",
+                "label": "Disable FTP Executable",
+                "href": "/docs/Intune/Remediation-Scripts/Display-FTP-executable-for-users",
+                "docId": "Intune/Remediation-Scripts/Display-FTP-executable-for-users"
+              },
+              {
+                "type": "link",
                 "label": "Remediation Scripts",
-                "href": "/docs/Intune/Remediation-Scripts/",
-                "docId": "Intune/Remediation-Scripts/Remediation Scripts"
+                "href": "/docs/Intune/Remediation-Scripts/Re-Mapping-Drives",
+                "docId": "Intune/Remediation-Scripts/Re-Mapping-Drives"
               }
             ],
             "href": "/docs/category/remediation-scripts"
@@ -438,10 +444,16 @@
       "description": "This doc lists out the basic configurations for Windows in intune.",
       "sidebar": "tutorialSidebar"
     },
-    "Intune/Remediation-Scripts/Remediation Scripts": {
-      "id": "Intune/Remediation-Scripts/Remediation Scripts",
-      "title": "Remediation Scripts",
-      "description": "Document contains remediation scripts for use.",
+    "Intune/Remediation-Scripts/Display-FTP-executable-for-users": {
+      "id": "Intune/Remediation-Scripts/Display-FTP-executable-for-users",
+      "title": "Disable FTP Executable",
+      "description": "Disable FTP Executable for end users.",
+      "sidebar": "tutorialSidebar"
+    },
+    "Intune/Remediation-Scripts/Re-Mapping-Drives": {
+      "id": "Intune/Remediation-Scripts/Re-Mapping-Drives",
+      "title": "Re-Map Drives",
+      "description": "Document contains remediation script for removing and re-adding Drives before a VPN connection.",
       "sidebar": "tutorialSidebar"
     },
     "PowerShell/Az/Code Snippet": {

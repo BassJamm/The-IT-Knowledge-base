@@ -53,6 +53,11 @@ export default [
     exact: true
   },
   {
+    path: '/blog/Backing-up-resources-with-AzBackup',
+    component: ComponentCreator('/blog/Backing-up-resources-with-AzBackup', '9f8'),
+    exact: true
+  },
+  {
     path: '/blog/Defender-for-Endpoint-Woes',
     component: ComponentCreator('/blog/Defender-for-Endpoint-Woes', 'a00'),
     exact: true
@@ -474,8 +479,14 @@ export default [
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/Intune/Remediation-Scripts/',
-        component: ComponentCreator('/docs/Intune/Remediation-Scripts/', 'd35'),
+        path: '/docs/Intune/Remediation-Scripts/Display-FTP-executable-for-users',
+        component: ComponentCreator('/docs/Intune/Remediation-Scripts/Display-FTP-executable-for-users', '735'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/Intune/Remediation-Scripts/Re-Mapping-Drives',
+        component: ComponentCreator('/docs/Intune/Remediation-Scripts/Re-Mapping-Drives', '87c'),
         exact: true,
         sidebar: "tutorialSidebar"
       },

@@ -11,8 +11,8 @@
   "docusaurus-lunr-search": {
     "default": {
       "fileNames": {
-        "searchDoc": "search-doc-1698576051266.json",
-        "lunrIndex": "lunr-index-1698576051266.json"
+        "searchDoc": "search-doc-1698496892037.json",
+        "lunrIndex": "lunr-index-1698496892037.json"
       }
     }
   },
@@ -98,8 +98,13 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "Intune/Remediation-Scripts/Remediation Scripts",
-              "path": "/docs/Intune/Remediation-Scripts/",
+              "id": "Intune/Remediation-Scripts/Display-FTP-executable-for-users",
+              "path": "/docs/Intune/Remediation-Scripts/Display-FTP-executable-for-users",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Intune/Remediation-Scripts/Re-Mapping-Drives",
+              "path": "/docs/Intune/Remediation-Scripts/Re-Mapping-Drives",
               "sidebar": "tutorialSidebar"
             },
             {

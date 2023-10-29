@@ -1,7 +1,7 @@
 ---
 draft: false
-id: Remediation Scripts
-title: Remediation Scripts
+id: Re-Mapping-Drives
+title: Re-Map Drives
 hide_title: false
 hide_table_of_contents: false
 sidebar_label: Remediation Scripts
@@ -10,13 +10,13 @@ toc_max_heading_level: 4
 pagination_label: Remediation Scripts
 tags: [Intune, Remediation, Scripts]
 custom_edit_url: https://github.com/facebook/docusaurus/edit/main/docs/api-doc-markdown.md
-description: Document contains remediation scripts for use.
+description: Document contains remediation script for removing and re-adding Drives before a VPN connection.
 ---
 ---
 
-## Map Drives
+The script below can be used to map a drive before a VPN connects and also can be used to create a scheduled task to remove\re-add a drive mapping to refresh the connection.
 
-### Detaion Script
+## Detaion Script
 
 - Detects if a Schedlued task has been created on the endpoint to determine if the remediation script should run.
 
@@ -54,7 +54,7 @@ if ( ($task).Count -gt 0 ) {
 }
 ```
 
-### Remediation Script
+## Remediation Script
 
 ```powershell showLineNumbers
 ##################################################################################
@@ -221,3 +221,6 @@ catch {
     Exit 1 # Returns failure code back to Intune for reporting.
 }
 ```
+
+---
+Created: 2023-10-27, Last Updated: 2023-10-28
